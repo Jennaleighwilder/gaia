@@ -1,0 +1,97 @@
+{
+  "event_id": "559292",
+  "event_date": "2015-02-21",
+  "event_datetime_utc": "2015-02-21T16:00:00Z",
+  "station": "KGKT",
+  "county": "hamblen",
+  "event_type": "heavy_snow",
+  "magnitude": "",
+  "observation_count": 7,
+  "observations": [
+    {
+      "timestamp": "2015-02-21T17:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 211755Z AUTO 03004KT 8SM OVC060 M01/M02 A3002 RMK",
+      "sky_condition": "OVC",
+      "temperature_f": 30.2,
+      "dewpoint_f": 28.4,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-02-21T18:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 211855Z AUTO 03004KT 7SM OVC070 M01/M02 A2999 RMK",
+      "sky_condition": "OVC",
+      "temperature_f": 30.2,
+      "dewpoint_f": 28.4,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-02-21T19:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 211955Z AUTO 07006KT 9SM OVC070 00/M01 A2997 RMK",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 9.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-02-21T20:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 212055Z AUTO 06007KT 8SM OVC060 00/M01 A2997 RMK",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-02-21T21:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 212155Z AUTO 09010KT 3SM FEW047 OVC060 00/M01 A2995 RMK",
+      "sky_condition": "FEW",
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-02-21T22:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 212255Z AUTO 07005KT 5SM FEW029 OVC060 00/M01 A2997 RMK",
+      "sky_condition": "FEW",
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-02-21T23:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 212355Z AUTO 02006KT 4SM FEW048 OVC050 00/M01 A3001 RMK",
+      "sky_condition": "FEW",
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

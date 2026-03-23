@@ -1,0 +1,56 @@
+{
+  "quiet_id": "quiet_19960828_KTYS",
+  "date": "1996-08-28",
+  "station": "KTYS",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1996-08-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 04009KT 10SM CLR 23/17 A3001 RMK AO2 SLP153 T02330172",
+      "sky_condition": "CLR",
+      "temperature_f": 74.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1015.3,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-08-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 36006KT 10SM CLR 22/18 A3002 RMK AO2 SLP157 T02220178",
+      "sky_condition": "CLR",
+      "temperature_f": 72.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1015.7,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-08-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 00000KT 9SM FEW065 22/18 A3004 RMK AO2 SLP163 T02170178 51016",
+      "sky_condition": "FEW",
+      "temperature_f": 71.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1016.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1996-08-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 05005KT 8SM CLR 21/18 A3004 RMK AO2 SLP163 T02110183",
+      "sky_condition": "CLR",
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1016.3,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 8.0
+    }
+  ]
+}

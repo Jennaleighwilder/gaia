@@ -1,0 +1,1 @@
+"""GAIA Alert output system."""

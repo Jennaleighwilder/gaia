@@ -1,0 +1,65 @@
+{
+  "event_id": "1110882",
+  "event_date": "2023-07-28",
+  "event_datetime_utc": "2023-07-28T23:55:00Z",
+  "station": "KTRI",
+  "county": "hawkins",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "52.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2023-07-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 32005KT 10SM FEW110 SCT220 29/21 A3014 RMK AO2 SLP176 T02890206",
+      "sky_condition": "FEW",
+      "temperature_f": 84.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1017.6,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2023-07-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM FEW220 26/21 A3016 RMK AO2 SLP185 T02560206",
+      "sky_condition": "FEW",
+      "temperature_f": 78.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1018.5,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2023-07-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM FEW130 24/20 A3017 RMK AO2 SLP189 T02390200 52017",
+      "sky_condition": "FEW",
+      "temperature_f": 75.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1018.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2023-07-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM FEW210 23/20 A3015 RMK AO2 SLP183 T02280200",
+      "sky_condition": "FEW",
+      "temperature_f": 73.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1018.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

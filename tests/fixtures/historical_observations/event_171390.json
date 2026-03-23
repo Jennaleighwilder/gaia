@@ -1,0 +1,61 @@
+{
+  "event_id": "171390",
+  "event_date": "2009-05-28",
+  "event_datetime_utc": "2009-05-28T20:15:00Z",
+  "station": "KTYS",
+  "county": "sevier",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "50.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2009-05-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 00000KT 10SM FEW050 SCT080 BKN100 19/19 A2985 RMK AO2 SLP094 T01940189",
+      "sky_condition": "FEW",
+      "temperature_f": 67.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1009.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-05-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM FEW050 SCT080 SCT200 19/18 A2986 RMK AO2 SLP096 T01890183",
+      "sky_condition": "FEW",
+      "temperature_f": 66.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1009.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-05-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM FEW001 SCT080 SCT200 18/18 A2986 RMK AO2 SLP098 T01830178 53002",
+      "sky_condition": "FEW",
+      "temperature_f": 65.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1009.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-05-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM SCT060 SCT100 19/18 A2987 RMK AO2 SLP099 T01890183",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1009.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": true
+}

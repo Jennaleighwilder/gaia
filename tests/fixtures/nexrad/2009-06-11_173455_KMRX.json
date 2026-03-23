@@ -1,0 +1,18 @@
+{
+  "event_id": "173455",
+  "date": "2009-06-11",
+  "event_datetime_utc": "2009-06-11T17:20:00Z",
+  "magnitude": "63.00 mph",
+  "county": "blount",
+  "event_type": "thunderstorm_wind",
+  "station": "KMRX",
+  "composite_reflectivity": 45,
+  "velocity_max": 10.0,
+  "velocity_min": -10.0,
+  "rotation_couplet_kt": 20.0,
+  "rotation_score": 0.2,
+  "vil": 35,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

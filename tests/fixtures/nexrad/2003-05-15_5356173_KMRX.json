@@ -1,0 +1,18 @@
+{
+  "event_id": "5356173",
+  "date": "2003-05-15",
+  "event_datetime_utc": "2003-05-15T20:10:00Z",
+  "magnitude": "F1",
+  "county": "knox",
+  "event_type": "tornado",
+  "station": "KMRX",
+  "composite_reflectivity": 45,
+  "velocity_max": 22.5,
+  "velocity_min": -22.5,
+  "rotation_couplet_kt": 45.0,
+  "rotation_score": 0.65,
+  "vil": 30,
+  "echo_top_km": 12,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

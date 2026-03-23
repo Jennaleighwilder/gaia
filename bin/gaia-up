@@ -1,0 +1,41 @@
+#!/bin/bash
+# GAIA startup script
+
+set -e
+
+GAIA_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+export GAIA_ROOT
+export GAIA_DB="${GAIA_ROOT}/runtime/state/gaia_bus.db"
+export GAIA_DB_PATH="$GAIA_DB"
+export GAIA_LOG_DIR="${GAIA_ROOT}/logs"
+export GAIA_PORT=7780
+
+mkdir -p "$GAIA_LOG_DIR"
+mkdir -p "$GAIA_ROOT/runtime/state"
+
+echo "╔════════════════════════════════════════╗"
+echo "║           GAIA v0.1 Starting           ║"
+echo "║  Atmospheric Intelligence & Alerts     ║"
+echo "║  © 2026 Jennifer Leigh West            ║"
+echo "╚════════════════════════════════════════╝"
+echo ""
+
+echo "[GAIA] Starting governor on port $GAIA_PORT..."
+cd "$GAIA_ROOT"
+python3 -m runtime.governor.governor &
+GOVERNOR_PID=$!
+echo "[GAIA] Governor PID: $GOVERNOR_PID"
+
+for i in $(seq 1 30); do
+    if curl -sf "http://127.0.0.1:${GAIA_PORT}/health" > /dev/null 2>&1; then
+        echo "[GAIA] Governor healthy."
+        break
+    fi
+    sleep 1
+done
+
+echo ""
+echo "[GAIA] System operational."
+echo "[GAIA] Governor: http://127.0.0.1:${GAIA_PORT}"
+echo "[GAIA] Health:   http://127.0.0.1:${GAIA_PORT}/health"
+echo ""

@@ -1,0 +1,65 @@
+{
+  "event_id": "302962",
+  "event_date": "2011-04-28",
+  "event_datetime_utc": "2011-04-28T00:06:00Z",
+  "station": "KTYS",
+  "county": "sevier",
+  "event_type": "tornado",
+  "magnitude": "EF0",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2011-04-28T00:58:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280058Z 25019G50KT 1/2SM R23R/1800VP6000FT +TSRAGR SQ FEW009 BKN060CB BKN090 19/17 A2964 RMK AO2 PK WND 25050/0054 WSHFT 0040 GRB56 CONS LTGICCGCACC OHD TS OHD MOV NE HAIL 1/4 P0000 $",
+      "sky_condition": "FEW",
+      "temperature_f": 66.2,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 21.864819999999998,
+      "wind_gust_mph": 57.538999999999994,
+      "visibility_mi": 0.5,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2011-04-28T01:55:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280155Z 22032G41KT 1SM R23R/4000VP6000FT TSRA BKN034CB BKN060 OVC070 19/17 A2964 RMK AO2 PK WND 22041/0154 GRE55 CONS LTGICCGCACC OHD SW TS OHD SW MOV NE P0006 $",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 36.82496,
+      "wind_gust_mph": 47.181979999999996,
+      "visibility_mi": 1.0,
+      "precip_1h_in": 0.06
+    },
+    {
+      "timestamp": "2011-04-28T02:59:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280259Z 31012G26KT 1 1/4SM R23R/4500VP6000FT TSRA FEW014CB BKN070 OVC100 19/17 A2959 RMK AO2 PK WND 29026/0256 CONS LTGICCGCACC OHD TS OHD MOV ENE P0005 $",
+      "sky_condition": "FEW",
+      "temperature_f": 66.2,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 29.920279999999998,
+      "visibility_mi": 1.25,
+      "precip_1h_in": 0.05
+    },
+    {
+      "timestamp": "2011-04-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 22019G26KT 1 1/4SM R23R/5500VP6000FT +TSRA BR FEW008 BKN014CB OVC050 20/17 A2970",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "dewpoint_f": 62.6,
+      "pressure_mb": 1004.8,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 21.864819999999998,
+      "wind_gust_mph": 29.920279999999998,
+      "visibility_mi": 1.25
+    }
+  ],
+  "estimated": false
+}

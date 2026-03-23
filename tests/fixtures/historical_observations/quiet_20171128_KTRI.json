@@ -1,0 +1,73 @@
+{
+  "quiet_id": "quiet_20171128_KTRI",
+  "date": "2017-11-28",
+  "station": "KTRI",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2017-11-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 00000KT 10SM CLR 05/M01 A3022 RMK AO2 SLP233 T00501006",
+      "sky_condition": "CLR",
+      "temperature_f": 41.0,
+      "dewpoint_f": 30.9,
+      "pressure_mb": 1023.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-11-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM CLR 03/M01 A3023 RMK AO2 SLP236 T00331011",
+      "sky_condition": "CLR",
+      "temperature_f": 38.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 1023.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-11-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM CLR 02/M01 A3024 RMK AO2 SLP237 T00171011 52007",
+      "sky_condition": "CLR",
+      "temperature_f": 35.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 1023.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-11-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM CLR 01/M02 A3023 RMK AO2 SLP235 T00111017",
+      "sky_condition": "CLR",
+      "temperature_f": 34.0,
+      "dewpoint_f": 28.9,
+      "pressure_mb": 1023.5,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-11-28T04:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280453Z 00000KT 10SM CLR 01/M02 A3024 RMK AO2 SLP234 T00061022 401501056",
+      "sky_condition": "CLR",
+      "temperature_f": 33.0,
+      "dewpoint_f": 28.0,
+      "pressure_mb": 1023.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ]
+}

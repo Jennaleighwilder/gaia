@@ -1,0 +1,31 @@
+---
+description: Never run backtest scripts automatically; prevents multiple concurrent processes
+alwaysApply: true
+---
+
+# GAIA Backtest Execution Policy
+
+**Do NOT run any backtest scripts automatically.**
+
+Backtest scripts (run_full_backtest, run_thunderstorm_wind_backtest, etc.) are memory-heavy. Multiple concurrent runs cause 6+ Python processes that exhaust memory.
+
+## Rules
+
+1. **Only run scripts when explicitly asked** — Never run backtest, diagnose, or corpus-build scripts proactively or "to help."
+2. **Never run the same script more than once at a time** — Wait for the user to confirm the prior run finished before starting another.
+3. **Before starting any new backtest run**, always check:
+   ```bash
+   ps aux | grep backtest
+   ```
+   If any backtest process is already running, do NOT start another. Inform the user and wait.
+
+## Scripts covered
+
+- `run_full_backtest.py`
+- `run_thunderstorm_wind_backtest.py`
+- `run_flash_flood_backtest.py`
+- `diagnose_thunderstorm_wind_misses.py`
+- `diagnose_*.py` (any backtest/diagnosis script)
+- `build_quiet_days_corpus.py`
+
+When the user wants to run a backtest, they will say so. Let them drive execution.

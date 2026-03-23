@@ -1,0 +1,55 @@
+{
+  "quiet_id": "quiet_20100828_KTYS",
+  "date": "2010-08-28",
+  "station": "KTYS",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2010-08-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 01005KT 10SM FEW045 27/17 A3004 RMK AO2 SLP162 T02720172",
+      "sky_condition": "FEW",
+      "temperature_f": 81.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1016.2,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2010-08-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 00000KT 10SM FEW050 26/18 A3007 RMK AO2 SLP172 T02560178",
+      "sky_condition": "FEW",
+      "temperature_f": 78.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1017.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2010-08-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 03004KT 10SM FEW090 25/18 A3008 RMK AO2 SLP175 T02500178 52017",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1017.5,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2010-08-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z VRB03KT 10SM FEW120 24/18 A3009",
+      "sky_condition": "FEW",
+      "temperature_f": 75.2,
+      "dewpoint_f": 64.4,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ]
+}

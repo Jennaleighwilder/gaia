@@ -1,0 +1,18 @@
+{
+  "event_id": "162035",
+  "date": "2009-04-06",
+  "event_datetime_utc": "2009-04-06T04:26:00Z",
+  "magnitude": "52.00 mph",
+  "county": "sevier",
+  "event_type": "thunderstorm_wind",
+  "station": "KMRX",
+  "composite_reflectivity": 35,
+  "velocity_max": 7.5,
+  "velocity_min": -7.5,
+  "rotation_couplet_kt": 15.0,
+  "rotation_score": 0.15,
+  "vil": 25,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

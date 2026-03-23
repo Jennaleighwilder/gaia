@@ -1,0 +1,65 @@
+{
+  "event_id": "951167",
+  "event_date": "2021-03-28",
+  "event_datetime_utc": "2021-03-28T07:23:00Z",
+  "station": "KTRI",
+  "county": "sullivan",
+  "event_type": "flash_flood",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2021-03-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 36005KT 10SM SCT047 BKN055 OVC120 15/14 A3002 RMK AO2 LTG DSNT E AND SW AND W RAE14 SLP163 P0000 T01500144 $",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1016.3,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2021-03-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 36011KT 10SM -TSRA SCT050CB BKN070 OVC095 15/14 A3000 RMK AO2 LTG DSNT SW-NW RAB11 TSB36 SLP155 OCNL LTGIC OHD TS OHD MOV NE P0005 T01500144 $",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1015.5,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.05
+    },
+    {
+      "timestamp": "2021-03-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 05007KT 10SM VCTS FEW004 BKN045CB OVC150 14/14 A2996 RMK AO2 LTG DSNT NW-E RAE45 TSE07B08E33 SLP141 OCNL LTGIC VC N TS VC N MOV NE P0000 60005 T01440144 58025 $",
+      "sky_condition": "FEW",
+      "temperature_f": 58.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1014.1,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2021-03-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 06005KT 10SM BKN090 OVC110 14/14 A2993 RMK AO2 LTG DSNT N AND NW SLP131 T01440139 $",
+      "sky_condition": "BKN",
+      "temperature_f": 58.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1013.1,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": true
+}

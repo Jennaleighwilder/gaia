@@ -1,0 +1,18 @@
+{
+  "event_id": "5317296",
+  "date": "2002-08-01",
+  "event_datetime_utc": "2002-08-01T23:38:00Z",
+  "magnitude": "1.00",
+  "county": "sevier",
+  "event_type": "hail",
+  "station": "KMRX",
+  "composite_reflectivity": 50.0,
+  "velocity_max": 10.0,
+  "velocity_min": -10.0,
+  "rotation_couplet_kt": 20.0,
+  "rotation_score": 0.2,
+  "vil": 50.0,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

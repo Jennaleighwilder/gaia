@@ -1,0 +1,56 @@
+{
+  "quiet_id": "quiet_19990728_KTRI",
+  "date": "1999-07-28",
+  "station": "KTRI",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1999-07-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 24010KT 7SM CLR 26/22 A3005 RMK AO2 SLP156 T02610222",
+      "sky_condition": "CLR",
+      "temperature_f": 79.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1015.6,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1999-07-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 22006KT 9SM CLR 24/21 A3006 RMK AO2 SLP161 T02440211",
+      "sky_condition": "CLR",
+      "temperature_f": 76.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1016.1,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1999-07-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 23005KT 8SM CLR 23/21 A3008 RMK AO2 SLP167 T02330206 53015",
+      "sky_condition": "CLR",
+      "temperature_f": 74.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1016.7,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1999-07-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 22003KT 8SM CLR 23/21 A3008 RMK AO2 SLP167 T02280206",
+      "sky_condition": "CLR",
+      "temperature_f": 73.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1016.7,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0
+    }
+  ]
+}

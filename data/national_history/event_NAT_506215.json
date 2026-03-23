@@ -1,0 +1,99 @@
+{
+  "event_id": "NAT_506215",
+  "date": "2024-08-22",
+  "time_utc": "16:55",
+  "state": "COLORADO",
+  "county": "KIT CARSON",
+  "event_type": "Thunderstorm Wind",
+  "magnitude": "96.00",
+  "magnitude_type": "EG",
+  "tor_f_scale": "",
+  "injuries": 0,
+  "deaths": 0,
+  "damage_property": "",
+  "narrative": "Five broken wooden power poles, four overturned irrigation pivots, a shed's roof was completely destroyed, and three grain silos were damaged.  Maximum wind gust estimated at 110 MPH.",
+  "begin_lat": "39.3845",
+  "begin_lon": "-102.1481",
+  "is_major": true,
+  "sample_category": "destructive_wind",
+  "event_datetime_utc": "2024-08-22T16:55:00Z",
+  "station": "KITR",
+  "station_distance_miles": 12.2,
+  "observation_count": 0,
+  "observations": [],
+  "daily_summaries": [
+    {
+      "date": "2024-08-12",
+      "mean_pressure": 1014.9857,
+      "mean_temp": 82.7143,
+      "dominant_wind_dir": 110.0,
+      "precip_total": 0.0,
+      "temp_range": 4.0
+    },
+    {
+      "date": "2024-08-13",
+      "mean_pressure": 1013.0792,
+      "mean_temp": 74.7083,
+      "dominant_wind_dir": 110.0,
+      "precip_total": 0.17,
+      "temp_range": 22.0
+    },
+    {
+      "date": "2024-08-14",
+      "mean_pressure": 1010.7652,
+      "mean_temp": 76.5652,
+      "dominant_wind_dir": 140.0,
+      "precip_total": 0.0001,
+      "temp_range": 27.0
+    },
+    {
+      "date": "2024-08-15",
+      "mean_pressure": 1013.9652,
+      "mean_temp": 76.1667,
+      "dominant_wind_dir": 360.0,
+      "precip_total": 0.0001,
+      "temp_range": 26.0
+    },
+    {
+      "date": "2024-08-16",
+      "mean_pressure": 1014.3048,
+      "mean_temp": 73.9524,
+      "dominant_wind_dir": 60.0,
+      "precip_total": 0.01,
+      "temp_range": 28.0
+    },
+    {
+      "date": "2024-08-17",
+      "mean_pressure": 1013.5714,
+      "mean_temp": 76.7917,
+      "dominant_wind_dir": 130.0,
+      "precip_total": 0.0101,
+      "temp_range": 32.0
+    },
+    {
+      "date": "2024-08-18",
+      "mean_pressure": 1012.7417,
+      "mean_temp": 77.9167,
+      "dominant_wind_dir": 180.0,
+      "precip_total": 0.0,
+      "temp_range": 24.0
+    },
+    {
+      "date": "2024-08-19",
+      "mean_pressure": 1016.925,
+      "mean_temp": 71.6667,
+      "dominant_wind_dir": 80.0,
+      "precip_total": 0.0,
+      "temp_range": 18.0
+    },
+    {
+      "date": "2024-08-20",
+      "mean_pressure": 1018.6643,
+      "mean_temp": 68.6,
+      "dominant_wind_dir": 120.0,
+      "precip_total": 0.04,
+      "temp_range": 12.0
+    }
+  ],
+  "upper_air": null
+}

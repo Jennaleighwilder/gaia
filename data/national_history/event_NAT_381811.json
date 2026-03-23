@@ -1,0 +1,221 @@
+{
+  "event_id": "NAT_381811",
+  "date": "2022-07-22",
+  "time_utc": "19:43",
+  "state": "KANSAS",
+  "county": "GRAHAM",
+  "event_type": "Thunderstorm Wind",
+  "magnitude": "78.00",
+  "magnitude_type": "EG",
+  "tor_f_scale": "",
+  "injuries": 0,
+  "deaths": 0,
+  "damage_property": "3.00K",
+  "narrative": "Part of a metal garage and a pull trailer were blown over due to strong winds estimated up to 90 mph.",
+  "begin_lat": "39.4085",
+  "begin_lon": "-99.8629",
+  "is_major": true,
+  "sample_category": "destructive_wind",
+  "event_datetime_utc": "2022-07-22T19:43:00Z",
+  "station": "KHLC",
+  "station_distance_miles": 2.96,
+  "observation_count": 7,
+  "observations": [
+    {
+      "timestamp": "2022-07-22T07:53:00Z",
+      "station_id": "HLC",
+      "temperature_f": 78.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1012.0,
+      "wind_speed_mph": 4.6,
+      "wind_direction_deg": 240.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 59.78,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KHLC 220753Z AUTO 24004KT 10SM CLR 26/17 A2998 RMK AO2 SLP120 T02560172"
+    },
+    {
+      "timestamp": "2022-07-22T08:53:00Z",
+      "station_id": "HLC",
+      "temperature_f": 78.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1010.7,
+      "wind_speed_mph": 9.2,
+      "wind_direction_deg": 180.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 57.92,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KHLC 220853Z AUTO 18008KT 10SM CLR 26/17 A2994 RMK AO2 SLP107 T02560167 58024"
+    },
+    {
+      "timestamp": "2022-07-22T09:53:00Z",
+      "station_id": "HLC",
+      "temperature_f": 78.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1010.3,
+      "wind_speed_mph": 9.2,
+      "wind_direction_deg": 200.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 51.88,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KHLC 220953Z AUTO 20008KT 10SM CLR 26/15 A2993 RMK AO2 SLP103 T02560150"
+    },
+    {
+      "timestamp": "2022-07-22T10:53:00Z",
+      "station_id": "HLC",
+      "temperature_f": 78.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1010.3,
+      "wind_speed_mph": 11.5,
+      "wind_direction_deg": 210.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 57.92,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KHLC 221053Z AUTO 21010KT 10SM CLR 26/17 A2993 RMK AO2 SLP103 T02560167"
+    },
+    {
+      "timestamp": "2022-07-22T12:53:00Z",
+      "station_id": "HLC",
+      "temperature_f": 77.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1011.6,
+      "wind_speed_mph": 6.9,
+      "wind_direction_deg": 180.0,
+      "wind_gust_mph": 18.4,
+      "visibility_mi": 10.0,
+      "humidity_pct": 62.0,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KHLC 221253Z AUTO 18006G16KT 10SM CLR 25/17 A2996 RMK AO2 SLP116 T02500172"
+    },
+    {
+      "timestamp": "2022-07-22T13:53:00Z",
+      "station_id": "HLC",
+      "temperature_f": 82.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1012.0,
+      "wind_speed_mph": 9.2,
+      "wind_direction_deg": 220.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 52.62,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KHLC 221353Z AUTO 22008KT 10SM CLR 28/17 A2997 RMK AO2 SLP120 T02780172"
+    },
+    {
+      "timestamp": "2022-07-22T14:53:00Z",
+      "station_id": "HLC",
+      "temperature_f": 88.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1011.1,
+      "wind_speed_mph": 15.0,
+      "wind_direction_deg": 200.0,
+      "wind_gust_mph": 25.3,
+      "visibility_mi": 10.0,
+      "humidity_pct": 44.95,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KHLC 221453Z AUTO 20013G22KT 10SM CLR 31/18 A2995 RMK AO2 PK WND 21027/1438 SLP111 T03110178 58003"
+    }
+  ],
+  "daily_summaries": [
+    {
+      "date": "2022-07-12",
+      "mean_pressure": 1016.04,
+      "mean_temp": 91.0,
+      "dominant_wind_dir": 90.0,
+      "precip_total": 0.0,
+      "temp_range": 3.0
+    },
+    {
+      "date": "2022-07-13",
+      "mean_pressure": 1015.3417,
+      "mean_temp": 84.2917,
+      "dominant_wind_dir": 150.0,
+      "precip_total": 0.0,
+      "temp_range": 35.0
+    },
+    {
+      "date": "2022-07-14",
+      "mean_pressure": 1011.9545,
+      "mean_temp": 90.9091,
+      "dominant_wind_dir": 140.0,
+      "precip_total": 0.0,
+      "temp_range": 33.0
+    },
+    {
+      "date": "2022-07-15",
+      "mean_pressure": 1012.1136,
+      "mean_temp": 93.6364,
+      "dominant_wind_dir": 190.0,
+      "precip_total": 0.0201,
+      "temp_range": 22.0
+    },
+    {
+      "date": "2022-07-16",
+      "mean_pressure": 1011.9565,
+      "mean_temp": 85.6957,
+      "dominant_wind_dir": 70.0,
+      "precip_total": 0.1003,
+      "temp_range": 21.0
+    },
+    {
+      "date": "2022-07-17",
+      "mean_pressure": 1012.4957,
+      "mean_temp": 81.4783,
+      "dominant_wind_dir": 100.0,
+      "precip_total": 0.0002,
+      "temp_range": 25.0
+    },
+    {
+      "date": "2022-07-18",
+      "mean_pressure": 1013.6167,
+      "mean_temp": 80.2083,
+      "dominant_wind_dir": 110.0,
+      "precip_total": 0.0,
+      "temp_range": 38.0
+    },
+    {
+      "date": "2022-07-19",
+      "mean_pressure": 1007.6833,
+      "mean_temp": 89.9583,
+      "dominant_wind_dir": 170.0,
+      "precip_total": 0.0901,
+      "temp_range": 32.0
+    },
+    {
+      "date": "2022-07-20",
+      "mean_pressure": 1011.5833,
+      "mean_temp": 81.9167,
+      "dominant_wind_dir": 60.0,
+      "precip_total": 0.0,
+      "temp_range": 35.0
+    },
+    {
+      "date": "2022-07-21",
+      "mean_pressure": 1012.2913,
+      "mean_temp": 85.6522,
+      "dominant_wind_dir": 90.0,
+      "precip_total": 0.0,
+      "temp_range": 35.0
+    },
+    {
+      "date": "2022-07-22",
+      "mean_pressure": 1011.4071,
+      "mean_temp": 81.7857,
+      "dominant_wind_dir": 200.0,
+      "precip_total": 0.0,
+      "temp_range": 16.0
+    }
+  ],
+  "upper_air": null
+}

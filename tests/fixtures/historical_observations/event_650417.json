@@ -1,0 +1,65 @@
+{
+  "event_id": "650417",
+  "event_date": "2016-08-28",
+  "event_datetime_utc": "2016-08-28T20:25:00Z",
+  "station": "KTYS",
+  "county": "knox",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "50.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2016-08-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 24007KT 10SM FEW100 24/21 A3012 RMK AO2 SLP187 T02390206",
+      "sky_condition": "FEW",
+      "temperature_f": 75.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1018.7,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2016-08-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 09003KT 10SM FEW100 23/21 A3015 RMK AO2 SLP198 T02330206",
+      "sky_condition": "FEW",
+      "temperature_f": 74.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1019.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2016-08-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 02003KT 10SM BKN100 23/21 A3014 RMK AO2 SLP195 T02330206 50010",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1019.5,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2016-08-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 04003KT 10SM SCT100 23/21 A3016 RMK AO2 SLP200 T02280211",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1020.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

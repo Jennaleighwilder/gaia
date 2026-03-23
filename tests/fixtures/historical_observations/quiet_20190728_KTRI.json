@@ -1,0 +1,60 @@
+{
+  "quiet_id": "quiet_20190728_KTRI",
+  "date": "2019-07-28",
+  "station": "KTRI",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2019-07-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 36003KT 10SM FEW060 FEW100 23/17 A3026 RMK AO2 SLP223 T02280167",
+      "sky_condition": "FEW",
+      "temperature_f": 73.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1022.3,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2019-07-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM FEW060 21/17 A3027 RMK AO2 SLP227 T02110167",
+      "sky_condition": "FEW",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1022.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2019-07-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM FEW055 20/17 A3028 RMK AO2 SLP230 T02000172 53010",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1023.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2019-07-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM SCT055 19/17 A3028 RMK AO2 SLP231 T01890167",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1023.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ]
+}

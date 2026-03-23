@@ -1,0 +1,62 @@
+{
+  "event_id": "222597",
+  "event_date": "2010-03-28",
+  "event_datetime_utc": "2010-03-28T21:10:00Z",
+  "station": "KTYS",
+  "county": "knox",
+  "event_type": "hail",
+  "magnitude": "1.00",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2010-03-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 15013KT 10SM CLR 14/00 A2998 RMK AO2 SLP152 T01440000",
+      "sky_condition": "CLR",
+      "temperature_f": 58.0,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 1015.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2010-03-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 15016G22KT 10SM CLR 14/00 A2998 RMK AO2 SLP153 T01390000",
+      "sky_condition": "CLR",
+      "temperature_f": 57.0,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 1015.3,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2010-03-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 14012KT 10SM CLR 13/01 A2998 RMK AO2 SLP152 T01330006 50005",
+      "sky_condition": "CLR",
+      "temperature_f": 56.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1015.2,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2010-03-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 17006KT 10SM CLR 12/01 A2999 RMK AO2 SLP154 T01220006",
+      "sky_condition": "CLR",
+      "temperature_f": 54.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1015.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

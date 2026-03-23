@@ -1,0 +1,68 @@
+{
+  "quiet_id": "quiet_20000228_KTYS",
+  "date": "2000-02-28",
+  "station": "KTYS",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2000-02-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 29004KT 10SM FEW060 11/07 A3020 RMK AO2 SLP223 T01110072 ~ NNNN",
+      "sky_condition": "FEW",
+      "temperature_f": 52.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1022.3,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-02-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 27004KT 10SM CLR 10/07 A3021 RMK AO2 SLP229 T01000067 ~ NNNN",
+      "sky_condition": "CLR",
+      "temperature_f": 50.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1022.9,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-02-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 30004KT 10SM CLR 10/07 A3023 RMK AO2 SLP234 T01000067 51018 ~ NNNN",
+      "sky_condition": "CLR",
+      "temperature_f": 50.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1023.4,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-02-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 32005KT 10SM CLR 09/06 A3024 RMK AO2 SLP240 T00940056 ~ NNNN",
+      "sky_condition": "CLR",
+      "temperature_f": 49.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1024.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-02-28T04:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280453Z 35003KT 10SM CLR 08/05 A3024 RMK AO2 SLP240 T00830050 401940083 ~ NNNN",
+      "sky_condition": "CLR",
+      "temperature_f": 47.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1024.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    }
+  ]
+}

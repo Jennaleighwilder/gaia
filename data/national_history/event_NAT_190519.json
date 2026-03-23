@@ -1,0 +1,207 @@
+{
+  "event_id": "NAT_190519",
+  "date": "2018-10-02",
+  "time_utc": "07:45",
+  "state": "ARIZONA",
+  "county": "PIMA",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "magnitude_type": "",
+  "tor_f_scale": "",
+  "injuries": 0,
+  "deaths": 0,
+  "damage_property": "500.00K",
+  "narrative": "Widespread heavy rain of 2 to 4 inches from 11 pm October 1st to 7 am October 2nd resulted in flash flooding, especially in the Gu Achi and Sif Oidak Districts. Indian Route 15 was flooded in spots from south of Santa Rosa to south of Chuichu and Indian Route 42 became flooded and impassable. Homes ",
+  "begin_lat": "32.1967",
+  "begin_lon": "-111.8405",
+  "is_major": true,
+  "sample_category": "winter_fallback",
+  "fallback_source_category": "flash_flood",
+  "event_datetime_utc": "2018-10-02T07:45:00Z",
+  "station": "KRYN",
+  "station_distance_miles": 39.01,
+  "observation_count": 6,
+  "observations": [
+    {
+      "timestamp": "2018-10-01T20:45:00Z",
+      "station_id": "RYN",
+      "temperature_f": 69.8,
+      "dewpoint_f": 68.0,
+      "pressure_mb": null,
+      "wind_speed_mph": 0.0,
+      "wind_direction_deg": 0.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 2.0,
+      "humidity_pct": 94.01,
+      "sky_condition": "SCT",
+      "precip_1h_in": 0.0,
+      "metar": "KRYN 012045Z 00000KT 2SM RA SCT001 OVC008 21/20 A3003"
+    },
+    {
+      "timestamp": "2018-10-01T21:45:00Z",
+      "station_id": "RYN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 68.0,
+      "pressure_mb": null,
+      "wind_speed_mph": 9.2,
+      "wind_direction_deg": 110.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 88.43,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KRYN 012145Z 11008KT 10SM CLR 22/20 A3000"
+    },
+    {
+      "timestamp": "2018-10-01T22:45:00Z",
+      "station_id": "RYN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 68.0,
+      "pressure_mb": null,
+      "wind_speed_mph": 15.0,
+      "wind_direction_deg": 110.0,
+      "wind_gust_mph": 18.4,
+      "visibility_mi": 10.0,
+      "humidity_pct": 88.43,
+      "sky_condition": "FEW",
+      "precip_1h_in": 0.0,
+      "metar": "KRYN 012245Z 11013G16KT 10SM FEW009 22/20 A2997"
+    },
+    {
+      "timestamp": "2018-10-01T23:45:00Z",
+      "station_id": "RYN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 66.2,
+      "pressure_mb": null,
+      "wind_speed_mph": 6.9,
+      "wind_direction_deg": 110.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 78.19,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KRYN 012345Z 11006KT 10SM CLR 23/19 A2996"
+    },
+    {
+      "timestamp": "2018-10-02T01:45:00Z",
+      "station_id": "RYN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 66.2,
+      "pressure_mb": null,
+      "wind_speed_mph": 5.8,
+      "wind_direction_deg": 60.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 83.09,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KRYN 020145Z 06005KT 10SM CLR 22/19 A2996"
+    },
+    {
+      "timestamp": "2018-10-02T02:45:00Z",
+      "station_id": "RYN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 68.0,
+      "pressure_mb": null,
+      "wind_speed_mph": 3.5,
+      "wind_direction_deg": 110.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 88.43,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KRYN 020245Z 11003KT 10SM CLR 22/20 A2996 RMK LAST"
+    }
+  ],
+  "daily_summaries": [
+    {
+      "date": "2018-09-22",
+      "mean_pressure": null,
+      "mean_temp": 85.4857,
+      "dominant_wind_dir": 110.0,
+      "precip_total": 0.0,
+      "temp_range": 18.0
+    },
+    {
+      "date": "2018-09-23",
+      "mean_pressure": null,
+      "mean_temp": 82.625,
+      "dominant_wind_dir": 70.0,
+      "precip_total": 0.0,
+      "temp_range": 21.6
+    },
+    {
+      "date": "2018-09-24",
+      "mean_pressure": null,
+      "mean_temp": 88.7692,
+      "dominant_wind_dir": 230.0,
+      "precip_total": 0.0,
+      "temp_range": 16.2
+    },
+    {
+      "date": "2018-09-25",
+      "mean_pressure": null,
+      "mean_temp": 86.2769,
+      "dominant_wind_dir": 200.0,
+      "precip_total": 0.0,
+      "temp_range": 21.6
+    },
+    {
+      "date": "2018-09-26",
+      "mean_pressure": null,
+      "mean_temp": 86.6923,
+      "dominant_wind_dir": 310.0,
+      "precip_total": 0.0,
+      "temp_range": 27.0
+    },
+    {
+      "date": "2018-09-27",
+      "mean_pressure": null,
+      "mean_temp": 88.8,
+      "dominant_wind_dir": 310.0,
+      "precip_total": 0.0,
+      "temp_range": 25.2
+    },
+    {
+      "date": "2018-09-28",
+      "mean_pressure": null,
+      "mean_temp": 92.3,
+      "dominant_wind_dir": 310.0,
+      "precip_total": 0.0,
+      "temp_range": 12.6
+    },
+    {
+      "date": "2018-09-29",
+      "mean_pressure": null,
+      "mean_temp": 79.7,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 28.8
+    },
+    {
+      "date": "2018-09-30",
+      "mean_pressure": null,
+      "mean_temp": 84.8,
+      "dominant_wind_dir": 340.0,
+      "precip_total": 0.0,
+      "temp_range": 25.2
+    },
+    {
+      "date": "2018-10-01",
+      "mean_pressure": null,
+      "mean_temp": 70.925,
+      "dominant_wind_dir": 240.0,
+      "precip_total": 0.0,
+      "temp_range": 7.2
+    },
+    {
+      "date": "2018-10-02",
+      "mean_pressure": null,
+      "mean_temp": 71.6,
+      "dominant_wind_dir": 60.0,
+      "precip_total": 0.0,
+      "temp_range": 0.0
+    }
+  ],
+  "upper_air": null
+}

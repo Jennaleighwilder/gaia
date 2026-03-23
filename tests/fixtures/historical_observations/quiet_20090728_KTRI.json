@@ -1,0 +1,56 @@
+{
+  "quiet_id": "quiet_20090728_KTRI",
+  "date": "2009-07-28",
+  "station": "KTRI",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2009-07-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 00000KT 10SM SCT090 SCT120 23/19 A3000 RMK AO2 SLP144 T02330194",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1014.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-07-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM SCT085 BKN110 23/19 A3002 RMK AO2 SLP150 T02280194",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1015.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-07-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM SCT070 BKN100 22/19 A3004 RMK AO2 SLP157 T02220194 53015",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1015.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-07-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 9SM BKN110 21/19 A3004 RMK AO2 SLP157 T02110194",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1015.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 9.0
+    }
+  ]
+}

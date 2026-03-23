@@ -1,0 +1,18 @@
+{
+  "event_id": "5289948",
+  "date": "2002-04-28",
+  "event_datetime_utc": "2002-04-28T19:15:00Z",
+  "magnitude": "1.75",
+  "county": "hamblen",
+  "event_type": "hail",
+  "station": "KMRX",
+  "composite_reflectivity": 53.75,
+  "velocity_max": 10.0,
+  "velocity_min": -10.0,
+  "rotation_couplet_kt": 20.0,
+  "rotation_score": 0.2,
+  "vil": 68.75,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

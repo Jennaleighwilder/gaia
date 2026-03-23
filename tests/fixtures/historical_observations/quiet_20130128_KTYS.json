@@ -1,0 +1,73 @@
+{
+  "quiet_id": "quiet_20130128_KTYS",
+  "date": "2013-01-28",
+  "station": "KTYS",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2013-01-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 00000KT 10SM OVC036 07/01 A3036 RMK AO2 SLP287 T00720006",
+      "sky_condition": "OVC",
+      "temperature_f": 45.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1028.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2013-01-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 15003KT 10SM OVC034 07/01 A3034 RMK AO2 SLP280 T00720006",
+      "sky_condition": "OVC",
+      "temperature_f": 45.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1028.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2013-01-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 00000KT 10SM OVC034 07/02 A3032 RMK AO2 RAB24E39 SLP272 P0000 60000 T00670017 58010",
+      "sky_condition": "OVC",
+      "temperature_f": 44.0,
+      "dewpoint_f": 35.0,
+      "pressure_mb": 1027.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2013-01-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 32004KT 10SM OVC036 06/03 A3033 RMK AO2 RAB0257E44 SLP273 P0000 T00560028",
+      "sky_condition": "OVC",
+      "temperature_f": 42.0,
+      "dewpoint_f": 37.0,
+      "pressure_mb": 1027.3,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2013-01-28T04:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280453Z 00000KT 10SM -RA OVC036 06/03 A3033 RMK AO2 RAB53 SLP273 P0000 T00610033 400781033",
+      "sky_condition": "OVC",
+      "temperature_f": 43.0,
+      "dewpoint_f": 38.0,
+      "pressure_mb": 1027.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    }
+  ]
+}

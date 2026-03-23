@@ -1,0 +1,104 @@
+{
+  "quiet_id": "quiet_20170127_KGKT",
+  "date": "2017-01-27",
+  "station": "KGKT",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "2017-01-27T16:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 271655Z AUTO 25010KT 10SM OVC042 02/M05 A3004 RMK",
+      "sky_condition": "OVC",
+      "temperature_f": 35.6,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-01-27T17:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 271755Z AUTO 25009KT 10SM SCT027 OVC033 01/M04 A3002 RMK",
+      "sky_condition": "SCT",
+      "temperature_f": 33.8,
+      "dewpoint_f": 24.8,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-01-27T18:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 271855Z AUTO 22013KT 10SM FEW035 OVC050 02/M05 A2999 RMK",
+      "sky_condition": "FEW",
+      "temperature_f": 35.6,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-01-27T19:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 271955Z AUTO 26010KT 10SM FEW035 SCT041 OVC050 02/M05 A2999 RMK",
+      "sky_condition": "FEW",
+      "temperature_f": 35.6,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-01-27T20:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 272055Z AUTO 25008KT 10SM BKN033 OVC041 02/M06 A3000 RMK",
+      "sky_condition": "BKN",
+      "temperature_f": 35.6,
+      "dewpoint_f": 21.2,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-01-27T21:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 272155Z AUTO 25008KT 10SM BKN035 OVC046 01/M06 A3001 RMK",
+      "sky_condition": "BKN",
+      "temperature_f": 33.8,
+      "dewpoint_f": 21.2,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-01-27T22:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 272255Z AUTO 24009KT 10SM OVC046 01/M07 A3003 RMK",
+      "sky_condition": "OVC",
+      "temperature_f": 33.8,
+      "dewpoint_f": 19.4,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-01-27T23:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 272355Z AUTO 25007KT 10SM BKN050 01/M07 A3004 RMK",
+      "sky_condition": "BKN",
+      "temperature_f": 33.8,
+      "dewpoint_f": 19.4,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "event_id": "650423",
+  "event_date": "2016-08-28",
+  "event_datetime_utc": "2016-08-28T19:24:00Z",
+  "station": "KTRI",
+  "county": "grainger",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "50.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2016-08-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 24003KT 10SM TS SCT055CB BKN200 27/21 A3017 RMK AO2 TSB33 SLP188 OCNL LTGCG VC NW TS VC NW MOV NW T02670206",
+      "sky_condition": "SCT",
+      "temperature_f": 80.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1018.8,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2016-08-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM SCT055 SCT160 BKN200 26/21 A3020 RMK AO2 TSE32 SLP198 FRQ LTG DSNT N T02610206",
+      "sky_condition": "SCT",
+      "temperature_f": 79.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1019.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2016-08-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM SCT060 SCT160 BKN200 24/21 A3020 RMK AO2 SLP200 FRQ LTG DSNT N T02440211 51016",
+      "sky_condition": "SCT",
+      "temperature_f": 76.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1020.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2016-08-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 35003KT 10SM SCT060 BKN160 24/21 A3022 RMK AO2 SLP204 FRQ LTG DSNT N T02390211",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1020.4,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,68 @@
+{
+  "quiet_id": "quiet_20050128_KTRI",
+  "date": "2005-01-28",
+  "station": "KTRI",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2005-01-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 02007KT 10SM SCT250 M02/M10 A3041 RMK AO2 SLP312 T10171100",
+      "sky_condition": "SCT",
+      "temperature_f": 29.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1031.2,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-01-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 04003KT 10SM SCT250 M03/M10 A3043 RMK AO2 SLP317 T10281100",
+      "sky_condition": "SCT",
+      "temperature_f": 27.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1031.7,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-01-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 04004KT 10SM SCT250 M03/M09 A3044 RMK AO2 SLP321 T10281094 51014",
+      "sky_condition": "SCT",
+      "temperature_f": 27.0,
+      "dewpoint_f": 15.0,
+      "pressure_mb": 1032.1,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-01-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 04003KT 10SM SCT250 M03/M10 A3045 RMK AO2 SLP323 T10331100",
+      "sky_condition": "SCT",
+      "temperature_f": 26.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1032.3,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-01-28T04:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280453Z 04007KT 10SM SCT250 M03/M11 A3045 RMK AO2 SLP324 T10281106 400441033",
+      "sky_condition": "SCT",
+      "temperature_f": 27.0,
+      "dewpoint_f": 13.0,
+      "pressure_mb": 1032.4,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    }
+  ]
+}

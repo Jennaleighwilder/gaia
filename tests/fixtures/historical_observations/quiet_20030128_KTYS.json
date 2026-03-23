@@ -1,0 +1,68 @@
+{
+  "quiet_id": "quiet_20030128_KTYS",
+  "date": "2003-01-28",
+  "station": "KTYS",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2003-01-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 00000KT 10SM OVC100 M02/M12 A3038 RMK AO2 SLP299 T10171117",
+      "sky_condition": "OVC",
+      "temperature_f": 29.0,
+      "dewpoint_f": 11.0,
+      "pressure_mb": 1029.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-01-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 02003KT 10SM OVC095 M02/M12 A3038 RMK AO2 SLP300 T10171122",
+      "sky_condition": "OVC",
+      "temperature_f": 29.0,
+      "dewpoint_f": 10.0,
+      "pressure_mb": 1030.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-01-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 00000KT 10SM OVC100 M02/M11 A3037 RMK AO2 SLP296 T10171111 56007",
+      "sky_condition": "OVC",
+      "temperature_f": 29.0,
+      "dewpoint_f": 12.0,
+      "pressure_mb": 1029.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-01-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 00000KT 10SM BKN100 M02/M11 A3035 RMK AO2 SLP286 T10221111",
+      "sky_condition": "BKN",
+      "temperature_f": 28.0,
+      "dewpoint_f": 12.0,
+      "pressure_mb": 1028.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-01-28T04:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280453Z 00000KT 10SM BKN100 M03/M11 A3035 RMK AO2 SLP286 T10281106 410061111",
+      "sky_condition": "BKN",
+      "temperature_f": 27.0,
+      "dewpoint_f": 13.0,
+      "pressure_mb": 1028.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    }
+  ]
+}

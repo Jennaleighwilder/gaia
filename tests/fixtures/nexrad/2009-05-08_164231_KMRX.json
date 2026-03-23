@@ -1,0 +1,18 @@
+{
+  "event_id": "164231",
+  "date": "2009-05-08",
+  "event_datetime_utc": "2009-05-08T23:45:00Z",
+  "magnitude": "EF0",
+  "county": "washington",
+  "event_type": "tornado",
+  "station": "KMRX",
+  "composite_reflectivity": 45,
+  "velocity_max": 17.5,
+  "velocity_min": -17.5,
+  "rotation_couplet_kt": 35.0,
+  "rotation_score": 0.55,
+  "vil": 25,
+  "echo_top_km": 12,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

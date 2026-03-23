@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GAIA — Severe Weather Detection for East Tennessee</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #0d1117;
+      color: #e6edf3;
+      line-height: 1.6;
+    }
+    .container { max-width: 640px; margin: 0 auto; }
+    h1 { color: #58a6ff; font-size: 1.75rem; margin: 0 0 8px 0; }
+    .tagline { color: #8b949e; font-size: 1rem; margin-bottom: 24px; }
+    h2 { color: #58a6ff; font-size: 1.2rem; margin: 24px 0 12px 0; border-bottom: 1px solid #30363d; padding-bottom: 8px; }
+    p { margin: 0 0 12px 0; }
+    .stat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; margin: 16px 0; }
+    .stat { background: #161b22; border-radius: 8px; padding: 12px; text-align: center; }
+    .stat-value { font-size: 1.5rem; font-weight: 700; color: #58a6ff; }
+    .stat-label { font-size: 0.85rem; color: #8b949e; }
+    .cta { display: inline-block; background: #238636; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; margin: 16px 0; }
+    .cta:hover { background: #2ea043; }
+    .footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #30363d; font-size: 0.9rem; color: #8b949e; }
+    ul { margin: 8px 0; padding-left: 20px; }
+    .highlight { background: #1f6feb33; padding: 2px 6px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>GAIA</h1>
+    <p class="tagline">Severe Weather Detection for East Tennessee</p>
+
+    <h2>What is GAIA?</h2>
+    <p>
+      GAIA is an early-warning system for severe weather in East Tennessee. It combines satellite data, radar, 
+      lightning detection, terrain modeling, and hazmat facility awareness to issue alerts with 
+      <span class="highlight">hours of lead time</span>—before storms form.
+    </p>
+
+    <h2>Performance (Validated Baseline)</h2>
+    <p>Validated against 460 historical severe weather events and 200 quiet days (1996–2025):</p>
+    <div class="stat-grid">
+      <div class="stat">
+        <div class="stat-value">83.9%</div>
+        <div class="stat-label">Detection rate</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">18.5%</div>
+        <div class="stat-label">False alarm rate</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">176 min</div>
+        <div class="stat-label">Average lead time</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">87</div>
+        <div class="stat-label">TRI hazmat facilities monitored</div>
+      </div>
+    </div>
+
+    <h2>Comparison to National Weather Service</h2>
+    <ul>
+      <li>NWS tornado false alarm rate: <strong>75%</strong> — GAIA: <strong>18.5%</strong></li>
+      <li>NWS average lead time: <strong>13 minutes</strong> — GAIA: <strong>176 minutes</strong></li>
+    </ul>
+
+    <h2>Coverage</h2>
+    <p>10 East Tennessee counties: Knox, Sevier, Blount, Greene, Hamblen, Hawkins, Washington, Grainger, Sullivan, Anderson.</p>
+    <p>TRI (Toxics Release Inventory) awareness: 87 hazmat facilities in the region. GAIA factors proximity to chemical facilities when issuing warnings.</p>
+
+    <h2>Live Status</h2>
+    <p>
+      <a href="https://theforgottencode.com/gaia" class="cta">View GAIA Dashboard →</a>
+    </p>
+    <p>The dashboard shows current alert levels by county and active warnings. Updated every 5 minutes.</p>
+
+    <div class="footer">
+      <p><strong>The Forgotten Code Research Institute</strong></p>
+      <p>Contact: <a href="mailto:theforgottencode780@gmail.com" style="color: #58a6ff;">theforgottencode780@gmail.com</a></p>
+      <p><a href="https://theforgottencode.com" style="color: #58a6ff;">theforgottencode.com</a></p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "last_updated": "2026-03-21",
+  "enso": {
+    "phase": "la_nina",
+    "oni": -0.8,
+    "note": "Weak La Nina continuing"
+  },
+  "nao": {
+    "phase": "negative",
+    "index": -1.2
+  },
+  "pna": {
+    "phase": "positive",
+    "index": 0.8
+  },
+  "mjo": {
+    "phase": 3,
+    "amplitude": 1.5
+  }
+}

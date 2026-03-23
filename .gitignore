@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# GAIA runtime
+runs/
+*.db
+*.sqlite
+
+# Env / secrets
+.env
+.env.local
+*.pem
+
+# Build
+dist/
+build/
+*.log

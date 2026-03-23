@@ -1,0 +1,66 @@
+{
+  "event_id": "704520",
+  "event_date": "2017-05-28",
+  "event_datetime_utc": "2017-05-28T01:40:00Z",
+  "station": "KTYS",
+  "county": "knox",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "50.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2017-05-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 19008KT 10SM FEW035 OVC100 24/19 A2988 RMK AO2 SLP108 T02440189 $",
+      "sky_condition": "FEW",
+      "temperature_f": 76.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1010.8,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-05-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 20008KT 10SM VCTS OVC100 24/19 A2989 RMK AO2 SLP111 FRQ LTGICCG VCTS MOV ESE T02440189 $",
+      "sky_condition": "OVC",
+      "temperature_f": 76.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1011.1,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-05-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 27012G24KT 3SM TSRA BR FEW030CB SCT070 OVC100 18/16 A3002 RMK AO2 PK WND 29049/0237 WSHFT 0227 RAB34 TSB31 PRESRR SLP157 FRQ LTGICCG OHD MOVESE P0023 60023 T01830161 53037 $",
+      "sky_condition": "FEW",
+      "temperature_f": 65.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1015.7,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.23
+    },
+    {
+      "timestamp": "2017-05-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 17009KT 5SM TSRA BR FEW018CB BKN060 OVC190 18/17 A3001 RMK AO2 SLP152 FRQ LTGICCG OHD VS OHD MOV ESE P0016 T01780167 $",
+      "sky_condition": "FEW",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1015.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.16
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,56 @@
+{
+  "quiet_id": "quiet_20010428_KTRI",
+  "date": "2001-04-28",
+  "station": "KTRI",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2001-04-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 00000KT 10SM CLR 18/07 A3014 RMK AO2 SLP199 T01780067",
+      "sky_condition": "CLR",
+      "temperature_f": 64.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1019.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2001-04-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM CLR 15/07 A3016 RMK AO2 SLP205 T01500067",
+      "sky_condition": "CLR",
+      "temperature_f": 59.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1020.5,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2001-04-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM BKN100 14/07 A3017 RMK AO2 SLP210 T01390072 53016",
+      "sky_condition": "BKN",
+      "temperature_f": 57.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1021.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2001-04-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 18005KT 10SM OVC095 15/08 A3017 RMK AO2 SLP206 T01500083",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 47.0,
+      "pressure_mb": 1020.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    }
+  ]
+}

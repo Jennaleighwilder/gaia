@@ -1,0 +1,18 @@
+{
+  "event_id": "497404",
+  "date": "2014-02-13",
+  "event_datetime_utc": "2014-02-13T04:08:00Z",
+  "magnitude": "",
+  "county": "hawkins",
+  "event_type": "heavy_snow",
+  "station": "KMRX",
+  "composite_reflectivity": 25,
+  "velocity_max": 0.0,
+  "velocity_min": -0.0,
+  "rotation_couplet_kt": 0.0,
+  "rotation_score": 0.0,
+  "vil": 15,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

@@ -1,0 +1,61 @@
+{
+  "quiet_id": "2020-02-16_NAT_272585",
+  "date": "2020-02-16",
+  "state": "KENTUCKY",
+  "sample_category": "winter_fallback",
+  "station": "KBYL",
+  "station_distance_miles": 3.75,
+  "observation_count": 0,
+  "observations": [],
+  "daily_summaries": [
+    {
+      "date": "2020-02-06",
+      "mean_pressure": null,
+      "mean_temp": 50.1636,
+      "dominant_wind_dir": 190.0,
+      "precip_total": 1.41,
+      "temp_range": 18.0
+    },
+    {
+      "date": "2020-02-07",
+      "mean_pressure": null,
+      "mean_temp": 31.1,
+      "dominant_wind_dir": 320.0,
+      "precip_total": 0.05,
+      "temp_range": 12.6
+    },
+    {
+      "date": "2020-02-08",
+      "mean_pressure": null,
+      "mean_temp": 32.1565,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 14.4
+    },
+    {
+      "date": "2020-02-09",
+      "mean_pressure": null,
+      "mean_temp": 37.025,
+      "dominant_wind_dir": 150.0,
+      "precip_total": 0.0,
+      "temp_range": 27.0
+    },
+    {
+      "date": "2020-02-10",
+      "mean_pressure": null,
+      "mean_temp": 49.475,
+      "dominant_wind_dir": 180.0,
+      "precip_total": 0.95,
+      "temp_range": 5.4
+    },
+    {
+      "date": "2020-02-11",
+      "mean_pressure": null,
+      "mean_temp": 50.0,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.51,
+      "temp_range": 9.0
+    }
+  ],
+  "upper_air": null
+}

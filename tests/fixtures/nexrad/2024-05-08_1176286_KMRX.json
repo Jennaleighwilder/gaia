@@ -1,0 +1,18 @@
+{
+  "event_id": "1176286",
+  "date": "2024-05-08",
+  "event_datetime_utc": "2024-05-08T13:20:00Z",
+  "magnitude": "2.50",
+  "county": "grainger",
+  "event_type": "hail",
+  "station": "KMRX",
+  "composite_reflectivity": 57.5,
+  "velocity_max": 10.0,
+  "velocity_min": -10.0,
+  "rotation_couplet_kt": 20.0,
+  "rotation_score": 0.2,
+  "vil": 70,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

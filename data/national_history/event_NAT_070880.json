@@ -1,0 +1,146 @@
+{
+  "event_id": "NAT_070880",
+  "date": "2016-10-08",
+  "time_utc": "16:21",
+  "state": "SOUTH CAROLINA",
+  "county": "HORRY",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "magnitude_type": "",
+  "tor_f_scale": "",
+  "injuries": 0,
+  "deaths": 0,
+  "damage_property": "750.00K",
+  "narrative": "Boyne Drive, in the Cameron Village Community, was reported flooded. Numerous homes were impacted by the flood waters.",
+  "begin_lat": "33.6494",
+  "begin_lon": "-79.0437",
+  "is_major": true,
+  "sample_category": "flash_flood",
+  "event_datetime_utc": "2016-10-08T16:21:00Z",
+  "station": "KHYW",
+  "station_distance_miles": 13.05,
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "2016-10-08T13:55:00Z",
+      "station_id": "HYW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "pressure_mb": null,
+      "wind_speed_mph": 12.7,
+      "wind_direction_deg": 90.0,
+      "wind_gust_mph": 21.9,
+      "visibility_mi": 4.0,
+      "humidity_pct": 100.0,
+      "sky_condition": "OVC",
+      "precip_1h_in": 0.16,
+      "metar": "KHYW 081355Z AUTO 09011G19KT 4SM RA OVC013 23/23 A2936 RMK AO2 P0016"
+    },
+    {
+      "timestamp": "2016-10-08T14:55:00Z",
+      "station_id": "HYW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "pressure_mb": null,
+      "wind_speed_mph": 12.7,
+      "wind_direction_deg": 70.0,
+      "wind_gust_mph": 25.3,
+      "visibility_mi": 1.25,
+      "humidity_pct": 100.0,
+      "sky_condition": "BKN",
+      "precip_1h_in": 0.45,
+      "metar": "KHYW 081455Z AUTO 07011G22KT 040V110 1 1/4SM +RA BKN008 OVC013 23/23 A2931 RMK AO2 P0045"
+    }
+  ],
+  "daily_summaries": [
+    {
+      "date": "2016-09-28",
+      "mean_pressure": null,
+      "mean_temp": 81.275,
+      "dominant_wind_dir": 150.0,
+      "precip_total": 0.0,
+      "temp_range": 9.0
+    },
+    {
+      "date": "2016-09-29",
+      "mean_pressure": null,
+      "mean_temp": 74.0,
+      "dominant_wind_dir": 160.0,
+      "precip_total": 0.64,
+      "temp_range": 12.6
+    },
+    {
+      "date": "2016-09-30",
+      "mean_pressure": null,
+      "mean_temp": 74.075,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 19.8
+    },
+    {
+      "date": "2016-10-01",
+      "mean_pressure": null,
+      "mean_temp": 70.625,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 21.6
+    },
+    {
+      "date": "2016-10-02",
+      "mean_pressure": null,
+      "mean_temp": 70.625,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 19.8
+    },
+    {
+      "date": "2016-10-03",
+      "mean_pressure": null,
+      "mean_temp": 68.0,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 27.0
+    },
+    {
+      "date": "2016-10-04",
+      "mean_pressure": null,
+      "mean_temp": 68.975,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 10.8
+    },
+    {
+      "date": "2016-10-05",
+      "mean_pressure": null,
+      "mean_temp": 67.325,
+      "dominant_wind_dir": 20.0,
+      "precip_total": 0.0,
+      "temp_range": 10.8
+    },
+    {
+      "date": "2016-10-06",
+      "mean_pressure": null,
+      "mean_temp": 67.2174,
+      "dominant_wind_dir": 10.0,
+      "precip_total": 0.0,
+      "temp_range": 9.0
+    },
+    {
+      "date": "2016-10-07",
+      "mean_pressure": null,
+      "mean_temp": 72.05,
+      "dominant_wind_dir": 10.0,
+      "precip_total": 1.13,
+      "temp_range": 12.6
+    },
+    {
+      "date": "2016-10-08",
+      "mean_pressure": null,
+      "mean_temp": 73.4,
+      "dominant_wind_dir": 90.0,
+      "precip_total": 0.61,
+      "temp_range": 0.0
+    }
+  ],
+  "upper_air": null
+}

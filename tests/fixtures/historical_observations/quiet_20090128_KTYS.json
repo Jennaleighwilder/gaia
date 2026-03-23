@@ -1,0 +1,70 @@
+{
+  "quiet_id": "quiet_20090128_KTYS",
+  "date": "2009-01-28",
+  "station": "KTYS",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2009-01-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 00000KT 1/4SM R23L/1600V1800FT FG VV001 06/06 A3006 RMK AO2 SLP182 T00610056",
+      "sky_condition": "VV ",
+      "temperature_f": 43.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1018.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2009-01-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 08003KT 1/16SM R23L/1200FT FG VV001 06/06 A3003 RMK AO2 SLP172 T00560056",
+      "sky_condition": "VV ",
+      "temperature_f": 42.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1017.2,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 0.06
+    },
+    {
+      "timestamp": "2009-01-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 03004KT 1/2SM R23L/2000V3500FT FG BKN001 BKN006 OVC012 06/06 A3001 RMK AO2 SLP166 T00560056 58017",
+      "sky_condition": "BKN",
+      "temperature_f": 42.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1016.6,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "2009-01-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 00000KT 3SM R23L/5000VP6000FT BR SCT001 SCT012 OVC070 06/06 A2997 RMK AO2 SLP152 T00610061",
+      "sky_condition": "SCT",
+      "temperature_f": 43.0,
+      "dewpoint_f": 43.0,
+      "pressure_mb": 1015.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "2009-01-28T04:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280453Z 20015G28KT 10SM BKN070 16/11 A2993 RMK AO2 PK WND 20028/0445 WSHFT 0420 SLP132 P0001 T01560111 401560028 $",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1013.2,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    }
+  ]
+}

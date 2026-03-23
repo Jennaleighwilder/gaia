@@ -1,0 +1,56 @@
+{
+  "quiet_id": "quiet_20060628_KTRI",
+  "date": "2006-06-28",
+  "station": "KTRI",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2006-06-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 00000KT 8SM FEW040 SCT200 23/17 A3003 RMK AO2 SLP154 T02330172",
+      "sky_condition": "FEW",
+      "temperature_f": 74.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1015.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2006-06-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 7SM FEW040 SCT200 21/17 A3005 RMK AO2 SLP162 T02110172",
+      "sky_condition": "FEW",
+      "temperature_f": 70.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1016.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "2006-06-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 7SM FEW200 19/17 A3007 RMK AO2 SLP168 T01940172 53014",
+      "sky_condition": "FEW",
+      "temperature_f": 67.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1016.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "2006-06-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 6SM BR FEW180 18/17 A3009 RMK AO2 SLP174 T01780167",
+      "sky_condition": "FEW",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1017.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    }
+  ]
+}

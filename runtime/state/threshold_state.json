@@ -1,0 +1,1817 @@
+{
+  "review_threshold": 0.7,
+  "defer_threshold": 0.9,
+  "decisions": [
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774275646.815861,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774275646.851357,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774275646.879882,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774275646.908851,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774275646.937908,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774275646.965377,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774275646.992809,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774275647.0200279,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774275647.0475168,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774275647.0740201,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774275768.977497,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.012296,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.0403972,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.06862,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.097375,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.124448,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.152884,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.1798122,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.206306,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774275769.2324328,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.7145898,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.75255,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.7820191,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.813117,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.8473248,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.87702,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.907299,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.937302,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.9666932,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774275874.994734,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.208944,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.280475,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.310396,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.3403149,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.3720052,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.401556,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.436343,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.465318,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.4932961,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774275947.5206459,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.366076,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.400376,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.4285598,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.457043,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.501627,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.5293849,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.5567958,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.585321,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.612627,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276069.638725,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.1275258,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.1616588,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.189348,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.2183192,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.259319,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.286695,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.313896,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.34146,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.3682828,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276175.394977,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.6283772,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.6632268,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.692074,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.721003,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.751039,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.7782578,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.805614,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.832607,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.859905,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276247.886404,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276369.773248,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276369.808558,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276369.8361468,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276369.870273,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276369.899601,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276369.9280798,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276369.956079,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276369.9834292,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276370.011564,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276370.0383732,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.493619,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.528569,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.55839,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.587735,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.619062,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.6464121,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.673378,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.70067,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.728256,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276475.753823,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276547.995507,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.030636,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.058879,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.087407,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.116641,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.144518,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.171535,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.1989279,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.226346,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276548.2523909,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.174187,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.212288,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.240434,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.2683918,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.30036,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.328154,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.355159,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.3822742,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.4154959,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276670.441411,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276775.869296,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276775.91037,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276775.938516,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276775.9661272,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276775.997756,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276776.0257568,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276776.052845,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276776.0794618,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276776.106488,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276776.132428,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.3679261,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.402702,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.4306,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.458951,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.487712,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.515192,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.5424361,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.570303,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.5971782,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276848.623266,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.562649,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.600491,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.6278982,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.6554902,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.685302,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.712853,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.7405682,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.766978,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.793211,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774276970.81902,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.23548,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.27386,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.3014321,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.329524,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.3626199,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.3954408,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.422546,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.449553,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.4766011,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774277076.502582,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.7396622,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.7743812,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.803196,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.8328419,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.862518,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.890359,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.91729,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.944443,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.9716768,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774277148.998189,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774277270.935681,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774277270.9976802,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774277271.025516,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774277271.0533938,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774277271.0822458,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774277271.109149,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774277271.1357162,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774277271.162555,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774277271.1896892,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774277271.216736,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.650683,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.693861,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.724777,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.75578,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.787955,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.816118,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.844046,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.87327,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.902199,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774277376.9300559,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.1524029,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.18704,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.2225769,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.251565,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.280992,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.308918,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.3361542,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.363209,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.391063,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774277449.4175081,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "knox",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.392591,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sevier",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.43503,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "blount",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.523202,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "greene",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.595752,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hamblen",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.630647,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "hawkins",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.665399,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "washington",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.696994,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "grainger",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.7311318,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "sullivan",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.761973,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    },
+    {
+      "verdict": "WATCH",
+      "instability_at_decision": 0.6,
+      "claim_id": "anderson",
+      "actor": "gaia_governor",
+      "timestamp": 1774277571.799457,
+      "outcome_instability": null,
+      "outcome_recorded": false
+    }
+  ],
+  "adjustments": [],
+  "total_allows": 0,
+  "total_defers": 0,
+  "total_reviews": 0,
+  "allow_regret_count": 0,
+  "defer_vindicated_count": 0,
+  "defer_regret_count": 0,
+  "review_vindicated_count": 0,
+  "review_regret_count": 0,
+  "override_events": [],
+  "last_updated": 1774277571.799474
+}

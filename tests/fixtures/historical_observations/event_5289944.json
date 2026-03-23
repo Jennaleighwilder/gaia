@@ -1,0 +1,61 @@
+{
+  "event_id": "5289944",
+  "event_date": "2002-04-28",
+  "event_datetime_utc": "2002-04-28T19:10:00Z",
+  "station": "KTRI",
+  "county": "grainger",
+  "event_type": "hail",
+  "magnitude": "2.75",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2002-04-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 18007KT 10SM CLR 19/13 A3008 RMK AO2 SLP179 T01890128",
+      "sky_condition": "CLR",
+      "temperature_f": 66.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1017.9,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2002-04-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 18005KT 10SM CLR 18/13 A3007 RMK AO2 SLP174 T01830133",
+      "sky_condition": "CLR",
+      "temperature_f": 65.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1017.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2002-04-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 17003KT 10SM BKN050 18/14 A3006 RMK AO2 SLP172 T01830144 56012",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1017.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2002-04-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM OVC046 18/13 A3005 RMK AO2 SLP164 T01780128",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1016.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

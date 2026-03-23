@@ -1,0 +1,2811 @@
+{
+  "source": "tri_basic_data",
+  "count": 122,
+  "facilities": [
+    {
+      "name": "3M CO DBA 3M CLINTON",
+      "address": "400 JD YARNELL INDUSTRIAL PKWY",
+      "city": "CLINTON",
+      "county": "ANDERSON",
+      "lat": 36.093818,
+      "lon": -84.106777,
+      "trifid": "3771WMCMPN4JDYA",
+      "naics": "313230",
+      "has_class1": true,
+      "class1_lbs": 9725.0,
+      "total_lbs": 9725.0,
+      "top_chemicals": [
+        {
+          "name": "Toluene",
+          "lbs": 9725.0
+        }
+      ]
+    },
+    {
+      "name": "ADVANCED MEASUREMENT TECHNOLOGY",
+      "address": "801 S ILLINOIS AVE",
+      "city": "OAK RIDGE",
+      "county": "ANDERSON",
+      "lat": 36.004715,
+      "lon": -84.234322,
+      "trifid": "37830GGRTC100MI",
+      "naics": "334519",
+      "has_class1": true,
+      "class1_lbs": 1540.7,
+      "total_lbs": 1540.7,
+      "top_chemicals": [
+        {
+          "name": "Methanol",
+          "lbs": 1425.0
+        },
+        {
+          "name": "Nitric acid",
+          "lbs": 115.7
+        }
+      ]
+    },
+    {
+      "name": "AISIN AUTOMOTIVE CASTING TENNESSEE",
+      "address": "221 FRANK L DIGGS DR",
+      "city": "CLINTON",
+      "county": "ANDERSON",
+      "lat": 36.15578,
+      "lon": -84.083143,
+      "trifid": "37716SNTMT221FR",
+      "naics": "336310",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 47.1,
+      "top_chemicals": [
+        {
+          "name": "Copper",
+          "lbs": 33.2
+        },
+        {
+          "name": "Nickel",
+          "lbs": 12.8
+        },
+        {
+          "name": "Lead",
+          "lbs": 1.1
+        }
+      ]
+    },
+    {
+      "name": "CARLSTAR CLINTON",
+      "address": "520 JD YARNELL PKWY",
+      "city": "CLINTON",
+      "county": "ANDERSON",
+      "lat": 36.092535,
+      "lon": -84.1102,
+      "trifid": "37716DCTRNMODIN",
+      "naics": "326211",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 3396.4,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 3363.4
+        },
+        {
+          "name": "Polycyclic aromatic compounds",
+          "lbs": 33.0
+        }
+      ]
+    },
+    {
+      "name": "CLAYTON APPALACHIA",
+      "address": "1420 MOUNTAIN RD",
+      "city": "ANDERSONVILLE",
+      "county": "ANDERSON",
+      "lat": 36.181336,
+      "lon": -84.051135,
+      "trifid": "37705PPLCH1420M",
+      "naics": "321991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "EAGLE BEND MANUFACTURING INC",
+      "address": "1000 JD YARNELL INDUSTRIAL PKWY",
+      "city": "CLINTON",
+      "county": "ANDERSON",
+      "lat": 36.090541,
+      "lon": -84.117402,
+      "trifid": "37716GLBND1000J",
+      "naics": "336370",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 77.0,
+      "top_chemicals": [
+        {
+          "name": "Manganese",
+          "lbs": 72.0
+        },
+        {
+          "name": "Nickel",
+          "lbs": 3.0
+        },
+        {
+          "name": "Chromium",
+          "lbs": 2.0
+        }
+      ]
+    },
+    {
+      "name": "ENERGYSOLUTIONS BEAR CREEK FACILITY",
+      "address": "1560 BEAR CREEK RD",
+      "city": "OAK RIDGE",
+      "county": "ANDERSON",
+      "lat": 35.989544,
+      "lon": -84.257817,
+      "trifid": "37830DRTKB1560B",
+      "naics": "562219",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 1412.0,
+      "top_chemicals": [
+        {
+          "name": "Lead",
+          "lbs": 1412.0
+        }
+      ]
+    },
+    {
+      "name": "GEON PERFORMANCE SOLUTIONS",
+      "address": "1260 CARDEN FARM DR",
+      "city": "CLINTON",
+      "county": "ANDERSON",
+      "lat": 36.10291,
+      "lon": -84.12087,
+      "trifid": "37716DHCMP1260C",
+      "naics": "325991",
+      "has_class1": true,
+      "class1_lbs": 15.0,
+      "total_lbs": 15.0,
+      "top_chemicals": [
+        {
+          "name": "Ethylbenzene",
+          "lbs": 15.0
+        }
+      ]
+    },
+    {
+      "name": "NNSA Y-12 NATIONAL SECURITY COMPLEX",
+      "address": "BEAR CREEK RD",
+      "city": "OAK RIDGE",
+      "county": "ANDERSON",
+      "lat": 35.98976,
+      "lon": -84.25715,
+      "trifid": "37831SDKRDBEARC",
+      "naics": "332999",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 149841.4,
+      "top_chemicals": [
+        {
+          "name": "Nickel",
+          "lbs": 52019.3
+        },
+        {
+          "name": "Chromium  and Chromium Compounds(except for chromite ore mined in the Transvaal Region)",
+          "lbs": 34851.0
+        },
+        {
+          "name": "Lead  And Lead Compounds",
+          "lbs": 27068.4
+        },
+        {
+          "name": "Manganese",
+          "lbs": 17488.6
+        },
+        {
+          "name": "Copper",
+          "lbs": 12699.0
+        }
+      ]
+    },
+    {
+      "name": "RAPISCAN AS&E",
+      "address": "601 OAK RIDGE TPKE",
+      "city": "OAK RIDGE",
+      "county": "ANDERSON",
+      "lat": 36.030723,
+      "lon": -84.229937,
+      "trifid": "37831XFRDT601OA",
+      "naics": "334516",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.1,
+      "top_chemicals": [
+        {
+          "name": "Lead",
+          "lbs": 0.1
+        }
+      ]
+    },
+    {
+      "name": "TECHMER PM LLC",
+      "address": "1 QUALITY CIR",
+      "city": "CLINTON",
+      "county": "ANDERSON",
+      "lat": 36.091446,
+      "lon": -84.105699,
+      "trifid": "37716TCHMR1QUAL",
+      "naics": "325991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "ARCONIC US LLC",
+      "address": "2300 N WRIGHT RD",
+      "city": "ALCOA",
+      "county": "BLOUNT",
+      "lat": 35.814782,
+      "lon": -83.977446,
+      "trifid": "37701LMNMCPOBOX",
+      "naics": "331315",
+      "has_class1": true,
+      "class1_lbs": 96947.2,
+      "total_lbs": 478527.3,
+      "top_chemicals": [
+        {
+          "name": "Aluminum (fume or dust)",
+          "lbs": 367751.0
+        },
+        {
+          "name": "Hydrochloric acid (acid aerosols including mists, vapors, gas, fog, and other airborne forms of any particle size)",
+          "lbs": 96947.0
+        },
+        {
+          "name": "Manganese",
+          "lbs": 5296.2
+        },
+        {
+          "name": "Copper",
+          "lbs": 3694.9
+        },
+        {
+          "name": "Lead",
+          "lbs": 2167.5
+        }
+      ]
+    },
+    {
+      "name": "DENSO MANUFACTURING TENNESSEE INC",
+      "address": "1720 1725 1755 ROBERT C JACKSON DR",
+      "city": "MARYVILLE",
+      "county": "BLOUNT",
+      "lat": 35.761598,
+      "lon": -84.008589,
+      "trifid": "37801NPPND1720R",
+      "naics": "334519",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 425.1,
+      "top_chemicals": [
+        {
+          "name": "Lead",
+          "lbs": 400.4
+        },
+        {
+          "name": "Zinc (fume or dust)",
+          "lbs": 11.0
+        },
+        {
+          "name": "Copper",
+          "lbs": 10.0
+        },
+        {
+          "name": "Manganese",
+          "lbs": 2.0
+        },
+        {
+          "name": "Nickel",
+          "lbs": 1.8
+        }
+      ]
+    },
+    {
+      "name": "FLEX-N-GATE ROCKFORD",
+      "address": "2460 STOCK CREEK BLVD",
+      "city": "ROCKFORD",
+      "county": "BLOUNT",
+      "lat": 35.862609,
+      "lon": -83.935234,
+      "trifid": "3785WCPRST246ST",
+      "naics": "326199",
+      "has_class1": true,
+      "class1_lbs": 0.0,
+      "total_lbs": 265.0,
+      "top_chemicals": [
+        {
+          "name": "Methyl isobutyl ketone",
+          "lbs": 255.0
+        },
+        {
+          "name": "n-Butyl alcohol",
+          "lbs": 10.0
+        }
+      ]
+    },
+    {
+      "name": "NISUS CORP",
+      "address": "100 NISUS DR",
+      "city": "ROCKFORD",
+      "county": "BLOUNT",
+      "lat": 35.86044,
+      "lon": -83.941025,
+      "trifid": "3785WNSSCR1NISU",
+      "naics": "325320",
+      "has_class1": true,
+      "class1_lbs": 0.0,
+      "total_lbs": 4001.0,
+      "top_chemicals": [
+        {
+          "name": "Copper compounds",
+          "lbs": 2102.0
+        },
+        {
+          "name": "Zinc compounds",
+          "lbs": 1899.0
+        }
+      ]
+    },
+    {
+      "name": "READY MIX USA LLC-ROCKFORD PLANT",
+      "address": "547 NATIONAL DR",
+      "city": "MARYVILLE",
+      "county": "BLOUNT",
+      "lat": 35.826328,
+      "lon": -83.95332,
+      "trifid": "3780WRDYMX547NA",
+      "naics": "327320",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "RECKLESS INDUSTRIES LLC",
+      "address": "6130 US-411 S",
+      "city": "MARYVILLE",
+      "county": "BLOUNT",
+      "lat": 35.649495,
+      "lon": -84.133784,
+      "trifid": "3780WRCKLS613US",
+      "naics": "326121",
+      "has_class1": true,
+      "class1_lbs": 825.0,
+      "total_lbs": 825.0,
+      "top_chemicals": [
+        {
+          "name": "Styrene",
+          "lbs": 825.0
+        }
+      ]
+    },
+    {
+      "name": "ROYAL METAL POWDERS INC.",
+      "address": "433 CONTINENTAL DR",
+      "city": "MARYVILLE",
+      "county": "BLOUNT",
+      "lat": 35.827181,
+      "lon": -83.951302,
+      "trifid": "37801NTDSTROUTE",
+      "naics": "325180",
+      "has_class1": true,
+      "class1_lbs": 0.0,
+      "total_lbs": 257.0,
+      "top_chemicals": [
+        {
+          "name": "Copper",
+          "lbs": 255.0
+        },
+        {
+          "name": "Lead",
+          "lbs": 2.0
+        }
+      ]
+    },
+    {
+      "name": "SANFORD BRANDS",
+      "address": "1427 WILLIAM BLOUNT DR",
+      "city": "MARYVILLE",
+      "county": "BLOUNT",
+      "lat": 35.741867,
+      "lon": -84.043612,
+      "trifid": "37801RBBRM1427W",
+      "naics": "339940",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 40898.0,
+      "top_chemicals": [
+        {
+          "name": "n-Butyl alcohol",
+          "lbs": 40898.0
+        }
+      ]
+    },
+    {
+      "name": "SKIER'S CHOICE INC",
+      "address": "1717 HENRY G LANE ST",
+      "city": "MARYVILLE",
+      "county": "BLOUNT",
+      "lat": 35.759095,
+      "lon": -84.017869,
+      "trifid": "37801SCHLG1717H",
+      "naics": "336612",
+      "has_class1": true,
+      "class1_lbs": 218426.0,
+      "total_lbs": 249877.0,
+      "top_chemicals": [
+        {
+          "name": "Styrene",
+          "lbs": 218426.0
+        },
+        {
+          "name": "Methyl methacrylate",
+          "lbs": 31451.0
+        }
+      ]
+    },
+    {
+      "name": "SMITH & WESSON BRANDS INC.",
+      "address": "1852 PROFFITT SPRINGS ROAD",
+      "city": "MARYVILLE",
+      "county": "BLOUNT",
+      "lat": 35.7955,
+      "lon": -84.0226,
+      "trifid": "3780WSMTHW1852P",
+      "naics": "332994",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 1.0,
+      "top_chemicals": [
+        {
+          "name": "Lead  And Lead Compounds",
+          "lbs": 1.0
+        }
+      ]
+    },
+    {
+      "name": "SMOKY MOUNTAIN METALS INC",
+      "address": "444 CONTINENTAL DR",
+      "city": "MARYVILLE",
+      "county": "BLOUNT",
+      "lat": 35.826583,
+      "lon": -83.952311,
+      "trifid": "3780WSMKYM444CN",
+      "naics": "331420",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 5.0,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 5.0
+        }
+      ]
+    },
+    {
+      "name": "AMERICAN APPLIANCE PRODUCTS",
+      "address": "345 CHEMWOOD DR",
+      "city": "NEWPORT",
+      "county": "COCKE",
+      "lat": 35.987732,
+      "lon": -83.204489,
+      "trifid": "37821MRCNP355CH",
+      "naics": "332618",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 1056.0,
+      "top_chemicals": [
+        {
+          "name": "Nickel",
+          "lbs": 1056.0
+        }
+      ]
+    },
+    {
+      "name": "EASTERN PLATING LLC",
+      "address": "371 CHEMWOOD DR",
+      "city": "NEWPORT",
+      "county": "COCKE",
+      "lat": 35.987181,
+      "lon": -83.201989,
+      "trifid": "37821STRNPRTE7B",
+      "naics": "332813",
+      "has_class1": true,
+      "class1_lbs": 10.0,
+      "total_lbs": 15341.8,
+      "top_chemicals": [
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 15132.7
+        },
+        {
+          "name": "Nickel  And Nickel Compounds",
+          "lbs": 167.9
+        },
+        {
+          "name": "Chromium  and Chromium Compounds(except for chromite ore mined in the Transvaal Region)",
+          "lbs": 28.4
+        },
+        {
+          "name": "Nitric acid",
+          "lbs": 10.0
+        },
+        {
+          "name": "Lead",
+          "lbs": 2.8
+        }
+      ]
+    },
+    {
+      "name": "SI GROUP INC. - NEWPORT TN",
+      "address": "380 CHEMWOOD DR",
+      "city": "NEWPORT",
+      "county": "COCKE",
+      "lat": 35.986849,
+      "lon": -83.199897,
+      "trifid": "37821GRTLKROUTE",
+      "naics": "325199",
+      "has_class1": true,
+      "class1_lbs": 23016.8,
+      "total_lbs": 23016.8,
+      "top_chemicals": [
+        {
+          "name": "Xylene (mixed isomers)",
+          "lbs": 12034.0
+        },
+        {
+          "name": "Methanol",
+          "lbs": 7141.8
+        },
+        {
+          "name": "Ethylbenzene",
+          "lbs": 3841.0
+        }
+      ]
+    },
+    {
+      "name": "SONOCO PRODUCTS CO",
+      "address": "766 IND US TRIAL RD",
+      "city": "NEWPORT",
+      "county": "COCKE",
+      "lat": 36.017638,
+      "lon": -83.205738,
+      "trifid": "37821SNCPRRANKI",
+      "naics": "322130",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 349.1,
+      "top_chemicals": [
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 289.0
+        },
+        {
+          "name": "Lead",
+          "lbs": 60.1
+        }
+      ]
+    },
+    {
+      "name": "CLAYTON BEAN STATION",
+      "address": "1160 HWY 11W",
+      "city": "BEAN STATION",
+      "county": "GRAINGER",
+      "lat": 36.340361,
+      "lon": -83.280218,
+      "trifid": "37708NRRSHHIGHW",
+      "naics": "321991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "CLAYTON RUTLEDGE",
+      "address": "395 HIGHWAY 11W",
+      "city": "RUTLEDGE",
+      "county": "GRAINGER",
+      "lat": 36.296389,
+      "lon": -83.480729,
+      "trifid": "37861CLYTNRTE2B",
+      "naics": "321991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "ARTAZN LLC",
+      "address": "2500 OLD STAGE RD",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.197636,
+      "lon": -82.741595,
+      "trifid": "37744BLLZNBALLR",
+      "naics": "331491",
+      "has_class1": true,
+      "class1_lbs": 1244.0,
+      "total_lbs": 3495.8,
+      "top_chemicals": [
+        {
+          "name": "Chlorine",
+          "lbs": 1244.0
+        },
+        {
+          "name": "Cyanide compounds",
+          "lbs": 1071.0
+        },
+        {
+          "name": "Copper compounds",
+          "lbs": 514.7
+        },
+        {
+          "name": "Zinc compounds",
+          "lbs": 361.4
+        },
+        {
+          "name": "Nickel compounds",
+          "lbs": 301.9
+        }
+      ]
+    },
+    {
+      "name": "CROWN FIXTURES INC CROWNTONKA",
+      "address": "140 T ELMER COX DR",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.175425,
+      "lon": -82.900379,
+      "trifid": "37743SHNNN140TE",
+      "naics": "333415",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "DONALDSON CO INC",
+      "address": "115 ROCKWELL DR",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.184011,
+      "lon": -82.806443,
+      "trifid": "37745DNLDS115RC",
+      "naics": "333413",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 636.9,
+      "top_chemicals": [
+        {
+          "name": "Diisocyanates",
+          "lbs": 609.0
+        },
+        {
+          "name": "Chromium  and Chromium Compounds(except for chromite ore mined in the Transvaal Region)",
+          "lbs": 14.3
+        },
+        {
+          "name": "Manganese  And Manganese Compounds",
+          "lbs": 7.6
+        },
+        {
+          "name": "Nickel  And Nickel Compounds",
+          "lbs": 6.0
+        }
+      ]
+    },
+    {
+      "name": "EAST TENNESSEE FOREST PRODUCTS",
+      "address": "945 POTTERTOWN RD",
+      "city": "MOSHEIM",
+      "county": "GREENE",
+      "lat": 36.196984,
+      "lon": -83.011439,
+      "trifid": "37818STTNNPOTTE",
+      "naics": "321114",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "ERMCO COMPONENTS INC.",
+      "address": "1607 INDUSTRIAL RD",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.188169,
+      "lon": -82.797692,
+      "trifid": "37743BTLND1607I",
+      "naics": "335311",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 468.2,
+      "top_chemicals": [
+        {
+          "name": "Copper",
+          "lbs": 468.2
+        }
+      ]
+    },
+    {
+      "name": "HUF-NORTH AMERICA",
+      "address": "395 T ELMER COX DRIVE",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.176959,
+      "lon": -82.901656,
+      "trifid": "3774WHFNRT395TE",
+      "naics": "332510",
+      "has_class1": true,
+      "class1_lbs": 55891.6,
+      "total_lbs": 55891.6,
+      "top_chemicals": [
+        {
+          "name": "Xylene (mixed isomers)",
+          "lbs": 18761.0
+        },
+        {
+          "name": "Methanol",
+          "lbs": 17265.0
+        },
+        {
+          "name": "Toluene",
+          "lbs": 15503.0
+        },
+        {
+          "name": "Ethylbenzene",
+          "lbs": 4362.6
+        }
+      ]
+    },
+    {
+      "name": "JOHN DEERE POWER PRODUCTS",
+      "address": "1630 HAL HENARD RD",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.151839,
+      "lon": -82.888899,
+      "trifid": "37743JHNDR163HA",
+      "naics": "333112",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 20000.0,
+      "top_chemicals": [
+        {
+          "name": "Certain glycol ethers",
+          "lbs": 20000.0
+        }
+      ]
+    },
+    {
+      "name": "MECO CORP",
+      "address": "1500 INDUSTRIAL RD",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.181367,
+      "lon": -82.806699,
+      "trifid": "3774WMCCRP15IND",
+      "naics": "335220",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 1106.6,
+      "top_chemicals": [
+        {
+          "name": "Manganese",
+          "lbs": 500.0
+        },
+        {
+          "name": "Phosphorus (yellow or white)",
+          "lbs": 309.0
+        },
+        {
+          "name": "Lead",
+          "lbs": 142.0
+        },
+        {
+          "name": "Chromium",
+          "lbs": 138.6
+        },
+        {
+          "name": "Aluminum (fume or dust)",
+          "lbs": 17.0
+        }
+      ]
+    },
+    {
+      "name": "MILLER/GREENEVILLE INC.",
+      "address": "711 CAMPBELL DR",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.175474,
+      "lon": -82.816988,
+      "trifid": "3774WMLLRG711CA",
+      "naics": "336211",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 27385.5,
+      "top_chemicals": [
+        {
+          "name": "Chromium",
+          "lbs": 23944.2
+        },
+        {
+          "name": "Manganese",
+          "lbs": 3441.3
+        }
+      ]
+    },
+    {
+      "name": "MILLER/GREENEVILLE PLANT 2",
+      "address": "515 BOHANNON AVE",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.177414,
+      "lon": -82.81055,
+      "trifid": "3774WMLLRG515BH",
+      "naics": "336211",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 3080.8,
+      "top_chemicals": [
+        {
+          "name": "Manganese",
+          "lbs": 1730.4
+        },
+        {
+          "name": "Chromium",
+          "lbs": 1350.5
+        }
+      ]
+    },
+    {
+      "name": "OLDCASTLE BUILDING ENVELOPE - TENNESSEE FACILITY",
+      "address": "920 POTTERTOWN RD",
+      "city": "MIDWAY",
+      "county": "GREENE",
+      "lat": 36.196759,
+      "lon": -83.010977,
+      "trifid": "37809VSTWL920PO",
+      "naics": "331318",
+      "has_class1": true,
+      "class1_lbs": 71154.4,
+      "total_lbs": 73667.4,
+      "top_chemicals": [
+        {
+          "name": "Xylene (mixed isomers)",
+          "lbs": 59199.0
+        },
+        {
+          "name": "Toluene",
+          "lbs": 9917.0
+        },
+        {
+          "name": "Certain glycol ethers",
+          "lbs": 1779.0
+        },
+        {
+          "name": "Ammonia",
+          "lbs": 1150.4
+        },
+        {
+          "name": "Ethylbenzene",
+          "lbs": 888.0
+        }
+      ]
+    },
+    {
+      "name": "PARKER HANNIFIN CORP",
+      "address": "2745 SNAPPS FERRY RD",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.197039,
+      "lon": -82.777791,
+      "trifid": "37744TRWNCSNAPP",
+      "naics": "333996",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 13015.2,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 11220.1
+        },
+        {
+          "name": "Manganese",
+          "lbs": 505.0
+        },
+        {
+          "name": "Nickel",
+          "lbs": 492.1
+        },
+        {
+          "name": "Chromium",
+          "lbs": 461.0
+        },
+        {
+          "name": "Lead",
+          "lbs": 337.0
+        }
+      ]
+    },
+    {
+      "name": "PROWOOD LLC MOSHEIM",
+      "address": "125 SPRING ST S",
+      "city": "MOSHEIM",
+      "county": "GREENE",
+      "lat": 36.185942,
+      "lon": -82.962148,
+      "trifid": "37818CHRKWSPRIN",
+      "naics": "321114",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "READY MIX USA LLC - GREENEVILLE PLANT",
+      "address": "1532 INDUSTRIAL ROAD",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.183813,
+      "lon": -82.803472,
+      "trifid": "3774WRDYMX1532I",
+      "naics": "327320",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "SUMIRIKO TENNESSEE INC.",
+      "address": "199 POTTERTOWN RD",
+      "city": "MIDWAY",
+      "county": "GREENE",
+      "lat": 36.193924,
+      "lon": -82.997978,
+      "trifid": "37809DTRTN199BO",
+      "naics": "326291",
+      "has_class1": true,
+      "class1_lbs": 10022.0,
+      "total_lbs": 15609.0,
+      "top_chemicals": [
+        {
+          "name": "Toluene",
+          "lbs": 6039.0
+        },
+        {
+          "name": "Methyl isobutyl ketone",
+          "lbs": 5587.0
+        },
+        {
+          "name": "Xylene (mixed isomers)",
+          "lbs": 3983.0
+        }
+      ]
+    },
+    {
+      "name": "US NITROGEN LLC",
+      "address": "471 POTTERTOWN RD",
+      "city": "MIDWAY",
+      "county": "GREENE",
+      "lat": 36.193892,
+      "lon": -83.002982,
+      "trifid": "3780WSNTRG471PT",
+      "naics": "325311",
+      "has_class1": true,
+      "class1_lbs": 86553.8,
+      "total_lbs": 118172.0,
+      "top_chemicals": [
+        {
+          "name": "Ammonia",
+          "lbs": 85903.2
+        },
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 31618.2
+        },
+        {
+          "name": "Nitric acid",
+          "lbs": 644.0
+        },
+        {
+          "name": "Chlorine",
+          "lbs": 6.6
+        }
+      ]
+    },
+    {
+      "name": "WORKHORSE CABS LLC DBA CRENLO ENGINEERED CABS",
+      "address": "115 TERRY LEONARD DR",
+      "city": "GREENEVILLE",
+      "county": "GREENE",
+      "lat": 36.187728,
+      "lon": -82.841343,
+      "trifid": "37745NGSPL115TE",
+      "naics": "333120",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 434105.7,
+      "top_chemicals": [
+        {
+          "name": "Manganese",
+          "lbs": 178356.5
+        },
+        {
+          "name": "Chromium",
+          "lbs": 138974.8
+        },
+        {
+          "name": "Nickel",
+          "lbs": 72379.5
+        },
+        {
+          "name": "Copper",
+          "lbs": 43528.2
+        },
+        {
+          "name": "Lead",
+          "lbs": 866.7
+        }
+      ]
+    },
+    {
+      "name": "CLAYTON SUPPLY MORRISTOWN I/II",
+      "address": "5649 E. MORRIS BLVD.",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.251326,
+      "lon": -83.202829,
+      "trifid": "3781WCLYTN5649E",
+      "naics": "321911",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 20131.9,
+      "top_chemicals": [
+        {
+          "name": "Certain glycol ethers",
+          "lbs": 20131.9
+        }
+      ]
+    },
+    {
+      "name": "COLGATE PALMOLIVE CO",
+      "address": "200 CENTENNIAL COURT",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.186565,
+      "lon": -83.277292,
+      "trifid": "3781WCLGTP2CENT",
+      "naics": "325611",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 4285.3,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 3922.0
+        },
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 363.3
+        }
+      ]
+    },
+    {
+      "name": "COLORTECH INC",
+      "address": "5712 COMMERCE BLVD",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.167349,
+      "lon": -83.392756,
+      "trifid": "37814CLRTC5712C",
+      "naics": "325991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "COLORTECH INC",
+      "address": "5705 COMMERCE BLVD",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.168613,
+      "lon": -83.391515,
+      "trifid": "37814CMVCN5705C",
+      "naics": "325991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "IATRIC MANUFACTURING SOLUTIONS LLC",
+      "address": "328 HAMBLEN AVE",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.243531,
+      "lon": -83.211547,
+      "trifid": "37816MRRST328HA",
+      "naics": "325211",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 397.0,
+      "top_chemicals": [
+        {
+          "name": "Certain glycol ethers",
+          "lbs": 397.0
+        }
+      ]
+    },
+    {
+      "name": "JEFFREY CHAIN LP (OPERATING AS RENOLD JEFFREY)",
+      "address": "2307 MADEN DR",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.203244,
+      "lon": -83.322651,
+      "trifid": "37813JFFRY2307M",
+      "naics": "331210",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 57.0,
+      "top_chemicals": [
+        {
+          "name": "Chromium",
+          "lbs": 57.0
+        }
+      ]
+    },
+    {
+      "name": "JTEKT AUTOMOTIVE TENNESSEE MORRISTOWN",
+      "address": "5932 COMMERCE BLVD",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.164397,
+      "lon": -83.395264,
+      "trifid": "3781WJTKTT5932C",
+      "naics": "336330",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 70.0,
+      "top_chemicals": [
+        {
+          "name": "Aluminum (fume or dust)",
+          "lbs": 66.0
+        },
+        {
+          "name": "Copper",
+          "lbs": 4.0
+        }
+      ]
+    },
+    {
+      "name": "KOCH FOODS LLC OF MORRISTOWN DEBONING",
+      "address": "1620 PROGRESS PKWY",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.138945,
+      "lon": -83.295754,
+      "trifid": "3781WKCHFD162PR",
+      "naics": "311615",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 91.2,
+      "top_chemicals": [
+        {
+          "name": "Peracetic acid",
+          "lbs": 91.2
+        }
+      ]
+    },
+    {
+      "name": "KOCH FOODS OF MORRISTOWN LLC",
+      "address": "123 S FAIRMONT AVE",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.206095,
+      "lon": -83.30672,
+      "trifid": "37813KCHFD123SF",
+      "naics": "311615",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "MACDERMID PRINTING SOLUTIONS",
+      "address": "5700 COMMERCE BLVD",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.169484,
+      "lon": -83.390964,
+      "trifid": "37814WRGRC5700C",
+      "naics": "325998",
+      "has_class1": true,
+      "class1_lbs": 38.6,
+      "total_lbs": 160.9,
+      "top_chemicals": [
+        {
+          "name": "Diisocyanates",
+          "lbs": 122.3
+        },
+        {
+          "name": "Toluene diisocyanate (mixed isomers)",
+          "lbs": 38.6
+        }
+      ]
+    },
+    {
+      "name": "MAHLE ENGINE COMPONENTS USA INC",
+      "address": "ONE MAHLE DR",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.25102,
+      "lon": -83.213169,
+      "trifid": "37815MHLNCHWY11",
+      "naics": "336310",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 73.0,
+      "top_chemicals": [
+        {
+          "name": "Nickel  And Nickel Compounds",
+          "lbs": 67.0
+        },
+        {
+          "name": "Copper  And Copper Compounds",
+          "lbs": 6.0
+        }
+      ]
+    },
+    {
+      "name": "MERITOR HEAVY VEHICLE SYSTEMS LLC",
+      "address": "ONE ROCKWELL DR",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.249954,
+      "lon": -83.201329,
+      "trifid": "37813RCKWLONERO",
+      "naics": "336350",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 17.1,
+      "top_chemicals": [
+        {
+          "name": "Nickel",
+          "lbs": 7.0
+        },
+        {
+          "name": "Chromium",
+          "lbs": 5.1
+        },
+        {
+          "name": "Manganese",
+          "lbs": 5.0
+        }
+      ]
+    },
+    {
+      "name": "OTICS USA",
+      "address": "5555 INTERSTATE VIEW DR",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.13868,
+      "lon": -83.289173,
+      "trifid": "3781WTCSSX5555I",
+      "naics": "336310",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 12210.0,
+      "top_chemicals": [
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 11000.0
+        },
+        {
+          "name": "Copper",
+          "lbs": 1050.0
+        },
+        {
+          "name": "Nickel",
+          "lbs": 110.0
+        },
+        {
+          "name": "Lead",
+          "lbs": 50.0
+        }
+      ]
+    },
+    {
+      "name": "PIONEER PLASTICS CORP",
+      "address": "325 DESOTO AVE",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.247155,
+      "lon": -83.205467,
+      "trifid": "37816STRLN325DE",
+      "naics": "326199",
+      "has_class1": true,
+      "class1_lbs": 9733.0,
+      "total_lbs": 9749.0,
+      "top_chemicals": [
+        {
+          "name": "Styrene",
+          "lbs": 9733.0
+        },
+        {
+          "name": "Methyl methacrylate",
+          "lbs": 15.0
+        },
+        {
+          "name": "Cumene hydroperoxide",
+          "lbs": 1.0
+        }
+      ]
+    },
+    {
+      "name": "READY MIX USA LLC-MORRISTOWN PLANT",
+      "address": "663 S SUGAR HOLLOW RD",
+      "city": "MORRISTOWN",
+      "county": "HAMBLEN",
+      "lat": 36.188636,
+      "lon": -83.337524,
+      "trifid": "3781WRDYMX633SS",
+      "naics": "327320",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "BARRETTE OUTDOOR LIVING INC.",
+      "address": "740 NORTH MAIN STREET",
+      "city": "BULLS GAP",
+      "county": "HAWKINS",
+      "lat": 36.274038,
+      "lon": -83.07131,
+      "trifid": "3771WBRRTT74NRT",
+      "naics": "326199",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "BHARAT FORGE PMT TECHNOLOGIE LLC",
+      "address": "2105 SCHMIEDE ST",
+      "city": "SURGOINSVILLE",
+      "county": "HAWKINS",
+      "lat": 36.473081,
+      "lon": -82.806603,
+      "trifid": "37873PDDNG2105S",
+      "naics": "332111",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 2052.1,
+      "top_chemicals": [
+        {
+          "name": "Manganese",
+          "lbs": 1194.1
+        },
+        {
+          "name": "Chromium",
+          "lbs": 477.7
+        },
+        {
+          "name": "Nickel",
+          "lbs": 339.9
+        },
+        {
+          "name": "Lead",
+          "lbs": 40.4
+        }
+      ]
+    },
+    {
+      "name": "CARDINAL CG CO",
+      "address": "572 CARDINAL WAY ROAD",
+      "city": "CHURCH HILL",
+      "county": "HAWKINS",
+      "lat": 36.493799,
+      "lon": -82.780302,
+      "trifid": "3764WCRDNL572CA",
+      "naics": "327215",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "CARDINAL GLASS INDUSTRIES-GREENLAND PLANT",
+      "address": "600 CARDINAL WAY ROAD",
+      "city": "CHURCH HILL",
+      "county": "HAWKINS",
+      "lat": 36.497449,
+      "lon": -82.782983,
+      "trifid": "37642FGNDSAFGRD",
+      "naics": "327211",
+      "has_class1": true,
+      "class1_lbs": 0.0,
+      "total_lbs": 255.0,
+      "top_chemicals": [
+        {
+          "name": "Arsenic compounds",
+          "lbs": 250.0
+        },
+        {
+          "name": "Cadmium compounds",
+          "lbs": 5.0
+        }
+      ]
+    },
+    {
+      "name": "DODGE INDUSTRIAL",
+      "address": "100 BEARING WAY",
+      "city": "ROGERSVILLE",
+      "county": "HAWKINS",
+      "lat": 36.408289,
+      "lon": -82.983265,
+      "trifid": "37857RLNCLRELIA",
+      "naics": "332991",
+      "has_class1": true,
+      "class1_lbs": 255.0,
+      "total_lbs": 255.0,
+      "top_chemicals": [
+        {
+          "name": "Methanol",
+          "lbs": 255.0
+        }
+      ]
+    },
+    {
+      "name": "HOLLISTON HOLDINGS LLC",
+      "address": "905 HOLLISTON MILLS RD",
+      "city": "CHURCH HILL",
+      "county": "HAWKINS",
+      "lat": 36.514702,
+      "lon": -82.756341,
+      "trifid": "37642HLLSTHWY11",
+      "naics": "313320",
+      "has_class1": true,
+      "class1_lbs": 100036.0,
+      "total_lbs": 100036.0,
+      "top_chemicals": [
+        {
+          "name": "Toluene",
+          "lbs": 100036.0
+        }
+      ]
+    },
+    {
+      "name": "HUTCHINSON SEALING SYSTEMS INC",
+      "address": "309 PRESS RD",
+      "city": "CHURCH HILL",
+      "county": "HAWKINS",
+      "lat": 36.532788,
+      "lon": -82.716111,
+      "trifid": "37642KNGST11KIN",
+      "naics": "326291",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 1192.5,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 1192.5
+        }
+      ]
+    },
+    {
+      "name": "MUNDET TENNESSEE INC",
+      "address": "170 GEIGER RD",
+      "city": "SURGOINSVILLE",
+      "county": "HAWKINS",
+      "lat": 36.473272,
+      "lon": -82.816415,
+      "trifid": "37873PCLCN306GE",
+      "naics": "323111",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 17732.0,
+      "top_chemicals": [
+        {
+          "name": "Copper",
+          "lbs": 8849.0
+        },
+        {
+          "name": "Aluminum (fume or dust)",
+          "lbs": 5935.0
+        },
+        {
+          "name": "Zinc (fume or dust)",
+          "lbs": 2948.0
+        }
+      ]
+    },
+    {
+      "name": "SAM DONG INC",
+      "address": "300 INDUSTRIAL PARK DR",
+      "city": "ROGERSVILLE",
+      "county": "HAWKINS",
+      "lat": 36.38726,
+      "lon": -83.035513,
+      "trifid": "37857SSRDC300IN",
+      "naics": "332812",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 2992.6,
+      "top_chemicals": [
+        {
+          "name": "Cresol (mixed isomers)",
+          "lbs": 1740.2
+        },
+        {
+          "name": "Phenol",
+          "lbs": 1056.3
+        },
+        {
+          "name": "Copper",
+          "lbs": 196.1
+        }
+      ]
+    },
+    {
+      "name": "U.S. TVA JOHN SEVIER COMBINED CYCLE PLANT",
+      "address": "299 TVA POND RD",
+      "city": "ROGERSVILLE",
+      "county": "HAWKINS",
+      "lat": 36.401966,
+      "lon": -82.86755,
+      "trifid": "37857STVJHOLDHW",
+      "naics": "221112",
+      "has_class1": true,
+      "class1_lbs": 6000.0,
+      "total_lbs": 6000.0,
+      "top_chemicals": [
+        {
+          "name": "Ammonia",
+          "lbs": 6000.0
+        }
+      ]
+    },
+    {
+      "name": "US ARMY HOLSTON ARMY AMMUNITION PLANT",
+      "address": "4509 W STONE DR",
+      "city": "KINGSPORT",
+      "county": "HAWKINS",
+      "lat": 36.550526,
+      "lon": -82.635809,
+      "trifid": "37660HLSTNWESTS",
+      "naics": "928110",
+      "has_class1": true,
+      "class1_lbs": 18233.9,
+      "total_lbs": 4605602.9,
+      "top_chemicals": [
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 4587369.1
+        },
+        {
+          "name": "Nitric acid",
+          "lbs": 12228.0
+        },
+        {
+          "name": "Toluene",
+          "lbs": 5215.9
+        },
+        {
+          "name": "Ammonia",
+          "lbs": 790.0
+        }
+      ]
+    },
+    {
+      "name": "NYRSTAR COY-MINE",
+      "address": "420 E BROADWAY BLVD",
+      "city": "JEFFERSON CITY",
+      "county": "JEFFERSON",
+      "lat": 36.122216,
+      "lon": -83.474934,
+      "trifid": "37760SRCNC420WB",
+      "naics": "212230",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 1764458.6,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 1764039.0
+        },
+        {
+          "name": "Lead  And Lead Compounds",
+          "lbs": 411.3
+        },
+        {
+          "name": "Mercury compounds",
+          "lbs": 8.3
+        }
+      ]
+    },
+    {
+      "name": "NYSTAR - YOUNG MINE & MILL",
+      "address": "1977 W HWY 11E",
+      "city": "NEW MARKET",
+      "county": "JEFFERSON",
+      "lat": 36.081514,
+      "lon": -83.614637,
+      "trifid": "37871SRCNC1977W",
+      "naics": "212230",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 2589669.0,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 2570429.1
+        },
+        {
+          "name": "Cadmium compounds",
+          "lbs": 9447.6
+        },
+        {
+          "name": "Copper compounds",
+          "lbs": 8882.3
+        },
+        {
+          "name": "Lead  And Lead Compounds",
+          "lbs": 896.9
+        },
+        {
+          "name": "Mercury  And Mercury Compounds",
+          "lbs": 13.1
+        }
+      ]
+    },
+    {
+      "name": "OSHKOSH MANUFACTURING LLC",
+      "address": "1400 FLAT GAP RD",
+      "city": "JEFFERSON CITY",
+      "county": "JEFFERSON",
+      "lat": 36.108619,
+      "lon": -83.494135,
+      "trifid": "3776WSHKSH14FLA",
+      "naics": "336120",
+      "has_class1": true,
+      "class1_lbs": 369.0,
+      "total_lbs": 547.0,
+      "top_chemicals": [
+        {
+          "name": "Ethylene glycol",
+          "lbs": 369.0
+        },
+        {
+          "name": "Manganese",
+          "lbs": 178.0
+        }
+      ]
+    },
+    {
+      "name": "QUIKRETE - MORRISTOWN TN PLANT",
+      "address": "269 ROCKTOWN RD",
+      "city": "JEFFERSON CITY",
+      "county": "JEFFERSON",
+      "lat": 36.13975,
+      "lon": -83.451787,
+      "trifid": "3776WQKRTM269RC",
+      "naics": "327999",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.6,
+      "top_chemicals": [
+        {
+          "name": "Lead",
+          "lbs": 0.6
+        }
+      ]
+    },
+    {
+      "name": "SONOCO METAL PACKAGING  LLC",
+      "address": "2719 AJ BUSH DRIVE",
+      "city": "DANDRIDGE",
+      "county": "JEFFERSON",
+      "lat": 35.999517,
+      "lon": -83.405552,
+      "trifid": "37716HKNCN408EA",
+      "naics": "332431",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 37612.0,
+      "top_chemicals": [
+        {
+          "name": "n-Butyl alcohol",
+          "lbs": 25670.0
+        },
+        {
+          "name": "Certain glycol ethers",
+          "lbs": 11942.0
+        }
+      ]
+    },
+    {
+      "name": "TRU WHITE PINE",
+      "address": "2215 WALNUT ST",
+      "city": "WHITE PINE",
+      "county": "JEFFERSON",
+      "lat": 36.102369,
+      "lon": -83.272931,
+      "trifid": "37890CLYTN2215W",
+      "naics": "321991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "BAM INC.",
+      "address": "10536 LEXINGTON DRIVE",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.910292,
+      "lon": -84.138973,
+      "trifid": "3793WBMNCX1536L",
+      "naics": "336413",
+      "has_class1": true,
+      "class1_lbs": 141.0,
+      "total_lbs": 141.0,
+      "top_chemicals": [
+        {
+          "name": "Hydrogen cyanide",
+          "lbs": 141.0
+        }
+      ]
+    },
+    {
+      "name": "CEMEX CONSTRUCTION MATERIALS ATLANTIC LLC",
+      "address": "6212 CEMENT PLANT RD",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 36.030232,
+      "lon": -83.821786,
+      "trifid": "37914DXCMN6212C",
+      "naics": "327310",
+      "has_class1": true,
+      "class1_lbs": 23845.0,
+      "total_lbs": 23942.5,
+      "top_chemicals": [
+        {
+          "name": "Ammonia",
+          "lbs": 23845.0
+        },
+        {
+          "name": "Lead compounds",
+          "lbs": 82.4
+        },
+        {
+          "name": "Mercury",
+          "lbs": 15.2
+        }
+      ]
+    },
+    {
+      "name": "CHEVRON PHILLIPS CHEMICAL CO PERFORMANCE PIPE DIV",
+      "address": "10420 LEXINGTON DR",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.91213,
+      "lon": -84.133319,
+      "trifid": "37922PLXCX10420",
+      "naics": "326122",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "CMC STEEL TENNESSEE",
+      "address": "1919 TENNESSEE AVE",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.976998,
+      "lon": -83.956073,
+      "trifid": "37921FLRDS1919T",
+      "naics": "331110",
+      "has_class1": true,
+      "class1_lbs": 6.4,
+      "total_lbs": 12306.6,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 9496.1
+        },
+        {
+          "name": "Manganese compounds",
+          "lbs": 1150.0
+        },
+        {
+          "name": "Lead compounds",
+          "lbs": 1056.4
+        },
+        {
+          "name": "Copper compounds",
+          "lbs": 219.1
+        },
+        {
+          "name": "Chromium compounds (except for chromite ore mined in the Transvaal Region)",
+          "lbs": 210.8
+        }
+      ]
+    },
+    {
+      "name": "CORECHEM INC.",
+      "address": "4320 GREENWAY DR",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 36.032222,
+      "lon": -83.895004,
+      "trifid": "37918GRNWY4320G",
+      "naics": "424690",
+      "has_class1": true,
+      "class1_lbs": 2182.0,
+      "total_lbs": 2254.0,
+      "top_chemicals": [
+        {
+          "name": "Methanol",
+          "lbs": 1194.0
+        },
+        {
+          "name": "Ethylene glycol",
+          "lbs": 823.0
+        },
+        {
+          "name": "Nitric acid",
+          "lbs": 165.0
+        },
+        {
+          "name": "n-Hexane",
+          "lbs": 72.0
+        }
+      ]
+    },
+    {
+      "name": "DARLING INGREDIENTS KNOXVILLE FACILITY",
+      "address": "9300 JOHNSON RD.",
+      "city": "STRAWBERRY PLAINS",
+      "county": "KNOX",
+      "lat": 36.048758,
+      "lon": -83.722359,
+      "trifid": "37871VLLYP9300J",
+      "naics": "311613",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 12768.0,
+      "top_chemicals": [
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 12768.0
+        }
+      ]
+    },
+    {
+      "name": "EXEDY AMERICA CORP",
+      "address": "2121 HOLSTON BEND DR",
+      "city": "MASCOT",
+      "county": "KNOX",
+      "lat": 36.077617,
+      "lon": -83.72686,
+      "trifid": "37806DKNDR2121H",
+      "naics": "336350",
+      "has_class1": true,
+      "class1_lbs": 0.0,
+      "total_lbs": 139.3,
+      "top_chemicals": [
+        {
+          "name": "Copper",
+          "lbs": 107.0
+        },
+        {
+          "name": "Manganese",
+          "lbs": 30.0
+        },
+        {
+          "name": "Lead",
+          "lbs": 2.3
+        }
+      ]
+    },
+    {
+      "name": "EXPLORE INDUSTRIES USA INC",
+      "address": "2601 SEA RAY BLVD",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.998295,
+      "lon": -83.836335,
+      "trifid": "37914SRYBT2601S",
+      "naics": "326199",
+      "has_class1": true,
+      "class1_lbs": 345305.0,
+      "total_lbs": 345305.0,
+      "top_chemicals": [
+        {
+          "name": "Styrene",
+          "lbs": 345305.0
+        }
+      ]
+    },
+    {
+      "name": "FULTON BELLOWS LLC",
+      "address": "2801 RED DOG LANE",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.946765,
+      "lon": -83.830312,
+      "trifid": "3791WFLTNB281RE",
+      "naics": "332999",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 5.0,
+      "top_chemicals": [
+        {
+          "name": "Nickel",
+          "lbs": 5.0
+        }
+      ]
+    },
+    {
+      "name": "KELVION PRODUCTS INC. - KNOXVILLE",
+      "address": "5050 S NATIONAL DR",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.94488,
+      "lon": -83.837863,
+      "trifid": "37914MDNMN5050S",
+      "naics": "336390",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "LAMBCON READY MIX",
+      "address": "6210 RUTLEDGE PIKE - KNOXVILLE",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 36.035543,
+      "lon": -83.83939,
+      "trifid": "3792WLMBCN621RU",
+      "naics": "327310",
+      "has_class1": true,
+      "class1_lbs": 30.0,
+      "total_lbs": 30.0,
+      "top_chemicals": [
+        {
+          "name": "Toluene",
+          "lbs": 10.0
+        },
+        {
+          "name": "Benzene",
+          "lbs": 10.0
+        },
+        {
+          "name": "Xylene (mixed isomers)",
+          "lbs": 10.0
+        }
+      ]
+    },
+    {
+      "name": "MPLX TERMINALS LLC - KNOXVILLE TN LP TERMINAL",
+      "address": "2601 KNOTT RD",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.963597,
+      "lon": -84.001995,
+      "trifid": "37921MRTHN261KN",
+      "naics": "424710",
+      "has_class1": true,
+      "class1_lbs": 1684.0,
+      "total_lbs": 3008.8,
+      "top_chemicals": [
+        {
+          "name": "n-Hexane",
+          "lbs": 950.0
+        },
+        {
+          "name": "Toluene",
+          "lbs": 773.0
+        },
+        {
+          "name": "Benzene",
+          "lbs": 530.0
+        },
+        {
+          "name": "Xylene (mixed isomers)",
+          "lbs": 311.0
+        },
+        {
+          "name": "Cyclohexane",
+          "lbs": 290.0
+        }
+      ]
+    },
+    {
+      "name": "NYRSTAR- IMMEL MINE",
+      "address": "2160 IMMEL MINE RD",
+      "city": "MASCOT",
+      "county": "KNOX",
+      "lat": 36.067483,
+      "lon": -83.698194,
+      "trifid": "37806SRCNC2160I",
+      "naics": "212230",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 1766691.9,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 1766279.0
+        },
+        {
+          "name": "Lead  And Lead Compounds",
+          "lbs": 404.7
+        },
+        {
+          "name": "Mercury compounds",
+          "lbs": 8.2
+        }
+      ]
+    },
+    {
+      "name": "READY MIX USA LLC-NEYLAND DRIVE PLANT",
+      "address": "2200 NEYLAND DR",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.944214,
+      "lon": -83.930234,
+      "trifid": "37916NYLND22NEY",
+      "naics": "327320",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.1,
+      "top_chemicals": [
+        {
+          "name": "Lead  And Lead Compounds",
+          "lbs": 0.1
+        }
+      ]
+    },
+    {
+      "name": "ROHM & HAAS CHEMICALS LLC - KNOXVILLE SITE",
+      "address": "730 DALE AVE",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.962034,
+      "lon": -83.941094,
+      "trifid": "37921RHMND730DA",
+      "naics": "325211",
+      "has_class1": true,
+      "class1_lbs": 26384.5,
+      "total_lbs": 52985.0,
+      "top_chemicals": [
+        {
+          "name": "Acrylic acid",
+          "lbs": 14037.6
+        },
+        {
+          "name": "Ammonia",
+          "lbs": 12765.8
+        },
+        {
+          "name": "m-Xylene",
+          "lbs": 10514.8
+        },
+        {
+          "name": "Methyl methacrylate",
+          "lbs": 4266.9
+        },
+        {
+          "name": "Butyl acrylate",
+          "lbs": 3249.0
+        }
+      ]
+    },
+    {
+      "name": "SAFETY-KLEEN SYSTEMS KNOXVILLE (KNO)",
+      "address": "6617 PLEASANT RIDGE RD",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 36.00307,
+      "lon": -84.025023,
+      "trifid": "37921SFTYK6617P",
+      "naics": "562112",
+      "has_class1": true,
+      "class1_lbs": 1.0,
+      "total_lbs": 1.0,
+      "top_chemicals": [
+        {
+          "name": "Ethylene glycol",
+          "lbs": 1.0
+        }
+      ]
+    },
+    {
+      "name": "SCHICK MANUFACTURING INC",
+      "address": "2820 MEDIA DR",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.958241,
+      "lon": -83.82695,
+      "trifid": "37914MRCNS2820M",
+      "naics": "332215",
+      "has_class1": true,
+      "class1_lbs": 719.4,
+      "total_lbs": 719.4,
+      "top_chemicals": [
+        {
+          "name": "Ammonia",
+          "lbs": 719.4
+        }
+      ]
+    },
+    {
+      "name": "SMYRNA READY MIX CONCRETE LLC PLANT 47",
+      "address": "2145 SUTHERLAND AVE",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.958017,
+      "lon": -83.950531,
+      "trifid": "3791WSQTCH2145S",
+      "naics": "327320",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "SMYRNA READY MIX PLANT 31",
+      "address": "3021 AMHERST RD - KNOXVILLE",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.971585,
+      "lon": -84.054728,
+      "trifid": "3792WSMYRN321AM",
+      "naics": "327320",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "TRU HALLS",
+      "address": "3926 FOUNTAIN VALLEY RD",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 36.068892,
+      "lon": -83.929531,
+      "trifid": "37918CLYTN3938F",
+      "naics": "321991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "WOODSTREAM CORP",
+      "address": "5360 NORTH NATIONAL DRIVE",
+      "city": "KNOXVILLE",
+      "county": "KNOX",
+      "lat": 35.956465,
+      "lon": -83.826546,
+      "trifid": "3791WWDSTR536NR",
+      "naics": "335999",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 2.7,
+      "top_chemicals": [
+        {
+          "name": "Tetrabromobisphenol A",
+          "lbs": 2.7
+        }
+      ]
+    },
+    {
+      "name": "EMCO WILLIAMS INC",
+      "address": "1030 OLD KNOXVILLE HWY",
+      "city": "SEVIERVILLE",
+      "county": "SEVIER",
+      "lat": 35.883311,
+      "lon": -83.582271,
+      "trifid": "37862MCWLL1030O",
+      "naics": "326199",
+      "has_class1": true,
+      "class1_lbs": 611.0,
+      "total_lbs": 611.0,
+      "top_chemicals": [
+        {
+          "name": "Styrene",
+          "lbs": 611.0
+        }
+      ]
+    },
+    {
+      "name": "JOHNSON MATTHEY US 2 LLC C/O JOHNSON MATTHEY CATALYSTS",
+      "address": "1246 AIRPORT RD",
+      "city": "SEVIERVILLE",
+      "county": "SEVIER",
+      "lat": 35.858768,
+      "lon": -83.52539,
+      "trifid": "37862CTVDTAIRPO",
+      "naics": "325180",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 322.3,
+      "top_chemicals": [
+        {
+          "name": "Nickel",
+          "lbs": 174.5
+        },
+        {
+          "name": "Aluminum (fume or dust)",
+          "lbs": 147.8
+        }
+      ]
+    },
+    {
+      "name": "LISEGA INC",
+      "address": "370 E DUMPLIN VALLEY RD",
+      "city": "KODAK",
+      "county": "SEVIER",
+      "lat": 35.98856,
+      "lon": -83.594413,
+      "trifid": "3774WLSGNC37EAS",
+      "naics": "332999",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 1233.0,
+      "top_chemicals": [
+        {
+          "name": "Nickel",
+          "lbs": 500.0
+        },
+        {
+          "name": "Chromium",
+          "lbs": 287.0
+        },
+        {
+          "name": "Manganese",
+          "lbs": 255.0
+        },
+        {
+          "name": "Zinc compounds",
+          "lbs": 191.0
+        }
+      ]
+    },
+    {
+      "name": "OTICS USA",
+      "address": "3787 SNYDER RD",
+      "city": "KODAK",
+      "county": "SEVIER",
+      "lat": 35.994305,
+      "lon": -83.612878,
+      "trifid": "3776WTCSSX3787S",
+      "naics": "332991",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 3040.0,
+      "top_chemicals": [
+        {
+          "name": "Copper",
+          "lbs": 2900.0
+        },
+        {
+          "name": "Lead",
+          "lbs": 140.0
+        }
+      ]
+    },
+    {
+      "name": "BELL HELICOPTER TEXTRON",
+      "address": "441 INDUSTRIAL PARK ROAD",
+      "city": "PINEY FLATS",
+      "county": "SULLIVAN",
+      "lat": 36.433793,
+      "lon": -82.298196,
+      "trifid": "3768WBLLHL441IN",
+      "naics": "336413",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "BRISTOL METALS LP",
+      "address": "390 BRISTOL METALS RD",
+      "city": "BRISTOL",
+      "county": "SULLIVAN",
+      "lat": 36.542816,
+      "lon": -82.185171,
+      "trifid": "37621BRSTL390BR",
+      "naics": "331210",
+      "has_class1": true,
+      "class1_lbs": 448.0,
+      "total_lbs": 117173.5,
+      "top_chemicals": [
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 100167.0
+        },
+        {
+          "name": "Hydrogen fluoride",
+          "lbs": 10922.0
+        },
+        {
+          "name": "Chromium  and Chromium Compounds(except for chromite ore mined in the Transvaal Region)",
+          "lbs": 3493.0
+        },
+        {
+          "name": "Nickel  And Nickel Compounds",
+          "lbs": 1777.9
+        },
+        {
+          "name": "Nitric acid",
+          "lbs": 448.0
+        }
+      ]
+    },
+    {
+      "name": "DOMTAR PAPER CO LLC KINGSPORT MILL",
+      "address": "100 CLINCHFIELD ST",
+      "city": "KINGSPORT",
+      "county": "SULLIVAN",
+      "lat": 36.547049,
+      "lon": -82.564727,
+      "trifid": "37662MDPPRPOBOX",
+      "naics": "322130",
+      "has_class1": true,
+      "class1_lbs": 37915.4,
+      "total_lbs": 163924.3,
+      "top_chemicals": [
+        {
+          "name": "Manganese  And Manganese Compounds",
+          "lbs": 123963.0
+        },
+        {
+          "name": "Methanol",
+          "lbs": 37914.6
+        },
+        {
+          "name": "Lead  And Lead Compounds",
+          "lbs": 1807.0
+        },
+        {
+          "name": "Polycyclic aromatic compounds",
+          "lbs": 239.0
+        },
+        {
+          "name": "Dioxin and dioxin-like compounds",
+          "lbs": 0.8
+        }
+      ]
+    },
+    {
+      "name": "EASTMAN CHEMICAL CO TENNESSEE OPERATIONS",
+      "address": "100 EASTMAN RD",
+      "city": "KINGSPORT",
+      "county": "SULLIVAN",
+      "lat": 36.527234,
+      "lon": -82.538202,
+      "trifid": "37662TNNSSEASTM",
+      "naics": "325211",
+      "has_class1": true,
+      "class1_lbs": 1049629.1,
+      "total_lbs": 3631584.7,
+      "top_chemicals": [
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 767395.0
+        },
+        {
+          "name": "Methanol",
+          "lbs": 566603.0
+        },
+        {
+          "name": "Chromium  and Chromium Compounds(except for chromite ore mined in the Transvaal Region)",
+          "lbs": 292109.0
+        },
+        {
+          "name": "Formic acid",
+          "lbs": 266608.0
+        },
+        {
+          "name": "Barium compounds (except for barium sulfate (CAS No. 7727-43-7))",
+          "lbs": 236860.0
+        }
+      ]
+    },
+    {
+      "name": "KPS GLOBAL",
+      "address": "521 INDUSTRIAL PARK RD",
+      "city": "PINEY FLATS",
+      "county": "SULLIVAN",
+      "lat": 36.435175,
+      "lon": -82.2932,
+      "trifid": "37686KYSRP521IN",
+      "naics": "333415",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.1,
+      "top_chemicals": [
+        {
+          "name": "Diisocyanates",
+          "lbs": 0.1
+        }
+      ]
+    },
+    {
+      "name": "MICROPOROUS LLC",
+      "address": "596 INDUSTRIAL PARK RD",
+      "city": "PINEY FLATS",
+      "county": "SULLIVAN",
+      "lat": 36.435985,
+      "lon": -82.29063,
+      "trifid": "37686MCRPR596IN",
+      "naics": "326299",
+      "has_class1": true,
+      "class1_lbs": 93300.0,
+      "total_lbs": 93300.0,
+      "top_chemicals": [
+        {
+          "name": "Trichloroethylene",
+          "lbs": 93300.0
+        }
+      ]
+    },
+    {
+      "name": "MODERN FORGE TENNESSEE LLC.",
+      "address": "501 ROCK LN",
+      "city": "PINEY FLATS",
+      "county": "SULLIVAN",
+      "lat": 36.437577,
+      "lon": -82.283118,
+      "trifid": "37686MDRNF501RO",
+      "naics": "332111",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 177.4,
+      "top_chemicals": [
+        {
+          "name": "Chromium",
+          "lbs": 105.5
+        },
+        {
+          "name": "Manganese",
+          "lbs": 36.6
+        },
+        {
+          "name": "Nickel",
+          "lbs": 35.4
+        }
+      ]
+    },
+    {
+      "name": "POLYMER INDUSTRIAL PRODUCTS",
+      "address": "688 INDUSTRIAL PARK RD",
+      "city": "PINEY FLATS",
+      "county": "SULLIVAN",
+      "lat": 36.437646,
+      "lon": -82.287947,
+      "trifid": "37686PLYMR688IN",
+      "naics": "326299",
+      "has_class1": true,
+      "class1_lbs": 3270.0,
+      "total_lbs": 3275.0,
+      "top_chemicals": [
+        {
+          "name": "Toluene",
+          "lbs": 3006.0
+        },
+        {
+          "name": "Xylene (mixed isomers)",
+          "lbs": 264.0
+        },
+        {
+          "name": "Zinc compounds",
+          "lbs": 5.0
+        }
+      ]
+    },
+    {
+      "name": "PRIMESTER GP",
+      "address": "1801 WARRICK DR",
+      "city": "KINGSPORT",
+      "county": "SULLIVAN",
+      "lat": 36.515907,
+      "lon": -82.547597,
+      "trifid": "3766WPRMST181WA",
+      "naics": "325220",
+      "has_class1": true,
+      "class1_lbs": 2056.0,
+      "total_lbs": 6217.0,
+      "top_chemicals": [
+        {
+          "name": "Propylene",
+          "lbs": 2046.0
+        },
+        {
+          "name": "Chlorodifluoromethane (HCFC-22)",
+          "lbs": 1750.0
+        },
+        {
+          "name": "Nitrate compounds (water dissociable; reportable only when in aqueous solution)",
+          "lbs": 1365.0
+        },
+        {
+          "name": "Sodium nitrite",
+          "lbs": 855.0
+        },
+        {
+          "name": "Acetaldehyde",
+          "lbs": 181.0
+        }
+      ]
+    },
+    {
+      "name": "READY MIX USA LLC-KINGSPORT PLANT",
+      "address": "1543 S WILCOX DR",
+      "city": "KINGSPORT",
+      "county": "SULLIVAN",
+      "lat": 36.514133,
+      "lon": -82.562309,
+      "trifid": "3766WRDYMX1543S",
+      "naics": "327320",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "SAFETY-KLEEN SYSTEMS PINEY FLATS (PLT)",
+      "address": "317 IND US TRIAL PARK RD",
+      "city": "PINEY FLATS",
+      "county": "SULLIVAN",
+      "lat": 36.4315,
+      "lon": -82.302274,
+      "trifid": "3768WSFTYK317IN",
+      "naics": "562112",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "SEAMAN CORP-BRISTOL PLANT",
+      "address": "225 N IND US TRIAL DR",
+      "city": "BRISTOL",
+      "county": "SULLIVAN",
+      "lat": 36.562597,
+      "lon": -82.170036,
+      "trifid": "37620SMNCRINDUS",
+      "naics": "313320",
+      "has_class1": true,
+      "class1_lbs": 1339.0,
+      "total_lbs": 3316.0,
+      "top_chemicals": [
+        {
+          "name": "Antimony  And Antimony Compounds",
+          "lbs": 1963.0
+        },
+        {
+          "name": "Toluene",
+          "lbs": 1339.0
+        },
+        {
+          "name": "Lead  And Lead Compounds",
+          "lbs": 14.0
+        }
+      ]
+    },
+    {
+      "name": "TRI-CITY EXTRUSION",
+      "address": "1610 ARKANSAS AVE",
+      "city": "BRISTOL",
+      "county": "SULLIVAN",
+      "lat": 36.575324,
+      "lon": -82.167678,
+      "trifid": "3762WTRCTY161AR",
+      "naics": "331318",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 8928.5,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 4573.5
+        },
+        {
+          "name": "Chromium compounds (except for chromite ore mined in the Transvaal Region)",
+          "lbs": 3634.0
+        },
+        {
+          "name": "Aluminum (fume or dust)",
+          "lbs": 476.0
+        },
+        {
+          "name": "Lead compounds",
+          "lbs": 205.0
+        },
+        {
+          "name": "Nickel compounds",
+          "lbs": 40.0
+        }
+      ]
+    },
+    {
+      "name": "TRI-CITY EXTRUSION PLANT #2",
+      "address": "136 LAMAR STREET",
+      "city": "BRISTOL",
+      "county": "SULLIVAN",
+      "lat": 36.528951,
+      "lon": -82.204069,
+      "trifid": "3762WTRCTY136LA",
+      "naics": "331318",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 2442.0,
+      "top_chemicals": [
+        {
+          "name": "Chromium compounds (except for chromite ore mined in the Transvaal Region)",
+          "lbs": 1799.0
+        },
+        {
+          "name": "Zinc compounds",
+          "lbs": 423.0
+        },
+        {
+          "name": "Aluminum (fume or dust)",
+          "lbs": 173.0
+        },
+        {
+          "name": "Lead compounds",
+          "lbs": 32.0
+        },
+        {
+          "name": "Nickel compounds",
+          "lbs": 15.0
+        }
+      ]
+    },
+    {
+      "name": "ALEMITE",
+      "address": "167 ROWELAND DR",
+      "city": "JOHNSON CITY",
+      "county": "WASHINGTON",
+      "lat": 36.350797,
+      "lon": -82.316998,
+      "trifid": "3760WLMTXX167RW",
+      "naics": "333914",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 0.0,
+      "top_chemicals": []
+    },
+    {
+      "name": "AMERICAN WATER HEATER CO",
+      "address": "1100 E FAIRVIEW AVE",
+      "city": "JOHNSON CITY",
+      "county": "WASHINGTON",
+      "lat": 36.33057,
+      "lon": -82.34322,
+      "trifid": "37601MRFLNOAKLA",
+      "naics": "335220",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 7795.0,
+      "top_chemicals": [
+        {
+          "name": "Barium  And Barium Compounds",
+          "lbs": 3895.0
+        },
+        {
+          "name": "Manganese  And Manganese Compounds",
+          "lbs": 3895.0
+        },
+        {
+          "name": "Diisocyanates",
+          "lbs": 5.0
+        }
+      ]
+    },
+    {
+      "name": "CROWN LABORATORIES INC",
+      "address": "349 LAFE COX DR",
+      "city": "JOHNSON CITY",
+      "county": "WASHINGTON",
+      "lat": 36.299829,
+      "lon": -82.34297,
+      "trifid": "3760WCRWNL349LA",
+      "naics": "325412",
+      "has_class1": false,
+      "class1_lbs": 0.0,
+      "total_lbs": 630.9,
+      "top_chemicals": [
+        {
+          "name": "Zinc compounds",
+          "lbs": 630.9
+        }
+      ]
+    },
+    {
+      "name": "DENTSPLY SIRONA",
+      "address": "608 ROLLING HILLS DR",
+      "city": "JOHNSON CITY",
+      "county": "WASHINGTON",
+      "lat": 36.295022,
+      "lon": -82.345438,
+      "trifid": "3760WDNTSP68RLL",
+      "naics": "339114",
+      "has_class1": true,
+      "class1_lbs": 119.0,
+      "total_lbs": 1557.0,
+      "top_chemicals": [
+        {
+          "name": "Nickel",
+          "lbs": 1438.0
+        },
+        {
+          "name": "Toluene",
+          "lbs": 119.0
+        }
+      ]
+    },
+    {
+      "name": "JTEKT BEARINGS NA LLC -  WASHINGTON PLANT",
+      "address": "146 CUTTING EDGE CT",
+      "city": "TELFORD",
+      "county": "WASHINGTON",
+      "lat": 36.265202,
+      "lon": -82.556378,
+      "trifid": "3769WKYCRP146CU",
+      "naics": "332991",
+      "has_class1": true,
+      "class1_lbs": 10.0,
+      "total_lbs": 10.0,
+      "top_chemicals": [
+        {
+          "name": "Methanol",
+          "lbs": 10.0
+        }
+      ]
+    },
+    {
+      "name": "LPI INC",
+      "address": "506 TWIN OAKS DR",
+      "city": "JOHNSON CITY",
+      "county": "WASHINGTON",
+      "lat": 36.308635,
+      "lon": -82.333824,
+      "trifid": "3760WLPNCX56TWI",
+      "naics": "326191",
+      "has_class1": true,
+      "class1_lbs": 125854.0,
+      "total_lbs": 125854.0,
+      "top_chemicals": [
+        {
+          "name": "Styrene",
+          "lbs": 125854.0
+        }
+      ]
+    }
+  ]
+}

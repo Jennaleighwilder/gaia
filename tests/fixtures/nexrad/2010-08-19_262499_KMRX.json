@@ -1,0 +1,18 @@
+{
+  "event_id": "262499",
+  "date": "2010-08-19",
+  "event_datetime_utc": "2010-08-19T22:00:00Z",
+  "magnitude": "",
+  "county": "washington",
+  "event_type": "flash_flood",
+  "station": "KMRX",
+  "composite_reflectivity": 40,
+  "velocity_max": 5.0,
+  "velocity_min": -5.0,
+  "rotation_couplet_kt": 10.0,
+  "rotation_score": 0.1,
+  "vil": 55,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

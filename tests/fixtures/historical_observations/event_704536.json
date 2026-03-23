@@ -1,0 +1,60 @@
+{
+  "event_id": "704536",
+  "event_date": "2017-05-28",
+  "event_datetime_utc": "2017-05-28T02:53:00Z",
+  "station": "KGKT",
+  "county": "greene",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "50.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2017-05-28T00:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280055Z AUTO VRB03KT 10SM FEW060 SCT085 24/18 A2989 RMK",
+      "sky_condition": "FEW",
+      "temperature_f": 75.2,
+      "dewpoint_f": 64.4,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-05-28T01:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280155Z AUTO 00000KT 10SM CLR 23/19 A2990 RMK",
+      "sky_condition": "CLR",
+      "temperature_f": 73.4,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-05-28T02:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280255Z AUTO 00000KT 10SM SCT060 SCT110 23/19 A2991 RMK",
+      "sky_condition": "SCT",
+      "temperature_f": 73.4,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2017-05-28T03:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280355Z AUTO 21008KT 4SM FEW013 BKN019 OVC047 17/16 A3005 RMK",
+      "sky_condition": "FEW",
+      "temperature_f": 62.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

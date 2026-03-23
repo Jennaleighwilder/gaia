@@ -1,0 +1,18 @@
+{
+  "event_id": "5689032",
+  "date": "2099-03-26",
+  "event_datetime_utc": "2099-03-26T08:00:00Z",
+  "magnitude": "",
+  "county": "hamblen",
+  "event_type": "winter_storm",
+  "station": "KMRX",
+  "composite_reflectivity": 25,
+  "velocity_max": 0.0,
+  "velocity_min": -0.0,
+  "rotation_couplet_kt": 0.0,
+  "rotation_score": 0.0,
+  "vil": 15,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

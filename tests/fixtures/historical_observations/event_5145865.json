@@ -1,0 +1,64 @@
+{
+  "event_id": "5145865",
+  "event_date": "2000-05-28",
+  "event_datetime_utc": "2000-05-28T00:30:00Z",
+  "station": "KGKT",
+  "county": "greene",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2000-05-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 22007KT 5SM -TSRA BR FEW010 SCT028CB BKN033 21/20 A2993 RMK AO2 PK WND 29036/0019 RAE2358B17 PRESRR SLP127 FRQ LTGICCCCG TS OHD AND E-S MOV E P0038 T02110200",
+      "sky_condition": "FEW",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1012.7,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.38
+    },
+    {
+      "timestamp": "2000-05-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 19007KT 8SM TS FEW019 BKN024CB OVC070 20/20 A2994 RMK AO2 RAE49 PRESFR SLP130 OCNL LTGICCCCG TS DSNT E-S MOV E P0011 T02000200",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1013.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.11
+    },
+    {
+      "timestamp": "2000-05-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 20009KT 10SM BKN060 BKN110 21/20 A2993 RMK AO2 TSE11RAB0158E47 PRESRR SLP124 P0003 60052 T02060200 50017",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1012.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2000-05-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 24007KT 10SM FEW060 SCT110 20/19 A2991 RMK AO2 SLP119 T02000189",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1011.9,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": true
+}

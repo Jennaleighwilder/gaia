@@ -1,0 +1,63 @@
+{
+  "event_id": "5461947",
+  "event_date": "2005-06-28",
+  "event_datetime_utc": "2005-06-28T02:45:00Z",
+  "station": "KTYS",
+  "county": "anderson",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "65 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2005-06-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 13005KT 10SM FEW031 SCT150 BKN250 27/20 A3009 RMK AO2 RAB02E24 SLP177 P0009 T02670200",
+      "sky_condition": "FEW",
+      "temperature_f": 80.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1017.7,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.09
+    },
+    {
+      "timestamp": "2005-06-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 11003KT 10SM TS FEW031CB BKN150 BKN250 26/20 A3009 RMK AO2 TSB29 SLP177 CNS LTGICCCCG TS VC S-SW MOV N T02560200",
+      "sky_condition": "FEW",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1017.7,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-06-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 26005KT 10SM SCT031CB BKN120 BKN250 25/21 A3012 RMK AO2 TSE43 SLP185 FRQ LTGIC CB VC W-NW MOV N 60009 T02500206 53017",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1018.5,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-06-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 06006KT 10SM TS SCT030CB BKN050 OVC095 24/21 A3012 RMK AO2 TSB26RAB26E38 SLP187 FRQ LTGIC TS VC W-N MOV N P0003 T02390206",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1018.7,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.03
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,283 @@
+{
+  "quiet_id": "quiet_20110514_KTRI",
+  "date": "2011-05-14",
+  "station": "KTRI",
+  "observation_count": 25,
+  "observations": [
+    {
+      "timestamp": "2011-05-14T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140053Z 00000KT 9SM SCT085 OVC250 18/16 A2979 RMK AO2 RAE39 SLP066 P0000 T01830161",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1006.6,
+      "visibility_mi": 9.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2011-05-14T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140153Z 00000KT 9SM FEW085 OVC250 18/16 A2979 RMK AO2 SLP064 T01780161",
+      "sky_condition": "FEW",
+      "temperature_f": 64.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1006.4,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "2011-05-14T02:55:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140255Z 00000KT FEW120 OVC250 17/16 A2980 RMK AO2 SFC VIS 7",
+      "sky_condition": "FEW",
+      "temperature_f": 62.6,
+      "dewpoint_f": 60.8
+    },
+    {
+      "timestamp": "2011-05-14T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140353Z 00000KT 3SM BR FEW120 OVC250 17/16 A2980 RMK AO2 SLP069 T01670156",
+      "sky_condition": "FEW",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1006.9,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "2011-05-14T04:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140453Z 00000KT 1 1/2SM BR SCT001 BKN050 OVC120 17/16 A2981 RMK AO2 SLP071 T01670156 402720150",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1007.1,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "2011-05-14T05:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140553Z 00000KT 1/8SM FG OVC001 17/16 A2980 RMK AO2 SLP066 60000 T01670156 10189 20167 58001",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1006.6,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "2011-05-14T06:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140653Z 00000KT 3/4SM BR BKN001 OVC030 16/15 A2978 RMK AO2 SLP060 T01610150",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1006.0,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "2011-05-14T07:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140753Z 00000KT 1/8SM FG VV001 16/15 A2975 RMK AO2 SLP056 T01560150",
+      "sky_condition": "VV ",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1005.6,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "2011-05-14T08:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140853Z 00000KT 1/8SM FG VV001 16/15 A2974 RMK AO2 SLP054 T01610150 56017",
+      "sky_condition": "VV ",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1005.4,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "2011-05-14T09:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 140953Z COR 07003KT 1 1/2SM BR SCT003 SCT150 16/15 A2974 RMK AO2 SLP050 T01610150",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1005.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 1.5,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2011-05-14T10:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141053Z 00000KT 1 1/4SM BR SCT001 BKN070 16/15 A2973 RMK AO2 TWR VIS 2 SLP047 T01610150",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1004.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 1.25,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2011-05-14T10:55:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141055Z 00000KT 1 1/2SM BR OVC001 16/15 A2973 RMK AO2 TWR VIS 2",
+      "sky_condition": "OVC",
+      "temperature_f": 60.8,
+      "dewpoint_f": 59.0,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "2011-05-14T11:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141153Z 00000KT 1 1/2SM BR OVC001 16/15 A2974 RMK AO2 TWR VIS 2 SLP050 70099 T01610150 10161 20156 53001",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1005.0,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "2011-05-14T12:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141253Z 09004KT 3SM BR SCT005 OVC090 17/16 A2972 RMK AO2 RAB04E23 SLP044 P0000 T01720156",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1004.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2011-05-14T13:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141353Z 08004KT 5SM BR FEW005 SCT075 BKN090 18/16 A2972 RMK AO2 SLP043 T01780156",
+      "sky_condition": "FEW",
+      "temperature_f": 64.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1004.3,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "2011-05-14T14:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141453Z 05003KT 8SM SCT060 OVC080 18/16 A2972 RMK AO2 SLP043 60000 T01830156 56007",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1004.3,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2011-05-14T15:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141553Z 12005KT 10SM SCT065 BKN150 22/16 A2970 RMK AO2 SLP036 T02170161",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1003.6,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2011-05-14T16:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141653Z 14006KT 10SM SCT050 BKN150 23/14 A2969 RMK AO2 SLP029 T02280139",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1002.9,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2011-05-14T17:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141753Z VRB06KT 10SM SCT046 BKN055 OVC250 24/15 A2967 RMK AO2 SLP022 TCU DSNT SW-N 60000 T02390150 10239 20161 58017",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1002.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2011-05-14T18:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141853Z VRB05KT 10SM SCT035 SCT048 BKN200 24/14 A2963 RMK AO2 SLP011 TCU DSNT W-N T02390139",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1001.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2011-05-14T19:23:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 141923Z 00000KT 10SM TS SCT037CB SCT065 BKN200 23/14 A2963 RMK AO2 TSB21 FRQ LTGICCG VC W TS VC W MOV NE",
+      "sky_condition": "SCT",
+      "temperature_f": 73.4,
+      "dewpoint_f": 57.2,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2011-05-14T20:50:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 142050Z 06003KT 8SM -TSRA BKN023 BKN039CB BKN080 17/15 A2964 RMK AO2 PK WND 21027/1954 WSHFT 1946 OCNL LTGICCG VC NE TS VC NE MOV NE P0041 $",
+      "sky_condition": "BKN",
+      "temperature_f": 62.6,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.41
+    },
+    {
+      "timestamp": "2011-05-14T21:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 142153Z 09004KT 10SM -RA FEW020 SCT090 17/15 A2963 RMK AO2 TSE2056RAE2058B30 SLP015 P0000 T01720150 $",
+      "sky_condition": "FEW",
+      "temperature_f": 63.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1001.5,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2011-05-14T22:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 142253Z 00000KT 10SM SCT039 BKN065 BKN130 18/15 A2964 RMK AO2 RAE01 SLP017 P0000 T01780150 $",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1001.7,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2011-05-14T23:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 142353Z 00000KT 10SM FEW018 SCT040 BKN090 18/15 A2964 RMK AO2 RAB01E42 SLP016 P0001 60042 T01780150 10250 20161 57000 $",
+      "sky_condition": "FEW",
+      "temperature_f": 64.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1001.6,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    }
+  ]
+}

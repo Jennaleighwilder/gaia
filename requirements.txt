@@ -1,0 +1,17 @@
+# GAIA — optional dependencies for fixture population
+# Install in a venv: python -m venv .venv && .venv/bin/activate && pip install -r requirements.txt
+
+# For GPS-PW netCDF (primary; ASCII fallback works without it):
+netCDF4>=1.6.0
+
+# For sun times (channel_context overnight cooling):
+astral>=2.2
+
+# Nature Scale Engine — GOES-16 from AWS S3 (public, no auth):
+boto3>=1.28
+
+# NEXRAD Radar (Tier 1 — tornado detection):
+arm-pyart>=2.0
+
+# Dashboard:
+flask>=3.0

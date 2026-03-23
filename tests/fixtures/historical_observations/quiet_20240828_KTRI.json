@@ -1,0 +1,60 @@
+{
+  "quiet_id": "quiet_20240828_KTRI",
+  "date": "2024-08-28",
+  "station": "KTRI",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2024-08-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 00000KT 10SM FEW250 24/20 A3015 RMK AO2 SLP186 T02390200",
+      "sky_condition": "FEW",
+      "temperature_f": 75.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1018.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2024-08-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM CLR 22/19 A3017 RMK AO2 SLP193 T02170189",
+      "sky_condition": "CLR",
+      "temperature_f": 71.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1019.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2024-08-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM CLR 21/19 A3018 RMK AO2 SLP194 T02060189 51014",
+      "sky_condition": "CLR",
+      "temperature_f": 69.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1019.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2024-08-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM CLR 20/18 A3017 RMK AO2 SLP191 T02000183",
+      "sky_condition": "CLR",
+      "temperature_f": 68.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1019.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ]
+}

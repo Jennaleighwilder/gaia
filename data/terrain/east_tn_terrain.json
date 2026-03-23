@@ -1,0 +1,12 @@
+{
+  "knox": {"mean_slope_deg": 8.2, "ridge_orientation_deg": 45.0, "valley_elev_m": 270.0, "terrain_roughness": 0.42, "max_slope_deg": 28.0},
+  "sevier": {"mean_slope_deg": 12.5, "ridge_orientation_deg": 42.0, "valley_elev_m": 320.0, "terrain_roughness": 0.55, "max_slope_deg": 35.0},
+  "blount": {"mean_slope_deg": 10.1, "ridge_orientation_deg": 48.0, "valley_elev_m": 290.0, "terrain_roughness": 0.48, "max_slope_deg": 32.0},
+  "greene": {"mean_slope_deg": 9.0, "ridge_orientation_deg": 44.0, "valley_elev_m": 380.0, "terrain_roughness": 0.45, "max_slope_deg": 26.0},
+  "hamblen": {"mean_slope_deg": 6.5, "ridge_orientation_deg": 46.0, "valley_elev_m": 350.0, "terrain_roughness": 0.35, "max_slope_deg": 22.0},
+  "hawkins": {"mean_slope_deg": 7.8, "ridge_orientation_deg": 43.0, "valley_elev_m": 400.0, "terrain_roughness": 0.40, "max_slope_deg": 24.0},
+  "washington": {"mean_slope_deg": 8.5, "ridge_orientation_deg": 45.0, "valley_elev_m": 450.0, "terrain_roughness": 0.38, "max_slope_deg": 25.0},
+  "grainger": {"mean_slope_deg": 9.2, "ridge_orientation_deg": 47.0, "valley_elev_m": 360.0, "terrain_roughness": 0.44, "max_slope_deg": 27.0},
+  "sullivan": {"mean_slope_deg": 7.0, "ridge_orientation_deg": 44.0, "valley_elev_m": 420.0, "terrain_roughness": 0.36, "max_slope_deg": 23.0},
+  "anderson": {"mean_slope_deg": 8.8, "ridge_orientation_deg": 46.0, "valley_elev_m": 260.0, "terrain_roughness": 0.41, "max_slope_deg": 26.0}
+}

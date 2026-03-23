@@ -1,0 +1,65 @@
+{
+  "event_id": "1047514",
+  "event_date": "2022-08-28",
+  "event_datetime_utc": "2022-08-28T21:19:00Z",
+  "station": "KTYS",
+  "county": "knox",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "52.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2022-08-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 00000KT 10SM FEW050 SCT060 24/19 A3002 RMK AO2 SLP140 T02440194 $",
+      "sky_condition": "FEW",
+      "temperature_f": 76.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1014.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2022-08-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM FEW060 24/19 A3005 RMK AO2 SLP149 T02390194 $",
+      "sky_condition": "FEW",
+      "temperature_f": 75.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1014.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2022-08-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM CLR 22/19 A3007 RMK AO2 SLP156 T02220194 53019 $",
+      "sky_condition": "CLR",
+      "temperature_f": 72.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1015.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2022-08-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM CLR 21/19 A3007 RMK AO2 SLP156 T02110194 $",
+      "sky_condition": "CLR",
+      "temperature_f": 70.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1015.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": true
+}

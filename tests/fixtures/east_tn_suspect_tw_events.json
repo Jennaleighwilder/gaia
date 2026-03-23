@@ -1,0 +1,156 @@
+[
+  {
+    "event_id": "5356164",
+    "date": "2003-05-11",
+    "event_datetime_utc": "2003-05-11T11:25:00Z",
+    "county": "hamblen",
+    "station": "KGKT",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "8 mph",
+    "magnitude_kt": 7.0,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "5411182",
+    "date": "2004-07-10",
+    "event_datetime_utc": "2004-07-10T22:40:00Z",
+    "county": "sullivan",
+    "station": "KTRI",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "45 mph",
+    "magnitude_kt": 39.1,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "5465102",
+    "date": "2005-07-19",
+    "event_datetime_utc": "2005-07-19T20:45:00Z",
+    "county": "sullivan",
+    "station": "KTRI",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "45 mph",
+    "magnitude_kt": 39.1,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "5470406",
+    "date": "2005-08-03",
+    "event_datetime_utc": "2005-08-03T20:00:00Z",
+    "county": "sullivan",
+    "station": "KTRI",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "45 mph",
+    "magnitude_kt": 39.1,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "5510114",
+    "date": "2006-05-11",
+    "event_datetime_utc": "2006-05-11T16:00:00Z",
+    "county": "greene",
+    "station": "KGKT",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "40 mph",
+    "magnitude_kt": 34.8,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "5515791",
+    "date": "2006-06-24",
+    "event_datetime_utc": "2006-06-24T21:55:00Z",
+    "county": "hamblen",
+    "station": "KGKT",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "40 mph",
+    "magnitude_kt": 34.8,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "49126",
+    "date": "2007-08-01",
+    "event_datetime_utc": "2007-08-01T21:35:00Z",
+    "county": "anderson",
+    "station": "KTYS",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "40.00 mph",
+    "magnitude_kt": 34.8,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "50128",
+    "date": "2007-08-02",
+    "event_datetime_utc": "2007-08-02T17:40:00Z",
+    "county": "anderson",
+    "station": "KTYS",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "40.00 mph",
+    "magnitude_kt": 34.8,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "50129",
+    "date": "2007-08-02",
+    "event_datetime_utc": "2007-08-02T19:50:00Z",
+    "county": "blount",
+    "station": "KTYS",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "45.00 mph",
+    "magnitude_kt": 39.1,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "89839",
+    "date": "2008-04-11",
+    "event_datetime_utc": "2008-04-11T20:50:00Z",
+    "county": "hamblen",
+    "station": "KGKT",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "45.00 mph",
+    "magnitude_kt": 39.1,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "180842",
+    "date": "2009-07-05",
+    "event_datetime_utc": "2009-07-05T21:00:00Z",
+    "county": "anderson",
+    "station": "KTYS",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "45.00 mph",
+    "magnitude_kt": 39.1,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "339488",
+    "date": "2011-08-04",
+    "event_datetime_utc": "2011-08-04T03:05:00Z",
+    "county": "knox",
+    "station": "KTYS",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "8.00 mph",
+    "magnitude_kt": 7.0,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "1308041",
+    "date": "2025-12-19",
+    "event_datetime_utc": "2025-12-19T04:50:00Z",
+    "county": "hamblen",
+    "station": "KGKT",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "43.00 mph",
+    "magnitude_kt": 37.4,
+    "data_quality_suspect": "magnitude_implausible"
+  },
+  {
+    "event_id": "5702633",
+    "date": "2099-07-27",
+    "event_datetime_utc": "2099-07-27T18:37:00Z",
+    "county": "sevier",
+    "station": "KTYS",
+    "event_type": "thunderstorm_wind",
+    "magnitude": "45 mph",
+    "magnitude_kt": 39.1,
+    "data_quality_suspect": "magnitude_implausible"
+  }
+]

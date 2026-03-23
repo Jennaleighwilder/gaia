@@ -1,0 +1,65 @@
+{
+  "event_id": "526307",
+  "event_date": "2014-07-28",
+  "event_datetime_utc": "2014-07-28T03:45:00Z",
+  "station": "KTYS",
+  "county": "blount",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "50.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2014-07-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z VRB03KT 10SM VCTS FEW022 BKN043 OVC050 23/21 A2989 RMK AO2 PK WND 02031/0025 WSHFT 0011 RAB17E53 TSB17E50 SLP111 CONS LTGICCG VC E VC N MOV SE P0011 T02330206",
+      "sky_condition": "FEW",
+      "temperature_f": 74.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1011.1,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.11
+    },
+    {
+      "timestamp": "2014-07-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 16014G23KT 10SM VCTS -RA SCT036 BKN044 OVC100 22/21 A2988 RMK AO2 RAB12 SLP106 CONS LTGICCG VC E TS VC E MOV SE P0000 T02220206",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1010.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2014-07-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 16008KT 10SM BKN042 BKN050 24/20 A2986 RMK AO2 RAE48 PRESFR SLP098 P0000 60011 T02390200 58002",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1009.8,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2014-07-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 24011KT 10SM VCTS BKN030CB OVC040 27/22 A2988 RMK AO2 RAB36E46 PRESRR SLP105 CONS LTGICCG VC N TS VC N MOV SE P0000 T02670217",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1010.5,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    }
+  ],
+  "estimated": false
+}

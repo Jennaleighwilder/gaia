@@ -1,0 +1,18 @@
+{
+  "event_id": "5251796",
+  "date": "2001-06-25",
+  "event_datetime_utc": "2001-06-25T18:20:00Z",
+  "magnitude": "1.75",
+  "county": "greene",
+  "event_type": "hail",
+  "station": "KMRX",
+  "composite_reflectivity": 53.75,
+  "velocity_max": 10.0,
+  "velocity_min": -10.0,
+  "rotation_couplet_kt": 20.0,
+  "rotation_score": 0.2,
+  "vil": 68.75,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

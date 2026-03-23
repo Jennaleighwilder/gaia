@@ -1,0 +1,78 @@
+{
+  "event_id": "798914",
+  "event_date": "2018-12-28",
+  "event_datetime_utc": "2018-12-28T11:23:00Z",
+  "station": "KTYS",
+  "county": "sevier",
+  "event_type": "flash_flood",
+  "magnitude": "",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2018-12-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 00000KT 7SM -RA FEW030 BKN055 OVC080 15/12 A3002 RMK AO2 SLP165 P0017 T01500122",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1016.5,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.17
+    },
+    {
+      "timestamp": "2018-12-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 25009KT 10SM -RA SCT050 BKN075 OVC100 14/13 A3005 RMK AO2 PRESRR SLP175 P0006 T01440128",
+      "sky_condition": "SCT",
+      "temperature_f": 58.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1017.5,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.06
+    },
+    {
+      "timestamp": "2018-12-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 29009KT 2SM RA BR BKN005 BKN013 OVC022 12/12 A3008 RMK AO2 TWR VIS 7 SLP186 P0020 60043 T01220122 53019",
+      "sky_condition": "BKN",
+      "temperature_f": 54.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1018.6,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 2.0,
+      "precip_1h_in": 0.2
+    },
+    {
+      "timestamp": "2018-12-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 26006KT 2SM RA BR FEW007 SCT021 OVC028 12/12 A3010 RMK AO2 SLP191 P0023 T01170117",
+      "sky_condition": "FEW",
+      "temperature_f": 53.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1019.1,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.0,
+      "precip_1h_in": 0.23
+    },
+    {
+      "timestamp": "2018-12-28T04:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280453Z 16006KT 2 1/2SM RA BR FEW004 FEW013 OVC030 12/12 A3010 RMK AO2 SLP192 P0025 T01170117 401830028",
+      "sky_condition": "FEW",
+      "temperature_f": 53.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1019.2,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.5,
+      "precip_1h_in": 0.25
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,44 @@
+{
+  "event_id": "NAT_216160",
+  "date": "2019-06-01",
+  "time_utc": "00:00",
+  "state": "MISSOURI",
+  "county": "HOWARD",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "magnitude_type": "",
+  "tor_f_scale": "",
+  "injuries": 0,
+  "deaths": 0,
+  "damage_property": "100.00K",
+  "narrative": "This is a continuation of the flash flooding as a result of a levee failure near Petersburg, Missouri. Howard County District #2 levee failed the night before, allowing the already flooding Missouri River to spill into low lying areas of southern Howard County. Most of this area consisted of farmlan",
+  "begin_lat": "39.0561",
+  "begin_lon": "-92.9249",
+  "is_major": true,
+  "sample_category": "winter_fallback",
+  "fallback_source_category": "flash_flood",
+  "event_datetime_utc": "2019-06-01T00:00:00Z",
+  "station": "KVER",
+  "station_distance_miles": 14.87,
+  "observation_count": 0,
+  "observations": [],
+  "daily_summaries": [
+    {
+      "date": "2019-05-22",
+      "mean_pressure": null,
+      "mean_temp": 66.525,
+      "dominant_wind_dir": 130.0,
+      "precip_total": 0.0,
+      "temp_range": 26.1
+    },
+    {
+      "date": "2019-05-23",
+      "mean_pressure": null,
+      "mean_temp": 73.8,
+      "dominant_wind_dir": 60.0,
+      "precip_total": 0.0,
+      "temp_range": null
+    }
+  ],
+  "upper_air": null
+}

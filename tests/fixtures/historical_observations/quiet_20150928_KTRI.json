@@ -1,0 +1,60 @@
+{
+  "quiet_id": "quiet_20150928_KTRI",
+  "date": "2015-09-28",
+  "station": "KTRI",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2015-09-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 06004KT 10SM BKN045 BKN055 OVC240 20/17 A3014 RMK AO2 SLP184 T02000167",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1018.4,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-09-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 08003KT 10SM SCT050 OVC060 19/17 A3015 RMK AO2 SLP188 T01940167",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1018.8,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-09-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM BKN055 OVC220 19/17 A3016 RMK AO2 SLP189 T01940167 53008",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1018.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2015-09-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM SCT047 OVC055 19/17 A3016 RMK AO2 SLP189 T01890172",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1018.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ]
+}

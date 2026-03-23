@@ -1,0 +1,18 @@
+{
+  "event_id": "1237376",
+  "date": "2025-02-07",
+  "event_datetime_utc": "2025-02-07T02:25:00Z",
+  "magnitude": "1.25",
+  "county": "grainger",
+  "event_type": "hail",
+  "station": "KMRX",
+  "composite_reflectivity": 51.25,
+  "velocity_max": 10.0,
+  "velocity_min": -10.0,
+  "rotation_couplet_kt": 20.0,
+  "rotation_score": 0.2,
+  "vil": 56.25,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

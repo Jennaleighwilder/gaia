@@ -1,0 +1,66 @@
+{
+  "event_id": "704529",
+  "event_date": "2017-05-28",
+  "event_datetime_utc": "2017-05-28T02:10:00Z",
+  "station": "KTRI",
+  "county": "grainger",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "50.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2017-05-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 14003KT 9SM -TSRA FEW026 BKN034CB OVC044 19/16 A2997 RMK AO2 LTG DSNT ALQDS RAB37 TSB09 SLP129 CONS LTGICCG VC NE TS VC NE MOV SE P0000 T01890161 $",
+      "sky_condition": "FEW",
+      "temperature_f": 66.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1012.9,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 9.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2017-05-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 35015G20KT 2 1/2SM +TSRA BR FEW007 BKN036CB OVC070 18/17 A3000 RMK AO2 RAE04B24 SLP136 CONS LTGICCG OHD TS OHD MOV SE P0013 T01830167 $",
+      "sky_condition": "FEW",
+      "temperature_f": 65.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1013.6,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 2.5,
+      "precip_1h_in": 0.13
+    },
+    {
+      "timestamp": "2017-05-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 2SM +TSRA BR SCT033CB BKN060 OVC090 17/17 A3000 RMK AO2 LTG DSNT ALQDS SLP134 CONS LTGICCG OHD TS OHD MOV E P0031 60044 T01720167 50019 $",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1013.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0,
+      "precip_1h_in": 0.31
+    },
+    {
+      "timestamp": "2017-05-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 25003KT 2SM TSRA BR SCT050CB BKN070 OVC090 17/17 A2999 RMK AO2 SFC VIS 4 LTG DSNT ALQDS SLP131 FRQ LTGICCG VC SW TS VC SW MOV E P0025 T01720167 $",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1013.1,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 2.0,
+      "precip_1h_in": 0.25
+    }
+  ],
+  "estimated": false
+}

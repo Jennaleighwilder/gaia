@@ -1,0 +1,18 @@
+{
+  "event_id": "302978",
+  "date": "2011-04-28",
+  "event_datetime_utc": "2011-04-28T01:47:00Z",
+  "magnitude": "EF0",
+  "county": "greene",
+  "event_type": "tornado",
+  "station": "KMRX",
+  "composite_reflectivity": 45,
+  "velocity_max": 17.5,
+  "velocity_min": -17.5,
+  "rotation_couplet_kt": 35.0,
+  "rotation_score": 0.55,
+  "vil": 25,
+  "echo_top_km": 12,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

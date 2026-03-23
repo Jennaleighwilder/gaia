@@ -1,0 +1,60 @@
+{
+  "quiet_id": "quiet_20131028_KTYS",
+  "date": "2013-10-28",
+  "station": "KTYS",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2013-10-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 24007KT 10SM BKN034 OVC055 16/10 A3011 RMK AO2 SLP194 T01560100",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 1019.4,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2013-10-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 23005KT 10SM FEW032 SCT070 OVC085 15/11 A3012 RMK AO2 SLP197 T01500106",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 51.0,
+      "pressure_mb": 1019.7,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2013-10-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 24005KT 10SM FEW049 OVC090 15/11 A3013 RMK AO2 SLP201 T01500106 51012",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 51.0,
+      "pressure_mb": 1020.1,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2013-10-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 26004KT 10SM FEW042 OVC100 14/10 A3014 RMK AO2 SLP200 T01390100",
+      "sky_condition": "FEW",
+      "temperature_f": 57.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 1020.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ]
+}

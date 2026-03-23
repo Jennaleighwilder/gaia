@@ -1,0 +1,252 @@
+{
+  "quiet_id": "2022-06-22_NAT_379790",
+  "date": "2022-06-22",
+  "state": "WYOMING",
+  "sample_category": "tornado",
+  "station": "KJAC",
+  "station_distance_miles": 10.83,
+  "observation_count": 10,
+  "observations": [
+    {
+      "timestamp": "2022-06-22T03:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 50.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1027.0,
+      "wind_speed_mph": 4.6,
+      "wind_direction_deg": 60.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 71.07,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 220356Z AUTO 06004KT 10SM CLR 10/05 A3038 RMK AO2 SLP270 T01000050"
+    },
+    {
+      "timestamp": "2022-06-22T04:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 44.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1027.9,
+      "wind_speed_mph": 3.5,
+      "wind_direction_deg": 360.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 82.12,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 220456Z AUTO 36003KT 10SM CLR 07/04 A3039 RMK AO2 SLP279 T00670039"
+    },
+    {
+      "timestamp": "2022-06-22T06:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 40.0,
+      "dewpoint_f": 35.0,
+      "pressure_mb": 1027.4,
+      "wind_speed_mph": 6.9,
+      "wind_direction_deg": 350.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 82.8,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 220656Z AUTO 35006KT 10SM CLR 04/02 A3040 RMK AO2 SLP274 T00440017 401940000"
+    },
+    {
+      "timestamp": "2022-06-22T07:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 39.0,
+      "dewpoint_f": 36.0,
+      "pressure_mb": 1027.2,
+      "wind_speed_mph": 10.4,
+      "wind_direction_deg": 20.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 88.87,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 220756Z AUTO 02009KT 10SM CLR 04/02 A3040 RMK AO2 SLP272 T00390022"
+    },
+    {
+      "timestamp": "2022-06-22T08:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 41.0,
+      "dewpoint_f": 37.0,
+      "pressure_mb": 1027.0,
+      "wind_speed_mph": 5.8,
+      "wind_direction_deg": 30.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 85.54,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 220856Z AUTO 03005KT 10SM CLR 05/03 A3040 RMK AO2 SLP270 T00500028 53001"
+    },
+    {
+      "timestamp": "2022-06-22T09:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 41.0,
+      "dewpoint_f": 36.0,
+      "pressure_mb": 1026.9,
+      "wind_speed_mph": 5.8,
+      "wind_direction_deg": 20.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 82.22,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 220956Z AUTO 02005KT 10SM CLR 05/02 A3040 RMK AO2 SLP269 T00500022"
+    },
+    {
+      "timestamp": "2022-06-22T10:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 38.0,
+      "dewpoint_f": 34.0,
+      "pressure_mb": 1027.4,
+      "wind_speed_mph": 3.5,
+      "wind_direction_deg": 330.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 85.69,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 221056Z AUTO 33003KT 10SM CLR 03/01 A3041 RMK AO2 SLP274 T00330011"
+    },
+    {
+      "timestamp": "2022-06-22T11:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 36.0,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 1027.8,
+      "wind_speed_mph": 0.0,
+      "wind_direction_deg": 0.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 85.23,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 221156Z AUTO 00000KT 10SM CLR 02/00 A3042 RMK AO2 SLP278 T00220000 10083 20022 51004 FZRANO"
+    },
+    {
+      "timestamp": "2022-06-22T13:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 44.0,
+      "dewpoint_f": 36.0,
+      "pressure_mb": 1027.0,
+      "wind_speed_mph": 0.0,
+      "wind_direction_deg": 0.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 72.99,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 221356Z 00000KT 10SM CLR 07/02 A3042 RMK AO2 SLP270 T00670022"
+    },
+    {
+      "timestamp": "2022-06-22T14:56:00Z",
+      "station_id": "JAC",
+      "temperature_f": 49.0,
+      "dewpoint_f": 36.0,
+      "pressure_mb": 1027.4,
+      "wind_speed_mph": 0.0,
+      "wind_direction_deg": 0.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 60.88,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KJAC 221456Z 00000KT 10SM CLR 09/02 A3041 RMK AO2 SLP274 T00940022 58001"
+    }
+  ],
+  "daily_summaries": [
+    {
+      "date": "2022-06-12",
+      "mean_pressure": 1005.3222,
+      "mean_temp": 61.8889,
+      "dominant_wind_dir": 280.0,
+      "precip_total": 0.0701,
+      "temp_range": 15.0
+    },
+    {
+      "date": "2022-06-13",
+      "mean_pressure": 1008.9182,
+      "mean_temp": 49.4348,
+      "dominant_wind_dir": 10.0,
+      "precip_total": 0.0002,
+      "temp_range": 12.0
+    },
+    {
+      "date": "2022-06-14",
+      "mean_pressure": 1014.9833,
+      "mean_temp": 41.75,
+      "dominant_wind_dir": 210.0,
+      "precip_total": 0.0,
+      "temp_range": 16.0
+    },
+    {
+      "date": "2022-06-15",
+      "mean_pressure": 1019.0083,
+      "mean_temp": 45.8333,
+      "dominant_wind_dir": 260.0,
+      "precip_total": 0.0,
+      "temp_range": 30.0
+    },
+    {
+      "date": "2022-06-16",
+      "mean_pressure": 1020.0913,
+      "mean_temp": 53.6087,
+      "dominant_wind_dir": 290.0,
+      "precip_total": 0.0,
+      "temp_range": 49.0
+    },
+    {
+      "date": "2022-06-17",
+      "mean_pressure": 1010.6833,
+      "mean_temp": 61.375,
+      "dominant_wind_dir": 210.0,
+      "precip_total": 0.0,
+      "temp_range": 46.0
+    },
+    {
+      "date": "2022-06-18",
+      "mean_pressure": 1005.8625,
+      "mean_temp": 65.8333,
+      "dominant_wind_dir": 170.0,
+      "precip_total": 0.0,
+      "temp_range": 33.0
+    },
+    {
+      "date": "2022-06-19",
+      "mean_pressure": 1011.5917,
+      "mean_temp": 52.6667,
+      "dominant_wind_dir": 10.0,
+      "precip_total": 0.02,
+      "temp_range": 23.0
+    },
+    {
+      "date": "2022-06-20",
+      "mean_pressure": 1020.2833,
+      "mean_temp": 44.4583,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0005,
+      "temp_range": 22.0
+    },
+    {
+      "date": "2022-06-21",
+      "mean_pressure": 1029.4458,
+      "mean_temp": 46.7917,
+      "dominant_wind_dir": 190.0,
+      "precip_total": 0.0002,
+      "temp_range": 34.0
+    },
+    {
+      "date": "2022-06-22",
+      "mean_pressure": 1027.0,
+      "mean_temp": 46.9231,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 31.0
+    }
+  ],
+  "upper_air": null
+}

@@ -1,0 +1,68 @@
+{
+  "quiet_id": "quiet_19990128_KTRI",
+  "date": "1999-01-28",
+  "station": "KTRI",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "1999-01-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 23005KT 10SM CLR 10/05 A3011 RMK AO2 SLP202 T01000050",
+      "sky_condition": "CLR",
+      "temperature_f": 50.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1020.2,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1999-01-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM CLR 08/05 A3011 RMK AO2 SLP202 T00780050",
+      "sky_condition": "CLR",
+      "temperature_f": 46.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1020.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1999-01-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 9SM CLR 06/04 A3011 RMK AO2 SLP199 T00610044 50000",
+      "sky_condition": "CLR",
+      "temperature_f": 43.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1019.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1999-01-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 9SM CLR 06/04 A3011 RMK AO2 SLP196 T00560039",
+      "sky_condition": "CLR",
+      "temperature_f": 42.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1019.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1999-01-28T04:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280453Z 16005KT 8SM CLR 05/04 A3011 RMK AO2 SLP196 T00500039 401941011",
+      "sky_condition": "CLR",
+      "temperature_f": 41.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1019.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 8.0
+    }
+  ]
+}

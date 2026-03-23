@@ -1,0 +1,61 @@
+{
+  "event_id": "5530737",
+  "event_date": "2006-09-28",
+  "event_datetime_utc": "2006-09-28T16:50:00Z",
+  "station": "KTRI",
+  "county": "grainger",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "60 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2006-09-28T00:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280053Z 00000KT 10SM CLR 13/11 A2993 RMK AO2 SLP130 T01330111",
+      "sky_condition": "CLR",
+      "temperature_f": 56.0,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1013.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2006-09-28T01:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280153Z 00000KT 10SM CLR 12/11 A2994 RMK AO2 SLP133 T01220106",
+      "sky_condition": "CLR",
+      "temperature_f": 54.0,
+      "dewpoint_f": 51.0,
+      "pressure_mb": 1013.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2006-09-28T02:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280253Z 00000KT 10SM SCT060 12/10 A2993 RMK AO2 SLP128 T01170100 50001",
+      "sky_condition": "SCT",
+      "temperature_f": 53.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 1012.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2006-09-28T03:53:00Z",
+      "station_id": "KTRI",
+      "metar": "KTRI 280353Z 00000KT 10SM BKN055 12/11 A2993 RMK AO2 SLP127 T01220106",
+      "sky_condition": "BKN",
+      "temperature_f": 54.0,
+      "dewpoint_f": 51.0,
+      "pressure_mb": 1012.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

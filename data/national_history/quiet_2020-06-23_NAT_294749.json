@@ -1,0 +1,252 @@
+{
+  "quiet_id": "2020-06-23_NAT_294749",
+  "date": "2020-06-23",
+  "state": "NORTH CAROLINA",
+  "sample_category": "flash_flood",
+  "station": "KCPC",
+  "station_distance_miles": 3.87,
+  "observation_count": 10,
+  "observations": [
+    {
+      "timestamp": "2020-06-23T05:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 74.7,
+      "dewpoint_f": 68.0,
+      "pressure_mb": null,
+      "wind_speed_mph": 0.0,
+      "wind_direction_deg": 0.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 79.66,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 230555Z AUTO 00000KT 10SM CLR 24/20 A2994 RMK AO2 T02370200 10287 20226 403360213"
+    },
+    {
+      "timestamp": "2020-06-23T06:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 73.6,
+      "dewpoint_f": 69.0,
+      "pressure_mb": null,
+      "wind_speed_mph": 4.6,
+      "wind_direction_deg": 190.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 85.83,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 230655Z AUTO 19004KT 10SM CLR 23/21 A2993 RMK AO2 T02310206"
+    },
+    {
+      "timestamp": "2020-06-23T07:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 70.5,
+      "pressure_mb": null,
+      "wind_speed_mph": 3.5,
+      "wind_direction_deg": 190.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 90.65,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 230755Z AUTO 19003KT 10SM CLR 23/21 A2992 RMK AO2 T02300214"
+    },
+    {
+      "timestamp": "2020-06-23T08:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 73.0,
+      "dewpoint_f": 71.2,
+      "pressure_mb": null,
+      "wind_speed_mph": 0.0,
+      "wind_direction_deg": 0.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 94.09,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 230855Z AUTO 00000KT 10SM CLR 23/22 A2993 RMK AO2 T02280218"
+    },
+    {
+      "timestamp": "2020-06-23T10:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 73.8,
+      "dewpoint_f": 72.5,
+      "pressure_mb": null,
+      "wind_speed_mph": 0.0,
+      "wind_direction_deg": 0.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 7.0,
+      "humidity_pct": 95.71,
+      "sky_condition": "SCT",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 231055Z AUTO 00000KT 7SM SCT005 SCT070 23/23 A2993 RMK AO2 T02320225"
+    },
+    {
+      "timestamp": "2020-06-23T11:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 76.0,
+      "dewpoint_f": 73.6,
+      "pressure_mb": null,
+      "wind_speed_mph": 4.6,
+      "wind_direction_deg": 220.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 91.98,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 231155Z AUTO 22004KT 10SM CLR 25/23 A2994 RMK AO2 T02450231 10245 20222"
+    },
+    {
+      "timestamp": "2020-06-23T12:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 78.8,
+      "dewpoint_f": 72.7,
+      "pressure_mb": null,
+      "wind_speed_mph": 5.8,
+      "wind_direction_deg": 210.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 7.0,
+      "humidity_pct": 81.6,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 231255Z AUTO 21005KT 7SM CLR 26/23 A2993 RMK AO2 T02600226"
+    },
+    {
+      "timestamp": "2020-06-23T13:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 81.7,
+      "dewpoint_f": 69.6,
+      "pressure_mb": null,
+      "wind_speed_mph": 6.9,
+      "wind_direction_deg": 270.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 66.8,
+      "sky_condition": "CLR",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 231355Z AUTO 27006KT 10SM CLR 28/21 A2993 RMK AO2 T02760209"
+    },
+    {
+      "timestamp": "2020-06-23T15:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 85.8,
+      "dewpoint_f": 70.2,
+      "pressure_mb": null,
+      "wind_speed_mph": 8.1,
+      "wind_direction_deg": 210.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 59.74,
+      "sky_condition": "SCT",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 231555Z AUTO 21007KT 10SM SCT031 30/21 A2991 RMK AO2 T02990212"
+    },
+    {
+      "timestamp": "2020-06-23T16:55:00Z",
+      "station_id": "CPC",
+      "temperature_f": 87.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": null,
+      "wind_speed_mph": 10.4,
+      "wind_direction_deg": 210.0,
+      "wind_gust_mph": null,
+      "visibility_mi": 10.0,
+      "humidity_pct": 54.82,
+      "sky_condition": "SCT",
+      "precip_1h_in": 0.0,
+      "metar": "KCPC 231655Z AUTO 21009KT 10SM SCT040 SCT048 SCT055 31/21 A2990 RMK AO2 T03060205"
+    }
+  ],
+  "daily_summaries": [
+    {
+      "date": "2020-06-13",
+      "mean_pressure": null,
+      "mean_temp": 75.1571,
+      "dominant_wind_dir": 60.0,
+      "precip_total": 0.0,
+      "temp_range": 7.0
+    },
+    {
+      "date": "2020-06-14",
+      "mean_pressure": null,
+      "mean_temp": 69.425,
+      "dominant_wind_dir": 40.0,
+      "precip_total": 0.01,
+      "temp_range": 9.2
+    },
+    {
+      "date": "2020-06-15",
+      "mean_pressure": null,
+      "mean_temp": 63.5292,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 1.85,
+      "temp_range": 8.2
+    },
+    {
+      "date": "2020-06-16",
+      "mean_pressure": null,
+      "mean_temp": 64.3083,
+      "dominant_wind_dir": 360.0,
+      "precip_total": 2.51,
+      "temp_range": 5.6
+    },
+    {
+      "date": "2020-06-17",
+      "mean_pressure": null,
+      "mean_temp": 66.5905,
+      "dominant_wind_dir": 300.0,
+      "precip_total": 0.03,
+      "temp_range": 13.5
+    },
+    {
+      "date": "2020-06-18",
+      "mean_pressure": null,
+      "mean_temp": 71.125,
+      "dominant_wind_dir": 160.0,
+      "precip_total": 0.0,
+      "temp_range": 15.4
+    },
+    {
+      "date": "2020-06-19",
+      "mean_pressure": null,
+      "mean_temp": 73.05,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.04,
+      "temp_range": 21.1
+    },
+    {
+      "date": "2020-06-20",
+      "mean_pressure": null,
+      "mean_temp": 73.2737,
+      "dominant_wind_dir": 90.0,
+      "precip_total": 0.0,
+      "temp_range": 20.6
+    },
+    {
+      "date": "2020-06-21",
+      "mean_pressure": null,
+      "mean_temp": 76.435,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.21,
+      "temp_range": 24.3
+    },
+    {
+      "date": "2020-06-22",
+      "mean_pressure": null,
+      "mean_temp": 77.4545,
+      "dominant_wind_dir": 0.0,
+      "precip_total": 0.0,
+      "temp_range": 20.2
+    },
+    {
+      "date": "2020-06-23",
+      "mean_pressure": null,
+      "mean_temp": 77.8143,
+      "dominant_wind_dir": 180.0,
+      "precip_total": 0.0,
+      "temp_range": 14.0
+    }
+  ],
+  "upper_air": null
+}

@@ -1,0 +1,65 @@
+{
+  "event_id": "761443",
+  "event_date": "2018-05-28",
+  "event_datetime_utc": "2018-05-28T00:00:00Z",
+  "station": "KTYS",
+  "county": "knox",
+  "event_type": "flash_flood",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2018-05-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 00000KT 7SM VCTS -RA SCT035CB SCT050 OVC110 22/21 A2996 RMK AO2 LTG DSNT NW-NE TSE02 SLP134 OCNL LTGICCC VC NW TS VC NW MOV NW P0014 T02170211",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1013.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.14
+    },
+    {
+      "timestamp": "2018-05-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 04003KT 10SM -RA FEW035 SCT050 SCT110 BKN250 21/21 A2997 RMK AO2 SLP137 P0002 T02110206",
+      "sky_condition": "FEW",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1013.7,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2018-05-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 10003KT 10SM FEW050 SCT110 BKN250 21/21 A2997 RMK AO2 RAE19 SLP138 P0000 60016 T02110206 51009",
+      "sky_condition": "FEW",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1013.8,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2018-05-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 04003KT 10SM FEW060 SCT110 BKN250 21/21 A2997 RMK AO2 SLP139 T02060206",
+      "sky_condition": "FEW",
+      "temperature_f": 69.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1013.9,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

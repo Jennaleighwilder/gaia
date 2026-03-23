@@ -1,0 +1,65 @@
+{
+  "event_id": "1218880",
+  "event_date": "2024-09-28",
+  "event_datetime_utc": "2024-09-28T15:15:00Z",
+  "station": "KTYS",
+  "county": "sevier",
+  "event_type": "flash_flood",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2024-09-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 17008KT 10SM OVC070 21/14 A2956 RMK AO2 SLP000 T02110144",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1000.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2024-09-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 17009KT 10SM OVC070 22/14 A2957 RMK AO2 SLP002 T02170144",
+      "sky_condition": "OVC",
+      "temperature_f": 71.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1000.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2024-09-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 18011KT 10SM OVC060 22/14 A2959 RMK AO2 SLP008 T02220144 52014",
+      "sky_condition": "OVC",
+      "temperature_f": 72.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1000.8,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2024-09-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 17009KT 10SM BKN048 OVC055 22/15 A2959 RMK AO2 SLP010 T02170150",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1001.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

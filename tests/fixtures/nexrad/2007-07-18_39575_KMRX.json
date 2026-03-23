@@ -1,0 +1,18 @@
+{
+  "event_id": "39575",
+  "date": "2007-07-18",
+  "event_datetime_utc": "2007-07-18T17:15:00Z",
+  "magnitude": "60.00 mph",
+  "county": "grainger",
+  "event_type": "thunderstorm_wind",
+  "station": "KMRX",
+  "composite_reflectivity": 45,
+  "velocity_max": 10.0,
+  "velocity_min": -10.0,
+  "rotation_couplet_kt": 20.0,
+  "rotation_score": 0.2,
+  "vil": 35,
+  "echo_top_km": 8,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

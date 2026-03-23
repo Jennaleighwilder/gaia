@@ -1,0 +1,61 @@
+{
+  "event_id": "174338",
+  "event_date": "2009-06-28",
+  "event_datetime_utc": "2009-06-28T19:20:00Z",
+  "station": "KTYS",
+  "county": "knox",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "55.00 mph",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2009-06-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 35003KT 10SM FEW055 30/19 A2984 RMK AO2 SLP089 T03000194",
+      "sky_condition": "FEW",
+      "temperature_f": 86.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1008.9,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-06-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 34003KT 10SM FEW065 29/19 A2983 RMK AO2 SLP087 T02890189",
+      "sky_condition": "FEW",
+      "temperature_f": 84.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1008.7,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-06-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 31004KT 10SM FEW100 28/19 A2984 RMK AO2 SLP091 T02830189 53004",
+      "sky_condition": "FEW",
+      "temperature_f": 83.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1009.1,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-06-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 00000KT 10SM FEW100 27/21 A2984 RMK AO2 SLP092 T02670206",
+      "sky_condition": "FEW",
+      "temperature_f": 80.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1009.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

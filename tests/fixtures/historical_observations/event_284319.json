@@ -1,0 +1,66 @@
+{
+  "event_id": "284319",
+  "event_date": "2011-02-28",
+  "event_datetime_utc": "2011-02-28T16:45:00Z",
+  "station": "KGKT",
+  "county": "hamblen",
+  "event_type": "thunderstorm_wind",
+  "magnitude": "55.00 mph",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2011-02-28T00:59:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280059Z 32003KT 1/4SM R23R/1200VP6000FT FG VV001 15/14 A2990 RMK AO2 TWR VIS 2",
+      "sky_condition": "VV ",
+      "temperature_f": 59.0,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2011-02-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 00000KT 1/4SM R23R/1800V3000FT FG VV001 14/13 A2990 RMK AO2 SLP118 T01390128",
+      "sky_condition": "VV ",
+      "temperature_f": 57.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1011.8,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2011-02-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 00000KT 1/4SM R23R/1200V1800FT FG VV001 12/12 A2991 RMK AO2 SLP126 T01220117 53007",
+      "sky_condition": "VV ",
+      "temperature_f": 54.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1012.6,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2011-02-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 00000KT 4SM BR FEW002 BKN065 13/12 A2990 RMK AO2 SLP121 T01330122",
+      "sky_condition": "FEW",
+      "temperature_f": 56.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1012.1,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "2011-02-28T04:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280453Z 20010KT 10SM CLR 19/13 A2987 RMK AO2 SLP109 T01890133 401890100",
+      "sky_condition": "CLR",
+      "temperature_f": 66.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1010.9,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": true
+}

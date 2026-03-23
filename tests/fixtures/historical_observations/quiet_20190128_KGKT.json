@@ -1,0 +1,68 @@
+{
+  "quiet_id": "quiet_20190128_KGKT",
+  "date": "2019-01-28",
+  "station": "KGKT",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2019-01-28T00:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280055Z AUTO 21003KT 10SM CLR 04/M00 A3002 RMK A01",
+      "sky_condition": "CLR",
+      "temperature_f": 39.2,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2019-01-28T01:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280155Z AUTO 00000KT 10SM FEW041 SCT050 02/M01 A3002 RMK A01",
+      "sky_condition": "FEW",
+      "temperature_f": 35.6,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2019-01-28T02:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280255Z AUTO 00000KT 10SM FEW050 FEW060 M00/M01 A3002 RMK A01",
+      "sky_condition": "FEW",
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2019-01-28T03:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280355Z AUTO 00000KT 10SM BKN055 OVC070 00/M01 A3001 RMK A01",
+      "sky_condition": "BKN",
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2019-01-28T04:55:00Z",
+      "station_id": "KGKT",
+      "metar": "KGKT 280455Z AUTO 00000KT 10SM BKN065 OVC075 00/M01 A2999 RMK A01",
+      "sky_condition": "BKN",
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ]
+}

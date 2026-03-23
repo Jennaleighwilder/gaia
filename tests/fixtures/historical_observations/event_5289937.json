@@ -1,0 +1,62 @@
+{
+  "event_id": "5289937",
+  "event_date": "2002-04-28",
+  "event_datetime_utc": "2002-04-28T18:26:00Z",
+  "station": "KGKT",
+  "county": "hamblen",
+  "event_type": "hail",
+  "magnitude": "1.00",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2002-04-28T00:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280053Z 28007KT 10SM FEW095 SCT150 SCT250 18/14 A3003 RMK AO2 RAE05 SLP163 P0000 T01780139",
+      "sky_condition": "FEW",
+      "temperature_f": 64.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1016.3,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2002-04-28T01:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280153Z 28008KT 10SM SCT048 SCT150 18/13 A3004 RMK AO2 SLP166 T01830133",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1016.6,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2002-04-28T02:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280253Z 23005KT 10SM SCT042 OVC200 18/14 A3000 RMK AO2 SLP153 60000 T01780139 58004",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1015.3,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2002-04-28T03:53:00Z",
+      "station_id": "KTYS",
+      "metar": "KTYS 280353Z 30007KT 10SM OVC200 18/13 A3000 RMK AO2 SLP150 T01830133",
+      "sky_condition": "OVC",
+      "temperature_f": 65.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1015.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": true
+}

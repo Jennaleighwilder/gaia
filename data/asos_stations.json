@@ -1,0 +1,6421 @@
+[
+  {
+    "id": "0J4",
+    "name": "Florala",
+    "lat": 31.0447,
+    "lon": -86.3119,
+    "state": "AL"
+  },
+  {
+    "id": "12N",
+    "name": "ANDOVER/AEROFLEX-ANDOVER AIRPORT",
+    "lat": 41.0089,
+    "lon": -74.7367,
+    "state": "NJ"
+  },
+  {
+    "id": "1J0",
+    "name": "Tri County",
+    "lat": 30.8458,
+    "lon": -85.6014,
+    "state": "FL"
+  },
+  {
+    "id": "1V4",
+    "name": "St Johnsbury",
+    "lat": 44.42,
+    "lon": -72.02,
+    "state": "VT"
+  },
+  {
+    "id": "2WX",
+    "name": "BUFFALO",
+    "lat": 45.6044,
+    "lon": -103.5464,
+    "state": "SD"
+  },
+  {
+    "id": "6R6",
+    "name": "DRYDEN",
+    "lat": 30.046,
+    "lon": -102.2129,
+    "state": "TX"
+  },
+  {
+    "id": "79J",
+    "name": "Andalusia",
+    "lat": 31.3061,
+    "lon": -86.3902,
+    "state": "AL"
+  },
+  {
+    "id": "8D3",
+    "name": "SISSETON",
+    "lat": 45.6689,
+    "lon": -96.9914,
+    "state": "SD"
+  },
+  {
+    "id": "AAF",
+    "name": "APALACHICOLA MUNI (ASOS)",
+    "lat": 29.7276,
+    "lon": -85.0274,
+    "state": "FL"
+  },
+  {
+    "id": "AAO",
+    "name": "WICHITA (AAO)",
+    "lat": 37.75,
+    "lon": -97.22,
+    "state": "KS"
+  },
+  {
+    "id": "AAT",
+    "name": "ALTURAS (WAS O00)",
+    "lat": 41.4914,
+    "lon": -120.5644,
+    "state": "CA"
+  },
+  {
+    "id": "ABE",
+    "name": "ALLENTOWN-BETHLEHEM",
+    "lat": 40.6508,
+    "lon": -75.4492,
+    "state": "PA"
+  },
+  {
+    "id": "ABI",
+    "name": "Abilene",
+    "lat": 32.4106,
+    "lon": -99.6821,
+    "state": "TX"
+  },
+  {
+    "id": "ABQ",
+    "name": "ALBUQUERQUE INTL",
+    "lat": 35.0419,
+    "lon": -106.6155,
+    "state": "NM"
+  },
+  {
+    "id": "ABR",
+    "name": "ABERDEEN",
+    "lat": 45.45,
+    "lon": -98.42,
+    "state": "SD"
+  },
+  {
+    "id": "ABY",
+    "name": "ALBANY MUNICIPAL",
+    "lat": 31.5355,
+    "lon": -84.1945,
+    "state": "GA"
+  },
+  {
+    "id": "ACK",
+    "name": "NANTUCKET MEMORIAL",
+    "lat": 41.2531,
+    "lon": -70.0603,
+    "state": "MA"
+  },
+  {
+    "id": "ACT",
+    "name": "Waco",
+    "lat": 31.618,
+    "lon": -97.2283,
+    "state": "TX"
+  },
+  {
+    "id": "ACV",
+    "name": "ARCATA/EUREKA ARPT",
+    "lat": 40.9781,
+    "lon": -124.1086,
+    "state": "CA"
+  },
+  {
+    "id": "ACY",
+    "name": "ATLANTIC CITY INTL",
+    "lat": 39.4576,
+    "lon": -74.5772,
+    "state": "NJ"
+  },
+  {
+    "id": "ADG",
+    "name": "ADRIAN",
+    "lat": 41.8677,
+    "lon": -84.0773,
+    "state": "MI"
+  },
+  {
+    "id": "AEX",
+    "name": "ALEXANDRIA INTL/ENGLAND AFB",
+    "lat": 31.3347,
+    "lon": -92.5586,
+    "state": "LA"
+  },
+  {
+    "id": "AFN",
+    "name": "JAFFREY MUNICIPAL",
+    "lat": 42.8051,
+    "lon": -72.003,
+    "state": "NH"
+  },
+  {
+    "id": "AFW",
+    "name": "Fort Worth - Alliance",
+    "lat": 32.9716,
+    "lon": -97.3179,
+    "state": "TX"
+  },
+  {
+    "id": "AGC",
+    "name": "PITTSBURGH/ALLEGHEN",
+    "lat": 40.3547,
+    "lon": -79.9217,
+    "state": "PA"
+  },
+  {
+    "id": "AGS",
+    "name": "AUGUSTA/BUSH FIELD",
+    "lat": 33.3699,
+    "lon": -81.9645,
+    "state": "GA"
+  },
+  {
+    "id": "AHN",
+    "name": "ATHENS MUNICIPAL",
+    "lat": 33.9486,
+    "lon": -83.3264,
+    "state": "GA"
+  },
+  {
+    "id": "AIA",
+    "name": "ALLIANCE",
+    "lat": 42.0572,
+    "lon": -102.8,
+    "state": "NE"
+  },
+  {
+    "id": "AKH",
+    "name": "GASTONIA_MCPL_(ASOS)",
+    "lat": 35.1967,
+    "lon": -81.1558,
+    "state": "NC"
+  },
+  {
+    "id": "AKO",
+    "name": "AKRON/WASHINGTON CO",
+    "lat": 40.1756,
+    "lon": -103.222,
+    "state": "CO"
+  },
+  {
+    "id": "AKQ",
+    "name": "WAKEFIELD (NEXRAD)",
+    "lat": 36.9839,
+    "lon": -77.0072,
+    "state": "VA"
+  },
+  {
+    "id": "AKR",
+    "name": "Akron",
+    "lat": 41.0375,
+    "lon": -81.4669,
+    "state": "OH"
+  },
+  {
+    "id": "ALB",
+    "name": "ALBANY COUNTY ARPT",
+    "lat": 42.7576,
+    "lon": -73.8036,
+    "state": "NY"
+  },
+  {
+    "id": "ALI",
+    "name": "ALICE INTL AIRPORT",
+    "lat": 27.7409,
+    "lon": -98.0269,
+    "state": "TX"
+  },
+  {
+    "id": "ALK",
+    "name": "Pioneer Airfield",
+    "lat": 31.6072,
+    "lon": -110.4281,
+    "state": "AZ"
+  },
+  {
+    "id": "ALO",
+    "name": "Waterloo",
+    "lat": 42.5544,
+    "lon": -92.4013,
+    "state": "IA"
+  },
+  {
+    "id": "ALS",
+    "name": "ALAMOSA MUNI(AWOS)",
+    "lat": 37.4389,
+    "lon": -105.8614,
+    "state": "CO"
+  },
+  {
+    "id": "ALW",
+    "name": "WALLA WALLA RGN",
+    "lat": 46.0948,
+    "lon": -118.289,
+    "state": "WA"
+  },
+  {
+    "id": "AMA",
+    "name": "Amarillo - Rick Husband Intl",
+    "lat": 35.2194,
+    "lon": -101.7059,
+    "state": "TX"
+  },
+  {
+    "id": "AMG",
+    "name": "ALMA/BACON CO.",
+    "lat": 31.5361,
+    "lon": -82.5066,
+    "state": "GA"
+  },
+  {
+    "id": "AMW",
+    "name": "Ames",
+    "lat": 41.9904,
+    "lon": -93.6185,
+    "state": "IA"
+  },
+  {
+    "id": "ANB",
+    "name": "Anniston",
+    "lat": 33.5904,
+    "lon": -85.8479,
+    "state": "AL"
+  },
+  {
+    "id": "AND",
+    "name": "ANDERSON CO AIRPORT",
+    "lat": 34.4946,
+    "lon": -82.7094,
+    "state": "SC"
+  },
+  {
+    "id": "ANJ",
+    "name": "SAULT STE MARIE",
+    "lat": 46.4792,
+    "lon": -84.3684,
+    "state": "MI"
+  },
+  {
+    "id": "AOH",
+    "name": "LIMA",
+    "lat": 40.7069,
+    "lon": -84.0267,
+    "state": "OH"
+  },
+  {
+    "id": "AOO",
+    "name": "ALTOONA/BLAIR CO.",
+    "lat": 40.2964,
+    "lon": -78.32,
+    "state": "PA"
+  },
+  {
+    "id": "APA",
+    "name": "DENVER/CENTENNIAL",
+    "lat": 39.57,
+    "lon": -104.85,
+    "state": "CO"
+  },
+  {
+    "id": "APC",
+    "name": "Napa County",
+    "lat": 38.2075,
+    "lon": -122.2804,
+    "state": "CA"
+  },
+  {
+    "id": "APF",
+    "name": "NAPLES MUNICIPAL",
+    "lat": 26.1525,
+    "lon": -81.7753,
+    "state": "FL"
+  },
+  {
+    "id": "APN",
+    "name": "ALPENA",
+    "lat": 45.0717,
+    "lon": -83.5644,
+    "state": "MI"
+  },
+  {
+    "id": "AQV",
+    "name": "Peason Ridge - Ft Polk",
+    "lat": 31.3569,
+    "lon": -93.1761,
+    "state": "LA"
+  },
+  {
+    "id": "AQW",
+    "name": "NORTH ADAMS",
+    "lat": 42.6962,
+    "lon": -73.1702,
+    "state": "MA"
+  },
+  {
+    "id": "ARA",
+    "name": "New Iberia - Acadiana",
+    "lat": 30.0292,
+    "lon": -91.8845,
+    "state": "LA"
+  },
+  {
+    "id": "ARB",
+    "name": "ANN ARBOR",
+    "lat": 42.224,
+    "lon": -83.7397,
+    "state": "MI"
+  },
+  {
+    "id": "ARR",
+    "name": "CHICAGO/AURORA",
+    "lat": 41.77,
+    "lon": -88.48,
+    "state": "IL"
+  },
+  {
+    "id": "ART",
+    "name": "WATERTOWN INTL ARPT",
+    "lat": 43.9888,
+    "lon": -76.0262,
+    "state": "NY"
+  },
+  {
+    "id": "ASD",
+    "name": "SLIDELL",
+    "lat": 30.3433,
+    "lon": -89.8222,
+    "state": "LA"
+  },
+  {
+    "id": "ASE",
+    "name": "ASPEN/SARDY FIELD",
+    "lat": 39.2232,
+    "lon": -106.8689,
+    "state": "CO"
+  },
+  {
+    "id": "AST",
+    "name": "ASTORIA/CLATSOP",
+    "lat": 46.1569,
+    "lon": -123.8825,
+    "state": "OR"
+  },
+  {
+    "id": "ASX",
+    "name": "Ashland",
+    "lat": 46.5487,
+    "lon": -90.9189,
+    "state": "WI"
+  },
+  {
+    "id": "ATL",
+    "name": "ATLANTA INTL ARPT",
+    "lat": 33.6301,
+    "lon": -84.4418,
+    "state": "GA"
+  },
+  {
+    "id": "ATT",
+    "name": "Austin - City/Camp Mabry",
+    "lat": 30.3208,
+    "lon": -97.7604,
+    "state": "TX"
+  },
+  {
+    "id": "ATY",
+    "name": "WATERTOWN",
+    "lat": 44.914,
+    "lon": -97.1547,
+    "state": "SD"
+  },
+  {
+    "id": "AUG",
+    "name": "AUGUSTA STATE ARPT",
+    "lat": 44.32,
+    "lon": -69.8,
+    "state": "ME"
+  },
+  {
+    "id": "AUS",
+    "name": "Austin Bergstrom Intl",
+    "lat": 30.183,
+    "lon": -97.6799,
+    "state": "TX"
+  },
+  {
+    "id": "AUW",
+    "name": "WAUSAU",
+    "lat": 44.9262,
+    "lon": -89.6266,
+    "state": "WI"
+  },
+  {
+    "id": "AVL",
+    "name": "ASHEVILLE_MUNICIPAL_(ASOS)",
+    "lat": 35.4319,
+    "lon": -82.5375,
+    "state": "NC"
+  },
+  {
+    "id": "AVP",
+    "name": "Wilkes-Barre/Scranton",
+    "lat": 41.3335,
+    "lon": -75.7227,
+    "state": "PA"
+  },
+  {
+    "id": "AVX",
+    "name": "AVALON/CATALINA",
+    "lat": 33.405,
+    "lon": -118.4158,
+    "state": "CA"
+  },
+  {
+    "id": "AWM",
+    "name": "WEST MEMPHIS MUNI",
+    "lat": 35.1351,
+    "lon": -90.2344,
+    "state": "AR"
+  },
+  {
+    "id": "AXN",
+    "name": "ALEXANDRIA",
+    "lat": 45.8663,
+    "lon": -95.3947,
+    "state": "MN"
+  },
+  {
+    "id": "AZO",
+    "name": "KALAMAZOO",
+    "lat": 42.2347,
+    "lon": -85.5519,
+    "state": "MI"
+  },
+  {
+    "id": "BAF",
+    "name": "WESTFIELD/BARNES",
+    "lat": 42.1578,
+    "lon": -72.7161,
+    "state": "MA"
+  },
+  {
+    "id": "BAZ",
+    "name": "NEW BRAUNFELS MUNI APT (WAS 3R5)",
+    "lat": 29.709,
+    "lon": -98.045,
+    "state": "TX"
+  },
+  {
+    "id": "BBW",
+    "name": "BROKEN BOW MUNI",
+    "lat": 41.4366,
+    "lon": -99.6385,
+    "state": "NE"
+  },
+  {
+    "id": "BCE",
+    "name": "BRYCE CANYON",
+    "lat": 37.7064,
+    "lon": -112.1456,
+    "state": "UT"
+  },
+  {
+    "id": "BCR",
+    "name": "Tri-County",
+    "lat": 30.8438,
+    "lon": -85.6017,
+    "state": "FL"
+  },
+  {
+    "id": "BDE",
+    "name": "BAUDETTE",
+    "lat": 48.7284,
+    "lon": -94.6122,
+    "state": "MN"
+  },
+  {
+    "id": "BDL",
+    "name": "HARTFORD/BRADLEY",
+    "lat": 41.9381,
+    "lon": -72.6825,
+    "state": "CT"
+  },
+  {
+    "id": "BDR",
+    "name": "Bridgeport/Sikorsky",
+    "lat": 41.1583,
+    "lon": -73.1289,
+    "state": "CT"
+  },
+  {
+    "id": "BED",
+    "name": "HANSCOM FLD/BEDFORD",
+    "lat": 42.47,
+    "lon": -71.289,
+    "state": "MA"
+  },
+  {
+    "id": "BEH",
+    "name": "BENTON HARBOR",
+    "lat": 42.1286,
+    "lon": -86.4285,
+    "state": "MI"
+  },
+  {
+    "id": "BFD",
+    "name": "BRADFORD REGIONAL",
+    "lat": 41.8031,
+    "lon": -78.6401,
+    "state": "PA"
+  },
+  {
+    "id": "BFF",
+    "name": "SCOTTSBLUFF",
+    "lat": 41.874,
+    "lon": -103.5956,
+    "state": "NE"
+  },
+  {
+    "id": "BFI",
+    "name": "SEATTLE/BOEING FLD",
+    "lat": 47.53,
+    "lon": -122.3,
+    "state": "WA"
+  },
+  {
+    "id": "BFL",
+    "name": "BAKERSFIELD/MEADOWS",
+    "lat": 35.4344,
+    "lon": -119.0542,
+    "state": "CA"
+  },
+  {
+    "id": "BFM",
+    "name": "MOBILE DOWNTOWN",
+    "lat": 30.6268,
+    "lon": -88.0681,
+    "state": "AL"
+  },
+  {
+    "id": "BGD",
+    "name": "BORGER/HUTCHINSON",
+    "lat": 35.7009,
+    "lon": -101.3937,
+    "state": "TX"
+  },
+  {
+    "id": "BGM",
+    "name": "BINGHAMTON/BROOME",
+    "lat": 42.2086,
+    "lon": -75.9797,
+    "state": "NY"
+  },
+  {
+    "id": "BGR",
+    "name": "BANGOR INTL ARPT",
+    "lat": 44.8074,
+    "lon": -68.8281,
+    "state": "ME"
+  },
+  {
+    "id": "BHK",
+    "name": "BAKER",
+    "lat": 46.3476,
+    "lon": -104.2594,
+    "state": "MT"
+  },
+  {
+    "id": "BHM",
+    "name": "BIRMINGHAM MUNI",
+    "lat": 33.5655,
+    "lon": -86.7449,
+    "state": "AL"
+  },
+  {
+    "id": "BIH",
+    "name": "BISHOP AIRPORT",
+    "lat": 37.3731,
+    "lon": -118.3636,
+    "state": "CA"
+  },
+  {
+    "id": "BIL",
+    "name": "BILLINGS/LOGAN INTL",
+    "lat": 45.8069,
+    "lon": -108.5422,
+    "state": "MT"
+  },
+  {
+    "id": "BIS",
+    "name": "BISMARCK",
+    "lat": 46.7727,
+    "lon": -100.7458,
+    "state": "ND"
+  },
+  {
+    "id": "BIV",
+    "name": "HOLLAND",
+    "lat": 42.7461,
+    "lon": -86.0967,
+    "state": "MI"
+  },
+  {
+    "id": "BJJ",
+    "name": "WOOSTER",
+    "lat": 40.8748,
+    "lon": -81.8882,
+    "state": "OH"
+  },
+  {
+    "id": "BKB",
+    "name": "Fullerton - Fort Polk",
+    "lat": 31.0964,
+    "lon": -92.9781,
+    "state": "LA"
+  },
+  {
+    "id": "BKE",
+    "name": "BAKER MUNICIPAL",
+    "lat": 44.8374,
+    "lon": -117.8091,
+    "state": "OR"
+  },
+  {
+    "id": "BKL",
+    "name": "Cleveland Burke Lakefront",
+    "lat": 41.5175,
+    "lon": -81.6833,
+    "state": "OH"
+  },
+  {
+    "id": "BKV",
+    "name": "BROOKSVILLE (ASOS)",
+    "lat": 28.4736,
+    "lon": -82.4554,
+    "state": "FL"
+  },
+  {
+    "id": "BKW",
+    "name": "BECKLEY MEMORIAL",
+    "lat": 37.7873,
+    "lon": -81.1242,
+    "state": "WV"
+  },
+  {
+    "id": "BLF",
+    "name": "BLUEFIELD/MERCER CO",
+    "lat": 37.2958,
+    "lon": -81.2077,
+    "state": "WV"
+  },
+  {
+    "id": "BLH",
+    "name": "BLYTHE AIRPORT",
+    "lat": 33.6192,
+    "lon": -114.7169,
+    "state": "CA"
+  },
+  {
+    "id": "BLI",
+    "name": "BELLINGHAM INTL",
+    "lat": 48.7927,
+    "lon": -122.5375,
+    "state": "WA"
+  },
+  {
+    "id": "BLU",
+    "name": "Blue Canyon - Nyack",
+    "lat": 39.275,
+    "lon": -120.7098,
+    "state": "CA"
+  },
+  {
+    "id": "BMG",
+    "name": "Bloomington",
+    "lat": 39.146,
+    "lon": -86.6167,
+    "state": "IN"
+  },
+  {
+    "id": "BML",
+    "name": "BERLIN MUNICIPAL",
+    "lat": 44.5761,
+    "lon": -71.1786,
+    "state": "NH"
+  },
+  {
+    "id": "BMQ",
+    "name": "BURNET MUNICIPAL/KATE CRADDOCK",
+    "lat": 30.7389,
+    "lon": -98.2386,
+    "state": "TX"
+  },
+  {
+    "id": "BNA",
+    "name": "NASHVILLE METRO",
+    "lat": 36.1189,
+    "lon": -86.6892,
+    "state": "TN"
+  },
+  {
+    "id": "BNO",
+    "name": "BURNS MUNI (AMO",
+    "lat": 43.595,
+    "lon": -118.9564,
+    "state": "OR"
+  },
+  {
+    "id": "BOI",
+    "name": "BOISE MUNICIPAL",
+    "lat": 43.5667,
+    "lon": -116.2406,
+    "state": "ID"
+  },
+  {
+    "id": "BOS",
+    "name": "BOSTON/LOGAN INTL",
+    "lat": 42.3606,
+    "lon": -71.0097,
+    "state": "MA"
+  },
+  {
+    "id": "BPI",
+    "name": "Big Piney - Marbleton",
+    "lat": 42.5851,
+    "lon": -110.1112,
+    "state": "WY"
+  },
+  {
+    "id": "BPK",
+    "name": "MOUNTAIN HOME/BAXTER COUNTY",
+    "lat": 36.37,
+    "lon": -92.47,
+    "state": "AR"
+  },
+  {
+    "id": "BPT",
+    "name": "Beaumont - Port Arthur",
+    "lat": 29.9521,
+    "lon": -94.0261,
+    "state": "TX"
+  },
+  {
+    "id": "BRD",
+    "name": "BRAINERD",
+    "lat": 46.4047,
+    "lon": -94.1308,
+    "state": "MN"
+  },
+  {
+    "id": "BRL",
+    "name": "BURLINGTON",
+    "lat": 40.7729,
+    "lon": -91.1255,
+    "state": "IA"
+  },
+  {
+    "id": "BRO",
+    "name": "BROWNSVILLE INTL",
+    "lat": 25.9146,
+    "lon": -97.4231,
+    "state": "TX"
+  },
+  {
+    "id": "BTL",
+    "name": "BATTLE CREEK",
+    "lat": 42.3073,
+    "lon": -85.2515,
+    "state": "MI"
+  },
+  {
+    "id": "BTM",
+    "name": "BUTTE/BERT MOONEY",
+    "lat": 45.9548,
+    "lon": -112.4975,
+    "state": "MT"
+  },
+  {
+    "id": "BTR",
+    "name": "BATON ROUGE/RYAN",
+    "lat": 30.5372,
+    "lon": -91.1469,
+    "state": "LA"
+  },
+  {
+    "id": "BTV",
+    "name": "BURLINGTON INTL",
+    "lat": 44.47,
+    "lon": -73.15,
+    "state": "VT"
+  },
+  {
+    "id": "BUF",
+    "name": "BUFFALO INTL ARPT",
+    "lat": 42.9408,
+    "lon": -78.7358,
+    "state": "NY"
+  },
+  {
+    "id": "BUR",
+    "name": "BURBANK/GLENDALE",
+    "lat": 34.2007,
+    "lon": -118.3587,
+    "state": "CA"
+  },
+  {
+    "id": "BUY",
+    "name": "BURLINGTON-ALAMANCE_REG_(ASOS)",
+    "lat": 36.0485,
+    "lon": -79.4749,
+    "state": "NC"
+  },
+  {
+    "id": "BVO",
+    "name": "BARTLESVILLE/PHILLI",
+    "lat": 36.7625,
+    "lon": -96.0112,
+    "state": "OK"
+  },
+  {
+    "id": "BVY",
+    "name": "BEVERLY MUNICIPAL",
+    "lat": 42.5841,
+    "lon": -70.9161,
+    "state": "MA"
+  },
+  {
+    "id": "BWG",
+    "name": "BOWLING GREEN",
+    "lat": 36.9645,
+    "lon": -86.4197,
+    "state": "KY"
+  },
+  {
+    "id": "BWI",
+    "name": "Baltimore - Wash Intl",
+    "lat": 39.1733,
+    "lon": -76.6841,
+    "state": "MD"
+  },
+  {
+    "id": "BYG",
+    "name": "BUFFALO/JOHNSON COUNTY",
+    "lat": 44.38,
+    "lon": -106.72,
+    "state": "WY"
+  },
+  {
+    "id": "BYI",
+    "name": "BURLEY MUNICIPAL",
+    "lat": 42.5426,
+    "lon": -113.7715,
+    "state": "ID"
+  },
+  {
+    "id": "BZN",
+    "name": "BOZEMAN/GALLATIN",
+    "lat": 45.7881,
+    "lon": -111.1608,
+    "state": "MT"
+  },
+  {
+    "id": "CAE",
+    "name": "COLUMBIA METRO",
+    "lat": 33.9419,
+    "lon": -81.1181,
+    "state": "SC"
+  },
+  {
+    "id": "CAG",
+    "name": "Craig - Moffat",
+    "lat": 40.4952,
+    "lon": -107.5216,
+    "state": "CO"
+  },
+  {
+    "id": "CAK",
+    "name": "Akron / Canton",
+    "lat": 40.9161,
+    "lon": -81.4422,
+    "state": "OH"
+  },
+  {
+    "id": "CAO",
+    "name": "Clayton",
+    "lat": 36.4486,
+    "lon": -103.1539,
+    "state": "NM"
+  },
+  {
+    "id": "CAR",
+    "name": "CARIBOU MUNICIPAL",
+    "lat": 46.87,
+    "lon": -68.02,
+    "state": "ME"
+  },
+  {
+    "id": "CCR",
+    "name": "Concord/Buchanan",
+    "lat": 37.9916,
+    "lon": -122.0526,
+    "state": "CA"
+  },
+  {
+    "id": "CDC",
+    "name": "CEDAR CITY MUNI",
+    "lat": 37.7,
+    "lon": -113.1,
+    "state": "UT"
+  },
+  {
+    "id": "CDJ",
+    "name": "CHILLICOTHE",
+    "lat": 39.8233,
+    "lon": -93.5792,
+    "state": "MO"
+  },
+  {
+    "id": "CDR",
+    "name": "CHADRON",
+    "lat": 42.8376,
+    "lon": -103.0954,
+    "state": "NE"
+  },
+  {
+    "id": "CDS",
+    "name": "CHILDRESS MUNICIPAL",
+    "lat": 34.4339,
+    "lon": -100.2881,
+    "state": "TX"
+  },
+  {
+    "id": "CDW",
+    "name": "CALDWELL/ESSEX CO.",
+    "lat": 40.8764,
+    "lon": -74.2831,
+    "state": "NJ"
+  },
+  {
+    "id": "CEC",
+    "name": "Crescent City",
+    "lat": 41.7837,
+    "lon": -124.238,
+    "state": "CA"
+  },
+  {
+    "id": "CEU",
+    "name": "CLEMSON/OCONEE COUNTY",
+    "lat": 34.6719,
+    "lon": -82.8868,
+    "state": "SC"
+  },
+  {
+    "id": "CEW",
+    "name": "CRESTVIEW/BOB SIKES",
+    "lat": 30.78,
+    "lon": -86.52,
+    "state": "FL"
+  },
+  {
+    "id": "CEZ",
+    "name": "CORTEZ/MONTEZUMA CO",
+    "lat": 37.303,
+    "lon": -108.6281,
+    "state": "CO"
+  },
+  {
+    "id": "CFV",
+    "name": "COFFEYVILLE",
+    "lat": 37.094,
+    "lon": -95.5719,
+    "state": "KS"
+  },
+  {
+    "id": "CGI",
+    "name": "CAPE GIRARDEAU",
+    "lat": 37.2253,
+    "lon": -89.5708,
+    "state": "MO"
+  },
+  {
+    "id": "CHA",
+    "name": "CHATTANOOGA/LOVELL",
+    "lat": 35.0353,
+    "lon": -85.2038,
+    "state": "TN"
+  },
+  {
+    "id": "CHO",
+    "name": "CHARLOTTESVILLE",
+    "lat": 38.1386,
+    "lon": -78.4529,
+    "state": "VA"
+  },
+  {
+    "id": "CHS",
+    "name": "Charleston",
+    "lat": 32.8986,
+    "lon": -80.0405,
+    "state": "SC"
+  },
+  {
+    "id": "CID",
+    "name": "CEDAR RAPIDS",
+    "lat": 41.8829,
+    "lon": -91.7246,
+    "state": "IA"
+  },
+  {
+    "id": "CKB",
+    "name": "CLARKSBURG/BENEDUM",
+    "lat": 39.2966,
+    "lon": -80.2281,
+    "state": "WV"
+  },
+  {
+    "id": "CKV",
+    "name": "CLARKSVILLE/OUTLAW",
+    "lat": 36.6219,
+    "lon": -87.415,
+    "state": "TN"
+  },
+  {
+    "id": "CLE",
+    "name": "CLEVELAND",
+    "lat": 41.405,
+    "lon": -81.8528,
+    "state": "OH"
+  },
+  {
+    "id": "CLL",
+    "name": "COLLEGE STATION",
+    "lat": 30.5881,
+    "lon": -96.3639,
+    "state": "TX"
+  },
+  {
+    "id": "CLM",
+    "name": "Port Angeles",
+    "lat": 48.122,
+    "lon": -123.5066,
+    "state": "WA"
+  },
+  {
+    "id": "CLT",
+    "name": "Charlotte / Douglas",
+    "lat": 35.2226,
+    "lon": -80.9543,
+    "state": "NC"
+  },
+  {
+    "id": "CMA",
+    "name": "CAMARILLO (AWOS)",
+    "lat": 34.2138,
+    "lon": -119.0944,
+    "state": "CA"
+  },
+  {
+    "id": "CMH",
+    "name": "COLUMBUS",
+    "lat": 39.9914,
+    "lon": -82.8808,
+    "state": "OH"
+  },
+  {
+    "id": "CMI",
+    "name": "Champaign - Willard",
+    "lat": 40.0324,
+    "lon": -88.2755,
+    "state": "IL"
+  },
+  {
+    "id": "CMX",
+    "name": "HANCOCK",
+    "lat": 47.1684,
+    "lon": -88.4891,
+    "state": "MI"
+  },
+  {
+    "id": "CNK",
+    "name": "CONCORDIA",
+    "lat": 39.55,
+    "lon": -97.65,
+    "state": "KS"
+  },
+  {
+    "id": "CNM",
+    "name": "CARLSBAD/CAVERN CTY",
+    "lat": 32.3375,
+    "lon": -104.2633,
+    "state": "NM"
+  },
+  {
+    "id": "CNO",
+    "name": "CHINO AIRPORT",
+    "lat": 33.9753,
+    "lon": -117.6361,
+    "state": "CA"
+  },
+  {
+    "id": "CNU",
+    "name": "CHANUTE",
+    "lat": 37.6703,
+    "lon": -95.4842,
+    "state": "KS"
+  },
+  {
+    "id": "CNY",
+    "name": "MOAB/CANYONLANDS",
+    "lat": 38.755,
+    "lon": -109.7548,
+    "state": "UT"
+  },
+  {
+    "id": "CON",
+    "name": "CONCORD MUNICIPAL",
+    "lat": 43.1953,
+    "lon": -71.5011,
+    "state": "NH"
+  },
+  {
+    "id": "COS",
+    "name": "COLORADO SPRINGS",
+    "lat": 38.8058,
+    "lon": -104.7008,
+    "state": "CO"
+  },
+  {
+    "id": "COT",
+    "name": "COTULLA MUNICIPAL",
+    "lat": 28.4567,
+    "lon": -99.2183,
+    "state": "TX"
+  },
+  {
+    "id": "COU",
+    "name": "COLUMBIA",
+    "lat": 38.8169,
+    "lon": -92.2183,
+    "state": "MO"
+  },
+  {
+    "id": "CPR",
+    "name": "CASPER/NATRONA INTL",
+    "lat": 42.908,
+    "lon": -106.4644,
+    "state": "WY"
+  },
+  {
+    "id": "CPS",
+    "name": "CAHOKIA/ST LOUIS",
+    "lat": 38.5707,
+    "lon": -90.1562,
+    "state": "IL"
+  },
+  {
+    "id": "CQC",
+    "name": "CLINES CORNERS",
+    "lat": 35.0028,
+    "lon": -105.6628,
+    "state": "NM"
+  },
+  {
+    "id": "CQT",
+    "name": "LOS ANGELES DOWNTOWN/USC",
+    "lat": 34.0235,
+    "lon": -118.2912,
+    "state": "CA"
+  },
+  {
+    "id": "CQX",
+    "name": "CHATHAM MUNI ARPT",
+    "lat": 41.6875,
+    "lon": -69.9933,
+    "state": "MA"
+  },
+  {
+    "id": "CRE",
+    "name": "NORTH MYRTLE BEACH",
+    "lat": 33.8118,
+    "lon": -78.7239,
+    "state": "SC"
+  },
+  {
+    "id": "CRG",
+    "name": "JACKSONVILLE/CRAIG",
+    "lat": 30.3361,
+    "lon": -81.5147,
+    "state": "FL"
+  },
+  {
+    "id": "CRP",
+    "name": "CORPUS CHRISTI INTL",
+    "lat": 27.7731,
+    "lon": -97.5128,
+    "state": "TX"
+  },
+  {
+    "id": "CRQ",
+    "name": "CARLSBAD/PALOMAR",
+    "lat": 33.13,
+    "lon": -117.28,
+    "state": "CA"
+  },
+  {
+    "id": "CRS",
+    "name": "CORSICANA",
+    "lat": 32.03,
+    "lon": -96.4,
+    "state": "TX"
+  },
+  {
+    "id": "CRW",
+    "name": "CHARLESTON/KANAWHA",
+    "lat": 38.3794,
+    "lon": -81.59,
+    "state": "WV"
+  },
+  {
+    "id": "CSG",
+    "name": "COLUMBUS METRO ARPT",
+    "lat": 32.5161,
+    "lon": -84.9422,
+    "state": "GA"
+  },
+  {
+    "id": "CSM",
+    "name": "CLINTON-SHERMAN",
+    "lat": 35.3398,
+    "lon": -99.2005,
+    "state": "OK"
+  },
+  {
+    "id": "CSV",
+    "name": "CROSSVILLE MEMORIAL",
+    "lat": 35.9513,
+    "lon": -85.085,
+    "state": "TN"
+  },
+  {
+    "id": "CTB",
+    "name": "CUT BANK (AWOS)",
+    "lat": 48.6084,
+    "lon": -112.3762,
+    "state": "MT"
+  },
+  {
+    "id": "CUB",
+    "name": "COLUMBIA OWENS DOWNTOWN AIRPORT",
+    "lat": 33.972,
+    "lon": -80.9938,
+    "state": "SC"
+  },
+  {
+    "id": "CUT",
+    "name": "CUSTER",
+    "lat": 43.7331,
+    "lon": -103.6114,
+    "state": "SD"
+  },
+  {
+    "id": "CVG",
+    "name": "Cincinnati / N Kentucky Intl",
+    "lat": 39.0431,
+    "lon": -84.6717,
+    "state": "KY"
+  },
+  {
+    "id": "CXO",
+    "name": "CONROE/MONTGOMERY COUNTY AIRPORT",
+    "lat": 30.3524,
+    "lon": -95.4145,
+    "state": "TX"
+  },
+  {
+    "id": "CXY",
+    "name": "HARRISBURG/CAPITAL",
+    "lat": 40.2171,
+    "lon": -76.8515,
+    "state": "PA"
+  },
+  {
+    "id": "CYS",
+    "name": "CHEYENNE/WARREN AFB",
+    "lat": 41.1556,
+    "lon": -104.8105,
+    "state": "WY"
+  },
+  {
+    "id": "CZZ",
+    "name": "CAMPO (AWRS)",
+    "lat": 32.6261,
+    "lon": -116.4683,
+    "state": "CA"
+  },
+  {
+    "id": "D07",
+    "name": "FAITH",
+    "lat": 45.03,
+    "lon": -102.02,
+    "state": "SD"
+  },
+  {
+    "id": "DAB",
+    "name": "DAYTONA BEACH RGNL",
+    "lat": 29.1799,
+    "lon": -81.0581,
+    "state": "FL"
+  },
+  {
+    "id": "DAG",
+    "name": "BARSTOW-DAGGETT",
+    "lat": 34.8536,
+    "lon": -116.7858,
+    "state": "CA"
+  },
+  {
+    "id": "DAL",
+    "name": "DALLAS/LOVE FIELD",
+    "lat": 32.8471,
+    "lon": -96.8518,
+    "state": "TX"
+  },
+  {
+    "id": "DAN",
+    "name": "DANVILLE REGIONAL",
+    "lat": 36.5729,
+    "lon": -79.3361,
+    "state": "VA"
+  },
+  {
+    "id": "DAW",
+    "name": "ROCHESTER (WAS 6B1)",
+    "lat": 43.28,
+    "lon": -70.92,
+    "state": "NH"
+  },
+  {
+    "id": "DAY",
+    "name": "DAYTON",
+    "lat": 39.9061,
+    "lon": -84.2186,
+    "state": "OH"
+  },
+  {
+    "id": "DBQ",
+    "name": "DUBUQUE",
+    "lat": 42.3984,
+    "lon": -90.7091,
+    "state": "IA"
+  },
+  {
+    "id": "DCA",
+    "name": "WASHINGTON/NATIONAL",
+    "lat": 38.8472,
+    "lon": -77.0346,
+    "state": "VA"
+  },
+  {
+    "id": "DCU",
+    "name": "DECATUR/PRYOR FIELD",
+    "lat": 34.6525,
+    "lon": -86.9453,
+    "state": "AL"
+  },
+  {
+    "id": "DDC",
+    "name": "Dodge City",
+    "lat": 37.7631,
+    "lon": -99.9654,
+    "state": "KS"
+  },
+  {
+    "id": "DDH",
+    "name": "Bennington More State",
+    "lat": 42.8935,
+    "lon": -73.2486,
+    "state": "VT"
+  },
+  {
+    "id": "DEC",
+    "name": "DECATUR",
+    "lat": 39.8346,
+    "lon": -88.8657,
+    "state": "IL"
+  },
+  {
+    "id": "DEN",
+    "name": "DENVER INTNL ARPT",
+    "lat": 39.8328,
+    "lon": -104.6575,
+    "state": "CO"
+  },
+  {
+    "id": "DEQ",
+    "name": "J LYNN HELMS/DE QUEEN",
+    "lat": 34.047,
+    "lon": -94.3994,
+    "state": "AR"
+  },
+  {
+    "id": "DET",
+    "name": "DETROIT/CITY AIR",
+    "lat": 42.4092,
+    "lon": -83.0099,
+    "state": "MI"
+  },
+  {
+    "id": "DEW",
+    "name": "DEER PARK",
+    "lat": 47.9689,
+    "lon": -117.4211,
+    "state": "WA"
+  },
+  {
+    "id": "DFI",
+    "name": "DEFIANCE",
+    "lat": 41.3375,
+    "lon": -84.4288,
+    "state": "OH"
+  },
+  {
+    "id": "DFW",
+    "name": "DALLAS/FT WORTH",
+    "lat": 32.8968,
+    "lon": -97.038,
+    "state": "TX"
+  },
+  {
+    "id": "DGW",
+    "name": "DOUGLAS/CONVERSE COUNTY AIRPORT",
+    "lat": 42.7972,
+    "lon": -105.3858,
+    "state": "WY"
+  },
+  {
+    "id": "DHN",
+    "name": "DOTHAN MUNICIPAL",
+    "lat": 31.32,
+    "lon": -85.45,
+    "state": "AL"
+  },
+  {
+    "id": "DHT",
+    "name": "DALHART MUNICIPAL",
+    "lat": 36.0226,
+    "lon": -102.5473,
+    "state": "TX"
+  },
+  {
+    "id": "DIK",
+    "name": "DICKINSON",
+    "lat": 46.7973,
+    "lon": -102.8019,
+    "state": "ND"
+  },
+  {
+    "id": "DKK",
+    "name": "DUNKIRK AIRPORT",
+    "lat": 42.4933,
+    "lon": -79.272,
+    "state": "NY"
+  },
+  {
+    "id": "DLH",
+    "name": "DULUTH",
+    "lat": 46.8421,
+    "lon": -92.1936,
+    "state": "MN"
+  },
+  {
+    "id": "DLN",
+    "name": "DILLON AIRPORT",
+    "lat": 45.2554,
+    "lon": -112.5525,
+    "state": "MT"
+  },
+  {
+    "id": "DLS",
+    "name": "The Dalles Muni",
+    "lat": 45.6186,
+    "lon": -121.1673,
+    "state": "WA"
+  },
+  {
+    "id": "DMH",
+    "name": "BALTIMORE INNER HARBOR",
+    "lat": 39.28,
+    "lon": -76.61,
+    "state": "MD"
+  },
+  {
+    "id": "DMN",
+    "name": "DEMING MUNICIPAL",
+    "lat": 32.2623,
+    "lon": -107.7206,
+    "state": "NM"
+  },
+  {
+    "id": "DMO",
+    "name": "SEDALIA",
+    "lat": 38.7074,
+    "lon": -93.1759,
+    "state": "MO"
+  },
+  {
+    "id": "DNL",
+    "name": "Augusta",
+    "lat": 33.4668,
+    "lon": -82.0385,
+    "state": "GA"
+  },
+  {
+    "id": "DPA",
+    "name": "CHICAGO/DUPAGE",
+    "lat": 41.9078,
+    "lon": -88.2486,
+    "state": "IL"
+  },
+  {
+    "id": "DRA",
+    "name": "MERCURY/DESERT ROCK",
+    "lat": 36.6206,
+    "lon": -116.0278,
+    "state": "NV"
+  },
+  {
+    "id": "DRO",
+    "name": "DURANGO/LA PLATA CO",
+    "lat": 37.1515,
+    "lon": -107.7538,
+    "state": "CO"
+  },
+  {
+    "id": "DRT",
+    "name": "DEL RIO INTL (AUT)",
+    "lat": 29.3742,
+    "lon": -100.9272,
+    "state": "TX"
+  },
+  {
+    "id": "DSM",
+    "name": "Des Moines",
+    "lat": 41.534,
+    "lon": -93.6531,
+    "state": "IA"
+  },
+  {
+    "id": "DSV",
+    "name": "DANSVILLE MUNICIPAL",
+    "lat": 42.5709,
+    "lon": -77.713,
+    "state": "NY"
+  },
+  {
+    "id": "DTN",
+    "name": "SHREVEPORT DOWNTOWN",
+    "lat": 32.5402,
+    "lon": -93.745,
+    "state": "LA"
+  },
+  {
+    "id": "DTO",
+    "name": "Denton",
+    "lat": 33.205,
+    "lon": -97.2006,
+    "state": "TX"
+  },
+  {
+    "id": "DTS",
+    "name": "Destin - Fort Walton Beach",
+    "lat": 30.3934,
+    "lon": -86.4674,
+    "state": "FL"
+  },
+  {
+    "id": "DTW",
+    "name": "DETROIT/WAYNE",
+    "lat": 42.23,
+    "lon": -83.33,
+    "state": "MI"
+  },
+  {
+    "id": "DUG",
+    "name": "DOUGLAS BISBEE INTL",
+    "lat": 31.469,
+    "lon": -109.6037,
+    "state": "AZ"
+  },
+  {
+    "id": "DUJ",
+    "name": "DU BOIS (AWOS)",
+    "lat": 41.18,
+    "lon": -78.9,
+    "state": "PA"
+  },
+  {
+    "id": "DVN",
+    "name": "QUAD CITIES",
+    "lat": 41.6133,
+    "lon": -90.5948,
+    "state": "IA"
+  },
+  {
+    "id": "DVT",
+    "name": "DEER VALLEY/PHOENIX",
+    "lat": 33.6883,
+    "lon": -112.0826,
+    "state": "AZ"
+  },
+  {
+    "id": "DWH",
+    "name": "HOUSTON/D.W. HOOKS",
+    "lat": 30.068,
+    "lon": -95.5562,
+    "state": "TX"
+  },
+  {
+    "id": "DXR",
+    "name": "DANBURY MUNICIPAL",
+    "lat": 41.37,
+    "lon": -73.48,
+    "state": "CT"
+  },
+  {
+    "id": "DYL",
+    "name": "DOYLESTOWN AIRPORT",
+    "lat": 40.333,
+    "lon": -75.1223,
+    "state": "PA"
+  },
+  {
+    "id": "EAT",
+    "name": "WENATCHEE/PANGBORN",
+    "lat": 47.399,
+    "lon": -120.207,
+    "state": "WA"
+  },
+  {
+    "id": "EAU",
+    "name": "EAU CLAIRE",
+    "lat": 44.8658,
+    "lon": -91.4843,
+    "state": "WI"
+  },
+  {
+    "id": "ECG",
+    "name": "Elizabeth City",
+    "lat": 36.2577,
+    "lon": -76.1716,
+    "state": "NC"
+  },
+  {
+    "id": "ECP",
+    "name": "Panama City",
+    "lat": 30.3582,
+    "lon": -85.7956,
+    "state": "FL"
+  },
+  {
+    "id": "EED",
+    "name": "NEEDLES AIRPORT",
+    "lat": 34.7664,
+    "lon": -114.6233,
+    "state": "CA"
+  },
+  {
+    "id": "EEO",
+    "name": "MEEKER",
+    "lat": 40.0488,
+    "lon": -107.8859,
+    "state": "CO"
+  },
+  {
+    "id": "EET",
+    "name": "Alabaster",
+    "lat": 33.1784,
+    "lon": -86.7818,
+    "state": "AL"
+  },
+  {
+    "id": "EKN",
+    "name": "ELKINS/RANDOLPH FLD",
+    "lat": 38.8853,
+    "lon": -79.8528,
+    "state": "WV"
+  },
+  {
+    "id": "EKO",
+    "name": "ELKO",
+    "lat": 40.8242,
+    "lon": -115.786,
+    "state": "NV"
+  },
+  {
+    "id": "ELD",
+    "name": "EL DORADO/GOODWIN",
+    "lat": 33.221,
+    "lon": -92.8133,
+    "state": "AR"
+  },
+  {
+    "id": "ELM",
+    "name": "Elmira / Corning",
+    "lat": 42.1571,
+    "lon": -76.8994,
+    "state": "NY"
+  },
+  {
+    "id": "ELN",
+    "name": "ELLENSBURG/BOWERS",
+    "lat": 47.033,
+    "lon": -120.5307,
+    "state": "WA"
+  },
+  {
+    "id": "ELP",
+    "name": "EL PASO INTL ARPT",
+    "lat": 31.8111,
+    "lon": -106.3758,
+    "state": "TX"
+  },
+  {
+    "id": "ELY",
+    "name": "ELY/YELLAND FLD",
+    "lat": 39.295,
+    "lon": -114.8453,
+    "state": "NV"
+  },
+  {
+    "id": "ELZ",
+    "name": "Wellsville Municipal",
+    "lat": 42.1078,
+    "lon": -77.9842,
+    "state": "NY"
+  },
+  {
+    "id": "EMP",
+    "name": "EMPORIA",
+    "lat": 38.3306,
+    "lon": -96.1897,
+    "state": "KS"
+  },
+  {
+    "id": "ENW",
+    "name": "KENOSHA",
+    "lat": 42.595,
+    "lon": -87.9381,
+    "state": "WI"
+  },
+  {
+    "id": "EPH",
+    "name": "EPHRATA MUNICIPAL",
+    "lat": 47.3081,
+    "lon": -119.5147,
+    "state": "WA"
+  },
+  {
+    "id": "EQY",
+    "name": "MONROE_AIRPORT_(ASOS)",
+    "lat": 35.0169,
+    "lon": -80.6206,
+    "state": "NC"
+  },
+  {
+    "id": "ERI",
+    "name": "ERIE INTL AIRPORT",
+    "lat": 42.08,
+    "lon": -80.18,
+    "state": "PA"
+  },
+  {
+    "id": "ESF",
+    "name": "Alexandria - Esler",
+    "lat": 31.3963,
+    "lon": -92.2827,
+    "state": "LA"
+  },
+  {
+    "id": "EST",
+    "name": "ESTHERVILLE",
+    "lat": 43.4008,
+    "lon": -94.7476,
+    "state": "IA"
+  },
+  {
+    "id": "EUF",
+    "name": "Eufaula",
+    "lat": 31.9513,
+    "lon": -85.1289,
+    "state": "AL"
+  },
+  {
+    "id": "EUG",
+    "name": "EUGENE/MAHLON SWEET",
+    "lat": 44.1246,
+    "lon": -123.212,
+    "state": "OR"
+  },
+  {
+    "id": "EVV",
+    "name": "EVANSVILLE",
+    "lat": 38.0441,
+    "lon": -87.5205,
+    "state": "IN"
+  },
+  {
+    "id": "EVW",
+    "name": "EVANSTON/BURNS FLD",
+    "lat": 41.2731,
+    "lon": -111.0306,
+    "state": "WY"
+  },
+  {
+    "id": "EWB",
+    "name": "NEW BEDFORD MUNI",
+    "lat": 41.6764,
+    "lon": -70.9583,
+    "state": "MA"
+  },
+  {
+    "id": "EWN",
+    "name": "NEW_BERN/CRAVEN_CO_(ASOS)",
+    "lat": 35.0675,
+    "lon": -77.0472,
+    "state": "NC"
+  },
+  {
+    "id": "EWR",
+    "name": "Newark Intl",
+    "lat": 40.6827,
+    "lon": -74.1693,
+    "state": "NJ"
+  },
+  {
+    "id": "EYE",
+    "name": "INDIANAPOLIS",
+    "lat": 39.825,
+    "lon": -86.2958,
+    "state": "IN"
+  },
+  {
+    "id": "EYW",
+    "name": "Key West",
+    "lat": 24.5561,
+    "lon": -81.7596,
+    "state": "FL"
+  },
+  {
+    "id": "FAR",
+    "name": "FARGO",
+    "lat": 46.9253,
+    "lon": -96.8111,
+    "state": "ND"
+  },
+  {
+    "id": "FAT",
+    "name": "FRESNO AIR TERMINAL",
+    "lat": 36.78,
+    "lon": -119.7194,
+    "state": "CA"
+  },
+  {
+    "id": "FAY",
+    "name": "Fayetteville",
+    "lat": 34.9912,
+    "lon": -78.8803,
+    "state": "NC"
+  },
+  {
+    "id": "FCM",
+    "name": "Minneapolis - Flying Cloud",
+    "lat": 44.8261,
+    "lon": -93.4607,
+    "state": "MN"
+  },
+  {
+    "id": "FDR",
+    "name": "Frederick",
+    "lat": 34.3531,
+    "lon": -98.9876,
+    "state": "OK"
+  },
+  {
+    "id": "FDY",
+    "name": "FINDLAY",
+    "lat": 41.0136,
+    "lon": -83.6686,
+    "state": "OH"
+  },
+  {
+    "id": "FFC",
+    "name": "PEACHTREE CITY",
+    "lat": 33.3553,
+    "lon": -84.5669,
+    "state": "GA"
+  },
+  {
+    "id": "FFT",
+    "name": "CAPITAL CITY AIRPORT/FRANKFORT",
+    "lat": 38.1847,
+    "lon": -84.9033,
+    "state": "KY"
+  },
+  {
+    "id": "FFZ",
+    "name": "MESA/FALCON FIELD",
+    "lat": 33.4608,
+    "lon": -111.7283,
+    "state": "AZ"
+  },
+  {
+    "id": "FHR",
+    "name": "FRIDAY HARBOR",
+    "lat": 48.522,
+    "lon": -123.0244,
+    "state": "WA"
+  },
+  {
+    "id": "FIG",
+    "name": "CLEARFIELD-LAWRENCE APT(WAS N97)",
+    "lat": 41.0467,
+    "lon": -78.4117,
+    "state": "PA"
+  },
+  {
+    "id": "FIT",
+    "name": "FITCHBURG",
+    "lat": 42.5519,
+    "lon": -71.7558,
+    "state": "MA"
+  },
+  {
+    "id": "FLD",
+    "name": "FOND DU LAC",
+    "lat": 43.7712,
+    "lon": -88.4884,
+    "state": "WI"
+  },
+  {
+    "id": "FLG",
+    "name": "Flagstaff - Pulliam",
+    "lat": 35.1403,
+    "lon": -111.6722,
+    "state": "AZ"
+  },
+  {
+    "id": "FLL",
+    "name": "Fort Lauderdale - Hollywood",
+    "lat": 26.0787,
+    "lon": -80.1622,
+    "state": "FL"
+  },
+  {
+    "id": "FLO",
+    "name": "FLORENCE REGIONAL",
+    "lat": 34.1854,
+    "lon": -79.7239,
+    "state": "SC"
+  },
+  {
+    "id": "FMN",
+    "name": "FARMINGTON REGIONAL",
+    "lat": 36.7436,
+    "lon": -108.2292,
+    "state": "NM"
+  },
+  {
+    "id": "FMY",
+    "name": "FORT MYERS/PAGE FLD",
+    "lat": 26.585,
+    "lon": -81.8614,
+    "state": "FL"
+  },
+  {
+    "id": "FNB",
+    "name": "FALLS CITY/BRENN",
+    "lat": 40.0788,
+    "lon": -95.592,
+    "state": "NE"
+  },
+  {
+    "id": "FNT",
+    "name": "FLINT",
+    "lat": 42.9667,
+    "lon": -83.7494,
+    "state": "MI"
+  },
+  {
+    "id": "FOE",
+    "name": "TOPEKA (FOE)",
+    "lat": 38.9509,
+    "lon": -95.6636,
+    "state": "KS"
+  },
+  {
+    "id": "FOK",
+    "name": "WESTHAMPTON BEACH",
+    "lat": 40.8436,
+    "lon": -72.6318,
+    "state": "NY"
+  },
+  {
+    "id": "FPR",
+    "name": "FT PIERCE/ST LUCIE",
+    "lat": 27.4981,
+    "lon": -80.3767,
+    "state": "FL"
+  },
+  {
+    "id": "FRG",
+    "name": "FARMINGDALE/REPUBLC",
+    "lat": 40.7288,
+    "lon": -73.4134,
+    "state": "NY"
+  },
+  {
+    "id": "FSD",
+    "name": "SIOUX FALLS",
+    "lat": 43.5769,
+    "lon": -96.7536,
+    "state": "SD"
+  },
+  {
+    "id": "FSM",
+    "name": "FORT SMITH MUNI",
+    "lat": 35.3366,
+    "lon": -94.3674,
+    "state": "AR"
+  },
+  {
+    "id": "FST",
+    "name": "FORT STOCKTON",
+    "lat": 30.9119,
+    "lon": -102.9167,
+    "state": "TX"
+  },
+  {
+    "id": "FTW",
+    "name": "FORT WORTH/MEACHAM",
+    "lat": 32.8198,
+    "lon": -97.3624,
+    "state": "TX"
+  },
+  {
+    "id": "FTY",
+    "name": "ATLANTA/FULTON CO.",
+    "lat": 33.78,
+    "lon": -84.52,
+    "state": "GA"
+  },
+  {
+    "id": "FUL",
+    "name": "FULLERTON MUNICIPAL",
+    "lat": 33.87,
+    "lon": -117.98,
+    "state": "CA"
+  },
+  {
+    "id": "FVE",
+    "name": "FRENCHVILLE",
+    "lat": 47.2855,
+    "lon": -68.3127,
+    "state": "ME"
+  },
+  {
+    "id": "FWA",
+    "name": "FORT WAYNE",
+    "lat": 40.978,
+    "lon": -85.1871,
+    "state": "IN"
+  },
+  {
+    "id": "FWN",
+    "name": "SUSSEX_AIRPORT",
+    "lat": 41.2002,
+    "lon": -74.623,
+    "state": "NJ"
+  },
+  {
+    "id": "FXE",
+    "name": "FORT LAUDERDALE",
+    "lat": 26.2,
+    "lon": -80.17,
+    "state": "FL"
+  },
+  {
+    "id": "FYV",
+    "name": "FAYETTEVILLE/DRAKE",
+    "lat": 36.0051,
+    "lon": -94.1701,
+    "state": "AR"
+  },
+  {
+    "id": "FZY",
+    "name": "Oswego County",
+    "lat": 43.3504,
+    "lon": -76.3831,
+    "state": "NY"
+  },
+  {
+    "id": "GAG",
+    "name": "GAGE/SHATTUCK",
+    "lat": 36.2955,
+    "lon": -99.7764,
+    "state": "OK"
+  },
+  {
+    "id": "GCC",
+    "name": "Gillette",
+    "lat": 44.3489,
+    "lon": -105.5394,
+    "state": "WY"
+  },
+  {
+    "id": "GCK",
+    "name": "GARDEN_CITY",
+    "lat": 37.9275,
+    "lon": -100.7244,
+    "state": "KS"
+  },
+  {
+    "id": "GCN",
+    "name": "GRAND CANYON PARK",
+    "lat": 35.9461,
+    "lon": -112.1547,
+    "state": "AZ"
+  },
+  {
+    "id": "GDP",
+    "name": "GUADALUPE PASS AMOS",
+    "lat": 31.8331,
+    "lon": -104.8098,
+    "state": "TX"
+  },
+  {
+    "id": "GED",
+    "name": "GEORGETOWN/SUSSEX",
+    "lat": 38.6892,
+    "lon": -75.3589,
+    "state": "DE"
+  },
+  {
+    "id": "GEG",
+    "name": "SPOKANE INTL ARPT",
+    "lat": 47.6216,
+    "lon": -117.528,
+    "state": "WA"
+  },
+  {
+    "id": "GEY",
+    "name": "GREYBULL/SOUTH BIG HORN CNTY APT",
+    "lat": 44.5168,
+    "lon": -108.0828,
+    "state": "WY"
+  },
+  {
+    "id": "GEZ",
+    "name": "SHELBYVILLE",
+    "lat": 39.5831,
+    "lon": -85.8048,
+    "state": "IN"
+  },
+  {
+    "id": "GFK",
+    "name": "GRAND_FORKS",
+    "lat": 47.9492,
+    "lon": -97.1761,
+    "state": "ND"
+  },
+  {
+    "id": "GFL",
+    "name": "GLEN FALLS/WARREN",
+    "lat": 43.3412,
+    "lon": -73.6103,
+    "state": "NY"
+  },
+  {
+    "id": "GGG",
+    "name": "LONGVIEW/GREGG CO.",
+    "lat": 32.384,
+    "lon": -94.7115,
+    "state": "TX"
+  },
+  {
+    "id": "GGW",
+    "name": "GLASGOW INTL ARPT",
+    "lat": 48.2138,
+    "lon": -106.6214,
+    "state": "MT"
+  },
+  {
+    "id": "GIF",
+    "name": "WINTER HAVEN (ASOS)",
+    "lat": 28.0629,
+    "lon": -81.7533,
+    "state": "FL"
+  },
+  {
+    "id": "GJT",
+    "name": "GRAND JUNCTION",
+    "lat": 39.1342,
+    "lon": -108.54,
+    "state": "CO"
+  },
+  {
+    "id": "GKJ",
+    "name": "MEADVILLE",
+    "lat": 41.6265,
+    "lon": -80.2147,
+    "state": "PA"
+  },
+  {
+    "id": "GKY",
+    "name": "ARLINGTON (WAS F54)",
+    "lat": 32.6639,
+    "lon": -97.0943,
+    "state": "TX"
+  },
+  {
+    "id": "GLD",
+    "name": "GOODLAND",
+    "lat": 39.3672,
+    "lon": -101.6933,
+    "state": "KS"
+  },
+  {
+    "id": "GLH",
+    "name": "GREENVILLE MUNI",
+    "lat": 33.4829,
+    "lon": -90.9856,
+    "state": "MS"
+  },
+  {
+    "id": "GLR",
+    "name": "GAYLORD",
+    "lat": 45.0135,
+    "lon": -84.7036,
+    "state": "MI"
+  },
+  {
+    "id": "GLS",
+    "name": "GALVESTON/SCHOLES",
+    "lat": 29.2653,
+    "lon": -94.8604,
+    "state": "TX"
+  },
+  {
+    "id": "GMU",
+    "name": "Greenville - Downtown",
+    "lat": 34.8419,
+    "lon": -82.349,
+    "state": "SC"
+  },
+  {
+    "id": "GNA",
+    "name": "GRAND MARAIS",
+    "lat": 47.7453,
+    "lon": -90.3457,
+    "state": "MN"
+  },
+  {
+    "id": "GNR",
+    "name": "Greenville",
+    "lat": 45.4622,
+    "lon": -69.5953,
+    "state": "ME"
+  },
+  {
+    "id": "GNV",
+    "name": "GAINESVILLE RGNL",
+    "lat": 29.6917,
+    "lon": -82.276,
+    "state": "FL"
+  },
+  {
+    "id": "GOK",
+    "name": "GUTHRIE",
+    "lat": 35.8498,
+    "lon": -97.4156,
+    "state": "OK"
+  },
+  {
+    "id": "GON",
+    "name": "GROTON/NEW LONDON",
+    "lat": 41.33,
+    "lon": -72.05,
+    "state": "CT"
+  },
+  {
+    "id": "GPI",
+    "name": "KALISPELL",
+    "lat": 48.3042,
+    "lon": -114.2636,
+    "state": "MT"
+  },
+  {
+    "id": "GPT",
+    "name": "GULFPORT-BILOXI",
+    "lat": 30.4073,
+    "lon": -89.0701,
+    "state": "MS"
+  },
+  {
+    "id": "GRB",
+    "name": "Ashwaubenon",
+    "lat": 44.4794,
+    "lon": -88.1367,
+    "state": "WI"
+  },
+  {
+    "id": "GRD",
+    "name": "GREENWOOD COUNTY AIRPORT",
+    "lat": 34.25,
+    "lon": -82.16,
+    "state": "SC"
+  },
+  {
+    "id": "GRI",
+    "name": "GRAND ISLAND",
+    "lat": 40.9675,
+    "lon": -98.3096,
+    "state": "NE"
+  },
+  {
+    "id": "GRR",
+    "name": "Grand Rapids",
+    "lat": 42.8821,
+    "lon": -85.523,
+    "state": "MI"
+  },
+  {
+    "id": "GSH",
+    "name": "GOSHEN",
+    "lat": 41.5272,
+    "lon": -85.7922,
+    "state": "IN"
+  },
+  {
+    "id": "GSO",
+    "name": "GREENSBORO/PIEDMONT_(ASOS)",
+    "lat": 36.0975,
+    "lon": -79.9436,
+    "state": "NC"
+  },
+  {
+    "id": "GSP",
+    "name": "Greenville - Spartanburg",
+    "lat": 34.9061,
+    "lon": -82.2125,
+    "state": "SC"
+  },
+  {
+    "id": "GTF",
+    "name": "GREAT FALLS INTL",
+    "lat": 47.4733,
+    "lon": -111.3822,
+    "state": "MT"
+  },
+  {
+    "id": "GUP",
+    "name": "GALLUP MUNI/CLARKE",
+    "lat": 35.5111,
+    "lon": -108.7893,
+    "state": "NM"
+  },
+  {
+    "id": "GUY",
+    "name": "GUYMON",
+    "lat": 36.6817,
+    "lon": -101.5053,
+    "state": "OK"
+  },
+  {
+    "id": "GVL",
+    "name": "GAINSVILLE",
+    "lat": 34.2719,
+    "lon": -83.8303,
+    "state": "GA"
+  },
+  {
+    "id": "GWO",
+    "name": "GREENWOOD/LEFLORE",
+    "lat": 33.4943,
+    "lon": -90.0847,
+    "state": "MS"
+  },
+  {
+    "id": "GZH",
+    "name": "EVERGREEN",
+    "lat": 31.4158,
+    "lon": -87.0441,
+    "state": "AL"
+  },
+  {
+    "id": "HAO",
+    "name": "HAMILTON",
+    "lat": 39.3638,
+    "lon": -84.5219,
+    "state": "OH"
+  },
+  {
+    "id": "HBG",
+    "name": "HATTIESBURG MUNI",
+    "lat": 31.2649,
+    "lon": -89.2529,
+    "state": "MS"
+  },
+  {
+    "id": "HBR",
+    "name": "HOBART MUNICIPAL",
+    "lat": 34.9913,
+    "lon": -99.0514,
+    "state": "OK"
+  },
+  {
+    "id": "HDO",
+    "name": "HONDO MUNICIPAL",
+    "lat": 29.3594,
+    "lon": -99.1742,
+    "state": "TX"
+  },
+  {
+    "id": "HEI",
+    "name": "HETTINGER",
+    "lat": 46.0149,
+    "lon": -102.656,
+    "state": "ND"
+  },
+  {
+    "id": "HFD",
+    "name": "HARTFORD/BRAINARD",
+    "lat": 41.7367,
+    "lon": -72.6494,
+    "state": "CT"
+  },
+  {
+    "id": "HGR",
+    "name": "HAGERSTOWN REGIONAL",
+    "lat": 39.7078,
+    "lon": -77.7297,
+    "state": "MD"
+  },
+  {
+    "id": "HHR",
+    "name": "HAWTHORNE MUNICIPAL",
+    "lat": 33.9228,
+    "lon": -118.3352,
+    "state": "CA"
+  },
+  {
+    "id": "HIB",
+    "name": "HIBBING",
+    "lat": 47.3866,
+    "lon": -92.839,
+    "state": "MN"
+  },
+  {
+    "id": "HIE",
+    "name": "Whitefield",
+    "lat": 44.3659,
+    "lon": -71.5522,
+    "state": "NH"
+  },
+  {
+    "id": "HIO",
+    "name": "PORTLAND/HILLSBORO",
+    "lat": 45.5406,
+    "lon": -122.9502,
+    "state": "OR"
+  },
+  {
+    "id": "HJO",
+    "name": "Hanford",
+    "lat": 36.3114,
+    "lon": -119.6232,
+    "state": "CA"
+  },
+  {
+    "id": "HKA",
+    "name": "Blytheville",
+    "lat": 35.9378,
+    "lon": -89.8332,
+    "state": "AR"
+  },
+  {
+    "id": "HKS",
+    "name": "JACKSON/HAWKINS FIELD",
+    "lat": 32.3348,
+    "lon": -90.2225,
+    "state": "MS"
+  },
+  {
+    "id": "HKY",
+    "name": "HICKORY_REGIONAL_(ASOS)",
+    "lat": 35.7412,
+    "lon": -81.3896,
+    "state": "NC"
+  },
+  {
+    "id": "HLC",
+    "name": "HILL_CITY",
+    "lat": 39.3756,
+    "lon": -99.8297,
+    "state": "KS"
+  },
+  {
+    "id": "HLG",
+    "name": "WHEELING/OHIO CO.",
+    "lat": 40.175,
+    "lon": -80.6463,
+    "state": "WV"
+  },
+  {
+    "id": "HLN",
+    "name": "HELENA REGIONAL",
+    "lat": 46.6056,
+    "lon": -111.9636,
+    "state": "MT"
+  },
+  {
+    "id": "HON",
+    "name": "HURON",
+    "lat": 44.3852,
+    "lon": -98.2286,
+    "state": "SD"
+  },
+  {
+    "id": "HOT",
+    "name": "HOT SPRINGS",
+    "lat": 34.478,
+    "lon": -93.0962,
+    "state": "AR"
+  },
+  {
+    "id": "HOU",
+    "name": "HOUSTON/WILL HOBBY",
+    "lat": 29.6375,
+    "lon": -95.2824,
+    "state": "TX"
+  },
+  {
+    "id": "HPN",
+    "name": "WHITE PLAINS",
+    "lat": 41.0669,
+    "lon": -73.7075,
+    "state": "NY"
+  },
+  {
+    "id": "HQM",
+    "name": "HOQUIAM/BOWERMAN",
+    "lat": 46.9712,
+    "lon": -123.9366,
+    "state": "WA"
+  },
+  {
+    "id": "HRI",
+    "name": "HERMISTON",
+    "lat": 45.8258,
+    "lon": -119.2611,
+    "state": "OR"
+  },
+  {
+    "id": "HRL",
+    "name": "HARLINGEN INTL ARPT",
+    "lat": 26.2285,
+    "lon": -97.6544,
+    "state": "TX"
+  },
+  {
+    "id": "HRO",
+    "name": "HARRISON/BOONE CO.",
+    "lat": 36.2615,
+    "lon": -93.1547,
+    "state": "AR"
+  },
+  {
+    "id": "HSE",
+    "name": "HATTERAS_(ASOS)",
+    "lat": 35.2322,
+    "lon": -75.6225,
+    "state": "NC"
+  },
+  {
+    "id": "HSI",
+    "name": "HASTINGS",
+    "lat": 40.6052,
+    "lon": -98.4279,
+    "state": "NE"
+  },
+  {
+    "id": "HSV",
+    "name": "HUNTSVILLE/MADISON",
+    "lat": 34.6439,
+    "lon": -86.7861,
+    "state": "AL"
+  },
+  {
+    "id": "HTL",
+    "name": "HOUGHTON LAKE",
+    "lat": 44.3598,
+    "lon": -84.6711,
+    "state": "MI"
+  },
+  {
+    "id": "HTS",
+    "name": "HUNTINGTON/TRI STAT",
+    "lat": 38.365,
+    "lon": -82.555,
+    "state": "WV"
+  },
+  {
+    "id": "HUF",
+    "name": "TERRE HAUTE",
+    "lat": 39.4515,
+    "lon": -87.3076,
+    "state": "IN"
+  },
+  {
+    "id": "HUL",
+    "name": "HOULTON INTL ARPT",
+    "lat": 46.1231,
+    "lon": -67.7921,
+    "state": "ME"
+  },
+  {
+    "id": "HUT",
+    "name": "HUTCHINSON",
+    "lat": 38.0655,
+    "lon": -97.8606,
+    "state": "KS"
+  },
+  {
+    "id": "HVN",
+    "name": "NEW HAVEN/TWEED",
+    "lat": 41.2638,
+    "lon": -72.8868,
+    "state": "CT"
+  },
+  {
+    "id": "HVR",
+    "name": "Havre",
+    "lat": 48.5428,
+    "lon": -109.7633,
+    "state": "MT"
+  },
+  {
+    "id": "HWD",
+    "name": "Hayward",
+    "lat": 37.6588,
+    "lon": -122.1212,
+    "state": "CA"
+  },
+  {
+    "id": "HWO",
+    "name": "HOLLYWOOD/N. PERRY",
+    "lat": 25.9996,
+    "lon": -80.2412,
+    "state": "FL"
+  },
+  {
+    "id": "HWV",
+    "name": "BROOKHAVEN AIRPORT/SHIRLEY",
+    "lat": 40.8217,
+    "lon": -72.8689,
+    "state": "NY"
+  },
+  {
+    "id": "HYA",
+    "name": "HYANNIS/POLANDO FLD",
+    "lat": 41.67,
+    "lon": -70.28,
+    "state": "MA"
+  },
+  {
+    "id": "HYR",
+    "name": "HAYWARD",
+    "lat": 46.0253,
+    "lon": -91.4442,
+    "state": "WI"
+  },
+  {
+    "id": "HZY",
+    "name": "ASHTABULA",
+    "lat": 41.778,
+    "lon": -80.6955,
+    "state": "OH"
+  },
+  {
+    "id": "IAD",
+    "name": "WASHINGTON/DULLES",
+    "lat": 38.9348,
+    "lon": -77.4473,
+    "state": "VA"
+  },
+  {
+    "id": "IAG",
+    "name": "NIAGARA FALLS INTL",
+    "lat": 43.1073,
+    "lon": -78.9462,
+    "state": "NY"
+  },
+  {
+    "id": "IAH",
+    "name": "Houston Intercontinental",
+    "lat": 29.9844,
+    "lon": -95.3607,
+    "state": "TX"
+  },
+  {
+    "id": "ICR",
+    "name": "WINNER",
+    "lat": 43.3903,
+    "lon": -99.8422,
+    "state": "SD"
+  },
+  {
+    "id": "ICT",
+    "name": "WICHITA",
+    "lat": 37.65,
+    "lon": -97.43,
+    "state": "KS"
+  },
+  {
+    "id": "IDA",
+    "name": "IDAHO FALLS/FANNING",
+    "lat": 43.5137,
+    "lon": -112.0708,
+    "state": "ID"
+  },
+  {
+    "id": "IEN",
+    "name": "PINE RIDGE",
+    "lat": 43.0225,
+    "lon": -102.511,
+    "state": "SD"
+  },
+  {
+    "id": "IGM",
+    "name": "Kingman",
+    "lat": 35.2577,
+    "lon": -113.933,
+    "state": "AZ"
+  },
+  {
+    "id": "IJD",
+    "name": "WILLIMANTIC (ASOS)",
+    "lat": 41.7419,
+    "lon": -72.1836,
+    "state": "CT"
+  },
+  {
+    "id": "ILG",
+    "name": "WILMINGTON AIRPORT",
+    "lat": 39.6728,
+    "lon": -75.6008,
+    "state": "DE"
+  },
+  {
+    "id": "ILM",
+    "name": "Wilmington Intl",
+    "lat": 34.27,
+    "lon": -77.9,
+    "state": "NC"
+  },
+  {
+    "id": "ILN",
+    "name": "WILMINGTON",
+    "lat": 39.4203,
+    "lon": -83.8217,
+    "state": "OH"
+  },
+  {
+    "id": "IML",
+    "name": "IMPERIAL MUNICIP",
+    "lat": 40.5103,
+    "lon": -101.6202,
+    "state": "NE"
+  },
+  {
+    "id": "IMT",
+    "name": "IRON MOUNTAIN",
+    "lat": 45.8184,
+    "lon": -88.1146,
+    "state": "MI"
+  },
+  {
+    "id": "IND",
+    "name": "INDIANAPOLIS",
+    "lat": 39.7084,
+    "lon": -86.3048,
+    "state": "IN"
+  },
+  {
+    "id": "INK",
+    "name": "WINK/WINKLER CO.",
+    "lat": 31.78,
+    "lon": -103.2,
+    "state": "TX"
+  },
+  {
+    "id": "INL",
+    "name": "International Falls",
+    "lat": 48.5595,
+    "lon": -93.3956,
+    "state": "MN"
+  },
+  {
+    "id": "INT",
+    "name": "WINSTON-SALEM/SMITH_(ASOS)",
+    "lat": 36.1337,
+    "lon": -80.222,
+    "state": "NC"
+  },
+  {
+    "id": "INW",
+    "name": "WINSLOW (AUT)",
+    "lat": 35.0219,
+    "lon": -110.7225,
+    "state": "AZ"
+  },
+  {
+    "id": "IOW",
+    "name": "IOWA CITY",
+    "lat": 41.6394,
+    "lon": -91.5445,
+    "state": "IA"
+  },
+  {
+    "id": "IPL",
+    "name": "IMPERIAL",
+    "lat": 32.8342,
+    "lon": -115.5787,
+    "state": "CA"
+  },
+  {
+    "id": "IPT",
+    "name": "WILLIAMSPORT",
+    "lat": 41.2433,
+    "lon": -76.9217,
+    "state": "PA"
+  },
+  {
+    "id": "IRK",
+    "name": "KIRKSVILLE",
+    "lat": 40.0972,
+    "lon": -92.5433,
+    "state": "MO"
+  },
+  {
+    "id": "ISP",
+    "name": "ISLIP/MACARTHUR",
+    "lat": 40.7939,
+    "lon": -73.1017,
+    "state": "NY"
+  },
+  {
+    "id": "ISW",
+    "name": "WISCONSIN RAPIDS",
+    "lat": 44.3592,
+    "lon": -89.8369,
+    "state": "WI"
+  },
+  {
+    "id": "ITR",
+    "name": "BURLINGTON",
+    "lat": 39.2425,
+    "lon": -102.2854,
+    "state": "CO"
+  },
+  {
+    "id": "IWI",
+    "name": "WISCASSET",
+    "lat": 43.9614,
+    "lon": -69.7126,
+    "state": "ME"
+  },
+  {
+    "id": "IXD",
+    "name": "Olathe",
+    "lat": 38.8309,
+    "lon": -94.8903,
+    "state": "KS"
+  },
+  {
+    "id": "IZG",
+    "name": "FRYEBERG",
+    "lat": 43.9911,
+    "lon": -70.9479,
+    "state": "ME"
+  },
+  {
+    "id": "JAN",
+    "name": "JACKSON/THOMPSON",
+    "lat": 32.32,
+    "lon": -90.08,
+    "state": "MS"
+  },
+  {
+    "id": "JAX",
+    "name": "Jacksonville Intl",
+    "lat": 30.4941,
+    "lon": -81.6879,
+    "state": "FL"
+  },
+  {
+    "id": "JBR",
+    "name": "Jonesboro",
+    "lat": 35.8357,
+    "lon": -90.6442,
+    "state": "AR"
+  },
+  {
+    "id": "JCT",
+    "name": "Junction - Kimble County",
+    "lat": 30.5108,
+    "lon": -99.7664,
+    "state": "TX"
+  },
+  {
+    "id": "JDN",
+    "name": "JORDAN (RAMOS)",
+    "lat": 47.3258,
+    "lon": -106.9475,
+    "state": "MT"
+  },
+  {
+    "id": "JEF",
+    "name": "JEFFERSON CITY",
+    "lat": 38.5912,
+    "lon": -92.1561,
+    "state": "MO"
+  },
+  {
+    "id": "JER",
+    "name": "JEROME COUNTY AIRPORT",
+    "lat": 42.7267,
+    "lon": -114.4566,
+    "state": "ID"
+  },
+  {
+    "id": "JFK",
+    "name": "NEW YORK/JF KENNEDY",
+    "lat": 40.6386,
+    "lon": -73.7622,
+    "state": "NY"
+  },
+  {
+    "id": "JKL",
+    "name": "JACKSON/J. CARROLL",
+    "lat": 37.5914,
+    "lon": -83.3144,
+    "state": "KY"
+  },
+  {
+    "id": "JLN",
+    "name": "Joplin",
+    "lat": 37.1522,
+    "lon": -94.4952,
+    "state": "MO"
+  },
+  {
+    "id": "JMS",
+    "name": "JAMESTOWN",
+    "lat": 46.93,
+    "lon": -98.68,
+    "state": "ND"
+  },
+  {
+    "id": "JST",
+    "name": "JOHNSTOWN/CAMBRIA",
+    "lat": 40.3161,
+    "lon": -78.8339,
+    "state": "PA"
+  },
+  {
+    "id": "JXN",
+    "name": "JACKSON/REYNOLDS",
+    "lat": 42.2598,
+    "lon": -84.4594,
+    "state": "MI"
+  },
+  {
+    "id": "LAA",
+    "name": "LAMAR",
+    "lat": 38.07,
+    "lon": -102.6881,
+    "state": "CO"
+  },
+  {
+    "id": "LAF",
+    "name": "LAFAYETTE",
+    "lat": 40.4148,
+    "lon": -86.9333,
+    "state": "IN"
+  },
+  {
+    "id": "LAN",
+    "name": "Lansing",
+    "lat": 42.78,
+    "lon": -84.58,
+    "state": "MI"
+  },
+  {
+    "id": "LAR",
+    "name": "LARAMIE/GEN. BREES",
+    "lat": 41.3121,
+    "lon": -105.675,
+    "state": "WY"
+  },
+  {
+    "id": "LAS",
+    "name": "Las Vegas - Harry Reid Intl",
+    "lat": 36.0719,
+    "lon": -115.1634,
+    "state": "NV"
+  },
+  {
+    "id": "LAW",
+    "name": "LAWTON MUNICIPAL",
+    "lat": 34.5677,
+    "lon": -98.4166,
+    "state": "OK"
+  },
+  {
+    "id": "LAX",
+    "name": "LOS ANGELES INTL",
+    "lat": 33.9382,
+    "lon": -118.3865,
+    "state": "CA"
+  },
+  {
+    "id": "LBB",
+    "name": "LUBBOCK INTL ARPT",
+    "lat": 33.6636,
+    "lon": -101.8228,
+    "state": "TX"
+  },
+  {
+    "id": "LBF",
+    "name": "North Platte",
+    "lat": 41.1219,
+    "lon": -100.669,
+    "state": "NE"
+  },
+  {
+    "id": "LBT",
+    "name": "Lumberton",
+    "lat": 34.61,
+    "lon": -79.06,
+    "state": "NC"
+  },
+  {
+    "id": "LBX",
+    "name": "ANGLETON/LAKE JACKS",
+    "lat": 29.1086,
+    "lon": -95.4621,
+    "state": "TX"
+  },
+  {
+    "id": "LCH",
+    "name": "Lake Charles",
+    "lat": 30.1255,
+    "lon": -93.2277,
+    "state": "LA"
+  },
+  {
+    "id": "LEB",
+    "name": "LEBANON MUNICIPAL",
+    "lat": 43.6261,
+    "lon": -72.3042,
+    "state": "NH"
+  },
+  {
+    "id": "LEE",
+    "name": "LEESBURG MUNICIPAL AIRPORT",
+    "lat": 28.82,
+    "lon": -81.81,
+    "state": "FL"
+  },
+  {
+    "id": "LEX",
+    "name": "LEXINGTON/BLUEGRASS",
+    "lat": 38.0408,
+    "lon": -84.6058,
+    "state": "KY"
+  },
+  {
+    "id": "LFK",
+    "name": "LUFKIN/ANGELINA CO.",
+    "lat": 31.234,
+    "lon": -94.75,
+    "state": "TX"
+  },
+  {
+    "id": "LFT",
+    "name": "Lafayette",
+    "lat": 30.1986,
+    "lon": -91.9896,
+    "state": "LA"
+  },
+  {
+    "id": "LGA",
+    "name": "New York/LaGuardia",
+    "lat": 40.7794,
+    "lon": -73.8803,
+    "state": "NY"
+  },
+  {
+    "id": "LGB",
+    "name": "LONG BEACH AIRPORT",
+    "lat": 33.8118,
+    "lon": -118.1472,
+    "state": "CA"
+  },
+  {
+    "id": "LGU",
+    "name": "LOGAN-CACHE AIRPORT",
+    "lat": 41.7913,
+    "lon": -111.8516,
+    "state": "UT"
+  },
+  {
+    "id": "LHQ",
+    "name": "LANCASTER",
+    "lat": 39.7556,
+    "lon": -82.6571,
+    "state": "OH"
+  },
+  {
+    "id": "LHX",
+    "name": "LA JUNTA MUNICIPAL",
+    "lat": 38.0494,
+    "lon": -103.5122,
+    "state": "CO"
+  },
+  {
+    "id": "LIC",
+    "name": "LIMON MUNICIPAL",
+    "lat": 39.2748,
+    "lon": -103.6659,
+    "state": "CO"
+  },
+  {
+    "id": "LIT",
+    "name": "LITTLE ROCK/ADAMS",
+    "lat": 34.7273,
+    "lon": -92.2357,
+    "state": "AR"
+  },
+  {
+    "id": "LLJ",
+    "name": "Challis",
+    "lat": 44.5228,
+    "lon": -114.215,
+    "state": "ID"
+  },
+  {
+    "id": "LLQ",
+    "name": "MONTICELLO",
+    "lat": 33.64,
+    "lon": -91.75,
+    "state": "AR"
+  },
+  {
+    "id": "LMT",
+    "name": "KLAMATH FALLS/KINGS",
+    "lat": 42.1469,
+    "lon": -121.7242,
+    "state": "OR"
+  },
+  {
+    "id": "LND",
+    "name": "LANDER/HUNT FIELD",
+    "lat": 42.8152,
+    "lon": -108.7298,
+    "state": "WY"
+  },
+  {
+    "id": "LNK",
+    "name": "Lincoln",
+    "lat": 40.8312,
+    "lon": -96.7633,
+    "state": "NE"
+  },
+  {
+    "id": "LNR",
+    "name": "LONE ROCK",
+    "lat": 43.2119,
+    "lon": -90.1798,
+    "state": "WI"
+  },
+  {
+    "id": "LNS",
+    "name": "LANCASTER",
+    "lat": 40.1203,
+    "lon": -76.2944,
+    "state": "PA"
+  },
+  {
+    "id": "LOL",
+    "name": "Lovelock / Derby Field",
+    "lat": 40.0684,
+    "lon": -118.5701,
+    "state": "NV"
+  },
+  {
+    "id": "LOU",
+    "name": "LOUISVILLE/BOWMAN",
+    "lat": 38.228,
+    "lon": -85.6637,
+    "state": "KY"
+  },
+  {
+    "id": "LOZ",
+    "name": "LONDON-CORBIN ARPT",
+    "lat": 37.087,
+    "lon": -84.077,
+    "state": "KY"
+  },
+  {
+    "id": "LPR",
+    "name": "LORAIN/ELYRIA",
+    "lat": 41.3461,
+    "lon": -82.1794,
+    "state": "OH"
+  },
+  {
+    "id": "LSE",
+    "name": "La Crosse",
+    "lat": 43.8792,
+    "lon": -91.253,
+    "state": "WI"
+  },
+  {
+    "id": "LUK",
+    "name": "CINCINNAT/LUNKEN",
+    "lat": 39.1033,
+    "lon": -84.4186,
+    "state": "OH"
+  },
+  {
+    "id": "LVJ",
+    "name": "Pearland Regional",
+    "lat": 29.5189,
+    "lon": -95.2417,
+    "state": "TX"
+  },
+  {
+    "id": "LVK",
+    "name": "Livermore",
+    "lat": 37.6931,
+    "lon": -121.8149,
+    "state": "CA"
+  },
+  {
+    "id": "LVM",
+    "name": "LIVINGSTON/MISSION",
+    "lat": 45.7,
+    "lon": -110.45,
+    "state": "MT"
+  },
+  {
+    "id": "LVS",
+    "name": "LAS VEGAS MUNICIPAL",
+    "lat": 35.6542,
+    "lon": -105.1424,
+    "state": "NM"
+  },
+  {
+    "id": "LWC",
+    "name": "Lawrence",
+    "lat": 39.0077,
+    "lon": -95.2115,
+    "state": "KS"
+  },
+  {
+    "id": "LWD",
+    "name": "LAMONI",
+    "lat": 40.6306,
+    "lon": -93.9005,
+    "state": "IA"
+  },
+  {
+    "id": "LWM",
+    "name": "LAWRENCE MUNICIPAL",
+    "lat": 42.7172,
+    "lon": -71.1234,
+    "state": "MA"
+  },
+  {
+    "id": "LWS",
+    "name": "Lewiston",
+    "lat": 46.3745,
+    "lon": -117.0154,
+    "state": "ID"
+  },
+  {
+    "id": "LWT",
+    "name": "LEWISTOWN MUNICIPAL",
+    "lat": 47.0492,
+    "lon": -109.4667,
+    "state": "MT"
+  },
+  {
+    "id": "LWV",
+    "name": "LAWRENCEVILLE",
+    "lat": 38.7643,
+    "lon": -87.6055,
+    "state": "IL"
+  },
+  {
+    "id": "LXT",
+    "name": "Lee s Summit",
+    "lat": 38.9597,
+    "lon": -94.3714,
+    "state": "MO"
+  },
+  {
+    "id": "LXV",
+    "name": "LEADVILLE/LAKE CO.",
+    "lat": 39.2281,
+    "lon": -106.3161,
+    "state": "CO"
+  },
+  {
+    "id": "LYH",
+    "name": "LYNCHBURG/P. GLENN",
+    "lat": 37.3208,
+    "lon": -79.2067,
+    "state": "VA"
+  },
+  {
+    "id": "MAE",
+    "name": "Madera",
+    "lat": 36.9849,
+    "lon": -120.1107,
+    "state": "CA"
+  },
+  {
+    "id": "MAF",
+    "name": "Midland Intl",
+    "lat": 31.9466,
+    "lon": -102.2075,
+    "state": "TX"
+  },
+  {
+    "id": "MAI",
+    "name": "MARIANA",
+    "lat": 30.8356,
+    "lon": -85.1839,
+    "state": "FL"
+  },
+  {
+    "id": "MBG",
+    "name": "MOBRIDGE",
+    "lat": 45.5464,
+    "lon": -100.4078,
+    "state": "SD"
+  },
+  {
+    "id": "MBS",
+    "name": "SAGINAW",
+    "lat": 43.53,
+    "lon": -84.08,
+    "state": "MI"
+  },
+  {
+    "id": "MCB",
+    "name": "MCCOMB/LEWIS FIELD",
+    "lat": 31.18,
+    "lon": -90.47,
+    "state": "MS"
+  },
+  {
+    "id": "MCE",
+    "name": "Merced",
+    "lat": 37.286,
+    "lon": -120.5179,
+    "state": "CA"
+  },
+  {
+    "id": "MCI",
+    "name": "KANSAS CITY/INTL",
+    "lat": 39.2976,
+    "lon": -94.7139,
+    "state": "MO"
+  },
+  {
+    "id": "MCK",
+    "name": "MCCOOK",
+    "lat": 40.2063,
+    "lon": -100.5921,
+    "state": "NE"
+  },
+  {
+    "id": "MCN",
+    "name": "MACON/LEWIS WILSON",
+    "lat": 32.6928,
+    "lon": -83.6492,
+    "state": "GA"
+  },
+  {
+    "id": "MCO",
+    "name": "Orlando International",
+    "lat": 28.4294,
+    "lon": -81.309,
+    "state": "FL"
+  },
+  {
+    "id": "MCW",
+    "name": "MASON CITY",
+    "lat": 43.1544,
+    "lon": -93.3261,
+    "state": "IA"
+  },
+  {
+    "id": "MDH",
+    "name": "CARBONDALE/MURPH",
+    "lat": 37.78,
+    "lon": -89.25,
+    "state": "IL"
+  },
+  {
+    "id": "MDT",
+    "name": "MIDDLETOWN/OLMSTED",
+    "lat": 40.1936,
+    "lon": -76.7633,
+    "state": "PA"
+  },
+  {
+    "id": "MDW",
+    "name": "CHICAGO",
+    "lat": 41.786,
+    "lon": -87.7524,
+    "state": "IL"
+  },
+  {
+    "id": "MEB",
+    "name": "LAURINBURG-MAXTON_ARPT_(ASOS)",
+    "lat": 34.7919,
+    "lon": -79.3658,
+    "state": "NC"
+  },
+  {
+    "id": "MEH",
+    "name": "Meacham",
+    "lat": 45.5114,
+    "lon": -118.4247,
+    "state": "OR"
+  },
+  {
+    "id": "MEI",
+    "name": "MERIDIAN/KEY FIELD",
+    "lat": 32.3348,
+    "lon": -88.7511,
+    "state": "MS"
+  },
+  {
+    "id": "MEM",
+    "name": "MEMPHIS INTL ARPT",
+    "lat": 35.0611,
+    "lon": -89.985,
+    "state": "TN"
+  },
+  {
+    "id": "MFD",
+    "name": "MANSFIELD",
+    "lat": 40.82,
+    "lon": -82.52,
+    "state": "OH"
+  },
+  {
+    "id": "MFE",
+    "name": "MCALLEN/MILLER INTL",
+    "lat": 26.1758,
+    "lon": -98.2386,
+    "state": "TX"
+  },
+  {
+    "id": "MFI",
+    "name": "MARSHFIELD",
+    "lat": 44.6369,
+    "lon": -90.1893,
+    "state": "WI"
+  },
+  {
+    "id": "MFR",
+    "name": "MEDFORD/JACKSON CO.",
+    "lat": 42.3811,
+    "lon": -122.8722,
+    "state": "OR"
+  },
+  {
+    "id": "MGJ",
+    "name": "ORANGE COUNTY AIRPORT",
+    "lat": 41.5092,
+    "lon": -74.265,
+    "state": "NY"
+  },
+  {
+    "id": "MGM",
+    "name": "MONTGOMERY/DANNELLY",
+    "lat": 32.3006,
+    "lon": -86.394,
+    "state": "AL"
+  },
+  {
+    "id": "MGW",
+    "name": "MORGANTOWN/HART FLD",
+    "lat": 39.6429,
+    "lon": -79.9163,
+    "state": "WV"
+  },
+  {
+    "id": "MGY",
+    "name": "DAYTON",
+    "lat": 39.589,
+    "lon": -84.2249,
+    "state": "OH"
+  },
+  {
+    "id": "MHE",
+    "name": "MITCHELL",
+    "lat": 43.7748,
+    "lon": -98.0386,
+    "state": "SD"
+  },
+  {
+    "id": "MHK",
+    "name": "MANHATTAN",
+    "lat": 39.1353,
+    "lon": -96.6778,
+    "state": "KS"
+  },
+  {
+    "id": "MHS",
+    "name": "Mount Shasta City",
+    "lat": 41.3149,
+    "lon": -122.3171,
+    "state": "CA"
+  },
+  {
+    "id": "MHT",
+    "name": "MANCHESTER AIRPARK",
+    "lat": 42.9328,
+    "lon": -71.4358,
+    "state": "NH"
+  },
+  {
+    "id": "MIA",
+    "name": "MIAMI INTL AIRPORT",
+    "lat": 25.788,
+    "lon": -80.3169,
+    "state": "FL"
+  },
+  {
+    "id": "MIC",
+    "name": "Minneapolis - Crystal",
+    "lat": 45.0622,
+    "lon": -93.3511,
+    "state": "MN"
+  },
+  {
+    "id": "MIE",
+    "name": "MUNCIE",
+    "lat": 40.2425,
+    "lon": -85.3958,
+    "state": "IN"
+  },
+  {
+    "id": "MIV",
+    "name": "MILLVILLE MUNICIPAL",
+    "lat": 39.3661,
+    "lon": -75.0783,
+    "state": "NJ"
+  },
+  {
+    "id": "MIW",
+    "name": "MARSHALLTOWN",
+    "lat": 42.1106,
+    "lon": -92.9163,
+    "state": "IA"
+  },
+  {
+    "id": "MKC",
+    "name": "KANSAS CITY/DNTN",
+    "lat": 39.123,
+    "lon": -94.593,
+    "state": "MO"
+  },
+  {
+    "id": "MKE",
+    "name": "MILWAUKEE",
+    "lat": 42.9472,
+    "lon": -87.8967,
+    "state": "WI"
+  },
+  {
+    "id": "MKG",
+    "name": "MUSKEGON",
+    "lat": 43.1711,
+    "lon": -86.2367,
+    "state": "MI"
+  },
+  {
+    "id": "MKL",
+    "name": "JACKSON/MCKELLAR",
+    "lat": 35.5931,
+    "lon": -88.9167,
+    "state": "TN"
+  },
+  {
+    "id": "MKO",
+    "name": "MUSKOGEE/DAVIS FLD",
+    "lat": 35.6567,
+    "lon": -95.3614,
+    "state": "OK"
+  },
+  {
+    "id": "MLB",
+    "name": "MELBOURNE REGIONAL",
+    "lat": 28.1028,
+    "lon": -80.6453,
+    "state": "FL"
+  },
+  {
+    "id": "MLC",
+    "name": "MC ALESTER REGIONAL",
+    "lat": 34.8822,
+    "lon": -95.7831,
+    "state": "OK"
+  },
+  {
+    "id": "MLF",
+    "name": "MILFORD MUNICIPAL",
+    "lat": 38.4266,
+    "lon": -113.0125,
+    "state": "UT"
+  },
+  {
+    "id": "MLI",
+    "name": "Moline",
+    "lat": 41.4485,
+    "lon": -90.5075,
+    "state": "IL"
+  },
+  {
+    "id": "MLP",
+    "name": "Mullan Pass",
+    "lat": 47.4548,
+    "lon": -115.6711,
+    "state": "ID"
+  },
+  {
+    "id": "MLS",
+    "name": "MILES CITY",
+    "lat": 46.428,
+    "lon": -105.8862,
+    "state": "MT"
+  },
+  {
+    "id": "MLT",
+    "name": "MILLINOCKET MUNI",
+    "lat": 45.6478,
+    "lon": -68.6856,
+    "state": "ME"
+  },
+  {
+    "id": "MLU",
+    "name": "MONROE REGIONAL",
+    "lat": 32.5109,
+    "lon": -92.0377,
+    "state": "LA"
+  },
+  {
+    "id": "MMK",
+    "name": "MERIDEN MARKHAM MUNI AIRPORT",
+    "lat": 41.51,
+    "lon": -72.83,
+    "state": "CT"
+  },
+  {
+    "id": "MMV",
+    "name": "MCMINNVILLE MUNICIPAL AIRPORT",
+    "lat": 45.1946,
+    "lon": -123.1361,
+    "state": "OR"
+  },
+  {
+    "id": "MNN",
+    "name": "MARION",
+    "lat": 40.6162,
+    "lon": -83.0635,
+    "state": "OH"
+  },
+  {
+    "id": "MOB",
+    "name": "MOBILE/BATES FIELD",
+    "lat": 30.6883,
+    "lon": -88.2456,
+    "state": "AL"
+  },
+  {
+    "id": "MOD",
+    "name": "MODESTO CITY/SHAM",
+    "lat": 37.6258,
+    "lon": -120.9544,
+    "state": "CA"
+  },
+  {
+    "id": "MOT",
+    "name": "MINOT_INTL",
+    "lat": 48.2594,
+    "lon": -101.2803,
+    "state": "ND"
+  },
+  {
+    "id": "MPO",
+    "name": "MT POCONO",
+    "lat": 41.1389,
+    "lon": -75.3794,
+    "state": "PA"
+  },
+  {
+    "id": "MPV",
+    "name": "BARRE-MONTPELIER",
+    "lat": 44.2035,
+    "lon": -72.5623,
+    "state": "VT"
+  },
+  {
+    "id": "MQE",
+    "name": "EAST MILTON/BLUE HILL OBSERV",
+    "lat": 42.2121,
+    "lon": -71.1142,
+    "state": "MA"
+  },
+  {
+    "id": "MRB",
+    "name": "MARTINSBURG RGNL",
+    "lat": 39.4019,
+    "lon": -77.9847,
+    "state": "WV"
+  },
+  {
+    "id": "MRH",
+    "name": "SMITH_FIELD/BEAUFORT_(ASOS)",
+    "lat": 34.7336,
+    "lon": -76.6606,
+    "state": "NC"
+  },
+  {
+    "id": "MRY",
+    "name": "Monterey Peninsula",
+    "lat": 36.5904,
+    "lon": -121.8488,
+    "state": "CA"
+  },
+  {
+    "id": "MSL",
+    "name": "MUSCLE SHOALS RGNL",
+    "lat": 34.7438,
+    "lon": -87.5996,
+    "state": "AL"
+  },
+  {
+    "id": "MSN",
+    "name": "MADISON",
+    "lat": 43.1406,
+    "lon": -89.3453,
+    "state": "WI"
+  },
+  {
+    "id": "MSO",
+    "name": "MISSOULA/BELL FIELD",
+    "lat": 46.9208,
+    "lon": -114.0925,
+    "state": "MT"
+  },
+  {
+    "id": "MSP",
+    "name": "MINNEAPOLIS",
+    "lat": 44.8854,
+    "lon": -93.2313,
+    "state": "MN"
+  },
+  {
+    "id": "MSS",
+    "name": "Massena - Richards",
+    "lat": 44.9334,
+    "lon": -74.848,
+    "state": "NY"
+  },
+  {
+    "id": "MSY",
+    "name": "NEW ORLEANS/MOISANT",
+    "lat": 29.9933,
+    "lon": -90.2511,
+    "state": "LA"
+  },
+  {
+    "id": "MTH",
+    "name": "Marathon",
+    "lat": 24.7262,
+    "lon": -81.0514,
+    "state": "FL"
+  },
+  {
+    "id": "MTJ",
+    "name": "MONTROSE CO. ARPT",
+    "lat": 38.505,
+    "lon": -107.8975,
+    "state": "CO"
+  },
+  {
+    "id": "MTO",
+    "name": "MATTOON/CHARLEST",
+    "lat": 39.4779,
+    "lon": -88.2792,
+    "state": "IL"
+  },
+  {
+    "id": "MTP",
+    "name": "MONTAUK AIRPORT",
+    "lat": 41.0731,
+    "lon": -71.9233,
+    "state": "NY"
+  },
+  {
+    "id": "MVL",
+    "name": "MORRISVILLE",
+    "lat": 44.5346,
+    "lon": -72.614,
+    "state": "VT"
+  },
+  {
+    "id": "MVY",
+    "name": "MARTHAS VINEYARD",
+    "lat": 41.3931,
+    "lon": -70.615,
+    "state": "MA"
+  },
+  {
+    "id": "MWH",
+    "name": "MOSES LAKE/GRANT CO",
+    "lat": 47.2086,
+    "lon": -119.3191,
+    "state": "WA"
+  },
+  {
+    "id": "MWL",
+    "name": "MINERAL WELLS MUNI",
+    "lat": 32.7816,
+    "lon": -98.0602,
+    "state": "TX"
+  },
+  {
+    "id": "MWT",
+    "name": "MOUNT IDA",
+    "lat": 34.5467,
+    "lon": -93.5781,
+    "state": "AR"
+  },
+  {
+    "id": "MYF",
+    "name": "SAN DIEGO/MONTG",
+    "lat": 32.8157,
+    "lon": -117.1396,
+    "state": "CA"
+  },
+  {
+    "id": "MYL",
+    "name": "MC CALL",
+    "lat": 44.8889,
+    "lon": -116.1017,
+    "state": "ID"
+  },
+  {
+    "id": "MYV",
+    "name": "Marysville/Yuba County",
+    "lat": 39.102,
+    "lon": -121.5688,
+    "state": "CA"
+  },
+  {
+    "id": "N60",
+    "name": "GARRISON",
+    "lat": 47.6458,
+    "lon": -101.4394,
+    "state": "ND"
+  },
+  {
+    "id": "NAK",
+    "name": "Annapolis",
+    "lat": 38.9913,
+    "lon": -76.4891,
+    "state": "MD"
+  },
+  {
+    "id": "NBC",
+    "name": "BEAUFORT MCAS",
+    "lat": 32.4774,
+    "lon": -80.7232,
+    "state": "SC"
+  },
+  {
+    "id": "NCA",
+    "name": "NEW_RIVER_MCAS",
+    "lat": 34.7084,
+    "lon": -77.4397,
+    "state": "NC"
+  },
+  {
+    "id": "NDZ",
+    "name": "Milton",
+    "lat": 30.7044,
+    "lon": -87.0231,
+    "state": "FL"
+  },
+  {
+    "id": "NEN",
+    "name": "Jacksonville - Whitehouse",
+    "lat": 30.3495,
+    "lon": -81.867,
+    "state": "FL"
+  },
+  {
+    "id": "NEW",
+    "name": "NEW ORLEANS/LAKEFRO",
+    "lat": 30.0424,
+    "lon": -90.0282,
+    "state": "LA"
+  },
+  {
+    "id": "NFE",
+    "name": "Fentress",
+    "lat": 36.695,
+    "lon": -76.1356,
+    "state": "VA"
+  },
+  {
+    "id": "NFJ",
+    "name": "Choctaw",
+    "lat": 30.5069,
+    "lon": -86.9597,
+    "state": "FL"
+  },
+  {
+    "id": "NFL",
+    "name": "FALLON NAS",
+    "lat": 39.4166,
+    "lon": -118.701,
+    "state": "NV"
+  },
+  {
+    "id": "NFW",
+    "name": "FORT WORTH NAS",
+    "lat": 32.781,
+    "lon": -97.4365,
+    "state": "TX"
+  },
+  {
+    "id": "NGP",
+    "name": "CORPUS CHRISTI NAS",
+    "lat": 27.6926,
+    "lon": -97.2911,
+    "state": "TX"
+  },
+  {
+    "id": "NGU",
+    "name": "NORFOLK NAS/CHAMBER",
+    "lat": 36.9375,
+    "lon": -76.2893,
+    "state": "VA"
+  },
+  {
+    "id": "NHK",
+    "name": "PATUXENT RIVER NAS",
+    "lat": 38.286,
+    "lon": -76.4118,
+    "state": "MD"
+  },
+  {
+    "id": "NID",
+    "name": "CHINA LAKE (NAF)",
+    "lat": 35.6855,
+    "lon": -117.692,
+    "state": "CA"
+  },
+  {
+    "id": "NIP",
+    "name": "JACKSONVILLE NAS",
+    "lat": 30.2342,
+    "lon": -81.6747,
+    "state": "FL"
+  },
+  {
+    "id": "NJK",
+    "name": "EL CENTRO NAF",
+    "lat": 32.8292,
+    "lon": -115.6717,
+    "state": "CA"
+  },
+  {
+    "id": "NKT",
+    "name": "CHERRY_POINT_MCAS",
+    "lat": 34.9,
+    "lon": -76.88,
+    "state": "NC"
+  },
+  {
+    "id": "NLC",
+    "name": "LEMOORE NAS/REEVES",
+    "lat": 36.333,
+    "lon": -119.9521,
+    "state": "CA"
+  },
+  {
+    "id": "NMM",
+    "name": "MERIDIAN NAS/MCCAIN",
+    "lat": 32.5521,
+    "lon": -88.5556,
+    "state": "MS"
+  },
+  {
+    "id": "NQI",
+    "name": "KINGSVILLE NAS",
+    "lat": 27.5072,
+    "lon": -97.8097,
+    "state": "TX"
+  },
+  {
+    "id": "NQX",
+    "name": "KEY WEST NAS",
+    "lat": 24.5757,
+    "lon": -81.6888,
+    "state": "FL"
+  },
+  {
+    "id": "NRB",
+    "name": "MAYPORT NS",
+    "lat": 30.3914,
+    "lon": -81.4245,
+    "state": "FL"
+  },
+  {
+    "id": "NRS",
+    "name": "IMPERIAL BEACH/REAM",
+    "lat": 32.5631,
+    "lon": -117.11,
+    "state": "CA"
+  },
+  {
+    "id": "NSE",
+    "name": "WHITING FLD NAS-N.",
+    "lat": 30.7242,
+    "lon": -87.0219,
+    "state": "FL"
+  },
+  {
+    "id": "NTD",
+    "name": "PT MUGU NAWS",
+    "lat": 34.12,
+    "lon": -119.12,
+    "state": "CA"
+  },
+  {
+    "id": "NTU",
+    "name": "OCEANA NAS/SOUCEK",
+    "lat": 36.8207,
+    "lon": -76.0335,
+    "state": "VA"
+  },
+  {
+    "id": "NUI",
+    "name": "St Inigoes",
+    "lat": 38.146,
+    "lon": -76.4285,
+    "state": "MD"
+  },
+  {
+    "id": "NUW",
+    "name": "WHIDBEY ISLAND NAS",
+    "lat": 48.3518,
+    "lon": -122.656,
+    "state": "WA"
+  },
+  {
+    "id": "NYC",
+    "name": "NEW YORK CITY",
+    "lat": 40.779,
+    "lon": -73.9692,
+    "state": "NY"
+  },
+  {
+    "id": "NYG",
+    "name": "QUANTICO MCAF",
+    "lat": 38.5017,
+    "lon": -77.3053,
+    "state": "VA"
+  },
+  {
+    "id": "NYL",
+    "name": "YUMA MCAS",
+    "lat": 32.6566,
+    "lon": -114.606,
+    "state": "AZ"
+  },
+  {
+    "id": "NZY",
+    "name": "NORTH ISLAND NAS",
+    "lat": 32.6922,
+    "lon": -117.2098,
+    "state": "CA"
+  },
+  {
+    "id": "OAK",
+    "name": "Oakland",
+    "lat": 37.7178,
+    "lon": -122.233,
+    "state": "CA"
+  },
+  {
+    "id": "ODO",
+    "name": "ODESSA-SCHLEMEYER FLD (WAS E02)",
+    "lat": 31.9206,
+    "lon": -102.3867,
+    "state": "TX"
+  },
+  {
+    "id": "ODX",
+    "name": "ORD/SHARP FIELD",
+    "lat": 41.6236,
+    "lon": -98.9517,
+    "state": "NE"
+  },
+  {
+    "id": "OFK",
+    "name": "NORFOLK",
+    "lat": 41.9855,
+    "lon": -97.4351,
+    "state": "NE"
+  },
+  {
+    "id": "OFP",
+    "name": "RICHMOND (ASOS)",
+    "lat": 37.7089,
+    "lon": -77.4366,
+    "state": "VA"
+  },
+  {
+    "id": "OGB",
+    "name": "ORANGEBURG",
+    "lat": 33.4568,
+    "lon": -80.8595,
+    "state": "SC"
+  },
+  {
+    "id": "OGD",
+    "name": "OGDEN-HINCKLEY MUNI",
+    "lat": 41.1957,
+    "lon": -112.0129,
+    "state": "UT"
+  },
+  {
+    "id": "OJC",
+    "name": "OLATHE (OJC)",
+    "lat": 38.85,
+    "lon": -94.7392,
+    "state": "KS"
+  },
+  {
+    "id": "OKB",
+    "name": "OCEANSIDE MUNICIPAL (WAS L32)",
+    "lat": 33.22,
+    "lon": -117.35,
+    "state": "CA"
+  },
+  {
+    "id": "OKC",
+    "name": "Oklahoma City",
+    "lat": 35.3889,
+    "lon": -97.6006,
+    "state": "OK"
+  },
+  {
+    "id": "OLF",
+    "name": "WOLF POINT INTL",
+    "lat": 48.0945,
+    "lon": -105.575,
+    "state": "MT"
+  },
+  {
+    "id": "OLM",
+    "name": "OLYMPIA",
+    "lat": 46.9733,
+    "lon": -122.9033,
+    "state": "WA"
+  },
+  {
+    "id": "OLS",
+    "name": "NOGALES INTL AIRPORT",
+    "lat": 31.4208,
+    "lon": -110.8458,
+    "state": "AZ"
+  },
+  {
+    "id": "OMA",
+    "name": "OMAHA/EPPLEY",
+    "lat": 41.3103,
+    "lon": -95.8992,
+    "state": "NE"
+  },
+  {
+    "id": "OMK",
+    "name": "OMAK AIRPORT",
+    "lat": 48.4644,
+    "lon": -119.5181,
+    "state": "WA"
+  },
+  {
+    "id": "ONO",
+    "name": "ONTARIO MUNICIPAL",
+    "lat": 44.0206,
+    "lon": -117.0128,
+    "state": "OR"
+  },
+  {
+    "id": "ONT",
+    "name": "ONTARIO INTL ARPT",
+    "lat": 34.056,
+    "lon": -117.6012,
+    "state": "CA"
+  },
+  {
+    "id": "OPF",
+    "name": "MIAMI/OPA LOCKA",
+    "lat": 25.9102,
+    "lon": -80.2828,
+    "state": "FL"
+  },
+  {
+    "id": "OQT",
+    "name": "OAK RIDGE",
+    "lat": 36.023,
+    "lon": -84.2336,
+    "state": "TN"
+  },
+  {
+    "id": "ORD",
+    "name": "Chicago OHare",
+    "lat": 41.9602,
+    "lon": -87.9316,
+    "state": "IL"
+  },
+  {
+    "id": "ORE",
+    "name": "ORANGE (ASOS)",
+    "lat": 42.5701,
+    "lon": -72.2886,
+    "state": "MA"
+  },
+  {
+    "id": "ORF",
+    "name": "NORFOLK INTL ARPT",
+    "lat": 36.9033,
+    "lon": -76.1922,
+    "state": "VA"
+  },
+  {
+    "id": "ORH",
+    "name": "Worcester",
+    "lat": 42.2673,
+    "lon": -71.8757,
+    "state": "MA"
+  },
+  {
+    "id": "ORL",
+    "name": "ORLANDO/HERNDON",
+    "lat": 28.5455,
+    "lon": -81.3329,
+    "state": "FL"
+  },
+  {
+    "id": "OSH",
+    "name": "OSHKOSH",
+    "lat": 43.9844,
+    "lon": -88.557,
+    "state": "WI"
+  },
+  {
+    "id": "OSU",
+    "name": "COLUMBUS/ST UNIV",
+    "lat": 40.08,
+    "lon": -83.08,
+    "state": "OH"
+  },
+  {
+    "id": "OTM",
+    "name": "OTTUMWA",
+    "lat": 41.1008,
+    "lon": -92.4446,
+    "state": "IA"
+  },
+  {
+    "id": "OVE",
+    "name": "OROVILLE",
+    "lat": 39.49,
+    "lon": -121.62,
+    "state": "CA"
+  },
+  {
+    "id": "OVS",
+    "name": "BOSCOBEL",
+    "lat": 43.1561,
+    "lon": -90.6775,
+    "state": "WI"
+  },
+  {
+    "id": "OWD",
+    "name": "NORWOOD MEMORIAL",
+    "lat": 42.1912,
+    "lon": -71.1733,
+    "state": "MA"
+  },
+  {
+    "id": "OXB",
+    "name": "OCEAN CITY MUNI",
+    "lat": 38.3083,
+    "lon": -75.1239,
+    "state": "MD"
+  },
+  {
+    "id": "OXR",
+    "name": "OXNARD",
+    "lat": 34.2008,
+    "lon": -119.2072,
+    "state": "CA"
+  },
+  {
+    "id": "P28",
+    "name": "MEDICINE_LODGE",
+    "lat": 37.2839,
+    "lon": -98.5528,
+    "state": "KS"
+  },
+  {
+    "id": "P53",
+    "name": "Munising",
+    "lat": 46.4119,
+    "lon": -86.6508,
+    "state": "MI"
+  },
+  {
+    "id": "P58",
+    "name": "PORT HOPE",
+    "lat": 44.0219,
+    "lon": -82.7931,
+    "state": "MI"
+  },
+  {
+    "id": "P59",
+    "name": "Copper Harbor",
+    "lat": 47.4674,
+    "lon": -87.8751,
+    "state": "MI"
+  },
+  {
+    "id": "P60",
+    "name": "YELLOWSTONE (RAMOS)",
+    "lat": 44.5444,
+    "lon": -110.4211,
+    "state": "WY"
+  },
+  {
+    "id": "P68",
+    "name": "EUREKA (RAMOS)",
+    "lat": 39.6014,
+    "lon": -116.0056,
+    "state": "NV"
+  },
+  {
+    "id": "P69",
+    "name": "Elk City (RAMOS)",
+    "lat": 46.1445,
+    "lon": -115.5971,
+    "state": "ID"
+  },
+  {
+    "id": "P92",
+    "name": "Salt Point",
+    "lat": 29.559,
+    "lon": -91.525,
+    "state": "LA"
+  },
+  {
+    "id": "PAAQ",
+    "name": "PALMER MUNICIPAL (ASOS)",
+    "lat": 61.5949,
+    "lon": -149.0887,
+    "state": "AK"
+  },
+  {
+    "id": "PABE",
+    "name": "BETHEL AIRPORT (ASOS)",
+    "lat": 60.7858,
+    "lon": -161.8264,
+    "state": "AK"
+  },
+  {
+    "id": "PABI",
+    "name": "FT.GREELY/ALLEN AAF (ASOS)",
+    "lat": 63.995,
+    "lon": -145.7183,
+    "state": "AK"
+  },
+  {
+    "id": "PABR",
+    "name": "BARROW/POST-ROGERS (ASOS)",
+    "lat": 71.2826,
+    "lon": -156.7922,
+    "state": "AK"
+  },
+  {
+    "id": "PABT",
+    "name": "Bettles Field",
+    "lat": 66.9165,
+    "lon": -151.5189,
+    "state": "AK"
+  },
+  {
+    "id": "PACD",
+    "name": "Cold Bay",
+    "lat": 55.2207,
+    "lon": -162.7323,
+    "state": "AK"
+  },
+  {
+    "id": "PACV",
+    "name": "CORDOVA/MILE 13",
+    "lat": 60.4889,
+    "lon": -145.4511,
+    "state": "AK"
+  },
+  {
+    "id": "PADE",
+    "name": "DEERING AIRPORT (ASOS)",
+    "lat": 66.0696,
+    "lon": -162.7664,
+    "state": "AK"
+  },
+  {
+    "id": "PADQ",
+    "name": "KODIAK (ASOS)",
+    "lat": 57.75,
+    "lon": -152.4939,
+    "state": "AK"
+  },
+  {
+    "id": "PAE",
+    "name": "Everett - Paine Field",
+    "lat": 47.907,
+    "lon": -122.2816,
+    "state": "WA"
+  },
+  {
+    "id": "PAEG",
+    "name": "EAGLE AIRPORT (ASOS)",
+    "lat": 64.7781,
+    "lon": -141.1496,
+    "state": "AK"
+  },
+  {
+    "id": "PAEN",
+    "name": "KENAI MUNICIPAL (ASOS)",
+    "lat": 60.5797,
+    "lon": -151.2391,
+    "state": "AK"
+  },
+  {
+    "id": "PAFA",
+    "name": "FAIRBANKS INTL ARPT (ASOS)",
+    "lat": 64.8039,
+    "lon": -147.8761,
+    "state": "AK"
+  },
+  {
+    "id": "PAGK",
+    "name": "GULKANA ARPT (ASOS)",
+    "lat": 62.1602,
+    "lon": -145.457,
+    "state": "AK"
+  },
+  {
+    "id": "PAGY",
+    "name": "Skagway",
+    "lat": 59.4538,
+    "lon": -135.3277,
+    "state": "AK"
+  },
+  {
+    "id": "PAH",
+    "name": "PADUCAH/BARKLEY",
+    "lat": 37.0563,
+    "lon": -88.7744,
+    "state": "KY"
+  },
+  {
+    "id": "PAHN",
+    "name": "Haines",
+    "lat": 59.2429,
+    "lon": -135.5117,
+    "state": "AK"
+  },
+  {
+    "id": "PAHO",
+    "name": "HOMER MUNICIPAL (ASOS)",
+    "lat": 59.6456,
+    "lon": -151.4766,
+    "state": "AK"
+  },
+  {
+    "id": "PAIL",
+    "name": "ILIAMNA ARPT (ASOS)",
+    "lat": 59.7492,
+    "lon": -154.9092,
+    "state": "AK"
+  },
+  {
+    "id": "PAJN",
+    "name": "JUNEAU INTL AIRPORT (ASOS)",
+    "lat": 58.355,
+    "lon": -134.5763,
+    "state": "AK"
+  },
+  {
+    "id": "PAKN",
+    "name": "KING SALMON (ASOS)",
+    "lat": 58.6836,
+    "lon": -156.6539,
+    "state": "AK"
+  },
+  {
+    "id": "PAKT",
+    "name": "KETCHIKAN INTL ARPT (ASOS)",
+    "lat": 55.3567,
+    "lon": -131.7117,
+    "state": "AK"
+  },
+  {
+    "id": "PAKV",
+    "name": "KALTAG AIRPORT (ASOS)",
+    "lat": 64.319,
+    "lon": -158.7413,
+    "state": "AK"
+  },
+  {
+    "id": "PAKW",
+    "name": "KLAWOCK (ASOS)",
+    "lat": 55.5792,
+    "lon": -133.076,
+    "state": "AK"
+  },
+  {
+    "id": "PALH",
+    "name": "Lake Hood Seaplane",
+    "lat": 61.1786,
+    "lon": -149.9651,
+    "state": "AK"
+  },
+  {
+    "id": "PAMC",
+    "name": "MCGRATH (ASOS)",
+    "lat": 62.9528,
+    "lon": -155.607,
+    "state": "AK"
+  },
+  {
+    "id": "PAMR",
+    "name": "Merrill Field",
+    "lat": 61.2163,
+    "lon": -149.8573,
+    "state": "AK"
+  },
+  {
+    "id": "PANC",
+    "name": "ANCHORAGE INTL ARPT (ASOS)",
+    "lat": 61.1697,
+    "lon": -150.0261,
+    "state": "AK"
+  },
+  {
+    "id": "PANN",
+    "name": "NENANA/MUN. (ASOS)",
+    "lat": 64.5473,
+    "lon": -149.074,
+    "state": "AK"
+  },
+  {
+    "id": "PAOM",
+    "name": "NOME (ASOS)",
+    "lat": 64.5122,
+    "lon": -165.4452,
+    "state": "AK"
+  },
+  {
+    "id": "PAOR",
+    "name": "NORTHWAY (ASOS)",
+    "lat": 62.9614,
+    "lon": -141.9292,
+    "state": "AK"
+  },
+  {
+    "id": "PAOT",
+    "name": "Kotzebue / Wien",
+    "lat": 66.8857,
+    "lon": -162.6068,
+    "state": "AK"
+  },
+  {
+    "id": "PAPB",
+    "name": "ST GEORGE ISLAND (ASOS)",
+    "lat": 56.5769,
+    "lon": -169.6631,
+    "state": "AK"
+  },
+  {
+    "id": "PAQT",
+    "name": "NUIQSUT (ASOS)",
+    "lat": 70.21,
+    "lon": -151.0056,
+    "state": "AK"
+  },
+  {
+    "id": "PASC",
+    "name": "DEADHORSE (ASOS)",
+    "lat": 70.1948,
+    "lon": -148.4652,
+    "state": "AK"
+  },
+  {
+    "id": "PASI",
+    "name": "SITKA/JAPONSKI ARPT (ASOS)",
+    "lat": 57.0471,
+    "lon": -135.3616,
+    "state": "AK"
+  },
+  {
+    "id": "PASN",
+    "name": "SAINT PAUL ISLAND (ASOS)",
+    "lat": 57.1553,
+    "lon": -170.2222,
+    "state": "AK"
+  },
+  {
+    "id": "PASO",
+    "name": "SELDOVIA (ASOS)",
+    "lat": 59.4424,
+    "lon": -151.704,
+    "state": "AK"
+  },
+  {
+    "id": "PATA",
+    "name": "Tanana - Calhoun Memorial",
+    "lat": 65.173,
+    "lon": -152.106,
+    "state": "AK"
+  },
+  {
+    "id": "PATK",
+    "name": "TALKEETNA (ASOS)",
+    "lat": 62.32,
+    "lon": -150.095,
+    "state": "AK"
+  },
+  {
+    "id": "PATO",
+    "name": "PORTAGE GLACIER CENTER (ASOS)",
+    "lat": 60.785,
+    "lon": -148.8389,
+    "state": "AK"
+  },
+  {
+    "id": "PAVL",
+    "name": "KIVALINA AIRPORT (ASOS)",
+    "lat": 67.7317,
+    "lon": -164.5483,
+    "state": "AK"
+  },
+  {
+    "id": "PAWD",
+    "name": "SEWARD (ASOS)",
+    "lat": 60.1269,
+    "lon": -149.4186,
+    "state": "AK"
+  },
+  {
+    "id": "PAWI",
+    "name": "WAINWRIGHT AIRPORT (ASOS)",
+    "lat": 70.638,
+    "lon": -159.9948,
+    "state": "AK"
+  },
+  {
+    "id": "PAYA",
+    "name": "Yakutat",
+    "lat": 59.5121,
+    "lon": -139.671,
+    "state": "AK"
+  },
+  {
+    "id": "PBF",
+    "name": "PINE BLUFF/GRIDER",
+    "lat": 34.175,
+    "lon": -91.9347,
+    "state": "AR"
+  },
+  {
+    "id": "PBG",
+    "name": "Plattsburgh AFB",
+    "lat": 44.6382,
+    "lon": -73.4624,
+    "state": "NY"
+  },
+  {
+    "id": "PBI",
+    "name": "WEST PALM BEACH",
+    "lat": 26.6847,
+    "lon": -80.0994,
+    "state": "FL"
+  },
+  {
+    "id": "PDK",
+    "name": "ATLANTA/DEKALB",
+    "lat": 33.8756,
+    "lon": -84.302,
+    "state": "GA"
+  },
+  {
+    "id": "PDT",
+    "name": "PENDLETON MUNICIPAL",
+    "lat": 45.6951,
+    "lon": -118.8414,
+    "state": "OR"
+  },
+  {
+    "id": "PDX",
+    "name": "PORTLAND INTL ARPT",
+    "lat": 45.5908,
+    "lon": -122.6003,
+    "state": "OR"
+  },
+  {
+    "id": "PEO",
+    "name": "Penn Yan",
+    "lat": 42.6441,
+    "lon": -77.0529,
+    "state": "NY"
+  },
+  {
+    "id": "PGA",
+    "name": "Page",
+    "lat": 36.9261,
+    "lon": -111.4484,
+    "state": "AZ"
+  },
+  {
+    "id": "PGD",
+    "name": "PUNTA GORDA",
+    "lat": 26.9172,
+    "lon": -81.9914,
+    "state": "FL"
+  },
+  {
+    "id": "PGSN",
+    "name": "Saipan",
+    "lat": 15.119,
+    "lon": 145.7294,
+    "state": null
+  },
+  {
+    "id": "PGUM",
+    "name": "Agana",
+    "lat": 13.4839,
+    "lon": 144.7972,
+    "state": "GU"
+  },
+  {
+    "id": "PHD",
+    "name": "NEW PHILADELPHIA",
+    "lat": 40.4719,
+    "lon": -81.4236,
+    "state": "OH"
+  },
+  {
+    "id": "PHF",
+    "name": "NEWPORT NEWS",
+    "lat": 37.1319,
+    "lon": -76.493,
+    "state": "VA"
+  },
+  {
+    "id": "PHJR",
+    "name": "KALAELOA_AIRPORT",
+    "lat": 21.3074,
+    "lon": -158.0703,
+    "state": "HI"
+  },
+  {
+    "id": "PHKO",
+    "name": "KEAHOLE_POINT/KONA_(ASOS)",
+    "lat": 19.7388,
+    "lon": -156.0456,
+    "state": "HI"
+  },
+  {
+    "id": "PHL",
+    "name": "Philadelphia Intl",
+    "lat": 39.8734,
+    "lon": -75.2266,
+    "state": "PA"
+  },
+  {
+    "id": "PHLI",
+    "name": "Lihue",
+    "lat": 21.9785,
+    "lon": -159.3394,
+    "state": "HI"
+  },
+  {
+    "id": "PHMK",
+    "name": "MOLOKAI_(ASOS)",
+    "lat": 21.1529,
+    "lon": -157.0963,
+    "state": "HI"
+  },
+  {
+    "id": "PHNG",
+    "name": "KANEOHE_MCAS/OAHU",
+    "lat": 21.4509,
+    "lon": -157.7629,
+    "state": "HI"
+  },
+  {
+    "id": "PHNL",
+    "name": "Honolulu",
+    "lat": 21.3187,
+    "lon": -157.9224,
+    "state": "HI"
+  },
+  {
+    "id": "PHOG",
+    "name": "Kahului",
+    "lat": 20.8889,
+    "lon": -156.4344,
+    "state": "HI"
+  },
+  {
+    "id": "PHP",
+    "name": "PHILIP",
+    "lat": 44.05,
+    "lon": -101.6,
+    "state": "SD"
+  },
+  {
+    "id": "PHTO",
+    "name": "HILO/LYMAN_FIELD_(ASOS)",
+    "lat": 19.7203,
+    "lon": -155.0485,
+    "state": "HI"
+  },
+  {
+    "id": "PHX",
+    "name": "PHOENIX/SKY HARBOR",
+    "lat": 33.4343,
+    "lon": -112.0116,
+    "state": "AZ"
+  },
+  {
+    "id": "PIA",
+    "name": "PEORIA",
+    "lat": 40.6675,
+    "lon": -89.6839,
+    "state": "IL"
+  },
+  {
+    "id": "PIE",
+    "name": "SAINT PETERSBURG",
+    "lat": 27.91,
+    "lon": -82.6874,
+    "state": "FL"
+  },
+  {
+    "id": "PIH",
+    "name": "POCATELLO MUNICIPAL",
+    "lat": 42.9098,
+    "lon": -112.5959,
+    "state": "ID"
+  },
+  {
+    "id": "PIL",
+    "name": "PORT ISABEL-CAMERON COUNTY APT",
+    "lat": 26.1597,
+    "lon": -97.3378,
+    "state": "TX"
+  },
+  {
+    "id": "PIR",
+    "name": "PIERRE",
+    "lat": 44.3827,
+    "lon": -100.286,
+    "state": "SD"
+  },
+  {
+    "id": "PIT",
+    "name": "PITTSBURGH INTL",
+    "lat": 40.4915,
+    "lon": -80.2329,
+    "state": "PA"
+  },
+  {
+    "id": "PKB",
+    "name": "Parkersburg",
+    "lat": 39.3395,
+    "lon": -81.4438,
+    "state": "WV"
+  },
+  {
+    "id": "PKD",
+    "name": "PARK RAPIDS",
+    "lat": 46.9,
+    "lon": -95.07,
+    "state": "MN"
+  },
+  {
+    "id": "PLN",
+    "name": "PELLSTON",
+    "lat": 45.5709,
+    "lon": -84.7967,
+    "state": "MI"
+  },
+  {
+    "id": "PMD",
+    "name": "Palmdate",
+    "lat": 34.6294,
+    "lon": -118.0846,
+    "state": "CA"
+  },
+  {
+    "id": "PMP",
+    "name": "POMPANO BEACH",
+    "lat": 26.2464,
+    "lon": -80.111,
+    "state": "FL"
+  },
+  {
+    "id": "PNC",
+    "name": "PONCA CITY MUNI",
+    "lat": 36.73,
+    "lon": -97.1,
+    "state": "OK"
+  },
+  {
+    "id": "PNE",
+    "name": "PHILADELPHIA NE",
+    "lat": 40.0789,
+    "lon": -75.0134,
+    "state": "PA"
+  },
+  {
+    "id": "PNS",
+    "name": "PENSACOLA REGIONAL",
+    "lat": 30.4781,
+    "lon": -87.1869,
+    "state": "FL"
+  },
+  {
+    "id": "POF",
+    "name": "POPULAR BLUFF",
+    "lat": 36.7739,
+    "lon": -90.3249,
+    "state": "MO"
+  },
+  {
+    "id": "POU",
+    "name": "POUGHKEEPSIE",
+    "lat": 41.6266,
+    "lon": -73.8842,
+    "state": "NY"
+  },
+  {
+    "id": "PPF",
+    "name": "PARSONS",
+    "lat": 37.3278,
+    "lon": -95.5042,
+    "state": "KS"
+  },
+  {
+    "id": "PQL",
+    "name": "PASCAGOULA",
+    "lat": 30.4636,
+    "lon": -88.5319,
+    "state": "MS"
+  },
+  {
+    "id": "PRB",
+    "name": "Paso Robles",
+    "lat": 35.6694,
+    "lon": -120.6291,
+    "state": "CA"
+  },
+  {
+    "id": "PRC",
+    "name": "PRESCOTT/LOVE FLD",
+    "lat": 34.65,
+    "lon": -112.42,
+    "state": "AZ"
+  },
+  {
+    "id": "PRN",
+    "name": "Greenville",
+    "lat": 31.8457,
+    "lon": -86.6108,
+    "state": "AL"
+  },
+  {
+    "id": "PSC",
+    "name": "PASCO/TRI-CITIES",
+    "lat": 46.2647,
+    "lon": -119.119,
+    "state": "WA"
+  },
+  {
+    "id": "PSF",
+    "name": "PITTSFIELD MUNI",
+    "lat": 42.4272,
+    "lon": -73.2892,
+    "state": "MA"
+  },
+  {
+    "id": "PSP",
+    "name": "PALM SPRINGS RGNL",
+    "lat": 33.8297,
+    "lon": -116.5067,
+    "state": "CA"
+  },
+  {
+    "id": "PSX",
+    "name": "PALACIOS MUNICIPAL",
+    "lat": 28.73,
+    "lon": -96.25,
+    "state": "TX"
+  },
+  {
+    "id": "PTK",
+    "name": "PONTIAC",
+    "lat": 42.6655,
+    "lon": -83.4201,
+    "state": "MI"
+  },
+  {
+    "id": "PTW",
+    "name": "POTTSTOWN LIMERICK AIRPORT",
+    "lat": 40.2383,
+    "lon": -75.5572,
+    "state": "PA"
+  },
+  {
+    "id": "PUB",
+    "name": "PUEBLO MEMORIAL(AW)",
+    "lat": 38.29,
+    "lon": -104.4983,
+    "state": "CO"
+  },
+  {
+    "id": "PUC",
+    "name": "PRICE/CARBON(RAMOS)",
+    "lat": 39.6092,
+    "lon": -110.7547,
+    "state": "UT"
+  },
+  {
+    "id": "PUW",
+    "name": "PULLMAN/MOSCOW RGNL",
+    "lat": 46.7439,
+    "lon": -117.1096,
+    "state": "WA"
+  },
+  {
+    "id": "PVD",
+    "name": "PROVIDENCE/GREEN",
+    "lat": 41.7219,
+    "lon": -71.4325,
+    "state": "RI"
+  },
+  {
+    "id": "PWA",
+    "name": "OKLAHOMA CITY/WILEY",
+    "lat": 35.5342,
+    "lon": -97.6471,
+    "state": "OK"
+  },
+  {
+    "id": "PWK",
+    "name": "PALWAUKEE",
+    "lat": 42.1208,
+    "lon": -87.9047,
+    "state": "IL"
+  },
+  {
+    "id": "PWM",
+    "name": "PORTLAND INTL JET",
+    "lat": 43.6424,
+    "lon": -70.3044,
+    "state": "ME"
+  },
+  {
+    "id": "PYM",
+    "name": "PLYMOUTH MUNICIPAL",
+    "lat": 41.909,
+    "lon": -70.7288,
+    "state": "MA"
+  },
+  {
+    "id": "QCA",
+    "name": "Granite Peak",
+    "lat": 40.1664,
+    "lon": -113.3497,
+    "state": "UT"
+  },
+  {
+    "id": "RAC",
+    "name": "RACINE",
+    "lat": 42.7611,
+    "lon": -87.8136,
+    "state": "WI"
+  },
+  {
+    "id": "RAL",
+    "name": "RIVERSIDE MUNICIPAL",
+    "lat": 33.9519,
+    "lon": -117.4451,
+    "state": "CA"
+  },
+  {
+    "id": "RAP",
+    "name": "RAPID CITY",
+    "lat": 44.0453,
+    "lon": -103.0574,
+    "state": "SD"
+  },
+  {
+    "id": "RBD",
+    "name": "DALLAS/REDBIRD ARPT",
+    "lat": 32.68,
+    "lon": -96.87,
+    "state": "TX"
+  },
+  {
+    "id": "RBG",
+    "name": "ROSEBURG MUNICIPAL",
+    "lat": 43.2388,
+    "lon": -123.3559,
+    "state": "OR"
+  },
+  {
+    "id": "RBL",
+    "name": "RED BLUFF MUNICIPAL",
+    "lat": 40.1519,
+    "lon": -122.2536,
+    "state": "CA"
+  },
+  {
+    "id": "RDD",
+    "name": "REDDING MUNICIPAL",
+    "lat": 40.509,
+    "lon": -122.2934,
+    "state": "CA"
+  },
+  {
+    "id": "RDG",
+    "name": "READING/SPAATZ FLD",
+    "lat": 40.3785,
+    "lon": -75.9652,
+    "state": "PA"
+  },
+  {
+    "id": "RDM",
+    "name": "REDMOND (AWOS)",
+    "lat": 44.2539,
+    "lon": -121.15,
+    "state": "OR"
+  },
+  {
+    "id": "RDU",
+    "name": "Raleigh / Durham",
+    "lat": 35.8922,
+    "lon": -78.7819,
+    "state": "NC"
+  },
+  {
+    "id": "REO",
+    "name": "ROME",
+    "lat": 42.5906,
+    "lon": -117.8644,
+    "state": "OR"
+  },
+  {
+    "id": "RFD",
+    "name": "Rockford",
+    "lat": 42.1915,
+    "lon": -89.0876,
+    "state": "IL"
+  },
+  {
+    "id": "RHI",
+    "name": "RHINELANDER",
+    "lat": 45.6312,
+    "lon": -89.4675,
+    "state": "WI"
+  },
+  {
+    "id": "RIC",
+    "name": "RICHMOND/BYRD FIELD",
+    "lat": 37.5115,
+    "lon": -77.3234,
+    "state": "VA"
+  },
+  {
+    "id": "RIL",
+    "name": "RIFLE/GARFIELD RGNL",
+    "lat": 39.5263,
+    "lon": -107.7269,
+    "state": "CO"
+  },
+  {
+    "id": "RIW",
+    "name": "RIVERTON",
+    "lat": 43.0642,
+    "lon": -108.4598,
+    "state": "WY"
+  },
+  {
+    "id": "RKP",
+    "name": "ROCKPORT/ARANSAS CO",
+    "lat": 28.0836,
+    "lon": -97.0464,
+    "state": "TX"
+  },
+  {
+    "id": "RKS",
+    "name": "ROCK SPRINGS",
+    "lat": 41.5942,
+    "lon": -109.0652,
+    "state": "WY"
+  },
+  {
+    "id": "RME",
+    "name": "Griffiss AFB / Rome",
+    "lat": 43.2239,
+    "lon": -75.3953,
+    "state": "NY"
+  },
+  {
+    "id": "RMG",
+    "name": "ROME/RUSSELL(RAMOS)",
+    "lat": 34.3478,
+    "lon": -85.1611,
+    "state": "GA"
+  },
+  {
+    "id": "RNM",
+    "name": "RAMONA AIRPORT",
+    "lat": 33.0392,
+    "lon": -116.9152,
+    "state": "CA"
+  },
+  {
+    "id": "RNO",
+    "name": "Reno - Tahoe",
+    "lat": 39.4839,
+    "lon": -119.7711,
+    "state": "NV"
+  },
+  {
+    "id": "RNT",
+    "name": "RENTON MUNICIPAL",
+    "lat": 47.4931,
+    "lon": -122.2158,
+    "state": "WA"
+  },
+  {
+    "id": "ROA",
+    "name": "Roanoke Muni",
+    "lat": 37.3172,
+    "lon": -79.9737,
+    "state": "VA"
+  },
+  {
+    "id": "ROC",
+    "name": "ROCHESTER/MONROE CO",
+    "lat": 43.1167,
+    "lon": -77.6767,
+    "state": "NY"
+  },
+  {
+    "id": "ROW",
+    "name": "ROSWELL/INDUSTRIAL",
+    "lat": 33.3,
+    "lon": -104.53,
+    "state": "NM"
+  },
+  {
+    "id": "RQE",
+    "name": "WINDOW ROCK (WAS P34)",
+    "lat": 35.6575,
+    "lon": -109.0614,
+    "state": "AZ"
+  },
+  {
+    "id": "RSL",
+    "name": "RUSSELL",
+    "lat": 38.8721,
+    "lon": -98.8118,
+    "state": "KS"
+  },
+  {
+    "id": "RST",
+    "name": "ROCHESTER",
+    "lat": 43.9041,
+    "lon": -92.4916,
+    "state": "MN"
+  },
+  {
+    "id": "RSW",
+    "name": "FT MYERS/SW FLORIDA",
+    "lat": 26.5381,
+    "lon": -81.7567,
+    "state": "FL"
+  },
+  {
+    "id": "RTN",
+    "name": "RATON/CREWS FLD",
+    "lat": 36.7415,
+    "lon": -104.5022,
+    "state": "NM"
+  },
+  {
+    "id": "RUE",
+    "name": "RUSSELLVILLE MUNICIPAL AIRPORT",
+    "lat": 35.2578,
+    "lon": -93.0947,
+    "state": "AR"
+  },
+  {
+    "id": "RVS",
+    "name": "TULSA/LLOYD JONES",
+    "lat": 36.0396,
+    "lon": -95.9846,
+    "state": "OK"
+  },
+  {
+    "id": "RWF",
+    "name": "REDWOOD FALL",
+    "lat": 44.5469,
+    "lon": -95.082,
+    "state": "MN"
+  },
+  {
+    "id": "RWI",
+    "name": "ROCKY_MOUNT-WILSON_(ASOS)",
+    "lat": 35.8562,
+    "lon": -77.8919,
+    "state": "NC"
+  },
+  {
+    "id": "RWL",
+    "name": "RAWLINS MUNICIPAL",
+    "lat": 41.8056,
+    "lon": -107.1999,
+    "state": "WY"
+  },
+  {
+    "id": "RXE",
+    "name": "REXBURG-MADISON COUNTY AIRPORT",
+    "lat": 43.8339,
+    "lon": -111.8051,
+    "state": "ID"
+  },
+  {
+    "id": "SAC",
+    "name": "SACRAMENTO/EXECUTIV",
+    "lat": 38.5069,
+    "lon": -121.495,
+    "state": "CA"
+  },
+  {
+    "id": "SAD",
+    "name": "SAFFORD MUNICIPAL",
+    "lat": 32.8547,
+    "lon": -109.6353,
+    "state": "AZ"
+  },
+  {
+    "id": "SAF",
+    "name": "SANTA FE CO. MUNI",
+    "lat": 35.6171,
+    "lon": -106.0894,
+    "state": "NM"
+  },
+  {
+    "id": "SAN",
+    "name": "SAN DIEGO/LINDBERG",
+    "lat": 32.7339,
+    "lon": -117.1845,
+    "state": "CA"
+  },
+  {
+    "id": "SAT",
+    "name": "SAN ANTONIO INTL",
+    "lat": 29.5337,
+    "lon": -98.4698,
+    "state": "TX"
+  },
+  {
+    "id": "SAV",
+    "name": "Savannah - Hilton Head",
+    "lat": 32.1314,
+    "lon": -81.2023,
+    "state": "GA"
+  },
+  {
+    "id": "SBA",
+    "name": "SANTA BARBARA MUNI",
+    "lat": 34.4261,
+    "lon": -119.8436,
+    "state": "CA"
+  },
+  {
+    "id": "SBM",
+    "name": "SHEBOYGAN",
+    "lat": 43.7698,
+    "lon": -87.8517,
+    "state": "WI"
+  },
+  {
+    "id": "SBN",
+    "name": "SOUTH BEND",
+    "lat": 41.7072,
+    "lon": -86.3164,
+    "state": "IN"
+  },
+  {
+    "id": "SBP",
+    "name": "San Luis Obispo",
+    "lat": 35.2381,
+    "lon": -120.6441,
+    "state": "CA"
+  },
+  {
+    "id": "SBY",
+    "name": "SALISBURY REGIONAL",
+    "lat": 38.3405,
+    "lon": -75.5103,
+    "state": "MD"
+  },
+  {
+    "id": "SCK",
+    "name": "STOCKTON METRO",
+    "lat": 37.8942,
+    "lon": -121.2383,
+    "state": "CA"
+  },
+  {
+    "id": "SDB",
+    "name": "SANDBURG (AUT)",
+    "lat": 34.7434,
+    "lon": -118.7253,
+    "state": "CA"
+  },
+  {
+    "id": "SDF",
+    "name": "Louisville Intl",
+    "lat": 38.1774,
+    "lon": -85.7308,
+    "state": "KY"
+  },
+  {
+    "id": "SDL",
+    "name": "SCOTTSDALE MUNI",
+    "lat": 33.6229,
+    "lon": -111.9105,
+    "state": "AZ"
+  },
+  {
+    "id": "SDM",
+    "name": "SAN DIEGO/BROWN FLD",
+    "lat": 32.57,
+    "lon": -116.98,
+    "state": "CA"
+  },
+  {
+    "id": "SEA",
+    "name": "SEATTLE-TACOMA INTL",
+    "lat": 47.4447,
+    "lon": -122.3144,
+    "state": "WA"
+  },
+  {
+    "id": "SEG",
+    "name": "SELINSGROVE",
+    "lat": 40.8206,
+    "lon": -76.8639,
+    "state": "PA"
+  },
+  {
+    "id": "SET",
+    "name": "ST. CHARLES",
+    "lat": 38.93,
+    "lon": -90.43,
+    "state": "MO"
+  },
+  {
+    "id": "SFB",
+    "name": "SANFORD/ORLANDO",
+    "lat": 28.7797,
+    "lon": -81.2436,
+    "state": "FL"
+  },
+  {
+    "id": "SFF",
+    "name": "SPOKANE/FELTS FIELD",
+    "lat": 47.6828,
+    "lon": -117.3226,
+    "state": "WA"
+  },
+  {
+    "id": "SFO",
+    "name": "SAN FRANCISCO INTL",
+    "lat": 37.619,
+    "lon": -122.3749,
+    "state": "CA"
+  },
+  {
+    "id": "SGF",
+    "name": "SPRINGFIELD",
+    "lat": 37.2397,
+    "lon": -93.3897,
+    "state": "MO"
+  },
+  {
+    "id": "SGR",
+    "name": "HOUSTON/HULL FIELD",
+    "lat": 29.6222,
+    "lon": -95.6565,
+    "state": "TX"
+  },
+  {
+    "id": "SHN",
+    "name": "SHELTON/SANDERSON",
+    "lat": 47.2336,
+    "lon": -123.1476,
+    "state": "WA"
+  },
+  {
+    "id": "SHR",
+    "name": "SHERIDAN CO. ARPT",
+    "lat": 44.77,
+    "lon": -106.97,
+    "state": "WY"
+  },
+  {
+    "id": "SHV",
+    "name": "SHREVEPORT REGIONAL",
+    "lat": 32.4472,
+    "lon": -93.8244,
+    "state": "LA"
+  },
+  {
+    "id": "SIY",
+    "name": "Montague/Siskiyou",
+    "lat": 41.7737,
+    "lon": -122.4682,
+    "state": "CA"
+  },
+  {
+    "id": "SJC",
+    "name": "SAN JOSE INTL A",
+    "lat": 37.3594,
+    "lon": -121.9244,
+    "state": "CA"
+  },
+  {
+    "id": "SJN",
+    "name": "ST. JOHNS AIR PARK",
+    "lat": 34.52,
+    "lon": -109.38,
+    "state": "AZ"
+  },
+  {
+    "id": "SJT",
+    "name": "SAN ANGELO/MATHIS",
+    "lat": 31.3517,
+    "lon": -100.495,
+    "state": "TX"
+  },
+  {
+    "id": "SLC",
+    "name": "SALT LAKE CITY INTL",
+    "lat": 40.78,
+    "lon": -111.97,
+    "state": "UT"
+  },
+  {
+    "id": "SLE",
+    "name": "SALEM/MCNARY",
+    "lat": 44.9095,
+    "lon": -123.0025,
+    "state": "OR"
+  },
+  {
+    "id": "SLK",
+    "name": "SARANAC LAKE/ADIRON",
+    "lat": 44.3853,
+    "lon": -74.2062,
+    "state": "NY"
+  },
+  {
+    "id": "SLN",
+    "name": "SALINA",
+    "lat": 38.791,
+    "lon": -97.6522,
+    "state": "KS"
+  },
+  {
+    "id": "SMF",
+    "name": "SACRAMENTO METRO",
+    "lat": 38.6954,
+    "lon": -121.5908,
+    "state": "CA"
+  },
+  {
+    "id": "SMO",
+    "name": "SANTA MONICA MUNI",
+    "lat": 34.021,
+    "lon": -118.4471,
+    "state": "CA"
+  },
+  {
+    "id": "SMQ",
+    "name": "Somerville",
+    "lat": 40.6239,
+    "lon": -74.6694,
+    "state": "NJ"
+  },
+  {
+    "id": "SMX",
+    "name": "SANTA MARIA PUBLIC",
+    "lat": 34.9,
+    "lon": -120.45,
+    "state": "CA"
+  },
+  {
+    "id": "SNA",
+    "name": "SANTA ANA/JON-WAYNE",
+    "lat": 33.6757,
+    "lon": -117.8682,
+    "state": "CA"
+  },
+  {
+    "id": "SNS",
+    "name": "Salinas",
+    "lat": 36.6635,
+    "lon": -121.6093,
+    "state": "CA"
+  },
+  {
+    "id": "SNT",
+    "name": "Stanley Ranger Station",
+    "lat": 44.1708,
+    "lon": -114.9269,
+    "state": "ID"
+  },
+  {
+    "id": "SNY",
+    "name": "SIDNEY",
+    "lat": 41.1014,
+    "lon": -102.9847,
+    "state": "NE"
+  },
+  {
+    "id": "SPB",
+    "name": "SCAPPOOSE INDUSTRIAL APK (1S4)",
+    "lat": 45.77,
+    "lon": -122.86,
+    "state": "OR"
+  },
+  {
+    "id": "SPD",
+    "name": "SPRINGFIELD/COMANCHE NATL GRASS",
+    "lat": 37.2833,
+    "lon": -102.6139,
+    "state": "CO"
+  },
+  {
+    "id": "SPG",
+    "name": "St Petersburg",
+    "lat": 27.7651,
+    "lon": -82.627,
+    "state": "FL"
+  },
+  {
+    "id": "SPI",
+    "name": "SPRINGFIELD",
+    "lat": 39.8447,
+    "lon": -89.6839,
+    "state": "IL"
+  },
+  {
+    "id": "SPS",
+    "name": "WICHITA FALLS/SHEP",
+    "lat": 33.9786,
+    "lon": -98.4928,
+    "state": "TX"
+  },
+  {
+    "id": "SPW",
+    "name": "SPENCER",
+    "lat": 43.1682,
+    "lon": -95.2101,
+    "state": "IA"
+  },
+  {
+    "id": "SRQ",
+    "name": "SARASOTA-BRADENTON",
+    "lat": 27.4014,
+    "lon": -82.5586,
+    "state": "FL"
+  },
+  {
+    "id": "SSF",
+    "name": "SAN ANTONIO/STINSON",
+    "lat": 29.337,
+    "lon": -98.471,
+    "state": "TX"
+  },
+  {
+    "id": "SSI",
+    "name": "BRUNSWICK/MALCOLM",
+    "lat": 31.1522,
+    "lon": -81.3908,
+    "state": "GA"
+  },
+  {
+    "id": "STC",
+    "name": "ST. CLOUD",
+    "lat": 45.5433,
+    "lon": -94.0513,
+    "state": "MN"
+  },
+  {
+    "id": "STJ",
+    "name": "ST. JOSEPH",
+    "lat": 39.7719,
+    "lon": -94.9097,
+    "state": "MO"
+  },
+  {
+    "id": "STL",
+    "name": "ST. LOUIS",
+    "lat": 38.7524,
+    "lon": -90.3734,
+    "state": "MO"
+  },
+  {
+    "id": "STP",
+    "name": "ST. PAUL",
+    "lat": 44.9345,
+    "lon": -93.06,
+    "state": "MN"
+  },
+  {
+    "id": "STS",
+    "name": "Santa Rosa",
+    "lat": 38.5037,
+    "lon": -122.811,
+    "state": "CA"
+  },
+  {
+    "id": "SUS",
+    "name": "ST. LOUIS/SPIRIT",
+    "lat": 38.6572,
+    "lon": -90.6558,
+    "state": "MO"
+  },
+  {
+    "id": "SUX",
+    "name": "SIOUX CITY",
+    "lat": 42.3917,
+    "lon": -96.3795,
+    "state": "IA"
+  },
+  {
+    "id": "SWO",
+    "name": "STILLWATER MUNI",
+    "lat": 36.1612,
+    "lon": -97.0857,
+    "state": "OK"
+  },
+  {
+    "id": "SXT",
+    "name": "Sexton Summit",
+    "lat": 42.6003,
+    "lon": -123.3642,
+    "state": "OR"
+  },
+  {
+    "id": "SYR",
+    "name": "SYRACUSE/HANCOCK",
+    "lat": 43.1112,
+    "lon": -76.1063,
+    "state": "NY"
+  },
+  {
+    "id": "TAD",
+    "name": "TRINIDAD/ANIMAS CO.",
+    "lat": 37.2594,
+    "lon": -104.3407,
+    "state": "CO"
+  },
+  {
+    "id": "TAN",
+    "name": "TAUNTON MUNI AIRPORT",
+    "lat": 41.8756,
+    "lon": -71.0211,
+    "state": "MA"
+  },
+  {
+    "id": "TCC",
+    "name": "TUCUMCARI MUNICIPAL",
+    "lat": 35.1828,
+    "lon": -103.6032,
+    "state": "NM"
+  },
+  {
+    "id": "TCL",
+    "name": "TUSCALOOSA MUNI",
+    "lat": 33.2119,
+    "lon": -87.6161,
+    "state": "AL"
+  },
+  {
+    "id": "TCS",
+    "name": "TRUTH OR CONSEQUENC",
+    "lat": 33.2367,
+    "lon": -107.2681,
+    "state": "NM"
+  },
+  {
+    "id": "TDZ",
+    "name": "TOLEDO",
+    "lat": 41.5631,
+    "lon": -83.4764,
+    "state": "OH"
+  },
+  {
+    "id": "TEB",
+    "name": "TETERBORO AIRPORT",
+    "lat": 40.859,
+    "lon": -74.0562,
+    "state": "NJ"
+  },
+  {
+    "id": "THV",
+    "name": "THOMASVILLE/YORK",
+    "lat": 39.917,
+    "lon": -76.873,
+    "state": "PA"
+  },
+  {
+    "id": "TIST",
+    "name": "St. Thomas",
+    "lat": 18.3373,
+    "lon": -64.9734,
+    "state": "VI"
+  },
+  {
+    "id": "TISX",
+    "name": "St. Croix Island",
+    "lat": 17.7,
+    "lon": -64.8047,
+    "state": "VI"
+  },
+  {
+    "id": "TIW",
+    "name": "TACOMA NARROWS",
+    "lat": 47.2675,
+    "lon": -122.5761,
+    "state": "WA"
+  },
+  {
+    "id": "TJNR",
+    "name": "NAVAL STATION ROOSEVELT ROADS",
+    "lat": 18.2553,
+    "lon": -65.6386,
+    "state": "PR"
+  },
+  {
+    "id": "TJSJ",
+    "name": "San Juan",
+    "lat": 18.4325,
+    "lon": -66.0108,
+    "state": "PR"
+  },
+  {
+    "id": "TKI",
+    "name": "MC KINNEY",
+    "lat": 33.18,
+    "lon": -96.59,
+    "state": "TX"
+  },
+  {
+    "id": "TLH",
+    "name": "TALLAHASSEE RGNL",
+    "lat": 30.3935,
+    "lon": -84.3514,
+    "state": "FL"
+  },
+  {
+    "id": "TMB",
+    "name": "MIAMI/KENDALL-TAMIA",
+    "lat": 25.6423,
+    "lon": -80.4347,
+    "state": "FL"
+  },
+  {
+    "id": "TOI",
+    "name": "TROY MUNICIPAL",
+    "lat": 31.8604,
+    "lon": -86.0121,
+    "state": "AL"
+  },
+  {
+    "id": "TOL",
+    "name": "Toledo",
+    "lat": 41.587,
+    "lon": -83.8054,
+    "state": "OH"
+  },
+  {
+    "id": "TOP",
+    "name": "TOPEKA (TOP)",
+    "lat": 39.07,
+    "lon": -95.62,
+    "state": "KS"
+  },
+  {
+    "id": "TOR",
+    "name": "TORRINGTON MUNICIPAL AIRPORT",
+    "lat": 42.0647,
+    "lon": -104.1528,
+    "state": "WY"
+  },
+  {
+    "id": "TPA",
+    "name": "TAMPA INTL AIRPORT",
+    "lat": 27.9619,
+    "lon": -82.5403,
+    "state": "FL"
+  },
+  {
+    "id": "TPH",
+    "name": "TONOPAH AIRPORT",
+    "lat": 38.0505,
+    "lon": -117.0904,
+    "state": "NV"
+  },
+  {
+    "id": "TQE",
+    "name": "TEKAMAH",
+    "lat": 41.7635,
+    "lon": -96.1779,
+    "state": "NE"
+  },
+  {
+    "id": "TRI",
+    "name": "BRISTOL/TRI-CITY",
+    "lat": 36.4752,
+    "lon": -82.4074,
+    "state": "TN"
+  },
+  {
+    "id": "TRL",
+    "name": "TERRELL",
+    "lat": 32.71,
+    "lon": -96.27,
+    "state": "TX"
+  },
+  {
+    "id": "TRM",
+    "name": "THERMAL AIRPORT",
+    "lat": 33.6267,
+    "lon": -116.1597,
+    "state": "CA"
+  },
+  {
+    "id": "TTD",
+    "name": "Portland - Troutdale",
+    "lat": 45.551,
+    "lon": -122.4098,
+    "state": "OR"
+  },
+  {
+    "id": "TTN",
+    "name": "TRENTON/MERCER CO.",
+    "lat": 40.2768,
+    "lon": -74.8159,
+    "state": "NJ"
+  },
+  {
+    "id": "TUL",
+    "name": "TULSA INTL ARPT(AW)",
+    "lat": 36.1984,
+    "lon": -95.8881,
+    "state": "OK"
+  },
+  {
+    "id": "TUP",
+    "name": "Tupelo",
+    "lat": 34.2622,
+    "lon": -88.7713,
+    "state": "MS"
+  },
+  {
+    "id": "TUS",
+    "name": "TUCSON INTL AIRPORT",
+    "lat": 32.1203,
+    "lon": -110.938,
+    "state": "AZ"
+  },
+  {
+    "id": "TVC",
+    "name": "TRAVERSE CIT",
+    "lat": 44.7416,
+    "lon": -85.5824,
+    "state": "MI"
+  },
+  {
+    "id": "TVL",
+    "name": "SOUTH LAKE TAHOE",
+    "lat": 38.8939,
+    "lon": -119.9953,
+    "state": "CA"
+  },
+  {
+    "id": "TVR",
+    "name": "Vicksburg / Tallulah",
+    "lat": 32.3481,
+    "lon": -91.0299,
+    "state": "LA"
+  },
+  {
+    "id": "TWF",
+    "name": "TWIN FALLS/JOSLIN",
+    "lat": 42.4818,
+    "lon": -114.4878,
+    "state": "ID"
+  },
+  {
+    "id": "TXK",
+    "name": "TEXARKANA RGNL/WEBB",
+    "lat": 33.4537,
+    "lon": -93.991,
+    "state": "AR"
+  },
+  {
+    "id": "TYR",
+    "name": "TYLER/POUNDS FLD",
+    "lat": 32.3541,
+    "lon": -95.4024,
+    "state": "TX"
+  },
+  {
+    "id": "TYS",
+    "name": "KNOXVILLE MUNICIPAL",
+    "lat": 35.8181,
+    "lon": -83.9858,
+    "state": "TN"
+  },
+  {
+    "id": "UAO",
+    "name": "AURORA STATE",
+    "lat": 45.25,
+    "lon": -122.77,
+    "state": "OR"
+  },
+  {
+    "id": "UGN",
+    "name": "Waukegan",
+    "lat": 42.4255,
+    "lon": -87.8633,
+    "state": "IL"
+  },
+  {
+    "id": "UIL",
+    "name": "QUILLAYUTE STATE",
+    "lat": 47.9366,
+    "lon": -124.5626,
+    "state": "WA"
+  },
+  {
+    "id": "UIN",
+    "name": "QUINCY",
+    "lat": 39.9428,
+    "lon": -91.1946,
+    "state": "IL"
+  },
+  {
+    "id": "UKI",
+    "name": "Ukiah",
+    "lat": 39.1258,
+    "lon": -123.2008,
+    "state": "CA"
+  },
+  {
+    "id": "UNO",
+    "name": "WEST PLAINS",
+    "lat": 36.8784,
+    "lon": -91.9027,
+    "state": "MO"
+  },
+  {
+    "id": "UTS",
+    "name": "HUNTSVILLE MUNICIPAL AIRPORT",
+    "lat": 30.7469,
+    "lon": -95.5872,
+    "state": "TX"
+  },
+  {
+    "id": "UUU",
+    "name": "NEWPORT",
+    "lat": 41.5324,
+    "lon": -71.2815,
+    "state": "RI"
+  },
+  {
+    "id": "UZA",
+    "name": "ROCK HILL (WAS 29J)",
+    "lat": 34.9878,
+    "lon": -81.0572,
+    "state": "SC"
+  },
+  {
+    "id": "VAY",
+    "name": "SOUTH JERSEY REGIONAL AIRPORT",
+    "lat": 39.9429,
+    "lon": -74.8457,
+    "state": "NJ"
+  },
+  {
+    "id": "VCB",
+    "name": "VACAVILLE (WAS O45)",
+    "lat": 38.3775,
+    "lon": -121.9575,
+    "state": "CA"
+  },
+  {
+    "id": "VCT",
+    "name": "VICTORIA REGIONAL",
+    "lat": 28.8614,
+    "lon": -96.9303,
+    "state": "TX"
+  },
+  {
+    "id": "VEL",
+    "name": "VERNAL",
+    "lat": 40.4409,
+    "lon": -109.5099,
+    "state": "UT"
+  },
+  {
+    "id": "VGT",
+    "name": "North Las Vegas",
+    "lat": 36.2111,
+    "lon": -115.1933,
+    "state": "NV"
+  },
+  {
+    "id": "VIH",
+    "name": "VICHY/ROLLA",
+    "lat": 38.13,
+    "lon": -91.77,
+    "state": "MO"
+  },
+  {
+    "id": "VLD",
+    "name": "VALDOSTA REGIONAL",
+    "lat": 30.7825,
+    "lon": -83.2767,
+    "state": "GA"
+  },
+  {
+    "id": "VNY",
+    "name": "VAN NUYS AIRPORT",
+    "lat": 34.2097,
+    "lon": -118.4892,
+    "state": "CA"
+  },
+  {
+    "id": "VPC",
+    "name": "CARTERSVILLE AIRPORT",
+    "lat": 34.1232,
+    "lon": -84.8487,
+    "state": "GA"
+  },
+  {
+    "id": "VPZ",
+    "name": "VALPARAISO",
+    "lat": 41.454,
+    "lon": -87.0071,
+    "state": "IN"
+  },
+  {
+    "id": "VRB",
+    "name": "Vero Beach",
+    "lat": 27.6556,
+    "lon": -80.4179,
+    "state": "FL"
+  },
+  {
+    "id": "VSF",
+    "name": "SPRINGFIELD/HARTNES",
+    "lat": 43.3436,
+    "lon": -72.5173,
+    "state": "VT"
+  },
+  {
+    "id": "VTA",
+    "name": "NEWARK",
+    "lat": 40.0247,
+    "lon": -82.4618,
+    "state": "OH"
+  },
+  {
+    "id": "VTN",
+    "name": "VALENTINE",
+    "lat": 42.8567,
+    "lon": -100.5489,
+    "state": "NE"
+  },
+  {
+    "id": "VUO",
+    "name": "PEARSON AIRPARK  VANCOUVER",
+    "lat": 45.6204,
+    "lon": -122.6565,
+    "state": "WA"
+  },
+  {
+    "id": "WAL",
+    "name": "WALLOPS ISLAND STN",
+    "lat": 37.9406,
+    "lon": -75.4631,
+    "state": "VA"
+  },
+  {
+    "id": "WJF",
+    "name": "LANCASTER/FOX FIELD",
+    "lat": 34.7411,
+    "lon": -118.2186,
+    "state": "CA"
+  },
+  {
+    "id": "WLD",
+    "name": "WINFIELD",
+    "lat": 37.1681,
+    "lon": -97.0369,
+    "state": "KS"
+  },
+  {
+    "id": "WMC",
+    "name": "WINNEMUCCA MUNI",
+    "lat": 40.9019,
+    "lon": -117.8072,
+    "state": "NV"
+  },
+  {
+    "id": "WRL",
+    "name": "WORLAND MUNICIPAL",
+    "lat": 43.9657,
+    "lon": -107.9508,
+    "state": "WY"
+  },
+  {
+    "id": "WST",
+    "name": "Westerly",
+    "lat": 41.3497,
+    "lon": -71.7989,
+    "state": "RI"
+  },
+  {
+    "id": "WVI",
+    "name": "Watsonville",
+    "lat": 36.9394,
+    "lon": -121.79,
+    "state": "CA"
+  },
+  {
+    "id": "XNA",
+    "name": "NORTHWEST ARKANSAS REGIONAL APT",
+    "lat": 36.282,
+    "lon": -94.307,
+    "state": "AR"
+  },
+  {
+    "id": "XWA",
+    "name": "Williston Basin",
+    "lat": 48.2597,
+    "lon": -103.7505,
+    "state": "ND"
+  },
+  {
+    "id": "YIP",
+    "name": "DETROIT/WILLOW",
+    "lat": 42.2379,
+    "lon": -83.5304,
+    "state": "MI"
+  },
+  {
+    "id": "YKM",
+    "name": "YAKIMA AIR TERMINAL",
+    "lat": 46.5682,
+    "lon": -120.5441,
+    "state": "WA"
+  },
+  {
+    "id": "YNG",
+    "name": "YOUNGSTOWN",
+    "lat": 41.2544,
+    "lon": -80.6739,
+    "state": "OH"
+  },
+  {
+    "id": "ZZV",
+    "name": "ZANESVILLE",
+    "lat": 39.9444,
+    "lon": -81.8921,
+    "state": "OH"
+  }
+]

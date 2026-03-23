@@ -92,7 +92,7 @@ def main():
                 conn.commit()
                 conn.close()
 
-                if decision in ("WARNING", "EMERGENCY") or result.get("flash_flood_warning"):
+                if decision in ("WARNING", "EMERGENCY") or result.get("flash_flood_warning") or result.get("wildfire_warning"):
                     alerts = format_from_governor_result(result)
                     if alerts:
                         dispatch(alerts)
@@ -110,5 +110,44 @@ def main():
         time.sleep(interval_sec)
 
 
+def status_only() -> None:
+    """Report daemon status, counties, latest decisions, cache status."""
+    import subprocess
+    db_path = ROOT / "runs" / "gaia_decisions.db"
+    print("=== GAIA Status ===\n")
+    try:
+        out = subprocess.run(
+            ["ps", "aux"],
+            capture_output=True, text=True, timeout=5,
+        )
+        running = "gaia_daemon" in (out.stdout or out.stderr or "")
+    except Exception:
+        running = False
+    print(f"Daemon running: {'Yes' if running else 'No'}")
+    print(f"Counties: {', '.join(EAST_TN_COUNTIES)}")
+    print()
+    if db_path.exists():
+        conn = sqlite3.connect(db_path)
+        cur = conn.execute(
+            "SELECT county, decision, confidence, timestamp FROM decisions ORDER BY id DESC LIMIT 20"
+        )
+        rows = cur.fetchall()
+        conn.close()
+        print("Latest decisions (last 20):")
+        for county, dec, conf, ts in rows:
+            print(f"  {county}: {dec} (conf={conf:.2f}) @ {ts or ''}")
+    else:
+        print("No decisions database yet.")
+    print()
+    try:
+        from runtime.cache.data_cache import GAIADataCache
+        print("Data cache: GAIADataCache module loaded")
+    except Exception as e:
+        print(f"Data cache: {e}")
+
+
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1 and sys.argv[1] == "--status-only":
+        status_only()
+    else:
+        main()

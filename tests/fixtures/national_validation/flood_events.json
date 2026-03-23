@@ -1,0 +1,1802 @@
+[
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HARDIN",
+    "date": "22-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "TRIMBLE",
+    "date": "22-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BRECKINRIDGE",
+    "date": "22-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NELSON",
+    "date": "25-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NICHOLAS",
+    "date": "19-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "FLEMING",
+    "date": "19-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NICHOLAS",
+    "date": "24-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "FLEMING",
+    "date": "24-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "KENTON",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "GALLATIN",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BOONE",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "JEFFERSON",
+    "date": "22-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "OLDHAM",
+    "date": "22-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CAMPBELL",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "PENDLETON",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "GREENUP",
+    "date": "20-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BRACKEN",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BOYD",
+    "date": "20-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MEADE",
+    "date": "22-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CARROLL",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MASON",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BULLITT",
+    "date": "22-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NELSON",
+    "date": "08-MAR-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HANCOCK",
+    "date": "01-FEB-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "LEWIS",
+    "date": "23-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "FULTON",
+    "date": "04-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BOURBON",
+    "date": "05-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BOURBON",
+    "date": "15-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NICHOLAS",
+    "date": "06-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NICHOLAS",
+    "date": "15-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NICHOLAS",
+    "date": "29-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "SHELBY",
+    "date": "28-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "SPENCER",
+    "date": "28-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "FULTON",
+    "date": "07-JUL-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CAMPBELL",
+    "date": "15-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MARSHALL",
+    "date": "15-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "ROWAN",
+    "date": "19-JUL-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BATH",
+    "date": "19-JUL-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BOONE",
+    "date": "15-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "KENTON",
+    "date": "15-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CARLISLE",
+    "date": "01-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BALLARD",
+    "date": "01-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NELSON",
+    "date": "28-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "JEFFERSON",
+    "date": "11-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HICKMAN",
+    "date": "04-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CARLISLE",
+    "date": "04-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "JEFFERSON",
+    "date": "17-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "JEFFERSON",
+    "date": "11-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "LYON",
+    "date": "14-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BALLARD",
+    "date": "04-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MARSHALL",
+    "date": "14-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "FULTON",
+    "date": "01-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HICKMAN",
+    "date": "01-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "UNION",
+    "date": "01-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "JEFFERSON",
+    "date": "26-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "GRAVES",
+    "date": "02-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "DAVIESS",
+    "date": "29-JUL-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "TODD",
+    "date": "29-JUL-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "LIVINGSTON",
+    "date": "07-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HICKMAN",
+    "date": "24-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MCCRACKEN",
+    "date": "24-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CRITTENDEN",
+    "date": "07-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "TRIGG",
+    "date": "14-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BALLARD",
+    "date": "07-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MCCRACKEN",
+    "date": "07-MAY-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BELL",
+    "date": "01-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BARREN",
+    "date": "18-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BUTLER",
+    "date": "17-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BUTLER",
+    "date": "18-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NELSON",
+    "date": "18-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "KNOX",
+    "date": "01-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "WHITLEY",
+    "date": "01-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MCLEAN",
+    "date": "20-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CALDWELL",
+    "date": "27-OCT-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "UNION",
+    "date": "30-APR-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "ROWAN",
+    "date": "19-MAR-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BALLARD",
+    "date": "01-FEB-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HENDERSON",
+    "date": "07-NOV-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BALLARD",
+    "date": "26-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MCCRACKEN",
+    "date": "26-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "LIVINGSTON",
+    "date": "26-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CRITTENDEN",
+    "date": "26-JAN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HENDERSON",
+    "date": "26-AUG-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "WEBSTER",
+    "date": "01-FEB-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HENDERSON",
+    "date": "01-FEB-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "GRAYSON",
+    "date": "05-MAR-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "UNION",
+    "date": "01-FEB-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "CRITTENDEN",
+    "date": "01-FEB-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "LIVINGSTON",
+    "date": "01-FEB-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "MCCRACKEN",
+    "date": "01-FEB-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "GRAVES",
+    "date": "13-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HENDERSON",
+    "date": "19-AUG-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BOURBON",
+    "date": "04-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NICHOLAS",
+    "date": "04-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NELSON",
+    "date": "05-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "BUTLER",
+    "date": "05-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "NELSON",
+    "date": "09-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HENDERSON",
+    "date": "02-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "HOPKINS",
+    "date": "02-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "KY",
+    "county": "DAVIESS",
+    "date": "01-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CALCASIEU",
+    "date": "19-JUN-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. MARY",
+    "date": "09-JUL-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. TAMMANY",
+    "date": "14-APR-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. TAMMANY",
+    "date": "14-APR-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BOSSIER",
+    "date": "26-NOV-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "LAFOURCHE",
+    "date": "27-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. JAMES",
+    "date": "29-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. CHARLES",
+    "date": "29-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CADDO",
+    "date": "26-NOV-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "EAST BATON ROUGE",
+    "date": "25-OCT-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. MARY",
+    "date": "29-DEC-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WINN",
+    "date": "01-AUG-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. TAMMANY",
+    "date": "10-AUG-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. JAMES",
+    "date": "10-AUG-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ASCENSION",
+    "date": "10-AUG-96 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. BERNARD",
+    "date": "07-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. TAMMANY",
+    "date": "08-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "PLAQUEMINES",
+    "date": "08-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "IBERVILLE",
+    "date": "09-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "VERMILION",
+    "date": "17-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "IBERIA",
+    "date": "13-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. LANDRY",
+    "date": "08-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "TANGIPAHOA",
+    "date": "25-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "IBERIA",
+    "date": "17-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. MARTIN",
+    "date": "17-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "POINTE COUPEE",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. HELENA",
+    "date": "13-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CALCASIEU",
+    "date": "25-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CALCASIEU",
+    "date": "05-JUL-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WEST FELICIANA",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BIENVILLE",
+    "date": "01-MAY-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BOSSIER",
+    "date": "01-MAY-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CADDO",
+    "date": "09-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WEST BATON ROUGE",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "TERREBONNE",
+    "date": "12-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "LAFOURCHE",
+    "date": "30-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. JAMES",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. JAMES",
+    "date": "24-MAY-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ORLEANS",
+    "date": "19-MAY-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "JEFFERSON",
+    "date": "13-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. TAMMANY",
+    "date": "13-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "JEFFERSON",
+    "date": "21-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. CHARLES",
+    "date": "14-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CADDO",
+    "date": "06-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BOSSIER",
+    "date": "06-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WEBSTER",
+    "date": "06-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BIENVILLE",
+    "date": "06-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CADDO",
+    "date": "29-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ASCENSION",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "RAPIDES",
+    "date": "25-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. CHARLES",
+    "date": "12-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CADDO",
+    "date": "01-MAY-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WEBSTER",
+    "date": "01-MAY-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "EAST BATON ROUGE",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WEST BATON ROUGE",
+    "date": "10-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BOSSIER",
+    "date": "12-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "SABINE",
+    "date": "12-FEB-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "EAST CARROLL",
+    "date": "09-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "MADISON",
+    "date": "09-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "IBERVILLE",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "IBERVILLE",
+    "date": "10-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ASCENSION",
+    "date": "12-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ALLEN",
+    "date": "07-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. MARY",
+    "date": "10-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. JAMES",
+    "date": "11-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CADDO",
+    "date": "22-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. JOHN THE BAPTIST",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "POINTE COUPEE",
+    "date": "05-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CLAIBORNE",
+    "date": "02-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BIENVILLE",
+    "date": "02-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BOSSIER",
+    "date": "02-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WEBSTER",
+    "date": "02-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CALCASIEU",
+    "date": "25-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. MARY",
+    "date": "11-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "TENSAS",
+    "date": "09-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CADDO",
+    "date": "05-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "UNION",
+    "date": "02-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BOSSIER",
+    "date": "15-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WEBSTER",
+    "date": "15-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "BIENVILLE",
+    "date": "15-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CADDO",
+    "date": "02-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. CHARLES",
+    "date": "01-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ASCENSION",
+    "date": "08-JUN-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WEST FELICIANA",
+    "date": "05-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "EAST BATON ROUGE",
+    "date": "10-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. JOHN THE BAPTIST",
+    "date": "14-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CONCORDIA",
+    "date": "09-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "VERMILION",
+    "date": "26-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "LOWER ST. MARTIN",
+    "date": "05-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. JAMES",
+    "date": "12-MAR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ST. MARY",
+    "date": "05-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "ACADIA",
+    "date": "27-APR-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CALCASIEU",
+    "date": "24-SEP-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "LAFAYETTE",
+    "date": "21-NOV-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "NATCHITOCHES",
+    "date": "23-OCT-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "TERREBONNE",
+    "date": "10-SEP-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "RAPIDES",
+    "date": "24-OCT-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "CALCASIEU",
+    "date": "13-OCT-97 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "NATCHITOCHES",
+    "date": "07-JAN-98 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  },
+  {
+    "event_type": "flood",
+    "state": "LA",
+    "county": "WASHINGTON",
+    "date": "06-JAN-98 ",
+    "lat": "",
+    "lon": "",
+    "magnitude": ""
+  }
+]

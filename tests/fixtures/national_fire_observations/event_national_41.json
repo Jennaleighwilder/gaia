@@ -1,0 +1,303 @@
+{
+  "event_id": "national_41",
+  "event_date": "1998-12-09",
+  "event_datetime_utc": "1998-12-09T18:00:00Z",
+  "station": "KHJO",
+  "county": "los angeles",
+  "event_type": "wildfire",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1998-12-09T00:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090053Z AUTO 26004KT M1/4SM HZ OVC035 11/03 A3036 RMK AO2 SLPNO T01060028 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 51.0,
+      "dewpoint_f": 37.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1998-12-09T01:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090153Z AUTO 26006KT M1/4SM HZ FEW033 09/03 A3036 RMK AO2 SLPNO T00940028 TSNO",
+      "sky_condition": "FEW",
+      "temperature_f": 49.0,
+      "dewpoint_f": 37.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1998-12-09T02:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090253Z AUTO 26010G15KT 3/4SM HZ OVC025 08/05 A3037 RMK AO2 VIS 1/4V4 SLPNO T00830050 53008 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 47.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1998-12-09T03:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090353Z AUTO 27008KT 250V350 M1/4SM HZ OVC017 08/05 A3037 RMK AO2 SLPNO T00830050 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 47.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1998-12-09T04:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090453Z AUTO 27009KT 3/4SM HZ OVC013 08/05 A3038 RMK AO2 SLPNO T00780050 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 46.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1998-12-09T05:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090553Z AUTO 27009KT M1/4SM FG OVC011 07/05 A3038 RMK AO2 SLPNO T00720050 10111 20072 51005 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 45.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1998-12-09T06:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090653Z AUTO 25008KT 1/2SM FG OVC009 07/05 A3038 RMK AO2 VIS 1/4V3 SLPNO T00670050 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 44.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1998-12-09T07:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090753Z AUTO VRB06KT 2SM HZ OVC009 07/04 A3037 RMK AO2 SLPNO T00670039 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 44.0,
+      "dewpoint_f": 39.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1998-12-09T08:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090853Z AUTO 28008KT 270V330 6SM BR OVC009 06/04 A3037 RMK AO2 SLPNO T00610039 58004 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 43.0,
+      "dewpoint_f": 39.0,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1998-12-09T09:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 090953Z AUTO 26004KT 4SM BR OVC007 06/04 A3037 RMK AO2 CIG 006V010 SLPNO T00610044 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 43.0,
+      "dewpoint_f": 40.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-12-09T10:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091053Z AUTO 27006KT 3SM BR OVC007 06/04 A3037 RMK AO2 CIG 005V010 SLPNO T00560044 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 42.0,
+      "dewpoint_f": 40.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-12-09T11:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091153Z AUTO 26004KT 2 1/2SM BR OVC005 06/04 A3036 RMK AO2 SLP283 T00560039 10072 20056 58004 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 42.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1028.3,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-12-09T12:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091253Z AUTO VRB05KT 3SM BR OVC005 06/04 A3037 RMK AO2 SLP286 T00560044 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 42.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1028.6,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-12-09T13:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091353Z AUTO 26004KT 2SM BR OVC005 06/04 A3038 RMK AO2 CIG 003V008 SLP291 T00560044 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 42.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1029.1,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1998-12-09T14:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091453Z AUTO 36005KT 3SM BR OVC023 06/04 A3039 RMK AO2 SLP294 T00560044 53010 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 42.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1029.4,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-12-09T15:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091553Z AUTO 01005KT 1 1/2SM BR OVC003 06/04 A3040 RMK AO2 SLP299 T00560044 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 42.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1029.9,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1998-12-09T16:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091653Z AUTO 04003KT 1 3/4SM BR OVC003 06/05 A3042 RMK AO2 SLP304 T00610050 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 43.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1030.4,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 1.75
+    },
+    {
+      "timestamp": "1998-12-09T17:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091753Z AUTO 00000KT 1 3/4SM BR OVC003 07/06 A3043 RMK AO2 SLP306 T00670056 10067 20056 51012 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 44.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1030.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 1.75
+    },
+    {
+      "timestamp": "1998-12-09T18:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091853Z AUTO 21003KT 2 1/2SM BR BKN008 BKN014 OVC025 07/06 A3042 RMK AO2 CIG 006V011 SLP302 T00720056 TSNO",
+      "sky_condition": "BKN",
+      "temperature_f": 45.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1030.2,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-12-09T19:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 091953Z AUTO VRB04KT 3SM HZ BKN011 OVC020 08/05 A3040 RMK AO2 SLP297 T00780050 TSNO",
+      "sky_condition": "BKN",
+      "temperature_f": 46.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1029.7,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-12-09T20:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 092053Z AUTO 03003KT 4SM HZ SCT015 OVC024 09/05 A3039 RMK AO2 SLP292 T00890050 58014 TSNO",
+      "sky_condition": "SCT",
+      "temperature_f": 48.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1029.2,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-12-09T21:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 092153Z AUTO 00000KT 4SM HZ BKN024 09/04 A3038 RMK AO2 SLP289 T00890039 TSNO",
+      "sky_condition": "BKN",
+      "temperature_f": 48.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1028.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-12-09T22:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 092253Z AUTO VRB03KT 5SM HZ CLR 10/04 A3037 RMK AO2 SLP286 T01000039 TSNO",
+      "sky_condition": "CLR",
+      "temperature_f": 50.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1028.6,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-12-09T23:53:00Z",
+      "station_id": "KHJO",
+      "metar": "KHJO 092353Z AUTO 00000KT 5SM HZ CLR 10/04 A3037 RMK AO2 SLP286 T01000039 10100 20067 56005 TSNO",
+      "sky_condition": "CLR",
+      "temperature_f": 50.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1028.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false,
+  "wildfire_fixture": {
+    "soil_moisture": 0.15,
+    "county_lat": 36.5,
+    "county_lon": -119.5,
+    "red_flag_conditions_max": 1,
+    "relative_humidity_pct": 58.52787113133425,
+    "wind_speed_mph": 4.60312,
+    "temperature_f": 51.0,
+    "firms_fires": [
+      {
+        "lat": 36.5,
+        "lon": -119.5,
+        "frp": 300
+      }
+    ]
+  }
+}

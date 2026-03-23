@@ -1,0 +1,15 @@
+{
+  "OK": ["KTLX", "KINX", "KFDR", "KVNX"],
+  "TX": ["KFWS", "KDYX", "KEWX", "KHGX", "KAMA"],
+  "FL": ["KAMX", "KBYX", "KTBW", "KJAX"],
+  "MO": ["KLSX", "KSGF", "KEAX"],
+  "CA": ["KMUX", "KVTX", "KSOX", "KHNX"],
+  "WA": ["KATX", "KOTX", "KRTX"],
+  "CO": ["KPUX", "KFTG"],
+  "LA": ["KLCH", "KPOE", "KSHV"],
+  "TN": ["KMRX", "KOHX", "KOHX"],
+  "KY": ["KLVX", "KPAH", "KHPX"],
+  "IL": ["KILX", "KLOT"],
+  "AR": ["KLZK", "KSRX"],
+  "KS": ["KICT", "KDDC", "KGLD"]
+}

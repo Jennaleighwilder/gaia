@@ -1,0 +1,1482 @@
+{
+  "admiralty_inlet_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "alameda": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "alpine": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "amador": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "animas_river_basin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "archuleta": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "baker": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "bell": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "boulder_&_jefferson_counties_below_6000_feet___w_broomfield_": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.7
+  },
+  "breathitt": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "bremerton_and_vicinity": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "butte": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "c_los_angeles": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "c&e_whatcom_e_skagit_e_snohmish": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "calaveras": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "caldwell": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "cascades_of_pierce_and_lewis_counties": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "cascades_of_snohomish_and_king_counties": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "cascades_of_whatcom_and_skagit_counties": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "central_&_eastern_lake_county": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "central_cascade_foothills": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.6
+  },
+  "central_coast_range_of_w_oregon": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "central_colorado_river_basin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "central_oregon": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.4
+  },
+  "central_oregon_coast": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "central_siskiyou_county": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "central_slopes_northern_cascades_and_passes": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "central_willamette_valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "central_yampa_river_basin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "chaffee": {
+    "mean_slope_deg": 26,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.6
+  },
+  "chelan": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "clackamas": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "claiborne": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "clay": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "coachella_valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "coast_range_of_nw_oregon": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "coastal_north_bay_including_point_reyes_national_seashore": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "conejos": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "contra_costa": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "cowlitz": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "custer": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "debeque_to_silt_corridor": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "del_norte": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "del_norte_interior": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "delta": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "douglas": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "e_king_e_pierce_e_lewis": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "e_nevada_e_placer_e_el_dorado_ne_alpine": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "eagle": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "east_bay_hills_and_the_diablo_range": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "east_bay_interior_valleys": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "east_columbia_river_gorge": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "east_puget_sound_lowlands": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "east_slopes_northern_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "east_slopes_of_the_central_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "east_slopes_of_the_oregon_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "east_slopes_of_the_washington_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "east_slopes_southern_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "eastern_columbia_river_gorge": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "eastern_san_juan_mountains_above_10000_ft": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "eastern_sawatch_mountains_above_11000_ft": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.6
+  },
+  "eastern_sierra_slopes_of_inyo_county": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.7
+  },
+  "el_dorado": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "el_paso": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "elkhead_and_park_mountains": {
+    "mean_slope_deg": 25,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "estill": {
+    "mean_slope_deg": 14,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.7
+  },
+  "everett_and_vicinity": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "ferry": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "flattop_mountains": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "floyd": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "four_corners___upper_dolores_river_basin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "fremont": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "fresno": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "garfield": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "gore_and_elk_mountains_central_mountain_valleys": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "gore_and_elk_mountains_central_mountain_valleys_aspen_and_vi": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "grand_&_summit_counties_below_9000_feet": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "grand_and_battlement_mesas": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "grand_and_battlement_mesas___x_sc_garfield___e_mesa_except_x": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "grand_valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "grays_harbor": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "greater__portland_metro_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "greater_lake_tahoe_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "greater_portland_metro_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "gunnison": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "hamilton": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "harlan": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "hawkins": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "hinsdale": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "hood_canal_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "hood_canal_kitsap_peninsula": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "huerfano": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "humboldt": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "island": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "jefferson": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "john_day_basin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "johnson": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "kern": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "kern_cty_mtns": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "king": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "kings": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "kitsap": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "kittitas_valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "knott": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "la_plata": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "lake": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "lane": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "lassen": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "lassen_eastern_plumas_eastern_sierra": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.7
+  },
+  "lee": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "leslie": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "letcher": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "lincoln": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "linn": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "los_angeles": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "los_angeles_county_coasts_including_downtown_los_angeles": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "los_angeles_county_mountains_excluding_the_santa_monica_rang": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "los_banos_dos_palos": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "lower_columbia": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "lower_columbia_basin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "madera": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "madison": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "malheur": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "marin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "marion": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "mariposa": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "mendocino_coast": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "mendocino_interior": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "menifee": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "merced": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "mesa": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "mineral": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "moffat": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "mono": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "monterey": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "montezuma": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "montrose": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "morgan": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "moses_lake_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "multnomah": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "n_douglas_county_below_6000_feet___denver___w_adams_&_arapah": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "n_los_angeles_t_x_n": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "napa": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "ne_orange": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "nevada": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "north_bay_interior_valleys": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "north_bay_mountains": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "north_central_oregon": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.4
+  },
+  "north_coast_interior": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "north_oregon_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "north_oregon_cascades_foothills": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.6
+  },
+  "northeast_mountains": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "northeast_oregon": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "northern_monterey_bay": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "northern_oregon_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "northern_oregon_coast": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "northern_sangre_de_cristo_mountains_above_11000_ft": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "northern_sangre_de_cristo_mountains_between_8500_&_11000_ft": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "northwestern_san_juan_mountains": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "okanogan": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "okanogan_highlands": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "okanogan_valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "olympics": {
+    "mean_slope_deg": 26,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "orange": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "orange_county_coastal_plain": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "ouray": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "owsley": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "p_sw_san_bernardino": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "p_w_riverside": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "paradox_valley___lower_dolores_river_basin": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "pend_oreille": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "perry": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "pierce": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "pike": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.8
+  },
+  "pitkin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "placer": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "plumas": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "powell": {
+    "mean_slope_deg": 16,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.7
+  },
+  "redwood_coast": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "rio_blanco": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "riverside": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "riverside_county_mountains": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "roan_and_tavaputs_plateaus": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "rockcastle": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "routt": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "s_&_e_jackson___larimer___n_&_ne_grand___nw_boulder_counties": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.7
+  },
+  "s_&_se_grand___w_central_&_sw_boulder___gilpin___clear_creek": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.7
+  },
+  "s_sierra_foothills": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.7
+  },
+  "saguache": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_benito": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_bernardino": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "san_bernardino_and_riverside_county_valleys___the_inland_emp": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "san_bernardino_county_mountains": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "san_diego": {
+    "mean_slope_deg": 20,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_diego_county_coastal_areas": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "san_diego_county_valleys": {
+    "mean_slope_deg": 20,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_diego_t_x_w": {
+    "mean_slope_deg": 20,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_francisco": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_francisco_bay_shoreline": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_francisco_peninsula_coast": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "san_juan": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "san_luis_obispo": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_mateo": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "san_miguel": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "santa_ana_mountains_and_foothills": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.6
+  },
+  "santa_barbara": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "santa_barbara_county_south_coast": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "santa_clara": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "santa_clara_valley_including_san_jose": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "santa_cruz": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.6
+  },
+  "santa_cruz_co.": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.6
+  },
+  "santa_cruz_mountains": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.6
+  },
+  "scott": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "seattle_bremerton_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "sevier": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "shasta": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "sierra": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.7
+  },
+  "siskiyou": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "skagit": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "skamania": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "snohomish": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "sonoma": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "south_central_oregon_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "south_coast": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "south_washington_cascades": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "southern_cascade_foothills": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.6
+  },
+  "southern_monterey_bay_and_big_sur_coast": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "southern_sacramento_valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "southern_trinity": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "southern_willamette_valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "southwest_interior": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "southwestern_san_juan_mountains": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "southwestern_san_juan_mountains___c_e_dolores___san_juan___s": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "spokane": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "stevens": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "sw_s.j._valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "tacoma_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "tehama": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "tillamook": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "tulare": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "tulare_cty_foothills": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.6
+  },
+  "tulare_cty_mtns": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.7
+  },
+  "tuolumne": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "uncompahgre_plateau_and_dallas_divide": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "upper_columbia_basin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "upper_gunnison_river_valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "upper_rio_grande_valley___eastern_san_juan_mountains_below_1": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "upper_trinity_river": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "upper_yampa_river_basin": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "vancouver_area": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "ventura": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "w_central_s.j._valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "w_kittitas_w_yakima_w_klickitat_t_x_sw": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "w_okanogan_c&w_chelan": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "w_sierra_t_x_w_c_nevada_c_placer_c_el_dorado_e_amador_ne_cal": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.7
+  },
+  "w_s_orange": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "wallowa_county": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "wallowa_union_e_&_s_umatilla_s_morrow": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "west_columbia_river_gorge": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "west_elk_and_sawatch_mountains": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.6
+  },
+  "west_elk_and_sawatch_mountains_taylor_park___w_lake___w_chaf": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.6
+  },
+  "west_jackson_&_west_grand_counties_above_9000_feet": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "west_slope_northern_sierra_nevada": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.7
+  },
+  "west_slopes_central_cascades_and_passes": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "west_slopes_northern_cascades_and_passes": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "western_chaffee_county_between_9000_&_11000_ft": {
+    "mean_slope_deg": 26,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.6
+  },
+  "western_chelan_county": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "western_columbia_river_gorge": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "western_okanogan_county": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "western_siskiyou_county": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "western_strait_of_juan_de_fuca": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "western_whatcom_county": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "whatcom": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "whitley": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "whitman": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "wolfe": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "x_w_san_diego": {
+    "mean_slope_deg": 20,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "x_w_san_diego_valley": {
+    "mean_slope_deg": 20,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "yolo": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "coast_range": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "coastal": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "foothills": {
+    "mean_slope_deg": 18,
+    "ridge_orientation_deg": 15,
+    "valley_flood_risk": 0.6
+  },
+  "mendocino": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "valley": {
+    "mean_slope_deg": 5,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.9
+  },
+  "cascade": {
+    "mean_slope_deg": 30,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.7
+  },
+  "seattle": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "sawatch": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.6
+  },
+  "gore": {
+    "mean_slope_deg": 26,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.6
+  },
+  "elk": {
+    "mean_slope_deg": 25,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "flattop": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "boulder": {
+    "mean_slope_deg": 22,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.7
+  },
+  "grand": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  },
+  "summit": {
+    "mean_slope_deg": 26,
+    "ridge_orientation_deg": 0,
+    "valley_flood_risk": 0.6
+  },
+  "oregon_coast": {
+    "mean_slope_deg": 24,
+    "ridge_orientation_deg": 330,
+    "valley_flood_risk": 0.5
+  },
+  "columbia_gorge": {
+    "mean_slope_deg": 28,
+    "ridge_orientation_deg": 90,
+    "valley_flood_risk": 0.7
+  },
+  "portland": {
+    "mean_slope_deg": 12,
+    "ridge_orientation_deg": 45,
+    "valley_flood_risk": 0.5
+  }
+}

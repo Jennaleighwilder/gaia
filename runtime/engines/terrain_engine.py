@@ -39,6 +39,39 @@ COUNTY_SLOPES_OVERRIDE = {
 }
 
 
+def _load_national_terrain() -> dict:
+    """Load national terrain profiles (CA, WA, CO, OR slopes)."""
+    path = DEM_DIR / "national_terrain.json"
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text())
+    except Exception:
+        return {}
+
+
+def _match_national_region(region: str, national: dict) -> dict | None:
+    """Match region string to national terrain profile."""
+    r = (region or "").lower().strip()
+    if not r:
+        return None
+    r_norm = r.replace(" ", "_").replace("/", "_").replace("-", "_")[:80]
+    if r_norm in national:
+        return national[r_norm].copy()
+    for k, v in national.items():
+        if r_norm in k or k in r_norm:
+            return v.copy()
+    if "sierra" in r:
+        return national.get("sierra", {})
+    if "cascade" in r:
+        return national.get("cascade", {})
+    if "san juan" in r or "sawatch" in r:
+        return national.get("san_juan", national.get("sawatch", {}))
+    if "coast" in r or "coastal" in r:
+        return national.get("coast_range", national.get("coastal", {}))
+    return None
+
+
 def _load_terrain_cache() -> dict:
     """Load pre-computed terrain stats per county."""
     cache_path = DEM_DIR / "east_tn_terrain.json"
@@ -53,18 +86,20 @@ def _load_terrain_cache() -> dict:
             result[c] = {}
         result[c]["mean_slope_deg"] = slope
         result[c]["max_slope_deg"] = result[c].get("max_slope_deg", slope + 15)
-    if result:
-        return result
-    return {
-        c: {
-            "mean_slope_deg": COUNTY_SLOPES_OVERRIDE.get(c, 8.0),
-            "ridge_orientation_deg": 45.0,
-            "valley_elev_m": 350.0,
-            "terrain_roughness": 0.4,
-            "max_slope_deg": COUNTY_SLOPES_OVERRIDE.get(c, 25.0) + 10,
+    national = _load_national_terrain()
+    result["_national"] = national
+    if not result:
+        result = {
+            c: {
+                "mean_slope_deg": COUNTY_SLOPES_OVERRIDE.get(c, 8.0),
+                "ridge_orientation_deg": 45.0,
+                "valley_elev_m": 350.0,
+                "terrain_roughness": 0.4,
+                "max_slope_deg": COUNTY_SLOPES_OVERRIDE.get(c, 25.0) + 10,
+            }
+            for c in COUNTY_CENTROIDS
         }
-        for c in COUNTY_CENTROIDS
-    }
+    return result
 
 
 _TERRAIN_CACHE: dict | None = None
@@ -74,7 +109,18 @@ def get_terrain_stats(region: str) -> dict:
     global _TERRAIN_CACHE
     if _TERRAIN_CACHE is None:
         _TERRAIN_CACHE = _load_terrain_cache()
-    return _TERRAIN_CACHE.get(region.lower(), _TERRAIN_CACHE.get("knox", {}))
+    r = region.lower() if region else ""
+    out = _TERRAIN_CACHE.get(r)
+    if out:
+        return out
+    national = _TERRAIN_CACHE.get("_national", {})
+    nat = _match_national_region(region, national)
+    if nat:
+        nat.setdefault("max_slope_deg", nat.get("mean_slope_deg", 15) + 15)
+        nat.setdefault("valley_elev_m", 500)
+        nat.setdefault("terrain_roughness", 0.5)
+        return nat
+    return _TERRAIN_CACHE.get("knox", {})
 
 
 class TerrainEngine:

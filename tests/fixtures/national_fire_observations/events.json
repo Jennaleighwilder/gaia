@@ -1,0 +1,506 @@
+[
+  {
+    "event_id": "national_32",
+    "event_datetime_utc": "1998-09-01T18:00:00Z",
+    "date": "1998-09-01",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_33",
+    "event_datetime_utc": "1998-09-01T18:00:00Z",
+    "date": "1998-09-01",
+    "station": "KHJO",
+    "county": "orange",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_34",
+    "event_datetime_utc": "1998-10-16T18:00:00Z",
+    "date": "1998-10-16",
+    "station": "KHJO",
+    "county": "santa barbara",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_39",
+    "event_datetime_utc": "1998-10-18T18:00:00Z",
+    "date": "1998-10-18",
+    "station": "KHJO",
+    "county": "ventura",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_41",
+    "event_datetime_utc": "1998-12-09T18:00:00Z",
+    "date": "1998-12-09",
+    "station": "KHJO",
+    "county": "los angeles",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_42",
+    "event_datetime_utc": "1998-12-09T18:00:00Z",
+    "date": "1998-12-09",
+    "station": "KHJO",
+    "county": "orange",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_43",
+    "event_datetime_utc": "1998-10-21T18:00:00Z",
+    "date": "1998-10-21",
+    "station": "KHJO",
+    "county": "tulare",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_44",
+    "event_datetime_utc": "1998-10-20T18:00:00Z",
+    "date": "1998-10-20",
+    "station": "KHJO",
+    "county": "fresno",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_45",
+    "event_datetime_utc": "1998-10-20T18:00:00Z",
+    "date": "1998-10-20",
+    "station": "KHJO",
+    "county": "el dorado",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_46",
+    "event_datetime_utc": "1998-12-09T18:00:00Z",
+    "date": "1998-12-09",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_47",
+    "event_datetime_utc": "1999-10-15T18:00:00Z",
+    "date": "1999-10-15",
+    "station": "KHJO",
+    "county": "butte",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_48",
+    "event_datetime_utc": "1999-10-16T18:00:00Z",
+    "date": "1999-10-16",
+    "station": "KHJO",
+    "county": "colusa",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_49",
+    "event_datetime_utc": "1999-10-17T18:00:00Z",
+    "date": "1999-10-17",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_50",
+    "event_datetime_utc": "1999-10-17T18:00:00Z",
+    "date": "1999-10-17",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_51",
+    "event_datetime_utc": "1999-10-17T18:00:00Z",
+    "date": "1999-10-17",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_52",
+    "event_datetime_utc": "1999-10-17T18:00:00Z",
+    "date": "1999-10-17",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_53",
+    "event_datetime_utc": "1999-10-08T18:00:00Z",
+    "date": "1999-10-08",
+    "station": "KHJO",
+    "county": "san diego",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_54",
+    "event_datetime_utc": "1999-10-17T18:00:00Z",
+    "date": "1999-10-17",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_55",
+    "event_datetime_utc": "1999-10-01T18:00:00Z",
+    "date": "1999-10-01",
+    "station": "KHJO",
+    "county": "shasta",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_56",
+    "event_datetime_utc": "1999-10-16T18:00:00Z",
+    "date": "1999-10-16",
+    "station": "KHJO",
+    "county": "shasta",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_57",
+    "event_datetime_utc": "1999-10-16T18:00:00Z",
+    "date": "1999-10-16",
+    "station": "KHJO",
+    "county": "yuba",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_60",
+    "event_datetime_utc": "1999-09-28T18:00:00Z",
+    "date": "1999-09-28",
+    "station": "KHJO",
+    "county": "san diego",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_62",
+    "event_datetime_utc": "1999-09-01T18:00:00Z",
+    "date": "1999-09-01",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_63",
+    "event_datetime_utc": "1999-09-01T18:00:00Z",
+    "date": "1999-09-01",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_64",
+    "event_datetime_utc": "1999-09-01T18:00:00Z",
+    "date": "1999-09-01",
+    "station": "KHJO",
+    "county": "plumas",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_65",
+    "event_datetime_utc": "1999-09-01T18:00:00Z",
+    "date": "1999-09-01",
+    "station": "KHJO",
+    "county": "butte",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_66",
+    "event_datetime_utc": "1999-09-01T18:00:00Z",
+    "date": "1999-09-01",
+    "station": "KHJO",
+    "county": "shasta",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_67",
+    "event_datetime_utc": "1999-02-11T18:00:00Z",
+    "date": "1999-02-11",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_68",
+    "event_datetime_utc": "1999-09-26T18:00:00Z",
+    "date": "1999-09-26",
+    "station": "KHJO",
+    "county": "shasta",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_69",
+    "event_datetime_utc": "1999-09-09T18:00:00Z",
+    "date": "1999-09-09",
+    "station": "KHJO",
+    "county": "calaveras",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_70",
+    "event_datetime_utc": "1999-09-28T18:00:00Z",
+    "date": "1999-09-28",
+    "station": "KHJO",
+    "county": "yolo",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_71",
+    "event_datetime_utc": "1999-09-01T18:00:00Z",
+    "date": "1999-09-01",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_72",
+    "event_datetime_utc": "1999-03-14T18:00:00Z",
+    "date": "1999-03-14",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_73",
+    "event_datetime_utc": "1999-08-13T18:00:00Z",
+    "date": "1999-08-13",
+    "station": "KHJO",
+    "county": "san diego",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_74",
+    "event_datetime_utc": "1999-08-25T18:00:00Z",
+    "date": "1999-08-25",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_75",
+    "event_datetime_utc": "1999-08-26T18:00:00Z",
+    "date": "1999-08-26",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_76",
+    "event_datetime_utc": "1999-10-01T18:00:00Z",
+    "date": "1999-10-01",
+    "station": "KHJO",
+    "county": "san diego",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_77",
+    "event_datetime_utc": "1999-10-03T18:00:00Z",
+    "date": "1999-10-03",
+    "station": "KHJO",
+    "county": "san diego",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_78",
+    "event_datetime_utc": "1999-08-23T18:00:00Z",
+    "date": "1999-08-23",
+    "station": "KHJO",
+    "county": "shasta",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_79",
+    "event_datetime_utc": "1999-08-23T18:00:00Z",
+    "date": "1999-08-23",
+    "station": "KHJO",
+    "county": "trinity",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_80",
+    "event_datetime_utc": "1999-10-01T18:00:00Z",
+    "date": "1999-10-01",
+    "station": "KHJO",
+    "county": "tehama",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_83",
+    "event_datetime_utc": "1999-08-23T18:00:00Z",
+    "date": "1999-08-23",
+    "station": "KHJO",
+    "county": "butte",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_84",
+    "event_datetime_utc": "1999-08-22T18:00:00Z",
+    "date": "1999-08-22",
+    "station": "KHJO",
+    "county": "shasta",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_85",
+    "event_datetime_utc": "1999-08-23T18:00:00Z",
+    "date": "1999-08-23",
+    "station": "KHJO",
+    "county": "shasta",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_86",
+    "event_datetime_utc": "1999-08-23T18:00:00Z",
+    "date": "1999-08-23",
+    "station": "KHJO",
+    "county": "shasta",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_87",
+    "event_datetime_utc": "1999-08-28T18:00:00Z",
+    "date": "1999-08-28",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_88",
+    "event_datetime_utc": "1999-08-28T18:00:00Z",
+    "date": "1999-08-28",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_89",
+    "event_datetime_utc": "1999-08-25T18:00:00Z",
+    "date": "1999-08-25",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_90",
+    "event_datetime_utc": "1999-08-28T18:00:00Z",
+    "date": "1999-08-28",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_91",
+    "event_datetime_utc": "1999-09-08T18:00:00Z",
+    "date": "1999-09-08",
+    "station": "KHJO",
+    "county": "monterey",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_92",
+    "event_datetime_utc": "1999-10-01T18:00:00Z",
+    "date": "1999-10-01",
+    "station": "KHJO",
+    "county": "humboldt",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_93",
+    "event_datetime_utc": "1999-11-23T18:00:00Z",
+    "date": "1999-11-23",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_96",
+    "event_datetime_utc": "1999-07-18T18:00:00Z",
+    "date": "1999-07-18",
+    "station": "KHJO",
+    "county": "santa barbara",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_97",
+    "event_datetime_utc": "1999-10-01T18:00:00Z",
+    "date": "1999-10-01",
+    "station": "KHJO",
+    "county": "trinity",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_98",
+    "event_datetime_utc": "1999-08-09T18:00:00Z",
+    "date": "1999-08-09",
+    "station": "KHJO",
+    "county": "riverside",
+    "event_type": "wildfire",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_99",
+    "event_datetime_utc": "1999-11-14T18:00:00Z",
+    "date": "1999-11-14",
+    "station": "KHJO",
+    "county": "san bernardino",
+    "event_type": "wildfire",
+    "magnitude": ""
+  }
+]

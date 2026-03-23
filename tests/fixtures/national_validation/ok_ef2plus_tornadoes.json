@@ -1,0 +1,902 @@
+[
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "NOWATA",
+    "date": "1996-05-26",
+    "lat": "36.60",
+    "lon": "-95.65",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CRAIG",
+    "date": "1996-05-26",
+    "lat": "36.83",
+    "lon": "-95.48",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCCLAIN",
+    "date": "1997-05-25",
+    "lat": "34.98",
+    "lon": "-97.48",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "PITTSBURG",
+    "date": "1997-05-26",
+    "lat": "35.17",
+    "lon": "-95.88",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKMULGEE",
+    "date": "1997-05-26",
+    "lat": "35.73",
+    "lon": "-96.07",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKFUSKEE",
+    "date": "1998-10-04",
+    "lat": "35.48",
+    "lon": "-96.45",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKMULGEE",
+    "date": "1998-10-04",
+    "lat": "35.60",
+    "lon": "-96.20",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "SEMINOLE",
+    "date": "1998-10-04",
+    "lat": "35.38",
+    "lon": "-96.77",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "POTTAWATOMIE",
+    "date": "1998-10-04",
+    "lat": "35.40",
+    "lon": "-96.72",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKLAHOMA",
+    "date": "1998-06-13",
+    "lat": "35.48",
+    "lon": "-97.53",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKLAHOMA",
+    "date": "1998-06-13",
+    "lat": "35.55",
+    "lon": "-97.55",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "SEMINOLE",
+    "date": "1998-06-08",
+    "lat": "35.12",
+    "lon": "-96.52",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "HASKELL",
+    "date": "1998-06-08",
+    "lat": "35.08",
+    "lon": "-95.23",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LINCOLN",
+    "date": "1998-10-04",
+    "lat": "35.48",
+    "lon": "-96.80",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "GRADY",
+    "date": "1998-10-04",
+    "lat": "35.17",
+    "lon": "-97.58",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CLEVELAND",
+    "date": "1998-10-04",
+    "lat": "35.33",
+    "lon": "-97.5",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LINCOLN",
+    "date": "1998-10-04",
+    "lat": "35.47",
+    "lon": "-96.85",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "ALFALFA",
+    "date": "1998-10-04",
+    "lat": "36.60",
+    "lon": "-98.52",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "BLAINE",
+    "date": "1998-10-04",
+    "lat": "35.82",
+    "lon": "-98.45",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "GRADY",
+    "date": "1998-10-04",
+    "lat": "34.90",
+    "lon": "-98.07",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "HUGHES",
+    "date": "1998-06-08",
+    "lat": "35.12",
+    "lon": "-96.43",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "HUGHES",
+    "date": "1998-06-08",
+    "lat": "35.13",
+    "lon": "-96.42",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "GRANT",
+    "date": "1998-05-24",
+    "lat": "36.65",
+    "lon": "-97.55",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCINTOSH",
+    "date": "1999-03-08",
+    "lat": "35.43",
+    "lon": "-95.82",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCINTOSH",
+    "date": "1999-06-01",
+    "lat": "35.43",
+    "lon": "-95.52",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCINTOSH",
+    "date": "1999-06-01",
+    "lat": "35.42",
+    "lon": "-95.53",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "GARFIELD",
+    "date": "1999-04-21",
+    "lat": "36.47",
+    "lon": "-98.08",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCCURTAIN",
+    "date": "1999-05-04",
+    "lat": "33.83",
+    "lon": "-95.03",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LOGAN",
+    "date": "1999-12-02",
+    "lat": "35.82",
+    "lon": "-97.52",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CHEROKEE",
+    "date": "1999-06-01",
+    "lat": "35.97",
+    "lon": "-95.25",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "ADAIR",
+    "date": "1999-05-04",
+    "lat": "35.65",
+    "lon": "-94.55",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCINTOSH",
+    "date": "1999-03-08",
+    "lat": "35.43",
+    "lon": "-95.72",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "SEQUOYAH",
+    "date": "1999-05-04",
+    "lat": "35.57",
+    "lon": "-94.55",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CREEK",
+    "date": "1999-05-03",
+    "lat": "35.75",
+    "lon": "-96.62",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CADDO",
+    "date": "1999-05-03",
+    "lat": "34.97",
+    "lon": "-98.12",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "GRADY",
+    "date": "1999-05-03",
+    "lat": "34.98",
+    "lon": "-98.07",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "KINGFISHER",
+    "date": "1999-05-03",
+    "lat": "35.93",
+    "lon": "-97.95",
+    "magnitude": "F4"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LINCOLN",
+    "date": "1999-05-03",
+    "lat": "35.65",
+    "lon": "-96.80",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "POTTAWATOMIE",
+    "date": "1999-05-03",
+    "lat": "35.37",
+    "lon": "-97.00",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "GRADY",
+    "date": "1999-05-03",
+    "lat": "35.13",
+    "lon": "-97.85",
+    "magnitude": "F5"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCCLAIN",
+    "date": "1999-05-03",
+    "lat": "35.25",
+    "lon": "-97.67",
+    "magnitude": "F4"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CLEVELAND",
+    "date": "1999-05-03",
+    "lat": "35.30",
+    "lon": "-97.60",
+    "magnitude": "F5"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKLAHOMA",
+    "date": "1999-05-03",
+    "lat": "35.40",
+    "lon": "-97.45",
+    "magnitude": "F4"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "PAYNE",
+    "date": "1999-05-03",
+    "lat": "36.12",
+    "lon": "-97.33",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "KINGFISHER",
+    "date": "1999-05-03",
+    "lat": "36.1",
+    "lon": "-97.88",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CANADIAN",
+    "date": "1999-05-03",
+    "lat": "35.55",
+    "lon": "-97.97",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "KINGFISHER",
+    "date": "1999-05-03",
+    "lat": "35.73",
+    "lon": "-97.87",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LOGAN",
+    "date": "1999-05-03",
+    "lat": "35.90",
+    "lon": "-97.60",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LOGAN",
+    "date": "1999-05-03",
+    "lat": "36.03",
+    "lon": "-97.42",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "GRADY",
+    "date": "1999-05-03",
+    "lat": "35.07",
+    "lon": "-97.98",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LOGAN",
+    "date": "1999-05-03",
+    "lat": "36.12",
+    "lon": "-97.65",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "GARFIELD",
+    "date": "1999-05-03",
+    "lat": "36.17",
+    "lon": "-97.58",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "KINGFISHER",
+    "date": "1999-05-03",
+    "lat": "35.77",
+    "lon": "-98.15",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CADDO",
+    "date": "1999-05-03",
+    "lat": "34.88",
+    "lon": "-98.32",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CANADIAN",
+    "date": "1999-05-03",
+    "lat": "35.65",
+    "lon": "-97.78",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LOGAN",
+    "date": "1999-05-03",
+    "lat": "35.88",
+    "lon": "-97.68",
+    "magnitude": "F4"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKLAHOMA",
+    "date": "1999-05-03",
+    "lat": "35.47",
+    "lon": "-97.30",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "NOBLE",
+    "date": "1999-05-03",
+    "lat": "36.18",
+    "lon": "-97.28",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LE FLORE",
+    "date": "2000-03-26",
+    "lat": "34.85",
+    "lon": "-94.63333",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCCURTAIN",
+    "date": "2000-04-23",
+    "lat": "34.03333",
+    "lon": "-94.98333",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "PUSHMATAHA",
+    "date": "2000-04-23",
+    "lat": "34.33333",
+    "lon": "-95.65",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "PUSHMATAHA",
+    "date": "2000-04-23",
+    "lat": "34.3",
+    "lon": "-95.36667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "WOODS",
+    "date": "2000-05-25",
+    "lat": "36.56667",
+    "lon": "-98.61667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "COAL",
+    "date": "2001-04-11",
+    "lat": "34.5",
+    "lon": "-96.16667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "PONTOTOC",
+    "date": "2001-04-11",
+    "lat": "34.56667",
+    "lon": "-96.56667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "JOHNSTON",
+    "date": "2001-04-11",
+    "lat": "34.16667",
+    "lon": "-96.6",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "COAL",
+    "date": "2001-04-11",
+    "lat": "34.63333",
+    "lon": "-96.5",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "PONTOTOC",
+    "date": "2001-04-11",
+    "lat": "34.66667",
+    "lon": "-96.46667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "BEAVER",
+    "date": "2001-04-10",
+    "lat": "36.51667",
+    "lon": "-100.68333",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "HUGHES",
+    "date": "2001-05-20",
+    "lat": "35.2",
+    "lon": "-96.11667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "WASHITA",
+    "date": "2001-10-09",
+    "lat": "35.33333",
+    "lon": "-98.16667",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "WASHITA",
+    "date": "2001-10-09",
+    "lat": "35.06667",
+    "lon": "-98.88333",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CUSTER",
+    "date": "2001-10-09",
+    "lat": "35.01667",
+    "lon": "-99.1",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "WOODS",
+    "date": "2002-04-17",
+    "lat": "36.48333",
+    "lon": "-98.75",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "ALFALFA",
+    "date": "2002-04-18",
+    "lat": "36.58333",
+    "lon": "-98.51667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "DEWEY",
+    "date": "2002-04-17",
+    "lat": "36.1",
+    "lon": "-99.08333",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "WASHINGTON",
+    "date": "2003-04-19",
+    "lat": "36.25",
+    "lon": "-96.28333",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCCURTAIN",
+    "date": "2003-05-01",
+    "lat": "34.08333",
+    "lon": "-94.8",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MCCURTAIN",
+    "date": "2003-05-14",
+    "lat": "33.98333",
+    "lon": "-95.08333",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OSAGE",
+    "date": "2003-05-08",
+    "lat": "36.58333",
+    "lon": "-96.71667",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "MARSHALL",
+    "date": "2003-05-08",
+    "lat": "35.2",
+    "lon": "-99.5",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "LOVE",
+    "date": "2003-05-08",
+    "lat": "34.38333",
+    "lon": "-99.01667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CLEVELAND",
+    "date": "2003-05-08",
+    "lat": "35.33333",
+    "lon": "-97.53333",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKLAHOMA",
+    "date": "2003-05-08",
+    "lat": "35.4",
+    "lon": "-97.48333",
+    "magnitude": "F4"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKLAHOMA",
+    "date": "2003-05-09",
+    "lat": "36.9",
+    "lon": "-97.06667",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "JEFFERSON",
+    "date": "2003-05-08",
+    "lat": "34.5",
+    "lon": "-99.16667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CREEK",
+    "date": "2004-05-29",
+    "lat": "35.83333",
+    "lon": "-96.6",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "OKLAHOMA",
+    "date": "2004-05-29",
+    "lat": "35.68333",
+    "lon": "-97.2",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "BLAINE",
+    "date": "2004-05-29",
+    "lat": "35.98333",
+    "lon": "-96.76667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CANADIAN",
+    "date": "2004-05-29",
+    "lat": "35.66667",
+    "lon": "-98.31667",
+    "magnitude": "F2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "DELAWARE",
+    "date": "2006-03-12",
+    "lat": "35.41667",
+    "lon": "-95.01667",
+    "magnitude": "F3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "CANADIAN",
+    "date": "2007-03-29",
+    "lat": "35.5",
+    "lon": "-97.7145",
+    "magnitude": "EF2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "BEAVER",
+    "date": "2007-03-28",
+    "lat": "36.728",
+    "lon": "-100.4051",
+    "magnitude": "EF2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "BECKHAM",
+    "date": "2007-05-05",
+    "lat": "35.3935",
+    "lon": "-99.87",
+    "magnitude": "EF3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "ROGER MILLS",
+    "date": "2007-05-05",
+    "lat": "35.42",
+    "lon": "-99.92",
+    "magnitude": "EF3"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "ELLIS",
+    "date": "2007-05-05",
+    "lat": "35.8895",
+    "lon": "-99.7737",
+    "magnitude": "EF2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "WOODWARD",
+    "date": "2007-05-05",
+    "lat": "36.1716",
+    "lon": "-99.33",
+    "magnitude": "EF2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "BEAVER",
+    "date": "2007-03-28",
+    "lat": "36.5178",
+    "lon": "-100.3927",
+    "magnitude": "EF2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "ADAIR",
+    "date": "2008-04-10",
+    "lat": "35.7535",
+    "lon": "-94.8075",
+    "magnitude": "EF2"
+  },
+  {
+    "event_type": "tornado",
+    "state": "OK",
+    "county": "ADAIR",
+    "date": "2008-04-10",
+    "lat": "35.7895",
+    "lon": "-94.5393",
+    "magnitude": "EF2"
+  }
+]

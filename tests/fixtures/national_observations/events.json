@@ -1,0 +1,812 @@
+[
+  {
+    "event_id": "national_0",
+    "event_datetime_utc": "1996-05-26T18:00:00Z",
+    "date": "1996-05-26",
+    "station": "KBVO",
+    "county": "nowata",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_2",
+    "event_datetime_utc": "1997-05-25T18:00:00Z",
+    "date": "1997-05-25",
+    "station": "KOKC",
+    "county": "mcclain",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_3",
+    "event_datetime_utc": "1997-05-26T18:00:00Z",
+    "date": "1997-05-26",
+    "station": "KMLC",
+    "county": "pittsburg",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_5",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KRVS",
+    "county": "okfuskee",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_6",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KRVS",
+    "county": "okmulgee",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_7",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KOKC",
+    "county": "seminole",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_8",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KOKC",
+    "county": "pottawatomie",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_9",
+    "event_datetime_utc": "1998-06-13T18:00:00Z",
+    "date": "1998-06-13",
+    "station": "KOKC",
+    "county": "oklahoma",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_10",
+    "event_datetime_utc": "1998-06-13T18:00:00Z",
+    "date": "1998-06-13",
+    "station": "KPWA",
+    "county": "oklahoma",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_11",
+    "event_datetime_utc": "1998-06-08T18:00:00Z",
+    "date": "1998-06-08",
+    "station": "KMLC",
+    "county": "seminole",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_12",
+    "event_datetime_utc": "1998-06-08T18:00:00Z",
+    "date": "1998-06-08",
+    "station": "KMLC",
+    "county": "haskell",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_13",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KGOK",
+    "county": "lincoln",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_14",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KOKC",
+    "county": "grady",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_15",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KOKC",
+    "county": "cleveland",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_16",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KGOK",
+    "county": "lincoln",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_17",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KP28",
+    "county": "alfalfa",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_18",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KPWA",
+    "county": "blaine",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_19",
+    "event_datetime_utc": "1998-10-04T18:00:00Z",
+    "date": "1998-10-04",
+    "station": "KLAW",
+    "county": "grady",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_20",
+    "event_datetime_utc": "1998-06-08T18:00:00Z",
+    "date": "1998-06-08",
+    "station": "KMLC",
+    "county": "hughes",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_21",
+    "event_datetime_utc": "1998-06-08T18:00:00Z",
+    "date": "1998-06-08",
+    "station": "KMLC",
+    "county": "hughes",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_22",
+    "event_datetime_utc": "1998-05-24T18:00:00Z",
+    "date": "1998-05-24",
+    "station": "KPNC",
+    "county": "grant",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_23",
+    "event_datetime_utc": "1999-03-08T18:00:00Z",
+    "date": "1999-03-08",
+    "station": "KMKO",
+    "county": "mcintosh",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_24",
+    "event_datetime_utc": "1999-06-01T18:00:00Z",
+    "date": "1999-06-01",
+    "station": "KMKO",
+    "county": "mcintosh",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_25",
+    "event_datetime_utc": "1999-06-01T18:00:00Z",
+    "date": "1999-06-01",
+    "station": "KMKO",
+    "county": "mcintosh",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_26",
+    "event_datetime_utc": "1999-04-21T18:00:00Z",
+    "date": "1999-04-21",
+    "station": "KGOK",
+    "county": "garfield",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_28",
+    "event_datetime_utc": "1999-12-02T18:00:00Z",
+    "date": "1999-12-02",
+    "station": "KGOK",
+    "county": "logan",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_29",
+    "event_datetime_utc": "1999-06-01T18:00:00Z",
+    "date": "1999-06-01",
+    "station": "KMKO",
+    "county": "cherokee",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_30",
+    "event_datetime_utc": "1999-05-04T18:00:00Z",
+    "date": "1999-05-04",
+    "station": "KFSM",
+    "county": "adair",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_31",
+    "event_datetime_utc": "1999-03-08T18:00:00Z",
+    "date": "1999-03-08",
+    "station": "KMKO",
+    "county": "mcintosh",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_32",
+    "event_datetime_utc": "1999-05-04T18:00:00Z",
+    "date": "1999-05-04",
+    "station": "KFSM",
+    "county": "sequoyah",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_33",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KSWO",
+    "county": "creek",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_34",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KLAW",
+    "county": "caddo",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_35",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KLAW",
+    "county": "grady",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_36",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KGOK",
+    "county": "kingfisher",
+    "event_type": "tornado",
+    "magnitude": "F4"
+  },
+  {
+    "event_id": "national_37",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KGOK",
+    "county": "lincoln",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_38",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KOKC",
+    "county": "pottawatomie",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_39",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KOKC",
+    "county": "grady",
+    "event_type": "tornado",
+    "magnitude": "F5"
+  },
+  {
+    "event_id": "national_40",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KOKC",
+    "county": "mcclain",
+    "event_type": "tornado",
+    "magnitude": "F4"
+  },
+  {
+    "event_id": "national_41",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KOKC",
+    "county": "cleveland",
+    "event_type": "tornado",
+    "magnitude": "F5"
+  },
+  {
+    "event_id": "national_42",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KOKC",
+    "county": "oklahoma",
+    "event_type": "tornado",
+    "magnitude": "F4"
+  },
+  {
+    "event_id": "national_43",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KSWO",
+    "county": "payne",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_44",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KGOK",
+    "county": "kingfisher",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_45",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KPWA",
+    "county": "canadian",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_46",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KPWA",
+    "county": "kingfisher",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_47",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KGOK",
+    "county": "logan",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_48",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KGOK",
+    "county": "logan",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_49",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KOKC",
+    "county": "grady",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_50",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KGOK",
+    "county": "logan",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_51",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KGOK",
+    "county": "garfield",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_52",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KPWA",
+    "county": "kingfisher",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_53",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KLAW",
+    "county": "caddo",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_54",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KPWA",
+    "county": "canadian",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_55",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KGOK",
+    "county": "logan",
+    "event_type": "tornado",
+    "magnitude": "F4"
+  },
+  {
+    "event_id": "national_56",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KOKC",
+    "county": "oklahoma",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_57",
+    "event_datetime_utc": "1999-05-03T18:00:00Z",
+    "date": "1999-05-03",
+    "station": "KSWO",
+    "county": "noble",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_58",
+    "event_datetime_utc": "2000-03-26T18:00:00Z",
+    "date": "2000-03-26",
+    "station": "KFSM",
+    "county": "le flore",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_60",
+    "event_datetime_utc": "2000-04-23T18:00:00Z",
+    "date": "2000-04-23",
+    "station": "KMLC",
+    "county": "pushmataha",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_61",
+    "event_datetime_utc": "2000-04-23T18:00:00Z",
+    "date": "2000-04-23",
+    "station": "KMLC",
+    "county": "pushmataha",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_62",
+    "event_datetime_utc": "2000-05-25T18:00:00Z",
+    "date": "2000-05-25",
+    "station": "KP28",
+    "county": "woods",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_63",
+    "event_datetime_utc": "2001-04-11T18:00:00Z",
+    "date": "2001-04-11",
+    "station": "KMLC",
+    "county": "coal",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_64",
+    "event_datetime_utc": "2001-04-11T18:00:00Z",
+    "date": "2001-04-11",
+    "station": "KMLC",
+    "county": "pontotoc",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_65",
+    "event_datetime_utc": "2001-04-11T18:00:00Z",
+    "date": "2001-04-11",
+    "station": "KMLC",
+    "county": "johnston",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_66",
+    "event_datetime_utc": "2001-04-11T18:00:00Z",
+    "date": "2001-04-11",
+    "station": "KMLC",
+    "county": "coal",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_67",
+    "event_datetime_utc": "2001-04-11T18:00:00Z",
+    "date": "2001-04-11",
+    "station": "KMLC",
+    "county": "pontotoc",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_68",
+    "event_datetime_utc": "2001-04-10T18:00:00Z",
+    "date": "2001-04-10",
+    "station": "KGUY",
+    "county": "beaver",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_69",
+    "event_datetime_utc": "2001-05-20T18:00:00Z",
+    "date": "2001-05-20",
+    "station": "KMLC",
+    "county": "hughes",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_70",
+    "event_datetime_utc": "2001-10-09T18:00:00Z",
+    "date": "2001-10-09",
+    "station": "KOKC",
+    "county": "washita",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_71",
+    "event_datetime_utc": "2001-10-09T18:00:00Z",
+    "date": "2001-10-09",
+    "station": "KHBR",
+    "county": "washita",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_72",
+    "event_datetime_utc": "2001-10-09T18:00:00Z",
+    "date": "2001-10-09",
+    "station": "KHBR",
+    "county": "custer",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_73",
+    "event_datetime_utc": "2002-04-17T18:00:00Z",
+    "date": "2002-04-17",
+    "station": "KP28",
+    "county": "woods",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_74",
+    "event_datetime_utc": "2002-04-18T18:00:00Z",
+    "date": "2002-04-18",
+    "station": "KP28",
+    "county": "alfalfa",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_75",
+    "event_datetime_utc": "2002-04-17T18:00:00Z",
+    "date": "2002-04-17",
+    "station": "KGAG",
+    "county": "dewey",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_76",
+    "event_datetime_utc": "2003-04-19T18:00:00Z",
+    "date": "2003-04-19",
+    "station": "KRVS",
+    "county": "washington",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_77",
+    "event_datetime_utc": "2003-05-01T18:00:00Z",
+    "date": "2003-05-01",
+    "station": "KDEQ",
+    "county": "mccurtain",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_78",
+    "event_datetime_utc": "2003-05-14T18:00:00Z",
+    "date": "2003-05-14",
+    "station": "KDEQ",
+    "county": "mccurtain",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_79",
+    "event_datetime_utc": "2003-05-08T18:00:00Z",
+    "date": "2003-05-08",
+    "station": "KPNC",
+    "county": "osage",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_80",
+    "event_datetime_utc": "2003-05-08T18:00:00Z",
+    "date": "2003-05-08",
+    "station": "KCSM",
+    "county": "marshall",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_81",
+    "event_datetime_utc": "2003-05-08T18:00:00Z",
+    "date": "2003-05-08",
+    "station": "KFDR",
+    "county": "love",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_82",
+    "event_datetime_utc": "2003-05-08T18:00:00Z",
+    "date": "2003-05-08",
+    "station": "KOKC",
+    "county": "cleveland",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_83",
+    "event_datetime_utc": "2003-05-08T18:00:00Z",
+    "date": "2003-05-08",
+    "station": "KOKC",
+    "county": "oklahoma",
+    "event_type": "tornado",
+    "magnitude": "F4"
+  },
+  {
+    "event_id": "national_84",
+    "event_datetime_utc": "2003-05-09T18:00:00Z",
+    "date": "2003-05-09",
+    "station": "KPNC",
+    "county": "oklahoma",
+    "event_type": "tornado",
+    "magnitude": "F3"
+  },
+  {
+    "event_id": "national_85",
+    "event_datetime_utc": "2003-05-08T18:00:00Z",
+    "date": "2003-05-08",
+    "station": "KFDR",
+    "county": "jefferson",
+    "event_type": "tornado",
+    "magnitude": "F2"
+  },
+  {
+    "event_id": "national_92",
+    "event_datetime_utc": "2007-03-28T18:00:00Z",
+    "date": "2007-03-28",
+    "station": "KGAG",
+    "county": "beaver",
+    "event_type": "tornado",
+    "magnitude": "EF2"
+  },
+  {
+    "event_id": "national_93",
+    "event_datetime_utc": "2007-05-05T18:00:00Z",
+    "date": "2007-05-05",
+    "station": "KCSM",
+    "county": "beckham",
+    "event_type": "tornado",
+    "magnitude": "EF3"
+  },
+  {
+    "event_id": "national_94",
+    "event_datetime_utc": "2007-05-05T18:00:00Z",
+    "date": "2007-05-05",
+    "station": "KCSM",
+    "county": "roger mills",
+    "event_type": "tornado",
+    "magnitude": "EF3"
+  },
+  {
+    "event_id": "national_95",
+    "event_datetime_utc": "2007-05-05T18:00:00Z",
+    "date": "2007-05-05",
+    "station": "KGAG",
+    "county": "ellis",
+    "event_type": "tornado",
+    "magnitude": "EF2"
+  },
+  {
+    "event_id": "national_96",
+    "event_datetime_utc": "2007-05-05T18:00:00Z",
+    "date": "2007-05-05",
+    "station": "KGAG",
+    "county": "woodward",
+    "event_type": "tornado",
+    "magnitude": "EF2"
+  },
+  {
+    "event_id": "national_97",
+    "event_datetime_utc": "2007-03-28T18:00:00Z",
+    "date": "2007-03-28",
+    "station": "KGAG",
+    "county": "beaver",
+    "event_type": "tornado",
+    "magnitude": "EF2"
+  },
+  {
+    "event_id": "national_98",
+    "event_datetime_utc": "2008-04-10T18:00:00Z",
+    "date": "2008-04-10",
+    "station": "KMKO",
+    "county": "adair",
+    "event_type": "tornado",
+    "magnitude": "EF2"
+  },
+  {
+    "event_id": "national_99",
+    "event_datetime_utc": "2008-04-10T18:00:00Z",
+    "date": "2008-04-10",
+    "station": "KFYV",
+    "county": "adair",
+    "event_type": "tornado",
+    "magnitude": "EF2"
+  }
+]

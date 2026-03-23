@@ -1,0 +1,87 @@
+{
+  "event_id": "national_31",
+  "event_date": "1996-05-28",
+  "event_datetime_utc": "1996-05-28T18:00:00Z",
+  "station": "KLEX",
+  "county": "shelby",
+  "event_type": "flood",
+  "magnitude": "",
+  "observation_count": 6,
+  "observations": [
+    {
+      "timestamp": "1996-05-28T00:00:00Z",
+      "station_id": "KLEX",
+      "metar": "KLEX 272300Z 20006KT 10SM -RA SCT055 SCT090 SCT100 18/18 A//// RMK SLP121 P0007 T01780178",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1012.1,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.07
+    },
+    {
+      "timestamp": "1996-05-28T01:00:00Z",
+      "station_id": "KLEX",
+      "metar": "KLEX 280000Z 16013KT 10SM -RA BKN029 BKN060 BKN100 18/17 A2984 RMK 6040/ 10069 20064 PCPN 0004 PRESFR $; SLP099 P0004 60008 T01780167 55080",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1009.9,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "1996-05-28T02:00:00Z",
+      "station_id": "KLEX",
+      "metar": "KLEX 280100Z 16008KT 10SM CLR/// 17/17 A//// RMK SLP092 T01720167",
+      "sky_condition": "CLR",
+      "temperature_f": 63.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1009.2,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-28T03:00:00Z",
+      "station_id": "KLEX",
+      "metar": "KLEX 280200Z 17009KT 10SM CLR/// 17/17 A//// RMK SLP090 T01720167",
+      "sky_condition": "CLR",
+      "temperature_f": 63.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1009.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-28T04:00:00Z",
+      "station_id": "KLEX",
+      "metar": "KLEX 280300Z 17008KT 10SM SCT075 17/16 A//// RMK SLP098 T01720161",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1009.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-28T05:00:00Z",
+      "station_id": "KLEX",
+      "metar": "KLEX 280400Z 18006KT 10SM BKN060 17/16 A//// RMK SLP095 T01720161",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1009.5,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

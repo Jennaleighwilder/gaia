@@ -50,6 +50,7 @@ from runtime.engines.terrain_engine import TerrainEngine
 from runtime.engines.soil_engine import SoilEngine
 from runtime.engines.goes_engine import GoesEngine
 from runtime.engines.flash_flood_engine import FlashFloodEngine
+from runtime.engines.wildfire_engine import WildfireEngine
 from runtime.engines.hail_engine import HailEngine
 from runtime.engines.saddle_engine import SaddleEngine
 from runtime.engines.sensor_mesh_engine import SensorMeshEngine
@@ -95,6 +96,7 @@ ENGINE_ORDER = [
     "terrain",
     "soil",
     "flash_flood",
+    "wildfire",
     "hail",
     "pressure",
     "thermal",
@@ -168,6 +170,7 @@ LIGHTNING_ENGINE = LightningEngine()
 TERRAIN_ENGINE = TerrainEngine()
 SOIL_ENGINE = SoilEngine()
 FLASH_FLOOD_ENGINE = FlashFloodEngine()
+WILDFIRE_ENGINE = WildfireEngine()
 HAIL_ENGINE = HailEngine()
 PRESSURE_ENGINE = PressureEngine()
 THERMAL_ENGINE = ThermalEngine()
@@ -629,6 +632,15 @@ def _score_observation_engines(region: str, timestamp: str, station_observations
         logger.debug("Flash flood engine failed: %s", e)
         scores["flash_flood"] = 0.0
         engine_details["flash_flood"] = {"score": 0.0, "flash_flood_certain": False}
+    try:
+        wf_payload = {**payload, "wildfire_fixture": payload.get("wildfire_fixture") or {}}
+        wf_result = WILDFIRE_ENGINE.score(region, payload=wf_payload)
+        scores["wildfire"] = wf_result.get("score", 0.0)
+        engine_details["wildfire"] = wf_result
+    except Exception as e:
+        logger.debug("Wildfire engine failed: %s", e)
+        scores["wildfire"] = 0.0
+        engine_details["wildfire"] = {"score": 0.0, "wildfire_certain": False}
     try:
         hail_result = HAIL_ENGINE.score(region, payload=payload, engine_scores=scores)
         scores["hail"] = hail_result.get("score", 0.0)
@@ -1157,11 +1169,18 @@ def compute_decision_for_payload(payload: dict) -> dict:
     flash_flood_warning = bool(ff_detail.get("flash_flood_certain", False))
     if flash_flood_warning:
         logger.info("FLASH_FLOOD_WARNING — terrain-driven flood certain")
+    wf_detail = engine_details.get("wildfire") or {}
+    wildfire_warning = bool(wf_detail.get("wildfire_certain", False))
+    if wildfire_warning:
+        logger.info("WILDFIRE_WARNING — red flag and/or FIRMS fire detected")
 
     hail_detail = engine_details.get("hail") or {}
     if hail_detail.get("hail_indicated") and decision_rank.get(decision, 0) < decision_rank["WARNING"]:
         decision = "WARNING"
         logger.info("HAIL_INDICATED — min WARNING (VIL/echo_top)")
+    if wildfire_warning and decision_rank.get(decision, 0) < decision_rank["WARNING"]:
+        decision = "WARNING"
+        logger.info("WILDFIRE_CERTAIN — min WARNING (red flag/FIRMS)")
     if hail_detail.get("hail_size_estimate") == "baseball":
         decision = "EMERGENCY"
         logger.info("BASEBALL_HAIL — force EMERGENCY (life safety)")
@@ -1175,6 +1194,7 @@ def compute_decision_for_payload(payload: dict) -> dict:
         "timestamp": timestamp,
         "decision": decision,
         "flash_flood_warning": flash_flood_warning,
+        "wildfire_warning": wildfire_warning,
         "seasonal_context": seasonal_ctx.strip(),
         "seasonal_profile": seasonal_profile,
         "convergence_count": convergence_count,
@@ -1243,7 +1263,7 @@ def compute_decision_for_payload(payload: dict) -> dict:
             metrics={"instability": 0.0},
         )
 
-    if decision in ("WARNING", "EMERGENCY") or flash_flood_warning:
+    if decision in ("WARNING", "EMERGENCY") or flash_flood_warning or wildfire_warning:
         try:
             from runtime.alerts.alert_formatter import format_from_governor_result
             from runtime.alerts.alert_dispatcher import dispatch

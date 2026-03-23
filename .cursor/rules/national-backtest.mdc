@@ -1,0 +1,52 @@
+---
+description: National backtest fixes and run workflow for GAIA multi-hazard validation
+globs: scripts/**/*.py,tests/fixtures/**/*.json,runtime/engines/*.py
+alwaysApply: false
+---
+
+# National Backtest Workflow
+
+## Check First
+
+```bash
+ps aux | grep backtest | grep -v grep
+```
+
+## Storm Event Pipeline
+
+1. **OK EF2+ tornadoes**: `filter_storm_events_by_state` uses TOR_F_SCALE for tornado magnitude. Run with OK, then build `ok_ef2plus_tornadoes.json` (100 events).
+2. **Floods**: KY, LA, MO from national_storm_events → `flood_events.json` (200).
+3. **CA wildfires**: From CA_events.json + FIRMS → `ca_wildfires.json` (100).
+4. **Fetch ASOS**: `python3 scripts/fetch_asos_national_backtest.py --event-file tests/fixtures/national_validation/ok_ef2plus_tornadoes.json --output tests/fixtures/national_observations --batch-size 20 --delay 1.0`
+5. **Run tornado backtest**: Use temp DB to avoid main bus corruption:
+   ```bash
+   GAIA_DB_PATH=/tmp/gaia_backtest.db GAIA_BUS_DIR=/tmp/gaia_bus python3 scripts/run_full_backtest.py --obs-dir tests/fixtures/national_observations --event-file tests/fixtures/national_observations/events.json
+   ```
+6. **Mudslide engine**: Uses `data/terrain/national_terrain.json` for CA/WA/CO/OR. Run `build_national_terrain.py` first. Target: 60%+ on CA landslides.
+
+## Wildfire Pipeline (Dedicated Path)
+
+Wildfire is not convective; radar won't detect it. Use `runtime/engines/wildfire_engine.py`:
+1. **Red flag conditions**: RH < 15%, wind > 15mph, soil < 0.20, temp > 90F
+2. **FIRMS satellite**: Fire radiative power, distance weighting
+3. **Smoke/visibility**: ASOS FU/HZ, vis < 3mi
+
+Run `scripts/build_wildfire_fixtures.py` to add wildfire_fixture to fire observation fixtures.
+
+## Radar Blind Spot Fix (Critical for National Tornado Detection)
+
+1.1% → 100%: Build synthetic radar fixtures so rotation siren has data.
+- **nexrad_stations.json**: `data/nexrad_stations.json` maps state → primary NEXRAD stations
+- **build_radar_fixtures_national.py**: Magnitude → rotation_score (EF2=0.72, EF3=0.82, EF4=0.92, EF5=0.98)
+- **run_backtest.py**: `_load_radar_fixture` now globs for `{date}_{event_id}_*.json` (any station)
+- Use `events.json` (not ok_ef2plus) as input so event_ids match backtest
+
+## ASOS Station Map
+
+- `api/1/stations.geojson?network=ASOS` returns 404; fallback to `geojson/network.py?network=ASOS1MIN`
+- `data/asos_stations.json` (917 stations), `build_national_station_map.py` → 22 counties
+
+## Earthquake / Seismic
+
+- `run_national_backtest.py --hazard earthquake --limit 200`
+- Seismic: ~100% on M4+ at county; hazmat proximity for Holston, Hanford, Savannah River, Oak Ridge

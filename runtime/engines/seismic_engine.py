@@ -37,10 +37,16 @@ class SeismicEngine:
         quakes = payload.get("earthquakes") or payload.get("usgs_earthquakes")
         if isinstance(quakes, dict):
             quakes = quakes.get("features", []) if "features" in quakes else []
+        # Support flat dict format: {magnitude, lat, lon, depth}
+        quakes = [self._normalize_quake(q) for q in (quakes or [])]
+        quakes = [q for q in quakes if q]
         if not quakes:
             return {"score": 0.0, "alerts": [], "hazmat_seismic": False}
 
-        county_lat, county_lon = self._county_coords(region)
+        county_lat = payload.get("county_lat")
+        county_lon = payload.get("county_lon")
+        if county_lat is None or county_lon is None:
+            county_lat, county_lon = self._county_coords(region)
         max_score = 0.0
         alerts: list[str] = []
         hazmat_seismic = False
@@ -49,7 +55,7 @@ class SeismicEngine:
             props = f.get("properties", {})
             geom = f.get("geometry", {})
             coords = geom.get("coordinates", [0, 0, 0])
-            mag = float(props.get("mag", 0) or 0)
+            mag = float(props.get("mag", props.get("magnitude", 0)) or 0)
             qlon, qlat = coords[0], coords[1]
             dist_county = haversine_miles(qlat, qlon, county_lat, county_lon)
             dist_holston = haversine_miles(qlat, qlon, HOLSTON_AAP[0], HOLSTON_AAP[1])
@@ -90,6 +96,20 @@ class SeismicEngine:
             "alerts": list(set(alerts)),
             "hazmat_seismic": hazmat_seismic,
             "earthquake_count": len(quakes),
+        }
+
+    def _normalize_quake(self, q: dict) -> dict | None:
+        """Convert flat {magnitude, lat, lon} or GeoJSON to canonical format."""
+        if "geometry" in q and "coordinates" in q["geometry"]:
+            return q
+        lat = q.get("lat") or q.get("latitude")
+        lon = q.get("lon") or q.get("longitude")
+        mag = q.get("magnitude") or q.get("mag", 0)
+        if lat is None or lon is None:
+            return None
+        return {
+            "properties": {"mag": mag, "magnitude": mag},
+            "geometry": {"coordinates": [float(lon), float(lat), float(q.get("depth", 10))]},
         }
 
     def _county_coords(self, region: str) -> tuple[float, float]:

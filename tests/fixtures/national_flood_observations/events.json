@@ -1,0 +1,1721 @@
+[
+  {
+    "event_id": "national_0",
+    "event_datetime_utc": "1996-01-22T18:00:00Z",
+    "date": "1996-01-22",
+    "station": "KLEX",
+    "county": "hardin",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_1",
+    "event_datetime_utc": "1996-01-22T18:00:00Z",
+    "date": "1996-01-22",
+    "station": "KLEX",
+    "county": "trimble",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_2",
+    "event_datetime_utc": "1996-01-22T18:00:00Z",
+    "date": "1996-01-22",
+    "station": "KLEX",
+    "county": "breckinridge",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_3",
+    "event_datetime_utc": "1996-01-25T18:00:00Z",
+    "date": "1996-01-25",
+    "station": "KLEX",
+    "county": "nelson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_4",
+    "event_datetime_utc": "1996-01-19T18:00:00Z",
+    "date": "1996-01-19",
+    "station": "KLEX",
+    "county": "nicholas",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_5",
+    "event_datetime_utc": "1996-01-19T18:00:00Z",
+    "date": "1996-01-19",
+    "station": "KLEX",
+    "county": "fleming",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_6",
+    "event_datetime_utc": "1996-01-24T18:00:00Z",
+    "date": "1996-01-24",
+    "station": "KLEX",
+    "county": "nicholas",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_7",
+    "event_datetime_utc": "1996-01-24T18:00:00Z",
+    "date": "1996-01-24",
+    "station": "KLEX",
+    "county": "fleming",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_8",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "kenton",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_9",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "gallatin",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_10",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "boone",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_11",
+    "event_datetime_utc": "1996-01-22T18:00:00Z",
+    "date": "1996-01-22",
+    "station": "KLEX",
+    "county": "jefferson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_12",
+    "event_datetime_utc": "1996-01-22T18:00:00Z",
+    "date": "1996-01-22",
+    "station": "KLEX",
+    "county": "oldham",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_13",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "campbell",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_14",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "pendleton",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_15",
+    "event_datetime_utc": "1996-01-20T18:00:00Z",
+    "date": "1996-01-20",
+    "station": "KLEX",
+    "county": "greenup",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_16",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "bracken",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_17",
+    "event_datetime_utc": "1996-01-20T18:00:00Z",
+    "date": "1996-01-20",
+    "station": "KLEX",
+    "county": "boyd",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_18",
+    "event_datetime_utc": "1996-01-22T18:00:00Z",
+    "date": "1996-01-22",
+    "station": "KLEX",
+    "county": "meade",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_19",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "carroll",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_20",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "mason",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_21",
+    "event_datetime_utc": "1996-01-22T18:00:00Z",
+    "date": "1996-01-22",
+    "station": "KLEX",
+    "county": "bullitt",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_22",
+    "event_datetime_utc": "1996-03-08T18:00:00Z",
+    "date": "1996-03-08",
+    "station": "KLEX",
+    "county": "nelson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_23",
+    "event_datetime_utc": "1996-02-01T18:00:00Z",
+    "date": "1996-02-01",
+    "station": "KLEX",
+    "county": "hancock",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_24",
+    "event_datetime_utc": "1996-01-23T18:00:00Z",
+    "date": "1996-01-23",
+    "station": "KLEX",
+    "county": "lewis",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_25",
+    "event_datetime_utc": "1996-05-04T18:00:00Z",
+    "date": "1996-05-04",
+    "station": "KLEX",
+    "county": "fulton",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_26",
+    "event_datetime_utc": "1996-05-05T18:00:00Z",
+    "date": "1996-05-05",
+    "station": "KLEX",
+    "county": "bourbon",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_27",
+    "event_datetime_utc": "1996-05-15T18:00:00Z",
+    "date": "1996-05-15",
+    "station": "KLEX",
+    "county": "bourbon",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_28",
+    "event_datetime_utc": "1996-05-06T18:00:00Z",
+    "date": "1996-05-06",
+    "station": "KLEX",
+    "county": "nicholas",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_29",
+    "event_datetime_utc": "1996-05-15T18:00:00Z",
+    "date": "1996-05-15",
+    "station": "KLEX",
+    "county": "nicholas",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_31",
+    "event_datetime_utc": "1996-05-28T18:00:00Z",
+    "date": "1996-05-28",
+    "station": "KLEX",
+    "county": "shelby",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_32",
+    "event_datetime_utc": "1996-05-28T18:00:00Z",
+    "date": "1996-05-28",
+    "station": "KLEX",
+    "county": "spencer",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_33",
+    "event_datetime_utc": "1996-07-07T18:00:00Z",
+    "date": "1996-07-07",
+    "station": "KLEX",
+    "county": "fulton",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_34",
+    "event_datetime_utc": "1996-05-15T18:00:00Z",
+    "date": "1996-05-15",
+    "station": "KLEX",
+    "county": "campbell",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_35",
+    "event_datetime_utc": "1996-05-15T18:00:00Z",
+    "date": "1996-05-15",
+    "station": "KLEX",
+    "county": "marshall",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_36",
+    "event_datetime_utc": "1996-07-19T18:00:00Z",
+    "date": "1996-07-19",
+    "station": "KLEX",
+    "county": "rowan",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_37",
+    "event_datetime_utc": "1996-07-19T18:00:00Z",
+    "date": "1996-07-19",
+    "station": "KLEX",
+    "county": "bath",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_38",
+    "event_datetime_utc": "1996-05-15T18:00:00Z",
+    "date": "1996-05-15",
+    "station": "KLEX",
+    "county": "boone",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_39",
+    "event_datetime_utc": "1996-05-15T18:00:00Z",
+    "date": "1996-05-15",
+    "station": "KLEX",
+    "county": "kenton",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_40",
+    "event_datetime_utc": "1996-06-01T18:00:00Z",
+    "date": "1996-06-01",
+    "station": "KLEX",
+    "county": "carlisle",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_41",
+    "event_datetime_utc": "1996-06-01T18:00:00Z",
+    "date": "1996-06-01",
+    "station": "KLEX",
+    "county": "ballard",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_42",
+    "event_datetime_utc": "1996-05-28T18:00:00Z",
+    "date": "1996-05-28",
+    "station": "KLEX",
+    "county": "nelson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_43",
+    "event_datetime_utc": "1996-05-11T18:00:00Z",
+    "date": "1996-05-11",
+    "station": "KLEX",
+    "county": "jefferson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_44",
+    "event_datetime_utc": "1996-05-04T18:00:00Z",
+    "date": "1996-05-04",
+    "station": "KLEX",
+    "county": "hickman",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_45",
+    "event_datetime_utc": "1996-05-04T18:00:00Z",
+    "date": "1996-05-04",
+    "station": "KLEX",
+    "county": "carlisle",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_46",
+    "event_datetime_utc": "1996-05-17T18:00:00Z",
+    "date": "1996-05-17",
+    "station": "KLEX",
+    "county": "jefferson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_47",
+    "event_datetime_utc": "1996-05-11T18:00:00Z",
+    "date": "1996-05-11",
+    "station": "KLEX",
+    "county": "jefferson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_48",
+    "event_datetime_utc": "1996-05-14T18:00:00Z",
+    "date": "1996-05-14",
+    "station": "KLEX",
+    "county": "lyon",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_49",
+    "event_datetime_utc": "1996-05-04T18:00:00Z",
+    "date": "1996-05-04",
+    "station": "KLEX",
+    "county": "ballard",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_50",
+    "event_datetime_utc": "1996-05-14T18:00:00Z",
+    "date": "1996-05-14",
+    "station": "KLEX",
+    "county": "marshall",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_51",
+    "event_datetime_utc": "1996-06-01T18:00:00Z",
+    "date": "1996-06-01",
+    "station": "KLEX",
+    "county": "fulton",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_52",
+    "event_datetime_utc": "1996-06-01T18:00:00Z",
+    "date": "1996-06-01",
+    "station": "KLEX",
+    "county": "hickman",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_53",
+    "event_datetime_utc": "1996-06-01T18:00:00Z",
+    "date": "1996-06-01",
+    "station": "KLEX",
+    "county": "union",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_54",
+    "event_datetime_utc": "1996-05-26T18:00:00Z",
+    "date": "1996-05-26",
+    "station": "KLEX",
+    "county": "jefferson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_55",
+    "event_datetime_utc": "1996-06-02T18:00:00Z",
+    "date": "1996-06-02",
+    "station": "KLEX",
+    "county": "graves",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_58",
+    "event_datetime_utc": "1996-05-07T18:00:00Z",
+    "date": "1996-05-07",
+    "station": "KLEX",
+    "county": "livingston",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_59",
+    "event_datetime_utc": "1996-06-24T18:00:00Z",
+    "date": "1996-06-24",
+    "station": "KLEX",
+    "county": "hickman",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_60",
+    "event_datetime_utc": "1996-06-24T18:00:00Z",
+    "date": "1996-06-24",
+    "station": "KLEX",
+    "county": "mccracken",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_61",
+    "event_datetime_utc": "1996-05-07T18:00:00Z",
+    "date": "1996-05-07",
+    "station": "KLEX",
+    "county": "crittenden",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_62",
+    "event_datetime_utc": "1996-05-14T18:00:00Z",
+    "date": "1996-05-14",
+    "station": "KLEX",
+    "county": "trigg",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_63",
+    "event_datetime_utc": "1996-05-07T18:00:00Z",
+    "date": "1996-05-07",
+    "station": "KLEX",
+    "county": "ballard",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_64",
+    "event_datetime_utc": "1996-05-07T18:00:00Z",
+    "date": "1996-05-07",
+    "station": "KLEX",
+    "county": "mccracken",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_65",
+    "event_datetime_utc": "1996-12-01T18:00:00Z",
+    "date": "1996-12-01",
+    "station": "KLEX",
+    "county": "bell",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_66",
+    "event_datetime_utc": "1996-12-18T18:00:00Z",
+    "date": "1996-12-18",
+    "station": "KLEX",
+    "county": "barren",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_67",
+    "event_datetime_utc": "1996-12-17T18:00:00Z",
+    "date": "1996-12-17",
+    "station": "KLEX",
+    "county": "butler",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_68",
+    "event_datetime_utc": "1996-12-18T18:00:00Z",
+    "date": "1996-12-18",
+    "station": "KLEX",
+    "county": "butler",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_69",
+    "event_datetime_utc": "1996-12-18T18:00:00Z",
+    "date": "1996-12-18",
+    "station": "KLEX",
+    "county": "nelson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_70",
+    "event_datetime_utc": "1996-12-01T18:00:00Z",
+    "date": "1996-12-01",
+    "station": "KLEX",
+    "county": "knox",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_71",
+    "event_datetime_utc": "1996-12-01T18:00:00Z",
+    "date": "1996-12-01",
+    "station": "KLEX",
+    "county": "whitley",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_72",
+    "event_datetime_utc": "1996-12-20T18:00:00Z",
+    "date": "1996-12-20",
+    "station": "KLEX",
+    "county": "mclean",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_73",
+    "event_datetime_utc": "1996-10-27T18:00:00Z",
+    "date": "1996-10-27",
+    "station": "KLEX",
+    "county": "caldwell",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_75",
+    "event_datetime_utc": "1996-03-19T18:00:00Z",
+    "date": "1996-03-19",
+    "station": "KLEX",
+    "county": "rowan",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_76",
+    "event_datetime_utc": "1996-02-01T18:00:00Z",
+    "date": "1996-02-01",
+    "station": "KLEX",
+    "county": "ballard",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_77",
+    "event_datetime_utc": "1996-11-07T18:00:00Z",
+    "date": "1996-11-07",
+    "station": "KLEX",
+    "county": "henderson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_78",
+    "event_datetime_utc": "1996-01-26T18:00:00Z",
+    "date": "1996-01-26",
+    "station": "KLEX",
+    "county": "ballard",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_79",
+    "event_datetime_utc": "1996-01-26T18:00:00Z",
+    "date": "1996-01-26",
+    "station": "KLEX",
+    "county": "mccracken",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_80",
+    "event_datetime_utc": "1996-01-26T18:00:00Z",
+    "date": "1996-01-26",
+    "station": "KLEX",
+    "county": "livingston",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_81",
+    "event_datetime_utc": "1996-01-26T18:00:00Z",
+    "date": "1996-01-26",
+    "station": "KLEX",
+    "county": "crittenden",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_82",
+    "event_datetime_utc": "1996-08-26T18:00:00Z",
+    "date": "1996-08-26",
+    "station": "KLEX",
+    "county": "henderson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_83",
+    "event_datetime_utc": "1996-02-01T18:00:00Z",
+    "date": "1996-02-01",
+    "station": "KLEX",
+    "county": "webster",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_84",
+    "event_datetime_utc": "1996-02-01T18:00:00Z",
+    "date": "1996-02-01",
+    "station": "KLEX",
+    "county": "henderson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_85",
+    "event_datetime_utc": "1996-03-05T18:00:00Z",
+    "date": "1996-03-05",
+    "station": "KLEX",
+    "county": "grayson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_86",
+    "event_datetime_utc": "1996-02-01T18:00:00Z",
+    "date": "1996-02-01",
+    "station": "KLEX",
+    "county": "union",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_87",
+    "event_datetime_utc": "1996-02-01T18:00:00Z",
+    "date": "1996-02-01",
+    "station": "KLEX",
+    "county": "crittenden",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_88",
+    "event_datetime_utc": "1996-02-01T18:00:00Z",
+    "date": "1996-02-01",
+    "station": "KLEX",
+    "county": "livingston",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_89",
+    "event_datetime_utc": "1996-02-01T18:00:00Z",
+    "date": "1996-02-01",
+    "station": "KLEX",
+    "county": "mccracken",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_90",
+    "event_datetime_utc": "1997-07-13T18:00:00Z",
+    "date": "1997-07-13",
+    "station": "KLEX",
+    "county": "graves",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_91",
+    "event_datetime_utc": "1997-08-19T18:00:00Z",
+    "date": "1997-08-19",
+    "station": "KLEX",
+    "county": "henderson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_92",
+    "event_datetime_utc": "1997-02-04T18:00:00Z",
+    "date": "1997-02-04",
+    "station": "KLEX",
+    "county": "bourbon",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_93",
+    "event_datetime_utc": "1997-02-04T18:00:00Z",
+    "date": "1997-02-04",
+    "station": "KLEX",
+    "county": "nicholas",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_94",
+    "event_datetime_utc": "1997-02-05T18:00:00Z",
+    "date": "1997-02-05",
+    "station": "KLEX",
+    "county": "nelson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_95",
+    "event_datetime_utc": "1997-02-05T18:00:00Z",
+    "date": "1997-02-05",
+    "station": "KLEX",
+    "county": "butler",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_96",
+    "event_datetime_utc": "1997-06-09T18:00:00Z",
+    "date": "1997-06-09",
+    "station": "KLEX",
+    "county": "nelson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_97",
+    "event_datetime_utc": "1997-06-02T18:00:00Z",
+    "date": "1997-06-02",
+    "station": "KLEX",
+    "county": "henderson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_98",
+    "event_datetime_utc": "1997-06-02T18:00:00Z",
+    "date": "1997-06-02",
+    "station": "KLEX",
+    "county": "hopkins",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_99",
+    "event_datetime_utc": "1997-03-01T18:00:00Z",
+    "date": "1997-03-01",
+    "station": "KLEX",
+    "county": "daviess",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_100",
+    "event_datetime_utc": "1996-06-19T18:00:00Z",
+    "date": "1996-06-19",
+    "station": "KESF",
+    "county": "calcasieu",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_101",
+    "event_datetime_utc": "1996-07-09T18:00:00Z",
+    "date": "1996-07-09",
+    "station": "KESF",
+    "county": "st. mary",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_102",
+    "event_datetime_utc": "1996-04-14T18:00:00Z",
+    "date": "1996-04-14",
+    "station": "KESF",
+    "county": "st. tammany",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_103",
+    "event_datetime_utc": "1996-04-14T18:00:00Z",
+    "date": "1996-04-14",
+    "station": "KESF",
+    "county": "st. tammany",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_104",
+    "event_datetime_utc": "1996-11-26T18:00:00Z",
+    "date": "1996-11-26",
+    "station": "KESF",
+    "county": "bossier",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_105",
+    "event_datetime_utc": "1996-12-27T18:00:00Z",
+    "date": "1996-12-27",
+    "station": "KESF",
+    "county": "lafourche",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_108",
+    "event_datetime_utc": "1996-11-26T18:00:00Z",
+    "date": "1996-11-26",
+    "station": "KESF",
+    "county": "caddo",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_109",
+    "event_datetime_utc": "1996-10-25T18:00:00Z",
+    "date": "1996-10-25",
+    "station": "KESF",
+    "county": "east baton rouge",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_111",
+    "event_datetime_utc": "1996-08-01T18:00:00Z",
+    "date": "1996-08-01",
+    "station": "KESF",
+    "county": "winn",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_112",
+    "event_datetime_utc": "1996-08-10T18:00:00Z",
+    "date": "1996-08-10",
+    "station": "KESF",
+    "county": "st. tammany",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_113",
+    "event_datetime_utc": "1996-08-10T18:00:00Z",
+    "date": "1996-08-10",
+    "station": "KESF",
+    "county": "st. james",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_114",
+    "event_datetime_utc": "1996-08-10T18:00:00Z",
+    "date": "1996-08-10",
+    "station": "KESF",
+    "county": "ascension",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_115",
+    "event_datetime_utc": "1997-07-07T18:00:00Z",
+    "date": "1997-07-07",
+    "station": "KESF",
+    "county": "st. bernard",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_116",
+    "event_datetime_utc": "1997-07-08T18:00:00Z",
+    "date": "1997-07-08",
+    "station": "KESF",
+    "county": "st. tammany",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_117",
+    "event_datetime_utc": "1997-07-08T18:00:00Z",
+    "date": "1997-07-08",
+    "station": "KESF",
+    "county": "plaquemines",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_118",
+    "event_datetime_utc": "1997-07-09T18:00:00Z",
+    "date": "1997-07-09",
+    "station": "KESF",
+    "county": "iberville",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_119",
+    "event_datetime_utc": "1997-06-17T18:00:00Z",
+    "date": "1997-06-17",
+    "station": "KESF",
+    "county": "vermilion",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_120",
+    "event_datetime_utc": "1997-07-13T18:00:00Z",
+    "date": "1997-07-13",
+    "station": "KESF",
+    "county": "iberia",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_121",
+    "event_datetime_utc": "1997-07-08T18:00:00Z",
+    "date": "1997-07-08",
+    "station": "KESF",
+    "county": "st. landry",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_122",
+    "event_datetime_utc": "1997-02-25T18:00:00Z",
+    "date": "1997-02-25",
+    "station": "KESF",
+    "county": "tangipahoa",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_123",
+    "event_datetime_utc": "1997-06-17T18:00:00Z",
+    "date": "1997-06-17",
+    "station": "KESF",
+    "county": "iberia",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_124",
+    "event_datetime_utc": "1997-06-17T18:00:00Z",
+    "date": "1997-06-17",
+    "station": "KESF",
+    "county": "st. martin",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_125",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "pointe coupee",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_126",
+    "event_datetime_utc": "1997-07-13T18:00:00Z",
+    "date": "1997-07-13",
+    "station": "KESF",
+    "county": "st. helena",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_127",
+    "event_datetime_utc": "1997-07-25T18:00:00Z",
+    "date": "1997-07-25",
+    "station": "KESF",
+    "county": "calcasieu",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_128",
+    "event_datetime_utc": "1997-07-05T18:00:00Z",
+    "date": "1997-07-05",
+    "station": "KESF",
+    "county": "calcasieu",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_129",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "west feliciana",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_130",
+    "event_datetime_utc": "1997-05-01T18:00:00Z",
+    "date": "1997-05-01",
+    "station": "KESF",
+    "county": "bienville",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_131",
+    "event_datetime_utc": "1997-05-01T18:00:00Z",
+    "date": "1997-05-01",
+    "station": "KESF",
+    "county": "bossier",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_132",
+    "event_datetime_utc": "1997-06-09T18:00:00Z",
+    "date": "1997-06-09",
+    "station": "KESF",
+    "county": "caddo",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_133",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "west baton rouge",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_134",
+    "event_datetime_utc": "1997-02-12T18:00:00Z",
+    "date": "1997-02-12",
+    "station": "KESF",
+    "county": "terrebonne",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_136",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "st. james",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_137",
+    "event_datetime_utc": "1997-05-24T18:00:00Z",
+    "date": "1997-05-24",
+    "station": "KESF",
+    "county": "st. james",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_138",
+    "event_datetime_utc": "1997-05-19T18:00:00Z",
+    "date": "1997-05-19",
+    "station": "KESF",
+    "county": "orleans",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_139",
+    "event_datetime_utc": "1997-02-13T18:00:00Z",
+    "date": "1997-02-13",
+    "station": "KESF",
+    "county": "jefferson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_140",
+    "event_datetime_utc": "1997-02-13T18:00:00Z",
+    "date": "1997-02-13",
+    "station": "KESF",
+    "county": "st. tammany",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_141",
+    "event_datetime_utc": "1997-02-21T18:00:00Z",
+    "date": "1997-02-21",
+    "station": "KESF",
+    "county": "jefferson",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_142",
+    "event_datetime_utc": "1997-03-14T18:00:00Z",
+    "date": "1997-03-14",
+    "station": "KESF",
+    "county": "st. charles",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_143",
+    "event_datetime_utc": "1997-04-06T18:00:00Z",
+    "date": "1997-04-06",
+    "station": "KESF",
+    "county": "caddo",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_144",
+    "event_datetime_utc": "1997-04-06T18:00:00Z",
+    "date": "1997-04-06",
+    "station": "KESF",
+    "county": "bossier",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_145",
+    "event_datetime_utc": "1997-04-06T18:00:00Z",
+    "date": "1997-04-06",
+    "station": "KESF",
+    "county": "webster",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_146",
+    "event_datetime_utc": "1997-04-06T18:00:00Z",
+    "date": "1997-04-06",
+    "station": "KESF",
+    "county": "bienville",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_148",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "ascension",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_149",
+    "event_datetime_utc": "1997-02-25T18:00:00Z",
+    "date": "1997-02-25",
+    "station": "KESF",
+    "county": "rapides",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_150",
+    "event_datetime_utc": "1997-02-12T18:00:00Z",
+    "date": "1997-02-12",
+    "station": "KESF",
+    "county": "st. charles",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_151",
+    "event_datetime_utc": "1997-05-01T18:00:00Z",
+    "date": "1997-05-01",
+    "station": "KESF",
+    "county": "caddo",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_152",
+    "event_datetime_utc": "1997-05-01T18:00:00Z",
+    "date": "1997-05-01",
+    "station": "KESF",
+    "county": "webster",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_153",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "east baton rouge",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_154",
+    "event_datetime_utc": "1997-03-10T18:00:00Z",
+    "date": "1997-03-10",
+    "station": "KESF",
+    "county": "west baton rouge",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_155",
+    "event_datetime_utc": "1997-02-12T18:00:00Z",
+    "date": "1997-02-12",
+    "station": "KESF",
+    "county": "bossier",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_156",
+    "event_datetime_utc": "1997-02-12T18:00:00Z",
+    "date": "1997-02-12",
+    "station": "KESF",
+    "county": "sabine",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_157",
+    "event_datetime_utc": "1997-03-09T18:00:00Z",
+    "date": "1997-03-09",
+    "station": "KESF",
+    "county": "east carroll",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_158",
+    "event_datetime_utc": "1997-03-09T18:00:00Z",
+    "date": "1997-03-09",
+    "station": "KESF",
+    "county": "madison",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_159",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "iberville",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_160",
+    "event_datetime_utc": "1997-03-10T18:00:00Z",
+    "date": "1997-03-10",
+    "station": "KESF",
+    "county": "iberville",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_161",
+    "event_datetime_utc": "1997-03-12T18:00:00Z",
+    "date": "1997-03-12",
+    "station": "KESF",
+    "county": "ascension",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_162",
+    "event_datetime_utc": "1997-06-07T18:00:00Z",
+    "date": "1997-06-07",
+    "station": "KESF",
+    "county": "allen",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_163",
+    "event_datetime_utc": "1997-06-10T18:00:00Z",
+    "date": "1997-06-10",
+    "station": "KESF",
+    "county": "st. mary",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_164",
+    "event_datetime_utc": "1997-04-11T18:00:00Z",
+    "date": "1997-04-11",
+    "station": "KESF",
+    "county": "st. james",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_165",
+    "event_datetime_utc": "1997-04-22T18:00:00Z",
+    "date": "1997-04-22",
+    "station": "KESF",
+    "county": "caddo",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_166",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "st. john the baptist",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_167",
+    "event_datetime_utc": "1997-03-05T18:00:00Z",
+    "date": "1997-03-05",
+    "station": "KESF",
+    "county": "pointe coupee",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_168",
+    "event_datetime_utc": "1997-03-02T18:00:00Z",
+    "date": "1997-03-02",
+    "station": "KESF",
+    "county": "claiborne",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_169",
+    "event_datetime_utc": "1997-03-02T18:00:00Z",
+    "date": "1997-03-02",
+    "station": "KESF",
+    "county": "bienville",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_170",
+    "event_datetime_utc": "1997-03-02T18:00:00Z",
+    "date": "1997-03-02",
+    "station": "KESF",
+    "county": "bossier",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_171",
+    "event_datetime_utc": "1997-03-02T18:00:00Z",
+    "date": "1997-03-02",
+    "station": "KESF",
+    "county": "webster",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_172",
+    "event_datetime_utc": "1997-04-25T18:00:00Z",
+    "date": "1997-04-25",
+    "station": "KESF",
+    "county": "calcasieu",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_173",
+    "event_datetime_utc": "1997-04-11T18:00:00Z",
+    "date": "1997-04-11",
+    "station": "KESF",
+    "county": "st. mary",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_174",
+    "event_datetime_utc": "1997-03-09T18:00:00Z",
+    "date": "1997-03-09",
+    "station": "KESF",
+    "county": "tensas",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_175",
+    "event_datetime_utc": "1997-03-05T18:00:00Z",
+    "date": "1997-03-05",
+    "station": "KESF",
+    "county": "caddo",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_176",
+    "event_datetime_utc": "1997-03-02T18:00:00Z",
+    "date": "1997-03-02",
+    "station": "KESF",
+    "county": "union",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_177",
+    "event_datetime_utc": "1997-03-15T18:00:00Z",
+    "date": "1997-03-15",
+    "station": "KESF",
+    "county": "bossier",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_178",
+    "event_datetime_utc": "1997-03-15T18:00:00Z",
+    "date": "1997-03-15",
+    "station": "KESF",
+    "county": "webster",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_179",
+    "event_datetime_utc": "1997-03-15T18:00:00Z",
+    "date": "1997-03-15",
+    "station": "KESF",
+    "county": "bienville",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_180",
+    "event_datetime_utc": "1997-03-02T18:00:00Z",
+    "date": "1997-03-02",
+    "station": "KESF",
+    "county": "caddo",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_181",
+    "event_datetime_utc": "1997-04-01T18:00:00Z",
+    "date": "1997-04-01",
+    "station": "KESF",
+    "county": "st. charles",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_182",
+    "event_datetime_utc": "1997-06-08T18:00:00Z",
+    "date": "1997-06-08",
+    "station": "KESF",
+    "county": "ascension",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_183",
+    "event_datetime_utc": "1997-03-05T18:00:00Z",
+    "date": "1997-03-05",
+    "station": "KESF",
+    "county": "west feliciana",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_184",
+    "event_datetime_utc": "1997-03-10T18:00:00Z",
+    "date": "1997-03-10",
+    "station": "KESF",
+    "county": "east baton rouge",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_185",
+    "event_datetime_utc": "1997-03-14T18:00:00Z",
+    "date": "1997-03-14",
+    "station": "KESF",
+    "county": "st. john the baptist",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_186",
+    "event_datetime_utc": "1997-03-09T18:00:00Z",
+    "date": "1997-03-09",
+    "station": "KESF",
+    "county": "concordia",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_187",
+    "event_datetime_utc": "1997-04-26T18:00:00Z",
+    "date": "1997-04-26",
+    "station": "KESF",
+    "county": "vermilion",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_188",
+    "event_datetime_utc": "1997-04-05T18:00:00Z",
+    "date": "1997-04-05",
+    "station": "KESF",
+    "county": "lower st. martin",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_189",
+    "event_datetime_utc": "1997-03-12T18:00:00Z",
+    "date": "1997-03-12",
+    "station": "KESF",
+    "county": "st. james",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_190",
+    "event_datetime_utc": "1997-04-05T18:00:00Z",
+    "date": "1997-04-05",
+    "station": "KESF",
+    "county": "st. mary",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_191",
+    "event_datetime_utc": "1997-04-27T18:00:00Z",
+    "date": "1997-04-27",
+    "station": "KESF",
+    "county": "acadia",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_192",
+    "event_datetime_utc": "1997-09-24T18:00:00Z",
+    "date": "1997-09-24",
+    "station": "KESF",
+    "county": "calcasieu",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_193",
+    "event_datetime_utc": "1997-11-21T18:00:00Z",
+    "date": "1997-11-21",
+    "station": "KESF",
+    "county": "lafayette",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_194",
+    "event_datetime_utc": "1997-10-23T18:00:00Z",
+    "date": "1997-10-23",
+    "station": "KESF",
+    "county": "natchitoches",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_195",
+    "event_datetime_utc": "1997-09-10T18:00:00Z",
+    "date": "1997-09-10",
+    "station": "KESF",
+    "county": "terrebonne",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_196",
+    "event_datetime_utc": "1997-10-24T18:00:00Z",
+    "date": "1997-10-24",
+    "station": "KESF",
+    "county": "rapides",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_197",
+    "event_datetime_utc": "1997-10-13T18:00:00Z",
+    "date": "1997-10-13",
+    "station": "KESF",
+    "county": "calcasieu",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_198",
+    "event_datetime_utc": "1998-01-07T18:00:00Z",
+    "date": "1998-01-07",
+    "station": "KESF",
+    "county": "natchitoches",
+    "event_type": "flood",
+    "magnitude": ""
+  },
+  {
+    "event_id": "national_199",
+    "event_datetime_utc": "1998-01-06T18:00:00Z",
+    "date": "1998-01-06",
+    "station": "KESF",
+    "county": "washington",
+    "event_type": "flood",
+    "magnitude": ""
+  }
+]

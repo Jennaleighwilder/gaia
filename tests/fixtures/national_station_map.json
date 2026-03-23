@@ -1,0 +1,156 @@
+{
+  "knox_tn": {
+    "county": "knox",
+    "state": "TN",
+    "station_id": "TYS",
+    "station_name": "KNOXVILLE MUNICIPAL",
+    "distance_mi": 10.5
+  },
+  "sevier_tn": {
+    "county": "sevier",
+    "state": "TN",
+    "station_id": "TYS",
+    "station_name": "KNOXVILLE MUNICIPAL",
+    "distance_mi": 26.13
+  },
+  "blount_tn": {
+    "county": "blount",
+    "state": "TN",
+    "station_id": "TYS",
+    "station_name": "KNOXVILLE MUNICIPAL",
+    "distance_mi": 9.62
+  },
+  "greene_tn": {
+    "county": "greene",
+    "state": "TN",
+    "station_id": "TRI",
+    "station_name": "BRISTOL/TRI-CITY",
+    "distance_mi": 29.61
+  },
+  "hamblen_tn": {
+    "county": "hamblen",
+    "state": "TN",
+    "station_id": "TYS",
+    "station_name": "KNOXVILLE MUNICIPAL",
+    "distance_mi": 42.28
+  },
+  "hawkins_tn": {
+    "county": "hawkins",
+    "state": "TN",
+    "station_id": "TRI",
+    "station_name": "BRISTOL/TRI-CITY",
+    "distance_mi": 14.86
+  },
+  "washington_tn": {
+    "county": "washington",
+    "state": "TN",
+    "station_id": "TRI",
+    "station_name": "BRISTOL/TRI-CITY",
+    "distance_mi": 13.55
+  },
+  "grainger_tn": {
+    "county": "grainger",
+    "state": "TN",
+    "station_id": "TYS",
+    "station_name": "KNOXVILLE MUNICIPAL",
+    "distance_mi": 40.9
+  },
+  "sullivan_tn": {
+    "county": "sullivan",
+    "state": "TN",
+    "station_id": "TRI",
+    "station_name": "BRISTOL/TRI-CITY",
+    "distance_mi": 0.0
+  },
+  "anderson_tn": {
+    "county": "anderson",
+    "state": "TN",
+    "station_id": "OQT",
+    "station_name": "OAK RIDGE",
+    "distance_mi": 0.0
+  },
+  "cook_il": {
+    "county": "cook",
+    "state": "IL",
+    "station_id": "MDW",
+    "station_name": "CHICAGO",
+    "distance_mi": 5.0
+  },
+  "harris_tx": {
+    "county": "harris",
+    "state": "TX",
+    "station_id": "HOU",
+    "station_name": "HOUSTON/WILL HOBBY",
+    "distance_mi": 9.66
+  },
+  "tulsa_ok": {
+    "county": "tulsa",
+    "state": "OK",
+    "station_id": "TUL",
+    "station_name": "TULSA INTL ARPT(AW)",
+    "distance_mi": 6.6
+  },
+  "oklahoma_ok": {
+    "county": "oklahoma",
+    "state": "OK",
+    "station_id": "PWA",
+    "station_name": "OKLAHOMA CITY/WILEY",
+    "distance_mi": 13.52
+  },
+  "los_angeles_ca": {
+    "county": "los angeles",
+    "state": "CA",
+    "station_id": "CQT",
+    "station_name": "LOS ANGELES DOWNTOWN/USC",
+    "distance_mi": 3.37
+  },
+  "orleans_la": {
+    "county": "orleans",
+    "state": "LA",
+    "station_id": "NEW",
+    "station_name": "NEW ORLEANS/LAKEFRO",
+    "distance_mi": 6.82
+  },
+  "king_wa": {
+    "county": "king",
+    "state": "WA",
+    "station_id": "RNT",
+    "station_name": "RENTON MUNICIPAL",
+    "distance_mi": 17.81
+  },
+  "denver_co": {
+    "county": "denver",
+    "state": "CO",
+    "station_id": "APA",
+    "station_name": "DENVER/CENTENNIAL",
+    "distance_mi": 13.87
+  },
+  "miami-dade_fl": {
+    "county": "miami-dade",
+    "state": "FL",
+    "station_id": "MIA",
+    "station_name": "MIAMI INTL AIRPORT",
+    "distance_mi": 7.72
+  },
+  "st_louis_mo": {
+    "county": "st. louis",
+    "state": "MO",
+    "station_id": "CPS",
+    "station_name": "CAHOKIA/ST LOUIS",
+    "distance_mi": 4.54
+  },
+  "jefferson_ky": {
+    "county": "jefferson",
+    "state": "KY",
+    "station_id": "SDF",
+    "station_name": "Louisville Intl",
+    "distance_mi": 5.52
+  },
+  "pulaski_ar": {
+    "county": "pulaski",
+    "state": "AR",
+    "station_id": "LIT",
+    "station_name": "LITTLE ROCK/ADAMS",
+    "distance_mi": 3.34
+  }
+}

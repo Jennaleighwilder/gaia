@@ -1,50 +1,50 @@
 #!/usr/bin/env python3
 """
-Full 3,667 event backtest.
-Uses east_tn_full_events.json + observation fixtures + synthetic radar.
-Reports detection rate by event type.
+Full backtest. Uses event file + observation fixtures.
+Defaults: east_tn_full_events.json + historical_observations.
+Use --event-file and --obs-dir for national validation.
 """
 
 from __future__ import annotations
 
+import argparse
+import json
 import os
+from pathlib import Path
 
 os.environ["GAIA_OFFLINE"] = "1"
 os.environ["GAIA_NO_EVIDENCE"] = "1"
 
-import json
-from pathlib import Path
-
 ROOT = Path(__file__).resolve().parent.parent
 
 
-def load_events() -> list[dict]:
-    path = ROOT / "tests/fixtures/east_tn_full_events.json"
+def load_events(path: Path) -> list[dict]:
     if not path.exists():
         return []
-    return json.loads(path.read_text())
-
-
-def load_event_observations(event_id: str) -> dict | None:
-    path = ROOT / f"tests/fixtures/historical_observations/event_{event_id}.json"
-    if not path.exists():
-        return None
     return json.loads(path.read_text())
 
 
 def main():
     import sys
     sys.path.insert(0, str(ROOT))
-    from scripts.run_backtest import execute_backtest
+    from scripts.run_backtest import execute_backtest, load_event_observations
 
-    events = load_events()
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--event-file", default=None, help="Event JSON (default: east_tn_full_events.json)")
+    ap.add_argument("--obs-dir", default=None, help="Observation fixtures dir (default: historical_observations)")
+    args = ap.parse_args()
+
+    event_path = Path(args.event_file) if args.event_file else ROOT / "tests/fixtures/east_tn_full_events.json"
+    obs_dir = Path(args.obs_dir) if args.obs_dir else ROOT / "tests/fixtures/historical_observations"
+
+    events = load_events(event_path)
     have_obs = []
     for e in events:
-        if load_event_observations(e["event_id"]):
+        if load_event_observations(e["event_id"], obs_dir=obs_dir):
             have_obs.append(e)
     print(f"Full backtest: {len(have_obs)} events with observations (of {len(events)} total)")
     if not have_obs:
-        print("Run fetch_asos_full_backtest.py first to build observation fixtures.")
+        print("Run fetch_asos_full_backtest.py or fetch_asos_national_backtest.py first.")
         return 1
 
     celestial_path = ROOT / "tests/fixtures/historical_kp.json"
@@ -53,6 +53,7 @@ def main():
         quiet_files=[],
         include_upper_air=False,
         celestial_fixture_path=celestial_path,
+        obs_dir=obs_dir,
     )
     print(f"\nOverall: {out['detected']}/{out['events_tested']} ({out['detection_rate']}%)")
     if out.get("lead_times_minutes"):

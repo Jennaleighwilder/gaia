@@ -1,0 +1,18 @@
+{
+  "event_id": "national_20",
+  "date": "1997-07-30",
+  "event_datetime_utc": "1997-07-30T18:00:00Z",
+  "magnitude": "",
+  "county": "shasta",
+  "state": "CA",
+  "station": "KHNX",
+  "composite_reflectivity": 5,
+  "velocity_max": 0.0,
+  "velocity_min": -0.0,
+  "rotation_couplet_kt": 0.0,
+  "rotation_score": 0.0,
+  "vil": 0,
+  "echo_top_km": 12,
+  "tornado_indicated": false,
+  "file_key": "(synthetic)"
+}

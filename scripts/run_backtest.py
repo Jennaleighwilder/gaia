@@ -46,8 +46,9 @@ def load_json(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
-def load_event_observations(event_id: str) -> dict | None:
-    path = ROOT / f"tests/fixtures/historical_observations/event_{event_id}.json"
+def load_event_observations(event_id: str, obs_dir: Path | None = None) -> dict | None:
+    base = obs_dir or (ROOT / "tests/fixtures/historical_observations")
+    path = base / f"event_{event_id}.json"
     return load_json(path) if path.exists() else None
 
 
@@ -176,6 +177,9 @@ def _payload_for_observation(
         payload["flash_flood_fixture"] = dataset["flash_flood_fixture"]
         payload["soil_moisture"] = dataset["flash_flood_fixture"].get("soil_moisture")
         payload["terrain"] = {"valley_flood_risk": dataset["flash_flood_fixture"].get("valley_risk", 0.5)}
+    if event and dataset.get("wildfire_fixture"):
+        payload["wildfire_fixture"] = dataset["wildfire_fixture"]
+        payload["soil_moisture"] = payload.get("soil_moisture") or dataset["wildfire_fixture"].get("soil_moisture")
     if obs.get("precip_1h_in") is not None:
         payload["precip_rate_in_hr"] = obs["precip_1h_in"]
     elif event and event.get("event_type") == "flash_flood" and window:
@@ -185,16 +189,20 @@ def _payload_for_observation(
     return payload
 
 
-def _load_radar_fixture(event: dict | None) -> dict | None:
+def _load_radar_fixture(event: dict | None, nexrad_dir: Path | None = None) -> dict | None:
     if not event:
         return None
-    nexrad_dir = ROOT / "tests" / "fixtures" / "nexrad"
+    ndir = nexrad_dir or (ROOT / "tests" / "fixtures" / "nexrad")
     event_id = event.get("event_id", "")
-    date_str = event.get("date", "")
-    if not event_id or not date_str:
+    date_str = event.get("date", "")[:10]
+    if not event_id or not date_str or len(date_str) != 10:
         return None
-    path = nexrad_dir / f"{date_str}_{event_id}_KMRX.json"
+    # East TN: KMRX. National: {date}_{event_id}_{STATION}.json — glob for any station
+    path = ndir / f"{date_str}_{event_id}_KMRX.json"
     if not path.exists():
+        matches = list(ndir.glob(f"{date_str}_{event_id}_*.json"))
+        path = matches[0] if matches else None
+    if not path or not path.exists():
         return None
     try:
         data = json.loads(path.read_text())
@@ -205,6 +213,7 @@ def _load_radar_fixture(event: dict | None) -> dict | None:
             "rotation_couplet_kt": data.get("rotation_couplet_kt"),
             "vil": data.get("vil"),
             "echo_top_km": data.get("echo_top_km"),
+            "rotation_score": data.get("rotation_score"),
         }
     except Exception:
         return None
@@ -228,6 +237,9 @@ def run_single_event(
             "valley_risk": 0.75,
         }
         dataset = {**dataset, "flash_flood_fixture": ff_fixture}
+    if event and event.get("event_type") in ("wildfire", "dense_smoke"):
+        wf_fixture = dataset.get("wildfire_fixture") or {}
+        dataset = {**dataset, "wildfire_fixture": wf_fixture}
     observations = dataset.get("observations", [])
     timeline = []
     max_decision = "CLEAR"
@@ -250,6 +262,9 @@ def run_single_event(
         if decision_rank[result["decision"]] > decision_rank[max_decision]:
             max_decision = result["decision"]
         if event and event.get("event_type") == "flash_flood" and result.get("flash_flood_warning"):
+            if max_decision == "CLEAR":
+                max_decision = "WARNING"
+        if event and event.get("event_type") in ("wildfire", "dense_smoke") and result.get("wildfire_warning"):
             if max_decision == "CLEAR":
                 max_decision = "WARNING"
         obs_dt = _dt(obs["timestamp"])
@@ -357,6 +372,7 @@ def execute_backtest(
     quiet_files: list[Path],
     include_upper_air: bool,
     celestial_fixture_path: Path | None = None,
+    obs_dir: Path | None = None,
 ) -> dict:
     detected = 0
     missed = 0
@@ -378,7 +394,7 @@ def execute_backtest(
     quiet_composite = []
 
     for event in events:
-        dataset = load_event_observations(event["event_id"])
+        dataset = load_event_observations(event["event_id"], obs_dir=obs_dir)
         if not dataset or not dataset.get("observations"):
             continue
         result = run_single_event(

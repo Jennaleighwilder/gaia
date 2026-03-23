@@ -28,3 +28,13 @@ runs/
 dist/
 build/
 *.log
+
+# Large data (keep locally, not in repo)
+data/memory/
+data/national_events.json
+data/storm_events/
+
+# Large data (keep locally, not in repo)
+data/memory/
+data/national_events.json
+data/storm_events/

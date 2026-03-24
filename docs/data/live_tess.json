@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-03-24T23:39:38.934079+00:00",
+  "date": "2026-03-24",
+  "layers": {
+    "origin": {
+      "score": 0.716,
+      "mei": -0.76,
+      "pdo": -1.01
+    },
+    "transport": {
+      "score": 0.8,
+      "ao": -1.26,
+      "pna": -0.56
+    },
+    "loading": {
+      "score": 0.7,
+      "nino34_anom": 0.23
+    }
+  },
+  "tess_score": 0.963,
+  "signals": [
+    "LA_NINA",
+    "PDO_NEG_STRONG",
+    "AO_NEG_STRONG",
+    "LANINA_SPRING_GULF"
+  ],
+  "errors": [],
+  "layers_firing": 3,
+  "risk_level": "ELEVATED"
+}

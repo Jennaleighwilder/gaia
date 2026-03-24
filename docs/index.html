@@ -73,6 +73,16 @@
     <p>10 East Tennessee counties: Knox, Sevier, Blount, Greene, Hamblen, Hawkins, Washington, Grainger, Sullivan, Anderson.</p>
     <p>TRI (Toxics Release Inventory) awareness: 87 hazmat facilities in the region. GAIA factors proximity to chemical facilities when issuing warnings.</p>
 
+    <h2>Phase 4 — Paper package (ERA5 + dual-pol)</h2>
+    <p>
+      Validation artifacts and scripts are in-repo. Summary metrics (regenerate detailed tables locally; <code>runs/</code> is not committed):
+    </p>
+    <ul>
+      <li><strong>ERA5 / TESS lead time:</strong> median <span class="highlight">35.0 days</span> across <strong>17</strong> of <strong>35</strong> major outbreaks since 1990 (first day with TESS ≥ 0.70 in a 45-day pre-event window). Script: <code>scripts/era5_outbreak_reverse_engineer.py</code>.</li>
+      <li><strong>Mayfield dual-pol debris signature:</strong> confirmed on <strong>2021-12-11 08:03:15 UTC</strong> — Z 61.5 dBZ, CC_min 0.208, ZDR_median 0.22 dB; <strong>86.8 min</strong> before Mayfield impact (09:30 UTC). Script: <code>scripts/dualpol_debris_detector.py</code>.</li>
+    </ul>
+    <p><a href="PHASE4_VALIDATION.md" style="color:#58a6ff;">Phase 4 markdown summary →</a> (view on GitHub or clone)</p>
+
     <h2>Live Status</h2>
     <p>
       <a href="https://theforgottencode.com/gaia" class="cta">View GAIA Dashboard →</a>

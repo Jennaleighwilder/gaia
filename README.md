@@ -15,7 +15,8 @@ Dashboard: http://127.0.0.1:5001
 
 ## Deployment
 
-- **GitHub Pages:** `./scripts/deploy_github_pages.sh` — prepares docs for Pages
+- **GitHub Pages:** In repo **Settings → Pages**, set source to branch **`main`** and folder **`/docs`** *or* **`/` (root)**. This repo includes **`docs/.nojekyll`** and **`.nojekyll`** so Jekyll does not replace the site with `README.md`. The public page is **`docs/index.html`** (and root **`index.html`** mirrors it for root deploys).
+- **Live Flask dashboard** (`/live`, TESS + ASOS + soundings): static hosting cannot run it; use `python -m runtime.dashboard.app` or your hosted stack.
 - **Docs:** See `docs/GAIA_SYSTEM_SUMMARY.md` for full system description
 
 ## Performance vs NWS

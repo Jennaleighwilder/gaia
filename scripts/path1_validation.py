@@ -23,6 +23,7 @@ if str(ROOT) not in sys.path:
 RUNS = ROOT / "runs"
 REPORT_PATH = RUNS / "path1_validation_report.txt"
 REPORT_SCOUTS_PATH = RUNS / "path1_scouts_report.txt"
+REPORT_REAL_FIELDS_PATH = RUNS / "path1_real_fields_report.txt"
 
 LA_NINA_PERIODS = [
     (1998, 7, 2001, 2),
@@ -90,15 +91,50 @@ FEATURE_KEYS_SCOUT = [
     "scout_in_peak",
 ]
 
+# NCEP Z500 + OISST anom + div200 + daily AO + season_score (no AO/Z500/Gulf proxies)
+FEATURE_KEYS_REAL_FIELDS = [
+    "phase_anomaly",
+    "ao_anomaly",
+    "mei_anomaly",
+    "pdo_anomaly",
+    "pna_anomaly",
+    "mjo_favorable",
+    "ao_daily",
+    "ao_trend_14d",
+    "ao_plunge",
+    "scout_season_score",
+    "scout_in_peak",
+    "z500_anomaly_central_us",
+    "z500_ridge_anomaly_rockies",
+    "jet_amplification",
+    "gulf_oisst_anomaly",
+    "gulf_oisst_warm_pulse",
+    "div_200mb_anomaly",
+    "jet_exit_corridor",
+]
+
 
 def _collect_la_nina_records(
-    outbreak_ym: set[str], *, use_scouts: bool, scout_network: bool
+    outbreak_ym: set[str],
+    *,
+    use_scouts: bool,
+    use_real_fields: bool,
+    scout_network: bool,
 ) -> list[dict]:
     from scripts.historical_tess import compute_tess_full
 
+    from runtime.ingest.divergence_client import DivergenceClient
+    from runtime.ingest.gulf_oisst_client import GulfOISSTClient
     from runtime.ingest.scout_streams import ScoutStreams
+    from runtime.ingest.z500_client import Z500Client
 
-    scouts = ScoutStreams(use_network=scout_network) if use_scouts else None
+    scouts = (
+        ScoutStreams(use_network=scout_network) if (use_scouts or use_real_fields) else None
+    )
+    zc = Z500Client(use_network=scout_network) if use_real_fields else None
+    gc = GulfOISSTClient(use_network=scout_network) if use_real_fields else None
+    dc = DivergenceClient(use_network=scout_network) if use_real_fields else None
+
     records: list[dict] = []
     for sy, sm, ey, em in LA_NINA_PERIODS:
         y, m = sy, sm
@@ -122,7 +158,25 @@ def _collect_la_nina_records(
                 "gulf_sst": float(r.get("gulf_sst_anomaly", 0)),
                 "spring": 1 if m in (3, 4, 5) else 0,
             }
-            if scouts is not None:
+            if use_real_fields and zc is not None and gc is not None and dc is not None and scouts:
+                ao = scouts.get_ao_plunge(dt)
+                se = scouts.get_seasonal_loading(dt)
+                z = zc.get_z500_anomaly(y, m)
+                g = gc.get_gulf_sst_anomaly(y, m)
+                d = dc.get_upper_divergence(y, m)
+                row["ao_daily"] = float(ao.get("ao_daily", 0))
+                row["ao_trend_14d"] = float(ao.get("ao_trend", 0))
+                row["ao_plunge"] = 1.0 if ao.get("ao_plunge_detected") else 0.0
+                row["scout_season_score"] = float(se.get("season_score", 0))
+                row["scout_in_peak"] = 1.0 if se.get("in_peak_season") else 0.0
+                row["z500_anomaly_central_us"] = float(z.get("z500_anomaly_central_us", 0))
+                row["z500_ridge_anomaly_rockies"] = float(z.get("z500_ridge_anomaly_rockies", 0))
+                row["jet_amplification"] = float(z.get("jet_amplification", 0))
+                row["gulf_oisst_anomaly"] = float(g.get("gulf_oisst_anomaly", 0))
+                row["gulf_oisst_warm_pulse"] = 1.0 if g.get("gulf_oisst_warm_pulse") else 0.0
+                row["div_200mb_anomaly"] = float(d.get("div_200mb_anomaly", 0))
+                row["jet_exit_corridor"] = 1.0 if d.get("jet_exit_over_corridor") else 0.0
+            elif scouts is not None:
                 for k, v in scouts.get_all_scouts(dt)["features"].items():
                     row[k] = float(v)
             records.append(row)
@@ -234,8 +288,12 @@ def _predict_proba(X: list[list[float]], w: list[float]) -> list[float]:
     return out
 
 
-def _feature_keys(use_scouts: bool) -> list[str]:
-    return FEATURE_KEYS_BASE + FEATURE_KEYS_SCOUT if use_scouts else FEATURE_KEYS_BASE
+def _feature_keys(use_scouts: bool, use_real_fields: bool) -> list[str]:
+    if use_real_fields:
+        return list(FEATURE_KEYS_REAL_FIELDS)
+    if use_scouts:
+        return FEATURE_KEYS_BASE + FEATURE_KEYS_SCOUT
+    return FEATURE_KEYS_BASE
 
 
 def _records_to_X(records: list[dict], keys: list[str]) -> tuple[list[list[float]], list[int]]:
@@ -259,7 +317,11 @@ def _kfold_indices(n: int, k: int, seed: int) -> list[tuple[list[int], list[int]
 
 
 def run_steps(
-    buf: StringIO, *, use_scouts: bool = False, scout_network: bool = True
+    buf: StringIO,
+    *,
+    use_scouts: bool = False,
+    use_real_fields: bool = False,
+    scout_network: bool = True,
 ) -> dict:
     def pr(*a, **k):
         s = k.get("sep", " ")
@@ -267,9 +329,11 @@ def run_steps(
         print(line)
         buf.write(line + "\n")
 
-    feature_keys = _feature_keys(use_scouts)
+    feature_keys = _feature_keys(use_scouts, use_real_fields)
     pr("=" * 72)
-    if use_scouts:
+    if use_real_fields:
+        pr("PATH 1 + REAL FIELDS (NCEP Z500, OISST Gulf anom, div200, daily AO, season_score)")
+    elif use_scouts:
         pr("PATH 1 + SCOUTS (sub-monthly layer; Z500=AO proxy, Gulf=ERSST+trend)")
     else:
         pr("PATH 1 VALIDATION (La Niña months only for model training domain)")
@@ -331,7 +395,10 @@ def run_steps(
     pr()
     pr("=== STEP 2: Variable discrimination (La Niña only) ===")
     records = _collect_la_nina_records(
-        outbreak_ym, use_scouts=use_scouts, scout_network=scout_network
+        outbreak_ym,
+        use_scouts=use_scouts,
+        use_real_fields=use_real_fields,
+        scout_network=scout_network,
     )
     ob = [r for r in records if r["outbreak"]]
     non = [r for r in records if not r["outbreak"]]
@@ -349,7 +416,18 @@ def run_steps(
         "mjo_favorable",
         "gulf_sst",
     ]
-    if use_scouts:
+    if use_real_fields:
+        var_list.extend(
+            [
+                "ao_daily",
+                "z500_anomaly_central_us",
+                "gulf_oisst_anomaly",
+                "div_200mb_anomaly",
+                "scout_season_score",
+                "jet_amplification",
+            ]
+        )
+    elif use_scouts:
         var_list.extend(
             [
                 "ao_daily",
@@ -373,7 +451,9 @@ def run_steps(
     # --- STEP 3 ---
     pr()
     pr("=== STEP 3: 5-fold CV logistic on La Niña feature matrix ===")
-    if use_scouts:
+    if use_real_fields:
+        pr(f"(Features: {len(feature_keys)} cols — real Z500 / OISST / div200 + AO + season)")
+    elif use_scouts:
         pr(f"(Features: {len(feature_keys)} cols incl. scouts)")
     X_raw, y = _records_to_X(records, feature_keys)
     n = len(records)
@@ -444,7 +524,7 @@ def run_steps(
     probs_full = _predict_proba(X_b, w_full)
     base = _mean([float(v) for v in y])
 
-    if use_scouts:
+    if use_scouts or use_real_fields:
         wc = sorted(
             zip(feature_keys, w_full[:-1]),
             key=lambda t: abs(t[1]),
@@ -452,18 +532,22 @@ def run_steps(
         )[:3]
         top3 = ", ".join(f"{a}({b:+.3f})" for a, b in wc)
         pr()
-        pr("=== SCOUT BUILD REPORT (requested headline metrics) ===")
-        pr(f"1) Mean CV AUC with scouts: {mean_auc:.3f}  (baseline Path 1 without scouts: ~0.693)")
+        pr("=== EXTENDED MODEL REPORT (scouts or real fields) ===")
+        label = "real fields + AO + season" if use_real_fields else "scouts"
+        pr(f"1) Mean CV AUC ({label}): {mean_auc:.3f}  (baseline Path 1 only: ~0.693)")
         pr(
             f"2) Std of per-fold AUC: {_pstdev(cv_aucs):.3f}  (baseline ~0.232)"
             if cv_aucs
             else "2) Std of per-fold AUC: n/a (insufficient rows for CV)"
         )
         pr(f"3) Top 3 features by |logistic weight| (full fit): {top3}")
-        pr(
-            "Note: Seasonal scout features (peak season, season_score) align with MAM outbreak"
-            " clustering; they can inflate in-sample separation while hurting honest CV."
-        )
+        if use_real_fields:
+            pr("Note: Monthly NCEP/OISST fields — sub-monthly evolution not resolved here.")
+        else:
+            pr(
+                "Note: Seasonal scout features align with MAM outbreak clustering;"
+                " can distort CV when predicting outbreak months."
+            )
 
     pr()
     pr("=== STEP 3b: In-sample probability thresholds (La Niña, full fit) ===")
@@ -496,15 +580,56 @@ def run_steps(
     pr("PRE-ELEVATED: p≥T for every month in lookback (cannot attribute a new crossing).")
     pr()
 
+    from runtime.ingest.divergence_client import DivergenceClient
+    from runtime.ingest.gulf_oisst_client import GulfOISSTClient
     from runtime.ingest.scout_streams import ScoutStreams
+    from runtime.ingest.z500_client import Z500Client
     from scripts.historical_tess import compute_tess_full
 
-    scout_reader = ScoutStreams(use_network=scout_network) if use_scouts else None
+    scout_reader = (
+        ScoutStreams(use_network=scout_network) if (use_scouts or use_real_fields) else None
+    )
+    zc_rf = Z500Client(use_network=scout_network) if use_real_fields else None
+    gc_rf = GulfOISSTClient(use_network=scout_network) if use_real_fields else None
+    dc_rf = DivergenceClient(use_network=scout_network) if use_real_fields else None
 
     def features_for_month(yr: int, mo: int) -> list[float]:
         r = compute_tess_full(datetime(yr, mo, 15), use_network=False)
         an = r.get("anomalies") or {}
-        parts: list[float] = [
+        if (
+            use_real_fields
+            and scout_reader is not None
+            and zc_rf is not None
+            and gc_rf is not None
+            and dc_rf is not None
+        ):
+            dt = datetime(yr, mo, 15)
+            ao = scout_reader.get_ao_plunge(dt)
+            se = scout_reader.get_seasonal_loading(dt)
+            z = zc_rf.get_z500_anomaly(yr, mo)
+            g = gc_rf.get_gulf_sst_anomaly(yr, mo)
+            d = dc_rf.get_upper_divergence(yr, mo)
+            return [
+                float(r.get("phase_anomaly_score", 0)),
+                float(an.get("ao", 0)),
+                float(an.get("mei", 0)),
+                float(an.get("pdo", 0)),
+                float(an.get("pna", 0)),
+                1.0 if r.get("mjo_favorable") else 0.0,
+                float(ao.get("ao_daily", 0)),
+                float(ao.get("ao_trend", 0)),
+                1.0 if ao.get("ao_plunge_detected") else 0.0,
+                float(se.get("season_score", 0)),
+                1.0 if se.get("in_peak_season") else 0.0,
+                float(z.get("z500_anomaly_central_us", 0)),
+                float(z.get("z500_ridge_anomaly_rockies", 0)),
+                float(z.get("jet_amplification", 0)),
+                float(g.get("gulf_oisst_anomaly", 0)),
+                1.0 if g.get("gulf_oisst_warm_pulse") else 0.0,
+                float(d.get("div_200mb_anomaly", 0)),
+                1.0 if d.get("jet_exit_over_corridor") else 0.0,
+            ]
+        parts = [
             float(r.get("phase_anomaly_score", 0)),
             float(an.get("ao", 0)),
             float(an.get("mei", 0)),
@@ -514,7 +639,7 @@ def run_steps(
             float(r.get("gulf_sst_anomaly", 0)),
             1.0 if mo in (3, 4, 5) else 0.0,
         ]
-        if scout_reader is not None:
+        if scout_reader is not None and not use_real_fields:
             sc = scout_reader.get_all_scouts(datetime(yr, mo, 15))["features"]
             parts.extend(float(sc[k]) for k in FEATURE_KEYS_SCOUT)
         return parts
@@ -611,7 +736,7 @@ def run_steps(
     else:
         pr("PATH 1 GATE: FAIL or INCOMPLETE — frame a weaker claim or add data / refit.")
 
-    if use_scouts:
+    if use_scouts or use_real_fields:
         pr()
         pr("=== CONTROL: April 2011 vs January 2011 (same La Niña) ===")
         pr("Scout composite at D−35, D−21, D−14, D−7, D−3 before each anchor date.")
@@ -645,12 +770,37 @@ def run_steps(
                 "radar + sounding layers remain the strongest independent results."
             )
 
+        if use_real_fields:
+            pr()
+            pr("--- Real fields at probe month (calendar month of D−14 / D−7) ---")
+            zc2 = Z500Client(use_network=scout_network)
+            gc2 = GulfOISSTClient(use_network=scout_network)
+            dc2 = DivergenceClient(use_network=scout_network)
+            for label, target in [
+                ("APR 27 2011", datetime(2011, 4, 27)),
+                ("JAN 15 2011", datetime(2011, 1, 15)),
+            ]:
+                pr(f"  {label}:")
+                for db in (14, 7):
+                    chk = target - timedelta(days=db)
+                    z = zc2.get_z500_anomaly(chk.year, chk.month)
+                    # OISST cache keys use month-center day=15; align with Path 1 monthly rows
+                    g = gc2.get_gulf_sst_anomaly(chk.year, chk.month, day=15)
+                    d = dc2.get_upper_divergence(chk.year, chk.month)
+                    pr(
+                        f"    D-{db} (mo={chk.year}-{chk.month:02d}): "
+                        f"Z500_c={z.get('z500_anomaly_central_us')} "
+                        f"Gulf_anom={g.get('gulf_oisst_anomaly')} "
+                        f"div_anom={d.get('div_200mb_anomaly')}"
+                    )
+
     return {
         "step1_sep": overall_sep,
         "mean_cv_auc": mean_auc,
         "optimal_t": optimal_t,
         "median_lead_days": sorted(leads)[len(leads) // 2] if leads else None,
         "use_scouts": use_scouts,
+        "use_real_fields": use_real_fields,
     }
 
 
@@ -667,11 +817,28 @@ def main() -> int:
         action="store_true",
         help="Scouts use cache only (no new HTTP for AO/Gulf/MJO)",
     )
+    ap.add_argument(
+        "--with-real-fields",
+        action="store_true",
+        help="NCEP Z500 + OISST Gulf + div200 + daily AO + season_score (implies network fetch)",
+    )
     args = ap.parse_args()
     buf = StringIO()
     scout_net = not args.scout_offline
-    run_steps(buf, use_scouts=args.with_scouts, scout_network=scout_net)
-    out_path = REPORT_SCOUTS_PATH if args.with_scouts else REPORT_PATH
+    use_real = bool(args.with_real_fields)
+    use_scout = bool(args.with_scouts) or use_real
+    run_steps(
+        buf,
+        use_scouts=use_scout,
+        use_real_fields=use_real,
+        scout_network=scout_net,
+    )
+    if use_real:
+        out_path = REPORT_REAL_FIELDS_PATH
+    elif args.with_scouts:
+        out_path = REPORT_SCOUTS_PATH
+    else:
+        out_path = REPORT_PATH
     out_path.write_text(buf.getvalue())
     print(f"\nWrote {out_path}")
     return 0

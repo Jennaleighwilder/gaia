@@ -1239,3 +1239,13 @@ document.addEventListener('DOMContentLoaded', applyTessToPage);
 
 </body>
 </html>
+<script>
+// Fetch live TESS from Render API
+fetch('https://gaia-api-cfxi.onrender.com/api/bundle')
+  .then(r=>r.json())
+  .then(d=>{
+    if(d.tess){
+      document.getElementById('nav-time') && (window.__GAIA_TESS__=d.tess);
+    }
+  }).catch(()=>{});
+</script>

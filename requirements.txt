@@ -15,3 +15,4 @@ arm-pyart>=2.0
 
 # Dashboard:
 flask>=3.0
+gunicorn>=22.0

@@ -127,4 +127,10 @@ def dispatch(alerts: list[dict]) -> list[Path]:
         log_to_sqlite(alert)
         post_webhook(alert)
         send_sms(alert)
+        try:
+            from runtime.alerts.email_subscribers import notify_subscribers as email_notify_subscribers
+
+            email_notify_subscribers(alert)
+        except Exception as e:
+            logger.warning("Subscriber email notify failed: %s", e)
     return paths

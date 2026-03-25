@@ -303,23 +303,8 @@ class ERA5DailyAO:
             "area": AO_AREA,
         }
         ds = _retrieve_to_dataset(c, DATASET_DAILY, request)
-        name = _find_geopotential_name(ds)
-        z = ds[name]
-        hgt_data: dict[str, list[float]] = {}
-
-        time_coord = z["time"] if "time" in z.dims else z.coords.get("time")
-        if time_coord is None:
-            raise ValueError("expected time dimension in CDS daily dataset")
-
-        import pandas as pd
-
-        for t_idx in range(int(z.sizes["time"])):
-            z1 = z.isel(time=t_idx).squeeze()
-            tv = time_coord.values[t_idx]
-            date_str = pd.Timestamp(tv).strftime("%Y-%m-%d")
-            hgt = np.asarray(_z_to_height_m(z1.values), dtype=np.float64).reshape(-1)
-            hgt_data[date_str] = hgt.tolist()
-
+        # CDS NetCDF often uses valid_time; reuse same path as local import.
+        hgt_data = _daily_heights_dict_from_dataset(ds)
         with open(cache, "w", encoding="utf-8") as f:
             json.dump(hgt_data, f)
         return hgt_data

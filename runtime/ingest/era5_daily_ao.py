@@ -23,6 +23,8 @@ import numpy as np
 ROOT = Path(__file__).resolve().parents[2]
 CACHE_DIR = ROOT / "data" / "cache" / "era5_daily_ao"
 AO_LOADING_PATTERN_FILE = CACHE_DIR / "ao_loading_pattern.npy"
+# Single La Niña-corpus EOF (sign-fixed) used by rebuild_global_eof_la_nina_archive.
+GLOBAL_EOF_LOADING_FILE = CACHE_DIR / "eof_global_la_nina_signfixed.npy"
 # Merge period outputs into this path for DailyAOArchive to consume when CPC is down.
 ERA5_DAILY_AO_ARCHIVE_PATH = CACHE_DIR / "daily_ao_archive.json"
 
@@ -356,6 +358,166 @@ class ERA5DailyAO:
             json.dump(daily_ao, f)
         print(f"Saved {len(daily_ao)} daily AO values -> {output_cache}")
         return daily_ao
+
+
+def la_nina_validation_months() -> list[tuple[int, int]]:
+    """Calendar (year, month) in each Path 1 La Niña window (104 months)."""
+    from scripts.path1_validation import LA_NINA_PERIODS, _advance_month, _ym_leq
+
+    out: list[tuple[int, int]] = []
+    for sy, sm, ey, em in LA_NINA_PERIODS:
+        y, m = sy, sm
+        while _ym_leq((y, m), (ey, em)):
+            out.append((y, m))
+            y, m = _advance_month(y, m)
+    return out
+
+
+def iter_daily_height_rows_sorted(cache_dir: Path | None = None):
+    """Yield (date_str, vec) in chronological order from `hgt1000_daily_*.json` (streaming)."""
+    cdir = cache_dir or CACHE_DIR
+    for hgt_file in sorted(cdir.glob("hgt1000_daily_*.json")):
+        with open(hgt_file, encoding="utf-8") as f:
+            month_data = json.load(f)
+        for date_str in sorted(month_data.keys()):
+            vec = np.asarray(month_data[date_str], dtype=np.float64)
+            yield date_str, vec
+
+
+def collect_sorted_daily_height_rows(cache_dir: Path | None = None) -> list[tuple[str, np.ndarray]]:
+    """All days in memory — use only for small tests; prefer `iter_daily_height_rows_sorted`."""
+    return list(iter_daily_height_rows_sorted(cache_dir))
+
+
+def _infer_nlat_nlon(n_pix: int) -> tuple[int, int]:
+    for nlon in (1440, 720, 360):
+        if n_pix % nlon == 0:
+            return n_pix // nlon, nlon
+    raise ValueError(f"cannot infer lat×lon from n_pix={n_pix}")
+
+
+def _polar_midlat_index_slices(nlat: int, nlon: int, dlat: float = 0.25) -> tuple[slice, slice]:
+    """Polar cap 70–90°N and midlat 20–50°N for ERA5 20–90°N strip (row 0 = 90°N)."""
+    r70 = int(round((90.0 - 70.0) / dlat))
+    r50 = int(round((90.0 - 50.0) / dlat))
+    r20 = int(round((90.0 - 20.0) / dlat))
+    polar = slice(0, min((r70 + 1) * nlon, nlat * nlon))
+    midlat = slice(min(r50 * nlon, nlat * nlon), min((r20 + 1) * nlon, nlat * nlon))
+    return polar, midlat
+
+
+def _estimate_daily_corpus_bytes(cache_dir: Path) -> int:
+    n_files = len(list(cache_dir.glob("hgt1000_daily_*.json")))
+    return int(n_files * 31 * 404640 * 8)
+
+
+def rebuild_global_eof_la_nina_archive(
+    cache_dir: Path | None = None,
+    *,
+    power_iters: int = 14,
+    max_materialize_bytes: int = 5_000_000_000,
+    rng: np.random.Generator | None = None,
+) -> dict[str, float]:
+    """
+    One EOF across **all** cached daily NH height fields: subtract global time-mean at each
+    grid point, power-iterate leading eigenvector of X'X (memory-safe), fix sign so mean
+    loading over 70–90°N is **negative** (positive AO → low polar heights in projection
+    convention), project, z-score scores globally. Writes `eof_global_la_nina_signfixed.npy`
+    and overwrites `daily_ao_archive.json` with {**monthly_interp_fallback, **era5_z}.
+
+    Monthly interpolation fills dates outside La Niña fetches so 35-day Path 1 windows
+    still have values where ERA5 months were not pulled.
+    """
+    from runtime.ingest.daily_ao_archive import _interpolated_daily_from_monthly
+
+    cdir = cache_dir or CACHE_DIR
+    est = _estimate_daily_corpus_bytes(cdir)
+    use_dense = est <= max_materialize_bytes
+
+    if use_dense:
+        rows = collect_sorted_daily_height_rows(cdir)
+        if len(rows) < 10:
+            raise ValueError("need at least ~10 daily fields in hgt1000_daily_*.json")
+        n_pix = int(rows[0][1].size)
+        for ds, vec in rows:
+            if vec.size != n_pix:
+                raise ValueError(f"grid size mismatch {ds}: {vec.size} vs {n_pix}")
+        X = np.stack([r[1] for r in rows], axis=0).astype(np.float64)
+        dates = [r[0] for r in rows]
+        mu = X.mean(axis=0)
+        Xc = X - mu
+        _u, _s, vt = np.linalg.svd(Xc, full_matrices=False)
+        v = vt[0].astype(np.float64, copy=False)
+    else:
+        n_pix = None
+        n_rows = 0
+        mu = np.zeros(1, dtype=np.float64)
+
+        for ds, vec in iter_daily_height_rows_sorted(cdir):
+            if n_pix is None:
+                n_pix = int(vec.size)
+                mu = np.zeros(n_pix, dtype=np.float64)
+            elif vec.size != n_pix:
+                raise ValueError(f"grid size mismatch {ds}: {vec.size} vs {n_pix}")
+            mu += vec
+            n_rows += 1
+
+        if n_rows < 10 or n_pix is None:
+            raise ValueError("need at least ~10 daily fields in hgt1000_daily_*.json")
+
+        mu /= float(n_rows)
+
+        rng = rng or np.random.default_rng(42)
+        v = rng.standard_normal(n_pix)
+        v /= np.linalg.norm(v) + 1e-30
+
+        for _ in range(power_iters):
+            acc = np.zeros(n_pix, dtype=np.float64)
+            for _ds, vec in iter_daily_height_rows_sorted(cdir):
+                xc = vec - mu
+                acc += xc * float(np.dot(xc, v))
+            nrm = np.linalg.norm(acc)
+            if nrm < 1e-30:
+                break
+            v = acc / nrm
+
+    nlat, nlon = _infer_nlat_nlon(n_pix)
+    polar_sl, _mid_sl = _polar_midlat_index_slices(nlat, nlon)
+    if float(v[polar_sl].mean()) > 0:
+        v = -v
+
+    np.save(GLOBAL_EOF_LOADING_FILE, v.astype(np.float64))
+
+    if use_dense:
+        scores_arr = (Xc @ v).astype(np.float64)
+    else:
+        dates = []
+        sl: list[float] = []
+        for ds, vec in iter_daily_height_rows_sorted(cdir):
+            dates.append(ds)
+            sl.append(float(np.dot(vec - mu, v)))
+        scores_arr = np.asarray(sl, dtype=np.float64)
+
+    sd = float(scores_arr.std())
+    if sd < 1e-12:
+        sd = 1.0
+
+    daily_ao_era5 = {dates[i]: round(float(scores_arr[i] / sd), 3) for i in range(len(dates))}
+
+    # Merge: ERA5 z-scored days overwrite monthly interpolation only on those dates.
+    # Mixing scales in one 35-day window is avoided once most La Niña months are fetched;
+    # until then, windows that fall entirely inside fetched months are pure ERA5 z.
+    base = _interpolated_daily_from_monthly()
+    base.update(daily_ao_era5)
+
+    ERA5_DAILY_AO_ARCHIVE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    ERA5_DAILY_AO_ARCHIVE_PATH.write_text(json.dumps(base, indent=2), encoding="utf-8")
+    # Refresh main AO cache so Path 1 does not keep a stale `daily_ao_full.json` (<7d).
+    import runtime.ingest.daily_ao_archive as _daa
+
+    _daa.CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    _daa.CACHE_PATH.write_text(json.dumps(base, indent=2), encoding="utf-8")
+    return daily_ao_era5
 
 
 def load_era5_daily_ao_archive(path: Path | None = None) -> dict[str, float]:

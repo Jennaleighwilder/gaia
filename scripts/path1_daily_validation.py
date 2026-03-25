@@ -139,13 +139,20 @@ def run(*, use_network: bool) -> dict:
     pr("=" * 72)
     pr("PATH 1 DAILY / WEEKLY FEATURES (La Niña domain)")
     pr("=" * 72)
-    pr(
-        "NOTE: NOAA CPC daily AO ASCII is currently 404 from this environment. "
-        "If `data/cache/daily_ao_full.json` was built from `ao_monthly.dat` "
-        "(15th-of-month linear interpolation), AO 'plunge' stats are NOT true "
-        "sub-weekly CPC AO — prefer a local CPC mirror when available. "
-        "Gulf features use real OISST weekly ERDDAP `anom`."
-    )
+    from runtime.ingest.era5_daily_ao import GLOBAL_EOF_LOADING_FILE
+
+    if GLOBAL_EOF_LOADING_FILE.exists():
+        pr(
+            "NOTE: AO uses global La Niña ERA5 EOF (sign-fixed) + z-scored daily index; "
+            "`daily_ao_archive.json` merges ERA5 days over monthly AO interpolation for gaps. "
+            "Gulf: real OISST weekly ERDDAP `anom`."
+        )
+    else:
+        pr(
+            "NOTE: NOAA CPC daily AO ASCII is often 404. Without global ERA5 EOF, "
+            "`ao_monthly.dat` interpolation may fill AO — sub-weekly structure is limited. "
+            "Gulf: real OISST weekly ERDDAP `anom`."
+        )
     pr("Loading archives (AO once; Gulf lazy per ISO week)...")
     records = build_records(use_network=use_network)
     pr(f"Rows: {len(records)}  outbreak months: {sum(r['outbreak'] for r in records)}")

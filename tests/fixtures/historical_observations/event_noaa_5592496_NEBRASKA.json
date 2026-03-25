@@ -1,0 +1,190 @@
+{
+  "event_id": "noaa_5592496_NEBRASKA",
+  "event_date": "1997-04-04",
+  "event_datetime_utc": "1997-04-04T18:00:00Z",
+  "station": "KCDR",
+  "county": "DAWES",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1997-04-04T00:48:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 040048Z 19009KT 25SM FEW250 19/02 A2959 RMK T01890015",
+      "sky_condition": "FEW",
+      "temperature_f": 66.0,
+      "dewpoint_f": 34.7,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1997-04-04T01:49:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 040149Z 17009KT 20SM FEW100 13/00 A2958 RMK T01290004",
+      "sky_condition": "FEW",
+      "temperature_f": 55.22,
+      "dewpoint_f": 32.72,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1997-04-04T02:51:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 040251Z 17014KT 10SM SCT100 14/00 A2959 RMK T01391001",
+      "sky_condition": "SCT",
+      "temperature_f": 57.0,
+      "dewpoint_f": 31.82,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-04-04T03:45:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 040345Z 16022KT 10SM SCT100 16/05 A2958 RMK T01560050",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-04-04T04:49:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 040449Z 17024KT 15SM SKC 14/05 A2956 RMK LAST T01440051",
+      "sky_condition": "CLR",
+      "temperature_f": 58.0,
+      "dewpoint_f": 41.18,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 27.618719999999996,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-04T12:48:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 041248Z 00000KT 30SM SCT120 SCT200 BKN250 07/06 A2949 RMK FIRST T00680058 24HR HIGH 24.5 CELSIUS OVERNIGHT LOW 05.6 CELSIUS",
+      "sky_condition": "SCT",
+      "temperature_f": 44.24,
+      "dewpoint_f": 42.44,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-04-04T13:49:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 041349Z 17010KT 30SM FEW120 SCT200 BKN250 10/06 A2949 RMK T00960062",
+      "sky_condition": "FEW",
+      "temperature_f": 49.28,
+      "dewpoint_f": 43.16,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-04-04T14:46:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 041446Z 18018KT 30SM FEW009 FEW120 SCT200 BKN250 10/06 A2947 RMK T01000061",
+      "sky_condition": "FEW",
+      "temperature_f": 50.0,
+      "dewpoint_f": 43.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-04-04T15:55:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 041555Z 18018G24KT 30SM FEW009 SCT100 BKN250 13/06 A2945 RMK T01310063",
+      "sky_condition": "FEW",
+      "temperature_f": 55.58,
+      "dewpoint_f": 43.34,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-04-04T16:49:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 041649Z 19016KT 30SM FEW010 SCT100 BKN250 16/07 A2943 RMK T01600066",
+      "sky_condition": "FEW",
+      "temperature_f": 60.8,
+      "dewpoint_f": 43.88,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-04-04T17:51:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 041751Z 16016KT 30SM SCT010 BKN100 BKN250 17/07 A2940 RMK T01670069 RASH NE",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 44.42,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-04-04T18:51:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 041851Z 18011KT 30SM SCT040 BKN100 OVC250 17/06 A2938 RMK T01720063",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 43.34,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-04-04T20:52:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 042052Z 16012KT 20SM BKN040 OVC080 15/07 A2933 RMK RASHN SNSH SE T01510071",
+      "sky_condition": "BKN",
+      "temperature_f": 59.18,
+      "dewpoint_f": 44.78,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1997-04-04T21:55:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 042155Z 13007KT 15SM BKN030 OVC060 13/10 A2933 RMK OCNLRASH RASH ALQDS T01280102",
+      "sky_condition": "BKN",
+      "temperature_f": 55.0,
+      "dewpoint_f": 50.36,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-04T22:49:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 042249Z 03015KT 20SM -RA SCT080 BKN030 OVC060 09/09 A2934 RMK RA39 T00930085",
+      "sky_condition": "SCT",
+      "temperature_f": 48.74,
+      "dewpoint_f": 47.3,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1997-04-04T23:56:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 042356Z 02015KT 5SM -RASH BKN060 OVC012 08/07 A2934 RMK 60022 T00780067 12HR HIGH 18.3 LOW 5.6",
+      "sky_condition": "   ",
+      "temperature_f": 46.0,
+      "dewpoint_f": 44.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false
+}

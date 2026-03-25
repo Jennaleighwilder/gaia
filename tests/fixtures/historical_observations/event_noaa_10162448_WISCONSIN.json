@@ -1,0 +1,134 @@
+{
+  "event_id": "noaa_10162448_WISCONSIN",
+  "event_date": "1985-06-08",
+  "event_datetime_utc": "1985-06-08T18:00:00Z",
+  "station": "KRHI",
+  "county": "ONEIDA",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1985-06-08T00:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 080000Z 00000KT 10SM BKN030 19/18 A2975 RMK SLPNO T01940178",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1985-06-08T01:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 080100Z 00000KT 10SM SCT030 20/17 A2975 RMK SLPNO T02000167",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1985-06-08T02:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 080200Z 00000KT 10SM SCT030 SCT150 18/17 A2974 RMK SLPNO T01830167",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1985-06-08T14:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 081400Z 00000KT 15SM SCT150 SCT200 21/14 A2977 RMK SLPNO T02060144",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-06-08T15:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 081500Z 23004KT 15SM SCT150 SCT200 23/17 A2978 RMK SLPNO T02280167",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-06-08T16:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 081600Z 00000KT 15SM BKN150 BKN200 24/12 A2976 RMK SLPNO T02390122",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-06-08T18:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 081800Z 18005KT 15SM SCT080 BKN150 BKN200 27/12 A2968 RMK SLPNO T02720122",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-06-08T20:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 082000Z 18007KT 15SM BKN080 BKN100 29/14 A2965 RMK SLPNO T02890144",
+      "sky_condition": "BKN",
+      "temperature_f": 84.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-06-08T21:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 082100Z 16005KT 15SM SCT080 29/17 A2961 RMK SLPNO T02940172",
+      "sky_condition": "SCT",
+      "temperature_f": 85.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-06-08T22:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 082200Z 18005KT 15SM SCT080 29/17 A2958 RMK SLPNO T02940167",
+      "sky_condition": "SCT",
+      "temperature_f": 85.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-06-08T23:00:00Z",
+      "station_id": "KRHI",
+      "metar": "METAR KRHI 082300Z 16004KT 5SM TSRA SCT030 OVC050 28/18 A2955 RMK TB45 FQT LGTCG SLPNO T02780183",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false
+}

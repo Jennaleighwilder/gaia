@@ -1,0 +1,40 @@
+{
+  "event_id": "noaa_5590313_SOUTH DAKOTA",
+  "event_date": "1997-01-15",
+  "event_datetime_utc": "1997-01-15T18:00:00Z",
+  "station": "KMBG",
+  "county": "DEWEY",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1997-01-17T02:52:00Z",
+      "station_id": "KMBG",
+      "metar": "KMBG 170252Z AUTO 25005KT 12SM M24/M27 A3036 RMK SLP344 T12401270 56003 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": -11.2,
+      "dewpoint_f": -16.6,
+      "pressure_mb": 1034.4,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 12.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1997-01-22T20:52:00Z",
+      "station_id": "KMBG",
+      "metar": "KMBG 222052Z AUTO 36013G20KT 8SM M18/M20 A3009 RMK SLP231 T11801200 51012 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": -0.4,
+      "dewpoint_f": -4.0,
+      "pressure_mb": 1023.1,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

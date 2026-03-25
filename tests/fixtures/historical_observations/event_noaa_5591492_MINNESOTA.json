@@ -1,0 +1,27 @@
+{
+  "event_id": "noaa_5591492_MINNESOTA",
+  "event_date": "1997-01-04",
+  "event_datetime_utc": "1997-01-04T18:00:00Z",
+  "station": "KRWF",
+  "county": "LYON",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "1997-01-04T14:53:00Z",
+      "station_id": "KRWF",
+      "metar": "KRWF 041453Z AUTO 07014G21KT 4SM 01/00 A2935 RMK SLP949 T00100000 58010 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 33.8,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 994.9,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 24.166379999999997,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

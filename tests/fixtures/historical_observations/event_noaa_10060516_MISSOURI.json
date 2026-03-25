@@ -1,0 +1,101 @@
+{
+  "event_id": "noaa_10060516_MISSOURI",
+  "event_date": "1965-04-10",
+  "event_datetime_utc": "1965-04-10T18:00:00Z",
+  "station": "KSTJ",
+  "county": "BUCHANAN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1965-04-10T00:00:00Z",
+      "station_id": "KSTJ",
+      "metar": "METAR KSTJ 100000Z 12013KT 15SM OVC/// 14/07 A//// RMK SLPNO T01440072",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-10T03:00:00Z",
+      "station_id": "KSTJ",
+      "metar": "METAR KSTJ 100300Z 12012KT 10SM OVC/// 12/07 A//// RMK SLPNO T01220072",
+      "sky_condition": "OVC",
+      "temperature_f": 54.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-04-10T06:00:00Z",
+      "station_id": "KSTJ",
+      "metar": "METAR KSTJ 100600Z 13011KT 10SM -SHRA BKN/// OVC/// 13/07 A//// RMK SLPNO T01280072",
+      "sky_condition": "BKN",
+      "temperature_f": 55.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-04-10T09:00:00Z",
+      "station_id": "KSTJ",
+      "metar": "METAR KSTJ 100900Z 12016KT 8SM SCT/// SCT/// 12/07 A//// RMK SLPNO T01220072",
+      "sky_condition": "SCT",
+      "temperature_f": 54.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1965-04-10T12:00:00Z",
+      "station_id": "KSTJ",
+      "metar": "METAR KSTJ 101200Z 12012KT 6SM DZ OVC/// 12/08 A//// RMK SLPNO T01170078",
+      "sky_condition": "OVC",
+      "temperature_f": 53.0,
+      "dewpoint_f": 46.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1965-04-10T15:00:00Z",
+      "station_id": "KSTJ",
+      "metar": "METAR KSTJ 101500Z 16014KT 7SM SCT/// BKN/// OVC/// 16/11 A//// RMK SLPNO T01560111",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1965-04-10T18:00:00Z",
+      "station_id": "KSTJ",
+      "metar": "METAR KSTJ 101800Z 18018KT 8SM BKN/// OVC/// 21/14 A//// RMK SLPNO T02110139",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1965-04-10T21:00:00Z",
+      "station_id": "KSTJ",
+      "metar": "METAR KSTJ 102100Z 17015KT 8SM -TSRA BKN/// OVC/// 21/17 A//// RMK SLPNO T02060172",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 8.0
+    }
+  ],
+  "estimated": false
+}

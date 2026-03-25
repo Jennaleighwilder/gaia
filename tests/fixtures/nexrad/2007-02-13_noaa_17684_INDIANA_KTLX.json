@@ -1,0 +1,18 @@
+{
+  "event_id": "noaa_17684_INDIANA",
+  "date": "2007-02-13",
+  "event_datetime_utc": "2007-02-13T18:00:00Z",
+  "magnitude": "",
+  "county": "de kalb",
+  "state": "INDIANA",
+  "station": "KTLX",
+  "composite_reflectivity": 55,
+  "velocity_max": 22.5,
+  "velocity_min": -22.5,
+  "rotation_couplet_kt": 45.0,
+  "rotation_score": 0.72,
+  "vil": 40,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

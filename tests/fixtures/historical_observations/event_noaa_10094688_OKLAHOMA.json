@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_10094688_OKLAHOMA",
+  "event_date": "1968-04-19",
+  "event_datetime_utc": "1968-04-19T18:00:00Z",
+  "station": "KOKC",
+  "county": "SEMINOLE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-04-19T00:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 190000Z 35015KT 5SM DZ OVC/// 14/12 A//// RMK SLP148 T01390117",
+      "sky_condition": "OVC",
+      "temperature_f": 57.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1014.8,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1968-04-19T03:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 190300Z 04012KT 7SM -SHRA OVC/// 13/12 A//// RMK SLP148 T01330122",
+      "sky_condition": "OVC",
+      "temperature_f": 56.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1014.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-04-19T06:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 190600Z 02012KT 4SM TSRA OVC/// 13/13 A//// RMK SLP137 P0060 T01330133",
+      "sky_condition": "OVC",
+      "temperature_f": 56.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1013.7,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.6
+    },
+    {
+      "timestamp": "1968-04-19T09:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 190900Z 13006KT 15SM OVC/// 14/14 A//// RMK SLP099 T01390139",
+      "sky_condition": "OVC",
+      "temperature_f": 57.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1009.9,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-04-19T12:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 191200Z 12012KT 8SM -SHRA SCT/// OVC/// 15/14 A//// RMK SLP099 P0001 T01500144",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1009.9,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1968-04-19T15:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 191500Z 15009KT 7SM SCT/// BKN/// OVC/// 18/17 A//// RMK SLP080 T01780167",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1008.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-04-19T18:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 191800Z 22008KT 8SM -SHRA SCT/// BKN/// OVC/// 18/16 A//// RMK SLP066 P0001 T01830161",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1006.6,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1968-04-19T21:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 192100Z 24015KT 10SM SCT/// BKN/// OVC/// 23/16 A//// RMK SLP025 T02280161",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1002.5,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

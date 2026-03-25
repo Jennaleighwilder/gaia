@@ -1,0 +1,167 @@
+{
+  "event_id": "noaa_5561745_CONNECTICUT",
+  "event_date": "1996-01-07",
+  "event_datetime_utc": "1996-01-07T18:00:00Z",
+  "station": "KGON",
+  "county": "SOUTHERN NEW LONDON",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1996-01-07T00:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 070000Z 32007KT 15SM SCT250 M11/M22 A3040 RMK SLPNO T11121223",
+      "sky_condition": "SCT",
+      "temperature_f": 11.84,
+      "dewpoint_f": -8.14,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T02:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 070200Z 33010KT 15SM CLR M12/M21 A3042 RMK SLPNO T11171206",
+      "sky_condition": "CLR",
+      "temperature_f": 11.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T03:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 070300Z 34010KT 15SM SCT250 M12/M22 A3042 RMK LAST; SLPNO T11231217",
+      "sky_condition": "SCT",
+      "temperature_f": 9.86,
+      "dewpoint_f": -7.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T12:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 071200Z 03012KT 15SM OVC050 M12/M20 A3036 RMK SLPNO T11231200",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": -4.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T13:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 071300Z 02010KT 15SM OVC050 M12/M20 A3035 RMK SLPNO T11231200",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": -4.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T14:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 071400Z 01010KT 15SM OVC050 M12/M19 A3034 RMK SLPNO T11171189",
+      "sky_condition": "OVC",
+      "temperature_f": 11.0,
+      "dewpoint_f": -2.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T15:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 071500Z 02010KT 8SM -SN OVC035 M11/M18 A3033 RMK SLPNO T11121178",
+      "sky_condition": "OVC",
+      "temperature_f": 11.84,
+      "dewpoint_f": 0.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1996-01-07T16:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 071600Z 03010KT 7SM -SN OVC035 M10/M16 A3029 RMK SLPNO T10951156",
+      "sky_condition": "OVC",
+      "temperature_f": 14.9,
+      "dewpoint_f": 4.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-07T18:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 071800Z 01008KT 3/4SM -SN OVC004 M08/M12 A3020 RMK SLPNO T10781117",
+      "sky_condition": "OVC",
+      "temperature_f": 18.0,
+      "dewpoint_f": 11.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-07T19:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 071900Z 05015KT 3/4SM -SN OVC004 M07/M09 A3013 RMK PRESFR; SLPNO T10671089",
+      "sky_condition": "OVC",
+      "temperature_f": 20.0,
+      "dewpoint_f": 16.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-07T20:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 072000Z 05015KT 3/4SM -SN OVC005 M07/M08 A3009 RMK SLPNO T10671084",
+      "sky_condition": "OVC",
+      "temperature_f": 20.0,
+      "dewpoint_f": 16.88,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-07T21:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 072100Z 04015KT 5/16SM SN OVC002 M06/M08 A3005 RMK SLPNO T10621078",
+      "sky_condition": "OVC",
+      "temperature_f": 20.84,
+      "dewpoint_f": 18.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 0.31
+    },
+    {
+      "timestamp": "1996-01-07T22:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 072200Z 04017KT 1/4SM +SN -BLSN OVC001 M06/M08 A2998 RMK PRESFR; SLPNO T10621078",
+      "sky_condition": "OVC",
+      "temperature_f": 20.84,
+      "dewpoint_f": 18.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1996-01-07T23:00:00Z",
+      "station_id": "KGON",
+      "metar": "KGON 072300Z 05016KT 1/4SM +SN OVC001 M06/M07 A3000 RMK SLPNO T10621073",
+      "sky_condition": "OVC",
+      "temperature_f": 20.84,
+      "dewpoint_f": 18.86,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 0.25
+    }
+  ],
+  "estimated": false
+}

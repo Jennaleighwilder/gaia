@@ -1,0 +1,179 @@
+{
+  "event_id": "noaa_10021022_KANSAS",
+  "event_date": "1985-08-17",
+  "event_datetime_utc": "1985-08-17T18:00:00Z",
+  "station": "KMHK",
+  "county": "WABAUNSEE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1985-08-17T00:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 170000Z 17006KT 10SM SCT040 29/21 A2985 RMK SLPNO T02890211",
+      "sky_condition": "SCT",
+      "temperature_f": 84.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1985-08-17T01:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 170100Z 17007KT 15SM CLR 28/21 A2985 RMK SLPNO T02780206",
+      "sky_condition": "CLR",
+      "temperature_f": 82.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T03:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 170300Z 16005KT 15SM CLR 25/19 A2985 RMK LAST SLPNO T02500194",
+      "sky_condition": "CLR",
+      "temperature_f": 77.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T11:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 171100Z 03015KT 15SM TS BKN035 21/16 A2996 RMK T SW MOVMT UNK LTGICCCCG SW-NW-NE-E SLPNO T02110161",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T12:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 171200Z 10005KT 15SM TS SCT035 BKN070 OVC250 19/16 A2994 RMK T SE MOVG SE LTGICCCCG N-E-S SLPNO T01940156",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T13:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 171300Z 07005KT 15SM SCT035 BKN060 19/17 A2995 RMK TE48 MOVD SE CB E-SE CBMAM SE LTGICCG E-SE SLPNO T01940167",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T14:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 171400Z 08012KT 15SM SCT007 BKN035 20/17 A2996 RMK TCU SW SCT V BKN SLPNO T02000172",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T15:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 171500Z 09010G22KT 15SM SCT040 22/19 A2993 RMK SLPNO T02220194",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T16:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 171600Z 13008KT 15SM SCT080 SCT150 24/21 A2994 RMK ACCAS SE SLPNO T02440206",
+      "sky_condition": "SCT",
+      "temperature_f": 76.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T17:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 171700Z 17009KT 15SM SCT009 SCT080 BKN250 28/22 A2993 RMK SLPNO T02780222",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T19:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 171900Z 20008KT 15SM SCT010 BKN080 BKN250 28/22 A2994 RMK SLPNO T02830222",
+      "sky_condition": "SCT",
+      "temperature_f": 83.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T20:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 172000Z 15008KT 15SM SCT010 BKN080 BKN250 29/22 A2992 RMK SLPNO T02890222",
+      "sky_condition": "SCT",
+      "temperature_f": 84.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T21:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 172100Z 17008KT 15SM BKN040 BKN100 29/23 A2991 RMK SLPNO T02940228",
+      "sky_condition": "BKN",
+      "temperature_f": 85.0,
+      "dewpoint_f": 73.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T22:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 172200Z 11006KT 15SM BKN040 31/23 A2991 RMK SLPNO T03060233",
+      "sky_condition": "BKN",
+      "temperature_f": 87.0,
+      "dewpoint_f": 74.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1985-08-17T23:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 172300Z 01008KT 15SM BKN040 BKN100 31/23 A2991 RMK DRK NW-SW/APFROP SLPNO T03060233",
+      "sky_condition": "BKN",
+      "temperature_f": 87.0,
+      "dewpoint_f": 74.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

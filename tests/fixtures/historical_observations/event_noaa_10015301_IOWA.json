@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10015301_IOWA",
+  "event_date": "1965-08-26",
+  "event_datetime_utc": "1965-08-26T18:00:00Z",
+  "station": "KALO",
+  "county": "BENTON",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1965-08-26T00:00:00Z",
+      "station_id": "KALO",
+      "metar": "KALO 260000Z 19005KT 15SM SCT/// SCT/// 27/22 A//// RMK SLP036 T02720217",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1003.6,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-08-26T03:00:00Z",
+      "station_id": "KALO",
+      "metar": "KALO 260300Z 30006KT 15SM SCT/// SCT/// 19/17 A//// RMK SLP058 T01890172",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1005.8,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-08-26T06:00:00Z",
+      "station_id": "KALO",
+      "metar": "KALO 260600Z 11003KT 15SM CLR 16/15 A//// RMK SLP065 T01610150",
+      "sky_condition": "CLR",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1006.5,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-08-26T09:00:00Z",
+      "station_id": "KALO",
+      "metar": "KALO 260900Z 29003KT 15SM CLR 13/13 A//// RMK SLP061 T01330133",
+      "sky_condition": "CLR",
+      "temperature_f": 56.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1006.1,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-08-26T12:00:00Z",
+      "station_id": "KALO",
+      "metar": "KALO 261200Z 00000KT 6SM FG SCT/// BKN/// 13/13 A//// RMK SLP078 70020 T01280128",
+      "sky_condition": "SCT",
+      "temperature_f": 55.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1007.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1965-08-26T15:00:00Z",
+      "station_id": "KALO",
+      "metar": "KALO 261500Z 09007KT 8SM SCT/// BKN/// 22/19 A//// RMK SLP071 T02170189",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1007.1,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1965-08-26T18:00:00Z",
+      "station_id": "KALO",
+      "metar": "KALO 261800Z 15012KT 10SM SCT/// SCT/// BKN/// 22/18 A//// RMK SLP053 T02220183",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1005.3,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-08-26T21:00:00Z",
+      "station_id": "KALO",
+      "metar": "KALO 262100Z 22005KT 10SM SCT/// BKN/// BKN/// 29/18 A//// RMK SLP061 T02890183",
+      "sky_condition": "SCT",
+      "temperature_f": 84.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1006.1,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

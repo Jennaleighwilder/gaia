@@ -1,0 +1,249 @@
+{
+  "event_id": "noaa_10004043_INDIANA",
+  "event_date": "1953-04-09",
+  "event_datetime_utc": "1953-04-09T18:00:00Z",
+  "station": "KLAF",
+  "county": "CLINTON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1953-04-09T00:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090000Z AUTO 13512KT 10SM CLR CLR CLR 12/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 53.6,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-09T01:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090100Z AUTO 13508KT 10SM CLR CLR CLR 12/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 53.6,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-09T02:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090200Z AUTO 09003KT 7SM CLR CLR CLR 12/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 53.6,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1953-04-09T03:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090300Z AUTO 09009KT 7SM CLR CLR CLR 11/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 51.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1953-04-09T04:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090400Z AUTO 06807KT 7SM CLR CLR CLR 10/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 50.0,
+      "wind_direction_deg": 68.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1953-04-09T05:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090500Z AUTO 06806KT 7SM CLR CLR CLR 09/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 48.2,
+      "wind_direction_deg": 68.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1953-04-09T06:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090600Z AUTO 06809KT 7SM CLR 09/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 48.2,
+      "wind_direction_deg": 68.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1953-04-09T07:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090700Z AUTO 04507KT 7SM CLR CLR CLR 09/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 48.2,
+      "wind_direction_deg": 45.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1953-04-09T08:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090800Z AUTO 06807KT 6SM CLR CLR CLR CLR 09/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 48.2,
+      "wind_direction_deg": 68.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1953-04-09T09:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 090900Z AUTO 09003KT 5SM CLR CLR CLR 08/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 46.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1953-04-09T10:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091000Z AUTO 11305KT 4SM CLR CLR CLR 08/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 46.4,
+      "wind_direction_deg": 113.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1953-04-09T11:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091100Z AUTO 13504KT 2 1/2SM CLR CLR CLR 09/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 48.2,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1953-04-09T12:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091200Z AUTO 13503KT 2 1/2SM CLR CLR CLR CLR 12/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 53.6,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1953-04-09T13:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091300Z AUTO 5SM CLR CLR CLR 14/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 57.2,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1953-04-09T14:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091400Z AUTO 7SM CLR CLR CLR CLR 18/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 64.4,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1953-04-09T15:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091500Z AUTO 18008KT 8SM CLR CLR CLR CLR 20/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 68.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1953-04-09T16:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091600Z AUTO 18009KT 10SM CLR CLR CLR CLR 22/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 71.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-09T17:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091700Z AUTO 20312KT 12SM CLR CLR 23/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 73.4,
+      "wind_direction_deg": 203.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1953-04-09T18:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091800Z AUTO 20314KT 12SM CLR CLR CLR 24/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 75.2,
+      "wind_direction_deg": 203.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1953-04-09T19:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 091900Z AUTO 20314KT 15SM CLR CLR 26/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 78.8,
+      "wind_direction_deg": 203.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1953-04-09T20:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 092000Z AUTO 20315KT 15SM CLR CLR 26/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 78.8,
+      "wind_direction_deg": 203.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1953-04-09T21:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 092100Z AUTO 20322KT 15SM CLR CLR 26/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 78.8,
+      "wind_direction_deg": 203.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1953-04-09T22:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 092200Z AUTO 18010KT 15SM CLR 23/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 73.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1953-04-09T23:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 092300Z AUTO 13504KT 10SM CLR CLR 22/ RMK IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 71.6,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,80 @@
+{
+  "event_id": "noaa_5628289_COLORADO",
+  "event_date": "1998-01-12",
+  "event_datetime_utc": "1998-01-12T18:00:00Z",
+  "station": "KLXV",
+  "county": "SUMMIT COUNTY/MOSQUITO RANGE/INDIAN PEAKS / S GRAND / SUMMIT / W CLEAR CREEK / W GILPIN / SW BOULDER / NW PARK",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 6,
+  "observations": [
+    {
+      "timestamp": "1998-01-12T15:00:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 121500Z 04006KT 5SM -SNBR BKN020 M07/M08 A2983 RMK NOFIRST 70001 4/011 410101122",
+      "sky_condition": "BKN",
+      "temperature_f": 19.4,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-01-12T16:20:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 121620Z 26006KT 4SM BR BKN020 M06/M08 A2991 RMK NOSPECI",
+      "sky_condition": "BKN",
+      "temperature_f": 21.2,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-01-12T17:55:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 121755Z 29016G25KT 250V320 BKN025 M03/M05 A2991 RMK VIS N 8 NO60000 21122 51019",
+      "sky_condition": "BKN",
+      "temperature_f": 26.6,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 28.769499999999997
+    },
+    {
+      "timestamp": "1998-01-12T19:55:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 121955Z 34009G21KT 30SM BKN035 M02/M13 A2989 RMK NOSPECI",
+      "sky_condition": "BKN",
+      "temperature_f": 28.4,
+      "dewpoint_f": 8.6,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 10.357019999999999,
+      "wind_gust_mph": 24.166379999999997,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1998-01-12T21:00:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 122100Z 35007KT 25SM VCSH BKN040 M02/M13 A2993 RMK VIS N 7 NOSPECI",
+      "sky_condition": "BKN",
+      "temperature_f": 28.4,
+      "dewpoint_f": 8.6,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-01-12T23:30:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 122330Z 36010KT 30SM VCSH SCT040 M04/M09 A2995 RMK NOLAST 4/011 410111122 51015",
+      "sky_condition": "SCT",
+      "temperature_f": 24.8,
+      "dewpoint_f": 15.8,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 30.0
+    }
+  ],
+  "estimated": false
+}

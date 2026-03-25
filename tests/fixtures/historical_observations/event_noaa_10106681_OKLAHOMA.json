@@ -1,0 +1,40 @@
+{
+  "event_id": "noaa_10106681_OKLAHOMA",
+  "event_date": "1981-05-22",
+  "event_datetime_utc": "1981-05-22T18:00:00Z",
+  "station": "KPWA",
+  "county": "CADDO",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 3,
+  "observations": [
+    {
+      "timestamp": "1981-05-06T02:00:00Z",
+      "station_id": "KPWA",
+      "metar": "KPWA 060200Z AUTO 35006KT 15SM A3002 RMK IEM_DS3505",
+      "sky_condition": null,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1981-05-07T07:00:00Z",
+      "station_id": "KPWA",
+      "metar": "KPWA 070700Z AUTO 00000KT 20SM OVC246 A3000 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1981-05-16T15:00:00Z",
+      "station_id": "KPWA",
+      "metar": "KPWA 161500Z AUTO 14016KT 6SM BKN006 BKN012 OVC098 A2979 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

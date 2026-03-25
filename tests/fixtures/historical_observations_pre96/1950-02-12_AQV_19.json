@@ -1,0 +1,70 @@
+{
+  "event": {
+    "event_id": "noaa_10032625_LOUISIANA",
+    "event_type": "Tornado",
+    "state": "LOUISIANA",
+    "county": "SABINE",
+    "date": "1950-02-12",
+    "event_datetime_utc": "1950-02-12T18:00:00Z",
+    "year": 1950,
+    "deaths": 5,
+    "injuries": 25,
+    "magnitude": "F3",
+    "lat": 31.63,
+    "lon": -93.65,
+    "narrative": "",
+    "source_file": "StormEvents_details-ftp_v1.0_d1950_c20260323.csv",
+    "noaa_event_id": "10032625"
+  },
+  "station": "AQV",
+  "observations": [
+    {
+      "#DEBUG: Format Typ    -> comma": "#DEBUG: Time Period   -> 1950-02-12 00:00:00+00:00 1950-02-13 00:00:00+00:00"
+    },
+    {
+      "#DEBUG: Format Typ    -> comma": "#DEBUG: Time Zone     -> UTC"
+    },
+    {
+      "#DEBUG: Format Typ    -> comma": "#DEBUG: Data Contact   -> daryl herzmann akrherz@iastate.edu 515-294-5978"
+    },
+    {
+      "#DEBUG: Format Typ    -> comma": "#DEBUG: Entries Found -> -1"
+    },
+    {
+      "#DEBUG: Format Typ    -> comma": "station",
+      "null": [
+        "valid",
+        "lon",
+        "lat",
+        "tmpf",
+        "dwpf",
+        "relh",
+        "drct",
+        "sknt",
+        "p01i",
+        "alti",
+        "mslp",
+        "vsby",
+        "gust",
+        "skyc1",
+        "skyc2",
+        "skyc3",
+        "skyc4",
+        "skyl1",
+        "skyl2",
+        "skyl3",
+        "skyl4",
+        "wxcodes",
+        "ice_accretion_1hr",
+        "ice_accretion_3hr",
+        "ice_accretion_6hr",
+        "peak_wind_gust",
+        "peak_wind_drct",
+        "peak_wind_time",
+        "feel",
+        "metar",
+        "snowdepth"
+      ]
+    }
+  ]
+}

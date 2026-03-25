@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_9979265_ALABAMA",
+  "event_date": "1967-03-06",
+  "event_datetime_utc": "1967-03-06T18:00:00Z",
+  "station": "KBHM",
+  "county": "WALKER",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1967-03-06T00:00:00Z",
+      "station_id": "KBHM",
+      "metar": "KBHM 060000Z 18012KT 15SM BKN/// BKN/// 23/16 A//// RMK SLP095 T02280156",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1009.5,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1967-03-06T03:00:00Z",
+      "station_id": "KBHM",
+      "metar": "KBHM 060300Z 19015KT 15SM SCT/// SCT/// BKN/// 21/17 A//// RMK SLP091 T02110167",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1009.1,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1967-03-06T06:00:00Z",
+      "station_id": "KBHM",
+      "metar": "KBHM 060600Z 20016KT 10SM OVC/// 21/17 A//// RMK SLP083 T02060172",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1008.3,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1967-03-06T09:00:00Z",
+      "station_id": "KBHM",
+      "metar": "KBHM 060900Z 20014KT 10SM BKN/// OVC/// 20/17 A//// RMK SLP071 T02000167",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1007.1,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1967-03-06T12:00:00Z",
+      "station_id": "KBHM",
+      "metar": "KBHM 061200Z 20013KT 10SM SCT/// BKN/// BKN/// 19/17 A//// RMK SLP065 T01940172",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1006.5,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1967-03-06T15:00:00Z",
+      "station_id": "KBHM",
+      "metar": "KBHM 061500Z 21012KT 10SM OVC/// 21/18 A//// RMK SLP069 T02110183",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1006.9,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1967-03-06T18:00:00Z",
+      "station_id": "KBHM",
+      "metar": "KBHM 061800Z 21014KT 10SM OVC/// 24/16 A//// RMK SLP030 T02390161",
+      "sky_condition": "OVC",
+      "temperature_f": 75.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1003.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1967-03-06T21:00:00Z",
+      "station_id": "KBHM",
+      "metar": "KBHM 062100Z 20016KT 15SM SCT/// OVC/// 23/19 A//// RMK SLP978 P0002 T02280189",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 997.8,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0,
+      "precip_1h_in": 0.02
+    }
+  ],
+  "estimated": false
+}

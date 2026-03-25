@@ -1,0 +1,18 @@
+{
+  "event_id": "noaa_5586606_ALASKA",
+  "date": "1997-01-10",
+  "event_datetime_utc": "1997-01-10T18:00:00Z",
+  "magnitude": "55",
+  "county": "eastern baranof island and southern admiralty island",
+  "state": "ALASKA",
+  "station": "KTLX",
+  "composite_reflectivity": 70,
+  "velocity_max": 47.5,
+  "velocity_min": -47.5,
+  "rotation_couplet_kt": 95.0,
+  "rotation_score": 0.98,
+  "vil": 60,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

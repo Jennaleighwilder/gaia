@@ -1,0 +1,47 @@
+{
+  "event_id": "event_20228",
+  "event_date": "2000-12-19",
+  "event_datetime_utc": "2000-12-19T18:00:00Z",
+  "station": "PAWI",
+  "county": "",
+  "event_type": "earthquake",
+  "magnitude": 4.1,
+  "observation_count": 3,
+  "observations": [
+    {
+      "timestamp": "2000-12-19T00:04:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 190004Z AUTO 10021KT 3/4SM UP BR FEW014 BKN022 OVC030 M19/M21 RMK AO2 TSNO PNO $",
+      "sky_condition": "FEW",
+      "temperature_f": -2.2,
+      "dewpoint_f": -5.8,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 24.166379999999997,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "2000-12-19T17:53:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 191753Z AUTO 08022KT 1 1/4SM BR OVC014 M22/M23 RMK AO2 PK WND 09026KT/1714 SLPNO 6//// T12171233 11194 21217 TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": -7.0,
+      "dewpoint_f": -10.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "2000-12-19T20:53:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 192053Z AUTO 08024KT 1SM BR OVC060 M21/M23 A3002 RMK AO2 PK WND 08027/2053 UPB38E45 SLP165 6//// T12061228 TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": -5.0,
+      "dewpoint_f": -9.0,
+      "pressure_mb": 1016.5,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 27.618719999999996,
+      "visibility_mi": 1.0
+    }
+  ],
+  "estimated": false
+}

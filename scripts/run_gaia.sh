@@ -4,7 +4,9 @@
 
 cd "$(dirname "$0")/.."
 export GAIA_NO_PROXY="${GAIA_NO_PROXY:-1}"
-export MPLCONFIGDIR="${MPLCONFIGDIR:-/tmp/matplotlib-gaia}"
+# Writable matplotlib cache (avoids ~/.matplotlib permission issues).
+export MPLCONFIGDIR="${MPLCONFIGDIR:-$(pwd)/runs/logs/mpl}"
+mkdir -p "$MPLCONFIGDIR"
 
 echo "Starting GAIA daemon (GAIA_NO_PROXY=$GAIA_NO_PROXY)..."
 .venv/bin/python -m runtime.gaia_daemon &

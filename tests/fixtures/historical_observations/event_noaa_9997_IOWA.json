@@ -1,0 +1,269 @@
+{
+  "event_id": "noaa_9997_IOWA",
+  "event_date": "2007-03-01",
+  "event_datetime_utc": "2007-03-01T18:00:00Z",
+  "station": "KEST",
+  "county": "KOSSUTH",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2007-03-01T00:52:00Z",
+      "station_id": "KEST",
+      "metar": "KEST 010052Z AUTO 12010KT 10SM FEW024 BKN041 OVC080 11/09 A2934 RMK AO2 LTG DSNT E TSE25RAE27 SLP937 P0004 T01110094",
+      "sky_condition": "FEW",
+      "temperature_f": 52.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 993.7,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "2007-03-01T01:52:00Z",
+      "station_id": "KEST",
+      "metar": "KEST 010152Z AUTO 16012KT 8SM -RA FEW010 SCT016 BKN033 11/09 A2933 RMK AO2 RAB49 SLP934 P0000 T01060094",
+      "sky_condition": "FEW",
+      "temperature_f": 51.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 993.4,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2007-03-01T02:52:00Z",
+      "station_id": "KEST",
+      "metar": "KEST 010252Z AUTO 16013KT 10SM SCT011 BKN020 OVC070 10/09 A2931 RMK AO2 RAE38 SLP926 P0001 60005 T01000089 56020",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 48.0,
+      "pressure_mb": 992.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2007-03-01T03:52:00Z",
+      "station_id": "KEST",
+      "metar": "KEST 010352Z AUTO 15013KT 10SM OVC007 10/08 A2929 RMK AO2 SLP921 T01000083",
+      "sky_condition": "OVC",
+      "temperature_f": 50.0,
+      "dewpoint_f": 47.0,
+      "pressure_mb": 992.1,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2007-03-01T04:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 010452Z AUTO 10006KT OVC005 M01/M02 A2954 RMK AO2 SLP018 T10111022 $",
+      "sky_condition": "OVC",
+      "temperature_f": 30.0,
+      "dewpoint_f": 28.0,
+      "pressure_mb": 1001.8,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "2007-03-01T05:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 010552Z AUTO OVC003 M01/M02 A2952 RMK AO2 SLP011 60000 T10061017 11006 21017 410061061 56028 $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 29.0,
+      "pressure_mb": 1001.1
+    },
+    {
+      "timestamp": "2007-03-01T06:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 010652Z AUTO OVC005 M01/M02 A2950 RMK AO2 CIG 003V008 SLP003 T10061017 $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 29.0,
+      "pressure_mb": 1000.3
+    },
+    {
+      "timestamp": "2007-03-01T07:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 010752Z AUTO OVC005 M01/M02 A2948 RMK AO2 SLP995 T10061017 $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 29.0,
+      "pressure_mb": 999.5
+    },
+    {
+      "timestamp": "2007-03-01T08:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 010852Z AUTO OVC007 M01/M02 A2946 RMK AO2 SLP989 T10061017 56014 $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 29.0,
+      "pressure_mb": 998.9
+    },
+    {
+      "timestamp": "2007-03-01T09:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 010952Z AUTO OVC007 M01/M02 A2940 RMK AO2 SLP968 T10111022 $",
+      "sky_condition": "OVC",
+      "temperature_f": 30.0,
+      "dewpoint_f": 28.0,
+      "pressure_mb": 996.8
+    },
+    {
+      "timestamp": "2007-03-01T10:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011052Z AUTO OVC007 M01/M02 A2940 RMK AO2 CIG 004V010 SLP968 T10111017 $",
+      "sky_condition": "OVC",
+      "temperature_f": 30.0,
+      "dewpoint_f": 29.0,
+      "pressure_mb": 996.8
+    },
+    {
+      "timestamp": "2007-03-01T11:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011152Z AUTO -SN OVC006 M01/M02 A2936 RMK AO2 UPB41E46SNB40E41B46 CIG 003V009 SLPNO P0001 60001 70002 T10061017 11006 21011 56032 $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 29.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2007-03-01T12:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011252Z AUTO -SN BKN006 OVC013 M01/M02 A2932 RMK AO2 CIG 004V010 SLP942 P0001 T10111017 $",
+      "sky_condition": "BKN",
+      "temperature_f": 30.0,
+      "dewpoint_f": 29.0,
+      "pressure_mb": 994.2,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2007-03-01T13:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011352Z AUTO -SN OVC006 M01/M02 A2931 RMK AO2 CIG 004V008 SLP937 P0001 T10061017 $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 29.0,
+      "pressure_mb": 993.7,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2007-03-01T14:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011452Z AUTO SN BKN006 OVC010 M01/M01 A2928 RMK AO2 SLP928 P0005 60007 T10061011 56026 $",
+      "sky_condition": "BKN",
+      "temperature_f": 31.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 992.8,
+      "precip_1h_in": 0.05
+    },
+    {
+      "timestamp": "2007-03-01T15:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011552Z AUTO OVC002 M01/M01 A2926 RMK AO2 SNEMM SLP919 P0003 T10061011 PWINO FZRANO $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 991.9,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2007-03-01T16:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011652Z AUTO OVC002 M01/M01 A2925 RMK AO2 SLP915 P0003 T10061011 PWINO FZRANO $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 991.5,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2007-03-01T17:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011752Z AUTO 10009KT OVC002 M01/M01 A2921 RMK AO2 SLP902 P0003 60016 T10061011 11006 21011 58023 PWINO FZRANO $",
+      "sky_condition": "OVC",
+      "temperature_f": 31.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 990.2,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 10.357019999999999,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2007-03-01T18:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011852Z AUTO 36010KT BKN004 OVC008 M01/M02 A2915 RMK AO2 WSHFT 1818 SLP881 T10111022 PWINO FZRANO $",
+      "sky_condition": "BKN",
+      "temperature_f": 30.0,
+      "dewpoint_f": 28.0,
+      "pressure_mb": 988.1,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "2007-03-01T19:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 011952Z AUTO 36010KT BKN002 OVC006 M02/M03 A2916 RMK AO2 SLP886 P0002 T10171028 PWINO FZRANO $",
+      "sky_condition": "BKN",
+      "temperature_f": 29.0,
+      "dewpoint_f": 27.0,
+      "pressure_mb": 988.6,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 11.5078,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2007-03-01T20:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 012052Z AUTO 36008KT BKN002 OVC006 M02/M03 A2914 RMK AO2 SLP881 P0002 60004 T10221028 56022 PWINO FZRANO $",
+      "sky_condition": "BKN",
+      "temperature_f": 28.0,
+      "dewpoint_f": 27.0,
+      "pressure_mb": 988.1,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 9.20624,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2007-03-01T21:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 012152Z AUTO 35008KT FEW008 BKN030 OVC037 M02/M04 A2914 RMK AO2 SLP882 T10221039 PWINO FZRANO $",
+      "sky_condition": "FEW",
+      "temperature_f": 28.0,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 988.2,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "2007-03-01T22:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 012252Z AUTO 34010KT FEW010 BKN013 OVC033 M02/M04 A2915 RMK AO2 SLP883 T10221039 PWINO FZRANO $",
+      "sky_condition": "FEW",
+      "temperature_f": 28.0,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 988.3,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "2007-03-01T23:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 012352Z AUTO 34010KT FEW009 OVC016 M03/M05 A2918 RMK AO2 SLP895 60004 T10331050 11006 21033 53013 PWINO FZRANO $",
+      "sky_condition": "FEW",
+      "temperature_f": 26.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 989.5,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 11.5078
+    }
+  ],
+  "estimated": false
+}

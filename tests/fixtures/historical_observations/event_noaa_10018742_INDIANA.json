@@ -1,0 +1,127 @@
+{
+  "event_id": "noaa_10018742_INDIANA",
+  "event_date": "1986-03-10",
+  "event_datetime_utc": "1986-03-10T18:00:00Z",
+  "station": "KBMG",
+  "county": "MORGAN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 10,
+  "observations": [
+    {
+      "timestamp": "1986-03-10T12:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 101200Z 18015KT 10SM BKN050 16/M A2973 RMK SLPNO T0156////",
+      "sky_condition": "   ",
+      "temperature_f": 60.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1986-03-10T13:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 101300Z 18015G30KT 7SM OVC024 17/12 A2973 RMK SLPNO T01670122",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-03-10T14:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 101400Z 21020G31KT 7SM OVC024 17/12 A2973 RMK SLPNO T01720122",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 35.67418,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-03-10T15:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 101500Z 20018KT 7SM BKN020 OVC025 18/13 A2969 RMK SLPNO T01780128",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-03-10T16:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 101600Z 24014G20KT 2SM -RA FG OVC/// BKN015 OVC025 13/12 A2974 RMK SLPNO T01330122",
+      "sky_condition": "OVC",
+      "temperature_f": 56.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1986-03-10T17:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 101700Z 23008KT 3SM -RA FG SCT007 BKN040 BKN100 12/12 A2968 RMK PRESFR SLPNO T01220117",
+      "sky_condition": "SCT",
+      "temperature_f": 54.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1986-03-10T18:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 101800Z 16014KT 4SM -RA SCT018 BKN040 16/14 A2962 RMK PRESFR SLPNO T01560139",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1986-03-10T20:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 102000Z 27010KT 7SM BKN020 OVC030 13/11 A2953 RMK SLPNO T01330106",
+      "sky_condition": "BKN",
+      "temperature_f": 56.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-03-10T21:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 102100Z 25015KT 10SM SCT020 BKN080 17/12 A2953 RMK SLPNO T01670122",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1986-03-10T22:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 102200Z 24020G30KT 4SM SHRA SCT015 BKN020 BKN060 14/12 A2957 RMK SLPNO T01390117",
+      "sky_condition": "SCT",
+      "temperature_f": 57.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 4.0
+    }
+  ],
+  "estimated": false
+}

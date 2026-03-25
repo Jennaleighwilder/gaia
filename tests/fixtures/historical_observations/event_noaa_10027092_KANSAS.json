@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10027092_KANSAS",
+  "event_date": "1966-05-11",
+  "event_datetime_utc": "1966-05-11T18:00:00Z",
+  "station": "KCNK",
+  "county": "WASHINGTON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1966-05-11T00:00:00Z",
+      "station_id": "KCNK",
+      "metar": "METAR KCNK 110000Z 14025KT 15SM -SHRA BKN/// OVC/// 11/04 A//// RMK SLP067 T01110044",
+      "sky_condition": "BKN",
+      "temperature_f": 52.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1006.7,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1966-05-11T03:00:00Z",
+      "station_id": "KCNK",
+      "metar": "METAR KCNK 110300Z 15012KT 15SM OVC/// 10/06 A//// RMK SLP072 T01000056",
+      "sky_condition": "OVC",
+      "temperature_f": 50.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1007.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1966-05-11T06:00:00Z",
+      "station_id": "KCNK",
+      "metar": "METAR KCNK 110600Z 14013KT 15SM OVC/// 11/07 A//// RMK SLP033 T01060067",
+      "sky_condition": "OVC",
+      "temperature_f": 51.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1003.3,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1966-05-11T09:00:00Z",
+      "station_id": "KCNK",
+      "metar": "METAR KCNK 110900Z 13008KT 8SM OVC/// 11/09 A//// RMK SLP015 T01110094",
+      "sky_condition": "OVC",
+      "temperature_f": 52.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1001.5,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1966-05-11T12:00:00Z",
+      "station_id": "KCNK",
+      "metar": "METAR KCNK 111200Z 15010KT 10SM OVC/// 13/11 A//// RMK SLP007 T01280106",
+      "sky_condition": "OVC",
+      "temperature_f": 55.0,
+      "dewpoint_f": 51.0,
+      "pressure_mb": 1000.7,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1966-05-11T15:00:00Z",
+      "station_id": "KCNK",
+      "metar": "METAR KCNK 111500Z 14013KT 7SM OVC/// 16/14 A//// RMK SLP999 T01560139",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 999.9,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1966-05-11T18:00:00Z",
+      "station_id": "KCNK",
+      "metar": "METAR KCNK 111800Z 24012KT 10SM BKN/// 23/17 A//// RMK SLP976 T02280167",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 997.6,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1966-05-11T21:00:00Z",
+      "station_id": "KCNK",
+      "metar": "METAR KCNK 112100Z 32024KT 15SM OVC/// 16/12 A//// RMK SLP019 T01610117",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1001.9,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 27.618719999999996,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

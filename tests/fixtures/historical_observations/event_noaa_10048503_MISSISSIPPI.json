@@ -1,0 +1,77 @@
+{
+  "event_id": "noaa_10048503_MISSISSIPPI",
+  "event_date": "1975-02-22",
+  "event_datetime_utc": "1975-02-22T18:00:00Z",
+  "station": "KTUP",
+  "county": "UNION",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 6,
+  "observations": [
+    {
+      "timestamp": "1975-02-22T14:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 221400Z 16015KT 7SM OVC030 15/11 A2999 RMK SLPNO T01500111",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-02-22T15:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 221500Z 16015KT 7SM OVC025 16/12 A2999 RMK SLPNO T01560117",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-02-22T19:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 221900Z 16018KT 7SM BKN020 OVC040 18/14 A2990 RMK SLPNO T01780144",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-02-22T20:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 222000Z 18020KT 6SM SCT020 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1975-02-22T21:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 222100Z 16020KT 7SM OVC020 19/16 A2983 RMK SLPNO T01890161",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-02-22T23:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 222300Z 17022KT 7SM OVC020 19/17 A2980 RMK SLPNO T01940167",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

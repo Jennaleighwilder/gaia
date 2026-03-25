@@ -1,0 +1,158 @@
+{
+  "event_id": "noaa_5672229_FLORIDA",
+  "event_date": "1998-11-05",
+  "event_datetime_utc": "1998-11-05T18:00:00Z",
+  "station": "KFPR",
+  "county": "MARTIN",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1998-11-05T00:48:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 050048Z 03008KT 5SM -RA SCT015 OVC020 A2974",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-11-05T01:48:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 050148Z 02012KT 4SM -RA FEW009 BKN015 OVC025 A2972",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-11-05T11:50:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051150Z 08006KT 2SM RA FEW008 BKN018 OVC027 A2945",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1998-11-05T12:48:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051248Z 01015KT 1 1/2SM RA FEW008 BKN011 OVC050 A2938 RMK PRESFR",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1998-11-05T13:50:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051350Z 36020G30KT 1SM +RA BKN010 OVC014 A2945 PRESRR",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1998-11-05T14:50:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051450Z 36020KT 11/2 RA FEW005 BKN014 OVC020 A2949",
+      "sky_condition": "   ",
+      "temperature_f": 51.8,
+      "dewpoint_f": 35.6,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 23.0156
+    },
+    {
+      "timestamp": "1998-11-05T15:47:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051547Z 35015G25KT 4SM -RA BR SCT015 BKN020 OVC050 A2949",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-11-05T16:53:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051653Z 33010G17KT 2 1/2SM RA- FEW015 OVC020 A2952",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 19.56326,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-11-05T17:48:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051748Z 33014KT 7SM SCT025 BKN040 A2953",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-05T17:53:00Z",
+      "station_id": "KFPR",
+      "metar": "KFPR 051753Z AUTO 33010G17KT 2 1/2SM A2952 RMK IEM_DS3505",
+      "sky_condition": null,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 19.56326,
+      "visibility_mi": 2.5,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1998-11-05T18:48:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051848Z 33012G20KT 7SM BKN010 A2957",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-05T19:48:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 051948Z 31012G20KT 2 1/2 SM RA OVC008 A2961 RMK RAB42",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-11-05T20:47:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 052047Z 31013G22KT 5SM -RA OVC008 A2965",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-11-05T21:46:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 052146Z 32013G20KT 5SM BR OVC010 A2969",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-11-05T23:47:00Z",
+      "station_id": "KFPR",
+      "metar": "METAR KFPR 052347Z 32008KT 7SM FEW014 OVC060 A2977",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

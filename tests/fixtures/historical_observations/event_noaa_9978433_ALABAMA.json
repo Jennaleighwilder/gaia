@@ -1,0 +1,193 @@
+{
+  "event_id": "noaa_9978433_ALABAMA",
+  "event_date": "1968-11-03",
+  "event_datetime_utc": "1968-11-03T18:00:00Z",
+  "station": "KBFM",
+  "county": "BALDWIN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1968-11-03T00:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 030000Z 19003KT 7SM FEW/// SCT/// 20/18 A//// RMK SLP189 T02000183",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1018.9,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-11-03T01:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 030100Z 00000KT 7SM FEW/// 18/17 A//// RMK SLPNO T01780167",
+      "sky_condition": "FEW",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-11-03T02:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 030200Z 00000KT 7SM FEW/// 17/16 A//// RMK SLPNO T01670161",
+      "sky_condition": "FEW",
+      "temperature_f": 62.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-11-03T03:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 030300Z 14003KT 8SM SCT/// BKN/// 19/18 A//// RMK SLP189 T01940178",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1018.9,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-11-03T04:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 030400Z 15004KT 8SM SCT/// SCT/// 19/18 A//// RMK SLPNO T01940178",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-11-03T05:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 030500Z 16005KT 8SM SCT/// 20/17 A//// RMK SLPNO T02000172",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-11-03T14:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 031400Z 00000KT 5SM FGFU OVC/// 21/19 A//// RMK SLPNO T02060189",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 66.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1968-11-03T15:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 031500Z 11008KT 7SM OVC/// 21/19 A//// RMK SLP161 T02110189",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1016.1,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-11-03T16:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 031600Z 15006KT 7SM BKN/// 23/18 A//// RMK SLPNO T02330183",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-11-03T17:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 031700Z 13008KT 10SM SCT/// BKN/// 24/16 A//// RMK SLPNO T02440156",
+      "sky_condition": "SCT",
+      "temperature_f": 76.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T18:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 031800Z 13010KT 10SM SCT/// SCT/// 26/15 A//// RMK SLP155 T02610150",
+      "sky_condition": "SCT",
+      "temperature_f": 79.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1015.5,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T19:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 031900Z 17010KT 10SM SCT/// SCT/// SCT/// 26/19 A//// RMK SLPNO T02560189",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T20:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 032000Z 16009KT 10SM SCT/// SCT/// BKN/// 25/18 A//// RMK SLPNO T02500183",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T21:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 032100Z 16007KT 10SM SCT/// OVC/// 24/18 A//// RMK SLP124 T02390183",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1012.4,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T22:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 032200Z 17008KT 10SM SCT/// BKN/// OVC/// 23/19 A//// RMK SLPNO T02280194",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T23:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 032300Z 15009KT 8SM SCT/// BKN/// OVC/// 22/19 A//// RMK SLPNO T02220194",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 8.0
+    }
+  ],
+  "estimated": false
+}

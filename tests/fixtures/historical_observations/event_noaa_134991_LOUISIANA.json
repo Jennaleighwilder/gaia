@@ -1,0 +1,257 @@
+{
+  "event_id": "noaa_134991_LOUISIANA",
+  "event_date": "2008-09-01",
+  "event_datetime_utc": "2008-09-01T18:00:00Z",
+  "station": "KMSY",
+  "county": "UPPER JEFFERSON",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2008-09-01T00:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010053Z 05004KT 5SM -TSRA BR FEW030CB BKN047 OVC060 23/22 A2978 RMK AO2 PK WND 10031/0022 WSHFT 0017 TSB18B24RAB23 SLP087 OCNL LTGIC SW NW TS SW NW MOV W P0011 T02330217",
+      "sky_condition": "FEW",
+      "temperature_f": 74.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1008.7,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.11
+    },
+    {
+      "timestamp": "2008-09-01T01:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010153Z AUTO 01010KT 10SM FEW060 25/23 A2978 RMK AO2 TSE0058RAE16B33E45 SLP086 LAST AUGMENTED OBSERVATION UNTIL FURTHER NOTICE P0000 T02500228 TSNO",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 73.0,
+      "pressure_mb": 1008.6,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2008-09-01T02:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010253Z AUTO 01018G23KT 10SM BKN060 26/23 A2977 RMK AO2 SLP082 60011 T02610233 50001 TSNO",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1008.2,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-09-01T03:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010353Z AUTO 05016G24KT 10SM CLR 27/23 A2976 RMK AO2 PK WND 04031/0324 RAB23E36 SLP079 P0000 T02720233 TSNO",
+      "sky_condition": "CLR",
+      "temperature_f": 81.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1007.9,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2008-09-01T04:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010453Z AUTO 04020G29KT 10SM -RA SCT060 SCT080 SCT095 26/23 A2972 RMK AO2 PK WND 03029/0447 RAB00 SLP066 P0001 T02560228 TSNO",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 73.0,
+      "pressure_mb": 1006.6,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-09-01T05:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010553Z AUTO 03023G29KT 10SM SCT050 26/23 A2967 RMK AO2 PK WND 03030/0509 RAE0458B23E53 SLP050 P0000 60012 T02560228 10294 20233 403170233 58033 TSNO",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 73.0,
+      "pressure_mb": 1005.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2008-09-01T06:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010653Z AUTO 03023G29KT 10SM OVC040 26/23 A2961 RMK AO2 PK WND 02033/0638 PRESFR SLP031 T02610233 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 79.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1003.1,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-09-01T07:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010753Z AUTO 03022G32KT 10SM BKN033 BKN043 OVC050 27/23 A2956 RMK AO2 PK WND 01034/0704 RAB03E26 SLP013 P0000 T02670233 TSNO",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1001.3,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 25.317159999999998,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2008-09-01T08:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010853Z AUTO 04026G41KT 9SM FEW022 BKN029 OVC034 26/23 A2950 RMK AO2 PK WND 03041/0846 RAB09E18 SLP992 P0000 60000 T02610233 58058 TSNO",
+      "sky_condition": "FEW",
+      "temperature_f": 79.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 999.2,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 29.920279999999998,
+      "wind_gust_mph": 47.181979999999996,
+      "visibility_mi": 9.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2008-09-01T09:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 010953Z AUTO 04025G39KT 3SM RA BR SCT017 BKN023 OVC029 26/24 A2947 RMK AO2 PK WND 04042/0919 RAB10 SLP981 P0006 T02560239 TSNO",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 998.1,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 44.880419999999994,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.06
+    },
+    {
+      "timestamp": "2008-09-01T10:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011053Z AUTO 04032G46KT 3SM RA BR BKN020 OVC027 26/24 A2940 RMK AO2 PK WND 04048/1042 SLP959 P0014 T02560239 TSNO",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 995.9,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 36.82496,
+      "wind_gust_mph": 52.93588,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.14
+    },
+    {
+      "timestamp": "2008-09-01T11:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011153Z AUTO 1 1/4SM BR A2934 RMK AO2 RAEMM SLP940 P0026 60046 70066 10267 20256 58052 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 994.0,
+      "visibility_mi": 1.25,
+      "precip_1h_in": 0.26
+    },
+    {
+      "timestamp": "2008-09-01T12:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011253Z AUTO 3/4SM BR A2928 RMK AO2 SLP920 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 992.0,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "2008-09-01T13:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011353Z AUTO A2924 RMK AO2 SLP906 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 990.6
+    },
+    {
+      "timestamp": "2008-09-01T14:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011453Z AUTO A2921 RMK AO2 SLP896 6//// 56044 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 989.6
+    },
+    {
+      "timestamp": "2008-09-01T15:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011553Z AUTO A2920 RMK AO2 SLP892 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 989.2
+    },
+    {
+      "timestamp": "2008-09-01T16:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011653Z AUTO A2920 RMK AO2 SLP892 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 989.2
+    },
+    {
+      "timestamp": "2008-09-01T17:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011753Z AUTO A2924 RMK AO2 SLP906 6//// PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 990.6
+    },
+    {
+      "timestamp": "2008-09-01T18:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011853Z AUTO A2930 RMK AO2 SLP926 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 992.6
+    },
+    {
+      "timestamp": "2008-09-01T19:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 011953Z AUTO A2936 RMK AO2 SLP947 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 994.7
+    },
+    {
+      "timestamp": "2008-09-01T20:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 012053Z AUTO A2943 RMK AO2 PRESRR SLP970 6//// 53064 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 997.0
+    },
+    {
+      "timestamp": "2008-09-01T21:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 012153Z AUTO A2947 RMK AO2 SLP984 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 998.4
+    },
+    {
+      "timestamp": "2008-09-01T22:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 012253Z AUTO A2951 RMK AO2 SLP997 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 999.7
+    },
+    {
+      "timestamp": "2008-09-01T23:53:00Z",
+      "station_id": "KMSY",
+      "metar": "METAR KMSY 012353Z AUTO A2954 RMK AO2 SLP008 6//// 51037 PWINO FZRANO TSNO RVRNO PNO $",
+      "sky_condition": "   ",
+      "pressure_mb": 1000.8
+    }
+  ],
+  "estimated": false
+}

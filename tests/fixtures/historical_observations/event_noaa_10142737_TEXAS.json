@@ -1,0 +1,169 @@
+{
+  "event_id": "noaa_10142737_TEXAS",
+  "event_date": "1984-12-13",
+  "event_datetime_utc": "1984-12-13T18:00:00Z",
+  "station": "KRBD",
+  "county": "DALLAS",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1984-12-13T00:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 130000Z 18010KT 10SM BKN120 BKN200 18/17 A2963 RMK SLPNO T01830167",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-12-13T01:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 130100Z 18010KT 8SM BKN200 18/16 A2963 RMK SLPNO T01780161",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1984-12-13T02:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 130200Z 17008KT 8SM BKN200 17/16 A2964 RMK SLPNO T01720161",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1984-12-13T03:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 130300Z 17008KT 8SM BKN200 16/16 A2964 RMK SLPNO T01610161",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1984-12-13T14:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 131400Z 14011KT 3SM RA FG BKN007 OVC010 18/18 A2949 RMK SLPNO T01830178",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1984-12-13T15:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 131500Z 13011KT 11/2SM RA FG OVC005 18/18 A2949 RMK CIGRGD SLPNO T01830183",
+      "sky_condition": "OVC",
+      "temperature_f": 65.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1984-12-13T16:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 131600Z 08010KT 3SM TSRA FG OVC020 16/10 A2949 RMK WSHFT SLPNO T01560100",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1984-12-13T17:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 131700Z 13012KT 10SM BKN010 BKN200 16/16 A2947 RMK THN LWR LYR SW SLPNO T01610161",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-12-13T18:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 131800Z 19015KT 15SM SCT007 BKN150 19/17 A2950 RMK SLPNO T01890172",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-12-13T19:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 131900Z 23012G20KT 15SM SCT010 21/16 A2953 RMK SLPNO T02060156",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-12-13T20:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 132000Z 23012G20KT 15SM SCT030 22/M A2953 RMK SLPNO T0217////",
+      "sky_condition": "   ",
+      "temperature_f": 71.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-12-13T21:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 132100Z 19014KT 15SM SCT030 22/15 A2955 RMK SLPNO T02220150",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-12-13T22:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 132200Z 19015KT 15SM SCT030 22/14 A2959 RMK SLPNO T02220144",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-12-13T23:00:00Z",
+      "station_id": "KRBD",
+      "metar": "METAR KRBD 132300Z 18007KT 15SM SCT030 21/16 A2961 RMK SLPNO T02060161",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

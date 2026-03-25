@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_10030895_LOUISIANA",
+  "event_date": "1971-02-12",
+  "event_datetime_utc": "1971-02-12T18:00:00Z",
+  "station": "KLCH",
+  "county": "CALCASIEU",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1971-02-12T00:00:00Z",
+      "station_id": "KLCH",
+      "metar": "METAR KLCH 120000Z 16017KT 10SM OVC/// 17/13 A//// RMK SLP132 T01720128",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1013.2,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-02-12T03:00:00Z",
+      "station_id": "KLCH",
+      "metar": "METAR KLCH 120300Z 17016KT 15SM OVC/// 17/14 A//// RMK SLP128 T01670139",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1012.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1971-02-12T06:00:00Z",
+      "station_id": "KLCH",
+      "metar": "METAR KLCH 120600Z 17016KT 10SM TSRA BKN/// 16/14 A//// RMK SLP117 T01610144",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-02-12T09:00:00Z",
+      "station_id": "KLCH",
+      "metar": "METAR KLCH 120900Z 18018KT 10SM BKN/// 16/15 A//// RMK SLP086 P0003 T01610150",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1008.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "1971-02-12T12:00:00Z",
+      "station_id": "KLCH",
+      "metar": "METAR KLCH 121200Z 31014KT 10SM SCT/// OVC/// 14/14 A//// RMK SLP106 T01440139",
+      "sky_condition": "SCT",
+      "temperature_f": 58.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1010.6,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-02-12T15:00:00Z",
+      "station_id": "KLCH",
+      "metar": "METAR KLCH 121500Z 32013KT 10SM OVC/// 13/11 A//// RMK SLP142 T01280111",
+      "sky_condition": "OVC",
+      "temperature_f": 55.0,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1014.2,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-02-12T18:00:00Z",
+      "station_id": "KLCH",
+      "metar": "METAR KLCH 121800Z 33022KT 10SM BKN/// 13/07 A//// RMK SLP169 T01280067",
+      "sky_condition": "BKN",
+      "temperature_f": 55.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1016.9,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-02-12T21:00:00Z",
+      "station_id": "KLCH",
+      "metar": "METAR KLCH 122100Z 32020KT 15SM CLR 16/01 A//// RMK SLP156 T01560006",
+      "sky_condition": "CLR",
+      "temperature_f": 60.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1015.6,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,253 @@
+{
+  "event_id": "noaa_5579516_WYOMING",
+  "event_date": "1996-12-16",
+  "event_datetime_utc": "1996-12-16T18:00:00Z",
+  "station": "KGCC",
+  "county": "SOUTH CAMPBELL",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1996-12-16T00:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160048Z AUTO 22015KT M02/M09 RMK AO1 PK WND 18 000 T10171094",
+      "sky_condition": "   ",
+      "temperature_f": 29.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1996-12-16T01:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160148Z AUTO 23014KT M02/M08 RMK AO1 PK WND 19 000 T10171077",
+      "sky_condition": "   ",
+      "temperature_f": 29.0,
+      "dewpoint_f": 18.14,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1996-12-16T02:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160248Z AUTO 24014KT M03/M06 RMK AO1 000 T10281061",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 21.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1996-12-16T03:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160348Z AUTO 25009KT M02/M04 RMK AO1 000 T10221038",
+      "sky_condition": "   ",
+      "temperature_f": 28.0,
+      "dewpoint_f": 25.16,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1996-12-16T04:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160448Z AUTO 25008KT M02/M03 RMK AO1 000 T10171033",
+      "sky_condition": "   ",
+      "temperature_f": 29.0,
+      "dewpoint_f": 26.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1996-12-16T05:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160548Z AUTO 28008KT M01/M04 RMK AO1 000 T10111038",
+      "sky_condition": "   ",
+      "temperature_f": 30.0,
+      "dewpoint_f": 25.16,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1996-12-16T06:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160648Z AUTO 29011KT M01/M03 RMK AO1 000 T10061027",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 27.14,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "1996-12-16T07:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160748Z AUTO 30012KT M01/M03 RMK AO1 PK WND 19 000 T10061033",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 26.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1996-12-16T08:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160848Z AUTO 34021KT M02/M04 RMK AO1 PK WND 34 002 T10171044",
+      "sky_condition": "   ",
+      "temperature_f": 29.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 24.166379999999997
+    },
+    {
+      "timestamp": "1996-12-16T09:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 160948Z AUTO 33011KT M03/M05 RMK AO1 PK WND 17 002 T10331049",
+      "sky_condition": "   ",
+      "temperature_f": 26.0,
+      "dewpoint_f": 23.18,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "1996-12-16T10:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161048Z AUTO 33012KT M03/M06 RMK AO1 PK WND 19 002 T10331055",
+      "sky_condition": "   ",
+      "temperature_f": 26.0,
+      "dewpoint_f": 22.1,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1996-12-16T11:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161148Z AUTO 34020KT M06/M08 RMK AO1 PK WND 29 002 T10561077",
+      "sky_condition": "   ",
+      "temperature_f": 22.0,
+      "dewpoint_f": 18.14,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 23.0156
+    },
+    {
+      "timestamp": "1996-12-16T12:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161248Z AUTO 34016KT M06/M08 RMK AO1 PK WND 21 002 T10561077",
+      "sky_condition": "   ",
+      "temperature_f": 22.0,
+      "dewpoint_f": 18.14,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 18.41248
+    },
+    {
+      "timestamp": "1996-12-16T13:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161348Z AUTO 34020KT M08/M12 RMK AO1 PK WND 30 002 T10781122",
+      "sky_condition": "   ",
+      "temperature_f": 18.0,
+      "dewpoint_f": 10.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 23.0156
+    },
+    {
+      "timestamp": "1996-12-16T14:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161448Z AUTO 34014KT M08/M11 RMK AO1 PK WND 26 000 T10831111",
+      "sky_condition": "   ",
+      "temperature_f": 17.0,
+      "dewpoint_f": 12.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1996-12-16T15:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161548Z AUTO 33022KT M09/M12 RMK AO1 PK WND 33 000 T10941116",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": 11.12,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 25.317159999999998
+    },
+    {
+      "timestamp": "1996-12-16T16:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161648Z AUTO 32027KT M09/M13 RMK AO1 PK WND 36 000 T10941127",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": 9.14,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 31.07106
+    },
+    {
+      "timestamp": "1996-12-16T17:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161748Z AUTO 32022KT M10/M14 RMK AO1 PK WND 35 000 T11001144",
+      "sky_condition": "   ",
+      "temperature_f": 14.0,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 25.317159999999998
+    },
+    {
+      "timestamp": "1996-12-16T18:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161848Z AUTO 33024KT M10/M14 RMK AO1 PK WND 31 000 T11001144",
+      "sky_condition": "   ",
+      "temperature_f": 14.0,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 27.618719999999996
+    },
+    {
+      "timestamp": "1996-12-16T19:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 161948Z AUTO 34023KT M11/M15 RMK AO1 PK WND 32 000 T11061149",
+      "sky_condition": "   ",
+      "temperature_f": 13.0,
+      "dewpoint_f": 5.18,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 26.46794
+    },
+    {
+      "timestamp": "1996-12-16T20:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 162048Z AUTO 32024KT M12/M16 RMK AO1 PK WND 37 000 T11171155",
+      "sky_condition": "   ",
+      "temperature_f": 11.0,
+      "dewpoint_f": 4.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 27.618719999999996
+    },
+    {
+      "timestamp": "1996-12-16T21:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 162148Z AUTO 32025KT M12/M17 RMK AO1 PK WND 39 000 T11221172",
+      "sky_condition": "   ",
+      "temperature_f": 10.0,
+      "dewpoint_f": 1.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 28.769499999999997
+    },
+    {
+      "timestamp": "1996-12-16T22:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 162248Z AUTO 31024KT M12/M17 RMK AO1 PK WND 33 000 T11221166",
+      "sky_condition": "   ",
+      "temperature_f": 10.0,
+      "dewpoint_f": 2.12,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 27.618719999999996
+    },
+    {
+      "timestamp": "1996-12-16T23:48:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 162348Z AUTO 30026KT M13/M17 RMK AO1 PK WND 37 000 T11281166",
+      "sky_condition": "   ",
+      "temperature_f": 9.0,
+      "dewpoint_f": 2.12,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 29.920279999999998
+    }
+  ],
+  "estimated": false
+}

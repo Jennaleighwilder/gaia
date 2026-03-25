@@ -1,0 +1,75 @@
+{
+  "event_id": "noaa_5416887_CALIFORNIA",
+  "event_date": "2004-08-15",
+  "event_datetime_utc": "2004-08-15T18:00:00Z",
+  "station": "KNID",
+  "county": "INYO",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2004-08-15T00:56:00Z",
+      "station_id": "KNID",
+      "metar": "KNID 150056Z 14020G25KT 40SM BKN080CB BKN200 27/17 A2990 RMK RAB44E54 CB S-SE AND DSNT N STNRY SLP117 P0000 T02670167 LAST",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 40.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2004-08-15T19:56:00Z",
+      "station_id": "KNID",
+      "metar": "KNID 151956Z 14007KT 30SM FEW080 FEW250 34/08 A2996 RMK CB DSNT NW MOV UNK TCU DSNT NE-E MDT CU DSNT SW-W SLP136 T03390078 FIRST",
+      "sky_condition": "FEW",
+      "temperature_f": 93.0,
+      "dewpoint_f": 46.0,
+      "pressure_mb": 1013.6,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "2004-08-15T21:56:00Z",
+      "station_id": "KNID",
+      "metar": "KNID 152156Z 17012KT 30SM FEW080 SCT250 37/08 A2989 RMK CB DSNT NW STNRY CB DSNT NE MOV E TCU DSNT ENE-SSE MDT CU DSNT W SLP111 T03670078",
+      "sky_condition": "FEW",
+      "temperature_f": 98.0,
+      "dewpoint_f": 46.0,
+      "pressure_mb": 1011.1,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "2004-08-15T22:56:00Z",
+      "station_id": "KNID",
+      "metar": "KNID 152256Z 18007KT 30SM FEW080 SCT220 37/07 A2986 RMK CB DSNT NW STNRY CB DSNT NE DSIPTD CB DSNT SE MOV UNK TCU DSNT NE-SSE MDT CU DSNT W SLP102 T03720067",
+      "sky_condition": "FEW",
+      "temperature_f": 99.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1010.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "2004-08-15T23:56:00Z",
+      "station_id": "KNID",
+      "metar": "KNID 152356Z 17008KT 40SM FEW080 SCT110 BKN220 36/03 A2985 RMK CB DSNT NW DSIPTD CB DSNT SE STNRY TCU DSNT ENE-SSE SLP097 8/903 T03610028 10372 20317 56025",
+      "sky_condition": "FEW",
+      "temperature_f": 97.0,
+      "dewpoint_f": 37.0,
+      "pressure_mb": 1009.7,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 40.0
+    }
+  ],
+  "estimated": false
+}

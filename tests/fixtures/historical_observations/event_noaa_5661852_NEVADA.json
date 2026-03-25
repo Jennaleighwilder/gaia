@@ -1,0 +1,167 @@
+{
+  "event_id": "noaa_5661852_NEVADA",
+  "event_date": "1998-07-20",
+  "event_datetime_utc": "1998-07-20T18:00:00Z",
+  "station": "KVGT",
+  "county": "CLARK",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1998-07-20T00:49:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 200049Z 28011KT 25SM BKN120 40/10 A2979",
+      "sky_condition": "BKN",
+      "temperature_f": 104.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T01:47:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 200147Z 22005KT 25SM BKN120 39/11 A2980",
+      "sky_condition": "BKN",
+      "temperature_f": 102.2,
+      "dewpoint_f": 51.8,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T02:50:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 200250Z 18004KT 20SM SCT200 39/09 A2981",
+      "sky_condition": "SCT",
+      "temperature_f": 102.2,
+      "dewpoint_f": 48.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1998-07-20T12:52:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 201252Z COR 30010KT 25SM OVC070 23/20 A2997 RMK FIRST",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T13:47:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 201347Z 12010KT 25SM FEW070 OVC120 24/19 A2997 RMK WSHFT 1315",
+      "sky_condition": "FEW",
+      "temperature_f": 75.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T14:47:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 201447Z 14007KT 25SM FEW150 OVC250 24/19 A2999",
+      "sky_condition": "FEW",
+      "temperature_f": 75.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T15:48:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 201548Z 11004KT 25SM BKN150 27/18 A3001",
+      "sky_condition": "BKN",
+      "temperature_f": 80.6,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T16:48:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 201648Z 15004KT 25SM BKN150 27/19 A3000",
+      "sky_condition": "BKN",
+      "temperature_f": 80.6,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T17:50:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 201750Z 10005KT 25SM BKN150 29/18 A3001",
+      "sky_condition": "BKN",
+      "temperature_f": 84.2,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T19:50:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 201950Z 14006KT 25SM FEW150 BKN200 33/17 A2998",
+      "sky_condition": "FEW",
+      "temperature_f": 91.4,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T20:51:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 202051Z 18004KT 25SM FEW150 36/15 A2995",
+      "sky_condition": "FEW",
+      "temperature_f": 96.8,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T21:48:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 202148Z 12010KT 25SM FEW150 38/14 A2991",
+      "sky_condition": "FEW",
+      "temperature_f": 100.4,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T22:50:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 202250Z 13005KT 25SM FEW150 37/13 A2987",
+      "sky_condition": "FEW",
+      "temperature_f": 98.6,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-07-20T23:47:00Z",
+      "station_id": "KVGT",
+      "metar": "KVGT 202347Z 16010KT 25SM FEW150 38/13 A2985",
+      "sky_condition": "FEW",
+      "temperature_f": 100.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 25.0
+    }
+  ],
+  "estimated": false
+}

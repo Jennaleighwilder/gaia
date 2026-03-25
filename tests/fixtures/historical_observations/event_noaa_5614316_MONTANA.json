@@ -1,0 +1,103 @@
+{
+  "event_id": "noaa_5614316_MONTANA",
+  "event_date": "1997-04-04",
+  "event_datetime_utc": "1997-04-04T18:00:00Z",
+  "station": "KOLF",
+  "county": "DAWSON",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1997-04-01T15:53:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 011553Z AUTO 29016KT 10SM 02/00 A2969 RMK T00200000 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 35.6,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1997-04-08T11:24:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 081124Z 08007KT 6SM -SN OVC026 M11/M14 A3053",
+      "sky_condition": "OVC",
+      "temperature_f": 12.2,
+      "dewpoint_f": 6.8,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1997-04-09T23:53:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 092353Z AUTO 11010KT 15SM M01/M08 A3034 RMK T10101080 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 30.2,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1997-04-15T23:49:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 152349Z 00000KT 15SM FEW090 16/M01 A3019",
+      "sky_condition": "FEW",
+      "temperature_f": 60.8,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-16T11:27:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 161127Z 00000KT 15SM SKC M02/M03 A3016",
+      "sky_condition": "CLR",
+      "temperature_f": 28.4,
+      "dewpoint_f": 26.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-17T16:45:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 171645 290014KT 15SM SCT100 20/03 A2989",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-21T17:09:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 211709Z 09015KT 7SM -RA BR OVC010 07/05 A2973",
+      "sky_condition": "OVC",
+      "temperature_f": 44.6,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-04-23T07:50:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 230750Z 00000KT 10SM OVC040 06/05 A2994",
+      "sky_condition": "OVC",
+      "temperature_f": 42.8,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

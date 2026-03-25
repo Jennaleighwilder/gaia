@@ -1,0 +1,132 @@
+{
+  "event_id": "noaa_5580417_NORTH CAROLINA",
+  "event_date": "1996-09-04",
+  "event_datetime_utc": "1996-09-04T18:00:00Z",
+  "station": "KRWI",
+  "county": "PITT",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1996-09-04T10:53:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041053Z 06004KT 7SM OVC006 23/22 A2996 RMK FIRST",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T11:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041155Z 06004KT 3SM -DZ BR SCT005 BKN012 BKN025 OVC100 23/22 A2997 RM K 70039 402600219 53002",
+      "sky_condition": "   ",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-09-04T12:50:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041250Z 09003KT 7SM SCT007 BKN025 OVC070 23/22 A2998",
+      "sky_condition": "SCT",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T13:53:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041353Z 05005KT 7SM BKN007 BKN025 OVC070 23/22 A2999",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T14:59:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041459Z 09005KT 7SM DZ SCT007 BKN0205 OVC065 24/22 A2998 RMK 50003",
+      "sky_condition": "SCT",
+      "temperature_f": 75.2,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T15:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041555Z 10005KT 7SM SCT008 BKN030 BKN070 25/22 A2999",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T16:59:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041659Z 19005KT 7SM SCT008 BKN015 OVC035 25/22 A2997",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T17:48:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041748Z 13005KT 7SM FEW008 BKN035 25/22 A2996 RMK 60001 10249 20225 5 8007",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T18:49:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041849Z 11007KT 7SM OVC012 24/21 A2996",
+      "sky_condition": "OVC",
+      "temperature_f": 75.2,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T19:45:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 041945Z 17008KT 7SM FEW015 BKN040 OVC100 24/21 A2995",
+      "sky_condition": "FEW",
+      "temperature_f": 75.2,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-04T20:45:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 042045Z 09005KT 7SM FEW015 SCT040 BKN100 A2995 RMK LAST 57003",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

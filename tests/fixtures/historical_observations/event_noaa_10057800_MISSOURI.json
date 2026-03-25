@@ -1,0 +1,61 @@
+{
+  "event_id": "noaa_10057800_MISSOURI",
+  "event_date": "1984-10-18",
+  "event_datetime_utc": "1984-10-18T18:00:00Z",
+  "station": "KUNO",
+  "county": "OREGON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1984-10-18T00:00:00Z",
+      "station_id": "KUNO",
+      "metar": "METAR KUNO 180000Z 13003KT 10SM CLR 16/11 A//// RMK SLP190 T01610106",
+      "sky_condition": "CLR",
+      "temperature_f": 61.0,
+      "dewpoint_f": 51.0,
+      "pressure_mb": 1019.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-10-18T06:00:00Z",
+      "station_id": "KUNO",
+      "metar": "METAR KUNO 180600Z 13003KT 7SM CLR 11/09 A//// RMK SLP179 T01110089",
+      "sky_condition": "CLR",
+      "temperature_f": 52.0,
+      "dewpoint_f": 48.0,
+      "pressure_mb": 1017.9,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-10-18T12:00:00Z",
+      "station_id": "KUNO",
+      "metar": "METAR KUNO 181200Z 11003KT 3SM BR CLR 14/12 A//// RMK SLP163 T01390122",
+      "sky_condition": "CLR",
+      "temperature_f": 57.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1016.3,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1984-10-18T18:00:00Z",
+      "station_id": "KUNO",
+      "metar": "METAR KUNO 181800Z 16006KT 3SM CLR 19/19 A//// RMK SLP119 T01940189",
+      "sky_condition": "CLR",
+      "temperature_f": 67.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1011.9,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    }
+  ],
+  "estimated": false
+}

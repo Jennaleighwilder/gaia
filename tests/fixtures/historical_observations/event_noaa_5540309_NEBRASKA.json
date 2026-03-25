@@ -1,0 +1,134 @@
+{
+  "event_id": "noaa_5540309_NEBRASKA",
+  "event_date": "1996-03-23",
+  "event_datetime_utc": "1996-03-23T18:00:00Z",
+  "station": "KCDR",
+  "county": "DAWES",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1996-03-23T00:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 230000Z 16017KT 20SM SCT100 OVC250 16/M02 A2958 RMK 400650029 ; SLPNO T01551023",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 27.86,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-03-23T01:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 230100Z 16018KT 25SM SCT100 OVC250 14/M04 A2958 RMK SLPNO T01381039",
+      "sky_condition": "SCT",
+      "temperature_f": 56.84,
+      "dewpoint_f": 25.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1996-03-23T05:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 230500Z 15024KT 15SM OVC100 11/07 A2957 RMK LAST; SLPNO T01050066",
+      "sky_condition": "OVC",
+      "temperature_f": 51.0,
+      "dewpoint_f": 43.88,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 27.618719999999996,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-03-23T13:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 231300Z 19015KT 30SM SCT150 SCT200 BKN250 02/M07 A2949 RMK FIRST/ 400650034; SLPNO T00221067",
+      "sky_condition": "SCT",
+      "temperature_f": 36.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-03-23T14:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 231400Z 21007KT 30SM SCT200 BKN250 03/M07 A2951 RMK SLPNO T00271067",
+      "sky_condition": "SCT",
+      "temperature_f": 36.86,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-03-23T16:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 231600Z 20007KT 30SM SCT200 BKN250 07/M06 A2950 RMK SLPNO T00661056",
+      "sky_condition": "SCT",
+      "temperature_f": 43.88,
+      "dewpoint_f": 22.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-03-23T17:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 231700Z 00000KT 30SM SCT150 BKN250 08/M04 A2950 RMK SLPNO T00831039",
+      "sky_condition": "SCT",
+      "temperature_f": 47.0,
+      "dewpoint_f": 25.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-03-23T18:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 231800Z 02006KT 30SM SCT200 BKN250 09/M06 A2951 RMK SLPNO T00941056",
+      "sky_condition": "SCT",
+      "temperature_f": 49.0,
+      "dewpoint_f": 22.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-03-23T19:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 231900Z 07008KT 30SM SCT200 BKN250 11/M03 A2950 RMK SLPNO T01051034",
+      "sky_condition": "SCT",
+      "temperature_f": 51.0,
+      "dewpoint_f": 25.88,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-03-23T20:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 232000Z 04010KT 30SM SCT120 BKN250 11/M02 A2950 RMK SLPNO T01111017",
+      "sky_condition": "SCT",
+      "temperature_f": 52.0,
+      "dewpoint_f": 29.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-03-23T23:00:00Z",
+      "station_id": "KCDR",
+      "metar": "METAR KCDR 232300Z 02018KT 30SM SCT120 SCT200 BKN250 09/M01 A2954 RMK SLPNO T00881006",
+      "sky_condition": "SCT",
+      "temperature_f": 47.84,
+      "dewpoint_f": 31.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 30.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,257 @@
+{
+  "event_id": "noaa_5667912_LOUISIANA",
+  "event_date": "1998-09-26",
+  "event_datetime_utc": "1998-09-26T18:00:00Z",
+  "station": "KP92",
+  "county": "ST. MARY",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1998-09-26T00:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260053Z AUTO VRB03KT 27/23 A2995 RMK AO2 SLP141 T02670233 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 80.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1014.1,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1998-09-26T01:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260153Z AUTO VRB05KT 26/23 A2996 RMK AO2 SLP146 T02610233 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 79.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1014.6,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-09-26T02:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260253Z AUTO VRB05KT 26/23 A2997 RMK AO2 SLP147 T02610233 53009 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 79.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1014.7,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-09-26T03:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260353Z AUTO VRB04KT 26/23 A2997 RMK AO2 SLP147 T02560233 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 78.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1014.7,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1998-09-26T04:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260453Z AUTO VRB04KT 26/23 A2996 RMK AO2 SLP144 T02560233 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 78.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1014.4,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1998-09-26T05:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260553Z AUTO VRB04KT 25/23 A2995 RMK AO2 SLP142 T02500233 10278 20250 403170239 58006 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1014.2,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1998-09-26T06:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260653Z AUTO VRB03KT 25/23 A2994 RMK AO2 SLP138 T02500233 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1013.8,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1998-09-26T07:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260753Z AUTO VRB03KT 25/23 A2993 RMK AO2 SLP134 T02500233 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1013.4,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1998-09-26T08:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260853Z AUTO VRB03KT 24/23 A2992 RMK AO2 SLP132 T02440233 56010 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 76.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1013.2,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1998-09-26T09:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 260953Z AUTO 00000KT 24/23 A2993 RMK AO2 SLP134 T02440233 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 76.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1013.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "1998-09-26T10:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261053Z AUTO 00000KT 24/23 A2993 RMK AO2 SLP135 T02440233 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 76.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1013.5,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "1998-09-26T11:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261153Z AUTO VRB03KT 24/23 A2994 RMK AO2 SLP140 T02440233 10250 20244 53006 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 76.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1014.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1998-09-26T12:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261253Z AUTO VRB03KT 25/24 A2996 RMK AO2 SLP145 T02500239 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 1014.5,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1998-09-26T13:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261353Z AUTO VRB05KT 27/24 A2997 RMK AO2 SLP148 T02670244 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 80.0,
+      "dewpoint_f": 76.0,
+      "pressure_mb": 1014.8,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-09-26T14:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261453Z AUTO VRB05KT 28/24 A2997 RMK AO2 SLP149 T02830244 51010 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 83.0,
+      "dewpoint_f": 76.0,
+      "pressure_mb": 1014.9,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-09-26T15:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261553Z AUTO VRB04KT 29/24 A2997 RMK AO2 SLP148 T02940244 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 85.0,
+      "dewpoint_f": 76.0,
+      "pressure_mb": 1014.8,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1998-09-26T16:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261653Z AUTO 12008KT 090V150 30/24 A2996 RMK AO2 SLP145 T03000244 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 86.0,
+      "dewpoint_f": 76.0,
+      "pressure_mb": 1014.5,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1998-09-26T17:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261753Z AUTO VRB05KT 31/24 A2995 RMK AO2 SLP140 T03060244 10306 20244 58007 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 87.0,
+      "dewpoint_f": 76.0,
+      "pressure_mb": 1014.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-09-26T18:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261853Z AUTO VRB05KT 31/24 A2992 RMK AO2 SLP132 T03110244 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 88.0,
+      "dewpoint_f": 76.0,
+      "pressure_mb": 1013.2,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-09-26T19:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 261953Z AUTO VRB05KT 31/24 A2990 RMK AO2 SLP125 T03110239 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 88.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 1012.5,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-09-26T20:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 262053Z AUTO VRB05KT 32/23 A2988 RMK AO2 SLP118 T03170233 58023 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 89.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1011.8,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-09-26T21:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 262153Z AUTO VRB06KT 31/24 A2988 RMK AO2 SLP116 T03110239 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 88.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 1011.6,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1998-09-26T22:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 262253Z AUTO VRB03KT 30/24 A2988 RMK AO2 SLP118 T03000239 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 86.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 1011.8,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1998-09-26T23:53:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 262353Z AUTO 00000KT 28/24 A2988 RMK AO2 SLP117 T02830239 10322 20283 56002 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 83.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    }
+  ],
+  "estimated": false
+}

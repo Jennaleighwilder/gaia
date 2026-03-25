@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_142535_MONTANA",
+  "event_date": "2008-12-13",
+  "event_datetime_utc": "2008-12-13T18:00:00Z",
+  "station": "KBHK",
+  "county": "FALLON",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "2008-12-13T00:53:00Z",
+      "station_id": "KBHK",
+      "metar": "KBHK 130053Z AUTO 15003KT 10SM BKN120 M04/M07 A2954 RMK AO2 SLP034 T10441072",
+      "sky_condition": "BKN",
+      "temperature_f": 24.0,
+      "dewpoint_f": 19.0,
+      "pressure_mb": 1003.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T01:53:00Z",
+      "station_id": "KBHK",
+      "metar": "KBHK 130153Z AUTO 15006KT 10SM SCT120 M04/M07 A2952 RMK AO2 PK WND 34027/0122 SLP025 T10441072",
+      "sky_condition": "SCT",
+      "temperature_f": 24.0,
+      "dewpoint_f": 19.0,
+      "pressure_mb": 1002.5,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T02:53:00Z",
+      "station_id": "KBHK",
+      "metar": "KBHK 130253Z AUTO 14007KT 10SM FEW120 M04/M07 A2949 RMK AO2 SLP014 T10391067 58021",
+      "sky_condition": "FEW",
+      "temperature_f": 25.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1001.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T03:53:00Z",
+      "station_id": "KBHK",
+      "metar": "KBHK 130353Z AUTO 13007KT 10SM CLR M04/M07 A2944 RMK AO2 SLP997 T10391067",
+      "sky_condition": "CLR",
+      "temperature_f": 25.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 999.7,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T04:53:00Z",
+      "station_id": "KBHK",
+      "metar": "KBHK 130453Z AUTO 12006KT 10SM CLR M04/M07 A2941 RMK AO2 SLP985 T10441067",
+      "sky_condition": "CLR",
+      "temperature_f": 24.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 998.5,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T05:53:00Z",
+      "station_id": "KBHK",
+      "metar": "KBHK 130553Z AUTO 11009KT 10SM CLR M04/M07 A2940 RMK AO2 SLP979 T10441067 11022 21056 56029",
+      "sky_condition": "CLR",
+      "temperature_f": 24.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 997.9,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T22:53:00Z",
+      "station_id": "KBHK",
+      "metar": "KBHK 132253Z AUTO 04015KT 1/2SM -SN FZFG FEW009 OVC020 M14/M17 A2955 RMK AO2 SLP049 P0000 T11441167",
+      "sky_condition": "FEW",
+      "temperature_f": 6.0,
+      "dewpoint_f": 2.0,
+      "pressure_mb": 1004.9,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 0.5,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2008-12-13T23:53:00Z",
+      "station_id": "KBHK",
+      "metar": "KBHK 132353Z AUTO 03013G19KT 1/4SM +SN FZFG VV004 M15/M17 A2962 RMK AO2 PRESRR SLP076 P0001 60001 T11501172 11072 21150 53061",
+      "sky_condition": "VV ",
+      "temperature_f": 5.0,
+      "dewpoint_f": 1.0,
+      "pressure_mb": 1007.6,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 21.864819999999998,
+      "visibility_mi": 0.25,
+      "precip_1h_in": 0.01
+    }
+  ],
+  "estimated": false
+}

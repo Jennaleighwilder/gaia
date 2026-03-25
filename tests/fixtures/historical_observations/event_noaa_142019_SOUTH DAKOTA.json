@@ -1,0 +1,242 @@
+{
+  "event_id": "noaa_142019_SOUTH DAKOTA",
+  "event_date": "2008-11-05",
+  "event_datetime_utc": "2008-11-05T18:00:00Z",
+  "station": "KMBG",
+  "county": "DEWEY",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 21,
+  "observations": [
+    {
+      "timestamp": "2008-11-05T00:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 57.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-11-05T01:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 55.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-11-05T02:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 54.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-11-05T03:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 52.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-11-05T04:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 50.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-11-05T05:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 50.0,
+      "dewpoint_f": 48.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-11-05T06:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 47.0,
+      "dewpoint_f": 47.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-11-05T07:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 43.0,
+      "dewpoint_f": 43.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "2008-11-05T08:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 46.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "2008-11-05T09:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 41.0,
+      "dewpoint_f": 41.0,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2008-11-05T13:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 44.0,
+      "dewpoint_f": 44.0,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2008-11-05T14:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 45.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2008-11-05T15:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 45.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2008-11-05T16:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 47.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2008-11-05T17:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 49.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.75
+    },
+    {
+      "timestamp": "2008-11-05T18:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 50.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "2008-11-05T19:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 51.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "2008-11-05T20:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 51.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 24.166379999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-11-05T21:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 47.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 27.618719999999996,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.29
+    },
+    {
+      "timestamp": "2008-11-05T22:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 46.0,
+      "dewpoint_f": 44.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 21.864819999999998,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.1
+    },
+    {
+      "timestamp": "2008-11-05T23:55:00Z",
+      "station_id": "KMBG",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 44.0,
+      "dewpoint_f": 43.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 6.0,
+      "precip_1h_in": 0.14
+    }
+  ],
+  "estimated": false
+}

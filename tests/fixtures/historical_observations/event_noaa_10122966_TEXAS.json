@@ -1,0 +1,228 @@
+{
+  "event_id": "noaa_10122966_TEXAS",
+  "event_date": "1954-07-18",
+  "event_datetime_utc": "1954-07-18T18:00:00Z",
+  "station": "KGGG",
+  "county": "RUSK",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1954-07-18T00:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180000Z 22010KT 15SM SCT/// SCT/// BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T01:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180100Z 22009KT 15SM SCT/// BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T02:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180200Z 22010KT 15SM SCT/// BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T03:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180300Z 22009KT 15SM SCT/// FEW/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T04:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180400Z 22008KT 15SM FEW/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T05:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180500Z 22010KT 15SM FEW/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T06:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180600Z 22010KT 15SM FEW/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T07:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180700Z 20011KT 15SM FEW/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 12.704611199999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T08:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180800Z 20011KT 15SM BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 12.704611199999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T09:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 180900Z 22010KT 15SM BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T10:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181000Z 22012KT 15SM BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T11:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181100Z 22010KT 15SM SCT/// BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T12:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181200Z 22010KT 15SM BKN/// BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T13:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181300Z 18010KT 15SM BKN/// BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T14:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181400Z 20004KT 15SM SCT/// BKN/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T15:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181500Z 25009KT 15SM SCT/// SCT/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T16:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181600Z 20010KT 15SM SCT/// FEW/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T17:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181700Z 14008KT 15SM CLR M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T18:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181800Z 18009KT 15SM CLR M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T19:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 181900Z 04003KT 15SM CLR M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 45.0,
+      "wind_speed_mph": 3.4983712,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T20:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 182000Z 00000KT 15SM CLR M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T21:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 182100Z 18009KT 15SM SCT/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T22:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 182200Z 14010KT 15SM SCT/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1954-07-18T23:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 182300Z 16014KT 15SM SCT/// M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 155.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

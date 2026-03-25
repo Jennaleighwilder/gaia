@@ -1,0 +1,149 @@
+{
+  "event_id": "noaa_5550306_NEBRASKA",
+  "event_date": "1996-01-17",
+  "event_datetime_utc": "1996-01-17T18:00:00Z",
+  "station": "KMCK",
+  "county": "GOSPER",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 12,
+  "observations": [
+    {
+      "timestamp": "1996-01-17T00:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 170000Z 05005KT 15SM SCT250 12/M03 A2963 RMK 400650022; SLPNO T01221034",
+      "sky_condition": "SCT",
+      "temperature_f": 54.0,
+      "dewpoint_f": 25.88,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-17T01:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 170100Z 02006KT 15SM SCT250 08/M02 A2964 RMK LAST; SLPNO T00831017",
+      "sky_condition": "SCT",
+      "temperature_f": 47.0,
+      "dewpoint_f": 29.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-17T11:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 171100Z 08009KT 15SM OVC100 00/M05 A2922 RMK SLPNO T00001045",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 23.9,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-17T14:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 171400Z 06007KT 6SM FG BKN013 OVC080 01/M02 A2919 RMK SLPNO T00051017",
+      "sky_condition": "BKN",
+      "temperature_f": 33.0,
+      "dewpoint_f": 29.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1996-01-17T15:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 171500Z 07009KT 3SM -RA FG BKN013 OVC035 01/01 A2914 RMK PRESFR; SLPNO T00050005",
+      "sky_condition": "BKN",
+      "temperature_f": 33.0,
+      "dewpoint_f": 33.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-01-17T17:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 171700Z 09008KT 1/16SM -DZ FG OVC001 02/01 A2910 RMK SLPNO T00160005",
+      "sky_condition": "OVC",
+      "temperature_f": 34.88,
+      "dewpoint_f": 33.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.06
+    },
+    {
+      "timestamp": "1996-01-17T18:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 171800Z 06010KT 1/8SM -DZ FG OVC001 03/03 A2906 RMK SLPNO T00270027",
+      "sky_condition": "OVC",
+      "temperature_f": 36.86,
+      "dewpoint_f": 36.86,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1996-01-17T19:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 171900Z 03008KT 1/8SM FG OVC001 03/03 A2907 RMK L-E30; SLPNO T00270027",
+      "sky_condition": "OVC",
+      "temperature_f": 36.86,
+      "dewpoint_f": 36.86,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1996-01-17T20:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 172000Z 33015G20KT 11/4SM -RA FG BKN002 OVC005 02/02 A2911 RMK RB38; SLPNO T00160016",
+      "sky_condition": "BKN",
+      "temperature_f": 34.88,
+      "dewpoint_f": 34.88,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1996-01-17T21:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 172100Z 36040G49KT 11/2SM -SN FG-BLSN OVC005 M08/M10 A2920 RMK 6016/; SLPNO T10841095",
+      "sky_condition": "   ",
+      "temperature_f": 16.9,
+      "dewpoint_f": 14.9,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 46.0312,
+      "wind_gust_mph": 56.38822,
+      "visibility_mi": 5.5
+    },
+    {
+      "timestamp": "1996-01-17T22:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 172200Z 36045G53KT 10SM SCT040 OVC060 M12/M13 A2930 RMK SLPNO T11171134",
+      "sky_condition": "SCT",
+      "temperature_f": 11.0,
+      "dewpoint_f": 7.88,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 51.78509999999999,
+      "wind_gust_mph": 60.991339999999994,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-17T23:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 172300Z 35040G48KT 6SM -SN FG OVC036 M13/M17 A2943 RMK SB42 PRESRR; SLPNO T11341167",
+      "sky_condition": "OVC",
+      "temperature_f": 7.88,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 46.0312,
+      "wind_gust_mph": 55.23743999999999,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

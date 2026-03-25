@@ -1,0 +1,272 @@
+{
+  "event_id": "noaa_10121452_TEXAS",
+  "event_date": "1962-03-24",
+  "event_datetime_utc": "1962-03-24T18:00:00Z",
+  "station": "KTYR",
+  "county": "WOOD",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1962-03-24T00:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240000Z AUTO 13516KT 15SM 23/M01 A2979 RMK AO2 T02281011 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 73.0,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T01:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240100Z AUTO 13510KT 15SM 21/M03 A2979 RMK AO2 T02061033 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "dewpoint_f": 26.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T02:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240200Z AUTO 13509KT 15SM 18/M05 A2980 RMK AO2 T01831050 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 65.0,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T03:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240300Z AUTO 13510KT 15SM 18/M06 A2980 RMK AO2 T01781056 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 64.0,
+      "dewpoint_f": 22.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T04:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240400Z AUTO 13514KT 15SM 17/M06 A2981 RMK AO2 T01721061 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 21.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T05:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240500Z AUTO 13512KT 15SM 16/M07 A2981 RMK AO2 T01611072 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 61.0,
+      "dewpoint_f": 19.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T06:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240600Z AUTO 13512KT 15SM 15/M08 A2983 RMK AO2 T01501078 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 59.0,
+      "dewpoint_f": 18.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T07:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240700Z AUTO 13510KT 15SM 14/M08 A2982 RMK AO2 T01391083 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 57.0,
+      "dewpoint_f": 17.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T08:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240800Z AUTO 13514KT 15SM 13/M09 A2976 RMK AO2 T01331094 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 56.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T09:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 240900Z AUTO 13512KT 15SM 13/M10 A2975 RMK AO2 T01281100 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 55.0,
+      "dewpoint_f": 14.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T10:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241000Z AUTO 13512KT 15SM 12/M10 A2980 RMK AO2 T01221100 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 54.0,
+      "dewpoint_f": 14.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T11:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241100Z AUTO 22507KT 15SM 11/M10 A2987 RMK AO2 T01111100 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 52.0,
+      "dewpoint_f": 14.0,
+      "wind_direction_deg": 225.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T12:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241200Z AUTO 11305KT 15SM 10/M11 A2985 RMK AO2 T01001106 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 50.0,
+      "dewpoint_f": 13.0,
+      "wind_direction_deg": 113.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1962-03-24T13:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241300Z AUTO 11305KT 12SM 11/M12 A2985 RMK AO2 T01061117 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 51.0,
+      "dewpoint_f": 11.0,
+      "wind_direction_deg": 113.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1962-03-24T14:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241400Z AUTO 11314KT 8SM 14/M11 A2984 RMK AO2 T01391106 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 57.0,
+      "dewpoint_f": 13.0,
+      "wind_direction_deg": 113.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1962-03-24T15:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241500Z AUTO 11314KT 10SM SHRA 14/M09 RMK AO2 T01391094 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 57.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 113.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1962-03-24T16:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241600Z AUTO 11315KT 3SM SHRA 14/M09 RMK AO2 T01391094 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 57.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 113.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1962-03-24T17:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241700Z AUTO 11316KT 5SM SHRA 15/ RMK AO2 T0150 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 59.0,
+      "wind_direction_deg": 113.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1962-03-24T18:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241800Z AUTO 11318KT 7SM 16/ RMK AO2 T0156 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 60.0,
+      "wind_direction_deg": 113.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1962-03-24T19:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 241900Z AUTO 15818KT 8SM 18/ RMK AO2 T0178 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 64.0,
+      "wind_direction_deg": 158.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1962-03-24T20:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 242000Z AUTO 15820KT 10SM 19/ A2970 RMK AO2 T0194 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 67.0,
+      "wind_direction_deg": 158.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1962-03-24T21:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 242100Z AUTO 15818KT 12SM 22/ A2965 RMK AO2 T0217 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 71.0,
+      "wind_direction_deg": 158.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1962-03-24T22:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 242200Z AUTO 15818KT 12SM 20/M06 RMK AO2 T02001056 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 68.0,
+      "dewpoint_f": 22.0,
+      "wind_direction_deg": 158.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1962-03-24T23:00:00Z",
+      "station_id": "KTYR",
+      "metar": "METAR TYR 242300Z AUTO 18010KT 15SM 18/M06 RMK AO2 T01831056 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 65.0,
+      "dewpoint_f": 22.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

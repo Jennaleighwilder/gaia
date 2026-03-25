@@ -1,0 +1,143 @@
+{
+  "event_id": "noaa_10036622_KANSAS",
+  "event_date": "1990-05-24",
+  "event_datetime_utc": "1990-05-24T18:00:00Z",
+  "station": "KHUT",
+  "county": "ELLSWORTH",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 12,
+  "observations": [
+    {
+      "timestamp": "1990-05-24T00:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 240000Z 17014KT 15SM CLR 27/16 A2977 RMK SLPNO T02720156",
+      "sky_condition": "CLR",
+      "temperature_f": 81.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1990-05-24T01:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 240100Z 13012KT 15SM SCT200 26/16 A2976 RMK SLPNO T02560161",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1990-05-24T02:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 240200Z 13010KT 15SM SCT150 23/16 A2978 RMK SLPNO T02330156",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1990-05-24T04:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 240400Z 13013KT 10SM SCT250 21/17 A2979 RMK LAST SLPNO T02060167",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-05-24T12:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 241200Z 14020KT 8SM SCT010 SCT250 17/14 A2971 RMK SLPNO T01720144",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1990-05-24T13:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 241300Z 14018KT 10SM BKN015 18/15 A2972 RMK SLPNO T01780150",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-05-24T14:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 241400Z 15015KT 10SM OVC020 18/15 A2971 RMK SLPNO T01830150",
+      "sky_condition": "OVC",
+      "temperature_f": 65.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-05-24T17:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 241700Z 16015KT 10SM BKN025 OVC100 23/18 A2969 RMK SLPNO T02330178",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-05-24T19:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 241900Z 15015KT 10SM OVC030 24/18 A2968 RMK SLPNO T02440183",
+      "sky_condition": "OVC",
+      "temperature_f": 76.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-05-24T20:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 242000Z 14014KT 10SM BKN030 BKN100 26/19 A2965 RMK SLPNO T02560189",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-05-24T22:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 242200Z 16018KT 10SM SCT050 BKN150 28/20 A2959 RMK SLPNO T02780200",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-05-24T23:00:00Z",
+      "station_id": "KHUT",
+      "metar": "METAR KHUT 242300Z /////KT 10SM SCT100 BKN250 28/21 A2955 RMK SLPNO T02780206",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 69.0,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

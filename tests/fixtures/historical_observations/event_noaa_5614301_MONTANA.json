@@ -1,0 +1,55 @@
+{
+  "event_id": "noaa_5614301_MONTANA",
+  "event_date": "1997-03-12",
+  "event_datetime_utc": "1997-03-12T18:00:00Z",
+  "station": "KOLF",
+  "county": "WESTERN ROOSEVELT",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1997-03-04T12:25:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 041225Z 00000KT 6SM BCFG SCT000 M20/M26 A3021 RMK FG SCT000",
+      "sky_condition": "SCT",
+      "temperature_f": -4.0,
+      "dewpoint_f": -14.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1997-03-07T17:46:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 071746Z 26005KT 15SM SKC M1/M3 A2986",
+      "sky_condition": "CLR",
+      "temperature_f": 30.2,
+      "dewpoint_f": 26.6,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-03-18T00:48:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 180048Z 09018KT 2SM BS OVC008 M07-M08 A3023",
+      "sky_condition": "   ",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1997-03-18T02:23:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 180223Z 10012KT 10SM BKN028 OVC036 M07/M09 A3025 RMK MOON VSBL",
+      "sky_condition": "BKN",
+      "temperature_f": 19.4,
+      "dewpoint_f": 15.8,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

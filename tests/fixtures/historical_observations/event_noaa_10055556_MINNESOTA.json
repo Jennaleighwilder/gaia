@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_10055556_MINNESOTA",
+  "event_date": "1965-05-05",
+  "event_datetime_utc": "1965-05-05T18:00:00Z",
+  "station": "KRST",
+  "county": "FILLMORE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1965-05-05T00:00:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 050000Z 11013KT 15SM SCT/// BKN/// 14/07 A//// RMK SLP139 T01440067",
+      "sky_condition": "SCT",
+      "temperature_f": 58.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1013.9,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-05T03:00:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 050300Z 11013KT 20SM SCT/// SCT/// OVC/// 12/07 A//// RMK SLP136 T01170067",
+      "sky_condition": "SCT",
+      "temperature_f": 53.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1013.6,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1965-05-05T06:00:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 050600Z 17013KT 10SM -TSRA SCT/// OVC/// 11/07 A//// RMK SLP144 T01060072",
+      "sky_condition": "SCT",
+      "temperature_f": 51.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1014.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-05-05T09:00:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 050900Z 17017KT 4SM FG BKN/// 11/09 A//// RMK SLP110 T01060094",
+      "sky_condition": "BKN",
+      "temperature_f": 51.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1011.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1965-05-05T12:00:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 051200Z 15019KT 11/2SM FG OVC/// 11/10 A//// RMK SLP107 T01060100",
+      "sky_condition": "OVC",
+      "temperature_f": 51.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 1010.7,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 21.864819999999998,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1965-05-05T15:00:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 051500Z 14016KT 11/4SM -SHRA FG OVC/// 13/13 A//// RMK SLP088 P0021 T01280128",
+      "sky_condition": "OVC",
+      "temperature_f": 55.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1008.8,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 1.25,
+      "precip_1h_in": 0.21
+    },
+    {
+      "timestamp": "1965-05-05T18:00:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 051800Z 18026KT 5SM FG SCT/// OVC/// 19/16 A//// RMK SLP068 T01940161",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1006.8,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 29.920279999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1965-05-05T21:00:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 052100Z 17021KT 15SM OVC/// 21/17 A//// RMK SLP041 T02110167",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1004.1,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 24.166379999999997,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

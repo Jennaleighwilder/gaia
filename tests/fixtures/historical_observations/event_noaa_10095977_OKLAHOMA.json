@@ -1,0 +1,80 @@
+{
+  "event_id": "noaa_10095977_OKLAHOMA",
+  "event_date": "1979-03-18",
+  "event_datetime_utc": "1979-03-18T18:00:00Z",
+  "station": "KBVO",
+  "county": "NOWATA",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 6,
+  "observations": [
+    {
+      "timestamp": "1979-03-18T13:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 181300Z 16010G15KT 5SM -RA FG BKN010 OVC020 16/14 A2981 RMK RB45 SLPNO T01610144",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1979-03-18T14:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 181400Z 17020KT 4SM TSRA FG OVC010 16/14 A2977 RMK TB40 OVHD MOVG NE LTGIC SLPNO T01610144",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1979-03-18T16:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 181600Z 00000KT 4SM -RA FG BKN008 OVC030 15/15 A2979 RMK TE30 MOVG NE SLPNO T01500150",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1979-03-18T18:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 181800Z 11008KT 11/4SM TSRA FG OVC006 12/12 A2980 RMK T OVHD MOVG E OCNL LTGIC SLPNO T01220117",
+      "sky_condition": "OVC",
+      "temperature_f": 54.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1979-03-18T19:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 181900Z 09007KT 7SM SCT006 OVC100 13/12 A2978 RMK TE30 RE35 SCT V BKN SLPNO T01280122",
+      "sky_condition": "SCT",
+      "temperature_f": 55.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1979-03-18T20:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 182000Z 11010KT 10SM SCT006 BKN045 BKN250 15/14 A2975 RMK SLPNO T01500139",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,83 @@
+{
+  "event_id": "noaa_10116838_PENNSYLVANIA",
+  "event_date": "1976-03-21",
+  "event_datetime_utc": "1976-03-21T18:00:00Z",
+  "station": "KMPO",
+  "county": "MONROE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 7,
+  "observations": [
+    {
+      "timestamp": "1976-03-21T00:00:00Z",
+      "station_id": "KMPO",
+      "metar": "METAR MPO 210000Z AUTO 18010KT 14/06 RMK AO2 T01440061 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 58.0,
+      "dewpoint_f": 43.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1976-03-21T10:00:00Z",
+      "station_id": "KMPO",
+      "metar": "METAR MPO 211000Z AUTO 18012KT 12/10 RMK AO2 T01220100 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 54.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1976-03-21T14:00:00Z",
+      "station_id": "KMPO",
+      "metar": "METAR MPO 211400Z AUTO 18014KT -RA FZFG 12/11 RMK AO2 T01220111 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 54.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1976-03-21T16:00:00Z",
+      "station_id": "KMPO",
+      "metar": "METAR MPO 211600Z AUTO 18010KT 13/11 RMK AO2 T01330111 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 56.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1976-03-21T18:00:00Z",
+      "station_id": "KMPO",
+      "metar": "METAR MPO 211800Z AUTO 23015KT 17/12 RMK AO2 T01720117 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1976-03-21T20:00:00Z",
+      "station_id": "KMPO",
+      "metar": "METAR MPO 212000Z AUTO 28014KT 06/03 RMK AO2 T00560033 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 42.0,
+      "dewpoint_f": 38.0,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1976-03-21T22:00:00Z",
+      "station_id": "KMPO",
+      "metar": "METAR MPO 212200Z AUTO 34010KT 06/03 RMK AO2 T00610028 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 43.0,
+      "dewpoint_f": 37.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 11.5078
+    }
+  ],
+  "estimated": false
+}

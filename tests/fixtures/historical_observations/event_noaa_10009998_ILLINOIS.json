@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10009998_ILLINOIS",
+  "event_date": "1967-04-21",
+  "event_datetime_utc": "1967-04-21T18:00:00Z",
+  "station": "KRFD",
+  "county": "BOONE",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1967-04-21T00:00:00Z",
+      "station_id": "KRFD",
+      "metar": "KRFD 210000Z AUTO 18014KT 10SM CLR CLR CLR 12/07 RMK SLP097 T01170072 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 53.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1009.7,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1967-04-21T03:00:00Z",
+      "station_id": "KRFD",
+      "metar": "KRFD 210300Z AUTO 18010KT 7SM CLR CLR 11/08 RMK SLP086 T01110078 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 52.0,
+      "dewpoint_f": 46.0,
+      "pressure_mb": 1008.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1967-04-21T06:00:00Z",
+      "station_id": "KRFD",
+      "metar": "KRFD 210600Z AUTO 18010KT 6SM CLR CLR CLR 12/09 RMK SLP059 T01220089 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 54.0,
+      "dewpoint_f": 48.0,
+      "pressure_mb": 1005.9,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1967-04-21T09:00:00Z",
+      "station_id": "KRFD",
+      "metar": "KRFD 210900Z AUTO 22009KT 5SM CLR CLR CLR 12/09 RMK SLP045 T01220094 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 54.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1004.5,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1967-04-21T12:00:00Z",
+      "station_id": "KRFD",
+      "metar": "KRFD 211200Z AUTO 18005KT 2SM CLR CLR CLR 11/09 RMK SLP045 T01110094 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 52.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1004.5,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1967-04-21T15:00:00Z",
+      "station_id": "KRFD",
+      "metar": "KRFD 211500Z AUTO 29006KT 2SM CLR CLR CLR 14/12 RMK SLP058 T01440117 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 58.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1005.8,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1967-04-21T18:00:00Z",
+      "station_id": "KRFD",
+      "metar": "KRFD 211800Z AUTO 08007KT 6SM CLR CLR CLR 18/13 RMK SLP017 T01830128 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 65.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1001.7,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1967-04-21T21:00:00Z",
+      "station_id": "KRFD",
+      "metar": "KRFD 212100Z AUTO 18011KT 10SM CLR CLR 19/14 RMK SLP965 T01940139 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 67.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 996.5,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

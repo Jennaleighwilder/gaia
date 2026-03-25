@@ -61,6 +61,8 @@ class WildfireEngine:
         if red_flag_conditions >= 4:
             red_flag_score = 0.95
         elif red_flag_conditions >= 3:
+            red_flag_score = 0.8
+        elif red_flag_conditions >= 2 and rh is not None and rh < 12:
             red_flag_score = 0.7
 
         # --- SIGNAL 2: FIRMS satellite ---
@@ -103,40 +105,60 @@ class WildfireEngine:
                         hazmat_fire = True
                         fire_score = 1.0
 
-        # --- SIGNAL 3: Smoke/visibility ---
+        # --- SIGNAL 3: Smoke/visibility (ASOS + GOES) ---
         present = (obs.get("present_weather") or obs.get("metar") or "").upper()
         vis = obs.get("visibility_mi")
         precip = obs.get("precip_1h_in") or 0
         smoke_score = 0.0
+        goes_smoke = bool(fixture.get("goes_smoke_detected", False))
         if "FU" in present:
             smoke_score = 0.8
+        elif goes_smoke:
+            smoke_score = 0.75
         elif "HZ" in present:
             smoke_score = 0.4
         elif vis is not None and vis < 3 and (precip or 0) < 0.01:
             smoke_score = 0.5
 
-        # --- Combine ---
+        # --- Combine three tiers ---
         alerts = []
         if hazmat_fire:
             alerts.append("HAZMAT_FIRE_ALERT")
-        if red_flag_conditions >= 4 and firms_nearby:
+        if firms_nearby and red_flag_conditions >= 2:
             alerts.append("WILDFIRE_WARNING")
-        elif red_flag_conditions >= 3 and firms_nearby:
-            alerts.append("WILDFIRE_WARNING")
-        elif red_flag_conditions >= 4:
+        elif firms_nearby:
+            alerts.append("WILDFIRE_DETECTED")
+        if red_flag_conditions >= 4:
             alerts.append("FIRE_WEATHER_WARNING")
         elif red_flag_conditions >= 3:
             alerts.append("FIRE_WEATHER_WATCH")
-        elif firms_nearby:
-            alerts.append("WILDFIRE_WATCH")
+        if goes_smoke:
+            alerts.append("GOES_SMOKE_PLUME")
         if smoke_score > 0.5:
             alerts.append("SMOKE_DETECTED")
 
-        wildfire_certain = (
-            fire_score >= 0.7 or (red_flag_score >= 0.7 and firms_nearby) or hazmat_fire
-            or red_flag_score >= 0.9  # Extreme red flag = FIRE_WEATHER_WARNING
+        # Red flag + smoke/low visibility = strong fire signal even without FIRMS
+        smoke_fire_signal = (
+            red_flag_conditions >= 2
+            and (smoke_score >= 0.4 or (vis is not None and vis < 5 and (precip or 0) < 0.01))
         )
+        if smoke_fire_signal and red_flag_score < 0.7:
+            red_flag_score = max(red_flag_score, 0.75)
+            alerts.append("RED_FLAG_SMOKE_COMBO")
+
+        # Any single tier sufficient: FIRMS heat, GOES smoke+conditions, or red flag
+        wildfire_certain = (
+            firms_nearby
+            or fire_score >= 0.7
+            or hazmat_fire
+            or red_flag_score >= 0.8
+            or smoke_fire_signal
+            or (goes_smoke and red_flag_conditions >= 1)
+        )
+        # Highest of three tiers wins; FIRMS + any other tier = maximum
         score = max(red_flag_score, fire_score, smoke_score, 0.0)
+        if firms_nearby and (red_flag_conditions >= 1 or smoke_score > 0):
+            score = max(score, 0.9)
         score = min(score, 1.0)
 
         return {

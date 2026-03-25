@@ -1,0 +1,189 @@
+{
+  "event_id": "noaa_5551677_MICHIGAN",
+  "event_date": "1996-06-18",
+  "event_datetime_utc": "1996-06-18T18:00:00Z",
+  "station": "KPTK",
+  "county": "OAKLAND",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1996-06-18T00:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 180000Z 10010KT 21/2SM FG OVC080 18/16 A2994 RMK SLPNO T01770161",
+      "sky_condition": "OVC",
+      "temperature_f": 63.86,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-06-18T01:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 180100Z 10008KT 11/2SM -SHRA FG BKN028 OVC070 18/17 A2996 RMK SLPNO T01770166",
+      "sky_condition": "BKN",
+      "temperature_f": 63.86,
+      "dewpoint_f": 61.88,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-06-18T02:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 180200Z 10009KT 11/4SM -RA FG BKN035 BKN035 OVC070 17/17 A2994 RMK SLPNO T01720166",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.88,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1996-06-18T03:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 180300Z 10007KT 11/4SM -RA FG SCT015 OVC060 17/17 A2996 RMK SLPNO T01720172",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1996-06-18T04:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 180400Z 10010KT 11/2SM -RA FG BKN006 OVC015 17/17 A2994 RMK LAST; SLPNO T01720172",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-06-18T10:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181000Z 08006KT 11/2SM -RA FG BKN009 OVC030 17/17 A2988 RMK SLPNO T01720172",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-06-18T11:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181100Z 10010KT 11/2SM -RA FG SCT004 OVC009 17/17 A2987 RMK SLPNO T01720172",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-06-18T12:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181200Z 11010KT 11/2SM -RA FG OVC004 18/18 A2985 RMK SLPNO T01770177",
+      "sky_condition": "OVC",
+      "temperature_f": 63.86,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-06-18T13:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181300Z 12008KT 11/2SM -SHRA FG OVC/// OVC003 18/18 A2985 RMK F3; SLPNO T01830183",
+      "sky_condition": "OVC",
+      "temperature_f": 65.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-06-18T14:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181400Z 14010KT 1SM -SHRA FG OVC003 19/19 A2985 RMK SLPNO T01880188",
+      "sky_condition": "OVC",
+      "temperature_f": 65.84,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-06-18T15:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181500Z 14010KT 5/8SM -SHRA FG OVC003 19/19 A2985 RMK R9RVR50; SLPNO T01880188",
+      "sky_condition": "OVC",
+      "temperature_f": 65.84,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 0.62
+    },
+    {
+      "timestamp": "1996-06-18T16:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181600Z 14012KT 11/4SM -SHRA FG OVC004 19/19 A2983 RMK SLPNO T01940188",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1996-06-18T17:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181700Z 14010KT 11/4SM -SHRA FG BKN005 OVC023 19/19 A2983 RMK SLPNO T01940194",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1996-06-18T19:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 181900Z 11010KT 2SM -SHRA FG OVC005 19/19 A2982 RMK SLPNO T01880188",
+      "sky_condition": "OVC",
+      "temperature_f": 65.84,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-06-18T22:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 182200Z 13010KT 11/2SM -SHRA FG OVC005 21/20 A2979 RMK SLPNO T02110205",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-06-18T23:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 182300Z 14010KT 11/2SM FG OVC005 20/20 A2980 RMK SLPNO T02050205",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.5
+    }
+  ],
+  "estimated": false
+}

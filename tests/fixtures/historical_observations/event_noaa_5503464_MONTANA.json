@@ -1,0 +1,37 @@
+{
+  "event_id": "noaa_5503464_MONTANA",
+  "event_date": "2006-04-19",
+  "event_datetime_utc": "2006-04-19T18:00:00Z",
+  "station": "K2WX",
+  "county": "CARTER",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "2006-04-19T00:56:00Z",
+      "station_id": "K2WX",
+      "metar": "K2WX 190056Z AUTO 30046G54KT 00/M01 A2958 RMK AO1 PK WND 30056/0033 SLP043 T00001006",
+      "sky_condition": null,
+      "temperature_f": 32.0,
+      "dewpoint_f": 31.0,
+      "pressure_mb": 1004.3,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 52.93588,
+      "wind_gust_mph": 62.14212
+    },
+    {
+      "timestamp": "2006-04-19T01:56:00Z",
+      "station_id": "K2WX",
+      "metar": "K2WX 190156Z AUTO 30052G63KT 01/M01 A2954 RMK AO1 PK WND 30063/0153 SLP027 T00061006",
+      "sky_condition": null,
+      "temperature_f": 33.0,
+      "dewpoint_f": 31.0,
+      "pressure_mb": 1002.7,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 59.840559999999996,
+      "wind_gust_mph": 72.49914
+    }
+  ],
+  "estimated": false
+}

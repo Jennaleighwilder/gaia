@@ -1,0 +1,97 @@
+{
+  "event_id": "noaa_5576107_SOUTH DAKOTA",
+  "event_date": "1996-12-16",
+  "event_datetime_utc": "1996-12-16T18:00:00Z",
+  "station": "KMHE",
+  "county": "DAVISON",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 7,
+  "observations": [
+    {
+      "timestamp": "1996-12-16T17:35:00Z",
+      "station_id": "KMHE",
+      "metar": "METAR KMHE 161735Z AUTO 31030G34KT 3 1/2SM CLR M04/M08 A2988 RMK AO1",
+      "sky_condition": "CLR",
+      "temperature_f": 24.8,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 34.523399999999995,
+      "wind_gust_mph": 39.12652,
+      "visibility_mi": 3.5
+    },
+    {
+      "timestamp": "1996-12-16T18:35:00Z",
+      "station_id": "KMHE",
+      "metar": "METAR KMHE 161835Z AUTO 32032G42KT 3/4SM BKN023 BKN028 M06/M09 A2990 RMK AO1",
+      "sky_condition": "BKN",
+      "temperature_f": 21.2,
+      "dewpoint_f": 15.8,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 36.82496,
+      "wind_gust_mph": 48.33275999999999,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-12-16T19:55:00Z",
+      "station_id": "KMHE",
+      "metar": "METAR KMHE 161955Z AUTO 32030G38KT 1 1/4SM BKN016 M08/M12 A2992 RMK AO1",
+      "sky_condition": "BKN",
+      "temperature_f": 17.6,
+      "dewpoint_f": 10.4,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 34.523399999999995,
+      "wind_gust_mph": 43.729639999999996,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1996-12-16T20:35:00Z",
+      "station_id": "KMHE",
+      "metar": "METAR KMHE 162035Z AUTO 31029G36KT 1 1/4SM SCT014 OVC018 M09/M12 A2994 RMK AO1",
+      "sky_condition": "SCT",
+      "temperature_f": 15.8,
+      "dewpoint_f": 10.4,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 33.37262,
+      "wind_gust_mph": 41.428079999999994,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1996-12-16T21:35:00Z",
+      "station_id": "KMHE",
+      "metar": "METAR KMHE 162135Z AUTO 31026G32KT 3 1/2SM BKN018 M09/M13 A2998 RMK AO1",
+      "sky_condition": "BKN",
+      "temperature_f": 15.8,
+      "dewpoint_f": 8.6,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 29.920279999999998,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 3.5
+    },
+    {
+      "timestamp": "1996-12-16T22:55:00Z",
+      "station_id": "KMHE",
+      "metar": "METAR KMHE 162255Z AUTO 30025G33KT 3SM CLR M10/M14 A2998 RMK AO1",
+      "sky_condition": "CLR",
+      "temperature_f": 14.0,
+      "dewpoint_f": 6.8,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 37.975739999999995,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-12-16T23:35:00Z",
+      "station_id": "KMHE",
+      "metar": "METAR KMHE 162335Z AUTO 30018G26KT 10SM CLR M11/M13 A2999 RMK AO1",
+      "sky_condition": "CLR",
+      "temperature_f": 12.2,
+      "dewpoint_f": 8.6,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 29.920279999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

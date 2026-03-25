@@ -1,0 +1,174 @@
+{
+  "event_id": "noaa_10049692_MISSISSIPPI",
+  "event_date": "1968-11-03",
+  "event_datetime_utc": "1968-11-03T18:00:00Z",
+  "station": "KGPT",
+  "county": "HARRISON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "1968-11-03T00:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 030000Z AUTO 15005KT 10SM A3009 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T01:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 030100Z AUTO 13010KT 10SM A3008 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T02:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 030200Z AUTO 13008KT 10SM A3008 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T03:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 030300Z AUTO 15003KT 10SM A3008 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T04:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 030400Z AUTO 15003KT 10SM A3008 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T12:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 031200Z AUTO 35005KT 0SM FZFG A3004 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 0.0
+    },
+    {
+      "timestamp": "1968-11-03T13:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 031300Z AUTO 02005KT 1/8SM FZFG RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1968-11-03T14:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 031400Z AUTO 05004KT 1/8SM FZFG RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1968-11-03T15:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 031500Z AUTO 35005KT 5SM FG A3002 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1968-11-03T16:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 031600Z AUTO 13008KT 7SM A3003 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-11-03T17:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 031700Z AUTO 15008KT 8SM RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-11-03T18:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 031800Z AUTO 15008KT 8SM RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-11-03T19:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 031900Z AUTO 13010KT 8SM RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-11-03T20:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 032000Z AUTO 13012KT 8SM 23/19 RMK AO2 T02330194 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 74.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-11-03T21:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 032100Z AUTO 14011KT 4SM TS SHRA 21/18 RMK AO2 T02110183 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1968-11-03T22:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 032200Z AUTO 16015KT 3SM SHRA 21/21 RMK AO2 T02110211 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 70.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1968-11-03T23:00:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 032300Z AUTO 19015KT 6SM FU HZ 22/21 RMK AO2 T02220206 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 72.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

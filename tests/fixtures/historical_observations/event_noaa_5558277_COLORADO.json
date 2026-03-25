@@ -1,0 +1,233 @@
+{
+  "event_id": "noaa_5558277_COLORADO",
+  "event_date": "1996-07-12",
+  "event_datetime_utc": "1996-07-12T18:00:00Z",
+  "station": "KAPA",
+  "county": "JEFFERSON",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 20,
+  "observations": [
+    {
+      "timestamp": "1996-07-12T00:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 120045Z 07008KT 30SM FEW080 27/12 A3016 RMK TCU DSNT S-SW N",
+      "sky_condition": "FEW",
+      "temperature_f": 80.6,
+      "dewpoint_f": 53.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-07-12T01:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 120145Z 08012KT 30SM FEW080 25/13 A3018 RMK TCU DSNT N S-SW",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-07-12T02:47:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 120247Z 09007KT 30SM FEW080 FEW120 22/13 A3021 RMK TCU DSNT NE S",
+      "sky_condition": "FEW",
+      "temperature_f": 71.6,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-07-12T04:50:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 120450Z 13005KT 30SM FEW080 21/13 A3024",
+      "sky_condition": "FEW",
+      "temperature_f": 69.8,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-07-12T07:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 120745Z 12005KT 30SM SCT080 18/13 A3025",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-07-12T08:55:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 120855Z 11005KT 30SM SCT080 16/13 A3024",
+      "sky_condition": "SCT",
+      "temperature_f": 60.8,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-07-12T09:50:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 120950Z 12005KT 30SM FEW080 15/13 A3023",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-07-12T10:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121045Z 17004KT 30SM FEW080 15/13 A3024",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-07-12T11:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121145Z 18005KT 50SM FEW080 15/12 A3024",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 53.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1996-07-12T12:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121245Z 18005KT 50SM FEW080 18/13 A3025",
+      "sky_condition": "FEW",
+      "temperature_f": 64.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1996-07-12T13:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121345Z 13004KT 50SM FEW120 20/14 A3025",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1996-07-12T14:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121445Z 31006KT 50SM FEW080 SCT180 21/13 A3025",
+      "sky_condition": "FEW",
+      "temperature_f": 69.8,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1996-07-12T15:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121545Z 35005KT 50SM FEW080 SCT180 22/14 A3024",
+      "sky_condition": "FEW",
+      "temperature_f": 71.6,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1996-07-12T16:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121645Z 35005KT 50SM FEW080 SCT180 23/14 A3023",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1996-07-12T17:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121745Z 35006KT 40SM SCT080 SCT180 25/13 A3022",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-07-12T18:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 121845Z 33007KT 40SM SCT080 BKN150 26/13 A3020",
+      "sky_condition": "SCT",
+      "temperature_f": 78.8,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-07-12T20:50:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 122050Z 33012KT 15SM BKN050CB 26/14 A3016 RMK OCNL LTGCG E",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-07-12T21:50:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 122150Z 310012K 15SM BKN050CB 26/15 A3014 RMK OCNL LTGCG NE-SE",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-07-12T22:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 122245Z 31011KT 15SM BKN050CB BKN250 24/14 A3013 RMK CB DSNT N-E",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-07-12T23:45:00Z",
+      "station_id": "KAPA",
+      "metar": "KAPA 122345Z 33012KT 15SM BKN050CB 25/14 A3014 RMK FQT LTGCG DSNT NE CB DSNT NE-E",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

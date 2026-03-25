@@ -1,0 +1,122 @@
+{
+  "event_id": "noaa_10089010_NORTH CAROLINA",
+  "event_date": "1984-03-28",
+  "event_datetime_utc": "1984-03-28T18:00:00Z",
+  "station": "KECG",
+  "county": "GATES",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1984-03-28T13:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 281300Z 13015KT 11/2SM -RA FG OVC004 14/13 A2953 RMK CIG RGD /ESTD MAX/MIN/ PCPN 59/47/.15 SLP000 T01440133",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1000.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1984-03-28T14:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 281400Z 13012G20KT 4SM FG OVC003 14/13 A2948 RMK CIG RGD OCNL R- SLP983 T01440133",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 998.3,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1984-03-28T15:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 281500Z 15010KT 11/2SM -RA FG OVC004 14/13 A2945 RMK CIG RGD / SLP973 T01440133 57039",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 997.3,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1984-03-28T16:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 281600Z 13008KT 1SM -RA FG OVC002 15/14 A2936 RMK PCPN VRY LGT SLP942 T01500139",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 994.2,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1984-03-28T17:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 281700Z 12004KT 1SM -RA FG OVC002 15/14 A2933 RMK PCPN VRY LGT TPS 5 SLP932 T01500139",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 993.2,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1984-03-28T18:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 281800Z 04006KT 1/4SM -RA FG OVC/// 16/14 A2930 RMK 65118/47 SLP922 T01560139",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 992.2,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1984-03-28T19:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 281900Z 09010KT 21/2SM -RA FG OVC001 17/16 A2922 RMK PCPN VRY LGT SLP895 T01670156",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 989.5,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1984-03-28T20:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 282000Z 13006KT 5SM FG SCT002 OVC005 17/16 A2921 RMK OCNL R- SLP892 T01670156",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 989.2,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1984-03-28T21:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 282100Z 00000KT 7SM SCT004 OVC025 20/17 A2920 RMK LAST /BINOVC / SLP888 T02000167 56034",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 988.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

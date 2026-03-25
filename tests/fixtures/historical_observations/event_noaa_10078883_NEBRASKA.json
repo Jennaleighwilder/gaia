@@ -1,0 +1,160 @@
+{
+  "event_id": "noaa_10078883_NEBRASKA",
+  "event_date": "1990-06-01",
+  "event_datetime_utc": "1990-06-01T18:00:00Z",
+  "station": "KBBW",
+  "county": "CUSTER",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1990-06-01T00:00:00Z",
+      "station_id": "KBBW",
+      "metar": "KBBW 010000Z AUTO 17017KT 10SM BKN030 BKN197 21/13 A2979 RMK T02110133 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-06-01T12:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 011200Z 14016KT 11/2SM FG OVC007 18/17 A2972 RMK SLPNO 60052 T01780167 402220111 54072",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1990-06-01T13:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 011300Z 14013KT 1SM FG OVC004 18/17 A2972 RMK SLPNO T01780172",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1990-06-01T14:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 011400Z 15011KT 3SM FG OVC005 19/17 A2969 RMK SLPNO T01890172",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1990-06-01T15:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 011500Z 17013KT 4SM DZ OVC007 21/17 A2967 RMK BINOVC SLPNO T02110167",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1990-06-01T16:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 011600Z 16012KT 5SM DZ OVC008 21/17 A2965 RMK SLPNO T02110167",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1990-06-01T17:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 011700Z 16014KT 7SM BKN015 23/16 A2962 RMK SLPNO T02280161",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1990-06-01T18:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 011800Z 16019KT 7SM BKN030 BKN200 24/15 A2962 RMK SLPNO T02440150",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 21.864819999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1990-06-01T19:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 011900Z 17023G28KT 10SM BKN030 BKN200 25/15 A2959 RMK SLPNO T02500150",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-06-01T20:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 012000Z 16025G30KT 10SM SCT030 BKN200 27/15 A2955 RMK SLPNO T02670150",
+      "sky_condition": "SCT",
+      "temperature_f": 80.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-06-01T21:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 012100Z 16023G27KT 10SM SCT030 OVC200 27/15 A2954 RMK SLPNO T02720150",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 31.07106,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-06-01T22:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 012200Z 17021KT 10SM SCT030 OVC200 28/16 A2950 RMK SLPNO T02780156",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 24.166379999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-06-01T23:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 012300Z 17025G31KT 10SM BKN030 OVC200 27/17 A2946 RMK CB SOUTWEST 484M SLPNO T02720167",
+      "sky_condition": "BKN",
+      "temperature_f": 81.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 35.67418,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

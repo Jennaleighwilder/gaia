@@ -1,0 +1,269 @@
+{
+  "event_id": "noaa_145396_SOUTH DAKOTA",
+  "event_date": "2008-12-13",
+  "event_datetime_utc": "2008-12-13T18:00:00Z",
+  "station": "K2WX",
+  "county": "HARDING",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2008-12-13T00:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 31.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2008-12-13T01:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 28.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2008-12-13T02:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 33.0,
+      "dewpoint_f": 18.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2008-12-13T03:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 27.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2008-12-13T04:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 26.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "2008-12-13T05:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 27.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "2008-12-13T06:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 26.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "2008-12-13T07:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 25.0,
+      "dewpoint_f": 19.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "2008-12-13T08:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 26.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 14.960139999999999
+    },
+    {
+      "timestamp": "2008-12-13T09:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 24.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "2008-12-13T10:56:00Z",
+      "station_id": "K2WX",
+      "metar": "K2WX 131056Z AUTO 07016KT M05/M07 A2920 RMK AO1 SLP916 T10501067",
+      "sky_condition": null,
+      "temperature_f": 23.0,
+      "dewpoint_f": 19.9,
+      "pressure_mb": 991.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 18.41248,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2008-12-13T11:56:00Z",
+      "station_id": "K2WX",
+      "metar": "K2WX 131156Z AUTO 07019KT M06/M07 A2918 RMK AO1 SLP912 T10561067 11028 21056 58018",
+      "sky_condition": null,
+      "temperature_f": 21.9,
+      "dewpoint_f": 19.9,
+      "pressure_mb": 991.2,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 21.864819999999998,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2008-12-13T12:56:00Z",
+      "station_id": "K2WX",
+      "metar": "K2WX 131256Z AUTO 07019G24KT M06/M07 A2919 RMK AO1 SLP916 T10561067",
+      "sky_condition": null,
+      "temperature_f": 21.9,
+      "dewpoint_f": 19.9,
+      "pressure_mb": 991.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 21.864819999999998,
+      "wind_gust_mph": 27.618719999999996,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2008-12-13T13:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 22.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 20.714039999999997
+    },
+    {
+      "timestamp": "2008-12-13T14:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 22.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 29.920279999999998
+    },
+    {
+      "timestamp": "2008-12-13T15:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 22.0,
+      "dewpoint_f": 20.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 23.0156
+    },
+    {
+      "timestamp": "2008-12-13T16:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 21.0,
+      "dewpoint_f": 19.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 21.864819999999998
+    },
+    {
+      "timestamp": "2008-12-13T17:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 19.0,
+      "dewpoint_f": 17.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 25.317159999999998,
+      "wind_gust_mph": 33.37262
+    },
+    {
+      "timestamp": "2008-12-13T18:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 18.0,
+      "dewpoint_f": 17.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 27.618719999999996,
+      "wind_gust_mph": 34.523399999999995
+    },
+    {
+      "timestamp": "2008-12-13T19:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 17.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 29.920279999999998,
+      "wind_gust_mph": 33.37262
+    },
+    {
+      "timestamp": "2008-12-13T20:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 16.0,
+      "dewpoint_f": 13.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 27.618719999999996,
+      "wind_gust_mph": 32.22184
+    },
+    {
+      "timestamp": "2008-12-13T21:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 13.0,
+      "dewpoint_f": 11.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 21.864819999999998,
+      "wind_gust_mph": 27.618719999999996,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-12-13T22:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 8.0,
+      "dewpoint_f": 5.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 32.22184
+    },
+    {
+      "timestamp": "2008-12-13T23:56:00Z",
+      "station_id": "K2WX",
+      "metar": "M",
+      "sky_condition": null,
+      "temperature_f": 6.0,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 19.56326,
+      "wind_gust_mph": 27.618719999999996
+    }
+  ],
+  "estimated": false
+}

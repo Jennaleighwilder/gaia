@@ -1,0 +1,111 @@
+{
+  "event_id": "noaa_10094391_OKLAHOMA",
+  "event_date": "1968-05-13",
+  "event_datetime_utc": "1968-05-13T18:00:00Z",
+  "station": "KOKC",
+  "county": "POTTAWATOMIE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-05-13T00:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 130000Z 00000KT 7SM SCT/// OVC/// 16/14 A//// RMK SLP131 T01610144",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1013.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-05-13T03:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 130300Z 07003KT 9SM OVC/// 16/14 A//// RMK SLP134 T01610144",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1013.4,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1968-05-13T06:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 130600Z 13004KT 5SM -RA FG SCT/// OVC/// 16/15 A//// RMK SLP135 T01560150",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1013.5,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1968-05-13T09:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 130900Z 13010KT 7SM SCT/// OVC/// 16/15 A//// RMK SLP129 T01560150",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1012.9,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-05-13T12:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 131200Z 12010KT 10SM SCT/// OVC/// 16/16 A//// RMK SLP126 T01610156",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1012.6,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-05-13T15:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 131500Z 13010KT 3SM -DZ FG OVC/// 18/17 A//// RMK SLP128 T01780167",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1012.8,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1968-05-13T18:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 131800Z 15013KT 1/2SM FG OVC/// 20/19 A//// RMK SLP110 P0006 T02000189",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1011.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 0.5,
+      "precip_1h_in": 0.06
+    },
+    {
+      "timestamp": "1968-05-13T21:00:00Z",
+      "station_id": "KOKC",
+      "metar": "KOKC 132100Z 10004KT 15SM SCT/// OVC/// 20/19 A//// RMK SLP096 P0003 T02000189",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1009.6,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0,
+      "precip_1h_in": 0.03
+    }
+  ],
+  "estimated": false
+}

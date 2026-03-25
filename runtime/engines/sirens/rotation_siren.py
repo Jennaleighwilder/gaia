@@ -12,7 +12,10 @@ class RotationSiren(BaseSiren):
 
     def get_raw_signal(self, observation: dict, payload: dict) -> Any:
         radar = payload.get("radar_fixture") or {}
-        return radar.get("rotation_couplet_kt") or radar.get("velocity_max")
+        couplet = radar.get("rotation_couplet_kt")
+        if couplet is not None:
+            return couplet
+        return radar.get("velocity_max")
 
     def signal_to_status(self, raw_signal: Any, payload: dict | None = None) -> str:
         if raw_signal is None:

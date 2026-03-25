@@ -1,0 +1,248 @@
+{
+  "event_id": "noaa_10323006_INDIANA",
+  "event_date": "1994-04-27",
+  "event_datetime_utc": "1994-04-27T18:00:00Z",
+  "station": "KLAF",
+  "county": "CARROLL",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1994-04-27T00:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270000Z 23018G30KT 7SM SCT049 27/18 A2972 RMK SLPNO T02720177",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1994-04-27T01:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270100Z 22012KT 7SM SCT200 25/18 A2971 RMK SLPNO T02550183",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1994-04-27T02:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270200Z 18012KT 7SM SCT200 25/18 A2971 RMK SLPNO T02500183",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1994-04-27T03:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270300Z 19013KT 7SM BKN150 25/19 A2972 RMK FREQ DSNT LTGICCCCG NW-N; SLPNO T02500188",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1994-04-27T04:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270400Z 20016KT 7SM -SHRA SCT040 SCT100 OVC150 24/19 A2972 RMK RB42 OCNL DSNT LGT S W-NE; SLPNO T02440188",
+      "sky_condition": "SCT",
+      "temperature_f": 76.0,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1994-04-27T05:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270500Z 20011KT 7SM -TSRA SCT040 OVC150 23/20 A2974 RMK TB07 W-N MOVG NE FREQ LGTIC CG RE00 B16; SLPNO T02270200",
+      "sky_condition": "SCT",
+      "temperature_f": 72.86,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1994-04-27T06:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270700Z 21014KT 7SM -TSRA OVC037 M/M A2984 RMK T E MOVG NE OCNL LTGCCCG; SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1994-04-27T07:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270800Z 22009KT 10SM SCT035 OVC120 M/M A2983 RMK RE28; SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1994-04-27T08:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 270900Z 23010KT 10SM OVC150 M/M A2985 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1994-04-27T09:00:00Z",
+      "station_id": "KLAF",
+      "metar": "KLAF 270900Z AUTO 23010KT 12SM OVC148 A2985 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1994-04-27T10:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271000Z 25008KT 15SM BKN150 OVC200 17/16 A2985 RMK OCNL DSNT LTG S; SLPNO T01720161",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-04-27T11:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271100Z 24006KT 15SM SCT150 BKN200 16/15 A2986 RMK SLPNO T01610150",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-04-27T12:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271200Z 26008KT 10SM BKN200 16/15 A2991 RMK SLPNO 60051 T01610150",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1994-04-27T13:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271400Z 31015KT 20SM BKN200 M/M A2997 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1994-04-27T14:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271500Z 28012KT 20SM BKN200 OVC250 M/M A3002 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1994-04-27T15:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271600Z 31012KT 20SM BKN200 M/M A3004 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1994-04-27T16:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271700Z 31012KT 20SM BKN200 M/M A3005 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1994-04-27T17:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271800Z 31010KT 25SM BKN250 M/M A3006 RMK CS E/WND 28V34; SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1994-04-27T18:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 271900Z 29012KT 25SM BKN250 M/M A3009 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1994-04-27T19:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 272000Z 28010KT 20SM BKN250 M/M A3008 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1994-04-27T20:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 272100Z 32012KT 20SM BKN250 M/M A3008 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1994-04-27T21:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 272200Z 33008KT 20SM BKN250 M/M A3007 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1994-04-27T22:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 272300Z 33008KT 20SM BKN250 M/M A3007 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1994-04-27T23:00:00Z",
+      "station_id": "KLAF",
+      "metar": "METAR KLAF 280000Z 32007KT 20SM BKN250 M/M A3011 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 20.0
+    }
+  ],
+  "estimated": false
+}

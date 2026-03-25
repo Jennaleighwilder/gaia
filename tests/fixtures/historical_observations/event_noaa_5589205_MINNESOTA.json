@@ -1,0 +1,121 @@
+{
+  "event_id": "noaa_5589205_MINNESOTA",
+  "event_date": "1997-01-09",
+  "event_datetime_utc": "1997-01-09T18:00:00Z",
+  "station": "KEST",
+  "county": "MARTIN",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1997-01-09T05:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 090553Z AUTO 18004KT 10SM CLR M08/M09 A2982 RMK AO2 SLP116 6//// T10831089 11022 21083 410171083 58027 FZRANO TSNO PNO",
+      "sky_condition": "CLR",
+      "temperature_f": 17.0,
+      "dewpoint_f": 16.0,
+      "pressure_mb": 1011.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-01-09T07:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 090753Z AUTO 00000KT 5SM BR CLR M11/M12 A2974 RMK AO2 SLP093 T11061117 FZRANO TSNO PNO",
+      "sky_condition": "CLR",
+      "temperature_f": 13.0,
+      "dewpoint_f": 11.0,
+      "pressure_mb": 1009.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-01-09T09:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 090953Z AUTO 20005KT 1/2SM FZFG BKN001 OVC007 M12/M12 A2967 RMK AO2 SLP067 T11171122 FZRANO TSNO PNO",
+      "sky_condition": "BKN",
+      "temperature_f": 11.0,
+      "dewpoint_f": 10.0,
+      "pressure_mb": 1006.7,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1997-01-09T10:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 091053Z AUTO 22006KT 7SM BKN020 OVC075 M11/M11 A2963 RMK AO2 SLP055 T11061111 FZRANO TSNO PNO",
+      "sky_condition": "BKN",
+      "temperature_f": 13.0,
+      "dewpoint_f": 12.0,
+      "pressure_mb": 1005.5,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-01-09T12:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 091253Z AUTO 18006KT 5SM -SN BR OVC012 M07/M08 A2958 RMK AO2 SNB26 SLP036 T10721078 FZRANO TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 19.0,
+      "dewpoint_f": 18.0,
+      "pressure_mb": 1003.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-01-09T13:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 091353Z AUTO 23006KT 2 1/2SM -SN BR OVC016 M07/M08 A2956 RMK AO2 SLP029 T10671078 FZRANO TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 20.0,
+      "dewpoint_f": 18.0,
+      "pressure_mb": 1002.9,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1997-01-09T14:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 091453Z AUTO 25006KT 1 3/4SM -SN BR OVC014 M07/M08 A2953 RMK AO2 SLP016 6//// T10671078 58027 FZRANO TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 20.0,
+      "dewpoint_f": 18.0,
+      "pressure_mb": 1001.6,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 1.75
+    },
+    {
+      "timestamp": "1997-01-09T15:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 091553Z AUTO 29013KT 6SM BR OVC018 M06/M07 A2951 RMK AO2 SNE39 SLP012 T10611067 FZRANO TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 21.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1001.2,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1997-01-09T17:53:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 091753Z AUTO 31020KT 1SM UP BR SCT007 BKN011 OVC017 M06/M07 A2948 RMK AO2 UPB04 SLP002 6//// T10611067 11056 21083 58016 FZRANO TSNO PNO",
+      "sky_condition": "SCT",
+      "temperature_f": 21.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1000.2,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 1.0
+    }
+  ],
+  "estimated": false
+}

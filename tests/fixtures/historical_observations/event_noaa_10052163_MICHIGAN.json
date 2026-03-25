@@ -1,0 +1,178 @@
+{
+  "event_id": "noaa_10052163_MICHIGAN",
+  "event_date": "1986-07-04",
+  "event_datetime_utc": "1986-07-04T18:00:00Z",
+  "station": "KIMT",
+  "county": "MENOMINEE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1986-07-04T00:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 040000Z 22009KT 10SM SCT050 BKN200 23/13 A2994 RMK SLPNO T02330128",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1986-07-04T01:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 040100Z 20005KT 10SM SCT050 BKN200 22/13 A2991 RMK SLPNO T02170133",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1986-07-04T02:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 040200Z 18008KT 10SM SCT050 SCT200 19/13 A2989 RMK SLPNO T01940128",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1986-07-04T03:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 040300Z 21006KT 7SM SCT050 SCT200 18/10 A2991 RMK SLPNO T01780100",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T04:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 040400Z 19007KT 7SM SCT050 17/12 A2992 RMK LAST SLPNO T01670122",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T13:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 041300Z 20009KT 5SM -SHRA FG BKN030 OVC080 18/17 A2968 RMK PRESFR SLPNO T01830172",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1986-07-04T14:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 041400Z 24006KT 7SM BKN030 OVC080 19/18 A2963 RMK BINOVC PRESFR SLPNO T01940178",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T16:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 041600Z 27010KT 7SM BKN030 BKN120 26/20 A2968 RMK SLPNO T02560200",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T17:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 041700Z 28010KT 7SM BKN050 OVC120 26/20 A2969 RMK SLPNO T02560200",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T18:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 041800Z 29010KT 7SM -RA BKN020 OVC080 23/21 A2975 RMK PRESRR SLPNO T02280206",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T19:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 041900Z 21006KT 7SM -RA BKN030 OVC080 22/21 A2967 RMK PRESFR SLPNO T02220206",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T20:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 042000Z 00000KT 7SM -SHRA BKN030 OVC080 21/20 A2971 RMK SLPNO T02110200",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T21:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 042100Z 24005KT 7SM BKN030 OVC080 23/21 A2969 RMK SLPNO T02330211",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T22:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 042200Z 00000KT 7SM BKN030 OVC080 26/23 A2970 RMK BINOVC SLPNO T02560228",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 73.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-07-04T23:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 042300Z 00000KT 7SM OVC030 25/23 A2972 RMK SLPNO T02500228",
+      "sky_condition": "OVC",
+      "temperature_f": 77.0,
+      "dewpoint_f": 73.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

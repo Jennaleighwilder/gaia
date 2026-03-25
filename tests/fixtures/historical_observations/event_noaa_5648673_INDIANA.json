@@ -1,0 +1,200 @@
+{
+  "event_id": "noaa_5648673_INDIANA",
+  "event_date": "1998-06-15",
+  "event_datetime_utc": "1998-06-15T18:00:00Z",
+  "station": "KMIE",
+  "county": "WAYNE",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "1998-06-15T00:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 150045Z 13008KT 10SM TS SCT050 BKN110 BKN200 22/16 A2952 RMK FRQ LTGI CCG TS SW MOV NE",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-15T01:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 150145Z 06012KT 5SM TSRA BR OVC029 18/17 A2952 RMK OCNL LTGICCG TS NE MOVG NE",
+      "sky_condition": "OVC",
+      "temperature_f": 64.4,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-06-15T02:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 150245Z 05006KT 3SM TSRA BR SCT012 OVC019 18/17 A2954 RMK OCNL LTGICC G TS NE MOVG E LAST",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-06-15T10:50:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151050Z 06006KT 3SM BR BKN120 17/17 A2941",
+      "sky_condition": "BKN",
+      "temperature_f": 62.6,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-06-15T11:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151145Z 14005KT 3SM BR FEW110 BKN150 17/17 A2941",
+      "sky_condition": "FEW",
+      "temperature_f": 62.6,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-06-15T12:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151245Z 05005KT 2 1/2SM BR OVC004 18/17 A2942",
+      "sky_condition": "OVC",
+      "temperature_f": 64.4,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-06-15T13:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151345Z 14005KT 4SM BR OVC009 18/17 A2943 RMK CIG 005V013",
+      "sky_condition": "OVC",
+      "temperature_f": 64.4,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-06-15T14:50:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151450Z 10004KT 4SM -TSRA BR OVC012 19/18 A1943 RMK OCNL LTGIC TSM S MVG NE",
+      "sky_condition": "OVC",
+      "temperature_f": 66.2,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-06-15T15:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151545Z 00000KT 4SM -RA BR SCT015 BKN150 19/18 A2944 RMK T MOVD NE",
+      "sky_condition": "SCT",
+      "temperature_f": 66.2,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-06-15T16:50:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151650Z 00000KT 9SM FEW014 BKN020 21/18 A2944",
+      "sky_condition": "FEW",
+      "temperature_f": 69.8,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1998-06-15T17:50:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151750Z 00000KT 10SM SCT018 BKN080 22/18 A2944",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-15T18:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151845Z 06004KT 8SM SCT045 BKN055 22/18 A2946",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-06-15T19:55:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 151955Z 02003KT 7SM SCT027 BKN080 23/18 A2945",
+      "sky_condition": "SCT",
+      "temperature_f": 73.4,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-15T20:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 152045Z 20004KT 7SM SCT028 BKN044 21/18 A2947",
+      "sky_condition": "SCT",
+      "temperature_f": 69.8,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-15T21:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 152145Z 20004KT 10SM FEW060 BKN110 20/18 A2948",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-15T22:50:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 152250Z 20004KT 10SM FEW030 BKN140 21/18 A2948",
+      "sky_condition": "FEW",
+      "temperature_f": 69.8,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-15T23:45:00Z",
+      "station_id": "KMIE",
+      "metar": "METAR KMIE 152345Z 20006KT 10SM SCT120 BKN160 21/18 A2951",
+      "sky_condition": "SCT",
+      "temperature_f": 69.8,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

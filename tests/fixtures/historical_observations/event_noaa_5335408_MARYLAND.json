@@ -1,0 +1,235 @@
+{
+  "event_id": "noaa_5335408_MARYLAND",
+  "event_date": "2003-09-18",
+  "event_datetime_utc": "2003-09-18T18:00:00Z",
+  "station": "KDMH",
+  "county": "HARFORD",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2003-09-18T00:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180054Z AUTO 22/11 A3023 RMK AO2 SLP237 T02170111 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 71.0,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1023.7
+    },
+    {
+      "timestamp": "2003-09-18T01:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180154Z AUTO 21/12 A3023 RMK AO2 SLP237 T02060122 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1023.7
+    },
+    {
+      "timestamp": "2003-09-18T02:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180254Z AUTO 20/12 A3024 RMK AO2 SLP240 T02000117 51010 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1024.0
+    },
+    {
+      "timestamp": "2003-09-18T03:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180354Z AUTO 19/12 A3024 RMK AO2 SLP239 T01940117 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1023.9
+    },
+    {
+      "timestamp": "2003-09-18T04:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180454Z AUTO 19/12 A3023 RMK AO2 SLP236 T01940122 402610178 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1023.6
+    },
+    {
+      "timestamp": "2003-09-18T05:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180554Z AUTO 19/12 A3021 RMK AO2 SLP231 T01940122 10228 20194 58010 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1023.1
+    },
+    {
+      "timestamp": "2003-09-18T06:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180654Z AUTO 19/13 A3020 RMK AO2 SLP226 T01890128 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1022.6
+    },
+    {
+      "timestamp": "2003-09-18T07:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180754Z AUTO 19/13 A3018 RMK AO2 SLP220 T01890128 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1022.0
+    },
+    {
+      "timestamp": "2003-09-18T08:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180854Z AUTO 18/13 A3018 RMK AO2 SLP219 T01830133 56011 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 65.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1021.9
+    },
+    {
+      "timestamp": "2003-09-18T09:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 180954Z AUTO 19/14 A3017 RMK AO2 SLP217 T01890144 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1021.7
+    },
+    {
+      "timestamp": "2003-09-18T10:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181054Z AUTO 19/14 A3016 RMK AO2 SLP212 T01890144 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1021.2
+    },
+    {
+      "timestamp": "2003-09-18T11:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181154Z AUTO 19/14 A3017 RMK AO2 SLP216 T01890144 10194 20183 55003 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1021.6
+    },
+    {
+      "timestamp": "2003-09-18T12:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181254Z AUTO 19/14 A3015 RMK AO2 SLP210 T01890144 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1021.0
+    },
+    {
+      "timestamp": "2003-09-18T13:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181354Z AUTO 19/15 A3015 RMK AO2 SLP209 T01940150 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1020.9
+    },
+    {
+      "timestamp": "2003-09-18T14:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181454Z AUTO 20/15 A3012 RMK AO2 SLP197 T02000150 58019 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1019.7
+    },
+    {
+      "timestamp": "2003-09-18T15:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181554Z AUTO 21/15 A3010 RMK AO2 SLP193 T02060150 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1019.3
+    },
+    {
+      "timestamp": "2003-09-18T16:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181654Z AUTO 21/16 A3008 RMK AO2 SLP185 T02060156 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1018.5
+    },
+    {
+      "timestamp": "2003-09-18T17:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181754Z AUTO 20/16 A3002 RMK AO2 SLP165 T02000161 10206 20189 58032 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1016.5
+    },
+    {
+      "timestamp": "2003-09-18T18:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181854Z AUTO 19/17 A2997 RMK AO2 SLP148 P0006 T01890167 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1014.8,
+      "precip_1h_in": 0.06
+    },
+    {
+      "timestamp": "2003-09-18T19:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 181954Z AUTO 20/17 A2993 RMK AO2 SLP133 P0003 T02000172 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1013.3,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2003-09-18T20:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 182054Z AUTO 20/18 A2988 RMK AO2 SLP116 P0006 60015 T02000178 56049 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1011.6,
+      "precip_1h_in": 0.06
+    },
+    {
+      "timestamp": "2003-09-18T21:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 182154Z AUTO 20/18 A2980 RMK AO2 SLP091 P0008 T02000183 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1009.1,
+      "precip_1h_in": 0.08
+    },
+    {
+      "timestamp": "2003-09-18T22:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 182254Z AUTO 20/19 A2977 RMK AO2 SLP082 P0016 T02000189 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1008.2,
+      "precip_1h_in": 0.16
+    },
+    {
+      "timestamp": "2003-09-18T23:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 182354Z AUTO 20/19 A2975 RMK AO2 SLP073 P0019 60058 T02000189 10206 20189 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1007.3,
+      "precip_1h_in": 0.19
+    }
+  ],
+  "estimated": false
+}

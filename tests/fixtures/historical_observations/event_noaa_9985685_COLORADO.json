@@ -1,0 +1,68 @@
+{
+  "event_id": "noaa_9985685_COLORADO",
+  "event_date": "1982-06-12",
+  "event_datetime_utc": "1982-06-12T18:00:00Z",
+  "station": "KDEN",
+  "county": "ADAMS",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "1982-06-12T00:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 120000Z AUTO 26007KT 30SM SCT059 BKN098 16/M10 A3026 RMK T01611105 58012 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 13.1,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1982-06-12T14:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 121400Z AUTO 00000KT 25SM BKN049 06/01 A3032 RMK T00610006 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 43.0,
+      "dewpoint_f": 33.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1982-06-12T16:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 121600Z AUTO 20004KT 30SM SCT059 OVC148 09/01 RMK T00940011 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 49.0,
+      "dewpoint_f": 34.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1982-06-12T18:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 121800Z AUTO 28008KT 30SM BKN049 BKN148 16/00 A3030 RMK T01560000 57010 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1982-06-12T20:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 122000Z AUTO 19014KT 30SM BKN049 BKN148 16/M01 A3030 RMK T01611010 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 30.2,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 30.0
+    }
+  ],
+  "estimated": false
+}

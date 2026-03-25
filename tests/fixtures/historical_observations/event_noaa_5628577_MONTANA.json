@@ -1,0 +1,60 @@
+{
+  "event_id": "noaa_5628577_MONTANA",
+  "event_date": "1998-02-25",
+  "event_datetime_utc": "1998-02-25T18:00:00Z",
+  "station": "KOLF",
+  "county": "ROOSEVELT",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1998-02-25T00:50:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 250050Z 09013KT 15SM OVC060 06/M05 A2962",
+      "sky_condition": "OVC",
+      "temperature_f": 42.8,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-25T12:45:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 251245Z 03015G25KT 3SM -SN BR OVC015 01/00 A2960",
+      "sky_condition": "OVC",
+      "temperature_f": 33.8,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-02-25T14:55:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 251455Z 04025G35KT 1 1/2SM -SN BR VV012 01/M00 A2960",
+      "sky_condition": "VV ",
+      "temperature_f": 33.8,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 40.2773,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1998-02-25T16:58:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 251658Z 04025G35KT 1 1/2SM -SN BR VV010 01/M00 A2960",
+      "sky_condition": "VV ",
+      "temperature_f": 33.8,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 40.2773,
+      "visibility_mi": 1.5
+    }
+  ],
+  "estimated": false
+}

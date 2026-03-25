@@ -1,0 +1,202 @@
+{
+  "event_id": "noaa_10001454_GEORGIA",
+  "event_date": "1953-04-18",
+  "event_datetime_utc": "1953-04-18T18:00:00Z",
+  "station": "KCSG",
+  "county": "MUSCOGEE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "1953-04-18T00:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 180000Z 18009KT 15SM CLR 20/02 A//// RMK SLP152 T02000022",
+      "sky_condition": "CLR",
+      "temperature_f": 68.0,
+      "dewpoint_f": 36.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1953-04-18T01:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 180100Z 18007KT 15SM CLR 18/03 A//// RMK SLP156 T01830028",
+      "sky_condition": "CLR",
+      "temperature_f": 65.0,
+      "dewpoint_f": 37.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1953-04-18T02:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 180200Z 18007KT 15SM SCT/// 14/06 A//// RMK SLP159 T01440056",
+      "sky_condition": "SCT",
+      "temperature_f": 58.0,
+      "dewpoint_f": 42.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1953-04-18T10:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181000Z 00000KT 10SM SCT/// 07/06 A//// RMK SLP142 T00720061",
+      "sky_condition": "SCT",
+      "temperature_f": 45.0,
+      "dewpoint_f": 43.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-18T11:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181100Z 00000KT 10SM SCT/// BKN/// 07/06 A//// RMK SLP142 T00720061",
+      "sky_condition": "SCT",
+      "temperature_f": 45.0,
+      "dewpoint_f": 43.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-18T12:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181200Z 18003KT 8SM SCT/// 09/07 A//// RMK SLP146 T00940072",
+      "sky_condition": "SCT",
+      "temperature_f": 49.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1953-04-18T13:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181300Z 18007KT 9SM SCT/// BKN/// 13/09 A//// RMK SLP142 T01280094",
+      "sky_condition": "SCT",
+      "temperature_f": 55.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1953-04-18T14:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181400Z 18012KT 9SM BKN/// BKN/// 17/12 A//// RMK SLP132 T01670122",
+      "sky_condition": "BKN",
+      "temperature_f": 62.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1953-04-18T15:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181500Z 18011KT 8SM OVC/// 18/13 A//// RMK SLP135 T01780133",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1953-04-18T16:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181600Z 18011KT 9SM -RA BKN/// OVC/// 18/15 A//// RMK SLP132 T01830150",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1953-04-18T17:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181700Z 18013KT 10SM -RA OVC/// 19/16 A//// RMK SLP125 T01890161",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-18T18:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181800Z 18009KT 10SM OVC/// 19/17 A//// RMK SLP119 P0001 T01940167",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1953-04-18T19:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 181900Z 18009KT 10SM OVC/// 21/18 A//// RMK SLP119 P0001 T02110178",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1953-04-18T20:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 182000Z 20009KT 10SM OVC/// 22/18 A//// RMK SLP108 T02170183",
+      "sky_condition": "OVC",
+      "temperature_f": 71.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-18T21:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 182100Z 18015KT 10SM BKN/// OVC/// 23/18 A//// RMK SLP088 T02280183",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-18T22:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 182200Z 16009KT 10SM BKN/// OVC/// 22/17 A//// RMK SLP085 T02170172",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1953-04-18T23:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 182300Z 20007KT 3SM TSRA SCT/// OVC/// 18/18 A//// RMK SLP095 T01830183",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 3.0
+    }
+  ],
+  "estimated": false
+}

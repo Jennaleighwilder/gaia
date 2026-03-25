@@ -1,0 +1,111 @@
+{
+  "event_id": "noaa_10083190_OHIO",
+  "event_date": "1968-04-23",
+  "event_datetime_utc": "1968-04-23T18:00:00Z",
+  "station": "KHTS",
+  "county": "GALLIA",
+  "event_type": "Tornado",
+  "magnitude": "F5",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-04-23T00:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 230000Z 04003KT 15SM SCT/// OVC/// 22/07 A//// RMK SLP144 T02170072",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1014.4,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-04-23T03:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 230300Z 09003KT 15SM BKN/// 17/08 A//// RMK SLP139 T01720083",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 47.0,
+      "pressure_mb": 1013.9,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-04-23T06:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 230600Z 10004KT 10SM OVC/// 15/08 A//// RMK SLP117 T01500083",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 47.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-04-23T09:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 230900Z 14007KT 10SM OVC/// 16/08 A//// RMK SLP125 T01560078",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 46.0,
+      "pressure_mb": 1012.5,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-04-23T12:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 231200Z 12006KT 10SM SCT/// OVC/// 17/08 A//// RMK SLP128 T01720078",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 46.0,
+      "pressure_mb": 1012.8,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-04-23T15:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 231500Z 14015KT 8SM SCT/// SCT/// BKN/// 16/13 A//// RMK SLP117 P0004 T01610133",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "1968-04-23T18:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 231800Z 16014KT 10SM SCT/// BKN/// BKN/// 22/13 A//// RMK SLP094 T02220133",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1009.4,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-04-23T21:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 232100Z 15015KT 5SM -TSRA BKN/// OVC/// 22/14 A//// RMK SLP051 P0004 T02220144",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1005.1,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.04
+    }
+  ],
+  "estimated": false
+}

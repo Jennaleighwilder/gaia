@@ -1,0 +1,201 @@
+{
+  "event_id": "noaa_10054142_MICHIGAN",
+  "event_date": "1990-09-14",
+  "event_datetime_utc": "1990-09-14T18:00:00Z",
+  "station": "KPTK",
+  "county": "OAKLAND",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "1990-09-14T00:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 140000Z 20010KT 3SM DZ OVC/// SCT040 23/18 A3002 RMK H4 SLPNO T02330178",
+      "sky_condition": "OVC",
+      "temperature_f": 74.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1990-09-14T01:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 140100Z 18008KT 3SM DZ SCT040 21/18 A3002 RMK H4 SLPNO T02110178",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1990-09-14T02:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 140200Z 18008KT 4SM DZ OVC/// SCT040 21/18 A3001 RMK F4 SLPNO T02110178",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1990-09-14T04:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 140400Z 18010KT 5SM FGDZ SCT040 M/M A2998 RMK RJCT40 2888 SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1990-09-14T10:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141000Z 22010KT 11/2SM FG SCT100 19/17 A2986 RMK SLPNO T01940167",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1990-09-14T11:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141100Z 21010KT 1SM FG SCT006 SCT200 19/17 A2983 RMK SLPNO T01940172",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1990-09-14T12:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141200Z 21014KT 11/4SM FG BKN005 OVC030 20/18 A2980 RMK SLPNO T02000178",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1990-09-14T13:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141300Z 20015KT 11/2SM FG OVC005 20/18 A2977 RMK SLPNO T02000178",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1990-09-14T14:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141400Z 21014KT 11/2SM FG OVC006 21/18 A2974 RMK SLPNO T02060178",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1990-09-14T15:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141500Z 22015G22KT 11/2SM FG OVC006 21/18 A2971 RMK SLPNO T02110183",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1990-09-14T17:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141700Z 23018KT 3SM DZ OVC010 23/17 A2963 RMK SLPNO T02330172",
+      "sky_condition": "OVC",
+      "temperature_f": 74.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1990-09-14T18:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141800Z 23015G25KT 3SM -SHRA DZ OVC013 23/18 A2959 RMK SLPNO T02280178",
+      "sky_condition": "OVC",
+      "temperature_f": 73.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1990-09-14T19:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 141900Z 32015G25KT 21/2SM -SHRA FG OVC013 17/14 A2961 RMK SLPNO T01720139",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1990-09-14T20:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 142000Z 30005KT 5SM -RA OVC080 17/13 A2956 RMK SLPNO T01670133",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1990-09-14T21:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 142100Z 00000KT 7SM BKN070 17/12 A2954 RMK SLPNO T01720122",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1990-09-14T22:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 142200Z 31012KT 8SM SCT008 BKN030 17/14 A2958 RMK SLPNO T01720139",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1990-09-14T23:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 142300Z 31012KT 10SM SCT008 BKN040 17/14 A2960 RMK SLPNO T01720139",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

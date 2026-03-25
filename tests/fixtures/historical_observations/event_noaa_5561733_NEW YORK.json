@@ -1,0 +1,183 @@
+{
+  "event_id": "noaa_5561733_NEW YORK",
+  "event_date": "1996-01-07",
+  "event_datetime_utc": "1996-01-07T18:00:00Z",
+  "station": "KFRG",
+  "county": "NASSAU",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1996-01-07T00:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 070000Z 34010KT 20SM BKN250 M10/M20 A3041 RMK SLPNO T11001195",
+      "sky_condition": "BKN",
+      "temperature_f": 14.0,
+      "dewpoint_f": -3.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-07T02:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 070200Z 36010KT 15SM BKN250 M10/M22 A3041 RMK SLPNO T11001217",
+      "sky_condition": "BKN",
+      "temperature_f": 14.0,
+      "dewpoint_f": -7.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T03:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 070300Z 36010KT 15SM OVC250 M10/M21 A3041 RMK SLPNO T11001206",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T04:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 070400Z 35010KT 15SM OVC250 M10/M19 A3039 RMK LAST; SLPNO T11001189",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": -2.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T12:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 071200Z 01010KT 15SM BKN040 OVC060 M10/M17 A3031 RMK SLPNO T11001167",
+      "sky_condition": "BKN",
+      "temperature_f": 14.0,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T13:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 071300Z 02015KT 15SM BKN040 OVC060 M10/M17 A3027 RMK SLPNO T11001167",
+      "sky_condition": "BKN",
+      "temperature_f": 14.0,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-07T14:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 071400Z 02013KT 7SM -SN OVC027 M10/M16 A3026 RMK SLPNO T11001156",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": 4.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-07T15:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 071500Z 01018KT 1SM SN OVC008 M10/M13 A3024 RMK SLPNO T11001134",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": 7.88,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-01-07T16:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 071600Z 04014KT 1SM -SN OVC006 M09/M11 A3020 RMK SLPNO T10891112",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 11.84,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-01-07T18:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 071800Z 05020KT 3/4SM -SN FG-BLSN OVC004 M08/M10 A3004 RMK PRESFR; SLPNO T10841100",
+      "sky_condition": "   ",
+      "temperature_f": 16.9,
+      "dewpoint_f": 14.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 0.8
+    },
+    {
+      "timestamp": "1996-01-07T19:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 071900Z 04015G20KT 3/4SM -SN FG-BLSN OVC003 M08/M10 A3001 RMK SLPNO T10781095",
+      "sky_condition": "   ",
+      "temperature_f": 18.0,
+      "dewpoint_f": 14.9,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 0.8
+    },
+    {
+      "timestamp": "1996-01-07T20:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 072000Z 04015G20KT 3/16SM +SN FG-BLSN OVC002 M08/M09 A2993 RMK PRESFR; SLPNO T10781089",
+      "sky_condition": "   ",
+      "temperature_f": 18.0,
+      "dewpoint_f": 16.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 0.2
+    },
+    {
+      "timestamp": "1996-01-07T21:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 072100Z 03015G20KT 1/16SM +SN FG-BLSN OVC/// M07/M08 A2986 RMK PRESFR; SLPNO T10731078",
+      "sky_condition": "   ",
+      "temperature_f": 18.9,
+      "dewpoint_f": 18.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 0.1
+    },
+    {
+      "timestamp": "1996-01-07T22:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 072200Z 02016G23KT 1/8SM +SN FG-BLSN OVC/// M07/M08 A2991 RMK SLPNO T10731084",
+      "sky_condition": "   ",
+      "temperature_f": 18.9,
+      "dewpoint_f": 16.9,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 0.1
+    },
+    {
+      "timestamp": "1996-01-07T23:00:00Z",
+      "station_id": "KFRG",
+      "metar": "METAR KFRG 072300Z 03016G24KT 1/8SM +SN FG-BLSN OVC001 M07/M08 A2988 RMK SLPNO T10731084",
+      "sky_condition": "   ",
+      "temperature_f": 18.9,
+      "dewpoint_f": 16.9,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 0.1
+    }
+  ],
+  "estimated": false
+}

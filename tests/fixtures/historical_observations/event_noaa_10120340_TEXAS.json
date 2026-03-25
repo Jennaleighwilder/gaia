@@ -1,0 +1,250 @@
+{
+  "event_id": "noaa_10120340_TEXAS",
+  "event_date": "1961-09-12",
+  "event_datetime_utc": "1961-09-12T18:00:00Z",
+  "station": "KGLS",
+  "county": "GALVESTON",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1961-09-12T00:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120000Z 11042KT 1SM -SHRA SQ OVC/// OVC/// M/M A//// RMK SLP905 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 115.0,
+      "wind_speed_mph": 48.33275999999999,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1961-09-12T01:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120100Z 11040KT 1/2SM -SHRA SQ OVC/// OVC/// M/M A//// RMK SLP912 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 115.0,
+      "wind_speed_mph": 46.0312,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1961-09-12T02:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120200Z 18035KT 2SM SQ OVC/// OVC/// M/M A//// RMK SLP922 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 40.3233312,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1961-09-12T03:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120300Z 18032KT 6SM SQ OVC/// M/M A//// RMK SLP936 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 36.82496,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1961-09-12T04:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120400Z 20035KT 4SM -SHRA SQ BKN/// OVC/// M/M A//// RMK SLP946 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 40.3233312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1961-09-12T05:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120500Z 20038KT 2SM SHRA SQ OVC/// M/M A//// RMK SLP946 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 43.729639999999996,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1961-09-12T06:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120600Z 20035KT 3SM -SHRA SQ SCT/// OVC/// M/M A//// RMK SLP946 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 40.3233312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1961-09-12T07:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120700Z 20040KT 3SM -SHRA SQ OVC/// M/M A//// RMK SLP942 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 46.0312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1961-09-12T08:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120800Z 20035KT 3SM -SHRA SQ OVC/// M/M A//// RMK SLP956 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 40.3233312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1961-09-12T09:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 120900Z 20048KT 5SM -SHRA SQ OVC/// M/M A//// RMK SLP953 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 55.23743999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1961-09-12T10:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121000Z 20035KT 8SM SQ OVC/// M/M A//// RMK SLP953 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 40.3233312,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1961-09-12T11:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121100Z 20045KT 1/4SM SHRA SQ OVC/// M/M A//// RMK SLP946 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 51.831131199999994,
+      "visibility_mi": 0.2
+    },
+    {
+      "timestamp": "1961-09-12T12:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121200Z 18045KT 1/4SM SHRA SQ OVC/// M/M A//// RMK SLP966 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 51.831131199999994,
+      "visibility_mi": 0.2
+    },
+    {
+      "timestamp": "1961-09-12T13:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121300Z 20042KT 2SM SQ OVC/// M/M A//// RMK SLP973 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 48.33275999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1961-09-12T14:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121400Z 20034KT 3SM SQ OVC/// M/M A//// RMK SLP990 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 39.12652,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1961-09-12T15:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121500Z 20035KT 5SM BKN/// OVC/// M/M A//// RMK SLP997 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 40.3233312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1961-09-12T16:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121600Z 20032KT 5SM BKN/// OVC/// M/M A//// RMK SLP007 T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 205.0,
+      "wind_speed_mph": 36.82496,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1961-09-12T17:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121700Z 20028KT 6SM DZ BKN/// OVC/// 28/26 A//// RMK SLP014 T02780261",
+      "sky_condition": "BKN",
+      "temperature_f": 82.0,
+      "dewpoint_f": 79.0,
+      "pressure_mb": 1001.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 32.22184,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1961-09-12T18:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121800Z 20023KT 5SM DZ BKN/// OVC/// 28/26 A//// RMK SLP014 T02780261",
+      "sky_condition": "BKN",
+      "temperature_f": 82.0,
+      "dewpoint_f": 79.0,
+      "pressure_mb": 1001.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 26.46794,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1961-09-12T19:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 121900Z 20025KT 5SM DZ BKN/// OVC/// 28/26 A//// RMK SLP017 T02780256",
+      "sky_condition": "BKN",
+      "temperature_f": 82.0,
+      "dewpoint_f": 78.0,
+      "pressure_mb": 1001.7,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1961-09-12T20:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 122000Z 20025KT 5SM DZ SCT/// OVC/// 28/26 A//// RMK SLP017 T02780256",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 78.0,
+      "pressure_mb": 1001.7,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1961-09-12T21:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 122100Z 20025KT 5SM DZ SCT/// OVC/// 28/26 A//// RMK SLP017 T02780261",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 79.0,
+      "pressure_mb": 1001.7,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1961-09-12T22:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 122200Z 20020KT 5SM DZ SCT/// BKN/// OVC/// 28/26 A//// RMK SLP017 T02780261",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 79.0,
+      "pressure_mb": 1001.7,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1961-09-12T23:00:00Z",
+      "station_id": "KGLS",
+      "metar": "METAR KGLS 122300Z 20028KT 3SM DZ SCT/// OVC/// 27/26 A//// RMK SLP020 T02720256",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 78.0,
+      "pressure_mb": 1002.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 32.22184,
+      "visibility_mi": 3.0
+    }
+  ],
+  "estimated": false
+}

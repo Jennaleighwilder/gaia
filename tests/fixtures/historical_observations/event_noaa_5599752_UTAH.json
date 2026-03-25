@@ -1,0 +1,233 @@
+{
+  "event_id": "noaa_5599752_UTAH",
+  "event_date": "1997-01-11",
+  "event_datetime_utc": "1997-01-11T18:00:00Z",
+  "station": "KPUC",
+  "county": "SANPETE/SEVIER VALLEYS",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 22,
+  "observations": [
+    {
+      "timestamp": "1997-01-11T00:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110048Z AUTO 31004KT 01/M06 RMK PK WND 13///000 RNO T00111061",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 21.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-01-11T01:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110148Z AUTO 33009KT 01/M06 RMK PK WND 11///000 RNO T00111061",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 21.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1997-01-11T02:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110248Z AUTO 35007KT 01/M06 RMK PK WND 15///000 RNO T00111061",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 21.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1997-01-11T03:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110348Z AUTO 33003KT 00/M06 RMK PK WND 07///000 RNO T00001061",
+      "sky_condition": "   ",
+      "temperature_f": 32.0,
+      "dewpoint_f": 21.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-01-11T04:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110448Z AUTO 18002KT M01/M06 RMK PK WND 12///000 RNO T10061061",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 21.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-01-11T06:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110648Z AUTO 35002KT 00/M06 RMK PK WND 09///000 RNO T00001055",
+      "sky_condition": "   ",
+      "temperature_f": 32.0,
+      "dewpoint_f": 22.1,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-01-11T07:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110748Z AUTO 32013KT 01/M06 RMK PK WND 20///000 RNO T00061055",
+      "sky_condition": "   ",
+      "temperature_f": 33.0,
+      "dewpoint_f": 22.1,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 14.960139999999999
+    },
+    {
+      "timestamp": "1997-01-11T08:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110848Z AUTO 32006KT 00/M05 RMK PK WND 18///000 RNO T00001049",
+      "sky_condition": "   ",
+      "temperature_f": 32.0,
+      "dewpoint_f": 23.18,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1997-01-11T09:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 110948Z AUTO 35004KT 00/M04 RMK PK WND 07///000 RNO T00001044",
+      "sky_condition": "   ",
+      "temperature_f": 32.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-01-11T10:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111048Z AUTO 32007KT 00/M04 RMK PK WND 09///000 RNO T00001044",
+      "sky_condition": "   ",
+      "temperature_f": 32.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1997-01-11T12:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111248Z AUTO 33003KT M01/M04 RMK PK WND 09///000 RNO T10061044",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-01-11T13:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111348Z AUTO 08002KT M02/M05 RMK PK WND 05///000 RNO T10221049",
+      "sky_condition": "   ",
+      "temperature_f": 28.0,
+      "dewpoint_f": 23.18,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-01-11T14:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111448Z AUTO 36001KT M02/M06 RMK PK WND 03///000 RNO T10171055",
+      "sky_condition": "   ",
+      "temperature_f": 29.0,
+      "dewpoint_f": 22.1,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1997-01-11T15:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111548Z AUTO 13002KT M01/M04 RMK PK WND 05///000 RNO T10061038",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 25.16,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-01-11T16:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111648Z AUTO 17003KT 00/M04 RMK PK WND 05///000 RNO T00001044",
+      "sky_condition": "   ",
+      "temperature_f": 32.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-01-11T17:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111748Z AUTO 13001KT 01/M04 RMK PK WND 03///000 RNO E28 T00111044",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1997-01-11T18:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111848Z AUTO 14003KT 03/M04 RMK PK WND 05///000 RNO T00281044",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-01-11T19:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 111948Z AUTO 15002KT 03/M04 RMK PK WND 07///000 RNO T00281044",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-01-11T20:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 112048Z AUTO 24002KT 03/M05 RMK PK WND 07///000 RNO T00281049",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 23.18,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-01-11T21:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 112148Z AUTO 24001KT 03/M06 RMK PK WND 07///000 RNO T00331055",
+      "sky_condition": "   ",
+      "temperature_f": 38.0,
+      "dewpoint_f": 22.1,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1997-01-11T22:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 112248Z AUTO 13004KT 03/M05 RMK PK WND 07///000 RNO T00281049",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 23.18,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-01-11T23:48:00Z",
+      "station_id": "KPUC",
+      "metar": "KPUC 112348Z AUTO 09004KT 02/M04 RMK PK WND 07///000 RNO 38 T00171038",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 25.16,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 4.60312
+    }
+  ],
+  "estimated": false
+}

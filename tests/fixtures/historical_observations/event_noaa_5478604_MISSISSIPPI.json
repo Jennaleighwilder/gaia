@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_5478604_MISSISSIPPI",
+  "event_date": "2005-09-24",
+  "event_datetime_utc": "2005-09-24T18:00:00Z",
+  "station": "KGWO",
+  "county": "HUMPHREYS",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "2005-09-24T06:53:00Z",
+      "station_id": "KGWO",
+      "metar": "METAR KGWO 240653Z 10011KT 10SM CLR 27/20 A2988 $",
+      "sky_condition": "   ",
+      "temperature_f": 80.6,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 16.8128958,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-09-24T10:53:00Z",
+      "station_id": "KGWO",
+      "metar": "METAR KGWO 241053Z 09012KT 10SM CLR 26/21 A2985 RMK SLP106",
+      "sky_condition": "CLR",
+      "temperature_f": 78.8,
+      "dewpoint_f": 69.8,
+      "pressure_mb": 1010.6,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-09-24T11:53:00Z",
+      "station_id": "KGWO",
+      "metar": "METAR KGWO 241153Z 10011KT 10SM CLR 26/21 A2985 RMK SLP107",
+      "sky_condition": "CLR",
+      "temperature_f": 78.8,
+      "dewpoint_f": 69.8,
+      "pressure_mb": 1010.7,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-09-24T12:53:00Z",
+      "station_id": "KGWO",
+      "metar": "METAR KGWO 241253Z 10012KT 10SM CLR 26/21 A2986 RMK SLP110",
+      "sky_condition": "CLR",
+      "temperature_f": 78.8,
+      "dewpoint_f": 69.8,
+      "pressure_mb": 1011.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-09-24T14:53:00Z",
+      "station_id": "KGWO",
+      "metar": "METAR KGWO 241453Z 09015G21KT 10SM SCT029 BKN033 27/22 A2986 RMK SLP108 T02720217 50001 $",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1010.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 24.166379999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-09-24T16:53:00Z",
+      "station_id": "KGWO",
+      "metar": "METAR KGWO 241653Z 11017G22KT 10SM FEW040 29/22 A2985 RMK SLP105 T02890222 $",
+      "sky_condition": "FEW",
+      "temperature_f": 84.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1010.5,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 19.56326,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-09-24T18:53:00Z",
+      "station_id": "KGWO",
+      "metar": "METAR KGWO 241853Z 11013G24KT 10SM FEW065 30/22 A2979 RMKL PK WND 10026/1806 SLP 086 T03000222",
+      "sky_condition": "   ",
+      "temperature_f": 86.0,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 19.850955,
+      "wind_gust_mph": 36.525757199999994,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2005-09-24T21:53:00Z",
+      "station_id": "KGWO",
+      "metar": "METAR KGWO 242153Z 10014G23KT 10SM CLR 27/23 A2974",
+      "sky_condition": "CLR",
+      "temperature_f": 80.6,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

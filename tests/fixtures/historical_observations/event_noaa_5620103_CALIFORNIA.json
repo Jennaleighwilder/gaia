@@ -1,0 +1,167 @@
+{
+  "event_id": "noaa_5620103_CALIFORNIA",
+  "event_date": "1997-01-03",
+  "event_datetime_utc": "1997-01-03T18:00:00Z",
+  "station": "KSTS",
+  "county": "SONOMA / MARIN COUNTIES",
+  "event_type": "Flood",
+  "magnitude": "",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1997-01-03T00:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 030045Z 17008KT 10SM BKN017 OVC030 13/13 A2988",
+      "sky_condition": "BKN",
+      "temperature_f": 55.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-01-03T01:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 030145Z 15005KT 5SM -RA BR FEW007 BKN017 OVC030 13/13 A2988",
+      "sky_condition": "FEW",
+      "temperature_f": 55.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-01-03T02:50:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 030250Z 14007KT 5SM -RA BR OVC047 13/13 A2988",
+      "sky_condition": "OVC",
+      "temperature_f": 55.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-01-03T03:50:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 030350Z 14005KT 5SM -RA BR OVC017 13/13 A2988 RMK LAST",
+      "sky_condition": "OVC",
+      "temperature_f": 55.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-01-03T14:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 031445Z 00000KT 15SM SKC 06/06 A3008",
+      "sky_condition": "CLR",
+      "temperature_f": 42.8,
+      "dewpoint_f": 42.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-03T15:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 031545Z 00000KT 20SM SKC 06/06 A3010",
+      "sky_condition": "CLR",
+      "temperature_f": 42.8,
+      "dewpoint_f": 42.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1997-01-03T16:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 031645Z 00000KT 25SM SKC 09/08 A3014",
+      "sky_condition": "CLR",
+      "temperature_f": 48.2,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1997-01-03T17:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 031745Z 00000KT 25SM SKC 11/08 A3016",
+      "sky_condition": "CLR",
+      "temperature_f": 51.8,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1997-01-03T18:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 031845Z 31013KT 30SM SKC 13/06 A3017",
+      "sky_condition": "CLR",
+      "temperature_f": 55.4,
+      "dewpoint_f": 42.8,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-01-03T19:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 031945Z 30012KT 30SM SKC 13/05 A3014",
+      "sky_condition": "CLR",
+      "temperature_f": 55.4,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-01-03T20:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 032045Z 28009KT 30SM SKC 14/05 A3012",
+      "sky_condition": "CLR",
+      "temperature_f": 57.2,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-01-03T21:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 032145Z 29008KT 30SM SKC 14/04 A3012",
+      "sky_condition": "CLR",
+      "temperature_f": 57.2,
+      "dewpoint_f": 39.2,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-01-03T22:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 032245Z 31008KT 30SM SKC 15/03 A3011",
+      "sky_condition": "CLR",
+      "temperature_f": 59.0,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1997-01-03T23:45:00Z",
+      "station_id": "KSTS",
+      "metar": "KSTS 032345Z 32007KT 30SM SKC 14/03 A3009",
+      "sky_condition": "CLR",
+      "temperature_f": 57.2,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    }
+  ],
+  "estimated": false
+}

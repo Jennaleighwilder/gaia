@@ -1,0 +1,39 @@
+{
+  "event_id": "noaa_5577010_MAINE",
+  "event_date": "1996-04-16",
+  "event_datetime_utc": "1996-04-16T18:00:00Z",
+  "station": "KIWI",
+  "county": "KNOX",
+  "event_type": "Debris Flow",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1996-04-03T23:00:00Z",
+      "station_id": "KIWI",
+      "metar": "KIWI 032300Z 30010G20KT 10SM CLR 02/M16 A2965 RMK CLR BLO TNO ZRNO PK WND 3126/2209; SLP042 T00221156 51020",
+      "sky_condition": "CLR",
+      "temperature_f": 36.0,
+      "dewpoint_f": 4.0,
+      "pressure_mb": 1004.2,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-04-04T00:00:00Z",
+      "station_id": "KIWI",
+      "metar": "KIWI 040000Z 29011G20KT 10SM CLR 01/M15 A2968 RMK CLR BLO 53011 10041 20034 TNO ZRNO; SLP050 T00111145 51020",
+      "sky_condition": "CLR",
+      "temperature_f": 34.0,
+      "dewpoint_f": 6.0,
+      "pressure_mb": 1005.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 12.658579999999999,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,181 @@
+{
+  "event_id": "noaa_5671693_TEXAS",
+  "event_date": "1998-09-07",
+  "event_datetime_utc": "1998-09-07T18:00:00Z",
+  "station": "KSGR",
+  "county": "COLORADO",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "1998-09-07T00:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 070050Z 09006KT 10SM SCT020 SCT150 28/ A2995",
+      "sky_condition": "SCT",
+      "temperature_f": 82.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-09-07T01:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 070150Z 09004KT 10SM SCT030 SCT250 27 A2997",
+      "sky_condition": "   ",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-09-07T02:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 070250Z 08004KT 10SM SCT250 27 A2997 LAST",
+      "sky_condition": "   ",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-09-07T10:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071050Z 01004KT 8SM SKC 23/ A2990",
+      "sky_condition": "CLR",
+      "temperature_f": 73.4,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T11:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071150Z 00000KT 8SM FEW050 22/ A2991",
+      "sky_condition": "FEW",
+      "temperature_f": 71.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T12:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071250Z 04004KT 8SM FEW050 23 A2992",
+      "sky_condition": "   ",
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T13:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071350Z 030006KT 8SM SCT100 25 A2992",
+      "sky_condition": "   ",
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T14:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071450Z 35006KT 8SM FEW100 27/ A2992",
+      "sky_condition": "FEW",
+      "temperature_f": 80.6,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T15:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071550Z 04008KT 8SM SCT018 30/ A2992",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T16:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071650Z 06008KT 8SM SCT020 BKN100 30/ A2990",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T17:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071750Z 04006KT 8SM BKN020 BKN200 31/ A2989",
+      "sky_condition": "BKN",
+      "temperature_f": 87.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T18:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071850Z 03006G12 8SM VCSH BKN025CB BKN200 32/ A2986 RMK CB SE MOVG W VCSH SE",
+      "sky_condition": "BKN",
+      "temperature_f": 89.6,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 13.418094799999999,
+      "wind_gust_mph": 26.847697399999998,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T19:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 071950Z 08005G10KT 8SM VCSH BKN025CB BKN080 BKN200 31/ A2983 RMK CB OVHD SE MOV W VCSH SW",
+      "sky_condition": "BKN",
+      "temperature_f": 87.8,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 5.7539,
+      "wind_gust_mph": 11.5078,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T20:50:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 072050Z 06008KT 8SM BKN030CB BKN080 BKN200 32/ A2981 RMK CB OVHD S MOV W",
+      "sky_condition": "BKN",
+      "temperature_f": 89.6,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T21:55:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 072155Z 11005KT 8SM VCSH BKN040CB BKN100 32/ A2979 RMK CB OVHD W VCSH E MOV W",
+      "sky_condition": "BKN",
+      "temperature_f": 89.6,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T22:55:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 072255Z 12004KT 8SM -RA BKN040CB BKN100 23/ A2980 RMK CB ALQDS MOV W",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-09-07T23:55:00Z",
+      "station_id": "KSGR",
+      "metar": "METAR KSGR 072355Z 09005KT 10SM BKN040 BKN070 BKN100 26/ 2979",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,158 @@
+{
+  "event_id": "noaa_10106687_OKLAHOMA",
+  "event_date": "1981-05-22",
+  "event_datetime_utc": "1981-05-22T18:00:00Z",
+  "station": "KCSM",
+  "county": "CUSTER",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1981-05-22T00:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 220000Z 17016G24KT 10SM SCT070 BKN120 23/M A2981 RMK SLPNO T0233////",
+      "sky_condition": "   ",
+      "temperature_f": 74.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1981-05-22T01:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 220100Z 15012G22KT 7SM BKN100 OVC200 23/M A2982 RMK SLPNO T0233////",
+      "sky_condition": "   ",
+      "temperature_f": 74.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1981-05-22T13:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 221300Z 18016KT 4SM FG OVC/// BKN025 19/M A2982 RMK F4 SLPNO T0194////",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1981-05-22T14:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 221400Z 19015KT 5SM FG SCT250 22/M A2980 RMK SLPNO T0217////",
+      "sky_condition": "   ",
+      "temperature_f": 71.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1981-05-22T15:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 221500Z 19017KT 5SM DZ SCT010 23/M A2978 RMK SLPNO T0228////",
+      "sky_condition": "   ",
+      "temperature_f": 73.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 19.609291199999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1981-05-22T16:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 221600Z 19018KT 6SM DZ SCT015 26/M A2978 RMK SLPNO T0256////",
+      "sky_condition": "   ",
+      "temperature_f": 78.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1981-05-22T17:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 221700Z 19015KT 6SM DZ BKN020 26/M A2977 RMK SLPNO T0261////",
+      "sky_condition": "   ",
+      "temperature_f": 79.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1981-05-22T18:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 221800Z 19012KT 7SM SCT040 28/M A2975 RMK SLPNO T0278////",
+      "sky_condition": "   ",
+      "temperature_f": 82.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1981-05-22T19:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 221900Z 19015KT 7SM SCT040 29/M A2973 RMK SLPNO T0289////",
+      "sky_condition": "   ",
+      "temperature_f": 84.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1981-05-22T20:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 222000Z 16010KT 7SM BKN030 29/M A2973 RMK SLPNO T0289////",
+      "sky_condition": "   ",
+      "temperature_f": 84.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1981-05-22T21:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 222100Z 14015KT 7SM TS BKN030 OVC150 28/M A2970 RMK TB42 W MOVG E LTGICCG SLPNO T0278////",
+      "sky_condition": "   ",
+      "temperature_f": 82.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1981-05-22T22:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 222200Z 07010KT 7SM -TSRA BKN030 OVC150 27/M A2969 RMK SLPNO T0267////",
+      "sky_condition": "   ",
+      "temperature_f": 80.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1981-05-22T23:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 222300Z 10012KT 7SM BKN030 BKN150 24/M A2968 RMK TE39 MOVD E TCU ALQDS SLPNO T0244////",
+      "sky_condition": "   ",
+      "temperature_f": 76.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

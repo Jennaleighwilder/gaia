@@ -1,0 +1,35 @@
+{
+  "event_id": "event_19951",
+  "event_date": "2000-12-30",
+  "event_datetime_utc": "2000-12-30T18:00:00Z",
+  "station": "PAWI",
+  "county": "",
+  "event_type": "earthquake",
+  "magnitude": 4.6,
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "2000-12-30T17:55:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 301755Z 06027KT 10SM SKC M22/M25 A3014",
+      "sky_condition": "CLR",
+      "temperature_f": -7.6,
+      "dewpoint_f": -13.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 31.07106,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-12-30T22:00:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 302200Z AUTO 06027KT 8SM OVC029 M21/M25 A3015",
+      "sky_condition": "OVC",
+      "temperature_f": -5.8,
+      "dewpoint_f": -13.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 31.07106,
+      "visibility_mi": 8.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_10040669_MICHIGAN",
+  "event_date": "1965-04-11",
+  "event_datetime_utc": "1965-04-11T18:00:00Z",
+  "station": "KLAN",
+  "county": "CLINTON",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1965-04-11T00:00:00Z",
+      "station_id": "KLAN",
+      "metar": "METAR KLAN 110000Z 14012KT 7SM BKN/// OVC/// 09/03 A//// RMK SLP140 T00940033",
+      "sky_condition": "BKN",
+      "temperature_f": 49.0,
+      "dewpoint_f": 38.0,
+      "pressure_mb": 1014.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1965-04-11T03:00:00Z",
+      "station_id": "KLAN",
+      "metar": "METAR KLAN 110300Z 12014KT 7SM BKN/// OVC/// 07/03 A//// RMK SLP105 T00720033",
+      "sky_condition": "BKN",
+      "temperature_f": 45.0,
+      "dewpoint_f": 38.0,
+      "pressure_mb": 1010.5,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1965-04-11T06:00:00Z",
+      "station_id": "KLAN",
+      "metar": "METAR KLAN 110600Z 14014KT 8SM OVC/// 07/01 A//// RMK SLP074 T00670011",
+      "sky_condition": "OVC",
+      "temperature_f": 44.0,
+      "dewpoint_f": 34.0,
+      "pressure_mb": 1007.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1965-04-11T09:00:00Z",
+      "station_id": "KLAN",
+      "metar": "METAR KLAN 110900Z 10007KT 7SM OVC/// 06/05 A//// RMK SLP060 P0006 T00560050",
+      "sky_condition": "OVC",
+      "temperature_f": 42.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1006.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.06
+    },
+    {
+      "timestamp": "1965-04-11T12:00:00Z",
+      "station_id": "KLAN",
+      "metar": "METAR KLAN 111200Z 15015KT 3SM FG OVC/// 07/07 A//// RMK SLP030 T00670067",
+      "sky_condition": "OVC",
+      "temperature_f": 44.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1003.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1965-04-11T15:00:00Z",
+      "station_id": "KLAN",
+      "metar": "METAR KLAN 111500Z 18010KT 4SM FG BKN/// OVC/// 09/07 A//// RMK SLP032 T00890072",
+      "sky_condition": "BKN",
+      "temperature_f": 48.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1003.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1965-04-11T18:00:00Z",
+      "station_id": "KLAN",
+      "metar": "METAR KLAN 111800Z 19007KT 6SM DZ SCT/// BKN/// 17/12 A//// RMK SLP004 T01670122",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1000.4,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1965-04-11T21:00:00Z",
+      "station_id": "KLAN",
+      "metar": "METAR KLAN 112100Z 20017KT 8SM BKN/// 22/13 A//// RMK SLP963 T02220128",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 996.3,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 8.0
+    }
+  ],
+  "estimated": false
+}

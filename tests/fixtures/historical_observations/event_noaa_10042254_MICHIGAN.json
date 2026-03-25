@@ -1,0 +1,179 @@
+{
+  "event_id": "noaa_10042254_MICHIGAN",
+  "event_date": "1984-09-02",
+  "event_datetime_utc": "1984-09-02T18:00:00Z",
+  "station": "KPTK",
+  "county": "SANILAC",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 18,
+  "observations": [
+    {
+      "timestamp": "1984-09-02T00:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 020000Z 18010KT 10SM BKN100 M/M A3001 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-09-02T01:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 020100Z 16010KT 15SM BKN100 M/M A3001 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-09-02T02:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 020200Z 15010KT 15SM SCT150 M/M A2999 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-09-02T03:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 020300Z 15009KT 15SM SCT150 M/M A2999 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-09-02T04:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 020400Z 18008KT 15SM SCT150 M/M A2997 RMK LAST PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-09-02T10:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021000Z 15007KT 10SM SCT200 M/M A2991 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-09-02T11:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021100Z 16007KT 5SM DZ SCT120 SCT250 M/M A2992 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1984-09-02T12:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021200Z 17007KT 5SM DZ SCT120 BKN250 M/M A2991 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1984-09-02T13:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021300Z 18005KT 5SM DZ SCT100 BKN280 M/M A2993 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1984-09-02T14:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021400Z /////KT 6SM CLR M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1984-09-02T16:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021600Z 23009KT 6SM DZ BKN200 M/M A2989 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1984-09-02T17:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021700Z 24010KT 6SM DZ BKN200 M/M A2987 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1984-09-02T18:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021800Z 23012KT 6SM DZ BKN200 M/M A2984 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1984-09-02T19:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 021900Z 24010G18KT 6SM DZ BKN250 M/M A2982 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 20.714039999999997,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1984-09-02T20:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 022000Z 26015G22KT 6SM DZ BKN060 BKN250 M/M A2980 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1984-09-02T21:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 022100Z 26015G32KT 6SM DZ BKN050 BKN200 M/M A2978 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1984-09-02T22:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 022200Z 27018G32KT 7SM BKN050 BKN200 M/M A2977 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-09-02T23:00:00Z",
+      "station_id": "KPTK",
+      "metar": "METAR KPTK 022300Z 36014G24KT 7SM BKN050 BKN200 M/M A2982 RMK PTN SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

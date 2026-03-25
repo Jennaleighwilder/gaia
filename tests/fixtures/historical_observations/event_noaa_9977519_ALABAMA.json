@@ -1,0 +1,243 @@
+{
+  "event_id": "noaa_9977519_ALABAMA",
+  "event_date": "1983-05-19",
+  "event_datetime_utc": "1983-05-19T18:00:00Z",
+  "station": "KRMG",
+  "county": "DEKALB",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "1983-05-19T00:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190000Z AUTO 13009KT 21/11 RMK T02110111 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 70.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1983-05-19T01:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190100Z AUTO 12008KT 21/11 A2734 RMK T02060111 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1983-05-19T02:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190200Z AUTO 11006KT 20/11 A2734 RMK T02000111 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 68.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1983-05-19T03:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190300Z AUTO 12009KT 19/11 A2734 RMK T01940106 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 67.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1983-05-19T04:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190400Z AUTO 13011KT 19/12 A2734 RMK T01940117 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 67.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "1983-05-19T05:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190500Z AUTO 13012KT 19/12 RMK T01890117 50000 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 66.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1983-05-19T06:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190600Z AUTO 15010KT 19/12 RMK T01940117 50000 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 67.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1983-05-19T07:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190700Z AUTO 14009KT 19/12 A2734 RMK T01890117 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 66.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1983-05-19T08:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190800Z AUTO 12009KT 18/12 A2734 RMK T01780117 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 64.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1983-05-19T09:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 190900Z AUTO 14010KT 17/12 RMK T01720117 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1983-05-19T10:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191000Z AUTO 18006KT 17/12 RMK T01720117 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1983-05-19T11:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191100Z AUTO 12010KT 17/11 RMK T01670111 50000 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 62.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1983-05-19T12:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191200Z AUTO 13010KT 17/11 RMK 60047 T01720111 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1983-05-19T13:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191300Z AUTO 16003KT 17/12 RMK T01670117 50046 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 62.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1983-05-19T14:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191400Z AUTO 10004KT 17/12 RMK T01720122 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1983-05-19T15:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191500Z AUTO 11005KT 17/12 RMK T01720122 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1983-05-19T16:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191600Z AUTO 12004KT 17/12 RMK T01720122 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1983-05-19T17:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191700Z AUTO 13005KT 18/13 A2734 RMK T01780128 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 64.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1983-05-19T18:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 191800Z AUTO 13004KT 19/14 RMK T01940139 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 67.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1983-05-19T20:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 192000Z AUTO 15003KT 21/15 A2734 RMK T02060150 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1983-05-19T21:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 192100Z AUTO 15003KT 21/15 A2734 RMK T02110150 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 70.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1983-05-19T22:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 192200Z AUTO 16004KT 23/16 A2734 RMK T02280161 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 73.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1983-05-19T23:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 192300Z AUTO 18005KT 23/16 A2734 RMK T02330161 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 74.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539
+    }
+  ],
+  "estimated": false
+}

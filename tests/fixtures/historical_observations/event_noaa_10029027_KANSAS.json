@@ -1,0 +1,111 @@
+{
+  "event_id": "noaa_10029027_KANSAS",
+  "event_date": "1965-05-13",
+  "event_datetime_utc": "1965-05-13T18:00:00Z",
+  "station": "KICT",
+  "county": "SUMNER",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1965-05-13T00:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 130000Z 18011KT 15SM SCT/// SCT/// 27/11 A//// RMK SLP162 T02670111",
+      "sky_condition": "SCT",
+      "temperature_f": 80.0,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1016.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-13T03:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 130300Z 16009KT 15SM BKN/// 21/13 A//// RMK SLP159 T02060128",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1015.9,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-13T06:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 130600Z 17007KT 15SM BKN/// 18/13 A//// RMK SLP159 T01780128",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1015.9,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-13T09:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 130900Z 17006KT 15SM OVC/// 16/13 A//// RMK SLP153 T01610128",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1015.3,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-13T12:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 131200Z 14005KT 15SM SCT/// OVC/// 15/12 A//// RMK SLP151 T01500122",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1015.1,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-13T15:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 131500Z 17014KT 15SM SCT/// BKN/// OVC/// 23/16 A//// RMK SLP135 T02280156",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1013.5,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-13T18:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 131800Z 15006KT 21/2SM -SHRA FG SCT/// OVC/// 18/17 A//// RMK SLP139 P0009 T01780167",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1013.9,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.5,
+      "precip_1h_in": 0.09
+    },
+    {
+      "timestamp": "1965-05-13T21:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 132100Z 14016KT 8SM BKN/// BKN/// OVC/// 20/18 A//// RMK SLP098 P0001 T02000183",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1009.8,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.01
+    }
+  ],
+  "estimated": false
+}

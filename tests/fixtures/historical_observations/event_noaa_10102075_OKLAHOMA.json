@@ -1,0 +1,154 @@
+{
+  "event_id": "noaa_10102075_OKLAHOMA",
+  "event_date": "1990-03-13",
+  "event_datetime_utc": "1990-03-13T18:00:00Z",
+  "station": "KLAW",
+  "county": "GARVIN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1990-03-13T00:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 130000Z 16015KT 15SM SCT030 M/M A2986 RMK CB E SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1990-03-13T01:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 130100Z 15015KT 20SM SCT040 M/M A2988 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1990-03-13T02:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 130200Z 15017KT 20SM SCT030 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 19.609291199999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1990-03-13T03:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 130300Z 15016KT 20SM SCT008 M/M A2991 RMK LAST SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1990-03-13T13:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 131300Z 16010KT 6SM FG OVC006 M/M A2987 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1990-03-13T14:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 131400Z 17013KT 11/2SM -DZ FG OVC006 17/16 A2987 RMK SLPNO T01720161",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1990-03-13T15:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 131500Z 16012KT 21/2SM FG OVC005 M/M A2984 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1990-03-13T16:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 131600Z 17014KT 8SM OVC006 19/17 A2984 RMK SLPNO T01890172",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1990-03-13T17:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 131700Z 17011KT 10SM SCT005 BKN011 OVC040 M/M A2981 RMK CIG RGD SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.704611199999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-03-13T18:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 131800Z 17013KT 15SM BKN020 OVC040 M/M A2977 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 15.006171199999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1990-03-13T19:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 131900Z 18015KT 20SM BKN020 OVC040 M/M A2974 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1990-03-13T20:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 132000Z 19015KT 20SM BKN020 BKN040 OVC200 M/M A2970 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1990-03-13T21:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 132100Z 19018KT 10SM TSRA SCT020 BKN030 OVC100 M/M A2967 RMK LTGICCG S-N SP 2055 SCT 30 SCT E50 OVC 2TRW 1808/966/ LTG OVHD SP 2105 W0X1/8TRWF 2720Q47/967/ WDSHFT 04 SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1990-03-13T22:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 132200Z 21008KT 3SM TSPL FG BKN015 OVC030 18/18 A2964 RMK TB47 OVHD MOVG NE LTGICCG S-N SLPNO T01830183",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1990-03-13T23:00:00Z",
+      "station_id": "KLAW",
+      "metar": "KLAW 132300Z 19013KT 10SM BKN030 OVC050 M/M A2962 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 15.006171199999997,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

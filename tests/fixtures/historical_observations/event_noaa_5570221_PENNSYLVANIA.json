@@ -1,0 +1,124 @@
+{
+  "event_id": "noaa_5570221_PENNSYLVANIA",
+  "event_date": "1996-01-07",
+  "event_datetime_utc": "1996-01-07T18:00:00Z",
+  "station": "KHGR",
+  "county": "FRANKLIN",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 10,
+  "observations": [
+    {
+      "timestamp": "1996-01-07T00:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 070000Z 03004KT 10SM OVC080 M07/M15 A3040 RMK SLPNO T10731145",
+      "sky_condition": "OVC",
+      "temperature_f": 18.86,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-07T12:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 071200Z 02010KT 1SM SN OVC/// OVC005 M11/M14 A3016 RMK S8; SLPNO T11121139",
+      "sky_condition": "OVC",
+      "temperature_f": 11.84,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-01-07T14:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 071400Z 01008KT 1/2SM SN OVC/// OVC007 M11/M15 A3010 RMK S8; SLPNO T11121145",
+      "sky_condition": "OVC",
+      "temperature_f": 11.84,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-07T15:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 071500Z 01010KT 3/4SM SN OVC/// OVC013 M11/M15 A3007 RMK S8; SLPNO T11121150",
+      "sky_condition": "OVC",
+      "temperature_f": 11.84,
+      "dewpoint_f": 5.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-07T16:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 071600Z 01009KT 1/2SM SN OVC/// OVC007 M11/M15 A3002 RMK S9; SLPNO T11121145",
+      "sky_condition": "OVC",
+      "temperature_f": 11.84,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-07T18:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 071800Z 35008KT 5/16SM SN OVC003 M11/M14 A2994 RMK SLPNO T11061139",
+      "sky_condition": "OVC",
+      "temperature_f": 13.0,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.31
+    },
+    {
+      "timestamp": "1996-01-07T19:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 071900Z 36012KT 1/4SM SN OVC003 M11/M14 A2988 RMK SLPNO T11061139",
+      "sky_condition": "OVC",
+      "temperature_f": 13.0,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1996-01-07T21:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 072100Z 07009KT 1/4SM +SN OVC003 M10/M13 A2978 RMK SLPNO T11001134",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": 7.88,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1996-01-07T22:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 072200Z 02013KT 1/4SM +SN OVC003 M10/M13 A2975 RMK SLPNO T11001128",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": 9.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1996-01-07T23:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 072300Z 02015G25KT 1/2SM SN OVC/// OVC003 M10/M13 A2971 RMK S8; SLPNO T10951128",
+      "sky_condition": "OVC",
+      "temperature_f": 14.9,
+      "dewpoint_f": 9.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 0.5
+    }
+  ],
+  "estimated": false
+}

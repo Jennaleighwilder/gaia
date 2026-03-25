@@ -1,0 +1,178 @@
+{
+  "event_id": "noaa_5541924_TEXAS",
+  "event_date": "1996-02-04",
+  "event_datetime_utc": "1996-02-04T18:00:00Z",
+  "station": "KGGG",
+  "county": "GREGG",
+  "event_type": "Ice Storm",
+  "magnitude": "",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1996-02-04T00:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 040000Z 31012KT 30SM CLR M03/M11 A3055 RMK SLPNO T10281112",
+      "sky_condition": "CLR",
+      "temperature_f": 27.0,
+      "dewpoint_f": 11.84,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1996-02-04T01:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 040100Z 32008KT 15SM CLR M04/M12 A3058 RMK SLPNO T10391117",
+      "sky_condition": "CLR",
+      "temperature_f": 25.0,
+      "dewpoint_f": 11.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-02-04T02:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 040200Z 33010KT 20SM CLR M05/M11 A3061 RMK SLPNO T10501112",
+      "sky_condition": "CLR",
+      "temperature_f": 23.0,
+      "dewpoint_f": 11.84,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-02-04T03:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 040300Z 33010KT 20SM CLR M05/M11 A3063 RMK SLPNO T10501112",
+      "sky_condition": "CLR",
+      "temperature_f": 23.0,
+      "dewpoint_f": 11.84,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-02-04T04:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 040400Z 32010KT 20SM CLR M06/M11 A3066 RMK LAST; SLPNO T10561112",
+      "sky_condition": "CLR",
+      "temperature_f": 22.0,
+      "dewpoint_f": 11.84,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-02-04T12:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 041200Z 34010KT 40SM CLR M11/M17 A3076 RMK SLPNO T11121167",
+      "sky_condition": "CLR",
+      "temperature_f": 11.84,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-02-04T13:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 041300Z 34006KT 40SM CLR M12/M17 A3079 RMK SLPNO T11171173",
+      "sky_condition": "CLR",
+      "temperature_f": 11.0,
+      "dewpoint_f": 0.86,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-02-04T14:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 041400Z 34010KT 40SM CLR M11/M18 A3082 RMK SLPNO T11121184",
+      "sky_condition": "CLR",
+      "temperature_f": 11.84,
+      "dewpoint_f": -1.12,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-02-04T15:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 041500Z 36011KT 40SM CLR M10/M18 A3085 RMK SLPNO T10951184",
+      "sky_condition": "CLR",
+      "temperature_f": 14.9,
+      "dewpoint_f": -1.12,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-02-04T16:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 041600Z 06007KT 40SM CLR M08/M17 A3087 RMK SLPNO T10781167",
+      "sky_condition": "CLR",
+      "temperature_f": 18.0,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-02-04T17:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 041700Z 31006KT 40SM CLR M06/M16 A3088 RMK SLPNO T10621156",
+      "sky_condition": "CLR",
+      "temperature_f": 20.84,
+      "dewpoint_f": 4.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-02-04T20:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 042000Z 29006KT 35SM CLR M02/M16 A3079 RMK SLPNO T10231162",
+      "sky_condition": "CLR",
+      "temperature_f": 27.86,
+      "dewpoint_f": 2.84,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 35.0
+    },
+    {
+      "timestamp": "1996-02-04T21:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 042100Z 34007KT 40SM CLR M02/M16 A3077 RMK SLPNO T10171162",
+      "sky_condition": "CLR",
+      "temperature_f": 29.0,
+      "dewpoint_f": 2.84,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-02-04T22:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 042200Z 06006KT 40SM CLR M01/M17 A3075 RMK SLPNO T10121167",
+      "sky_condition": "CLR",
+      "temperature_f": 29.84,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1996-02-04T23:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR KGGG 042300Z 04005KT 40SM CLR M01/M17 A3075 RMK SLPNO T10061173",
+      "sky_condition": "CLR",
+      "temperature_f": 31.0,
+      "dewpoint_f": 0.86,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 40.0
+    }
+  ],
+  "estimated": false
+}

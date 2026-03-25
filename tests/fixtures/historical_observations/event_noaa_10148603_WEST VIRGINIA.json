@@ -1,0 +1,189 @@
+{
+  "event_id": "noaa_10148603_WEST VIRGINIA",
+  "event_date": "1986-10-01",
+  "event_datetime_utc": "1986-10-01T18:00:00Z",
+  "station": "KCKB",
+  "county": "DODDRIDGE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1986-10-01T01:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 010100Z AUTO 00000KT 5SM POB000 OVC059 22/21 A3007 RMK T02220206 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 72.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1986-10-01T02:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 010200Z AUTO 17007KT 5SM POB000 OVC059 23/21 A3007 RMK T02330211 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 74.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1986-10-01T03:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 010300Z AUTO 18007KT 5SM POB000 OVC059 24/18 A3007 RMK T02390178 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 75.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1986-10-01T11:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011100Z 12004KT 5SM FG BKN040 OVC060 20/19 A3009 RMK SLPNO T02000194",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1986-10-01T12:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011200Z 14004KT 4SM FGDZ BKN040 BKN060 20/20 A3008 RMK SLPNO T02000200",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1986-10-01T13:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011300Z 00000KT 4SM FGDZ BKN040 OVC060 21/20 A3007 RMK BINOVC SLPNO T02060200",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 68.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1986-10-01T14:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011400Z 20005KT 2SM FG OVC/// BKN009 OVC043 21/20 A3009 RMK F3 SLPNO T02110200",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1986-10-01T15:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011500Z 15004KT 6SM FG SCT009 BKN040 OVC100 23/21 A3009 RMK SLPNO T02280211",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1986-10-01T16:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011600Z 18006KT 5SM DZ SCT010 BKN100 24/21 A3008 RMK SLPNO T02440211",
+      "sky_condition": "SCT",
+      "temperature_f": 76.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1986-10-01T17:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011700Z 21009KT 5SM DZ BKN016 26/21 A3006 RMK SLPNO T02610206",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1986-10-01T18:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011800Z 19010KT 6SM DZ BKN023 BKN050 27/21 A3002 RMK RW SE MOVG E SLPNO T02670206",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1986-10-01T19:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 011900Z 18010G15KT 7SM BKN025 BKN050 28/21 A2999 RMK SLPNO T02780211",
+      "sky_condition": "BKN",
+      "temperature_f": 82.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-10-01T20:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 012000Z 18010KT 7SM BKN025 BKN080 28/20 A2996 RMK SLPNO T02780200",
+      "sky_condition": "BKN",
+      "temperature_f": 82.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-10-01T21:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 012100Z 18003KT 7SM -SHRA BKN080 OVC250 23/21 A2997 RMK SLPNO T02330211",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1986-10-01T22:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 012200Z 16010KT 4SM TSRA DZ BKN010 OVC025 22/22 A2998 RMK T W MOVG E SLPNO T02220217",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1986-10-01T23:00:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 012300Z 17010KT 5SM TSRA DZ SCT004 BKN008 OVC020 20/19 A3001 RMK T SE MOVG ESE FREQ LGTCCCG SLPNO T02000189",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false
+}

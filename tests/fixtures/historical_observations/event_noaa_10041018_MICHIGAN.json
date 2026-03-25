@@ -1,0 +1,111 @@
+{
+  "event_id": "noaa_10041018_MICHIGAN",
+  "event_date": "1967-04-21",
+  "event_datetime_utc": "1967-04-21T18:00:00Z",
+  "station": "KGRR",
+  "county": "KENT",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1967-04-21T00:00:00Z",
+      "station_id": "KGRR",
+      "metar": "METAR KGRR 210000Z 15006KT 15SM SCT/// BKN/// 14/04 A//// RMK SLP121 T01440039",
+      "sky_condition": "SCT",
+      "temperature_f": 58.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1012.1,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1967-04-21T03:00:00Z",
+      "station_id": "KGRR",
+      "metar": "METAR KGRR 210300Z 13009KT 15SM OVC/// 12/06 A//// RMK SLP123 T01170061",
+      "sky_condition": "OVC",
+      "temperature_f": 53.0,
+      "dewpoint_f": 43.0,
+      "pressure_mb": 1012.3,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1967-04-21T06:00:00Z",
+      "station_id": "KGRR",
+      "metar": "METAR KGRR 210600Z 09010KT 8SM SCT/// OVC/// 11/06 A//// RMK SLP089 T01060056",
+      "sky_condition": "SCT",
+      "temperature_f": 51.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1008.9,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1967-04-21T09:00:00Z",
+      "station_id": "KGRR",
+      "metar": "METAR KGRR 210900Z 15008KT 4SM -RA FG BKN/// OVC/// 09/07 A//// RMK SLP067 P0016 T00890072",
+      "sky_condition": "BKN",
+      "temperature_f": 48.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1006.7,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.16
+    },
+    {
+      "timestamp": "1967-04-21T12:00:00Z",
+      "station_id": "KGRR",
+      "metar": "METAR KGRR 211200Z 19007KT 3SM FG SCT/// BKN/// OVC/// 11/11 A//// RMK SLP058 P0001 T01110106",
+      "sky_condition": "SCT",
+      "temperature_f": 52.0,
+      "dewpoint_f": 51.0,
+      "pressure_mb": 1005.8,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1967-04-21T15:00:00Z",
+      "station_id": "KGRR",
+      "metar": "METAR KGRR 211500Z 23008KT 21/2SM FG BKN/// OVC/// 13/13 A//// RMK SLP055 T01330128",
+      "sky_condition": "BKN",
+      "temperature_f": 56.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1005.5,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1967-04-21T18:00:00Z",
+      "station_id": "KGRR",
+      "metar": "METAR KGRR 211800Z 26007KT 4SM DZ OVC/// 16/13 A//// RMK SLP053 T01610133",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1005.3,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1967-04-21T21:00:00Z",
+      "station_id": "KGRR",
+      "metar": "METAR KGRR 212100Z 19010KT 9SM BKN/// 21/13 A//// RMK SLP020 T02060133",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1002.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 9.0
+    }
+  ],
+  "estimated": false
+}

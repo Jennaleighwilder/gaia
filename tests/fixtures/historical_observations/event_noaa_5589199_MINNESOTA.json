@@ -1,0 +1,38 @@
+{
+  "event_id": "noaa_5589199_MINNESOTA",
+  "event_date": "1997-01-09",
+  "event_datetime_utc": "1997-01-09T18:00:00Z",
+  "station": "KRWF",
+  "county": "RENVILLE",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1997-01-09T02:53:00Z",
+      "station_id": "KRWF",
+      "metar": "KRWF 090253Z AUTO 14004KT 1/4SM M07/M07 A2990 RMK SLP140 T10701070 58024 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 19.4,
+      "dewpoint_f": 19.4,
+      "pressure_mb": 1014.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 0.25,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1997-01-09T17:53:00Z",
+      "station_id": "KRWF",
+      "metar": "KRWF 091753Z AUTO 31007KT 2SM M08/M08 A2954 RMK 60001 T10801080 56008 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 17.6,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 2.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

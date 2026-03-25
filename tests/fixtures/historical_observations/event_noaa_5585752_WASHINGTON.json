@@ -1,0 +1,179 @@
+{
+  "event_id": "noaa_5585752_WASHINGTON",
+  "event_date": "1997-01-01",
+  "event_datetime_utc": "1997-01-01T18:00:00Z",
+  "station": "KALW",
+  "county": "LOWER COLUMBIA",
+  "event_type": "Debris Flow",
+  "magnitude": "",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1997-01-01T08:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 010850Z 18030G42KT 10SM -SHRA BKN050 OVC080 19/08 A2924 RMK SHRAB25",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 34.523399999999995,
+      "wind_gust_mph": 48.33275999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-01-01T09:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 010950Z 19010KT 7SM RA OVC035 07/06 A2953 RMK WSHFT45 FROPA PRESRR",
+      "sky_condition": "OVC",
+      "temperature_f": 44.6,
+      "dewpoint_f": 42.8,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-01-01T10:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011050Z 16020KT 7SM RA BKN030 OVC045 09/07 A2955",
+      "sky_condition": "BKN",
+      "temperature_f": 48.2,
+      "dewpoint_f": 44.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-01-01T11:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011150Z 18020KT 10SM RA BKN030 OVC050 10/07 A2953 RMK 10206 20073",
+      "sky_condition": "BKN",
+      "temperature_f": 50.0,
+      "dewpoint_f": 44.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-01-01T12:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011250Z 20020KT 10SM BKN080 OVC095 12/05 A2954 RMK RAE25",
+      "sky_condition": "BKN",
+      "temperature_f": 53.6,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-01-01T13:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011350Z 20020KT 10SM BKN080 OVC095 12/04 A2955",
+      "sky_condition": "BKN",
+      "temperature_f": 53.6,
+      "dewpoint_f": 39.2,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-01-01T14:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011450Z 19017KT 15SM BKN080 OVC100 12/04 A2955",
+      "sky_condition": "BKN",
+      "temperature_f": 53.6,
+      "dewpoint_f": 39.2,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-01T15:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011550Z 19018KT 40SM BKN140 12/03 A2957",
+      "sky_condition": "BKN",
+      "temperature_f": 53.6,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-01-01T16:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011650Z 19016KT 40SM SCT100 BKN140 12/03 A2957",
+      "sky_condition": "SCT",
+      "temperature_f": 53.6,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-01-01T17:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011750Z 20012KT 40SM BKN140 BKN160 12/03 A2958",
+      "sky_condition": "BKN",
+      "temperature_f": 53.6,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-01-01T19:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 011950Z 21019KT 40SM BKN120 BKN160 14/02 A2958",
+      "sky_condition": "BKN",
+      "temperature_f": 57.2,
+      "dewpoint_f": 35.6,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 21.864819999999998,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-01-01T20:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 012050Z 21005KT 40SM SCT080 BKN140 14/03 A2958",
+      "sky_condition": "SCT",
+      "temperature_f": 57.2,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-01-01T21:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 012150Z 21020KT 40SM SCT080 BKN140 14/03 A2960",
+      "sky_condition": "SCT",
+      "temperature_f": 57.2,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-01-01T22:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 012250Z 21014KT 40SM SCT065 BKN140 14/03 A2960",
+      "sky_condition": "SCT",
+      "temperature_f": 57.2,
+      "dewpoint_f": 37.4,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-01-01T23:50:00Z",
+      "station_id": "KALW",
+      "metar": "METAR KALW 012350Z 20010KT 40SM SCT080 BKN140 13/04 A2959",
+      "sky_condition": "SCT",
+      "temperature_f": 55.4,
+      "dewpoint_f": 39.2,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 40.0
+    }
+  ],
+  "estimated": false
+}

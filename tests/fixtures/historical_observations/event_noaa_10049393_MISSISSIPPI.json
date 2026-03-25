@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10049393_MISSISSIPPI",
+  "event_date": "1966-03-03",
+  "event_datetime_utc": "1966-03-03T18:00:00Z",
+  "station": "KJAN",
+  "county": "LEAKE",
+  "event_type": "Tornado",
+  "magnitude": "F5",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1966-03-03T00:00:00Z",
+      "station_id": "KJAN",
+      "metar": "KJAN 030000Z 14011KT 8SM BKN/// OVC/// 16/14 A//// RMK SLP116 P0002 T01560144",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "1966-03-03T03:00:00Z",
+      "station_id": "KJAN",
+      "metar": "KJAN 030300Z 14010KT 8SM OVC/// 14/14 A//// RMK SLP111 P0001 T01440139",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1966-03-03T06:00:00Z",
+      "station_id": "KJAN",
+      "metar": "KJAN 030600Z 15008KT 7SM OVC/// 15/15 A//// RMK SLP105 T01500150",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1966-03-03T09:00:00Z",
+      "station_id": "KJAN",
+      "metar": "KJAN 030900Z 12006KT 4SM -RA FG BKN/// OVC/// 15/15 A//// RMK SLP094 P0001 T01500150",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1966-03-03T12:00:00Z",
+      "station_id": "KJAN",
+      "metar": "KJAN 031200Z 14006KT 5SM FG OVC/// 16/16 A//// RMK SLP091 T01610161",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1966-03-03T15:00:00Z",
+      "station_id": "KJAN",
+      "metar": "KJAN 031500Z 16010KT 6SM FG BKN/// OVC/// 19/18 A//// RMK SLP091 T01940183",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1966-03-03T18:00:00Z",
+      "station_id": "KJAN",
+      "metar": "KJAN 031800Z 18015KT 10SM BKN/// OVC/// 22/19 A//// RMK SLP061 T02220194",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1966-03-03T21:00:00Z",
+      "station_id": "KJAN",
+      "metar": "KJAN 032100Z 20016KT 8SM -RA OVC/// 21/20 A//// RMK SLP025 T02110200",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

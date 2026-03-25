@@ -1,0 +1,69 @@
+{
+  "event_id": "noaa_10053053_MINNESOTA",
+  "event_date": "1977-08-26",
+  "event_datetime_utc": "1977-08-26T18:00:00Z",
+  "station": "KBRD",
+  "county": "CASS",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "1977-08-04T11:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 041100Z AUTO 00000KT 15SM BKN089 18/17 A2987 RMK T01830167 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1977-08-05T12:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051200Z AUTO 00000KT 20SM BKN079 BKN246 15/12 A2993 RMK T01500122 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1977-08-11T11:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 111100Z AUTO 29007KT 20SM SCT039 09/05 A3004 RMK T00940050 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 49.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1977-08-20T11:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 201100Z AUTO 00000KT 8SM BKN059 OVC246 14/13 A2995 RMK T01390133 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 57.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1977-08-22T21:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 222100Z AUTO 32010G15KT 20SM BKN039 BKN246 21/06 A2985 RMK T02060061 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 43.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 20.0
+    }
+  ],
+  "estimated": false
+}

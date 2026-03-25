@@ -1,0 +1,44 @@
+{
+  "event_id": "noaa_10005481_ILLINOIS",
+  "event_date": "1977-08-21",
+  "event_datetime_utc": "1977-08-21T18:00:00Z",
+  "station": "KMTO",
+  "county": "CUMBERLAND",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 3,
+  "observations": [
+    {
+      "timestamp": "1977-08-23T17:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 231700Z AUTO 7SM SCT030 OVC079 23/20 RMK T02330200 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 68.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1977-08-26T22:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 262200Z AUTO 18012KT 6SM SCT039 SCT246 31/23 A3001 RMK T03110228 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 88.0,
+      "dewpoint_f": 73.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1977-08-30T16:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 301600Z AUTO 19004KT 7SM BKN015 26/21 A3024 RMK T02560206 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

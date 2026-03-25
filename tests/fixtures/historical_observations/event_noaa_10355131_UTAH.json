@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_10355131_UTAH",
+  "event_date": "1993-08-11",
+  "event_datetime_utc": "1993-08-11T18:00:00Z",
+  "station": "KVEL",
+  "county": "DUCHESNE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1993-08-11T01:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 110100Z 00000KT 40SM SCT060 BKN180 20/12 A3022 RMK LAST SLPNO T02000116",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 52.88,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1993-08-11T12:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 111200Z 30002KT 40SM SCT080 10/10 A3022 RMK 12HR PCPN .07 SLPNO 60048 T01000100 402610089 54079",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 2.30156,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1993-08-11T13:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 111300Z 00000KT 40SM SCT080 10/09 A3022 RMK SLPNO T01000094",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1993-08-11T14:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 111400Z 00000KT 40SM SCT080 13/12 A3023 RMK SLPNO T01270116",
+      "sky_condition": "SCT",
+      "temperature_f": 54.86,
+      "dewpoint_f": 52.88,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1993-08-11T15:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 111500Z 00000KT 25SM SCT080 15/12 A3023 RMK SLPNO T01500116",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 52.88,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1993-08-11T16:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 111600Z 00000KT 40SM SCT020 SCT080 17/12 A3023 RMK SLPNO T01660116",
+      "sky_condition": "SCT",
+      "temperature_f": 61.88,
+      "dewpoint_f": 52.88,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1993-08-11T17:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 111700Z 00000KT 40SM SCT030 SCT080 18/12 A3022 RMK SLPNO T01770122",
+      "sky_condition": "SCT",
+      "temperature_f": 63.86,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1993-08-11T18:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 111800Z 00000KT 40SM SCT080 SCT200 20/13 A3021 RMK SLPNO T02000133",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1993-08-11T20:00:00Z",
+      "station_id": "KVEL",
+      "metar": "KVEL 112000Z 00000KT 40SM SCT060 BKN150 22/13 A3016 RMK SLPNO T02160133",
+      "sky_condition": "SCT",
+      "temperature_f": 70.88,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 40.0
+    }
+  ],
+  "estimated": false
+}

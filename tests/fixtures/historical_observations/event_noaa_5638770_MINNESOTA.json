@@ -1,0 +1,26 @@
+{
+  "event_id": "noaa_5638770_MINNESOTA",
+  "event_date": "1998-03-29",
+  "event_datetime_utc": "1998-03-29T18:00:00Z",
+  "station": "KRWF",
+  "county": "BLUE EARTH",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "1998-03-29T05:53:00Z",
+      "station_id": "KRWF",
+      "metar": "KRWF 290553Z AUTO 13006KT 10SM 09/06 A2978 RMK SLP091 T00900060 58003 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 48.2,
+      "dewpoint_f": 42.8,
+      "pressure_mb": 1009.1,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

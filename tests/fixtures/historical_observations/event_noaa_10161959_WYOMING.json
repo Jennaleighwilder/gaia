@@ -1,0 +1,261 @@
+{
+  "event_id": "noaa_10161959_WYOMING",
+  "event_date": "1987-07-21",
+  "event_datetime_utc": "1987-07-21T18:00:00Z",
+  "station": "KP60",
+  "county": "TETON",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "1987-07-21T00:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210000Z 00000KT 6SM CLR 18/M16 A//// RMK PK WND ///040 RNO E65 SLPNO T01831160",
+      "sky_condition": "CLR",
+      "temperature_f": 65.0,
+      "dewpoint_f": 3.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T01:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210100Z 00000KT 6SM CLR M/M16 A//// RMK PK WND ///040 RNO SLPNO T////1160",
+      "sky_condition": "   ",
+      "dewpoint_f": 3.2,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T02:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210200Z 00000KT 6SM CLR M/M A//// RMK PK WND ///040 RNO",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T03:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210300Z 00000KT 6SM CLR 14/03 A//// RMK PK WND ///040 RNO SLPNO T01390028",
+      "sky_condition": "CLR",
+      "temperature_f": 57.0,
+      "dewpoint_f": 37.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T04:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210400Z 00000KT 6SM CLR 14/03 A//// RMK PK WND ///040 RNO SLPNO T01390033",
+      "sky_condition": "CLR",
+      "temperature_f": 57.0,
+      "dewpoint_f": 38.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T05:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210500Z 27004KT 6SM CLR 14/02 A//// RMK PK WND ///040 RNO SLPNO T01440022",
+      "sky_condition": "CLR",
+      "temperature_f": 58.0,
+      "dewpoint_f": 36.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T06:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210600Z 36002KT 6SM CLR 13/02 A//// RMK PK WND ///040 RNO E65 SLPNO T01330017",
+      "sky_condition": "CLR",
+      "temperature_f": 56.0,
+      "dewpoint_f": 35.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 2.30156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T07:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210700Z 29002KT 6SM CLR 13/02 A//// RMK PK WND ///040 RNO SLPNO T01280022",
+      "sky_condition": "CLR",
+      "temperature_f": 55.0,
+      "dewpoint_f": 36.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 2.30156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T08:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210800Z 00000KT 6SM CLR 09/04 A//// RMK PK WND ///040 RNO SLPNO T00940039",
+      "sky_condition": "CLR",
+      "temperature_f": 49.0,
+      "dewpoint_f": 39.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T09:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 210900Z 04003KT 6SM CLR 08/05 A//// RMK PK WND ///040 RNO SLPNO T00780050",
+      "sky_condition": "CLR",
+      "temperature_f": 46.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T10:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211000Z 08001KT 6SM CLR 09/07 A//// RMK PK WND ///040 RNO SLPNO T00890067",
+      "sky_condition": "CLR",
+      "temperature_f": 48.0,
+      "dewpoint_f": 44.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 1.15078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T11:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211100Z 00000KT 6SM CLR 08/07 A//// RMK PK WND ///040 RNO SLPNO T00830067",
+      "sky_condition": "CLR",
+      "temperature_f": 47.0,
+      "dewpoint_f": 44.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T12:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211200Z 19001KT 6SM CLR 09/07 A//// RMK PK WND ///040 RNO 5 SLPNO T00890072",
+      "sky_condition": "CLR",
+      "temperature_f": 48.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 1.15078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T13:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211300Z 00000KT 6SM CLR 08/07 A//// RMK PK WND ///040 RNO SLPNO T00780067",
+      "sky_condition": "CLR",
+      "temperature_f": 46.0,
+      "dewpoint_f": 44.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T14:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211400Z 00000KT 6SM CLR 11/08 A//// RMK PK WND ///040 RNO SLPNO T01060083",
+      "sky_condition": "CLR",
+      "temperature_f": 51.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T15:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211500Z 00000KT 6SM CLR 11/08 A//// RMK PK WND ///040 RNO SLPNO T01060083",
+      "sky_condition": "CLR",
+      "temperature_f": 51.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T16:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211600Z 21008KT 6SM CLR 11/08 A//// RMK PK WND ///040 RNO SLPNO T01110083",
+      "sky_condition": "CLR",
+      "temperature_f": 52.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T17:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211700Z 18001KT 6SM CLR 11/09 A//// RMK PK WND ///040 RNO SLPNO T01060089",
+      "sky_condition": "CLR",
+      "temperature_f": 51.0,
+      "dewpoint_f": 48.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 1.15078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T18:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211800Z 20004KT 6SM CLR 13/10 A//// RMK PK WND ///040 RNO E5 SLPNO T01280100",
+      "sky_condition": "CLR",
+      "temperature_f": 55.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T19:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 211900Z 15001KT 6SM CLR 11/09 A//// RMK PK WND ///042 RYS SLPNO T01060094",
+      "sky_condition": "CLR",
+      "temperature_f": 51.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 1.15078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T20:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 212000Z 10001KT 6SM CLR 13/10 A//// RMK PK WND ///042 RNO SLPNO T01280100",
+      "sky_condition": "CLR",
+      "temperature_f": 55.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 1.15078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T22:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 212200Z 22007KT 6SM CLR 09/08 A//// RMK PK WND ///069 RYS SLPNO T00890078",
+      "sky_condition": "CLR",
+      "temperature_f": 48.0,
+      "dewpoint_f": 46.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-21T23:00:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 212300Z 23014KT 6SM CLR 09/08 A//// RMK PK WND ///075 RYS SLPNO T00890083",
+      "sky_condition": "CLR",
+      "temperature_f": 48.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

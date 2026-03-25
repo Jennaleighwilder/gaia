@@ -1,0 +1,211 @@
+{
+  "event_id": "noaa_10088995_NORTH CAROLINA",
+  "event_date": "1984-03-28",
+  "event_datetime_utc": "1984-03-28T18:00:00Z",
+  "station": "KFAY",
+  "county": "SAMPSON",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 18,
+  "observations": [
+    {
+      "timestamp": "1984-03-28T01:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 280100Z 13007KT 7SM SCT040 BKN060 OVC200 16/11 A2974 RMK SLPNO T01610106",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-03-28T02:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 280200Z 14008KT 7SM SCT030 OVC070 16/10 A2974 RMK SLPNO T01560100",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-03-28T03:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 280300Z 14004KT 7SM SCT035 OVC090 15/09 A2975 RMK SLPNO T01500094",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-03-28T04:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 280400Z 13004KT 7SM SCT030 OVC060 15/09 A2970 RMK SLPNO T01500094",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-03-28T05:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 280500Z 13007KT 7SM SCT030 OVC060 15/10 A2969 RMK LAST SLPNO T01500100",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-03-28T11:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281100Z 15005KT 1/4SM RA FG OVC002 15/15 A2951 RMK SLPNO T01500150",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1984-03-28T12:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281200Z 15007KT 1SM TSRA FG OVC005 16/15 A2948 RMK T SW MOVG NE OCCL LTGCCCG/ SLPNO T01560150",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1984-03-28T13:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281300Z 13006KT 1SM RA FG OVC002 16/15 A2943 RMK T MOVD NE SLPNO T01560150",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1984-03-28T14:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281400Z 19012KT 3SM SHRA BKN004 OVC010 17/14 A2934 RMK SLPNO T01670144",
+      "sky_condition": "BKN",
+      "temperature_f": 62.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1984-03-28T15:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281500Z 19012KT 3SM SHRA BKN004 OVC010 17/14 A2934 RMK SLPNO T01670144",
+      "sky_condition": "BKN",
+      "temperature_f": 62.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1984-03-28T16:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281600Z 21007KT 7SM SCT008 BKN012 OVC040 18/16 A2931 RMK CIG RGD SLPNO T01830161",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-03-28T17:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281700Z 20008KT 7SM SCT008 SCT015 BKN100 22/18 A2927 RMK PRESFR SLPNO T02170183",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-03-28T18:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281800Z 22013KT 15SM BKN080 24/17 A2925 RMK SLPNO T02390167",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-03-28T19:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 281900Z 24015KT 15SM SCT040 BKN100 27/16 A2922 RMK SLPNO T02720161",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1984-03-28T20:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 282000Z 24012KT 10SM SCT030 BKN080 26/14 A2922 RMK SLPNO T02560144",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-03-28T21:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 282100Z 24007KT 10SM SCT030 SCT200 27/16 A2913 RMK PRESFR SLPNO T02670156",
+      "sky_condition": "SCT",
+      "temperature_f": 80.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-03-28T22:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 282200Z 19008KT 7SM SCT040 SCT100 26/14 A//// RMK SLPNO T02610144",
+      "sky_condition": "SCT",
+      "temperature_f": 79.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-03-28T23:00:00Z",
+      "station_id": "KFAY",
+      "metar": "METAR KFAY 282300Z 17015KT 7SM -TSRA BKN035 OVC060 23/17 A2906 RMK PRESFR T E MOVG NE SLPNO T02330167",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

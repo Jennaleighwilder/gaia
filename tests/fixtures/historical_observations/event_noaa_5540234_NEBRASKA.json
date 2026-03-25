@@ -1,0 +1,145 @@
+{
+  "event_id": "noaa_5540234_NEBRASKA",
+  "event_date": "1996-03-24",
+  "event_datetime_utc": "1996-03-24T18:00:00Z",
+  "station": "KIML",
+  "county": "DUNDY",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 12,
+  "observations": [
+    {
+      "timestamp": "1996-03-24T01:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 240100Z 33007KT 15SM SCT040 BKN100 13/00 A2934 RMK SLPNO T01270000",
+      "sky_condition": "SCT",
+      "temperature_f": 54.86,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-03-24T03:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 240300Z 35013KT 15SM SCT050 08/M05 A2937 RMK SLPNO T00771045",
+      "sky_condition": "SCT",
+      "temperature_f": 45.86,
+      "dewpoint_f": 23.9,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-03-24T04:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 240400Z 04008KT 15SM SCT050 06/M06 A2940 RMK LAST; SLPNO T00551062",
+      "sky_condition": "SCT",
+      "temperature_f": 42.0,
+      "dewpoint_f": 20.84,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-03-24T13:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 241300Z 34020KT 1SM -SN OVC/// BKN007 OVC015 M08/M11 A2968 RMK S7/ FIRST/ 70002/ 400640016; SLPNO T10781112",
+      "sky_condition": "OVC",
+      "temperature_f": 18.0,
+      "dewpoint_f": 11.84,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-03-24T15:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 241500Z 34015KT 1SM -SN OVC/// BKN007 OVC015 M08/M12 A2971 RMK S7; SLPNO T10841117",
+      "sky_condition": "OVC",
+      "temperature_f": 16.88,
+      "dewpoint_f": 11.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-03-24T16:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 241600Z 34025KT 1SM -SN OVC/// BKN007 OVC015 M09/M12 A2980 RMK S6/ PRESRR; SLPNO T10891123 56000",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 9.86,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-03-24T17:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 241700Z 34020KT 1SM -SN OVC/// BKN007 OVC015 M11/M12 A2982 RMK S6; SLPNO T11061117",
+      "sky_condition": "OVC",
+      "temperature_f": 13.0,
+      "dewpoint_f": 11.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-03-24T19:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 241900Z 34027KT 1/2SM SN -BLSN OVC/// BKN005 OVC012 M12/M14 A2981 RMK S8; SLPNO T11231139",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 31.07106,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-03-24T20:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 242000Z 35027KT 1/8SM +SN -BLSN OVC/// OVC004 M12/M14 A2982 RMK S9; SLPNO T11231139",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 31.07106,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1996-03-24T21:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 242100Z 33018KT 1/2SM SN -BLSN OVC/// OVC005 M12/M14 A2983 RMK S8; SLPNO T11231139",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-03-24T22:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 242200Z 34020KT 1/2SM SN -BLSN OVC/// OVC005 M12/M14 A2986 RMK S8/ 6002; SLPNO T11231139",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-03-24T23:00:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 242300Z 33028KT 1/2SM SN -BLSN OVC/// OVC005 M12/M14 A2987 RMK S8; SLPNO T11231139",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 32.22184,
+      "visibility_mi": 0.5
+    }
+  ],
+  "estimated": false
+}

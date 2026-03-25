@@ -1,0 +1,68 @@
+{
+  "event_id": "noaa_5422798_FLORIDA",
+  "event_date": "2004-09-26",
+  "event_datetime_utc": "2004-09-26T18:00:00Z",
+  "station": "KBKV",
+  "county": "HERNANDO",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2004-09-26T00:53:00Z",
+      "station_id": "KBKV",
+      "metar": "METAR KBKV 260053Z AUTO 35013G20KT 8SM -RA OVC016 23/22 A2974 RMK AO2 RAE36B52 SLP070 P0000 T02330217 $",
+      "sky_condition": "OVC",
+      "temperature_f": 74.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1007.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2004-09-26T01:53:00Z",
+      "station_id": "KBKV",
+      "metar": "METAR KBKV 260153Z AUTO 34013G20KT 10SM BKN014 OVC021 24/22 A2973 RMK AO2 RAE06B40E49 SLP063 P0001 T02390217 $",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1006.3,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2004-09-26T02:53:00Z",
+      "station_id": "KBKV",
+      "metar": "METAR KBKV 260253Z AUTO 34015G28KT 10SM BKN016 OVC035 24/22 A2971 RMK AO2 PK WND 34028/0253 RAB14E23 SLP057 P0000 60001 T02390217 58012 $",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1005.7,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2004-09-26T03:53:00Z",
+      "station_id": "KBKV",
+      "metar": "METAR KBKV 260353Z AUTO 34014G21KT 10SM OVC014 24/21 A2968 RMK AO2 PK WND 36029/0303 SLP048 T02390211 $",
+      "sky_condition": "OVC",
+      "temperature_f": 75.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1004.8,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 24.166379999999997,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

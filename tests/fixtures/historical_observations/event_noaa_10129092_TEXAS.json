@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_10129092_TEXAS",
+  "event_date": "1982-05-12",
+  "event_datetime_utc": "1982-05-12T18:00:00Z",
+  "station": "KMWL",
+  "county": "ERATH",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1982-05-12T13:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 121300Z 12010KT 4SM FG OVC008 21/20 A2979 RMK SLPNO T02110200",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1982-05-12T14:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 121400Z 13010KT 4SM FG OVC008 22/20 A2976 RMK SLPNO T02170200",
+      "sky_condition": "OVC",
+      "temperature_f": 71.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1982-05-12T15:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 121500Z 14013KT 8SM TS OVC008 22/21 A2976 RMK RE25 T N MOVG E/ SLPNO T02170206 5/0//",
+      "sky_condition": "OVC",
+      "temperature_f": 71.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1982-05-12T16:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 121600Z 14011KT 10SM OVC008 22/20 A2976 RMK TE50 MOVD E RWE40 SLPNO T02170200",
+      "sky_condition": "OVC",
+      "temperature_f": 71.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1982-05-12T17:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 121700Z 15011KT 10SM OVC015 23/22 A2974 RMK SLPNO T02330217",
+      "sky_condition": "OVC",
+      "temperature_f": 74.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1982-05-12T18:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 121800Z 17017KT 15SM OVC015 25/21 A2974 RMK SLPNO 600// T02500211 57007",
+      "sky_condition": "OVC",
+      "temperature_f": 77.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1982-05-12T19:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 121900Z 17013KT 15SM TS SCT015 BKN030 OVC250 24/21 A2975 RMK TB50 S MOVG NE SLPNO T02390206",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1982-05-12T20:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 122000Z 16010KT 15SM TS SCT015 BKN030 OVC250 21/18 A2970 RMK T S MOVG NE SLPNO T02110183",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1982-05-12T21:00:00Z",
+      "station_id": "KMWL",
+      "metar": "METAR KMWL 122100Z 22010KT 2SM TSRA FG OVC005 21/21 A2974 RMK T N MOVG NE RB05/ LAST SLPNO T02110206 54000",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.0
+    }
+  ],
+  "estimated": false
+}

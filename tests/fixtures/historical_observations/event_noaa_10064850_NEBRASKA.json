@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10064850_NEBRASKA",
+  "event_date": "1972-07-27",
+  "event_datetime_utc": "1972-07-27T18:00:00Z",
+  "station": "KLBF",
+  "county": "LINCOLN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1972-07-27T00:00:00Z",
+      "station_id": "KLBF",
+      "metar": "METAR KLBF 270000Z 07012KT 15SM FEW/// 30/15 A//// RMK SLP141 T03000150",
+      "sky_condition": "FEW",
+      "temperature_f": 86.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1014.1,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1972-07-27T03:00:00Z",
+      "station_id": "KLBF",
+      "metar": "METAR KLBF 270300Z 12003KT 10SM BKN/// OVC/// 24/17 A//// RMK SLP160 T02390167",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1016.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1972-07-27T06:00:00Z",
+      "station_id": "KLBF",
+      "metar": "METAR KLBF 270600Z 25018KT 10SM SCT/// OVC/// 21/14 A//// RMK SLP160 T02110144",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1016.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1972-07-27T09:00:00Z",
+      "station_id": "KLBF",
+      "metar": "METAR KLBF 270900Z 00000KT 10SM OVC/// 19/14 A//// RMK SLP151 T01940144",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1015.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1972-07-27T12:00:00Z",
+      "station_id": "KLBF",
+      "metar": "METAR KLBF 271200Z 14004KT 10SM BKN/// OVC/// 19/16 A//// RMK SLP161 T01890161",
+      "sky_condition": "BKN",
+      "temperature_f": 66.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1016.1,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1972-07-27T15:00:00Z",
+      "station_id": "KLBF",
+      "metar": "METAR KLBF 271500Z 12008KT 8SM BKN/// BKN/// 22/19 A//// RMK SLP171 T02170194",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1017.1,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1972-07-27T18:00:00Z",
+      "station_id": "KLBF",
+      "metar": "METAR KLBF 271800Z 11008KT 15SM SCT/// BKN/// 27/19 A//// RMK SLP162 T02720189",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1016.2,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1972-07-27T21:00:00Z",
+      "station_id": "KLBF",
+      "metar": "METAR KLBF 272100Z 15012KT 15SM BKN/// BKN/// 28/16 A//// RMK SLP149 T02780156",
+      "sky_condition": "BKN",
+      "temperature_f": 82.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1014.9,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

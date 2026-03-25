@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10109896_SOUTH DAKOTA",
+  "event_date": "1971-07-03",
+  "event_datetime_utc": "1971-07-03T18:00:00Z",
+  "station": "KHON",
+  "county": "HAND",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1971-07-03T00:00:00Z",
+      "station_id": "KHON",
+      "metar": "KHON 030000Z 17014KT 20SM CLR 30/13 A//// RMK SLP124 T03000128",
+      "sky_condition": "CLR",
+      "temperature_f": 86.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1012.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1971-07-03T03:00:00Z",
+      "station_id": "KHON",
+      "metar": "KHON 030300Z 16015KT 20SM SCT/// 25/12 A//// RMK SLP122 T02500122",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1012.2,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1971-07-03T06:00:00Z",
+      "station_id": "KHON",
+      "metar": "KHON 030600Z 15015KT 10SM OVC/// 23/13 A//// RMK SLP112 T02330128",
+      "sky_condition": "OVC",
+      "temperature_f": 74.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1011.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-07-03T09:00:00Z",
+      "station_id": "KHON",
+      "metar": "KHON 030900Z 15010KT 10SM BKN/// OVC/// 22/14 A//// RMK SLP103 T02220139",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1010.3,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-07-03T12:00:00Z",
+      "station_id": "KHON",
+      "metar": "KHON 031200Z 17010KT 15SM SCT/// OVC/// 21/14 A//// RMK SLP107 T02060144",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1010.7,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1971-07-03T15:00:00Z",
+      "station_id": "KHON",
+      "metar": "KHON 031500Z 17016KT 15SM FEW/// 25/16 A//// RMK SLP104 T02500161",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1010.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1971-07-03T18:00:00Z",
+      "station_id": "KHON",
+      "metar": "KHON 031800Z 17017KT 15SM CLR 29/17 A//// RMK SLP088 T02940172",
+      "sky_condition": "CLR",
+      "temperature_f": 85.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1008.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1971-07-03T21:00:00Z",
+      "station_id": "KHON",
+      "metar": "KHON 032100Z 18014KT 15SM BKN/// BKN/// 29/19 A//// RMK SLP086 T02940189",
+      "sky_condition": "BKN",
+      "temperature_f": 85.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1008.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

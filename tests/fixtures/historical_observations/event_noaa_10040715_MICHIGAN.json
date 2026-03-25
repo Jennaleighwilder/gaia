@@ -1,0 +1,111 @@
+{
+  "event_id": "noaa_10040715_MICHIGAN",
+  "event_date": "1968-04-23",
+  "event_datetime_utc": "1968-04-23T18:00:00Z",
+  "station": "KHTL",
+  "county": "OSCEOLA",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-04-23T00:00:00Z",
+      "station_id": "KHTL",
+      "metar": "METAR KHTL 230000Z 15012KT 15SM FEW/// 16/07 A//// RMK SLP171 T01610072",
+      "sky_condition": "FEW",
+      "temperature_f": 61.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1017.1,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-04-23T03:00:00Z",
+      "station_id": "KHTL",
+      "metar": "METAR KHTL 230300Z 09008KT 15SM FEW/// 08/05 A//// RMK SLP171 T00830050",
+      "sky_condition": "FEW",
+      "temperature_f": 47.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1017.1,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-04-23T06:00:00Z",
+      "station_id": "KHTL",
+      "metar": "METAR KHTL 230600Z 14006KT 15SM BKN/// 06/04 A//// RMK SLP154 T00610039",
+      "sky_condition": "BKN",
+      "temperature_f": 43.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1015.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-04-23T09:00:00Z",
+      "station_id": "KHTL",
+      "metar": "METAR KHTL 230900Z 09005KT 10SM BKN/// 05/04 A//// RMK SLP118 T00500039",
+      "sky_condition": "BKN",
+      "temperature_f": 41.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1011.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-04-23T12:00:00Z",
+      "station_id": "KHTL",
+      "metar": "METAR KHTL 231200Z 10007KT 10SM BKN/// 06/04 A//// RMK SLP101 T00610044",
+      "sky_condition": "BKN",
+      "temperature_f": 43.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1010.1,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-04-23T15:00:00Z",
+      "station_id": "KHTL",
+      "metar": "METAR KHTL 231500Z 12011KT 10SM OVC/// 14/07 A//// RMK SLP046 T01390067",
+      "sky_condition": "OVC",
+      "temperature_f": 57.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 1004.6,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-04-23T18:00:00Z",
+      "station_id": "KHTL",
+      "metar": "METAR KHTL 231800Z 11007KT 21/2SM -SHRA DZ OVC/// 12/10 A//// RMK SLP015 P0003 T01220100",
+      "sky_condition": "OVC",
+      "temperature_f": 54.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 1001.5,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 2.5,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "1968-04-23T21:00:00Z",
+      "station_id": "KHTL",
+      "metar": "METAR KHTL 232100Z 16006KT 8SM -TSRA SCT/// BKN/// OVC/// 14/07 A//// RMK SLP968 P0001 T01440067",
+      "sky_condition": "SCT",
+      "temperature_f": 58.0,
+      "dewpoint_f": 44.0,
+      "pressure_mb": 996.8,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.01
+    }
+  ],
+  "estimated": false
+}

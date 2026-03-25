@@ -1,0 +1,89 @@
+{
+  "event_id": "noaa_10016129_INDIANA",
+  "event_date": "1976-09-26",
+  "event_datetime_utc": "1976-09-26T18:00:00Z",
+  "station": "KBMG",
+  "county": "JACKSON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1976-09-26T00:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 260100Z 01006KT 7SM BKN060 OVC120 M/M A2996 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T01:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 260200Z 04006KT 7SM BKN060 OVC120 M/M A2995 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T02:00:00Z",
+      "station_id": "KBMG",
+      "metar": "KBMG 260200Z AUTO 04006KT 7SM BKN059 OVC118 A2995 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T11:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 261200Z 17008KT 11/2SM -DZ FG OVC/// OVC040 M/M A2980 RMK LF6 SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.5
+    },
+    {
+      "timestamp": "1976-09-26T12:00:00Z",
+      "station_id": "KBMG",
+      "metar": "KBMG 261200Z AUTO 17008KT 1 1/2SM POB000 OVC039 A2980 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1976-09-26T17:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 261700Z 20007KT 2SM -RA FG BKN005 OVC025 21/19 A2977 RMK SLPNO T02060194",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1976-09-26T18:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 261800Z 20010KT 3SM FG BKN005 OVC030 22/21 A2976 RMK SLPNO T02220206",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1976-09-26T21:00:00Z",
+      "station_id": "KBMG",
+      "metar": "KBMG 262100Z AUTO 30004KT 2SM POB000 BKN006 OVC030 A2970 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 2.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,35 @@
+{
+  "event_id": "noaa_5583166_MONTANA",
+  "event_date": "1996-12-16",
+  "event_datetime_utc": "1996-12-16T18:00:00Z",
+  "station": "KOLF",
+  "county": "MCCONE",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1996-12-18T12:14:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 181214 00000KT 15SM SKC M22/M27 A3045",
+      "sky_condition": "CLR",
+      "temperature_f": -7.6,
+      "dewpoint_f": -16.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-12-30T01:58:00Z",
+      "station_id": "KOLF",
+      "metar": "KOLF 300158 09018KT 3SM -SN SCT010 OVC030 M23/M30 A3001",
+      "sky_condition": "SCT",
+      "temperature_f": -9.4,
+      "dewpoint_f": -22.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 3.0
+    }
+  ],
+  "estimated": false
+}

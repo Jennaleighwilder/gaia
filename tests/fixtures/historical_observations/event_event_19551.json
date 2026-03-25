@@ -1,0 +1,159 @@
+{
+  "event_id": "event_19551",
+  "event_date": "1996-05-26",
+  "event_datetime_utc": "1996-05-26T18:00:00Z",
+  "station": "KBVO",
+  "county": "NOWATA",
+  "event_type": "tornado",
+  "magnitude": "F2",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1996-05-26T11:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261100Z 17010KT 7SM BKN090 OVC250 24/17 A2976 RMK FIRST; SLPNO T02380172",
+      "sky_condition": "BKN",
+      "temperature_f": 74.84,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-05-26T12:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261200Z 18009KT 7SM BKN090 OVC250 24/17 A2978 RMK SLPNO T02440172",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-05-26T13:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261300Z 18012KT 7SM BKN090 OVC250 25/18 A2979 RMK SLPNO T02550183",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-05-26T14:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261400Z 18010KT 7SM BKN050 OVC250 25/18 A2980 RMK SLPNO T02550183",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-05-26T15:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261500Z 18010KT 7SM SCT010 SCT050 OVC250 27/19 A2979 RMK SLPNO T02720194",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-05-26T16:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261600Z 18009KT 10SM SCT050 OVC250 28/19 A2977 RMK SLPNO T02770194",
+      "sky_condition": "SCT",
+      "temperature_f": 81.86,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-26T17:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261700Z 17008KT 10SM SCT050 OVC250 28/19 A2975 RMK SLPNO T02770194",
+      "sky_condition": "SCT",
+      "temperature_f": 81.86,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-26T18:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261800Z 18012KT 10SM SCT026 BKN045 OVC150 29/20 A2974 RMK SLPNO T02880200",
+      "sky_condition": "SCT",
+      "temperature_f": 83.84,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-26T19:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261900Z 17012KT 10SM SCT025 OVC045 29/19 A2972 RMK SLPNO T02880194",
+      "sky_condition": "SCT",
+      "temperature_f": 83.84,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-26T20:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 262000Z 17010G20KT 10SM SCT025 OVC050 30/19 A2967 RMK BINOVC ; SLPNO T03000194",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-26T21:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 262100Z 18007G15KT 10SM SCT025 OVC050 30/19 A2964 RMK SLPNO T03000194",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-26T22:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 262200Z 17007G15KT 10SM BKN025 OVC045 29/20 A2961 RMK SLPNO T02880200",
+      "sky_condition": "BKN",
+      "temperature_f": 83.84,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 8.05546,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-05-26T23:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 262300Z 17008KT 10SM BKN030 OVC050 27/20 A2961 RMK LAST; SLPNO T02660200",
+      "sky_condition": "BKN",
+      "temperature_f": 79.88,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

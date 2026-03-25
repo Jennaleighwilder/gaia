@@ -32,16 +32,27 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--event-file", default=None, help="Event JSON (default: east_tn_full_events.json)")
     ap.add_argument("--obs-dir", default=None, help="Observation fixtures dir (default: historical_observations)")
+    ap.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Max events to run (after filtering to those with observations)",
+    )
     args = ap.parse_args()
 
     event_path = Path(args.event_file) if args.event_file else ROOT / "tests/fixtures/east_tn_full_events.json"
     obs_dir = Path(args.obs_dir) if args.obs_dir else ROOT / "tests/fixtures/historical_observations"
 
     events = load_events(event_path)
+    for i, e in enumerate(events):
+        if not e.get("event_id"):
+            e["event_id"] = f"master_{i}"
     have_obs = []
     for e in events:
         if load_event_observations(e["event_id"], obs_dir=obs_dir):
             have_obs.append(e)
+    if args.limit is not None and args.limit > 0:
+        have_obs = have_obs[: args.limit]
     print(f"Full backtest: {len(have_obs)} events with observations (of {len(events)} total)")
     if not have_obs:
         print("Run fetch_asos_full_backtest.py or fetch_asos_national_backtest.py first.")

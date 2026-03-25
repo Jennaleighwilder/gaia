@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_10145600_WISCONSIN",
+  "event_date": "1969-06-26",
+  "event_datetime_utc": "1969-06-26T18:00:00Z",
+  "station": "KGRB",
+  "county": "SHAWANO",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1969-06-26T00:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 260000Z AUTO 05009KT 1SM CLR CLR 17/16 RMK P0021 SLP038 T01720161 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1003.8,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 1.0,
+      "precip_1h_in": 0.21
+    },
+    {
+      "timestamp": "1969-06-26T03:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 260300Z AUTO 12010KT 15SM CLR CLR 19/18 RMK SLP020 T01890178 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 66.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1002.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-26T06:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 260600Z AUTO 20014KT 15SM CLR CLR CLR 19/16 RMK P0002 SLP042 T01940161 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 67.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1004.2,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "1969-06-26T09:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 260900Z AUTO 15005KT 15SM CLR CLR CLR 17/15 RMK SLP045 T01720150 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 63.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1004.5,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-26T12:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 261200Z AUTO 18010KT 12SM CLR CLR CLR CLR 20/18 RMK SLP042 T02000183 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 68.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1004.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1969-06-26T15:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 261500Z AUTO 21014KT 5SM CLR CLR CLR 23/20 RMK SLP047 T02330200 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 74.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1004.7,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1969-06-26T18:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 261800Z AUTO 26007KT 10SM CLR 21/18 RMK P0031 SLP057 T02110178 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 70.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1005.7,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.31
+    },
+    {
+      "timestamp": "1969-06-26T21:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 262100Z AUTO 17012KT 12SM CLR 27/23 RMK SLP024 T02720233 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 81.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1002.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 12.0
+    }
+  ],
+  "estimated": false
+}

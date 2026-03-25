@@ -1,0 +1,27 @@
+{
+  "event_id": "noaa_5422810_FLORIDA",
+  "event_date": "2004-09-05",
+  "event_datetime_utc": "2004-09-05T18:00:00Z",
+  "station": "KMAI",
+  "county": "JACKSON",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "2004-09-05T16:53:00Z",
+      "station_id": "KMAI",
+      "metar": "KMAI 051653Z AUTO 05016G23KT 10SM BKN038 31/21 A2987 RMK AO2 SLP113 T03110211",
+      "sky_condition": "BKN",
+      "temperature_f": 88.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1011.3,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

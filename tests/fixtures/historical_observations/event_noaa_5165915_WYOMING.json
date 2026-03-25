@@ -1,0 +1,273 @@
+{
+  "event_id": "noaa_5165915_WYOMING",
+  "event_date": "2000-12-01",
+  "event_datetime_utc": "2000-12-01T18:00:00Z",
+  "station": "KP60",
+  "county": "TETON/MOUTAINS",
+  "event_type": "Avalanche",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2000-12-01T00:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010056Z AUTO VRB03KT M07/M10 A3029 RMK AO2 SLP299 T10721100 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 19.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1029.9,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T01:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010156Z AUTO 00000KT M07/M10 A3031 RMK AO2 SLP307 T10721100 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 19.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1030.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T02:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010256Z AUTO 00000KT M08/M10 A3031 RMK AO2 SLP312 T10781100 51008 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 18.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1031.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T03:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010356Z AUTO 00000KT M08/M10 A3033 RMK AO2 SLP321 T10831100 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 17.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1032.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T04:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010456Z AUTO 30003KT M08/M10 A3033 RMK AO2 SLP314 T10781100 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 18.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1031.4,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T05:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010556Z AUTO 00000KT M07/M10 A3035 RMK AO2 SLP319 T10721100 11061 21083 51008 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 19.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1031.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T06:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010656Z AUTO 00000KT M09/M12 A3034 RMK AO2 SLP322 T10891122 410331094 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 16.0,
+      "dewpoint_f": 10.0,
+      "pressure_mb": 1032.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T07:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010756Z AUTO 29003KT M13/M14 A3034 RMK AO2 SLP332 T11281139 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 9.0,
+      "dewpoint_f": 7.0,
+      "pressure_mb": 1033.2,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T08:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010856Z AUTO 00000KT M14/M16 A3034 RMK AO2 SLP341 T11441156 55001 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 6.0,
+      "dewpoint_f": 4.0,
+      "pressure_mb": 1034.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T09:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 010956Z AUTO 00000KT M16/M17 A3036 RMK AO2 SLP351 T11561167 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 4.0,
+      "dewpoint_f": 2.0,
+      "pressure_mb": 1035.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T10:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011056Z AUTO 30004KT M16/M18 A3036 RMK AO2 SLP352 T11561178 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 4.0,
+      "dewpoint_f": 0.0,
+      "pressure_mb": 1035.2,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2000-12-01T11:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011156Z AUTO 30004KT M17/M18 A3037 RMK AO2 SLP363 T11671183 11072 21172 51007 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 2.0,
+      "dewpoint_f": -1.0,
+      "pressure_mb": 1036.3,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2000-12-01T12:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011256Z AUTO 31003KT M13/M15 A3037 RMK AO2 SLP356 T11281150 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 9.0,
+      "dewpoint_f": 5.0,
+      "pressure_mb": 1035.6,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T13:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011356Z AUTO 31003KT M12/M13 A3038 RMK AO2 SLP353 T11171133 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 11.0,
+      "dewpoint_f": 8.0,
+      "pressure_mb": 1035.3,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T14:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011456Z AUTO 30004KT M13/M14 A3037 RMK AO2 SLP356 T11281144 50001 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 9.0,
+      "dewpoint_f": 6.0,
+      "pressure_mb": 1035.6,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2000-12-01T15:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011556Z AUTO 29003KT M11/M12 A3038 RMK AO2 SLP354 T11061117 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 13.0,
+      "dewpoint_f": 11.0,
+      "pressure_mb": 1035.4,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T16:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011656Z AUTO 00000KT M09/M11 A3039 RMK AO2 SLP351 T10891106 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 16.0,
+      "dewpoint_f": 13.0,
+      "pressure_mb": 1035.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T17:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011756Z AUTO 00000KT M07/M10 A3038 RMK AO2 SLP340 T10721100 11072 21161 50003 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 19.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1034.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T18:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011856Z AUTO 13004KT M07/M10 A3036 RMK AO2 SLP336 T10671100 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 20.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1033.6,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2000-12-01T19:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 011956Z AUTO VRB03KT M05/M10 A3034 RMK AO2 SLP336 T10501100 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 23.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1033.6,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T20:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 012056Z AUTO VRB03KT M04/M10 A3033 RMK AO2 SLP336 T10441100 56015 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 24.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1033.6,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T21:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 012156Z AUTO VRB03KT M03/M09 A3032 RMK AO2 SLP334 T10331094 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 26.0,
+      "dewpoint_f": 15.0,
+      "pressure_mb": 1033.4,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2000-12-01T22:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 012256Z AUTO 00000KT M04/M10 A3032 RMK AO2 SLP337 T10441100 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 24.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1033.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2000-12-01T23:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 012356Z AUTO 31003KT M08/M11 A3032 RMK AO2 SLP355 T10831106 11033 21089 55001 PWINO FZRANO TSNO",
+      "sky_condition": null,
+      "temperature_f": 17.0,
+      "dewpoint_f": 13.0,
+      "pressure_mb": 1035.5,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 3.4523399999999995
+    }
+  ],
+  "estimated": false
+}

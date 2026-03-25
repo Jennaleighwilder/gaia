@@ -1,0 +1,140 @@
+{
+  "event_id": "noaa_10050380_MINNESOTA",
+  "event_date": "1987-07-23",
+  "event_datetime_utc": "1987-07-23T18:00:00Z",
+  "station": "KMIC",
+  "county": "HENNEPIN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1987-07-23T00:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 230000Z 20012KT 5SM DZ SCT050 SCT100 M/M A2994 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T02:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 230200Z 18008KT 5SM DZ SCT100 M/M A2994 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T03:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 230300Z 17010KT 5SM DZ SCT100 M/M A2994 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T12:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 231200Z 24008KT 5SM DZ BKN100 BKN200 M/M A2993 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T13:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 231300Z 24008KT 5SM DZ BKN100 BKN200 M/M A2993 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T14:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 231400Z 21010G18KT 5SM DZ SCT070 BKN250 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 20.714039999999997,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T15:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 231500Z 21008KT 4SM -RA DZ SCT050 BKN100 OVC200 M/M A2992 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1987-07-23T16:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 231600Z 18008KT 5SM DZ SCT050 BKN100 BKN200 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T17:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 231700Z 18008KT 5SM DZ BKN070 BKN200 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T18:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 231800Z 18008KT 6SM DZ BKN070 BKN200 M/M A2989 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-23T19:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 231900Z 27006KT 6SM DZ OVC080 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-23T20:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 232000Z 04010KT 6SM DZ OVC080 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1987-07-23T21:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 232100Z 06010KT 5SM DZ SCT080 M/M A2988 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1987-07-23T22:00:00Z",
+      "station_id": "KMIC",
+      "metar": "METAR KMIC 232200Z 10009KT 7SM SCT080 M/M A2988 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

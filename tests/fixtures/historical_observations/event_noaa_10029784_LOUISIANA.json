@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10029784_LOUISIANA",
+  "event_date": "1969-12-29",
+  "event_datetime_utc": "1969-12-29T18:00:00Z",
+  "station": "KESF",
+  "county": "CATAHOULA",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1969-12-29T00:00:00Z",
+      "station_id": "KESF",
+      "metar": "METAR KESF 290000Z 13006KT 2SM FG BKN/// OVC/// 17/17 A//// RMK SLP104 T01720172",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1010.4,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1969-12-29T03:00:00Z",
+      "station_id": "KESF",
+      "metar": "METAR KESF 290300Z 14005KT 7SM OVC/// 19/17 A//// RMK SLP114 T01890172",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1011.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1969-12-29T06:00:00Z",
+      "station_id": "KESF",
+      "metar": "METAR KESF 290600Z 14005KT 7SM OVC/// 18/17 A//// RMK SLP097 T01830167",
+      "sky_condition": "OVC",
+      "temperature_f": 65.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1009.7,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1969-12-29T09:00:00Z",
+      "station_id": "KESF",
+      "metar": "METAR KESF 290900Z 17008KT 7SM OVC/// 19/16 A//// RMK SLP084 T01890161",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1008.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1969-12-29T12:00:00Z",
+      "station_id": "KESF",
+      "metar": "METAR KESF 291200Z 16006KT 7SM -DZ OVC/// 19/17 A//// RMK SLP081 T01890172",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1008.1,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1969-12-29T15:00:00Z",
+      "station_id": "KESF",
+      "metar": "METAR KESF 291500Z 17009KT 8SM -RA OVC/// 20/19 A//// RMK SLP081 T02000194",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1008.1,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1969-12-29T18:00:00Z",
+      "station_id": "KESF",
+      "metar": "METAR KESF 291800Z 19013KT 7SM -TSRA OVC/// 21/20 A//// RMK SLP057 T02110200",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1005.7,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1969-12-29T21:00:00Z",
+      "station_id": "KESF",
+      "metar": "METAR KESF 292100Z 35013KT 7SM -SHRA OVC/// 10/09 A//// RMK SLP053 T01000094",
+      "sky_condition": "OVC",
+      "temperature_f": 50.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1005.3,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,63 @@
+{
+  "event_id": "noaa_5323124_OHIO",
+  "event_date": "2002-11-10",
+  "event_datetime_utc": "2002-11-10T18:00:00Z",
+  "station": "KOSU",
+  "county": "LOGAN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2002-11-10T20:53:00Z",
+      "station_id": "KOSU",
+      "metar": "KOSU 102053Z 16010KT 10SM BKN042 OVC050 21/16 A2944 RMK AO2 LTG DSNT NW SLP964 T02060161 56022",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 996.4,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2002-11-10T21:53:00Z",
+      "station_id": "KOSU",
+      "metar": "KOSU 102153Z 16008KT 10SM SCT050 SCT080 BKN100 21/16 A2938 RMK AO2 LTG DSNT SW-N TSB14E22 PRESFR SLP944 T02110156",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 994.4,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2002-11-10T22:53:00Z",
+      "station_id": "KOSU",
+      "metar": "KOSU 102253Z 21012KT 10SM -RA FEW024 18/14 A2938 RMK AO2 PK WND 21033/2229 LTG DSNT ALQDS TSB2159E52RAB09 SLP946 P0000 T01780144",
+      "sky_condition": "FEW",
+      "temperature_f": 64.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 994.6,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2002-11-10T23:53:00Z",
+      "station_id": "KOSU",
+      "metar": "KOSU 102353Z 31008KT 10SM VCTS -RA BKN042 BKN060 OVC120 14/12 A2943 RMK AO2 PK WND 27032/2334 WSHFT 2328 LTG DSNT ALQDS TSB29RAE2255B36 SLP961 P0001 60001 T01440122 10217 20144 55003",
+      "sky_condition": "BKN",
+      "temperature_f": 58.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 996.1,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    }
+  ],
+  "estimated": false
+}

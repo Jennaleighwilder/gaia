@@ -1,0 +1,182 @@
+{
+  "event_id": "noaa_5724755_CONNECTICUT",
+  "event_date": "1999-09-16",
+  "event_datetime_utc": "1999-09-16T18:00:00Z",
+  "station": "KHVN",
+  "county": "NEW HAVEN",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1999-09-16T00:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 160045Z 05004KT 2SM -RA BR FEW025 BKN048 OVC120 20/ A3007",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1999-09-16T01:55:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 160155Z 05004KT 2SM RA- BR FEW025 BKN048 OVC120 20/ A3005 RMK LAST",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1999-09-16T09:50:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 160950Z 04008KT 2 1/2 RA- BR SCT011 BKN026 OVC085 18/ A2992",
+      "sky_condition": "   ",
+      "temperature_f": 64.4,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1999-09-16T10:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161045Z 05010KT 3SM -RA BR FEW008 SCT044 BKN080 OVC100 18/ A2989",
+      "sky_condition": "FEW",
+      "temperature_f": 64.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1999-09-16T11:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161145Z 05012KT 3SM -RA BR SCT009 BKN031 OVC050 18/ A2986",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1999-09-16T12:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161245Z 05008G15KT 010V100 1 3/4SM RA BR SCT008 BKN024 OVC028 18 A298 5",
+      "sky_condition": "   ",
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 9.20624,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 1.8
+    },
+    {
+      "timestamp": "1999-09-16T14:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161445Z 05015G20KT 1 3/4 RA BR OVC020 18 A2981",
+      "sky_condition": "   ",
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 1.8
+    },
+    {
+      "timestamp": "1999-09-16T15:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161545Z 06015G22KT 3SM RA BR OVC012 19/ A2971 PRESFR",
+      "sky_condition": "   ",
+      "temperature_f": 66.2,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1999-09-16T16:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161645Z 06015G25KT 2SM +RA BR SCT008 OVC012 20/ A2964 RMK PRSSFR",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1999-09-16T17:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161745Z 06015G25KT 1 1/2SM +RA BR OVC008 22/ A2958 PRESFR",
+      "sky_condition": "   ",
+      "temperature_f": 71.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1999-09-16T18:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161845Z 09015G30KT 2SM +RA BR OVC006 23/ A2952 PRESFR PK WND 09034/13",
+      "sky_condition": "   ",
+      "temperature_f": 73.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1999-09-16T19:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 161945Z 11015G30KT 2SM RA BR BKN006 OVC012 23/ A2947",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1999-09-16T20:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 162045Z 10015G29KT 3SM -RA BR BKN006 OVC012 24/ A2939 PRESFR",
+      "sky_condition": "   ",
+      "temperature_f": 75.2,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1999-09-16T21:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 162145Z 14015G25KT 3SM RA BR BKN007 OVC036 24/ A2930 RMK PRESFR",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1999-09-16T22:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 162245Z 15015G28KT 2 1/2SM -RA BR BKN018 OVC026 24/ A2922 RMK PRESFR",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1999-09-16T23:45:00Z",
+      "station_id": "KHVN",
+      "metar": "KHVN 162345Z 15012G25KT 3SM -RA BR BKN023 OVC028 23/ A2916 RMK PRESFR",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 3.0
+    }
+  ],
+  "estimated": false
+}

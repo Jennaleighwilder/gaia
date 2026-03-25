@@ -1,0 +1,36 @@
+{
+  "event_id": "noaa_5566311_MISSOURI",
+  "event_date": "1996-08-23",
+  "event_datetime_utc": "1996-08-23T18:00:00Z",
+  "station": "KCPS",
+  "county": "ST. LOUIS",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1996-08-23T21:45:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 232145Z AUTO 10010KT 3SM 31/25 A3011 RMK T03100250 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 87.8,
+      "dewpoint_f": 77.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-08-23T23:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 232300Z AUTO 31015G22KT 1SM 23/21 A3015 RMK T02300210 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 1.0
+    }
+  ],
+  "estimated": false
+}

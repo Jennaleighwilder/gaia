@@ -1,0 +1,244 @@
+{
+  "event_id": "noaa_5659894_OHIO",
+  "event_date": "1998-06-28",
+  "event_datetime_utc": "1998-06-28T18:00:00Z",
+  "station": "KPKB",
+  "county": "MEIGS",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1998-06-28T00:50:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280050Z 26006KT 5SM -TSRA BR SCT010 OVC100 19/18 A2996 RMK TSB20 TS S MOV S FRG LTGCCCG ALQDS",
+      "sky_condition": "SCT",
+      "temperature_f": 66.2,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-06-28T01:51:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280151Z 19005KT 7SM TS BKN100 19/19 A2992 RMK TS SE FRQ LTGCCCG N-S",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-28T02:52:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280252Z 16005KT 7SM BKN100 / A2992 RMK FRQ LTGCGCC DSNT N",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-28T03:52:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280352Z 13008KT 10SM TS BKN020 OVC050 / A2990 RMK CONT LTGCCCG NW-NE TS NW-NE MOV SE",
+      "sky_condition": "   ",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-28T04:53:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280453Z 13008KT 5SM -TSRA BR SCT008 BKN026 OVC040 M/M A2989 RMK CONT LTGCCCG E-S TS E-S MOV SE",
+      "sky_condition": "   ",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-06-28T05:55:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280555Z 18004KT 5SM TS BR SCT008 BKN016 OVC028 A2987 RMK CONS LTGCCCG N-E TS N-E MOV SE",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-06-28T06:25:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280625Z 28008KT 3/4SM +TSRA GS BR VV002 A2992 RMK CONS LTGCCCG OHD AL QDS TS OHD-ALQDS MOV SE",
+      "sky_condition": "VV ",
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1998-06-28T07:55:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280755Z 21004KT 5SM TS BR BKN013 OVC028 M/M A2991 RMK FREQ LGTCCCG E-S-SW TS E-S MOV SE",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-06-28T08:54:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280854Z 24004KT 5SM T BR BKN008 BKN030 OVC050 A2991 RMK FRQ LTGCCCG S E-SW-W T SE-SW-W MOV NE",
+      "sky_condition": "   ",
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-06-28T09:53:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 280953Z 23004KT 5SM TS BR SCT008 BKN040 OVC100 A2992 RMK FQT LTGIC S- SW TS SW MOV NE",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-06-28T10:50:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281050Z 23007KT 7SM TS SCT008 BKN040 OVC100 A2993 RMK OCNL LTGIC SW T S SW MOV NE",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-28T11:50:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281150Z 22010G15KT 7SM TS -RA SCT010 BKN040 BKN100 M/M A2995 RMK FRQT LTGICCG W-SW TS W MOV NE",
+      "sky_condition": "   ",
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-28T12:50:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281250Z COR 24008KT 10SM TS SCT008 BKN020 BKN100 A2998 RMK TS SW MOV E OCNL LTGCCCG",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-28T13:55:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281355Z 22010KT 10SM BKN015 BKN030 BKN100 M/M A2998 RMK T MOVD E",
+      "sky_condition": "   ",
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-28T14:54:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281454Z COR 21010G15KT 10SM FEW010 BKN020 BKN100 A2997",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-28T15:48:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281548Z COR 31005KT 10SM FEW015 BKN025 BKN100 A2998",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-28T16:50:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281650Z 22008KT 10SM FEW018 BKN025 A2994",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-28T17:52:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281752Z E25008KT 10SM SCT018 BKN025 A2995",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-28T18:52:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281852Z 24008KT 10SM SCT015 BKN025 A2995",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-06-28T19:53:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 281953Z 19005KT 7SM SCT025 SCT150 30/25 A2993",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 77.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-28T20:50:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 282050Z 17006KT 7SM SCT027 SCT035 30/25 A2993",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 77.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-28T21:55:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 282155Z 18006KT 7SM SCT035 31/26 A2992",
+      "sky_condition": "SCT",
+      "temperature_f": 87.8,
+      "dewpoint_f": 78.8,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-28T22:51:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 282251Z 20006KT 7SM SCT030 30/26 A2992",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 78.8,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-06-28T23:52:00Z",
+      "station_id": "KPKB",
+      "metar": "KPKB 282352Z 21006KT 7SM SCT035 SCT040 29/26 A2991",
+      "sky_condition": "SCT",
+      "temperature_f": 84.2,
+      "dewpoint_f": 78.8,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

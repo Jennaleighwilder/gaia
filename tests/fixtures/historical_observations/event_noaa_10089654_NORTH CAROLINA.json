@@ -1,0 +1,146 @@
+{
+  "event_id": "noaa_10089654_NORTH CAROLINA",
+  "event_date": "1992-11-23",
+  "event_datetime_utc": "1992-11-23T18:00:00Z",
+  "station": "KECG",
+  "county": "PASQUOTANK",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 12,
+  "observations": [
+    {
+      "timestamp": "1992-11-23T00:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 230000Z 18010KT 20SM SCT030 BKN150 OVC300 20/17 A2993 RMK SLPNO T02000172",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1992-11-23T02:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 230200Z 19013KT 20SM SCT080 BKN150 OVC300 20/18 A2989 RMK SLPNO T02050177",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1992-11-23T03:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 230300Z 21013KT 20SM SCT080 BKN150 OVC300 20/18 A2989 RMK LAST SLPNO T02050177",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1992-11-23T14:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 231400Z 20005KT 10SM BKN030 OVC100 20/M A2982 RMK EST MAX/MIN/PCPN 77/68/.77 SLP098 T0200////",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-11-23T15:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 231500Z 00000KT 10SM SCT030 SCT100 BKN300 21/M A//// RMK SLP102 T0211////",
+      "sky_condition": "   ",
+      "temperature_f": 70.0,
+      "dewpoint_f": 32.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-11-23T16:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 231600Z 19014KT 10SM SCT030 BKN300 24/20 A2981 RMK SLP129 T02440205",
+      "sky_condition": "SCT",
+      "temperature_f": 76.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1012.9,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-11-23T17:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 231700Z 20014KT 10SM SCT030 SCT300 26/19 A2978 RMK SLP085 T02610188",
+      "sky_condition": "SCT",
+      "temperature_f": 79.0,
+      "dewpoint_f": 65.84,
+      "pressure_mb": 1008.5,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-11-23T18:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 231800Z 25020KT 15SM SCT015 BKN300 25/15 A2975 RMK SLPNO T02550150",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1992-11-23T19:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 231900Z 26015KT 15SM BKN300 25/13 A2975 RMK SLPNO T02500127",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 54.86,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1992-11-23T21:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 232100Z 26014KT 15SM BKN300 23/11 A2978 RMK SLPNO T02270105",
+      "sky_condition": "BKN",
+      "temperature_f": 72.86,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1992-11-23T22:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 232200Z 24007KT 15SM SCT200 BKN300 20/11 A2981 RMK SLPNO T02050111",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1992-11-23T23:00:00Z",
+      "station_id": "KECG",
+      "metar": "METAR KECG 232300Z 25007KT 20SM BKN300 18/09 A2984 RMK SLPNO T01770088",
+      "sky_condition": "BKN",
+      "temperature_f": 63.86,
+      "dewpoint_f": 47.84,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 20.0
+    }
+  ],
+  "estimated": false
+}

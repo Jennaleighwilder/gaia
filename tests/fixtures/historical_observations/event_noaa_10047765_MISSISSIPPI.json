@@ -1,0 +1,189 @@
+{
+  "event_id": "noaa_10047765_MISSISSIPPI",
+  "event_date": "1978-04-17",
+  "event_datetime_utc": "1978-04-17T18:00:00Z",
+  "station": "KGLH",
+  "county": "WASHINGTON",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1978-04-17T00:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 170000Z 21009KT 10SM SCT200 25/14 A2990 RMK SLPNO T02500144",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1978-04-17T01:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 170100Z 21008KT 10SM SCT200 23/14 A2991 RMK SLPNO T02330144",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1978-04-17T02:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 170200Z 20008KT 10SM SCT200 22/14 A2990 RMK SLPNO T02220144",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1978-04-17T03:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 170300Z 19005KT 10SM SCT200 21/15 A2991 RMK SLPNO T02110150",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1978-04-17T04:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 170400Z 17003KT 10SM SCT200 21/15 A2991 RMK SLPNO T02110150",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1978-04-17T12:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 171200Z 19012KT 2SM FGDZ OVC/// OVC020 18/16 A2993 RMK SLPNO T01830156",
+      "sky_condition": "   ",
+      "temperature_f": 65.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 18.262878599999997,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1978-04-17T13:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 171300Z 18008KT 1SM FGDZ OVC003 18/16 A2994 RMK SLPNO T01830161",
+      "sky_condition": "   ",
+      "temperature_f": 65.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.1752524,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1978-04-17T14:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 171400Z 18009KT 1SM FGDZ OVC005 20/17 A2994 RMK SLPNO T02000172",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.7633288,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1978-04-17T16:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 171600Z 17007KT 3SM FGDZ OVC/// BKN012 OVC050 23/18 A2994 RMK SLPNO T02280183",
+      "sky_condition": "   ",
+      "temperature_f": 73.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.7137618,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1978-04-17T17:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 171700Z 18010KT 4SM DZ BKN018 OVC050 23/18 A2992 RMK SLPNO T02330178",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1978-04-17T18:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 171800Z 18012KT 7SM BKN045 26/18 A2987 RMK SLPNO T02610178",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1978-04-17T19:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 171900Z 17012KT 7SM BKN040 27/17 A2984 RMK SLPNO T02670167",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1978-04-17T20:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 172000Z 20015KT 7SM OVC040 27/16 A2985 RMK SLPNO T02670161",
+      "sky_condition": "OVC",
+      "temperature_f": 80.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1978-04-17T21:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 172100Z 20012KT 7SM OVC040 27/16 A2983 RMK SLPNO T02670161",
+      "sky_condition": "OVC",
+      "temperature_f": 80.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1978-04-17T22:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 172200Z 19011KT 7SM OVC040 24/16 A2982 RMK SLPNO T02440161",
+      "sky_condition": "OVC",
+      "temperature_f": 76.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1978-04-17T23:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 172300Z 18014KT 7SM BKN200 27/17 A2974 RMK SLPNO T02670167",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

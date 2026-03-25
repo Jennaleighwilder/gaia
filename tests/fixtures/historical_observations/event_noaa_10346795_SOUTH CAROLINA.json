@@ -1,0 +1,123 @@
+{
+  "event_id": "noaa_10346795_SOUTH CAROLINA",
+  "event_date": "1995-11-07",
+  "event_datetime_utc": "1995-11-07T18:00:00Z",
+  "station": "KFLO",
+  "county": "MARION",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1995-11-07T15:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 071500Z 19010KT 7SM SCT030 BKN045 17/14 A2990 RMK 58027; SLP124 T01720144",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1012.4,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-11-07T16:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 071600Z 19012G22KT 7SM SCT013 BKN043 20/16 A2985 RMK SLP107 T02000161",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1010.7,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-11-07T17:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 071700Z 19013G23KT 7SM SCT020 BKN050 BKN250 23/18 A2977 RMK PRESFR; SLP080 T02330177",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 63.86,
+      "pressure_mb": 1008.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-11-07T18:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 071800Z 19014KT 7SM SCT050 BKN060 23/18 A2975 RMK 10075 20053; SLP074 60051 T02330177 55060",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 63.86,
+      "pressure_mb": 1007.4,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-11-07T19:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 071900Z 20010KT 7SM -RA BKN035 OVC060 23/18 A2970 RMK RB45; SLP057 T02270177",
+      "sky_condition": "BKN",
+      "temperature_f": 72.86,
+      "dewpoint_f": 63.86,
+      "pressure_mb": 1005.7,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-11-07T20:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 072000Z 19012KT 7SM -RA BKN035 OVC050 21/19 A2967 RMK SLP046 T02110188",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.84,
+      "pressure_mb": 1004.6,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-11-07T21:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 072100Z 18012KT 6SM -RA FG BKN035 OVC060 20/19 A2961 RMK PRESFR; SLP026 T02050194 55080",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1002.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1995-11-07T22:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 072200Z 24012KT 6SM -RA FG SCT015 OVC090 18/17 A2963 RMK PK WND 2765 25; SLP034 T01830172",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1003.4,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1995-11-07T23:00:00Z",
+      "station_id": "KFLO",
+      "metar": "KFLO 072300Z 18010KT 6SM -RA FG OVC090 17/17 A2963 RMK SLP034 T01720166",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.88,
+      "pressure_mb": 1003.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

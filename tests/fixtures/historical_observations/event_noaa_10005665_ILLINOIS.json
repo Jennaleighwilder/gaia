@@ -1,0 +1,190 @@
+{
+  "event_id": "noaa_10005665_ILLINOIS",
+  "event_date": "1982-05-29",
+  "event_datetime_utc": "1982-05-29T18:00:00Z",
+  "station": "KMDH",
+  "county": "PERRY",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1982-05-29T00:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 290000Z AUTO 18007KT 15SM SCT246 29/22 A2978 RMK T02940217 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 85.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1982-05-29T01:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 290100Z AUTO 13004KT 15SM BKN246 28/26 A2978 RMK T02830256 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 83.0,
+      "dewpoint_f": 78.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1982-05-29T02:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 290200Z AUTO 13004KT 10SM BKN197 BKN246 27/21 A2978 RMK T02670211 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1982-05-29T03:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 290300Z AUTO 00000KT 10SM BKN246 26/21 A2981 RMK T02560211 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1982-05-29T12:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 291200Z AUTO 14008KT 7SM OVC020 19/18 A2977 RMK T01940178 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T13:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 291300Z AUTO 13007KT 7SM SCT030 OVC079 19/18 A2976 RMK T01940183 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T14:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 291400Z AUTO 16005KT 7SM SCT030 OVC098 21/20 A2975 RMK T02110200 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T15:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 291500Z AUTO 33007KT 7SM OVC030 22/19 A2977 RMK T02170194 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 71.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T16:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 291600Z AUTO 34006KT 7SM BKN024 OVC098 21/19 A2977 RMK T02110194 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T17:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 291700Z AUTO 13010KT 7SM SCT024 OVC098 23/19 A2976 RMK T02280194 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T18:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 291800Z AUTO 18010KT 7SM SCT024 BKN098 28/22 A2974 RMK T02780217 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T19:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 291900Z AUTO 21018KT 7SM SCT025 SCT098 30/22 A2971 RMK T03000222 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T20:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 292000Z AUTO 31030G35KT 1/2SM OBS005 BKN246 29/22 A2971 RMK T02890217 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 84.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 34.523399999999995,
+      "wind_gust_mph": 40.2773,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1982-05-29T21:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 292100Z AUTO 25005KT 7SM BKN010 OVC049 22/21 A2974 RMK T02220206 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T22:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 292200Z AUTO 00000KT 7SM SCT030 OVC069 22/21 A2972 RMK T02220211 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-05-29T23:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 292300Z AUTO 16006KT 7SM SCT015 BKN049 OVC098 23/22 A2973 RMK T02280217 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

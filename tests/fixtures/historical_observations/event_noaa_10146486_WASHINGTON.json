@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10146486_WASHINGTON",
+  "event_date": "1972-04-05",
+  "event_datetime_utc": "1972-04-05T18:00:00Z",
+  "station": "KGEG",
+  "county": "LINCOLN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1972-04-05T00:00:00Z",
+      "station_id": "KGEG",
+      "metar": "METAR KGEG 050000Z 06007KT 10SM -SHRA BKN/// OVC/// 10/04 A//// RMK SLP112 T01000044",
+      "sky_condition": "BKN",
+      "temperature_f": 50.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1011.2,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1972-04-05T03:00:00Z",
+      "station_id": "KGEG",
+      "metar": "METAR KGEG 050300Z 05006KT 15SM SCT/// BKN/// BKN/// 09/05 A//// RMK SLP102 T00890050",
+      "sky_condition": "SCT",
+      "temperature_f": 48.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1010.2,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1972-04-05T06:00:00Z",
+      "station_id": "KGEG",
+      "metar": "METAR KGEG 050600Z 06005KT 15SM FEW/// 06/03 A//// RMK SLP094 T00560028",
+      "sky_condition": "FEW",
+      "temperature_f": 42.0,
+      "dewpoint_f": 37.0,
+      "pressure_mb": 1009.4,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1972-04-05T09:00:00Z",
+      "station_id": "KGEG",
+      "metar": "METAR KGEG 050900Z 04010KT 15SM BKN/// OVC/// 06/03 A//// RMK SLP066 T00610028",
+      "sky_condition": "BKN",
+      "temperature_f": 43.0,
+      "dewpoint_f": 37.0,
+      "pressure_mb": 1006.6,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1972-04-05T12:00:00Z",
+      "station_id": "KGEG",
+      "metar": "METAR KGEG 051200Z 07005KT 20SM BKN/// OVC/// 06/03 A//// RMK SLP036 T00610028",
+      "sky_condition": "BKN",
+      "temperature_f": 43.0,
+      "dewpoint_f": 37.0,
+      "pressure_mb": 1003.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1972-04-05T15:00:00Z",
+      "station_id": "KGEG",
+      "metar": "METAR KGEG 051500Z 04004KT 15SM -SHRA BKN/// OVC/// 07/04 A//// RMK SLP033 T00670039",
+      "sky_condition": "BKN",
+      "temperature_f": 44.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1003.3,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1972-04-05T18:00:00Z",
+      "station_id": "KGEG",
+      "metar": "METAR KGEG 051800Z 13010KT 10SM -RA BKN/// OVC/// 11/08 A//// RMK SLP015 T01110078",
+      "sky_condition": "BKN",
+      "temperature_f": 52.0,
+      "dewpoint_f": 46.0,
+      "pressure_mb": 1001.5,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1972-04-05T21:00:00Z",
+      "station_id": "KGEG",
+      "metar": "METAR KGEG 052100Z 14016KT 15SM -RA BKN/// OVC/// 12/08 A//// RMK SLP006 T01170083",
+      "sky_condition": "BKN",
+      "temperature_f": 53.0,
+      "dewpoint_f": 47.0,
+      "pressure_mb": 1000.6,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

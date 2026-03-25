@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_10148780_WEST VIRGINIA",
+  "event_date": "1965-04-08",
+  "event_datetime_utc": "1965-04-08T18:00:00Z",
+  "station": "KHTS",
+  "county": "WAYNE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1965-04-08T00:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 080000Z 31006KT 15SM SCT/// FEW/// 21/03 A//// RMK SLP156 T02060033",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 38.0,
+      "pressure_mb": 1015.6,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-08T03:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 080300Z 22005KT 15SM CLR 16/04 A//// RMK SLP161 T01560044",
+      "sky_condition": "CLR",
+      "temperature_f": 60.0,
+      "dewpoint_f": 40.0,
+      "pressure_mb": 1016.1,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-08T06:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 080600Z 20006KT 15SM SCT/// 09/06 A//// RMK SLP149 T00940061",
+      "sky_condition": "SCT",
+      "temperature_f": 49.0,
+      "dewpoint_f": 43.0,
+      "pressure_mb": 1014.9,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-08T09:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 080900Z 14003KT 15SM SCT/// 08/06 A//// RMK SLP140 T00830056",
+      "sky_condition": "SCT",
+      "temperature_f": 47.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1014.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-08T12:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 081200Z 19006KT 15SM BKN/// OVC/// 11/05 A//// RMK SLP149 T01060050",
+      "sky_condition": "BKN",
+      "temperature_f": 51.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1014.9,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-08T15:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 081500Z 16007KT 15SM SCT/// OVC/// 16/06 A//// RMK SLP137 T01610056",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 42.0,
+      "pressure_mb": 1013.7,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-08T18:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 081800Z 16006KT 10SM SCT/// BKN/// OVC/// 22/08 A//// RMK SLP102 T02220083",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 47.0,
+      "pressure_mb": 1010.2,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-04-08T21:00:00Z",
+      "station_id": "KHTS",
+      "metar": "KHTS 082100Z 20011KT 10SM -TSRA SCT/// BKN/// 18/14 A//// RMK SLP084 P0001 T01780139",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1008.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    }
+  ],
+  "estimated": false
+}

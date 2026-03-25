@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_9978431_ALABAMA",
+  "event_date": "1968-11-03",
+  "event_datetime_utc": "1968-11-03T18:00:00Z",
+  "station": "KMOB",
+  "county": "MOBILE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-11-03T00:00:00Z",
+      "station_id": "KMOB",
+      "metar": "KMOB 030000Z 15006KT 10SM SCT/// 21/16 A//// RMK SLP186 T02110161",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1018.6,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T03:00:00Z",
+      "station_id": "KMOB",
+      "metar": "KMOB 030300Z 13006KT 10SM SCT/// 18/17 A//// RMK SLP183 T01830172",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1018.3,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T06:00:00Z",
+      "station_id": "KMOB",
+      "metar": "KMOB 030600Z 00000KT 4SM FU CLR 17/16 A//// RMK SLP173 T01720161",
+      "sky_condition": "CLR",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1017.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1968-11-03T09:00:00Z",
+      "station_id": "KMOB",
+      "metar": "KMOB 030900Z 03004KT 7SM SCT/// 17/16 A//// RMK SLP166 T01670156",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1016.6,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-11-03T12:00:00Z",
+      "station_id": "KMOB",
+      "metar": "KMOB 031200Z 00000KT 3SM FU SCT/// SCT/// 17/16 A//// RMK SLP169 T01720161",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1016.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1968-11-03T15:00:00Z",
+      "station_id": "KMOB",
+      "metar": "KMOB 031500Z 13009KT 6SM FU BKN/// 23/19 A//// RMK SLP152 T02280189",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1015.2,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1968-11-03T18:00:00Z",
+      "station_id": "KMOB",
+      "metar": "KMOB 031800Z 18010KT 10SM BKN/// BKN/// 26/16 A//// RMK SLP149 T02610156",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1014.9,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-11-03T21:00:00Z",
+      "station_id": "KMOB",
+      "metar": "KMOB 032100Z 18012KT 10SM BKN/// BKN/// OVC/// 26/16 A//// RMK SLP119 T02560161",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1011.9,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

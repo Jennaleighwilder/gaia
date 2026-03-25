@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10132612_TEXAS",
+  "event_date": "1968-11-05",
+  "event_datetime_utc": "1968-11-05T18:00:00Z",
+  "station": "KVCT",
+  "county": "VICTORIA",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-11-05T00:00:00Z",
+      "station_id": "KVCT",
+      "metar": "METAR KVCT 050000Z 18005KT 15SM CLR 19/07 A//// RMK SLP126 T01940072",
+      "sky_condition": "CLR",
+      "temperature_f": 67.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1012.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-11-05T03:00:00Z",
+      "station_id": "KVCT",
+      "metar": "METAR KVCT 050300Z 20007KT 15SM CLR 14/09 A//// RMK SLP138 T01390094",
+      "sky_condition": "CLR",
+      "temperature_f": 57.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1013.8,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-11-05T06:00:00Z",
+      "station_id": "KVCT",
+      "metar": "METAR KVCT 050600Z 05003KT 15SM CLR 12/09 A//// RMK SLP125 T01170094",
+      "sky_condition": "CLR",
+      "temperature_f": 53.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1012.5,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-11-05T09:00:00Z",
+      "station_id": "KVCT",
+      "metar": "METAR KVCT 050900Z 03004KT 15SM BKN/// 12/09 A//// RMK SLP108 T01170094",
+      "sky_condition": "BKN",
+      "temperature_f": 53.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1010.8,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-11-05T12:00:00Z",
+      "station_id": "KVCT",
+      "metar": "METAR KVCT 051200Z 11005KT 15SM SCT/// FEW/// 12/10 A//// RMK SLP096 T01170100",
+      "sky_condition": "SCT",
+      "temperature_f": 53.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 1009.6,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-11-05T15:00:00Z",
+      "station_id": "KVCT",
+      "metar": "METAR KVCT 051500Z 09005KT 6SM DZ SCT/// OVC/// 18/16 A//// RMK SLP108 T01830156",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1010.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1968-11-05T18:00:00Z",
+      "station_id": "KVCT",
+      "metar": "METAR KVCT 051800Z 18012KT 15SM BKN/// OVC/// 27/20 A//// RMK SLP091 T02670200",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1009.1,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-11-05T21:00:00Z",
+      "station_id": "KVCT",
+      "metar": "METAR KVCT 052100Z 17015KT 15SM OVC/// 27/21 A//// RMK SLP067 T02720206",
+      "sky_condition": "OVC",
+      "temperature_f": 81.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1006.7,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

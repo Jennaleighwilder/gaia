@@ -1,0 +1,91 @@
+{
+  "event_id": "noaa_20465_ALABAMA",
+  "event_date": "2007-03-01",
+  "event_datetime_utc": "2007-03-01T18:00:00Z",
+  "station": "KPRN",
+  "county": "WILCOX",
+  "event_type": "Tornado",
+  "magnitude": "EF4",
+  "observation_count": 6,
+  "observations": [
+    {
+      "timestamp": "2007-03-01T11:56:00Z",
+      "station_id": "KPRN",
+      "metar": "KPRN 011156Z AUTO 00000KT 10SM OVC019 18/14 A2976 RMK AO2 SLP916 T01780139 10183 20172 55006 $",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 991.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2007-03-01T15:56:00Z",
+      "station_id": "KPRN",
+      "metar": "KPRN 011556Z AUTO 15008KT 9SM TS OVC005 19/18 A2973 RMK AO2 TSB56 SLP903 T01890183 $",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 990.3,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "2007-03-01T16:56:00Z",
+      "station_id": "KPRN",
+      "metar": "KPRN 011656Z AUTO 16007KT 4SM TS BR OVC003 19/19 A2970 RMK AO2 TSE36B50RAB06E29 SLP893 P0009 T01890189 $",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 989.3,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.09
+    },
+    {
+      "timestamp": "2007-03-01T17:56:00Z",
+      "station_id": "KPRN",
+      "metar": "KPRN 011756Z AUTO 15008G14KT 10SM -RA SCT003 BKN010 OVC028 20/20 A2967 RMK AO2 TSE23RAB1659 SLP884 P0043 60052 T02000200 10200 20178 58025 $",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 988.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "wind_gust_mph": 16.11092,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.43
+    },
+    {
+      "timestamp": "2007-03-01T18:56:00Z",
+      "station_id": "KPRN",
+      "metar": "KPRN 011856Z AUTO 00000KT 7SM -RA BKN006 BKN012 OVC020 21/21 A2961 RMK AO2 TSB03E35RAE1757B16 SLP866 P0024 T02060206 $",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 986.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.24
+    },
+    {
+      "timestamp": "2007-03-01T20:56:00Z",
+      "station_id": "KPRN",
+      "metar": "KPRN 012056Z AUTO 20018G24KT 9SM TS BKN016 22/22 A2954 RMK AO2 RAE22B39E48 SLP839 P0002 60113 T02220217 56044 $",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 983.9,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 9.0,
+      "precip_1h_in": 0.02
+    }
+  ],
+  "estimated": false
+}

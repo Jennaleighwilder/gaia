@@ -1,0 +1,35 @@
+{
+  "event_id": "noaa_10033240_KENTUCKY",
+  "event_date": "1978-05-12",
+  "event_datetime_utc": "1978-05-12T18:00:00Z",
+  "station": "KCKV",
+  "county": "TRIGG",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1978-05-12T00:00:00Z",
+      "station_id": "KCKV",
+      "metar": "KCKV 120000Z 18010KT 10SM BKN060 OVC120 24/14 A3000 RMK SLPNO T02390144",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1978-05-12T01:00:00Z",
+      "station_id": "KCKV",
+      "metar": "KCKV 120100Z 18006KT 10SM SCT060 BKN100 OVC250 23/14 A2998 RMK SLPNO T02280139",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

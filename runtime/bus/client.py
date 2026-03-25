@@ -29,12 +29,15 @@ def _get_conn() -> sqlite3.Connection:
 def init_bus() -> sqlite3.Connection:
     """Create bus directory and SQLite DB. Read-only connection for replay."""
     global _CONN
-    db_path = os.path.abspath(os.path.expanduser(DB_PATH))
-    db_dir = os.path.dirname(db_path)
-    if db_dir:
-        os.makedirs(db_dir, exist_ok=True)
-    os.makedirs(os.path.abspath(os.path.expanduser(BUS_DIR)), exist_ok=True)
-    conn = sqlite3.connect(db_path, check_same_thread=False, timeout=30)
+    if os.environ.get("GAIA_BUS_MEMORY") == "1":
+        conn = sqlite3.connect(":memory:", check_same_thread=False)
+    else:
+        db_path = os.path.abspath(os.path.expanduser(DB_PATH))
+        db_dir = os.path.dirname(db_path)
+        if db_dir:
+            os.makedirs(db_dir, exist_ok=True)
+        os.makedirs(os.path.abspath(os.path.expanduser(BUS_DIR)), exist_ok=True)
+        conn = sqlite3.connect(db_path, check_same_thread=False, timeout=30)
     conn.execute("PRAGMA busy_timeout = 30000")
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA synchronous=NORMAL")

@@ -1,0 +1,243 @@
+{
+  "event_id": "noaa_5616279_NORTH DAKOTA",
+  "event_date": "1997-04-04",
+  "event_datetime_utc": "1997-04-04T18:00:00Z",
+  "station": "KN60",
+  "county": "SHERIDAN",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "1997-04-04T00:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040048Z AUTO 32006KT 12/M03 A2950 RMK AO1 PK WND 15 000 T01171033",
+      "sky_condition": "   ",
+      "temperature_f": 53.0,
+      "dewpoint_f": 26.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1997-04-04T01:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040148Z AUTO 30007KT 09/M04 A2952 RMK AO1 PK WND 10 000 T00891044",
+      "sky_condition": "   ",
+      "temperature_f": 48.0,
+      "dewpoint_f": 24.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1997-04-04T02:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040248Z AUTO 33007KT 04/M03 A2954 RMK AO1 PK WND 09 000 T00441033",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 26.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1997-04-04T03:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040348Z AUTO 36002KT 03/M03 A2955 RMK AO1 PK WND 08 000 T00331033",
+      "sky_condition": "   ",
+      "temperature_f": 38.0,
+      "dewpoint_f": 26.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-04-04T04:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040448Z AUTO 36004KT 02/M04 A2955 RMK AO1 PK WND 05 000 T00221038",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 25.16,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-04-04T05:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040548Z AUTO 03007KT 02/M04 A2953 RMK AO1 PK WND 08 000 T00171038",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 25.16,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1997-04-04T06:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040648Z AUTO 27002KT 00/M05 A2956 RMK AO1 PK WND 05 000 T00001049",
+      "sky_condition": "   ",
+      "temperature_f": 32.0,
+      "dewpoint_f": 23.18,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-04-04T07:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040748Z AUTO 36006KT 02/M03 A2956 RMK AO1 PK WND 10 000 T00171033",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 26.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1997-04-04T08:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040848Z AUTO 01009KT 03/M01 A2958 RMK AO1 PK WND 19 000 T00331011",
+      "sky_condition": "   ",
+      "temperature_f": 38.0,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1997-04-04T09:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 040948Z AUTO 01010KT 02/M02 A2957 RMK AO1 PK WND 16 000 T00221016",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 29.12,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1997-04-04T10:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041048Z AUTO 01012KT 02/M02 A2957 RMK AO1 PK WND 19 000 T00221016",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 29.12,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1997-04-04T11:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041148Z AUTO 01013KT 02/M02 A2960 RMK AO1 PK WND 20 000 T00221022",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 28.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 14.960139999999999
+    },
+    {
+      "timestamp": "1997-04-04T12:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041248Z AUTO 02010KT 01/M02 A2961 RMK AO1 PK WND 18 000 T00111022",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 28.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1997-04-04T13:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041348Z AUTO 01011KT 02/M02 A2962 RMK AO1 PK WND 21 000 T00171016",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 29.12,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "1997-04-04T14:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041448Z AUTO 02013KT 02/M01 A2964 RMK AO1 PK WND 22 000 T00221011",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 14.960139999999999
+    },
+    {
+      "timestamp": "1997-04-04T15:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041548Z AUTO 03016KT 03/M02 A2962 RMK AO1 PK WND 27 000 T00281016",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 29.12,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 18.41248
+    },
+    {
+      "timestamp": "1997-04-04T16:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041648Z AUTO 03017KT 03/M02 A2962 RMK AO1 PK WND 27 000 T00331022",
+      "sky_condition": "   ",
+      "temperature_f": 38.0,
+      "dewpoint_f": 28.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 19.56326
+    },
+    {
+      "timestamp": "1997-04-04T18:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041848Z AUTO 01015KT 05/M01 A2959 RMK AO1 PK WND 29 000 T00501011",
+      "sky_condition": "   ",
+      "temperature_f": 41.0,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1997-04-04T19:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 041948Z AUTO 02018KT 07/M01 A2962 RMK AO1 PK WND 26 000 T00671011",
+      "sky_condition": "   ",
+      "temperature_f": 44.0,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 20.714039999999997
+    },
+    {
+      "timestamp": "1997-04-04T20:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 042048Z AUTO 03015KT 05/M02 A2963 RMK AO1 PK WND 29 000 T00501016",
+      "sky_condition": "   ",
+      "temperature_f": 41.0,
+      "dewpoint_f": 29.12,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1997-04-04T21:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 042148Z AUTO 02014KT 04/M02 A2963 RMK AO1 PK WND 27 000 T00391016",
+      "sky_condition": "   ",
+      "temperature_f": 39.0,
+      "dewpoint_f": 29.12,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1997-04-04T22:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 042248Z AUTO 01014KT 02/M01 A2964 RMK AO1 PK WND 24 005 T00221011",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1997-04-04T23:48:00Z",
+      "station_id": "KN60",
+      "metar": "METAR KN60 042348Z AUTO 02017KT 02/M02 A2963 RMK AO1 PK WND 25 010 T00171016",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 29.12,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 19.56326
+    }
+  ],
+  "estimated": false
+}

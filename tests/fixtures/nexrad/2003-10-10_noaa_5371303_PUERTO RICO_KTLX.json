@@ -1,0 +1,18 @@
+{
+  "event_id": "noaa_5371303_PUERTO RICO",
+  "date": "2003-10-10",
+  "event_datetime_utc": "2003-10-10T18:00:00Z",
+  "magnitude": "",
+  "county": "eastern interior",
+  "state": "PUERTO RICO",
+  "station": "KTLX",
+  "composite_reflectivity": 55,
+  "velocity_max": 22.5,
+  "velocity_min": -22.5,
+  "rotation_couplet_kt": 45.0,
+  "rotation_score": 0.72,
+  "vil": 40,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

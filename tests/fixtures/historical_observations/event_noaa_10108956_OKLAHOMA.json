@@ -1,0 +1,41 @@
+{
+  "event_id": "noaa_10108956_OKLAHOMA",
+  "event_date": "1981-04-19",
+  "event_datetime_utc": "1981-04-19T18:00:00Z",
+  "station": "KRVS",
+  "county": "TULSA",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 3,
+  "observations": [
+    {
+      "timestamp": "1981-04-19T15:00:00Z",
+      "station_id": "KRVS",
+      "metar": "KRVS 191500Z 20012KT 10SM SCT008 BKN025 BKN250 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1981-04-19T17:00:00Z",
+      "station_id": "KRVS",
+      "metar": "KRVS 191700Z 20010G15KT 10SM OVC018 M/M A2990 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1981-04-19T18:00:00Z",
+      "station_id": "KRVS",
+      "metar": "KRVS 191800Z 23012KT 10SM OVC024 M/M A2988 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,140 @@
+{
+  "event_id": "noaa_10355288_TEXAS",
+  "event_date": "1995-06-08",
+  "event_datetime_utc": "1995-06-08T18:00:00Z",
+  "station": "KCSM",
+  "county": "WHEELER",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1995-06-08T00:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 080000Z 15010KT 15SM SCT050 M/M A2967 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1995-06-08T01:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 080100Z 12010KT 10SM SCT045 M/M A2968 RMK TCU NW; SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1995-06-08T02:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 080200Z 14008KT 10SM SCT150 M/M A2970 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1995-06-08T13:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 081300Z 16006KT 21/2SM FG OVC005 M/M A2977 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1995-06-08T14:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 081400Z 17010KT 4SM FG OVC007 M/M A2978 RMK CIG 5V10; SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1995-06-08T15:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 081500Z 17010KT 5SM FG OVC009 M/M A2980 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1995-06-08T16:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 081600Z 15006KT 7SM BKN012 M/M A2981 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-06-08T17:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 081700Z 17012KT 7SM SCT020 BKN050 BKN100 M/M A2980 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-06-08T18:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 081800Z 20012G19KT 7SM SCT028 BKN035 M/M A2980 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 21.864819999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-06-08T19:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 081900Z 17014KT 7SM BKN035 M/M A2979 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1995-06-08T20:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 082000Z 14010KT 10SM SCT038 BKN045 M/M A2978 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1995-06-08T21:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 082100Z 15010KT 10SM SCT037 BKN046 M/M A2978 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1995-06-08T22:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 082200Z 15008KT 10SM SCT040 M/M A2973 RMK TCU N; SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1995-06-08T23:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 082300Z 13014KT 10SM BKN040 M/M A2975 RMK BD ALQDS; SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

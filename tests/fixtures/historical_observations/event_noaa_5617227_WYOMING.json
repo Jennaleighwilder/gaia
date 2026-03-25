@@ -1,0 +1,189 @@
+{
+  "event_id": "noaa_5617227_WYOMING",
+  "event_date": "1997-10-24",
+  "event_datetime_utc": "1997-10-24T18:00:00Z",
+  "station": "KRWL",
+  "county": "NORTH CARBON",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1997-10-24T00:50:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 240050Z 23006KT 5SM -SN OVC008 02/01 A2971 RMK SLP044 T00170006",
+      "sky_condition": "OVC",
+      "temperature_f": 35.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1004.4,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-10-24T01:50:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 240150Z 23010KT 5SM -SN BKN008 OVC010 02/01 A2971 RMK SLP044 T00170006",
+      "sky_condition": "BKN",
+      "temperature_f": 35.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1004.4,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-10-24T02:51:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 240251Z 230E12KT 15SM BKN020 02/M00 A2970 RMK SLP035 SNE40 T00170000 58002",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-10-24T03:50:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 240350Z 23010KT 15SM SCT020 01/00 A2969 RMK SLP027 LAST MAX TEMP 12.5 T00110000",
+      "sky_condition": "SCT",
+      "temperature_f": 34.0,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 1002.7,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-10-24T11:54:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 241154Z COR 040E06KT 5SM -SN OVC010 00/M02 A2962 RMK SLP024 FIRST T00001022 60001 70006 10017 20011 57007",
+      "sky_condition": "   ",
+      "temperature_f": 32.0,
+      "dewpoint_f": 28.0,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-10-24T12:50:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 241250Z 04015KT 5SM -SN OVC010 00/M02 A2961 RMK SLP023 T10021022",
+      "sky_condition": "OVC",
+      "temperature_f": 31.64,
+      "dewpoint_f": 28.0,
+      "pressure_mb": 1002.3,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-10-24T14:58:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 241458Z 04015KT 7/8SM -SN VV005 M01/M01 A2965 RMK SLP045 T10061012 60007 52010",
+      "sky_condition": "VV ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 29.84,
+      "pressure_mb": 1004.5,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 0.88
+    },
+    {
+      "timestamp": "1997-10-24T15:55:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 241555Z 05015KT 5/16SM SN VV004 M02/M03 A2971 RMK SLP062 T10171026",
+      "sky_condition": "VV ",
+      "temperature_f": 29.0,
+      "dewpoint_f": 27.32,
+      "pressure_mb": 1006.2,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 0.31
+    },
+    {
+      "timestamp": "1997-10-24T16:50:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 241650Z 040E15KT 5/16SM SN VVOO4 M02/M03 A2973 RMK SLPNO T10171025",
+      "sky_condition": "   ",
+      "temperature_f": 28.9,
+      "dewpoint_f": 27.5,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 0.3
+    },
+    {
+      "timestamp": "1997-10-24T17:59:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 241759Z 040E30KT 1/4SM +SN BLSN VV003 M03/M04 A2977 RMK SLPNO 60003 4/003 T10311037 10000 21031 52027",
+      "sky_condition": "   ",
+      "temperature_f": 26.4,
+      "dewpoint_f": 25.3,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 0.2
+    },
+    {
+      "timestamp": "1997-10-24T18:51:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 241851Z 010E25KT 1/4 +SN BLSN VV003 M03M04 A2979 RMK SLPNO T10311037",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0
+    },
+    {
+      "timestamp": "1997-10-24T19:53:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 241953Z 02025KT 5/16SM SN BLSN VV003 M03/M05 A2981 RMK SLPNO T10311047",
+      "sky_condition": "VV ",
+      "temperature_f": 26.42,
+      "dewpoint_f": 23.54,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 0.31
+    },
+    {
+      "timestamp": "1997-10-24T20:54:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 242054Z 01025KT 5/8SM SN BLSN VV004 M03/M05 A2983 RMK SLPNO 60003 T10331051 51010",
+      "sky_condition": "VV ",
+      "temperature_f": 26.0,
+      "dewpoint_f": 22.82,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 0.62
+    },
+    {
+      "timestamp": "1997-10-24T21:54:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 242154Z 36025KT 1 -SN BS VV007 M03/M05 A2985 RMK SLPNO T10331055",
+      "sky_condition": "   ",
+      "temperature_f": 26.1,
+      "dewpoint_f": 22.1,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 28.815531199999995,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1997-10-24T22:50:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 242250Z 34021G30KT 40SM FEW025 BKN075 OVC150 00/M03 A3010 RMK PKWND 33034/17 SLPNO T00021034",
+      "sky_condition": "FEW",
+      "temperature_f": 32.36,
+      "dewpoint_f": 25.88,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 24.166379999999997,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-10-24T23:57:00Z",
+      "station_id": "KRWL",
+      "metar": "KRWL 242357Z 35025KT 1SM -SN BLSN VV005 M05/M07 A2991 RMK SLP151 60002 4/004 T10531067 11031 21053 52022",
+      "sky_condition": "VV ",
+      "temperature_f": 22.46,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1015.1,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 1.0
+    }
+  ],
+  "estimated": false
+}

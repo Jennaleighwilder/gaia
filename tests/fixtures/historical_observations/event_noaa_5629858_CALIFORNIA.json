@@ -1,0 +1,249 @@
+{
+  "event_id": "noaa_5629858_CALIFORNIA",
+  "event_date": "1998-02-07",
+  "event_datetime_utc": "1998-02-07T18:00:00Z",
+  "station": "KBUR",
+  "county": "LOS ANGELES",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 22,
+  "observations": [
+    {
+      "timestamp": "1998-02-07T00:46:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070046Z 13010KT 20SM SCT015 BKN060 BKN100 14/10 A2985",
+      "sky_condition": "SCT",
+      "temperature_f": 57.2,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1998-02-07T01:49:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070149Z 13006KT 10SM SHRA BKN027 BKN055 13/10 A2987",
+      "sky_condition": "BKN",
+      "temperature_f": 55.4,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-02-07T02:51:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070251Z 13006KT 10SM BKN024 BKN033 12/10 A2990",
+      "sky_condition": "BKN",
+      "temperature_f": 53.6,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-02-07T03:53:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070353Z 17009KT 15SM SHRA SCT024 BKN035 11/08 A2993 RMK OCNL LTGCC W",
+      "sky_condition": "SCT",
+      "temperature_f": 51.8,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T04:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070447Z 07006KT 7SM SHRA SCT035 OVC050 11/08 A2995",
+      "sky_condition": "SCT",
+      "temperature_f": 51.8,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-02-07T05:46:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070546Z 01007KT 15SM SCT040 BKN045 10/09 A2998",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 48.2,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T06:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070647Z 32005KT 10SM SHRA SCT040 BKN045 10/09 A3000",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 48.2,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-02-07T07:46:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070746Z VRB04KT 10SM SCT045 09/08 A3001",
+      "sky_condition": "SCT",
+      "temperature_f": 48.2,
+      "dewpoint_f": 46.4,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-02-07T08:46:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070846Z VRB04KT 15SM SCT045 08/07 A3001",
+      "sky_condition": "SCT",
+      "temperature_f": 46.4,
+      "dewpoint_f": 44.6,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T09:46:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 070946Z VRB04KT 15SM SCT045 07/07 A3002",
+      "sky_condition": "SCT",
+      "temperature_f": 44.6,
+      "dewpoint_f": 44.6,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T10:46:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071046Z VRB04KT 15SM SCT045 SCT150 07/07 A3004",
+      "sky_condition": "SCT",
+      "temperature_f": 44.6,
+      "dewpoint_f": 44.6,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T12:46:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071246Z 00000KT 15SM SCT040 BKN150 08/07 A3005",
+      "sky_condition": "SCT",
+      "temperature_f": 46.4,
+      "dewpoint_f": 44.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T13:50:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071350Z 00000KT 15SM SCT040 BKN150 08/07 A3006",
+      "sky_condition": "SCT",
+      "temperature_f": 46.4,
+      "dewpoint_f": 44.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T14:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071447Z VRB04KT 15SM BKN037 OVC150 08/07 A3006",
+      "sky_condition": "BKN",
+      "temperature_f": 46.4,
+      "dewpoint_f": 44.6,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T15:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071547Z 00000KT 20SM SCT032 BKN050 08/08 A3007",
+      "sky_condition": "SCT",
+      "temperature_f": 46.4,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1998-02-07T16:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071647Z 00000KT 15SM SCT027 OVC042 10/09 A3008",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 48.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T17:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071747Z 13007KT 15SM OVC030 12/09 A3011",
+      "sky_condition": "OVC",
+      "temperature_f": 53.6,
+      "dewpoint_f": 48.2,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T18:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071847Z 13012KT 15SM SCT030 BKN150 14/08 A3011",
+      "sky_condition": "SCT",
+      "temperature_f": 57.2,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T19:50:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 071950Z 18008KT 15KT SCT032 BKN150 14/09 A3009",
+      "sky_condition": "   ",
+      "temperature_f": 57.2,
+      "dewpoint_f": 48.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1998-02-07T20:50:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 072050Z 12012KT 15SM SCT024 BKN050 OVC150 14/08 A3007",
+      "sky_condition": "SCT",
+      "temperature_f": 57.2,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T21:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 072147Z 11010KT 15SM SCT025 BKN050 OVC150 14/10 A3005",
+      "sky_condition": "SCT",
+      "temperature_f": 57.2,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-07T22:47:00Z",
+      "station_id": "KBUR",
+      "metar": "KBUR 072247Z 15015KT 10SM SCT010 OVC028 15/08 A3004",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 46.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

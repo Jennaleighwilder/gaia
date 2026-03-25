@@ -1,0 +1,253 @@
+{
+  "event_id": "noaa_5538889_WISCONSIN",
+  "event_date": "1996-01-26",
+  "event_datetime_utc": "1996-01-26T18:00:00Z",
+  "station": "KSTP",
+  "county": "PIERCE",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "1996-01-26T00:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260000Z 36005KT 10SM SCT250 M17/M19 A3015 RMK SLPNO T11671189",
+      "sky_condition": "SCT",
+      "temperature_f": 2.0,
+      "dewpoint_f": -2.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T01:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260100Z 35008KT 15SM CLR M17/M20 A3018 RMK SLPNO T11731195",
+      "sky_condition": "CLR",
+      "temperature_f": 0.86,
+      "dewpoint_f": -3.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-26T02:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260200Z 34007KT 15SM CLR M18/M21 A3020 RMK SLPNO T11781212",
+      "sky_condition": "CLR",
+      "temperature_f": 0.0,
+      "dewpoint_f": -6.16,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-26T03:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260300Z 32007KT 15SM CLR M18/M22 A3020 RMK SLPNO T11841223",
+      "sky_condition": "CLR",
+      "temperature_f": -1.12,
+      "dewpoint_f": -8.14,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-26T04:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260400Z 34008KT 15SM CLR M20/M24 A3019 RMK SLPNO T11951239",
+      "sky_condition": "CLR",
+      "temperature_f": -3.0,
+      "dewpoint_f": -11.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-01-26T05:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260500Z /////KT 10SM CLR M20/M23 A//// RMK CLR BLO 30M/017; SLPNO T11951234 51020",
+      "sky_condition": "CLR",
+      "temperature_f": -3.0,
+      "dewpoint_f": -10.12,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T06:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260600Z /////KT 10SM SCT090 M20/M24 A//// RMK 32M/019; SLPNO T12001239",
+      "sky_condition": "SCT",
+      "temperature_f": -4.0,
+      "dewpoint_f": -11.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T07:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260700Z /////KT 10SM CLR M24/M29 A//// RMK CLR BLO 32M/020; SLPNO T12391289 51020",
+      "sky_condition": "CLR",
+      "temperature_f": -11.0,
+      "dewpoint_f": -20.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T09:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 260900Z /////KT 10SM CLR M22/M23 A//// RMK 31M/020; SLPNO T12231228",
+      "sky_condition": "CLR",
+      "temperature_f": -8.14,
+      "dewpoint_f": -9.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T10:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261000Z /////KT 10SM CLR M22/M25 A//// RMK 00M/017; SLPNO T12231250",
+      "sky_condition": "CLR",
+      "temperature_f": -8.14,
+      "dewpoint_f": -13.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T11:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261100Z /////KT 10SM CLR M22/M25 A//// RMK 31M/017; SLPNO T12231245",
+      "sky_condition": "CLR",
+      "temperature_f": -8.14,
+      "dewpoint_f": -12.1,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T12:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261200Z /////KT 10SM CLR M22/M26 A//// RMK CLR BLO 34M/020; SLPNO T12231256 51020",
+      "sky_condition": "CLR",
+      "temperature_f": -8.14,
+      "dewpoint_f": -14.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T13:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261300Z 34010KT 10SM BKN250 M23/M26 A3023 RMK SLPNO T12281262",
+      "sky_condition": "BKN",
+      "temperature_f": -9.0,
+      "dewpoint_f": -15.16,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T14:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261400Z 28006KT 10SM OVC250 M21/M25 A3021 RMK SLPNO T12121245",
+      "sky_condition": "OVC",
+      "temperature_f": -6.16,
+      "dewpoint_f": -12.1,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T15:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261500Z 30006KT 10SM OVC200 M20/M23 A3020 RMK SLPNO T12001228",
+      "sky_condition": "OVC",
+      "temperature_f": -4.0,
+      "dewpoint_f": -9.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T16:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261600Z 32006KT 10SM OVC200 M18/M20 A3020 RMK SLPNO T11781195",
+      "sky_condition": "OVC",
+      "temperature_f": 0.0,
+      "dewpoint_f": -3.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T17:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261700Z 35010KT 10SM OVC200 M16/M20 A3017 RMK SLPNO T11621195",
+      "sky_condition": "OVC",
+      "temperature_f": 2.84,
+      "dewpoint_f": -3.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T18:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261800Z 34006KT 10SM OVC150 M16/M18 A3012 RMK PRESFR; SLPNO T11561184",
+      "sky_condition": "OVC",
+      "temperature_f": 4.0,
+      "dewpoint_f": -1.12,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T19:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 261900Z 01008KT 10SM OVC150 M15/M18 A3006 RMK SLPNO T11501184",
+      "sky_condition": "OVC",
+      "temperature_f": 5.0,
+      "dewpoint_f": -1.12,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T20:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 262000Z 35008KT 10SM SCT090 OVC120 M14/M17 A3000 RMK SLPNO T11391167",
+      "sky_condition": "SCT",
+      "temperature_f": 7.0,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T21:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 262100Z 35010KT 10SM SCT070 OVC120 M14/M17 A2999 RMK SLPNO T11391167",
+      "sky_condition": "SCT",
+      "temperature_f": 7.0,
+      "dewpoint_f": 2.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T22:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 262200Z 36010KT 10SM SCT042 BKN048 OVC060 M13/M15 A2997 RMK SLPNO T11281150",
+      "sky_condition": "SCT",
+      "temperature_f": 9.0,
+      "dewpoint_f": 5.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-26T23:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 262300Z 35020G25KT 11/2SM -SN OVC020 M12/M14 A2992 RMK SLPNO T11231139",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 1.5
+    }
+  ],
+  "estimated": false
+}

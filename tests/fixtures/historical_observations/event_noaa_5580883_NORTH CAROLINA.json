@@ -1,0 +1,134 @@
+{
+  "event_id": "noaa_5580883_NORTH CAROLINA",
+  "event_date": "1996-06-18",
+  "event_datetime_utc": "1996-06-18T18:00:00Z",
+  "station": "KRWI",
+  "county": "PITT",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1996-06-18T11:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181100Z 21006KT 7SM CLR 23/22 A2998 RMK FEW CU/ FIRST; SLPNO T02270216",
+      "sky_condition": "CLR",
+      "temperature_f": 72.86,
+      "dewpoint_f": 70.88,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T12:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181200Z 22006KT 7SM CLR 24/22 A2998 RMK 10089 20072/ 18HR MAX MIN; SLPNO 60003 T02440216 55070",
+      "sky_condition": "CLR",
+      "temperature_f": 76.0,
+      "dewpoint_f": 70.88,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T13:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181300Z 20008KT 7SM CLR 25/22 A2999 RMK FEW CU; SLPNO T02550216",
+      "sky_condition": "CLR",
+      "temperature_f": 78.0,
+      "dewpoint_f": 70.88,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T14:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181400Z 21005KT 7SM SCT250 28/22 A2999 RMK SLPNO T02770222",
+      "sky_condition": "SCT",
+      "temperature_f": 81.86,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T15:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181500Z 21007KT 7SM SCT250 29/23 A2999 RMK FEW CU 51003; SLPNO T02880227",
+      "sky_condition": "SCT",
+      "temperature_f": 83.84,
+      "dewpoint_f": 72.86,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T16:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181600Z 24007KT 7SM SCT030 30/22 A2997 RMK SLPNO T03000216",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 70.88,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T17:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181700Z 20008KT 7SM SCT035 31/22 A2996 RMK SLPNO T03110216",
+      "sky_condition": "SCT",
+      "temperature_f": 88.0,
+      "dewpoint_f": 70.88,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T18:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181800Z 20007KT 7SM SCT040 32/21 A2995 RMK 10089 20076; SLPNO 60014 T03160211 55070",
+      "sky_condition": "SCT",
+      "temperature_f": 88.88,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T19:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 181900Z 18005KT 7SM BKN040 32/21 A2994 RMK SLPNO T03160211",
+      "sky_condition": "BKN",
+      "temperature_f": 88.88,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T20:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 182000Z 23008KT 7SM SCT045 32/20 A2992 RMK SLPNO T03220205",
+      "sky_condition": "SCT",
+      "temperature_f": 90.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-18T21:00:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 182100Z 20009KT 7SM SCT050 33/20 A2990 RMK LAST/ 57017; SLPNO T03270205",
+      "sky_condition": "SCT",
+      "temperature_f": 90.86,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,120 @@
+{
+  "event_id": "noaa_5542969_NEBRASKA",
+  "event_date": "1996-03-24",
+  "event_datetime_utc": "1996-03-24T18:00:00Z",
+  "station": "KFNB",
+  "county": "RICHARDSON",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1996-03-24T00:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 240000Z 12015G23KT 7SM BKN250 15/06 A2954 RMK 400600035/; SLPNO T01500055",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 42.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-03-24T01:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 240100Z 12014G22KT 7SM SCT100 SCT250 13/06 A2955 RMK LAST/; SLPNO T01270055",
+      "sky_condition": "SCT",
+      "temperature_f": 54.86,
+      "dewpoint_f": 42.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-03-24T13:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 241300Z 18010KT 10SM BKN030 OVC050 16/09 A2953 RMK FIRST/ 400630035; SLPNO T01610094",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-03-24T16:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 241600Z 18013G20KT 10SM BKN030 OVC050 17/11 A2951 RMK SLPNO T01660111",
+      "sky_condition": "BKN",
+      "temperature_f": 61.88,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-03-24T17:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 241700Z 18016G27KT 10SM BKN030 OVC050 19/11 A2949 RMK SLPNO T01940111",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 31.07106,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-03-24T19:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 241900Z 18014G26KT 10SM SCT022 BKN030 OVC050 19/12 A2941 RMK RE05; SLPNO T01880116",
+      "sky_condition": "SCT",
+      "temperature_f": 65.84,
+      "dewpoint_f": 52.88,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 29.920279999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-03-24T20:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 242000Z 17017G28KT 10SM SCT022 BKN030 OVC050 18/12 A2937 RMK SLPNO T01830116",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 52.88,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 19.56326,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-03-24T21:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 242100Z 32018G30KT 2SM -TSRA FG OVC018 07/04 A2945 RMK T E MOVG NE 6038/; SLPNO T00660044",
+      "sky_condition": "OVC",
+      "temperature_f": 43.88,
+      "dewpoint_f": 40.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-03-24T23:00:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 242300Z 29014G23KT 1SM -RA FG OVC008 04/04 A2947 RMK RB38; SLPNO T00440044",
+      "sky_condition": "OVC",
+      "temperature_f": 40.0,
+      "dewpoint_f": 40.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 1.0
+    }
+  ],
+  "estimated": false
+}

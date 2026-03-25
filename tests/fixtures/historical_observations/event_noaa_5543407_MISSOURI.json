@@ -1,0 +1,211 @@
+{
+  "event_id": "noaa_5543407_MISSOURI",
+  "event_date": "1996-04-22",
+  "event_datetime_utc": "1996-04-22T18:00:00Z",
+  "station": "KMDH",
+  "county": "PERRY",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 18,
+  "observations": [
+    {
+      "timestamp": "1996-04-22T00:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 220000Z AUTO 16008KT 12SM SCT030 OVC039 18/17 A2998 RMK T01830172 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1996-04-22T01:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 220100Z AUTO 17006KT 10SM SCT020 SCT049 SCT059 OVC118 A2996 RMK IEM_DS3505",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-04-22T02:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 220200Z AUTO 13008KT 15SM SCT049 OVC098 18/17 A2997 RMK T01830172 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-04-22T03:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 220300Z AUTO 13007KT 15SM SCT049 OVC098 18/17 A2997 RMK T01770166 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 63.86,
+      "dewpoint_f": 61.88,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-04-22T04:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 220400Z AUTO 14009KT 15SM SCT049 OVC098 18/16 A2995 RMK T01770161 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 63.86,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-04-22T05:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 220500Z AUTO 15011G16KT 15SM SCT049 OVC098 18/16 A2993 RMK T01830155 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 12.658579999999999,
+      "wind_gust_mph": 18.41248,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-04-22T10:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221000Z AUTO 00000KT 6SM SCT005 BKN015 OVC034 15/15 A2991 RMK T01500150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1996-04-22T11:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221100Z AUTO 29010KT 5SM SCT005 BKN015 OVC034 15/15 A2991 RMK T01500150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-04-22T12:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221200Z AUTO 11007KT 1 1/2SM SCT005 BKN013 OVC025 15/15 A2993 RMK T01500150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-04-22T13:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221300Z AUTO 17003KT 3SM BKN013 OVC030 15/15 A2999 RMK T01500150 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-04-22T14:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221400Z AUTO 09003KT 4SM SCT007 OVC027 15/15 A2998 RMK T01500150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1996-04-22T15:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221500Z AUTO 13012G18KT 10SM SCT003 BKN037 OVC089 16/15 A2995 RMK T01550150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 20.714039999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-04-22T16:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221600Z AUTO 29008KT 20SM SCT010 OVC098 16/15 A2996 RMK T01610150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-04-22T17:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221700Z AUTO 22008KT 20SM SCT010 BKN018 OVC098 18/16 A3000 RMK T01830155 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-04-22T19:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 221900Z AUTO 20007KT 20SM BKN018 BKN098 OVC246 20/15 A3000 RMK T02000150 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-04-22T21:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 222100Z AUTO 18007KT 15SM SCT018 BKN049 OVC098 19/14 A3000 RMK T01940144 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-04-22T22:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 222200Z AUTO 19006KT 7SM SCT020 OVC049 18/15 A3001 RMK T01770150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 63.86,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-04-22T23:00:00Z",
+      "station_id": "KMDH",
+      "metar": "KMDH 222300Z AUTO 14004KT 7SM BKN039 OVC059 17/16 A2998 RMK T01660155 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 61.88,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

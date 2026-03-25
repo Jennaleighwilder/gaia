@@ -1,0 +1,22 @@
+{
+  "event_id": "noaa_10059538_MISSOURI",
+  "event_date": "1977-05-04",
+  "event_datetime_utc": "1977-05-04T18:00:00Z",
+  "station": "KOJC",
+  "county": "CASS",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "1977-05-04T16:00:00Z",
+      "station_id": "KOJC",
+      "metar": "KOJC 041600Z AUTO 16012KT 5SM BKN010 OVC148 A2972 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,130 @@
+{
+  "event_id": "noaa_5580449_NORTH CAROLINA",
+  "event_date": "1996-10-08",
+  "event_datetime_utc": "1996-10-08T18:00:00Z",
+  "station": "KRWI",
+  "county": "PITT",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 10,
+  "observations": [
+    {
+      "timestamp": "1996-10-08T10:59:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081059Z 05015G28KT 2SM RA BR OVC008 17/16 A2950 RMK FIRST",
+      "sky_condition": "OVC",
+      "temperature_f": 62.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-10-08T11:58:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081158Z 04018G30KT 1 1/2SM +RA OVC007 17/16 A2942 RMK 70214 401750165 57081",
+      "sky_condition": "OVC",
+      "temperature_f": 62.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-10-08T12:48:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081248Z 04015G20KT 2SM RA BR OVC007 17/16 A2937",
+      "sky_condition": "OVC",
+      "temperature_f": 62.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-10-08T13:45:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081345Z 0415KT 2 1/2 -RA BR BKN007 OVC010 17/16 A2931 RMK PRESFR",
+      "sky_condition": "   ",
+      "temperature_f": 62.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-10-08T14:51:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081451Z 04015KT 3SM -RA BR BKN008 OVC012 17/16 A2929 RMK 57044",
+      "sky_condition": "BKN",
+      "temperature_f": 62.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-10-08T15:56:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081556Z 01015G20KT 3SM -RA BR BKN006 OVC012 16/15 A2928",
+      "sky_condition": "BKN",
+      "temperature_f": 60.8,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-10-08T16:49:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081649Z 33015G20 2SM -RA BR BKN005 OVC010 16/15 A2930",
+      "sky_condition": "BKN",
+      "temperature_f": 60.8,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 33.5567448,
+      "wind_gust_mph": 44.742326399999996,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-10-08T17:56:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081756Z 33012G18KT 2SM -RA BR BKN007 OVC012 16/15 A2932 RMK 60075 10101 20162 53010",
+      "sky_condition": "BKN",
+      "temperature_f": 60.8,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 20.714039999999997,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-10-08T19:54:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 081954Z 34012G18KT 7SM SCT010 OVC015 17/14 A2938",
+      "sky_condition": "SCT",
+      "temperature_f": 62.6,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 20.714039999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-10-08T20:45:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 082045Z 32012G18KT 7SM SCT010 OVC015 17/14 A2943 RMK LAST 53037",
+      "sky_condition": "SCT",
+      "temperature_f": 62.6,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 20.714039999999997,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

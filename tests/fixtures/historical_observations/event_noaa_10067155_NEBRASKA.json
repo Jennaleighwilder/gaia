@@ -1,0 +1,148 @@
+{
+  "event_id": "noaa_10067155_NEBRASKA",
+  "event_date": "1974-04-20",
+  "event_datetime_utc": "1974-04-20T18:00:00Z",
+  "station": "KBBW",
+  "county": "DAWSON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 12,
+  "observations": [
+    {
+      "timestamp": "1974-04-20T12:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 201200Z 17015KT 10SM OVC025 13/10 A2961 RMK SLPNO T01280100",
+      "sky_condition": "OVC",
+      "temperature_f": 55.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T13:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 201300Z 16010KT 10SM OVC025 12/11 A2960 RMK SLPNO T01220106",
+      "sky_condition": "OVC",
+      "temperature_f": 54.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T14:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 201400Z 14010KT 10SM OVC025 12/11 A2958 RMK SLPNO T01220106",
+      "sky_condition": "OVC",
+      "temperature_f": 54.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T15:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 201500Z 14012KT 10SM OVC025 13/12 A2955 RMK SLPNO T01280117",
+      "sky_condition": "OVC",
+      "temperature_f": 55.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T16:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 201600Z 14020KT 10SM OVC025 13/12 A2955 RMK SLPNO T01280117",
+      "sky_condition": "OVC",
+      "temperature_f": 55.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T17:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 201700Z 16018KT 10SM OVC009 15/13 A2953 RMK CIG RGD SLPNO T01500133",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T18:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 201800Z 16022G28KT 10SM OVC010 17/14 A2950 RMK SLPNO T01670139",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 25.317159999999998,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T19:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 201900Z 16020G28KT 10SM OVC010 18/14 A2949 RMK CIG RGD SLPNO T01830139",
+      "sky_condition": "OVC",
+      "temperature_f": 65.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T20:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 202000Z 16025KT 10SM BKN012 18/14 A2945 RMK SLPNO T01830139",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T21:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 202100Z 14020KT 10SM BKN012 19/17 A2944 RMK DRK CLDS E-SE 2050 FUNNEL CLOUD DSNT SE SLPNO T01940172",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T22:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 202200Z 19020KT 10SM BKN020 21/05 A2942 RMK TCU ALQDS SLPNO T02110050",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-20T23:00:00Z",
+      "station_id": "KBBW",
+      "metar": "METAR KBBW 202300Z 20025G32KT 10SM BKN030 21/05 A2940 RMK SLPNO T02110050",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

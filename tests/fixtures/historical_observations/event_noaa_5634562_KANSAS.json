@@ -1,0 +1,137 @@
+{
+  "event_id": "noaa_5634562_KANSAS",
+  "event_date": "1998-03-07",
+  "event_datetime_utc": "1998-03-07T18:00:00Z",
+  "station": "KFNB",
+  "county": "BROWN",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1998-03-07T00:50:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 070050Z 04010KT 10SM BKN040 OVC120 03/M03 A3003 RMK LAST T00321034",
+      "sky_condition": "BKN",
+      "temperature_f": 37.76,
+      "dewpoint_f": 25.88,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-03-07T12:55:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 071255Z 07014KT 2 1/2SM BR BKN008 OVC025 00/00 A2993 RMK 24HR HIGH 6.1 CELSIUS 12HR LOW -1.1 CELSIUS 60001 FIRST T00040002",
+      "sky_condition": "BKN",
+      "temperature_f": 32.72,
+      "dewpoint_f": 32.36,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-03-07T13:54:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 071354Z 07015KT 2 1/2SM BR BKN010 OVC025 01/00 A2992 RMK T00070001",
+      "sky_condition": "BKN",
+      "temperature_f": 33.26,
+      "dewpoint_f": 32.18,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-03-07T14:55:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 071455Z 07015KT 3SM BR BKN010 OVC025 01/00 A2992 RMK T00071003",
+      "sky_condition": "BKN",
+      "temperature_f": 33.26,
+      "dewpoint_f": 31.46,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-03-07T15:56:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 071556Z 07014KT 3SM BR SCT010 OVC025 01/M01 A2992 RMK T00111012",
+      "sky_condition": "SCT",
+      "temperature_f": 34.0,
+      "dewpoint_f": 29.84,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-03-07T17:59:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 071759Z 08015G23KT 3SM OVC025 02/M03 A2988 RMK T00171025",
+      "sky_condition": "OVC",
+      "temperature_f": 35.0,
+      "dewpoint_f": 27.5,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-03-07T19:58:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 071958Z 07014G21KT 4SM -RA BR OVC025 02/M01 A2980 RMK T00161011 RAB40",
+      "sky_condition": "OVC",
+      "temperature_f": 34.88,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 24.166379999999997,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-03-07T20:55:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 072055Z 06012G18KT 1 1/2SM -RA BR OVC015 02/M01 A2980 RMK 60001 T00161008",
+      "sky_condition": "OVC",
+      "temperature_f": 34.88,
+      "dewpoint_f": 30.56,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 20.714039999999997,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1998-03-07T21:50:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 072150Z 03012KT 1SM RA BR OVC010 01/00 A2980 RMK T00111002",
+      "sky_condition": "OVC",
+      "temperature_f": 34.0,
+      "dewpoint_f": 31.64,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1998-03-07T22:59:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 072259Z 03013KT 1SM -RA BR BKN008 OVC015 01/00 A2981 RMK T00081003",
+      "sky_condition": "BKN",
+      "temperature_f": 33.44,
+      "dewpoint_f": 31.46,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1998-03-07T23:54:00Z",
+      "station_id": "KFNB",
+      "metar": "METAR KFNB 072354Z 04014KT 1SM -RA BR BKN006 OVC010 00/00 A2982 RMK 12HR HIGH 1.7 CELSIUS 24HR LOW -1.1 CELSIUS 60015 T00031002",
+      "sky_condition": "BKN",
+      "temperature_f": 32.54,
+      "dewpoint_f": 31.64,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 1.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,18 @@
+{
+  "event_id": "LANDMARK_007",
+  "date": "1994-01-17",
+  "event_datetime_utc": "1994-01-17T12:30:00Z",
+  "magnitude": "6.7",
+  "county": "los angeles",
+  "state": "CA",
+  "station": "KVTX",
+  "composite_reflectivity": 55,
+  "velocity_max": 22.5,
+  "velocity_min": -22.5,
+  "rotation_couplet_kt": 45.0,
+  "rotation_score": 0.72,
+  "vil": 40,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

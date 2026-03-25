@@ -1,0 +1,106 @@
+{
+  "event_id": "noaa_9979587_ALABAMA",
+  "event_date": "1970-03-19",
+  "event_datetime_utc": "1970-03-19T18:00:00Z",
+  "station": "KCSG",
+  "county": "CHAMBERS",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1970-03-19T00:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 190000Z 17003KT 10SM SCT/// FEW/// 21/13 A//// RMK SLP203 T02110133",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1020.3,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1970-03-19T03:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 190300Z 03004KT 15SM SCT/// 15/12 A//// RMK SLPNO T01500122",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1970-03-19T06:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 190600Z 03005KT 15SM CLR/// 15/12 A//// RMK SLPNO T01500122",
+      "sky_condition": "CLR",
+      "temperature_f": 59.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1970-03-19T09:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 190900Z 05005KT 6SM FGDZ OVC/// 14/12 A//// RMK SLPNO T01440117",
+      "sky_condition": "   ",
+      "temperature_f": 58.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 45.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1970-03-19T12:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 191200Z 09003KT 1/16SM FG OVC/// 14/14 A//// RMK SLP206 T01440139",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1020.6,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 0.06
+    },
+    {
+      "timestamp": "1970-03-19T15:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 191500Z 11005KT 1/4SM FG OVC/// 17/16 A//// RMK SLP212 T01670156",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1021.2,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1970-03-19T18:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 191800Z 18007KT 7SM OVC/// 20/17 A//// RMK SLP199 T02000172",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1019.9,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1970-03-19T21:00:00Z",
+      "station_id": "KCSG",
+      "metar": "KCSG 192100Z 14006KT 10SM SCT/// BKN/// OVC/// 22/17 A//// RMK SLP168 T02170172",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1016.8,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

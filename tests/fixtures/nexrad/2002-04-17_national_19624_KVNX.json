@@ -1,0 +1,18 @@
+{
+  "event_id": "national_19624",
+  "date": "2002-04-17",
+  "event_datetime_utc": "2002-04-17T18:00:00Z",
+  "magnitude": "F2",
+  "county": "woods",
+  "state": "OK",
+  "station": "KVNX",
+  "composite_reflectivity": 55,
+  "velocity_max": 30.0,
+  "velocity_min": -30.0,
+  "rotation_couplet_kt": 60.0,
+  "rotation_score": 0.72,
+  "vil": 40,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

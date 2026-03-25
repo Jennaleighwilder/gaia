@@ -1,0 +1,126 @@
+{
+  "event_id": "noaa_5538343_WISCONSIN",
+  "event_date": "1996-01-29",
+  "event_datetime_utc": "1996-01-29T18:00:00Z",
+  "station": "KLNR",
+  "county": "IOWA",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 10,
+  "observations": [
+    {
+      "timestamp": "1996-01-29T13:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 291300Z 30022G36KT 2SM -SN -BLSN SCT020 M13/M16 A2972 RMK SLPNO T11281162",
+      "sky_condition": "SCT",
+      "temperature_f": 9.0,
+      "dewpoint_f": 2.84,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 25.317159999999998,
+      "wind_gust_mph": 41.428079999999994,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-01-29T14:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 291400Z 30028KT 21/2SM -BLSN CLR M17/M21 A2978 RMK PRESRR; SLPNO T11671206",
+      "sky_condition": "CLR",
+      "temperature_f": 2.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 32.22184,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-01-29T15:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 291500Z 30022KT 21/2SM -BLSN SCT020 M17/M22 A2983 RMK 52047; SLPNO T11671217",
+      "sky_condition": "SCT",
+      "temperature_f": 2.0,
+      "dewpoint_f": -7.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-01-29T16:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 291600Z 30024KT 21/2SM -BLSN CLR M17/M22 A2986 RMK SLPNO T11671217",
+      "sky_condition": "CLR",
+      "temperature_f": 2.0,
+      "dewpoint_f": -7.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 27.618719999999996,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-01-29T17:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 291700Z 30024G32KT 21/2SM -BLSN CLR M16/M22 A2991 RMK SLPNO T11621223",
+      "sky_condition": "CLR",
+      "temperature_f": 2.84,
+      "dewpoint_f": -8.14,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 27.618719999999996,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-01-29T18:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 291800Z 30022KT 4SM -BLSN SCT250 M16/M20 A2994 RMK 933020; SLPNO 60037 T11561200 55020",
+      "sky_condition": "SCT",
+      "temperature_f": 4.0,
+      "dewpoint_f": -4.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1996-01-29T19:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 291900Z 30026G34KT 4SM -BLSN SCT250 M16/M20 A2997 RMK SLPNO T11561200",
+      "sky_condition": "SCT",
+      "temperature_f": 4.0,
+      "dewpoint_f": -4.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 29.920279999999998,
+      "wind_gust_mph": 39.12652,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1996-01-29T20:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 292000Z 30026KT 7SM CLR M15/M21 A2999 RMK SLPNO T11501206",
+      "sky_condition": "CLR",
+      "temperature_f": 5.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 29.920279999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-29T21:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 292100Z 31018KT 7SM CLR M16/M21 A3004 RMK 52034; SLPNO T11621212",
+      "sky_condition": "CLR",
+      "temperature_f": 2.84,
+      "dewpoint_f": -6.16,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-29T22:00:00Z",
+      "station_id": "KLNR",
+      "metar": "METAR KLNR 292200Z 31015KT 7SM CLR M16/M21 A3007 RMK LAST; SLPNO T11621206",
+      "sky_condition": "CLR",
+      "temperature_f": 2.84,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

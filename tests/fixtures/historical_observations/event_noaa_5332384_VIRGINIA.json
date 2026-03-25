@@ -1,0 +1,157 @@
+{
+  "event_id": "noaa_5332384_VIRGINIA",
+  "event_date": "2003-11-19",
+  "event_datetime_utc": "2003-11-19T18:00:00Z",
+  "station": "KBLF",
+  "county": "BUCHANAN",
+  "event_type": "Flood",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2003-11-19T00:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190052Z AUTO A2992 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T01:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190152Z AUTO A2990 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T02:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190252Z AUTO A2988 RMK AO2 SLPNO 6//// 56028 PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T03:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190352Z AUTO A2989 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T04:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190452Z AUTO A2992 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T05:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190552Z AUTO A2987 RMK AO2 SLPNO 6//// 58003 PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T06:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190652Z AUTO A2980 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T07:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190752Z AUTO A2973 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T08:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190852Z AUTO A2970 RMK AO2 SLPNO 6//// 56053 PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T09:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 190952Z AUTO A2966 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T10:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191052Z AUTO A2960 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T11:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191152Z AUTO A2958 RMK AO2 SLPNO 6//// 7//// 56037 PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T12:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191252Z AUTO A2962 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T13:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191352Z AUTO A2966 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T14:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191452Z AUTO A2971 RMK AO2 SLPNO 6//// 53040 PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T15:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191552Z AUTO A2968 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T16:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191652Z AUTO A2958 RMK AO2 PRESFR SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T17:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191752Z AUTO A2958 RMK AO2 SLPNO 6//// 56040 PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T18:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191852Z AUTO A2958 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T19:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 191952Z AUTO A2957 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T20:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 192052Z AUTO A2967 RMK AO2 PRESRR SLPNO 6//// 53028 PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T21:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 192152Z AUTO A2970 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T22:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 192252Z AUTO A2975 RMK AO2 SLPNO PWINO FZRANO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2003-11-19T23:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 192352Z AUTO A2977 RMK AO2 SLPNO 6//// 51031 PWINO FZRANO $",
+      "sky_condition": "   "
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,243 @@
+{
+  "event_id": "noaa_5632234_MICHIGAN",
+  "event_date": "1998-03-09",
+  "event_datetime_utc": "1998-03-09T18:00:00Z",
+  "station": "KP58",
+  "county": "IOSCO",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "1998-03-09T00:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090048Z AUTO 09014KT 04/M12 RMK PK WND 16///165 RM T00441116",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 11.12,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1998-03-09T01:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090148Z AUTO 09010KT 04/M11 RMK PK WND 17///165 RM T00441111",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 12.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1998-03-09T02:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090248Z AUTO 04002KT 04/M11 RMK PK WND 12///165 RM T00441105",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 13.1,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1998-03-09T03:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090348Z AUTO 04005KT 05/M11 RMK PK WND 06///165 RM T00501105",
+      "sky_condition": "   ",
+      "temperature_f": 41.0,
+      "dewpoint_f": 13.1,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-03-09T04:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090448Z AUTO 04005KT 05/M11 RMK PK WND 05///165 RM T00501105",
+      "sky_condition": "   ",
+      "temperature_f": 41.0,
+      "dewpoint_f": 13.1,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-03-09T05:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090548Z AUTO 01006KT 04/M11 RMK PK WND 07///166 RM 41 T00441111",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 12.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1998-03-09T06:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090648Z AUTO 36008KT 04/M11 RMK PK WND 09///166 RM T00441111",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 12.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1998-03-09T07:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090748Z AUTO 01009KT 04/M11 RMK PK WND 11///166 RM T00441111",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 12.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1998-03-09T08:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 090848Z AUTO 36010KT 04/M11 RMK PK WND 13///166 RM T00441111",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 12.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1998-03-09T10:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091048Z AUTO 36012KT 04/M12 RMK PK WND 15///167 RM T00441116",
+      "sky_condition": "   ",
+      "temperature_f": 40.0,
+      "dewpoint_f": 11.12,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1998-03-09T11:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091148Z AUTO 36019KT 04/M12 RMK PK WND 23///167 RM 39 T00391122 21139",
+      "sky_condition": "   ",
+      "temperature_f": 39.0,
+      "dewpoint_f": 10.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 21.864819999999998
+    },
+    {
+      "timestamp": "1998-03-09T12:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091248Z AUTO 35018KT 04/M12 RMK PK WND 26///168 RM T00391122",
+      "sky_condition": "   ",
+      "temperature_f": 39.0,
+      "dewpoint_f": 10.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 20.714039999999997
+    },
+    {
+      "timestamp": "1998-03-09T13:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091348Z AUTO 35020KT 04/M12 RMK PK WND 26///169 RM T00391122",
+      "sky_condition": "   ",
+      "temperature_f": 39.0,
+      "dewpoint_f": 10.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 23.0156
+    },
+    {
+      "timestamp": "1998-03-09T14:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091448Z AUTO 35022KT 03/M13 RMK PK WND 29///170 RM T00331127",
+      "sky_condition": "   ",
+      "temperature_f": 38.0,
+      "dewpoint_f": 9.14,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 25.317159999999998
+    },
+    {
+      "timestamp": "1998-03-09T15:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091548Z AUTO 34016KT 03/M13 RMK PK WND 29///170 RM T00331127",
+      "sky_condition": "   ",
+      "temperature_f": 38.0,
+      "dewpoint_f": 9.14,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 18.41248
+    },
+    {
+      "timestamp": "1998-03-09T16:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091648Z AUTO 35023KT 03/M14 RMK PK WND 33///171 RM T00281138",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 7.16,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 26.46794
+    },
+    {
+      "timestamp": "1998-03-09T17:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091748Z AUTO 35020KT 02/M14 RMK PK WND 36///171 RM 36 T00221138",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 7.16,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 23.0156
+    },
+    {
+      "timestamp": "1998-03-09T18:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091848Z AUTO 35019KT 02/M14 RMK PK WND 31///171 RM T00221138",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 7.16,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 21.864819999999998
+    },
+    {
+      "timestamp": "1998-03-09T19:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 091948Z AUTO 34018KT 02/M14 RMK PK WND 30///171 RM T00221138",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 7.16,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 20.714039999999997
+    },
+    {
+      "timestamp": "1998-03-09T20:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 092048Z AUTO 33009KT 02/M14 RMK PK WND 27///171 RM T00171138",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 7.16,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1998-03-09T21:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 092148Z AUTO 32014KT 01/M16 RMK PK WND 22///171 RM T00061155",
+      "sky_condition": "   ",
+      "temperature_f": 33.0,
+      "dewpoint_f": 4.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1998-03-09T22:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 092248Z AUTO 32015KT M01/M16 RMK PK WND 25///171 RM T10061161",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 3.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1998-03-09T23:48:00Z",
+      "station_id": "KP58",
+      "metar": "METAR KP58 092348Z AUTO 32013KT M01/M17 RMK PK WND 25///171 RM 39 T10111166",
+      "sky_condition": "   ",
+      "temperature_f": 30.0,
+      "dewpoint_f": 2.12,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 14.960139999999999
+    }
+  ],
+  "estimated": false
+}

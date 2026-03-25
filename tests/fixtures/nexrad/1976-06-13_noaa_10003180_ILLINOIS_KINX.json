@@ -1,0 +1,18 @@
+{
+  "event_id": "noaa_10003180_ILLINOIS",
+  "date": "1976-06-13",
+  "event_datetime_utc": "1976-06-13T18:00:00Z",
+  "magnitude": "F4",
+  "county": "cook",
+  "state": "ILLINOIS",
+  "station": "KINX",
+  "composite_reflectivity": 65,
+  "velocity_max": 47.5,
+  "velocity_min": -47.5,
+  "rotation_couplet_kt": 95.0,
+  "rotation_score": 0.92,
+  "vil": 55,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

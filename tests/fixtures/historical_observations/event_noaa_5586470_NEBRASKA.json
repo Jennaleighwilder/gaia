@@ -1,0 +1,123 @@
+{
+  "event_id": "noaa_5586470_NEBRASKA",
+  "event_date": "1997-01-04",
+  "event_datetime_utc": "1997-01-04T18:00:00Z",
+  "station": "KODX",
+  "county": "ROCK",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 10,
+  "observations": [
+    {
+      "timestamp": "1997-01-04T13:59:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 041359Z 30020KT 15SM OVC010 00/M03 A2945",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 26.6,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T14:45:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 041445Z 31015KT 15SM OVC010 00/M03 A2949 RMK T00001029",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 26.78,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T15:55:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 041555Z 32021KT 15SM OVC010 01/M02 A2950 RMK T00111017",
+      "sky_condition": "OVC",
+      "temperature_f": 34.0,
+      "dewpoint_f": 29.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 24.166379999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T16:45:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 041645Z 32027KT 15SM OVC010 02/M00 A2954 RMK T002210004",
+      "sky_condition": "OVC",
+      "temperature_f": 35.6,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 31.07106,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T18:59:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 041859Z 33019KT 15SM OVC010 03/00 A2957 RMK T00280002",
+      "sky_condition": "OVC",
+      "temperature_f": 37.0,
+      "dewpoint_f": 32.36,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 21.864819999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T19:55:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 041955Z 33023KT 15SM OVC010 03/00 A2960 RMK T000280002",
+      "sky_condition": "OVC",
+      "temperature_f": 37.4,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 26.46794,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T20:45:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 042045Z 32030KT 15SM OVC010 03/00 A2961 RMK T00280002",
+      "sky_condition": "OVC",
+      "temperature_f": 37.0,
+      "dewpoint_f": 32.36,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 34.523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T21:59:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 042159Z 33037KT 15SM OVC010 00/M03 A2969 RMK T00001029",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 26.78,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 42.57886,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T22:52:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 042252Z 32020KT 15SM OVC010 00/M03 A2971 RMK T00001029 DAYTIME HI 2.8 24 HR LOW 00",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 26.78,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-04T23:55:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 042355Z 32025KT 15SM OVC010 00/M03 A2974 RMK T00001029",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 26.78,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,134 @@
+{
+  "event_id": "noaa_5717554_NORTH CAROLINA",
+  "event_date": "1999-09-14",
+  "event_datetime_utc": "1999-09-14T18:00:00Z",
+  "station": "KRWI",
+  "county": "PITT",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1999-09-14T10:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141055Z 03005KT 4SM BR OVC003 22/21 A3003 RMK FIRST",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1999-09-14T11:54:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141154Z 02006KT 4SM -RA BR OVC004 22/21 A3004 RMK RAB45 60000 10285 2 0212 53002",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1999-09-14T12:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141255Z 03006KT 21/2SM -RA BR OVC003 22/22 A3004 RMK RAE05B48",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1999-09-14T13:54:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141354Z 05005KT 2SM -RA BR FEW003 BKN021 OVC026 22/22 A3004",
+      "sky_condition": "FEW",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1999-09-14T14:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141455Z 04007KT 3SM -RA BR SCT005 OVC025 22/21 A3015 RMK RE14B33 5500 3",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1999-09-14T15:56:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141556Z 01005KT 7SM -RA BKN005 OVC025 22/22 A3005",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1999-09-14T16:53:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141653Z 01008KT 10SM OVC007 23/22 A3004 RMK RE37",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1999-09-14T17:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141755Z 010009KT 10SM BKN007 OVC010 24/22 A3003 RMK BINOVC 60028 1024 2 20217 58007",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1999-09-14T18:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141855Z 30007KT 10SM BKN009 OVC250 26/23 A3000",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1999-09-14T19:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 141955Z 01008KT 10SM BKN014 BKN033 OVC250 26/23 A2999",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1999-09-14T20:53:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 142053Z 07006KT 4SM -RA BR BKN013 BKN024 OVC034 23/21 A3001 RMK RB27",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0
+    }
+  ],
+  "estimated": false
+}

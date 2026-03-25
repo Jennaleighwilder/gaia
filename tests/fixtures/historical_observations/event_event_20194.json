@@ -1,0 +1,70 @@
+{
+  "event_id": "event_20194",
+  "event_date": "2000-12-20",
+  "event_datetime_utc": "2000-12-20T18:00:00Z",
+  "station": "PAWI",
+  "county": "",
+  "event_type": "earthquake",
+  "magnitude": 5.0,
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2000-12-20T03:00:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 200300Z AUTO 07024KT 1SM BR OVC033 M19/M21 A3007",
+      "sky_condition": "OVC",
+      "temperature_f": -2.2,
+      "dewpoint_f": -5.8,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 27.618719999999996,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "2000-12-20T05:56:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 200556Z AUTO 08024KT 1 1/2SM BR OVC041 M18/M21 A3011",
+      "sky_condition": "OVC",
+      "temperature_f": -0.4,
+      "dewpoint_f": -5.8,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 27.618719999999996,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "2000-12-20T12:24:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 201224Z 07024G30KT 3/4SM  BR OVC011 M17/M19 A3009",
+      "sky_condition": "OVC",
+      "temperature_f": 1.4,
+      "dewpoint_f": -2.2,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 27.618719999999996,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "2000-12-20T15:20:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 201520Z COR 07023KT 1SM BLSN BR OVC007 M17/M19 A3006",
+      "sky_condition": "OVC",
+      "temperature_f": 1.4,
+      "dewpoint_f": -2.2,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 26.46794,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "2000-12-20T17:53:00Z",
+      "station_id": "PAWI",
+      "metar": "PAWI 201753Z AUTO 09026KT 1SM BLSN BR OVC006 M17/M19 A3003 RMK AO2 PK WND 09032/1724 SLP169 6//// T11721189 11172 21172 58009 TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 1.0,
+      "dewpoint_f": -2.0,
+      "pressure_mb": 1016.9,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 29.920279999999998,
+      "visibility_mi": 1.0
+    }
+  ],
+  "estimated": false
+}

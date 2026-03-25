@@ -1,0 +1,97 @@
+{
+  "event_id": "noaa_5589220_MINNESOTA",
+  "event_date": "1997-01-15",
+  "event_datetime_utc": "1997-01-15T18:00:00Z",
+  "station": "KEST",
+  "county": "BLUE EARTH",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 7,
+  "observations": [
+    {
+      "timestamp": "1997-01-15T00:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 150052Z AUTO 14016KT 8SM OVC042 M11/M12 A3007 RMK AO2 SNE32 SLP212 T11061117 FZRANO TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 13.0,
+      "dewpoint_f": 11.0,
+      "pressure_mb": 1021.2,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1997-01-15T03:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 150352Z AUTO 16016KT 1 3/4SM -SN BR BKN014 OVC040 M09/M11 A2999 RMK AO2 SLP182 T10941106 FZRANO TSNO PNO",
+      "sky_condition": "BKN",
+      "temperature_f": 15.0,
+      "dewpoint_f": 13.0,
+      "pressure_mb": 1018.2,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 1.75
+    },
+    {
+      "timestamp": "1997-01-15T05:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 150552Z AUTO 17018KT 6SM BR OVC035 M09/M10 A2992 RMK AO2 SLP156 6//// T10891100 11089 21106 410891217 58030 PWINO FZRANO TSNO PNO $",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1015.6,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1997-01-15T09:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 150952Z AUTO 17014KT 9SM -SN OVC018 M09/M10 A2977 RMK AO2 SLP104 T10891100 FZRANO TSNO PNO $",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1010.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1997-01-15T11:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 151152Z AUTO 18011KT 5SM -SN BR OVC012 M09/M11 A2971 RMK AO2 SNE1054B36 SLP084 6//// 7//// T10891106 11089 21094 56036 FZRANO TSNO PNO $",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 13.0,
+      "pressure_mb": 1008.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-01-15T12:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 151252Z AUTO 19009KT 5SM -SN BR BKN018 M09/M10 A2969 RMK AO2 SLP078 T10891100 FZRANO TSNO PNO $",
+      "sky_condition": "BKN",
+      "temperature_f": 16.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1007.8,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1997-01-15T18:52:00Z",
+      "station_id": "KEST",
+      "metar": "METAR KEST 151852Z AUTO 27020KT 6SM HZ FEW016 BKN100 M08/M11 A2953 RMK AO2 SLP024 T10831111 FZRANO TSNO PNO $",
+      "sky_condition": "FEW",
+      "temperature_f": 17.0,
+      "dewpoint_f": 12.0,
+      "pressure_mb": 1002.4,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

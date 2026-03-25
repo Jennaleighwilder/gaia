@@ -1,0 +1,149 @@
+{
+  "event_id": "noaa_5537049_NEBRASKA",
+  "event_date": "1996-01-16",
+  "event_datetime_utc": "1996-01-16T18:00:00Z",
+  "station": "KAIA",
+  "county": "BOX BUTTE",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 12,
+  "observations": [
+    {
+      "timestamp": "1996-01-16T01:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 160100Z 01005KT 20SM BKN120 BKN200 06/01 A2975 RMK LAST; SLPNO T00550005",
+      "sky_condition": "BKN",
+      "temperature_f": 42.0,
+      "dewpoint_f": 33.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T13:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 161300Z 19009KT 20SM SCT150 06/M04 A2969 RMK FIRST/ 400600039; SLPNO T00551039",
+      "sky_condition": "SCT",
+      "temperature_f": 42.0,
+      "dewpoint_f": 25.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T14:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 161400Z 04006KT 20SM SCT150 03/M01 A2971 RMK SLPNO T00271012",
+      "sky_condition": "SCT",
+      "temperature_f": 36.86,
+      "dewpoint_f": 29.84,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T15:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 161500Z 34018KT 20SM SCT150 05/M03 A2971 RMK SLPNO T00501028",
+      "sky_condition": "SCT",
+      "temperature_f": 41.0,
+      "dewpoint_f": 27.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T16:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 161600Z 34019G27KT 20SM CLR 07/M03 A2972 RMK SLPNO T00721034",
+      "sky_condition": "CLR",
+      "temperature_f": 45.0,
+      "dewpoint_f": 25.88,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 21.864819999999998,
+      "wind_gust_mph": 31.07106,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T17:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 161700Z 34022G29KT 20SM SCT250 10/M02 A2973 RMK SLPNO T01001023",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 27.86,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 25.317159999999998,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T18:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 161800Z 30021G29KT 20SM BKN250 11/M02 A2971 RMK SLPNO T01051017",
+      "sky_condition": "BKN",
+      "temperature_f": 51.0,
+      "dewpoint_f": 29.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 24.166379999999997,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T19:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 161900Z 30023G30KT 20SM BKN250 11/M02 A2970 RMK SLPNO T01111023",
+      "sky_condition": "BKN",
+      "temperature_f": 52.0,
+      "dewpoint_f": 27.86,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T20:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 162000Z 30019KT 20SM SCT150 BKN250 11/M02 A2969 RMK SLPNO T01051017",
+      "sky_condition": "SCT",
+      "temperature_f": 51.0,
+      "dewpoint_f": 29.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 21.864819999999998,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T21:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 162100Z 30010KT 20SM SCT150 BKN250 10/M02 A2966 RMK SLPNO T01001023",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 27.86,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T22:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 162200Z 30007KT 20SM SCT250 12/M05 A2964 RMK SLPNO T01161050",
+      "sky_condition": "SCT",
+      "temperature_f": 52.88,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-16T23:00:00Z",
+      "station_id": "KAIA",
+      "metar": "METAR KAIA 162300Z 30006KT 20SM SCT250 12/M05 A2962 RMK SLPNO T01161050",
+      "sky_condition": "SCT",
+      "temperature_f": 52.88,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 20.0
+    }
+  ],
+  "estimated": false
+}

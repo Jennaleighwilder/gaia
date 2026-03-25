@@ -1,0 +1,113 @@
+{
+  "event_id": "noaa_148391_MONTANA",
+  "event_date": "2008-12-13",
+  "event_datetime_utc": "2008-12-13T18:00:00Z",
+  "station": "KLWT",
+  "county": "PETROLEUM",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "2008-12-13T00:54:00Z",
+      "station_id": "KLWT",
+      "metar": "KLWT 130054Z AUTO 14007KT 10SM OVC085 02/M07 A2941 RMK AO2 SLP976 T00171072",
+      "sky_condition": "OVC",
+      "temperature_f": 35.0,
+      "dewpoint_f": 19.0,
+      "pressure_mb": 997.6,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T01:54:00Z",
+      "station_id": "KLWT",
+      "metar": "KLWT 130154Z AUTO 04014G20KT 010V090 10SM OVC060 03/M09 A2937 RMK AO2 SLP961 T00331094",
+      "sky_condition": "OVC",
+      "temperature_f": 38.0,
+      "dewpoint_f": 15.0,
+      "pressure_mb": 996.1,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T02:54:00Z",
+      "station_id": "KLWT",
+      "metar": "KLWT 130254Z AUTO 01008KT 10SM OVC070 03/M09 A2935 RMK AO2 SLP954 T00281089 56029",
+      "sky_condition": "OVC",
+      "temperature_f": 37.0,
+      "dewpoint_f": 16.0,
+      "pressure_mb": 995.4,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T03:54:00Z",
+      "station_id": "KLWT",
+      "metar": "KLWT 130354Z AUTO 32004KT 10SM OVC080 03/M08 A2932 RMK AO2 SLP944 T00281083",
+      "sky_condition": "OVC",
+      "temperature_f": 37.0,
+      "dewpoint_f": 17.0,
+      "pressure_mb": 994.4,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T04:54:00Z",
+      "station_id": "KLWT",
+      "metar": "KLWT 130454Z AUTO 22003KT 10SM OVC065 02/M07 A2931 RMK AO2 SLP935 T00171072",
+      "sky_condition": "OVC",
+      "temperature_f": 35.0,
+      "dewpoint_f": 19.0,
+      "pressure_mb": 993.5,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T05:54:00Z",
+      "station_id": "KLWT",
+      "metar": "KLWT 130554Z AUTO 24005KT 10SM FEW060 BKN075 OVC095 02/M04 A2928 RMK AO2 SLP924 T00171044 10061 20006 58020",
+      "sky_condition": "FEW",
+      "temperature_f": 35.0,
+      "dewpoint_f": 24.0,
+      "pressure_mb": 992.4,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T22:54:00Z",
+      "station_id": "KLWT",
+      "metar": "KLWT 132254Z AUTO 31016G24KT 3/4SM -SN VV009 M23/M26 A2983 RMK AO2 SLP170 P0000 T12281261",
+      "sky_condition": "VV ",
+      "temperature_f": -9.0,
+      "dewpoint_f": -15.0,
+      "pressure_mb": 1017.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 0.75,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2008-12-13T23:54:00Z",
+      "station_id": "KLWT",
+      "metar": "KLWT 132354Z AUTO 31011KT 8SM FEW002 OVC090 M23/M27 A2987 RMK AO2 SNE31 SLP196 P0000 60000 T12331272 11189 21233 51039",
+      "sky_condition": "FEW",
+      "temperature_f": -10.0,
+      "dewpoint_f": -17.0,
+      "pressure_mb": 1019.6,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.0001
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_10040656_MICHIGAN",
+  "event_date": "1965-04-11",
+  "event_datetime_utc": "1965-04-11T18:00:00Z",
+  "station": "KMKG",
+  "county": "OTTAWA",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1965-04-11T00:00:00Z",
+      "station_id": "KMKG",
+      "metar": "METAR KMKG 110000Z 13014KT 15SM BKN/// OVC/// 13/01 A//// RMK SLP099 T01330011",
+      "sky_condition": "BKN",
+      "temperature_f": 56.0,
+      "dewpoint_f": 34.0,
+      "pressure_mb": 1009.9,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-11T03:00:00Z",
+      "station_id": "KMKG",
+      "metar": "METAR KMKG 110300Z 12016KT 15SM OVC/// 11/01 A//// RMK SLP078 T01060006",
+      "sky_condition": "OVC",
+      "temperature_f": 51.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1007.8,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-11T06:00:00Z",
+      "station_id": "KMKG",
+      "metar": "METAR KMKG 110600Z 09020KT 3SM TSRA OVC/// 07/03 A//// RMK SLP054 P0008 T00720033",
+      "sky_condition": "OVC",
+      "temperature_f": 45.0,
+      "dewpoint_f": 38.0,
+      "pressure_mb": 1005.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.08
+    },
+    {
+      "timestamp": "1965-04-11T09:00:00Z",
+      "station_id": "KMKG",
+      "metar": "METAR KMKG 110900Z 12020KT 10SM OVC/// 06/02 A//// RMK SLP028 T00610022",
+      "sky_condition": "OVC",
+      "temperature_f": 43.0,
+      "dewpoint_f": 36.0,
+      "pressure_mb": 1002.8,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-04-11T12:00:00Z",
+      "station_id": "KMKG",
+      "metar": "METAR KMKG 111200Z 13013KT 7SM OVC/// 07/03 A//// RMK SLP011 T00720033",
+      "sky_condition": "OVC",
+      "temperature_f": 45.0,
+      "dewpoint_f": 38.0,
+      "pressure_mb": 1001.1,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1965-04-11T15:00:00Z",
+      "station_id": "KMKG",
+      "metar": "METAR KMKG 111500Z 14013KT 7SM OVC/// 12/07 A//// RMK SLP003 T01220072",
+      "sky_condition": "OVC",
+      "temperature_f": 54.0,
+      "dewpoint_f": 45.0,
+      "pressure_mb": 1000.3,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1965-04-11T18:00:00Z",
+      "station_id": "KMKG",
+      "metar": "METAR KMKG 111800Z 13011KT 10SM BKN/// OVC/// 18/10 A//// RMK SLP975 T01830100",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 997.5,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-04-11T21:00:00Z",
+      "station_id": "KMKG",
+      "metar": "METAR KMKG 112100Z 12012KT 10SM BKN/// 20/12 A//// RMK SLP930 T02000117",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 993.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

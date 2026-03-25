@@ -1,0 +1,165 @@
+{
+  "event_id": "noaa_5611744_MISSISSIPPI",
+  "event_date": "1997-07-17",
+  "event_datetime_utc": "1997-07-17T18:00:00Z",
+  "station": "KGPT",
+  "county": "HARRISON",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1997-07-17T00:47:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 170047Z 00000KT 7SM FEW025 SCT150 BKN250 28/21 A2999",
+      "sky_condition": "FEW",
+      "temperature_f": 82.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-07-17T01:47:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 170147Z 23005KT 7SM FEW025 SCT250 27/23 A3001",
+      "sky_condition": "FEW",
+      "temperature_f": 80.6,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-07-17T02:47:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 170247Z 22004KT 10SM SCT030 SCT250 26/23 A3002",
+      "sky_condition": "SCT",
+      "temperature_f": 78.8,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-07-17T03:49:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 170349Z 22003KT 10SM FEW030 SCT250 25/23 A3001",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-07-17T10:47:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 171047Z 00000KT 7SM FEW250 23/22 A2999",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-07-17T14:48:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 171448Z 08007KT 7SM SCT020 SCT200 28/23 A3001",
+      "sky_condition": "SCT",
+      "temperature_f": 82.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-07-17T15:47:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 171547Z 09005KT 7SM FEW006 SCT045 BKN075 OVC250 29/23 A3000 RMK BINOVC OHD",
+      "sky_condition": "FEW",
+      "temperature_f": 84.2,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-07-17T16:48:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 171648Z 25010KT 2SM TSRA BKN006 OVC010 22/22 A3005 RMK TS OHD MOV NE OCNL LGTICCG",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1997-07-17T17:46:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 171746Z VRB05KT 2SM TSRA BKN006 OVC033 23/23 A3003 RMK TS S MOV NE",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1997-07-17T18:52:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 171852Z VRB03KT 7SM FEW010 SCT050 BKN100 OVC200 24/22 A3001",
+      "sky_condition": "FEW",
+      "temperature_f": 75.2,
+      "dewpoint_f": 71.6,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-07-17T19:47:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 171947Z 00000KT 7SM FEW010 SCT100 OVC200 26/22 A2999",
+      "sky_condition": "FEW",
+      "temperature_f": 78.8,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-07-17T20:47:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 172047Z 12007KT 10SM SCT015 SCT100 BKN180 27/23 A2996",
+      "sky_condition": "SCT",
+      "temperature_f": 80.6,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-07-17T21:48:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 172148Z 11006KT 10SM SCT015 SCT033 OVC180 28/22 A2995",
+      "sky_condition": "SCT",
+      "temperature_f": 82.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-07-17T22:48:00Z",
+      "station_id": "KGPT",
+      "metar": "METAR KGPT 172248Z 12007KT 10SM SCT015 SCT070 BKN120 27/21 A2993",
+      "sky_condition": "SCT",
+      "temperature_f": 80.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

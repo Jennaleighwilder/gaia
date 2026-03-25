@@ -1,0 +1,113 @@
+{
+  "event_id": "noaa_142543_MONTANA",
+  "event_date": "2008-12-13",
+  "event_datetime_utc": "2008-12-13T18:00:00Z",
+  "station": "KSHR",
+  "county": "SOUTHERN BIG HORN",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "2008-12-13T00:53:00Z",
+      "station_id": "KSHR",
+      "metar": "KSHR 130053Z AUTO 00000KT 10SM CLR M02/M05 A2947 RMK AO2 SLP014 T10171050",
+      "sky_condition": "CLR",
+      "temperature_f": 29.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1001.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T01:53:00Z",
+      "station_id": "KSHR",
+      "metar": "KSHR 130153Z AUTO 00000KT 10SM CLR M01/M05 A2944 RMK AO2 SLP001 T10061050",
+      "sky_condition": "CLR",
+      "temperature_f": 31.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1000.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T02:53:00Z",
+      "station_id": "KSHR",
+      "metar": "KSHR 130253Z AUTO 00000KT 10SM CLR M01/M05 A2940 RMK AO2 SLP992 T10111050 56034",
+      "sky_condition": "CLR",
+      "temperature_f": 30.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 999.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T03:53:00Z",
+      "station_id": "KSHR",
+      "metar": "KSHR 130353Z AUTO 23004KT 10SM CLR M03/M05 A2935 RMK AO2 SLP970 T10281050",
+      "sky_condition": "CLR",
+      "temperature_f": 27.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 997.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T04:53:00Z",
+      "station_id": "KSHR",
+      "metar": "KSHR 130453Z AUTO 00000KT 10SM CLR M02/M05 A2932 RMK AO2 SLP957 T10221050",
+      "sky_condition": "CLR",
+      "temperature_f": 28.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 995.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T05:53:00Z",
+      "station_id": "KSHR",
+      "metar": "KSHR 130553Z AUTO 31006KT 10SM SCT120 M02/M04 A2930 RMK AO2 SLP947 T10221044 10006 21028 56028",
+      "sky_condition": "SCT",
+      "temperature_f": 28.0,
+      "dewpoint_f": 24.0,
+      "pressure_mb": 994.7,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2008-12-13T21:53:00Z",
+      "station_id": "KSHR",
+      "metar": "KSHR 132153Z AUTO 32027G41KT 3/4SM -SN VV012 M15/M18 A2952 RMK AO2 PK WND 31049/2103 SLP051 P0000 T11501183 TSNO",
+      "sky_condition": "VV ",
+      "temperature_f": 5.0,
+      "dewpoint_f": -1.0,
+      "pressure_mb": 1005.1,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 31.07106,
+      "wind_gust_mph": 47.181979999999996,
+      "visibility_mi": 0.75,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2008-12-13T23:53:00Z",
+      "station_id": "KSHR",
+      "metar": "KSHR 132353Z AUTO 34022G31KT 2 1/2SM -SN BKN019 OVC042 M18/M22 A2970 RMK AO2 PK WND 32037/2315 SLP117 P0000 60000 T11831217 11022 21183 51086",
+      "sky_condition": "BKN",
+      "temperature_f": -1.0,
+      "dewpoint_f": -7.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 25.317159999999998,
+      "wind_gust_mph": 35.67418,
+      "visibility_mi": 2.5,
+      "precip_1h_in": 0.0001
+    }
+  ],
+  "estimated": false
+}

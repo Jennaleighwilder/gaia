@@ -1,0 +1,18 @@
+{
+  "event_id": "noaa_143198_ILLINOIS",
+  "date": "2008-12-21",
+  "event_datetime_utc": "2008-12-21T18:00:00Z",
+  "magnitude": "",
+  "county": "lee",
+  "state": "ILLINOIS",
+  "station": "KTLX",
+  "composite_reflectivity": 55,
+  "velocity_max": 22.5,
+  "velocity_min": -22.5,
+  "rotation_couplet_kt": 45.0,
+  "rotation_score": 0.72,
+  "vil": 40,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

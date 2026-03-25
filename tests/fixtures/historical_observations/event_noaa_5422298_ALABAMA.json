@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_5422298_ALABAMA",
+  "event_date": "2004-09-13",
+  "event_datetime_utc": "2004-09-13T18:00:00Z",
+  "station": "K79J",
+  "county": "COVINGTON",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "2004-09-13T13:56:00Z",
+      "station_id": "K79J",
+      "metar": "K79J 131356Z 08011KT 9SM -RA BKN008 OVC012 23/23 A3006 RMK AO2A CIG 007V012 SLP175 70046 E72HR",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "pressure_mb": 1017.5,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "2004-09-13T14:56:00Z",
+      "station_id": "K79J",
+      "metar": "K79J 131456Z 08008KT 10SM BKN012 OVC017 23/23 A3008 RMK AO2A SLP181 60000 53010",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "pressure_mb": 1018.1,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-13T15:56:00Z",
+      "station_id": "K79J",
+      "metar": "K79J 131556Z 10005KT 10SM BKN012 OVC018 24/24 A3009 RMK AO2A SLP184",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "dewpoint_f": 75.2,
+      "pressure_mb": 1018.4,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-13T16:56:00Z",
+      "station_id": "K79J",
+      "metar": "K79J 131656Z 09008KT 10SM SCT018 BKN025 OVC250 25/24 A3008 RMK AO2A SLP181",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 75.2,
+      "pressure_mb": 1018.1,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-13T17:56:00Z",
+      "station_id": "K79J",
+      "metar": "K79J 131756Z 10009KT 10SM BKN027 OVC032 26/24 A3007 RMK AO2A SLP179 60000 58003",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "dewpoint_f": 75.2,
+      "pressure_mb": 1017.9,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-13T18:56:00Z",
+      "station_id": "K79J",
+      "metar": "K79J 131856Z 07008KT 10SM SCT022 BKN030 OVC250 26/24 A3005 RMK AO2A SLP171",
+      "sky_condition": "SCT",
+      "temperature_f": 78.8,
+      "dewpoint_f": 75.2,
+      "pressure_mb": 1017.1,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-13T19:56:00Z",
+      "station_id": "K79J",
+      "metar": "K79J 131956Z 09010G16KT 10SM SCT026 BKN033 BKN250 28/24 A3002 RMK AO2A SLP161",
+      "sky_condition": "SCT",
+      "temperature_f": 82.4,
+      "dewpoint_f": 75.2,
+      "pressure_mb": 1016.1,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 18.41248,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-13T20:56:00Z",
+      "station_id": "K79J",
+      "metar": "K79J 132056Z 10009KT 10SM SCT035 BKN250 28/23 A3000 RMK AO2A SLP154 56022",
+      "sky_condition": "SCT",
+      "temperature_f": 82.4,
+      "dewpoint_f": 73.4,
+      "pressure_mb": 1015.4,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

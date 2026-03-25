@@ -1,0 +1,189 @@
+{
+  "event_id": "noaa_5155527_VIRGINIA",
+  "event_date": "2000-07-13",
+  "event_datetime_utc": "2000-07-13T18:00:00Z",
+  "station": "KBLF",
+  "county": "BUCHANAN",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "2000-07-13T00:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 130050Z VRB04KT 3/4SM BR BKN003 OVC008 18/18 A3011 RMK SLP170 T01840179",
+      "sky_condition": "BKN",
+      "temperature_f": 65.12,
+      "dewpoint_f": 64.22,
+      "pressure_mb": 1017.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "2000-07-13T01:25:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 130125Z VRB05KT 3SM BR BKN003 OVC006 18/18 A3011",
+      "sky_condition": "BKN",
+      "temperature_f": 64.4,
+      "dewpoint_f": 64.4,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "2000-07-13T09:55:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 130955Z 12007G13KT 5SM HZ BR FEW025 SCT045 BKN060 17/16 A3008 RMK SLP162 T01730157",
+      "sky_condition": "FEW",
+      "temperature_f": 63.14,
+      "dewpoint_f": 60.26,
+      "pressure_mb": 1016.2,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546,
+      "wind_gust_mph": 14.960139999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "2000-07-13T10:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131050Z VRB03KT 5SM -TSRA BR BKN025 OVC040 17/16 A3009 RMK OCNL LTGICCC TSB49 TS N SLP166 T01720166",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.88,
+      "pressure_mb": 1016.6,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "2000-07-13T11:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131150Z 08004KT 3SM -RA BR BKN025 OVC040 17/16 A3010 RMK TSE48 TS MOV N SLP171 6//// 70050 T01690163 10186 20169 52007",
+      "sky_condition": "BKN",
+      "temperature_f": 62.42,
+      "dewpoint_f": 61.34,
+      "pressure_mb": 1017.1,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "2000-07-13T12:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131250Z VRB06KT 4SM BR BKN015 OVC025 18/17 A3011 RMK RE18 SLP173 T01750170",
+      "sky_condition": "BKN",
+      "temperature_f": 63.5,
+      "dewpoint_f": 62.6,
+      "pressure_mb": 1017.3,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "2000-07-13T13:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131350Z 11007KT 070V180 7SM FEW015 BKN025 OVC040 18/17 A3011 RMK SLPN O T01840171",
+      "sky_condition": "FEW",
+      "temperature_f": 65.12,
+      "dewpoint_f": 62.78,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "2000-07-13T14:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131450Z 18006KT 10SM -RA FEW015 BKN025 OVC035 19/17 A3011 RMK RB42 SL PNO T01890173 54000",
+      "sky_condition": "FEW",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-07-13T15:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131550Z 10005KT 10SM FEW010 BKN025  RMK RAE19 SLPNO T01960174",
+      "sky_condition": "FEW",
+      "temperature_f": 67.28,
+      "dewpoint_f": 63.32,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-07-13T16:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131650Z 17006KT 120V210 10SM FEW005 SCT015 BKN030 23/19 A3009 RMK SLPNO T02300190",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-07-13T17:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131750Z 16006KT 10SM SCT015 SCT030 BKN120 23/20 A3009 RMK SLPNO 60001 T0234 0195 10238 20169 56007",
+      "sky_condition": "SCT",
+      "temperature_f": 74.12,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-07-13T19:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 131950Z VRB04KT 10SM SCT015 BKN045 BKN070 22/20 A3006 RMK SLPNO T02240197",
+      "sky_condition": "SCT",
+      "temperature_f": 72.32,
+      "dewpoint_f": 67.46,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-07-13T20:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 132050Z VRB04KT 10SM SCT020 BKN030 BKN045 22/19 A3006 RMK SLPNO T02170193 56008",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 66.74,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-07-13T21:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 132150Z VRB04KT 10SM  BKN040 22/20 A3006 RMK SLP152 T02170196",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 67.28,
+      "pressure_mb": 1015.2,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-07-13T22:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 132250Z 08006KT 7SM -SHRA SCT010 BKN020 OVC030 21/19 A3005 RMK RAB22 SLP150 T02130194",
+      "sky_condition": "SCT",
+      "temperature_f": 70.34,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1015.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "2000-07-13T23:50:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 132350Z VRB04KT 10SM FEW020 SCT045 SCT120 20/20 A3004 RMK RAE12 SLP14 8 60002 T02020196 10246 20200 58007",
+      "sky_condition": "FEW",
+      "temperature_f": 68.36,
+      "dewpoint_f": 67.28,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

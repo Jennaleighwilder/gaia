@@ -1,0 +1,240 @@
+{
+  "event_id": "noaa_265723_WYOMING",
+  "event_date": "2010-12-07",
+  "event_datetime_utc": "2010-12-07T18:00:00Z",
+  "station": "KP60",
+  "county": "TETON & GROS VENTRE MOUNTAINS",
+  "event_type": "Avalanche",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2010-12-07T00:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070056Z AUTO VRB04KT M03/M04 A3016 RMK AO2 SLP237 P0001 T10281039 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1023.7,
+      "wind_speed_mph": 4.60312,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2010-12-07T01:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070156Z AUTO 00000KT M03/M04 A3015 RMK AO2 SLP229 P0003 T10281039 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1022.9,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2010-12-07T02:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070256Z AUTO 00000KT M03/M04 A3016 RMK AO2 SLP237 P0002 60006 T10331039 51005 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 26.0,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1023.7,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2010-12-07T03:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070356Z AUTO 00000KT M03/M04 A3017 RMK AO2 SLP243 P0001 T10331044 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 26.0,
+      "dewpoint_f": 24.0,
+      "pressure_mb": 1024.3,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2010-12-07T04:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070456Z AUTO 00000KT M03/M04 A3019 RMK AO2 SLP246 T10331044 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 26.0,
+      "dewpoint_f": 24.0,
+      "pressure_mb": 1024.6
+    },
+    {
+      "timestamp": "2010-12-07T05:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070556Z AUTO 00000KT M04/M04 A3022 RMK AO2 SLP255 60007 T10391044 11022 21039 53016 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 25.0,
+      "dewpoint_f": 24.0,
+      "pressure_mb": 1025.5
+    },
+    {
+      "timestamp": "2010-12-07T06:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070656Z AUTO 00000KT M04/M05 A3024 RMK AO2 SLP262 T10391050 410171067 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 25.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1026.2
+    },
+    {
+      "timestamp": "2010-12-07T07:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070756Z AUTO 00000KT M04/M05 A3025 RMK AO2 SLP264 T10391050 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 25.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1026.4
+    },
+    {
+      "timestamp": "2010-12-07T08:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070856Z AUTO 00000KT M04/M06 A3027 RMK AO2 SLP269 T10391056 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 25.0,
+      "dewpoint_f": 22.0,
+      "pressure_mb": 1026.9
+    },
+    {
+      "timestamp": "2010-12-07T09:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 070956Z AUTO 00000KT M04/M06 A3030 RMK AO2 SLP282 T10391061 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 25.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1028.2
+    },
+    {
+      "timestamp": "2010-12-07T10:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071056Z AUTO 00000KT M04/M06 A3031 RMK AO2 SLP283 T10441061 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 24.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1028.3
+    },
+    {
+      "timestamp": "2010-12-07T11:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071156Z AUTO 28003KT M05/M06 A3033 RMK AO2 SLP293 70025 T10501061 11033 21050 51016 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 23.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1029.3,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2010-12-07T12:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071256Z AUTO 00000KT M05/M07 A3035 RMK AO2 SLP305 T10501067 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 23.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1030.5
+    },
+    {
+      "timestamp": "2010-12-07T13:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071356Z AUTO 00000KT M05/M07 A3036 RMK AO2 SLP309 T10501067 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 23.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1030.9
+    },
+    {
+      "timestamp": "2010-12-07T14:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071456Z AUTO 00000KT M05/M06 A3038 RMK AO2 SLP315 T10501061 51014 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 23.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1031.5
+    },
+    {
+      "timestamp": "2010-12-07T15:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071556Z AUTO 00000KT M04/M06 A3038 RMK AO2 SLP316 T10441061 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 24.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1031.6
+    },
+    {
+      "timestamp": "2010-12-07T16:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071656Z AUTO 00000KT M04/M06 A3038 RMK AO2 SLP317 T10391061 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 25.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1031.7
+    },
+    {
+      "timestamp": "2010-12-07T17:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071756Z AUTO VRB03KT M04/M07 A3039 RMK AO2 SLP315 T10391067 11033 21050 53003 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 25.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1031.5,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2010-12-07T18:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071856Z AUTO 00000KT M03/M06 A3039 RMK AO2 SLP317 T10331056 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 26.0,
+      "dewpoint_f": 22.0,
+      "pressure_mb": 1031.7
+    },
+    {
+      "timestamp": "2010-12-07T19:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 071956Z AUTO VRB03KT M03/M06 A3038 RMK AO2 SLP311 T10281061 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1031.1,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2010-12-07T20:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 072056Z AUTO 00000KT M02/M06 A3036 RMK AO2 SLP302 T10221056 58008 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 28.0,
+      "dewpoint_f": 22.0,
+      "pressure_mb": 1030.2
+    },
+    {
+      "timestamp": "2010-12-07T21:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 072156Z AUTO 25003KT M03/M06 A3037 RMK AO2 SLP308 T10281056 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 22.0,
+      "pressure_mb": 1030.8,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2010-12-07T22:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 072256Z AUTO 00000KT M03/M05 A3037 RMK AO2 SLP311 T10281050 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1031.1
+    },
+    {
+      "timestamp": "2010-12-07T23:56:00Z",
+      "station_id": "KP60",
+      "metar": "KP60 072356Z AUTO 00000KT M03/M06 A3037 RMK AO2 SLP314 T10331061 11022 21039 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 26.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1031.4
+    }
+  ],
+  "estimated": false
+}

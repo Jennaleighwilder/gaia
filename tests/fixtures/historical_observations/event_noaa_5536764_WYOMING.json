@@ -1,0 +1,114 @@
+{
+  "event_id": "noaa_5536764_WYOMING",
+  "event_date": "1996-01-24",
+  "event_datetime_utc": "1996-01-24T18:00:00Z",
+  "station": "KEVW",
+  "county": "UINTA",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1996-01-24T00:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 240000Z 22016KT 5SM -BLSN OVC020 M10/M11 A2992 RMK SLPNO T10951106",
+      "sky_condition": "OVC",
+      "temperature_f": 14.9,
+      "dewpoint_f": 13.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-01-24T01:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 240100Z 22014KT 5SM -BLSN OVC030 M10/M11 A2992 RMK SLPNO T10951106",
+      "sky_condition": "OVC",
+      "temperature_f": 14.9,
+      "dewpoint_f": 13.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-01-24T13:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 241300Z 20020KT 3SM -SN OVC010 M06/M08 A2972 RMK SLPNO T10561078",
+      "sky_condition": "OVC",
+      "temperature_f": 22.0,
+      "dewpoint_f": 18.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-01-24T14:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 241400Z 20025KT 3SM -SN OVC015 M07/M08 A2972 RMK SLPNO T10671078",
+      "sky_condition": "OVC",
+      "temperature_f": 20.0,
+      "dewpoint_f": 18.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-01-24T15:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 241500Z 20019G31KT 3/4SM -SN FG OVC020 M07/M07 A2969 RMK SLPNO T10671073",
+      "sky_condition": "OVC",
+      "temperature_f": 20.0,
+      "dewpoint_f": 18.86,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 21.864819999999998,
+      "wind_gust_mph": 35.67418,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-24T16:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 241600Z 20018G30KT 3/4SM -SN FG OVC010 M07/M07 A2966 RMK SLPNO T10671073",
+      "sky_condition": "OVC",
+      "temperature_f": 20.0,
+      "dewpoint_f": 18.86,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-24T17:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 241700Z 21028KT 1/2SM -BLSN OVC010 M07/M08 A2965 RMK SLPNO T10671078",
+      "sky_condition": "OVC",
+      "temperature_f": 20.0,
+      "dewpoint_f": 18.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 32.22184,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-24T19:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 241900Z 20031KT 1/4SM -SN -BLSN OVC003 M06/M06 A2961 RMK SLPNO T10561062",
+      "sky_condition": "OVC",
+      "temperature_f": 22.0,
+      "dewpoint_f": 20.84,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 35.67418,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1996-01-24T21:00:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 242100Z 24017KT 1/4SM -SN -BLSN OVC008 M05/M06 A2963 RMK SLPNO T10501056",
+      "sky_condition": "OVC",
+      "temperature_f": 23.0,
+      "dewpoint_f": 22.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 0.25
+    }
+  ],
+  "estimated": false
+}

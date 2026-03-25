@@ -1,0 +1,49 @@
+{
+  "event_id": "noaa_119936_INDIANA",
+  "event_date": "2008-06-04",
+  "event_datetime_utc": "2008-06-04T18:00:00Z",
+  "station": "KMIE",
+  "county": "HENRY",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 3,
+  "observations": [
+    {
+      "timestamp": "2008-06-04T00:53:00Z",
+      "station_id": "KMIE",
+      "metar": "KMIE 040053Z 32004KT 9SM FEW110 23/19 A2964 RMK AO2 LTG DSNT SE-SW SLP026 T02330194",
+      "sky_condition": "FEW",
+      "temperature_f": 74.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1002.6,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "2008-06-04T01:53:00Z",
+      "station_id": "KMIE",
+      "metar": "KMIE 040153Z 00000KT 8SM BKN030 BKN065 23/19 A2964 RMK AO2 LTG DSNT SE SLP026 T02280194",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1002.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2008-06-04T02:53:00Z",
+      "station_id": "KMIE",
+      "metar": "KMIE 040253Z AUTO 09005KT 8SM BKN017 BKN023 OVC030 23/20 A2965 RMK AO2 LTG DSNT S AND SW SLP032 T02330200 55001",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1003.2,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 8.0
+    }
+  ],
+  "estimated": false
+}

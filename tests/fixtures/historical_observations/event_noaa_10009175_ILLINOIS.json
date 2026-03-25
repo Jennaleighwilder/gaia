@@ -1,0 +1,101 @@
+{
+  "event_id": "noaa_10009175_ILLINOIS",
+  "event_date": "1974-08-10",
+  "event_datetime_utc": "1974-08-10T18:00:00Z",
+  "station": "KMTO",
+  "county": "JASPER",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1974-08-10T00:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 100000Z AUTO 18003KT 5SM SCT039 BKN098 25/22 A3003 RMK T02500217 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1974-08-10T15:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 101500Z AUTO 13010KT 6SM BKN007 OVC030 22/21 A3000 RMK T02220206 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1974-08-10T16:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 101600Z AUTO 15010KT 6SM BKN007 OVC015 23/21 A3000 RMK T02280211 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1974-08-10T17:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 101700Z AUTO 15012KT 7SM BKN008 OVC015 23/21 A3000 RMK T02280211 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-08-10T18:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 101800Z AUTO 13012KT 7SM BKN008 OVC015 23/22 A2999 RMK T02330222 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-08-10T19:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 101900Z AUTO 12012KT 7SM BKN008 OVC020 23/22 A2997 RMK T02280222 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-08-10T20:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 102000Z AUTO 15012KT 7SM BKN008 OVC020 24/22 A2995 RMK T02390222 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-08-10T21:00:00Z",
+      "station_id": "KMTO",
+      "metar": "KMTO 102100Z AUTO 15014KT 7SM BKN008 OVC020 24/23 A2993 RMK T02390228 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 73.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

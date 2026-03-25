@@ -1,0 +1,156 @@
+{
+  "event_id": "noaa_10068735_NEBRASKA",
+  "event_date": "1984-06-12",
+  "event_datetime_utc": "1984-06-12T18:00:00Z",
+  "station": "KHSI",
+  "county": "THAYER",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1984-06-12T00:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 120000Z 15014KT 10SM BKN030 BKN100 26/21 A2982 RMK LAST SLPNO 60062 T02610206 402780167 54082",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T12:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 121200Z 09008KT 7SM -DZ OVC020 16/16 A2994 RMK 20140 SLPNO 60056 70142 T01610156 402780133 54082",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1984-06-12T13:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 121300Z 12011KT 10SM BKN020 BKN050 16/16 A2994 RMK SLPNO T01610156",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T14:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 121400Z 13015KT 10SM BKN005 17/16 A2994 RMK SLPNO T01670156",
+      "sky_condition": "BKN",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T15:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 121500Z 11015KT 10SM -DZ BKN025 BKN050 18/16 A2996 RMK SLPNO T01780156",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T16:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 121600Z 12013KT 10SM SCT025 SCT100 19/17 A2994 RMK SLPNO T01940167",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T17:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 121700Z 16014KT 10SM BKN080 23/17 A2994 RMK SLPNO T02280167",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T18:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 121800Z 15009KT 10SM SCT020 BKN080 24/18 A2993 RMK SLPNO T02390183",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T19:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 121900Z 15013KT 10SM BKN020 BKN080 26/21 A2993 RMK SLPNO T02560206",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T20:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 122000Z 14009KT 10SM BKN020 BKN080 23/22 A2993 RMK SLPNO T02280217",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T21:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 122100Z 12008KT 10SM BKN020 BKN080 26/21 A2993 RMK SLPNO T02560211",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T22:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 122200Z 12009KT 10SM BKN020 BKN060 27/22 A2993 RMK SLPNO T02670222",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1984-06-12T23:00:00Z",
+      "station_id": "KHSI",
+      "metar": "METAR KHSI 122300Z 09008KT 10SM SCT020 BKN060 27/23 A2988 RMK SLPNO T02720228",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 73.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

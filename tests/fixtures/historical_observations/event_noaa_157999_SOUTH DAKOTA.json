@@ -1,0 +1,253 @@
+{
+  "event_id": "noaa_157999_SOUTH DAKOTA",
+  "event_date": "2009-03-30",
+  "event_datetime_utc": "2009-03-30T18:00:00Z",
+  "station": "KD07",
+  "county": "ZIEBACH",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2009-03-30T00:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300056Z AUTO 02/00 A2948 RMK AO2 PRESRR SLP011 T00170000 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 35.0,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 1001.1,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T01:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300156Z AUTO 01/M01 A2951 RMK AO2 SLP019 T00111006 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 34.0,
+      "dewpoint_f": 30.9,
+      "pressure_mb": 1001.9,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T02:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300256Z AUTO 01/M01 A2951 RMK AO2 SLP019 T00111011 51028 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 34.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 1001.9,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T03:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300356Z AUTO 01/M02 A2952 RMK AO2 SLP020 T00111017 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 34.0,
+      "dewpoint_f": 28.9,
+      "pressure_mb": 1002.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T04:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300456Z AUTO 00/M01 A2953 RMK AO2 SLP028 T00001011 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 1002.8,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T05:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300556Z AUTO 00/M01 A2952 RMK AO2 SLP022 T00001011 10022 20000 50001 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 32.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 1002.2,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T06:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300656Z AUTO M01/M02 A2953 RMK AO2 SLP028 T10061017 400331050 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 30.9,
+      "dewpoint_f": 28.9,
+      "pressure_mb": 1002.8,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T07:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300756Z AUTO M01/M02 A2955 RMK AO2 SLP033 T10061017 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 30.9,
+      "dewpoint_f": 28.9,
+      "pressure_mb": 1003.3,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T08:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300856Z AUTO M01/M02 A2955 RMK AO2 SLP031 T10111017 50010 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 30.0,
+      "dewpoint_f": 28.9,
+      "pressure_mb": 1003.1,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T09:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 300956Z AUTO M01/M02 A2955 RMK AO2 SLP032 T10111022 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 30.0,
+      "dewpoint_f": 28.0,
+      "pressure_mb": 1003.2,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T10:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301056Z AUTO M02/M02 A2960 RMK AO2 SLP048 T10171022 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 28.9,
+      "dewpoint_f": 28.0,
+      "pressure_mb": 1004.8,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T11:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301156Z AUTO M02/M03 A2962 RMK AO2 SLP059 70004 T10221028 10000 21022 53023 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 28.0,
+      "dewpoint_f": 27.0,
+      "pressure_mb": 1005.9,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T12:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301256Z AUTO M02/M03 A2965 RMK AO2 SLP067 P0001 T10221028 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 28.0,
+      "dewpoint_f": 27.0,
+      "pressure_mb": 1006.7,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2009-03-30T13:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301356Z AUTO M03/M03 A2967 RMK AO2 SLP077 P0004 T10281033 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 27.0,
+      "dewpoint_f": 26.1,
+      "pressure_mb": 1007.7,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "2009-03-30T14:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301456Z AUTO M03/M03 A2968 RMK AO2 SLP081 P0002 60007 T10281033 51019 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 27.0,
+      "dewpoint_f": 26.1,
+      "pressure_mb": 1008.1,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2009-03-30T15:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301556Z AUTO M03/M04 A2969 RMK AO2 SLP084 T10281039 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 27.0,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1008.4,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T16:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301656Z AUTO M02/M03 A2971 RMK AO2 SLP092 P0001 T10221033 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 28.0,
+      "dewpoint_f": 26.1,
+      "pressure_mb": 1009.2,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2009-03-30T17:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301756Z AUTO M03/M03 A2972 RMK AO2 SLP096 P0002 60010 T10281033 11022 21028 53013 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 27.0,
+      "dewpoint_f": 26.1,
+      "pressure_mb": 1009.6,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2009-03-30T18:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301856Z AUTO M03/M03 A2974 RMK AO2 SLP104 P0001 T10281033 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 27.0,
+      "dewpoint_f": 26.1,
+      "pressure_mb": 1010.4,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2009-03-30T19:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 301956Z AUTO M03/M04 A2976 RMK AO2 SLP110 P0001 T10331039 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 26.1,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1011.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2009-03-30T20:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 302056Z AUTO M03/M04 A2976 RMK AO2 SLP113 60002 T10331039 51013 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 26.1,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1011.3,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2009-03-30T21:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 302156Z AUTO M03/M04 A2978 RMK AO2 SLP120 P0001 T10331044 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 26.1,
+      "dewpoint_f": 24.1,
+      "pressure_mb": 1012.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2009-03-30T22:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 302256Z AUTO M03/M04 A2981 RMK AO2 SLP127 P0001 T10331039 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 26.1,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1012.7,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2009-03-30T23:56:00Z",
+      "station_id": "KD07",
+      "metar": "KD07 302356Z AUTO M04/M04 A2982 RMK AO2 SLP135 60004 T10391044 11028 21039 PWINO FZRANO TSNO $",
+      "sky_condition": null,
+      "temperature_f": 25.0,
+      "dewpoint_f": 24.1,
+      "pressure_mb": 1013.5,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

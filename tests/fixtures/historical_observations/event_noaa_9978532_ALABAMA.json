@@ -1,0 +1,121 @@
+{
+  "event_id": "noaa_9978532_ALABAMA",
+  "event_date": "1982-04-25",
+  "event_datetime_utc": "1982-04-25T18:00:00Z",
+  "station": "KBFM",
+  "county": "MOBILE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 10,
+  "observations": [
+    {
+      "timestamp": "1982-04-29T14:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 291400Z 05004KT 4SM DZ BKN100 BKN200 19/12 A3006 RMK SLPNO T01940117",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1982-04-29T15:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 291500Z 09005KT 4SM DZ SCT100 BKN200 20/12 A3006 RMK SLPNO T02000117",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1982-04-29T16:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 291600Z 13006KT 5SM DZ SCT100 23/14 A3005 RMK SLPNO T02330139",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1982-04-29T17:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 291700Z /////KT 6SM DZ SCT100 26/14 A3004 RMK SLPNO T02560144",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 58.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1982-04-29T18:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 291800Z 14008KT 6SM DZ SCT100 26/14 A3003 RMK SLPNO T02560144",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1982-04-29T19:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 291900Z 16008KT 7SM SCT035 SCT100 26/14 A3003 RMK SLPNO T02560139",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-29T20:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 292000Z 16010KT 7SM SCT035 25/14 A3002 RMK SLPNO T02500144",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-29T21:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 292100Z 16012KT 7SM SCT035 25/14 A3001 RMK SLPNO T02500144",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-29T22:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 292200Z 16010KT 8SM BKN035 BKN100 23/14 A3002 RMK SLPNO T02280144",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1982-04-29T23:00:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 292300Z 17006KT 8SM BKN100 23/13 A3002 RMK SLPNO T02280128",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 8.0
+    }
+  ],
+  "estimated": false
+}

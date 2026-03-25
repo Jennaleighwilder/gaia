@@ -1,0 +1,254 @@
+{
+  "event_id": "noaa_5634684_WYOMING",
+  "event_date": "1998-02-24",
+  "event_datetime_utc": "1998-02-24T18:00:00Z",
+  "station": "KGCC",
+  "county": "SOUTH CAMPBELL",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1998-02-24T00:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240028Z AUTO 21007KT 03/M11 RMK AO1 000 T00281111",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 12.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1998-02-24T01:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240128Z AUTO 21005KT M01/M12 RMK AO1 000 T10111122",
+      "sky_condition": "   ",
+      "temperature_f": 30.0,
+      "dewpoint_f": 10.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-02-24T02:50:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240250Z 00000KT 20SM SCT120 SCT180 M01/M12 A2988",
+      "sky_condition": "SCT",
+      "temperature_f": 30.2,
+      "dewpoint_f": 10.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1998-02-24T03:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240328Z AUTO 10006KT M01/M11 RMK AO1 000 T10111105",
+      "sky_condition": "   ",
+      "temperature_f": 30.0,
+      "dewpoint_f": 13.1,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1998-02-24T04:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240428Z AUTO 19009KT M01/M11 RMK AO1 000 T10111111",
+      "sky_condition": "   ",
+      "temperature_f": 30.0,
+      "dewpoint_f": 12.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1998-02-24T05:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240528Z AUTO 20013KT M01/M12 RMK AO1 000 T10061116",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 11.12,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 14.960139999999999
+    },
+    {
+      "timestamp": "1998-02-24T06:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240628Z AUTO 18006KT M02/M12 RMK AO1 000 T10221116",
+      "sky_condition": "   ",
+      "temperature_f": 28.0,
+      "dewpoint_f": 11.12,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1998-02-24T07:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240728Z AUTO 17008KT M03/M11 RMK AO1 000 T10281105",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 13.1,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1998-02-24T08:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240828Z AUTO 11005KT M03/M10 RMK AO1 000 T10281099",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 14.18,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-02-24T09:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 240928Z AUTO 17007KT M03/M09 RMK AO1 001 T10281094",
+      "sky_condition": "   ",
+      "temperature_f": 27.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1998-02-24T10:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241028Z AUTO 18010KT M02/M09 RMK AO1 001 T10221088",
+      "sky_condition": "   ",
+      "temperature_f": 28.0,
+      "dewpoint_f": 16.16,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1998-02-24T11:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241128Z AUTO 13005KT M01/M08 RMK AO1 001 T10111077",
+      "sky_condition": "   ",
+      "temperature_f": 30.0,
+      "dewpoint_f": 18.14,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-02-24T12:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241228Z AUTO 14005KT M01/M08 RMK AO1 001 T10111077",
+      "sky_condition": "   ",
+      "temperature_f": 30.0,
+      "dewpoint_f": 18.14,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1998-02-24T13:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241328Z AUTO 15006KT M01/M06 RMK AO1 001 T10111061",
+      "sky_condition": "   ",
+      "temperature_f": 30.0,
+      "dewpoint_f": 21.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1998-02-24T14:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241428Z AUTO 12007KT M02/M04 RMK AO1 001 T10171038",
+      "sky_condition": "   ",
+      "temperature_f": 29.0,
+      "dewpoint_f": 25.16,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1998-02-24T15:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241528Z AUTO 14009KT M01/M03 RMK AO1 000 T10061027",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 27.14,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1998-02-24T16:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241628Z AUTO 14013KT 01/M03 RMK AO1 PK WND 18 000 T00061027",
+      "sky_condition": "   ",
+      "temperature_f": 33.0,
+      "dewpoint_f": 27.14,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 14.960139999999999
+    },
+    {
+      "timestamp": "1998-02-24T17:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241728Z AUTO 15020KT 02/M03 RMK AO1 PK WND 29 000 T00171027",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 27.14,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 23.0156
+    },
+    {
+      "timestamp": "1998-02-24T18:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241828Z AUTO 15022KT 03/M02 RMK AO1 PK WND 32 000 T00331022",
+      "sky_condition": "   ",
+      "temperature_f": 38.0,
+      "dewpoint_f": 28.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 25.317159999999998
+    },
+    {
+      "timestamp": "1998-02-24T19:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 241928Z AUTO 15016KT 06/M01 RMK AO1 PK WND 30 000 T00561011",
+      "sky_condition": "   ",
+      "temperature_f": 42.0,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 18.41248
+    },
+    {
+      "timestamp": "1998-02-24T20:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 242028Z AUTO 15022KT 07/M02 RMK AO1 PK WND 29 000 T00671022",
+      "sky_condition": "   ",
+      "temperature_f": 44.0,
+      "dewpoint_f": 28.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 25.317159999999998
+    },
+    {
+      "timestamp": "1998-02-24T21:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 242128Z AUTO 15021KT 09/M02 RMK AO1 PK WND 28 000 T00941016",
+      "sky_condition": "   ",
+      "temperature_f": 49.0,
+      "dewpoint_f": 29.12,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 24.166379999999997
+    },
+    {
+      "timestamp": "1998-02-24T22:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 242228Z AUTO 15017KT 09/M01 RMK AO1 PK WND 25 000 T00941011",
+      "sky_condition": "   ",
+      "temperature_f": 49.0,
+      "dewpoint_f": 30.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 19.56326
+    },
+    {
+      "timestamp": "1998-02-24T23:28:00Z",
+      "station_id": "KGCC",
+      "metar": "KGCC 242328Z AUTO 16011KT 09/M01 RMK AO1 000 T00891005",
+      "sky_condition": "   ",
+      "temperature_f": 48.0,
+      "dewpoint_f": 31.1,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 12.658579999999999
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,167 @@
+{
+  "event_id": "noaa_5354423_ALABAMA",
+  "event_date": "2003-04-07",
+  "event_datetime_utc": "2003-04-07T18:00:00Z",
+  "station": "KNMM",
+  "county": "SUMTER",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "2003-04-07T09:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 070955Z 10008KT 4SM TSRA SCT002 BKN030 OVC060 19/19 A2984 RMK FRQ LTGCC TS E MOV NE SLPNO FIRST T01940189",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "2003-04-07T10:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 071055Z 20008KT 4SM TSRA SCT002 BKN030 OVC060 19/19 A2984 RMK FRQ LTGCC TS OVHD MOV NE SLPNO TORNADO 1 SET T01940189",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "2003-04-07T11:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 071155Z 09007KT 4SM TSRA BKN002 BKN010CB OVC030 19/19 A2989 RMK FRQ LTGCC S TS S MOV NE SLPNO 6//// 70820 8/7// T01940189 10194 20183 5////",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "2003-04-07T12:55:00Z",
+      "station_id": "KNMM",
+      "metar": "KNMM 071255Z 00000KT 1SM BKN002 BKN010 OVC030 18/18 A2990 RMK SLPNO TORNADO 1 SET T01830183",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 1.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2003-04-07T14:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 071455Z 00000KT 4SM BR SCT002 BKN005 OVC010 21/20 A2995 RMK VIS S 1 1/2SM SLPNO SVR T2 SET 60008 8/6// T02130200 53017",
+      "sky_condition": "SCT",
+      "temperature_f": 70.34,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "2003-04-07T15:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 071555Z 00000KT 5SM BR SCT005 BKN008 OVC015 23/21 A2995 RMK SLPNO SVR T1 SET T02280205",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "2003-04-07T16:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 071655Z 16004KT 5SM BR SCT005 BKN008 OVC015 23/21 A2996 RMK SLPNO SVR T1 SET T02280206",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "2003-04-07T17:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 071755Z 00000KT 5SM BR SCT005 BKN008 OVC015 24/21 2994A RMKS SLPNO SVR T2 SET 60008 8/8// T02350211 10235 20183 58003",
+      "sky_condition": "   ",
+      "temperature_f": 75.2,
+      "dewpoint_f": 69.8,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "2003-04-07T18:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 071855Z 15002KT 6SM HZ SCT008 BKN020 OVC050 24/21 A2996 RMKS SLPNO SVR T2 SET T02430213",
+      "sky_condition": "SCT",
+      "temperature_f": 75.74,
+      "dewpoint_f": 70.34,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 2.30156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "2003-04-07T19:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 071955Z 10004KT 6SM HZ SCT010 BKN020 OVC050 24/21 A2993 RMKS SLPNO SVR T2 SET T02380214",
+      "sky_condition": "SCT",
+      "temperature_f": 74.84,
+      "dewpoint_f": 70.52,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "2003-04-07T20:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 072055Z 03002KT 6SM HZ BKN010 BKN020 OVC050 24/21 A2994 RMKS SLPNO SVR T2 SET 8/8// T02380208 50000",
+      "sky_condition": "BKN",
+      "temperature_f": 74.84,
+      "dewpoint_f": 69.44,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 2.30156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "2003-04-07T21:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 072155Z 15003KT 6SM BR BKN010 BKN020 OVC050 24/22 A2995 RMKS SLPNO SVR T2 SET T02360215",
+      "sky_condition": "BKN",
+      "temperature_f": 74.48,
+      "dewpoint_f": 70.7,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "2003-04-07T22:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 072255Z 13005KT 6SM BR SCT010 BKN020 OVC050 23/22 A2994 RMKS SLPNO SVR T2 SET T02260215",
+      "sky_condition": "SCT",
+      "temperature_f": 72.68,
+      "dewpoint_f": 70.7,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "2003-04-07T23:55:00Z",
+      "station_id": "KNMM",
+      "metar": "METAR KNMM 072355Z 00000KT 6SM BR BKN010 BKN020 OVC050 21/19 A2996 RMK SLPNO SVR T2 SET 60002 8/8// T02060194 10238 20183 52070",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

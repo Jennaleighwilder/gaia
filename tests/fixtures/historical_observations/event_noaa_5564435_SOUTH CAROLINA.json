@@ -1,0 +1,46 @@
+{
+  "event_id": "noaa_5564435_SOUTH CAROLINA",
+  "event_date": "1996-07-12",
+  "event_datetime_utc": "1996-07-12T18:00:00Z",
+  "station": "KCRE",
+  "county": "HORRY",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "68",
+  "observation_count": 3,
+  "observations": [
+    {
+      "timestamp": "1996-07-12T12:50:00Z",
+      "station_id": "KCRE",
+      "metar": "KCRE 121250Z 23006KT 15SM SKC 26/21 A2997",
+      "sky_condition": "CLR",
+      "temperature_f": 78.8,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-07-12T15:50:00Z",
+      "station_id": "KCRE",
+      "metar": "KCRE 121550Z 19014KT 15SM SCT150 29/22 A2998",
+      "sky_condition": "SCT",
+      "temperature_f": 84.2,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-07-12T16:50:00Z",
+      "station_id": "KCRE",
+      "metar": "KCRE 121650Z 20014KT 15SM BKN150 30/22 A2998",
+      "sky_condition": "BKN",
+      "temperature_f": 86.0,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

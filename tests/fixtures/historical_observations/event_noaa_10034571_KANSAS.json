@@ -1,0 +1,170 @@
+{
+  "event_id": "noaa_10034571_KANSAS",
+  "event_date": "1991-04-26",
+  "event_datetime_utc": "1991-04-26T18:00:00Z",
+  "station": "KAAO",
+  "county": "BUTLER",
+  "event_type": "Tornado",
+  "magnitude": "F5",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1991-04-26T00:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 260000Z AUTO 16015KT 15SM SCT034 21/ A2972 RMK IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 69.8,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-04-26T01:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 260100Z AUTO 14009KT 15SM SCT059 20/ A2973 RMK IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-04-26T03:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 260300Z AUTO 14010KT 15SM 18/ A2967 RMK IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 64.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-04-26T11:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 261100Z AUTO 18010KT 7SM OVC010 19/ RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 66.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T12:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 261200Z AUTO 18010KT 3SM BKN010 19/ A2956 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1991-04-26T14:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 261400Z AUTO 17010KT 7SM SCT020 OVC098 19/ A2958 RMK IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 66.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T15:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 261500Z AUTO 18010KT 7SM BKN020 19/ RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T16:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 261600Z AUTO 17012KT 7SM OVC012 21/ A2958 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 69.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T17:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 261700Z AUTO 17016G24KT 7SM BKN012 23/ A2957 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T18:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 261800Z AUTO 17015G25KT 7SM SCT013 BKN020 24/ A2953 RMK IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 75.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T19:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 261900Z AUTO 16015G25KT 7SM BKN020 26/ A2949 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T20:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 262000Z AUTO 17017G28KT 7SM BKN020 OVC098 26/ A2947 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 19.56326,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T21:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 262100Z AUTO 16020G32KT 7SM OVC025 26/ A2940 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 78.8,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T22:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 262200Z AUTO 17024G35KT 7SM BKN030 OVC098 26/ A2938 RMK IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 78.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 27.618719999999996,
+      "wind_gust_mph": 40.2773,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-04-26T23:00:00Z",
+      "station_id": "KAAO",
+      "metar": "KAAO 262300Z AUTO 17020G32KT 6SM OVC016 24/ A2940 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 75.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

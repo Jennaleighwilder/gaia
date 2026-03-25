@@ -1,0 +1,243 @@
+{
+  "event_id": "noaa_5564389_TEXAS",
+  "event_date": "1996-09-15",
+  "event_datetime_utc": "1996-09-15T18:00:00Z",
+  "station": "KJCT",
+  "county": "KERR",
+  "event_type": "Flood",
+  "magnitude": "",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "1996-09-15T00:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150048Z AUTO 14006KT 26/19 A2973 RMK AO1 PK WND 16 M T02610189",
+      "sky_condition": "   ",
+      "temperature_f": 79.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1996-09-15T01:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150148Z AUTO 13004KT 25/19 A2974 RMK AO1 PK WND 11 M T02500195",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1996-09-15T02:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150248Z AUTO 12006KT 25/19 A2973 RMK AO1 PK WND 12 M T02500189",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1996-09-15T03:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150348Z AUTO 14012KT 25/19 A2971 RMK AO1 PK WND 18 M T02500189",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1996-09-15T04:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150448Z AUTO 15007KT 24/20 A2976 RMK AO1 PK WND 19 M T02440200",
+      "sky_condition": "   ",
+      "temperature_f": 76.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1996-09-15T05:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150548Z AUTO 20005KT 20/17 A2976 RMK AO1 PK WND 21 M T02000167",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-09-15T06:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150648Z AUTO 19005KT 21/17 A2975 RMK AO1 PK WND E13 M T02060173",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-09-15T07:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150748Z AUTO 17002KT 20/17 A2971 RMK AO1 PK WND 05 M T02000173",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1996-09-15T08:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150848Z AUTO 09003KT 21/17 A2973 RMK AO1 PK WND 05 M T02060173",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1996-09-15T09:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 150948Z AUTO 36001KT 20/18 A2973 RMK AO1 PK WND 04 M T02000178",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1996-09-15T10:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151048Z AUTO 30002KT 20/17 A2973 RMK AO1 PK WND 04 M T02000173",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1996-09-15T11:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151148Z AUTO 28005KT 20/17 A2973 RMK AO1 PK WND 06 M T02000173",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-09-15T12:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151248Z AUTO 25003KT 19/17 A2974 RMK AO1 PK WND 06 M T01940167",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1996-09-15T13:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151348Z AUTO 23004KT 21/17 A2975 RMK AO1 PK WND 09 M T02060173",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1996-09-15T14:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151448Z AUTO 27006KT 22/18 A2975 RMK AO1 PK WND 11 M T02220178",
+      "sky_condition": "   ",
+      "temperature_f": 72.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1996-09-15T15:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151548Z AUTO 24006KT 25/18 A2975 RMK AO1 PK WND 13 M T02500184",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 65.12,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1996-09-15T16:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151648Z AUTO 28008KT 27/18 A2975 RMK AO1 PK WND 16 M T02720184",
+      "sky_condition": "   ",
+      "temperature_f": 81.0,
+      "dewpoint_f": 65.12,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1996-09-15T18:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151848Z AUTO 26009KT 29/18 A2973 RMK AO1 PK WND 16 M T02940178",
+      "sky_condition": "   ",
+      "temperature_f": 85.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1996-09-15T19:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 151948Z AUTO 26009KT 31/17 A2971 RMK AO1 PK WND 18 M T03060173",
+      "sky_condition": "   ",
+      "temperature_f": 87.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1996-09-15T20:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 152048Z AUTO 27007KT 31/17 A2969 RMK AO1 PK WND 17 M T03060173",
+      "sky_condition": "   ",
+      "temperature_f": 87.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1996-09-15T21:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 152148Z AUTO 24008KT 30/18 A2969 RMK AO1 PK WND 15 M T03000178",
+      "sky_condition": "   ",
+      "temperature_f": 86.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1996-09-15T22:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 152248Z AUTO 29012KT 31/14 A2968 RMK AO1 PK WND 15 M T03060145",
+      "sky_condition": "   ",
+      "temperature_f": 87.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1996-09-15T23:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 152348Z AUTO 29003KT 30/14 A2969 RMK AO1 PK WND 15 M T03000145",
+      "sky_condition": "   ",
+      "temperature_f": 86.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 3.4523399999999995
+    }
+  ],
+  "estimated": false
+}

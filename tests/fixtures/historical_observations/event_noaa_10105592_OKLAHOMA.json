@@ -1,0 +1,58 @@
+{
+  "event_id": "noaa_10105592_OKLAHOMA",
+  "event_date": "1981-05-17",
+  "event_datetime_utc": "1981-05-17T18:00:00Z",
+  "station": "KRVS",
+  "county": "OKMULGEE",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "1981-05-17T03:00:00Z",
+      "station_id": "KRVS",
+      "metar": "KRVS 170300Z 13010KT 8SM OVC011 M/M A2978 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1981-05-17T12:00:00Z",
+      "station_id": "KRVS",
+      "metar": "KRVS 171200Z 10005KT 4SM FG OVC006 M/M A2977 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1981-05-17T15:00:00Z",
+      "station_id": "KRVS",
+      "metar": "KRVS 171500Z 15005KT 5SM FG OVC007 M/M A2976 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1981-05-17T16:00:00Z",
+      "station_id": "KRVS",
+      "metar": "KRVS 171600Z 15008KT 6SM FG OVC008 M/M A2975 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1981-05-17T18:00:00Z",
+      "station_id": "KRVS",
+      "metar": "KRVS 171800Z 14008KT 7SM OVC018 M/M A2971 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

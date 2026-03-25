@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_10103800_OREGON",
+  "event_date": "1972-04-05",
+  "event_datetime_utc": "1972-04-05T18:00:00Z",
+  "station": "KPDX",
+  "county": "MULTNOMAH",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1972-04-05T00:00:00Z",
+      "station_id": "KPDX",
+      "metar": "KPDX 050000Z 11007KT 30SM SCT/// BKN/// OVC/// 16/09 A//// RMK SLP064 T01610094",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1006.4,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1972-04-05T03:00:00Z",
+      "station_id": "KPDX",
+      "metar": "KPDX 050300Z 30005KT 40SM SCT/// SCT/// OVC/// 13/09 A//// RMK SLP035 T01330089",
+      "sky_condition": "SCT",
+      "temperature_f": 56.0,
+      "dewpoint_f": 48.0,
+      "pressure_mb": 1003.5,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1972-04-05T06:00:00Z",
+      "station_id": "KPDX",
+      "metar": "KPDX 050600Z 29004KT 15SM OVC/// 12/10 A//// RMK SLP024 T01220100",
+      "sky_condition": "OVC",
+      "temperature_f": 54.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 1002.4,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1972-04-05T09:00:00Z",
+      "station_id": "KPDX",
+      "metar": "KPDX 050900Z 06006KT 8SM -RA SCT/// SCT/// OVC/// 11/10 A//// RMK SLP009 P0002 T01110100",
+      "sky_condition": "SCT",
+      "temperature_f": 52.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 1000.9,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "1972-04-05T12:00:00Z",
+      "station_id": "KPDX",
+      "metar": "KPDX 051200Z 12008KT 10SM -RA SCT/// OVC/// 12/11 A//// RMK SLP992 P0002 T01220106",
+      "sky_condition": "SCT",
+      "temperature_f": 54.0,
+      "dewpoint_f": 51.0,
+      "pressure_mb": 999.2,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "1972-04-05T15:00:00Z",
+      "station_id": "KPDX",
+      "metar": "KPDX 051500Z 10010KT 20SM -RA SCT/// SCT/// OVC/// 11/09 A//// RMK SLP998 P0001 T01110089",
+      "sky_condition": "SCT",
+      "temperature_f": 52.0,
+      "dewpoint_f": 48.0,
+      "pressure_mb": 999.8,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 20.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1972-04-05T18:00:00Z",
+      "station_id": "KPDX",
+      "metar": "KPDX 051800Z 12007KT 30SM SCT/// SCT/// SCT/// BKN/// 14/10 A//// RMK SLP984 T01440100",
+      "sky_condition": "SCT",
+      "temperature_f": 58.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 998.4,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1972-04-05T21:00:00Z",
+      "station_id": "KPDX",
+      "metar": "KPDX 052100Z 20035KT 20SM -SHRA SCT/// OVC/// 16/10 A//// RMK SLP954 T01610100",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 50.0,
+      "pressure_mb": 995.4,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 40.2773,
+      "visibility_mi": 20.0
+    }
+  ],
+  "estimated": false
+}

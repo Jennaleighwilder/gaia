@@ -1,0 +1,33 @@
+{
+  "event_id": "noaa_5616692_COLORADO",
+  "event_date": "1997-10-24",
+  "event_datetime_utc": "1997-10-24T18:00:00Z",
+  "station": "KLXV",
+  "county": "SUMMIT COUNTY/MOSQUITO RANGE/INDIAN PEAKS",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1997-10-24T14:00:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 241400Z 24006 1/8SM +SN FG W001 M04/M05 A2959 NOFIRST 70012 4004 400721089",
+      "sky_condition": "   ",
+      "temperature_f": 24.8,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 0.1
+    },
+    {
+      "timestamp": "1997-10-24T15:50:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 241550Z 22006 1/2SM SM FG VV002 M04/M04 A2961 RMK NOSPECI",
+      "sky_condition": "   ",
+      "temperature_f": 24.8,
+      "dewpoint_f": 24.8,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 0.5
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,181 @@
+{
+  "event_id": "noaa_5568778_PENNSYLVANIA",
+  "event_date": "1996-09-06",
+  "event_datetime_utc": "1996-09-06T18:00:00Z",
+  "station": "KCXY",
+  "county": "PERRY",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1996-09-06T00:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 060045Z 12004KT 5SM HZ SCT200 25/22 A3009",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-09-06T01:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 060145Z 11006KT 5SM HZ BKN200 24/22 A3011",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-09-06T09:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 060945Z 06010KT 3SM BR OVC012 21/20 A3004",
+      "sky_condition": "OVC",
+      "temperature_f": 69.8,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-09-06T10:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 061045Z 08010KT 2SM BR OVC010 21/20 A3004",
+      "sky_condition": "OVC",
+      "temperature_f": 69.8,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-09-06T11:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 061145Z 09010KT 2SM BR SCT010 OVC040 21/20 A3004",
+      "sky_condition": "SCT",
+      "temperature_f": 69.8,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-09-06T12:50:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 061250Z 10010KT 2SM BR SCT015 OVC040 22/20 A3001",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-09-06T13:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 061345Z 08012KT 2SM BR OVC020 22/20 A2999",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-09-06T14:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 061445Z 08015KT 21/2SM BR OVC015 23/20 A2998",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-09-06T16:48:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 061648Z 09013KT 2 1/2SM BR OVC014 23/21 A2991",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-09-06T18:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 061845Z 09018G25KT 21/2SM RABR BKN010 OVC020 22/22 A2985",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-09-06T19:45:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 061945Z 07022G30KT 21/2SM -RA BR BKN014 OVC025 22/22 A2980",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 25.317159999999998,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-09-06T20:46:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 062046Z 10018G34KT 2SM RA BR BKN014 OVC022 22/22 A2979",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 39.12652,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-09-06T21:55:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 062155Z 10020KT 6SM BR BKN010 OVC030 23/22 A2978",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1996-09-06T22:50:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 062250Z 11017KT 5SM -RA BR BKN010 OVC025 23/23 A2977",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-09-06T23:50:00Z",
+      "station_id": "KCXY",
+      "metar": "KCXY 062350Z 11015KT 6SM BR BKN012 OVC025 24/23 A2976",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,222 @@
+{
+  "event_id": "noaa_5669974_FLORIDA",
+  "event_date": "1998-11-04",
+  "event_datetime_utc": "1998-11-04T18:00:00Z",
+  "station": "KSRQ",
+  "county": "MANATEE",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 19,
+  "observations": [
+    {
+      "timestamp": "1998-11-04T00:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 040050Z 17004KT 10SM FEW040 OVC150 25/24 A2989",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 75.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-11-04T01:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 040150Z 00000KT 10SM OVC150 24/22 A2990",
+      "sky_condition": "OVC",
+      "temperature_f": 75.2,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-11-04T02:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 040250Z 17004KT 10SM FEW006 OVC150 24/23 A2990",
+      "sky_condition": "FEW",
+      "temperature_f": 75.2,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-11-04T03:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 040350Z 16005KT 7SM BKN015 OVC100 25/25 A2989",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 77.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-04T04:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 040450Z 15004KT 7SM BR BKN020 OVC100 24/24 A2988 RMK LAST",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "dewpoint_f": 75.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-04T10:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041050Z 15005KT 7SM BKN100 23/23 A2985",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-04T11:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041150Z 15004KT 10SM OVC100 23/23 A2985",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-11-04T12:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041250Z 14004KT 7SM OVC150 22/21 A2985",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-04T13:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041350Z 17005KT 5SM RA BKN015 OVC050 23/23 A2988",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-11-04T14:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041450Z 15003KT 7SM SCT014 BKN019 OVC130 23/22 A2988",
+      "sky_condition": "SCT",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-04T15:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041550Z 11003KT 7SM -RA FEW008 BKN022 OVC150 22/21 A2989 VCSH S-W",
+      "sky_condition": "   ",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 3.4983712,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-04T16:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041650Z 15005KT 5SM RA BKN014 BKN030 OVC150 23/22 A2988",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-11-04T17:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041750Z 13004KT 21/2SM RA BKN010 OVC030 21/21 A2985",
+      "sky_condition": "BKN",
+      "temperature_f": 69.8,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-11-04T18:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041850Z 12007KT 7SM RA FEW010 BKN017 OVC060 21/21 A2981",
+      "sky_condition": "FEW",
+      "temperature_f": 69.8,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-11-04T19:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 041950Z 09007KT 5SM RA FEW010 BKN017 OVC060 19/19 A2979",
+      "sky_condition": "FEW",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-11-04T20:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 042050Z 06006KT 21/2SM -RA BKN005 OVC010 20/20 A2976",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-11-04T21:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 042150Z 10010KT 2 1/2SM RA BKN005 OVC010 19/19 A2978",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-11-04T22:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 042250Z 06006KT 2 1/2SM RA BKN005 OVC010 19/19 A2976",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-11-04T23:50:00Z",
+      "station_id": "KSRQ",
+      "metar": "METAR KSRQ 042350Z 05010KT 5SM -RA BKN009 BKN020 OVC040 19/19 A2976",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false
+}

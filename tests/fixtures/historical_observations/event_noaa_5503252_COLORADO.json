@@ -1,0 +1,39 @@
+{
+  "event_id": "noaa_5503252_COLORADO",
+  "event_date": "2006-04-07",
+  "event_datetime_utc": "2006-04-07T18:00:00Z",
+  "station": "KLIC",
+  "county": "ELBERT / C & E DOUGLAS COUNTIES ABOVE 6000 FEET",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "2006-04-07T02:55:00Z",
+      "station_id": "KLIC",
+      "metar": "KLIC 070255Z AUTO 30011KT 10SM CLR 04/M08 A2956 RMK AO2 SLP989 T00391078 53021 TSNO",
+      "sky_condition": "CLR",
+      "temperature_f": 39.0,
+      "dewpoint_f": 18.0,
+      "pressure_mb": 998.9,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2006-04-07T03:55:00Z",
+      "station_id": "KLIC",
+      "metar": "KLIC 070355Z AUTO 30013KT 10SM CLR 04/M07 A2958 RMK AO2 SLP991 T00391067 TSNO",
+      "sky_condition": "CLR",
+      "temperature_f": 39.0,
+      "dewpoint_f": 19.9,
+      "pressure_mb": 999.1,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

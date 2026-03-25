@@ -2,13 +2,18 @@
 NEXRAD Radar Engine — Tier 1
 
 Rotation in velocity data = tornado forming.
-Source: KMRX (Morristown) from AWS S3 noaa-nexrad-level2.
+Source: Unidata NEXRAD Level II mirror on S3 (unidata-nexrad-level2, public HTTP).
 """
 
 from __future__ import annotations
 
 from runtime.engines.common import clamp
-from runtime.data.nexrad_fetch import detect_velocity_couplet, fetch_latest_kmrx
+from runtime.data.nexrad_fetch import (
+    ASOS_TO_NEXRAD,
+    detect_velocity_couplet,
+    fetch_latest_for_station,
+    fetch_latest_kmrx,
+)
 
 
 class RadarEngine:
@@ -26,7 +31,13 @@ class RadarEngine:
     def score(self, region: str, payload: dict | None = None, **kwargs) -> dict:
         # Historical backtest: use pre-fetched fixture when present
         payload = payload or {}
-        data = payload.get("radar_fixture") or fetch_latest_kmrx()
+        data = payload.get("radar_fixture")
+        if not data:
+            asos = payload.get("station")
+            if asos and asos in ASOS_TO_NEXRAD:
+                data = fetch_latest_for_station(ASOS_TO_NEXRAD[asos])
+            if not data:
+                data = fetch_latest_kmrx()
         if not data:
             return {
                 "score": 0.0,

@@ -1,0 +1,200 @@
+{
+  "event_id": "noaa_10020273_KANSAS",
+  "event_date": "1973-09-25",
+  "event_datetime_utc": "1973-09-25T18:00:00Z",
+  "station": "KMHK",
+  "county": "CLAY",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "1973-09-25T00:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 250000Z 36006KT 7SM OVC010 18/17 A2969 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 42/2807/996/001/ SLPNO T01830166 5507/",
+      "sky_condition": "OVC",
+      "temperature_f": 65.0,
+      "dewpoint_f": 61.88,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T01:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 250100Z 01005KT 7SM OVC010 18/17 A2969 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 38/3205/998/001/ SLPNO T01770166 5506/",
+      "sky_condition": "OVC",
+      "temperature_f": 63.86,
+      "dewpoint_f": 61.88,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T02:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 250200Z 07004KT 7SM BKN010 OVC033 18/16 A2973 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 38/3506/000/001/ SLPNO T01770161 5503/",
+      "sky_condition": "BKN",
+      "temperature_f": 63.86,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T03:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 250300Z 00000KT 7SM SCT030 BKN060 18/16 A2975 RMK MHK9/1 SLPNO T01770161",
+      "sky_condition": "SCT",
+      "temperature_f": 63.86,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T11:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251100Z 00000KT 1/4SM -DZ FG OVC003 14/14 A2984 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 40/3602/013/000/ SLPNO T01440144 5403/",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1973-09-25T12:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251200Z 15005KT 1/4SM FG OVC002 15/14 A2987 RMK LE33MHK9/1 MHS --- ----- ---- -- --- ---/ 40/3102/012/000/ SLPNO T01500144 5404/",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1973-09-25T13:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251300Z 08007KT 1/8SM FG OVC001 15/14 A2987 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 40/1-01/014/000/ SLPNO T01500144 5403/",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1973-09-25T14:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251400Z 04004KT 1/8SM FG OVC001 16/14 A2988 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 40/3401/015/000/ 35%15&/ 20003 45942 SLPNO T01550144 5402/",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1973-09-25T15:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251500Z 07005KT 1/8SM FG OVC003 16/15 A2988 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 40/1204/018/000/ 30%15&/ 215MBS/ 319 1500 SLPNO T01610150 5406/",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1973-09-25T16:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251600Z 09007KT 5SM FG OVC005 17/16 A2990 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 41/3203/020/000/ 30%15& SLPNO T01720155 5408/",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1973-09-25T17:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251700Z 05012KT 7SM OVC008 19/17 A2988 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 40/3403/022/000/ 30%15& SLPNO T01940172 5502/",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T18:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251800Z 09015KT 7SM OVC010 21/18 A2986 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 39/3304/022/000/ 30%15&/ 227MBS/ 112 1500 42 SLPNO T02110177 5503/",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T19:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 251900Z 09010KT 7SM OVC013 21/18 A2984 RMK CIG RGDMHK9/1 MHS --- ----- ---- -- --- ---/ 39/2905/022/000/ 15&/ FEW CU-CI MHT FINOMHT9/17 SLPNO T02110183 5505/",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T20:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 252000Z 12009KT 7SM OVC013 22/19 A2982 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 40/2904/022/000/ 250-%15&/ FEW CU SLPNO T02220194 5508/",
+      "sky_condition": "OVC",
+      "temperature_f": 72.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T21:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 252100Z 09007KT 7SM OVC013 22/20 A2981 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 41/2904/020/000/ 250-%15&/ 222MBS/ FEW CU/ 803 1101 SLPNO T02220200 5601/",
+      "sky_condition": "OVC",
+      "temperature_f": 72.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T22:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 252200Z 07012KT 7SM OVC010 22/20 A2976 RMK MHK9/1 MHS --- ----- ---- -- --- ---/ 40/2905/020/000/ 250-%15&/ FEW CU SLPNO T02220200 5602/",
+      "sky_condition": "OVC",
+      "temperature_f": 72.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1973-09-25T23:00:00Z",
+      "station_id": "KMHK",
+      "metar": "METAR KMHK 252300Z 11010KT 7SM BKN013 OVC050 23/20 A2976 RMK CBMAM OVHD -WMHK9/1 MHS --- ----- ---- -- --- ---/ 39/3207/020/000/ SLPNO T02330205 5602/",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_9984289_ARKANSAS",
+  "event_date": "1965-04-10",
+  "event_datetime_utc": "1965-04-10T18:00:00Z",
+  "station": "KLIT",
+  "county": "FAULKNER",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1965-04-10T00:00:00Z",
+      "station_id": "KLIT",
+      "metar": "KLIT 100000Z 09013KT 15SM BKN/// OVC/// 24/17 A//// RMK SLP109 T02390172",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1010.9,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-10T03:00:00Z",
+      "station_id": "KLIT",
+      "metar": "KLIT 100300Z 08011KT 15SM OVC/// 20/15 A//// RMK SLP128 T02000150",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1012.8,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-04-10T06:00:00Z",
+      "station_id": "KLIT",
+      "metar": "KLIT 100600Z 04005KT 10SM OVC/// 18/14 A//// RMK SLP122 T01780144",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1012.2,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-04-10T09:00:00Z",
+      "station_id": "KLIT",
+      "metar": "KLIT 100900Z 06003KT 10SM SCT/// OVC/// 16/13 A//// RMK SLP106 T01560133",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1010.6,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-04-10T12:00:00Z",
+      "station_id": "KLIT",
+      "metar": "KLIT 101200Z 08006KT 5SM  BKN/// OVC/// 15/13 A//// RMK SLP098 T01500128",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 55.0,
+      "pressure_mb": 1009.8,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1965-04-10T15:00:00Z",
+      "station_id": "KLIT",
+      "metar": "KLIT 101500Z 14006KT 6SM DZ SCT/// OVC/// 19/16 A//// RMK SLP085 T01890156",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1008.5,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1965-04-10T18:00:00Z",
+      "station_id": "KLIT",
+      "metar": "KLIT 101800Z 12010KT 6SM DZ SCT/// BKN/// OVC/// 21/17 A//// RMK SLP084 T02060167",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1008.4,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1965-04-10T21:00:00Z",
+      "station_id": "KLIT",
+      "metar": "KLIT 102100Z 18010KT 7SM BKN/// 27/20 A//// RMK SLP041 T02670200",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1004.1,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

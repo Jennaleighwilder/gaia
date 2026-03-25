@@ -1,0 +1,18 @@
+{
+  "event_id": "noaa_5421557_NORTH CAROLINA",
+  "date": "2004-08-14",
+  "event_datetime_utc": "2004-08-14T18:00:00Z",
+  "magnitude": "",
+  "county": "perquimans",
+  "state": "NORTH CAROLINA",
+  "station": "KTLX",
+  "composite_reflectivity": 55,
+  "velocity_max": 22.5,
+  "velocity_min": -22.5,
+  "rotation_couplet_kt": 45.0,
+  "rotation_score": 0.72,
+  "vil": 40,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

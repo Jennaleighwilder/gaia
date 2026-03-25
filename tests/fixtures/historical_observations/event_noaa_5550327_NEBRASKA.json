@@ -1,0 +1,104 @@
+{
+  "event_id": "noaa_5550327_NEBRASKA",
+  "event_date": "1996-03-24",
+  "event_datetime_utc": "1996-03-24T18:00:00Z",
+  "station": "KODX",
+  "county": "SHERMAN",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1996-03-24T01:00:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 240100Z 07011KT 10SM SCT080 BKN200 10/M01 A2943 RMK TCU E STN; SLPNO T01001006",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 31.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-03-24T15:00:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 241500Z 35030KT 3SM FZDZ FG OVC007 00/M02 A2962 RMK SLPNO T00001017",
+      "sky_condition": "OVC",
+      "temperature_f": 32.0,
+      "dewpoint_f": 29.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 34.523399999999995,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-03-24T16:00:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 241600Z 35024KT 3SM FZDZ FG OVC007 M04/M06 A2968 RMK SLPNO T10391056",
+      "sky_condition": "OVC",
+      "temperature_f": 25.0,
+      "dewpoint_f": 22.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 27.618719999999996,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-03-24T17:00:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 241700Z 34030KT 3SM FZDZ FG OVC007 M05/M07 A2968 RMK SLPNO T10501073",
+      "sky_condition": "OVC",
+      "temperature_f": 23.0,
+      "dewpoint_f": 18.86,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 34.523399999999995,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-03-24T19:00:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 241900Z 33030KT 3SM FG OVC007 M09/M12 A2972 RMK SLPNO T10891123",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 9.86,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 34.523399999999995,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-03-24T21:00:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 242100Z 34025G48KT 3SM -SN FG OVC007 M10/M13 A2972 RMK SLPNO T11001128",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": 9.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 55.23743999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-03-24T22:00:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 242200Z 34025G52KT 3SM -SN FG OVC007 M11/M18 A2971 RMK SLPNO T11061178",
+      "sky_condition": "OVC",
+      "temperature_f": 13.0,
+      "dewpoint_f": 0.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 59.840559999999996,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-03-24T23:00:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 242300Z 34020G51KT 3SM -SN FG OVC007 M11/M13 A2975 RMK 400320035; SLPNO T11121134",
+      "sky_condition": "OVC",
+      "temperature_f": 11.84,
+      "dewpoint_f": 7.88,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 58.68978,
+      "visibility_mi": 3.0
+    }
+  ],
+  "estimated": false
+}

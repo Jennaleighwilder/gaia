@@ -18,7 +18,10 @@ import os
 import time
 from pathlib import Path
 
-STATE_PATH = os.path.expanduser("~/gaia/runtime/state/threshold_state.json")
+STATE_PATH = os.environ.get(
+    "GAIA_STATE_PATH",
+    os.path.expanduser("~/gaia/runtime/state/threshold_state.json"),
+)
 
 # Defaults
 DEFAULT_STATE = {

@@ -1,0 +1,60 @@
+{
+  "event_id": "noaa_9988621_COLORADO",
+  "event_date": "1975-05-18",
+  "event_datetime_utc": "1975-05-18T18:00:00Z",
+  "station": "KDEN",
+  "county": "ADAMS",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1975-05-18T00:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 180000Z AUTO 08003KT 11SM BKN044 11/M02 A3025 RMK SLP156 T01111021 56002 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 52.0,
+      "dewpoint_f": 28.22,
+      "pressure_mb": 1015.6,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 11.0
+    },
+    {
+      "timestamp": "1975-05-18T03:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 180300Z AUTO 09009KT 11SM BKN049 07/M00 A3030 RMK T00671005 53012 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 44.0,
+      "dewpoint_f": 31.1,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 11.0
+    },
+    {
+      "timestamp": "1975-05-18T06:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 180600Z AUTO 03003KT 11SM SCT069 01/M00 A3030 RMK SLP149 T00111005 50000 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 34.0,
+      "dewpoint_f": 31.1,
+      "pressure_mb": 1014.9,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 11.0
+    },
+    {
+      "timestamp": "1975-05-18T18:00:00Z",
+      "station_id": "KDEN",
+      "metar": "KDEN 181800Z AUTO 24005KT 11SM OVC044 08/00 A3027 RMK SLP164 T00780000 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 46.0,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 1016.4,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 11.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,171 @@
+{
+  "event_id": "noaa_10324240_IOWA",
+  "event_date": "1994-08-07",
+  "event_datetime_utc": "1994-08-07T18:00:00Z",
+  "station": "KSPW",
+  "county": "OSCEOLA",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1994-08-07T00:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 070000Z AUTO 15003KT 15SM BKN098 OVC246 24/16 A2994 RMK SLP134 T02380161 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 74.84,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1013.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-08-07T02:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 070200Z AUTO 16008KT 15SM SCT049 OVC098 22/17 A2994 RMK T02160166 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 70.88,
+      "dewpoint_f": 61.88,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-08-07T05:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 070500Z AUTO 15006KT 15SM OVC049 20/16 A2996 RMK T02050161 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-08-07T06:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 070600Z AUTO 18008KT 15SM SCT049 BKN098 19/16 A2995 RMK SLP136 T01940155 50000 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1013.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-08-07T09:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 070900Z AUTO 18007KT 15SM BKN246 17/15 A2992 RMK T01660150 57010 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 61.88,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-08-07T10:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071000Z AUTO 14006KT 15SM BKN246 16/15 A2991 RMK T01610150 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-08-07T11:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071100Z AUTO 13004KT 15SM OVC148 16/15 A2992 RMK T01610150 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1994-08-07T12:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071200Z AUTO 10004KT 3SM OVC148 16/14 A2993 RMK SLP131 T01550144 55003 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 60.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1013.1,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1994-08-07T13:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071300Z AUTO 00000KT 3SM BKN005 OVC030 17/16 A2996 RMK T01660155 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 61.88,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1994-08-07T14:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071400Z AUTO 11004KT 4SM BKN005 OVC030 18/16 A2997 RMK T01770161 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 63.86,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1994-08-07T15:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071500Z AUTO 16006KT 5SM SCT010 SCT098 BKN246 19/17 A2994 RMK T01940166 50003 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 61.88,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1994-08-07T16:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071600Z AUTO 12007KT 8SM BKN246 23/18 A2990 RMK T02330183 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1994-08-07T17:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071700Z AUTO 17011KT 8SM BKN246 25/19 A2988 RMK T02500188 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1994-08-07T18:00:00Z",
+      "station_id": "KSPW",
+      "metar": "KSPW 071800Z AUTO 17010KT 8SM BKN246 26/20 A2989 RMK SLP114 T02550200 55017 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1011.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0
+    }
+  ],
+  "estimated": false
+}

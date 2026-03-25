@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10020887_KANSAS",
+  "event_date": "1969-06-23",
+  "event_datetime_utc": "1969-06-23T18:00:00Z",
+  "station": "KICT",
+  "county": "SEDGWICK",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1969-06-23T00:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 230000Z 33008KT 15SM CLR 30/17 A//// RMK SLP027 T03000167",
+      "sky_condition": "CLR",
+      "temperature_f": 86.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1002.7,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-23T03:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 230300Z 15006KT 15SM CLR 23/17 A//// RMK SLP046 T02330167",
+      "sky_condition": "CLR",
+      "temperature_f": 74.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1004.6,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-23T06:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 230600Z 17005KT 15SM CLR 21/17 A//// RMK SLP050 T02110172",
+      "sky_condition": "CLR",
+      "temperature_f": 70.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1005.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-23T09:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 230900Z 33005KT 15SM CLR 20/17 A//// RMK SLP050 T02000172",
+      "sky_condition": "CLR",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1005.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-23T12:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 231200Z 24003KT 15SM SCT/// 20/17 A//// RMK SLP067 T02000172",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1006.7,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-23T15:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 231500Z 06011KT 15SM CLR 28/20 A//// RMK SLP058 T02780200",
+      "sky_condition": "CLR",
+      "temperature_f": 82.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1005.8,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-23T18:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 231800Z 12017KT 15SM SCT/// SCT/// SCT/// SCT/// 31/22 A//// RMK SLP050 T03060217",
+      "sky_condition": "SCT",
+      "temperature_f": 87.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1005.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1969-06-23T21:00:00Z",
+      "station_id": "KICT",
+      "metar": "METAR KICT 232100Z 13012KT 15SM BKN/// 29/23 A//// RMK SLP027 T02940233",
+      "sky_condition": "BKN",
+      "temperature_f": 85.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1002.7,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

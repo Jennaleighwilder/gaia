@@ -1,0 +1,26 @@
+{
+  "event_id": "noaa_5427102_ALABAMA",
+  "event_date": "2004-10-09",
+  "event_datetime_utc": "2004-10-09T18:00:00Z",
+  "station": "KBFM",
+  "county": "UPPER BALDWIN",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "2004-10-09T06:53:00Z",
+      "station_id": "KBFM",
+      "metar": "KBFM 090653Z 09011KT 10SM -RA OVC070 22/19 A3000 RMK AO2 RAB0559 SLP158 P0001 T02220194",
+      "sky_condition": "OVC",
+      "temperature_f": 72.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1015.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,197 @@
+{
+  "event_id": "noaa_5560605_MARYLAND",
+  "event_date": "1996-06-19",
+  "event_datetime_utc": "1996-06-19T18:00:00Z",
+  "station": "KHGR",
+  "county": "FREDERICK",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "1996-06-19T00:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 190000Z 00000KT 2SM DZ BKN025 OVC080 25/19 A2994 RMK SLPNO T02550194",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-06-19T01:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 190100Z 00000KT 2SM DZ BKN023 OVC050 24/19 A2996 RMK SLPNO T02380194",
+      "sky_condition": "BKN",
+      "temperature_f": 74.84,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-06-19T02:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 190200Z 13005KT 5SM DZ BKN024 BKN046 BKN080 24/19 A2996 RMK SLPNO T02440188",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-06-19T04:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 190400Z 30001KT 1SM RA FG OVC001 20/M A3001 RMK X 1 OVC 1RF 69/M/3001/001/LGTCG; SLPNO T0205////",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 1.1968112,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-06-19T10:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191000Z 00000KT 7SM BKN015 OVC040 20/M A2998 RMK SLPNO T0205////",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 32.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-19T12:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191200Z 00000KT 7SM OVC013 20/18 A2996 RMK SLPNO T02050177",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-06-19T13:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191300Z 00000KT 2SM -RA FG OVC/// OVC007 A2997 RMK F4; SLPNO",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-06-19T14:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191400Z 00000KT 2SM -RA FG OVC/// OVC008 21/18 A2997 RMK F4; SLPNO T02110177",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-06-19T15:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191500Z 00000KT 2SM -RA FG OVC/// OVC005 21/18 A2997 RMK F4; SLPNO T02110183",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-06-19T16:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191600Z 00000KT 21/2SM -RA FG OVC/// BKN003 OVC014 21/18 A2996 RMK F4; SLPNO T02110183",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-06-19T17:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191700Z 00000KT 4SM -RA FG OVC/// BKN010 OVC015 23/19 A2995 RMK F3; SLPNO T02330188",
+      "sky_condition": "OVC",
+      "temperature_f": 74.0,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1996-06-19T18:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191800Z 00000KT 4SM -RA FG OVC/// OVC005 24/19 A2994 RMK F5; SLPNO T02380188",
+      "sky_condition": "OVC",
+      "temperature_f": 74.84,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1996-06-19T19:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 191900Z 00000KT 5SM DZ SCT012 BKN018 OVC060 25/20 A2992 RMK SLPNO T02550200",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-06-19T20:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 192000Z 33003KT 5SM DZ BKN016 OVC022 26/20 A2991 RMK SLPNO T02610200",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-06-19T21:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 192100Z 20004KT 5SM DZ BKN012 BKN022 27/19 A2990 RMK SLPNO T02660194",
+      "sky_condition": "BKN",
+      "temperature_f": 79.88,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-06-19T22:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 192200Z 00000KT 5SM DZ BKN015 OVC045 25/20 A2989 RMK SLPNO T02550200",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-06-19T23:00:00Z",
+      "station_id": "KHGR",
+      "metar": "KHGR 192300Z 00000KT 4SM DZ BKN020 OVC045 25/20 A2989 RMK SLPNO T02550200",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    }
+  ],
+  "estimated": false
+}

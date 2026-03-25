@@ -1,0 +1,213 @@
+{
+  "event_id": "noaa_5546161_PENNSYLVANIA",
+  "event_date": "1996-01-07",
+  "event_datetime_utc": "1996-01-07T18:00:00Z",
+  "station": "KPNE",
+  "county": "PHILADELPHIA",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 18,
+  "observations": [
+    {
+      "timestamp": "1996-01-07T00:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 070000Z 31006KT 10SM OVC150 M08/M16 A3047 RMK SLPNO T10781156",
+      "sky_condition": "OVC",
+      "temperature_f": 18.0,
+      "dewpoint_f": 4.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-07T02:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 070200Z 34004KT 10SM OVC150 M08/M16 A3046 RMK SLPNO T10781156",
+      "sky_condition": "OVC",
+      "temperature_f": 18.0,
+      "dewpoint_f": 4.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-07T03:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 070300Z 01007KT 10SM OVC150 M08/M16 A3046 RMK SLPNO T10841162",
+      "sky_condition": "OVC",
+      "temperature_f": 16.88,
+      "dewpoint_f": 2.84,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-07T04:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 070400Z 01004KT 10SM OVC080 M08/M16 A3044 RMK SLPNO T10841162",
+      "sky_condition": "OVC",
+      "temperature_f": 16.88,
+      "dewpoint_f": 2.84,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-01-07T06:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 070600Z 03005KT 7SM OVC080 M08/M13 A3042 RMK SLPNO T10841134",
+      "sky_condition": "OVC",
+      "temperature_f": 16.88,
+      "dewpoint_f": 7.88,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-07T07:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 070700Z 03003KT 7SM OVC050 M08/M13 A3041 RMK SLPNO T10841134",
+      "sky_condition": "OVC",
+      "temperature_f": 16.88,
+      "dewpoint_f": 7.88,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-07T08:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 070800Z 03008KT 4SM -SN OVC040 M08/M13 A3040 RMK SLPNO T10841134",
+      "sky_condition": "OVC",
+      "temperature_f": 16.88,
+      "dewpoint_f": 7.88,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1996-01-07T09:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 070900Z 03010KT 3SM -SN FG OVC029 M08/M13 A3039 RMK SLPNO T10841134",
+      "sky_condition": "OVC",
+      "temperature_f": 16.88,
+      "dewpoint_f": 7.88,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-01-07T10:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 071000Z 04012KT 1/2SM SN FG OVC004 M09/M10 A3035 RMK SLPNO T10891095",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 14.9,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-07T11:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 071100Z 04008KT 1SM SN FG OVC015 M10/M11 A3033 RMK SLPNO T10951106",
+      "sky_condition": "OVC",
+      "temperature_f": 14.9,
+      "dewpoint_f": 13.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-01-07T12:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 071200Z 04010KT 1SM SN FG OVC010 M10/M11 A3030 RMK SLPNO T11001112",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": 11.84,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-01-07T14:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 071400Z 04008KT 1/2SM SN FG OVC005 M12/M15 A3023 RMK SLPNO T11171145",
+      "sky_condition": "OVC",
+      "temperature_f": 11.0,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-07T15:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 071500Z 04011KT 1/2SM SN FG OVC005 M12/M15 A3019 RMK SLPNO T11171145",
+      "sky_condition": "OVC",
+      "temperature_f": 11.0,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-07T16:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 071600Z 04010KT 1/2SM +SN FG OVC005 M12/M15 A3015 RMK SLPNO T11171145",
+      "sky_condition": "OVC",
+      "temperature_f": 11.0,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-07T18:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 071800Z 05013KT 1/4SM +SN FG OVC003 M11/M11 A2996 RMK SLPNO T11061106",
+      "sky_condition": "OVC",
+      "temperature_f": 13.0,
+      "dewpoint_f": 13.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1996-01-07T19:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 071900Z 06010G20KT 1/8SM +SN FG OVC001 M10/M10 A2990 RMK SLPNO T10951095",
+      "sky_condition": "OVC",
+      "temperature_f": 14.9,
+      "dewpoint_f": 14.9,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1996-01-07T20:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 072000Z 03013KT 1/8SM +SN FG OVC001 M09/M09 A2985 RMK SLPNO T10891089",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 16.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 0.12
+    },
+    {
+      "timestamp": "1996-01-07T23:00:00Z",
+      "station_id": "KPNE",
+      "metar": "KPNE 072300Z 04010G23KT 3/8SM SN FG OVC002 M07/M10 A2977 RMK SLPNO T10731095",
+      "sky_condition": "OVC",
+      "temperature_f": 18.86,
+      "dewpoint_f": 14.9,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 0.38
+    }
+  ],
+  "estimated": false
+}

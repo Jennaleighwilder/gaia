@@ -1,0 +1,146 @@
+{
+  "event_id": "noaa_10045915_LOUISIANA",
+  "event_date": "1992-11-03",
+  "event_datetime_utc": "1992-11-03T18:00:00Z",
+  "station": "KDTN",
+  "county": "BIENVILLE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1992-11-03T00:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 030000Z 16006KT 7SM CLR M/M A2976 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T01:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 030100Z 17006KT 7SM CLR M/M A2977 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T02:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 030200Z 16006KT 7SM CLR M/M A2977 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T03:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 030300Z 16010KT 7SM CLR M/M A2979 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T13:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 031300Z 13004KT 7SM CLR M/M A2976 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T14:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 031400Z 14009KT 7SM CLR M/M A2977 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T15:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 031500Z 13010KT 7SM SCT120 SCT250 M/M A2978 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T16:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 031600Z 15010KT 7SM SCT050 SCT250 M/M A2976 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T17:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 031700Z 19013KT 7SM BKN025 BKN050 M/M A2975 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 15.006171199999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T18:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 031800Z 19012KT 7SM SCT032 SCT100 M/M A2975 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T19:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 031900Z 20008KT 7SM SCT030 SCT050 SCT100 M/M A2972 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T20:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 032000Z 19009KT 7SM SCT030 BKN050 BKN100 M/M A2968 RMK DVLPG TSTM SW MOVG EWD SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T21:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 032100Z 00000KT 5SM -SHRA BKN030 OVC100 M/M A2970 RMK T E MOVG E SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1992-11-03T22:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 032200Z 00000KT 7SM BKN030 OVC100 M/M A2970 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-03T23:00:00Z",
+      "station_id": "KDTN",
+      "metar": "KDTN 032300Z 33004KT 7SM BKN050 OVC100 M/M A2973 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

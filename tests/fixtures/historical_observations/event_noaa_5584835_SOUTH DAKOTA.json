@@ -1,0 +1,253 @@
+{
+  "event_id": "noaa_5584835_SOUTH DAKOTA",
+  "event_date": "1997-01-15",
+  "event_datetime_utc": "1997-01-15T18:00:00Z",
+  "station": "K2WX",
+  "county": "BUTTE",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1997-01-15T00:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150048Z AUTO 20003KT M19/M25 RMK AO1 /PK WND 06 000 T11891249",
+      "sky_condition": "   ",
+      "temperature_f": -2.0,
+      "dewpoint_f": -12.82,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-01-15T01:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150148Z AUTO 20003KT M19/M24 RMK AO1 /PK WND 06 000 T11891238",
+      "sky_condition": "   ",
+      "temperature_f": -2.0,
+      "dewpoint_f": -10.84,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-01-15T02:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150248Z AUTO 20005KT M19/M25 RMK AO1 /PK WND 08 000 T11941249",
+      "sky_condition": "   ",
+      "temperature_f": -3.0,
+      "dewpoint_f": -12.82,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1997-01-15T03:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150348Z AUTO 21006KT M18/M24 RMK AO1 /PK WND 09 000 T11831244",
+      "sky_condition": "   ",
+      "temperature_f": -1.0,
+      "dewpoint_f": -12.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1997-01-15T04:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150448Z AUTO 24006KT M18/M23 RMK AO1 /PK WND 09 000 T11781233",
+      "sky_condition": "   ",
+      "temperature_f": 0.0,
+      "dewpoint_f": -10.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1997-01-15T05:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150548Z AUTO 25008KT M17/M24 RMK AO1 /PK WND 10 000 T11721238",
+      "sky_condition": "   ",
+      "temperature_f": 1.0,
+      "dewpoint_f": -10.84,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1997-01-15T06:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150648Z AUTO 27008KT M17/M23 RMK AO1 /PK WND 12 000 T11671233",
+      "sky_condition": "   ",
+      "temperature_f": 2.0,
+      "dewpoint_f": -10.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1997-01-15T07:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150748Z AUTO 28016KT M12/M17 RMK AO1 /PK WND 19 000 T11221172",
+      "sky_condition": "   ",
+      "temperature_f": 10.0,
+      "dewpoint_f": 1.0,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 18.41248
+    },
+    {
+      "timestamp": "1997-01-15T08:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150848Z AUTO 31026KT M09/M14 RMK AO1 /PK WND 32 000 T10891138",
+      "sky_condition": "   ",
+      "temperature_f": 16.0,
+      "dewpoint_f": 7.16,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 29.920279999999998
+    },
+    {
+      "timestamp": "1997-01-15T09:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 150948Z AUTO 31039KT M08/M15 RMK AO1 /PK WND 42 000 T10831149",
+      "sky_condition": "   ",
+      "temperature_f": 17.0,
+      "dewpoint_f": 5.18,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 44.880419999999994
+    },
+    {
+      "timestamp": "1997-01-15T10:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151048Z AUTO 31035KT M09/M14 RMK AO1 /PK WND 45 000 T10891138",
+      "sky_condition": "   ",
+      "temperature_f": 16.0,
+      "dewpoint_f": 7.16,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 40.2773
+    },
+    {
+      "timestamp": "1997-01-15T11:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151148Z AUTO 31025KT M08/M12 RMK AO1 /PK WND 41 000 T10781116",
+      "sky_condition": "   ",
+      "temperature_f": 18.0,
+      "dewpoint_f": 11.12,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 28.769499999999997
+    },
+    {
+      "timestamp": "1997-01-15T12:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151248Z AUTO 31028KT M06/M10 RMK AO1 /PK WND 42 000 T10611099",
+      "sky_condition": "   ",
+      "temperature_f": 21.0,
+      "dewpoint_f": 14.18,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 32.22184
+    },
+    {
+      "timestamp": "1997-01-15T13:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151348Z AUTO 30023KT M06/M09 RMK AO1 /PK WND 32 000 T10561094",
+      "sky_condition": "   ",
+      "temperature_f": 22.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 26.46794
+    },
+    {
+      "timestamp": "1997-01-15T14:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151448Z AUTO 30025KT M05/M09 RMK AO1 /PK WND 33 000 T10501094",
+      "sky_condition": "   ",
+      "temperature_f": 23.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 28.769499999999997
+    },
+    {
+      "timestamp": "1997-01-15T15:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151548Z AUTO 31034KT M05/M09 RMK AO1 /PK WND 40 000 T10501094",
+      "sky_condition": "   ",
+      "temperature_f": 23.0,
+      "dewpoint_f": 15.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 39.12652
+    },
+    {
+      "timestamp": "1997-01-15T16:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151648Z AUTO 32039KT M04/M10 RMK AO1 /PK WND 43 000 T10441099",
+      "sky_condition": "   ",
+      "temperature_f": 24.0,
+      "dewpoint_f": 14.18,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 44.880419999999994
+    },
+    {
+      "timestamp": "1997-01-15T17:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151748Z AUTO 32033KT M04/M09 RMK AO1 /PK WND 45 000 T10391088",
+      "sky_condition": "   ",
+      "temperature_f": 25.0,
+      "dewpoint_f": 16.16,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 37.975739999999995
+    },
+    {
+      "timestamp": "1997-01-15T18:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151848Z AUTO 33032KT M09/M12 RMK AO1 /PK WND 47 000 T10891122",
+      "sky_condition": "   ",
+      "temperature_f": 16.0,
+      "dewpoint_f": 10.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 36.82496
+    },
+    {
+      "timestamp": "1997-01-15T19:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 151948Z AUTO 34027KT M12/M16 RMK AO1 /PK WND 38 000 T11221155",
+      "sky_condition": "   ",
+      "temperature_f": 10.0,
+      "dewpoint_f": 4.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 31.07106
+    },
+    {
+      "timestamp": "1997-01-15T20:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 152048Z AUTO 33025KT M13/M16 RMK AO1 /PK WND 37 000 T11281161",
+      "sky_condition": "   ",
+      "temperature_f": 9.0,
+      "dewpoint_f": 3.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 28.769499999999997
+    },
+    {
+      "timestamp": "1997-01-15T21:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 152148Z AUTO 32031KT M13/M18 RMK AO1 /PK WND 37 000 T11331177",
+      "sky_condition": "   ",
+      "temperature_f": 8.0,
+      "dewpoint_f": 0.14,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 35.67418
+    },
+    {
+      "timestamp": "1997-01-15T22:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 152248Z AUTO 35029KT M15/M18 RMK AO1 /PK WND 42 000 T11501177",
+      "sky_condition": "   ",
+      "temperature_f": 5.0,
+      "dewpoint_f": 0.14,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 33.37262
+    },
+    {
+      "timestamp": "1997-01-15T23:48:00Z",
+      "station_id": "K2WX",
+      "metar": "METAR K2WX 152348Z AUTO 33029KT M17/M20 RMK AO1 /PK WND 34 000 T11671199",
+      "sky_condition": "   ",
+      "temperature_f": 2.0,
+      "dewpoint_f": -3.82,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 33.37262
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,111 @@
+{
+  "event_id": "noaa_10027098_KANSAS",
+  "event_date": "1966-05-11",
+  "event_datetime_utc": "1966-05-11T18:00:00Z",
+  "station": "KTOP",
+  "county": "SHAWNEE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1966-05-11T00:00:00Z",
+      "station_id": "KTOP",
+      "metar": "METAR KTOP 110000Z 15016KT 8SM -RA OVC/// 13/02 A//// RMK SLP124 T01280017",
+      "sky_condition": "OVC",
+      "temperature_f": 55.0,
+      "dewpoint_f": 35.0,
+      "pressure_mb": 1012.4,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1966-05-11T03:00:00Z",
+      "station_id": "KTOP",
+      "metar": "METAR KTOP 110300Z 15013KT 10SM SCT/// OVC/// 11/03 A//// RMK SLP081 T01110033",
+      "sky_condition": "SCT",
+      "temperature_f": 52.0,
+      "dewpoint_f": 38.0,
+      "pressure_mb": 1008.1,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1966-05-11T06:00:00Z",
+      "station_id": "KTOP",
+      "metar": "METAR KTOP 110600Z 18015KT 10SM -TSRA OVC/// 13/05 A//// RMK SLP072 P0001 T01330050",
+      "sky_condition": "OVC",
+      "temperature_f": 56.0,
+      "dewpoint_f": 41.0,
+      "pressure_mb": 1007.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1966-05-11T09:00:00Z",
+      "station_id": "KTOP",
+      "metar": "METAR KTOP 110900Z 18016KT 10SM OVC/// 12/08 A//// RMK SLP046 P0002 T01220078",
+      "sky_condition": "OVC",
+      "temperature_f": 54.0,
+      "dewpoint_f": 46.0,
+      "pressure_mb": 1004.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "1966-05-11T12:00:00Z",
+      "station_id": "KTOP",
+      "metar": "METAR KTOP 111200Z 18014KT 10SM OVC/// 14/09 A//// RMK SLP045 T01390094",
+      "sky_condition": "OVC",
+      "temperature_f": 57.0,
+      "dewpoint_f": 49.0,
+      "pressure_mb": 1004.5,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1966-05-11T15:00:00Z",
+      "station_id": "KTOP",
+      "metar": "METAR KTOP 111500Z 18015KT 8SM OVC/// 16/12 A//// RMK SLP031 T01610122",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1003.1,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1966-05-11T18:00:00Z",
+      "station_id": "KTOP",
+      "metar": "METAR KTOP 111800Z 18014KT 8SM OVC/// 19/14 A//// RMK SLP015 T01890144",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1001.5,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1966-05-11T21:00:00Z",
+      "station_id": "KTOP",
+      "metar": "METAR KTOP 112100Z 18017KT 10SM -SHRA BKN/// OVC/// 23/16 A//// RMK SLP988 T02330156",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 998.8,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

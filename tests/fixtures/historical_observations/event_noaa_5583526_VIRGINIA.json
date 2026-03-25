@@ -1,0 +1,242 @@
+{
+  "event_id": "noaa_5583526_VIRGINIA",
+  "event_date": "1996-07-12",
+  "event_datetime_utc": "1996-07-12T18:00:00Z",
+  "station": "KPHF",
+  "county": "YORK",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 21,
+  "observations": [
+    {
+      "timestamp": "1996-07-12T00:47:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 120047Z 10012KT 7SM SCT050 OVC130 22/18 A3030",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T01:51:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 120151Z 09012KT 7SM SCT050 OVC130 22/17 A3030",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T02:49:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 120249Z 07012KT 7SM SCT050 OVC030 21/17 A3028 57010",
+      "sky_condition": "   ",
+      "temperature_f": 69.8,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T03:49:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 120349Z 07012KT 7SM BKN027 OVC090 22/17 A3027",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T04:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 120450Z 10014KTS 7SM SCT027 BKN038 OVC130 22/19 A3027",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T05:54:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 120554Z 11008KT 7SM BKN023 OVC030 22/20 A3025 RMK 60002 20212 58010 RAB28E41",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T08:51:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 120851Z 060014KT 7SM SCT012 BKN022 OVC030 22/21 A3023 RMK 56007",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T09:54:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 120954Z 10011KT 7SM OVC012 22/21 A3022",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T10:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121050Z 08015KT 5SM BR OVC012 22/22 A3023",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-07-12T11:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121150Z 04014KT 5SM BR BKN008 OVC013 23/22 A3023 RMK 70002 10233 2022 3 55000",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-07-12T12:48:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121248Z 07016KT 21/2SM RA BR OVC006 23/22 A3021 RMK RB05",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-07-12T13:56:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121356Z 05014KT 2 1/2SM TSRA BR SCT006 BKN014 OVC021 23/23 A3020 RMK TSB47 TS N MOV N",
+      "sky_condition": "SCT",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1996-07-12T14:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121450Z 03012KT 7SM FEW016 SCT080 OVC130 23/21 A3020 RMK RE14 TE17 MO VD N 56010",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T15:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121550Z 08014Z 7SM FEW009 SCT025 OVC130 26/24 A3018",
+      "sky_condition": "   ",
+      "temperature_f": 78.8,
+      "dewpoint_f": 75.2,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T16:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121650Z 08014KT 10SM FEW015 SCT035 OVC130 25/22 A3017",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-07-12T17:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121750Z 07014KT 7SM -RA FEW028 SCT040 OVC140 24/22 A3015 RMK RAB13 60 028 10026 20022 57017",
+      "sky_condition": "FEW",
+      "temperature_f": 75.2,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T18:48:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 121848Z 07016KT 7SM -RA FEW002 BKN020 OVC090 23/21 A3013",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T20:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 122050Z 06016KT 7SM -RA BKN009 BKN015 OVC032 23/22/A3008 RMK RE01B18 60003 57024",
+      "sky_condition": "   ",
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-07-12T21:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 122150Z 05016KT 3 RA BR BKN007 BKN017 OVC023 21/20 A3005 RMK BKN007 V SCT",
+      "sky_condition": "   ",
+      "temperature_f": 69.8,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-07-12T22:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 122250Z 05016G23KT 1SM R07/3000FT RA+ BR BKN007 BKN016 OVC035 22/21 A3001 RMK PRESFR",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1996-07-12T23:50:00Z",
+      "station_id": "KPHF",
+      "metar": "KPHF 122350Z 06017KT 7SM SCT007 BKN015 OVC030 23/22 A2997 RMK RE44 60056 10242 20213 57037",
+      "sky_condition": "SCT",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

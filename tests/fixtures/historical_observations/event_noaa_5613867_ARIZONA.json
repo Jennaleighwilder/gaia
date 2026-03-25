@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_5613867_ARIZONA",
+  "event_date": "1997-08-06",
+  "event_datetime_utc": "1997-08-06T18:00:00Z",
+  "station": "KDUG",
+  "county": "COCHISE",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1997-08-06T04:51:00Z",
+      "station_id": "KDUG",
+      "metar": "KDUG 060451Z 34008KT 20SM SCT050CB SCT080 SCT120 BKN200 26/17 A3019 RMK FR Q LTGICCG CB DSNT W-N PRESRR SLP140",
+      "sky_condition": "SCT",
+      "temperature_f": 78.8,
+      "dewpoint_f": 62.6,
+      "pressure_mb": 1014.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1997-08-06T06:56:00Z",
+      "station_id": "KDUG",
+      "metar": "KDUG 060656Z 35012G20KT 15SM +TSRA SCT005 BKN012 OVC040CB 18/18 A3027 RMK FRQ LTGICCG OHD-ALQDS TS OHD-ALQDS MOV SE SLP175",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 64.4,
+      "pressure_mb": 1017.5,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-08-06T13:51:00Z",
+      "station_id": "KDUG",
+      "metar": "KDUG 061351Z 01004KT 20SM FEW010 BKN100 BKN200 18/18 A3019 RMK FG DSNT SE SLP152",
+      "sky_condition": "FEW",
+      "temperature_f": 64.4,
+      "dewpoint_f": 64.4,
+      "pressure_mb": 1015.2,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1997-08-06T14:51:00Z",
+      "station_id": "KDUG",
+      "metar": "KDUG 061451Z 33006KT 40SM FEW010 BKN100 BKN200 20/17 A3020 RMK FG DSNT S-W SLP155 53008",
+      "sky_condition": "FEW",
+      "temperature_f": 68.0,
+      "dewpoint_f": 62.6,
+      "pressure_mb": 1015.5,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1997-08-06T16:51:00Z",
+      "station_id": "KDUG",
+      "metar": "KDUG 061651Z 30007KT 50SM FEW040 BKN100 BKN200 23/18 A3020 RMK SLP157",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 64.4,
+      "pressure_mb": 1015.7,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1997-08-06T19:51:00Z",
+      "station_id": "KDUG",
+      "metar": "KDUG 061951Z 28010KT 50SM FEW050TCU FEW100 SCT200 28/18 A3016 RMK TCU DSNT SE-SW SLP147",
+      "sky_condition": "FEW",
+      "temperature_f": 82.4,
+      "dewpoint_f": 64.4,
+      "pressure_mb": 1014.7,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1997-08-06T21:51:00Z",
+      "station_id": "KDUG",
+      "metar": "KDUG 062151Z 34008KT 50SM TSRA VC SCT050CB SCT120 BKN200 30/17 A3011 RMK OCNL LTGICCG SE-S TSB45 TS SE-S MOV N SH SE NE CB NE-E MOV N SLP128",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 62.6,
+      "pressure_mb": 1012.8,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "1997-08-06T22:51:00Z",
+      "station_id": "KDUG",
+      "metar": "KDUG 062251Z 36008KT 50SM TS VCSH SCT050CB SCT120 BKN200 30/17 A3010 RMK OCNL LTGICCG NE-E-S TS NE-E-S MOV N SH NE SE CB NE-E-S MOV N SLP120",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 62.6,
+      "pressure_mb": 1012.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 50.0
+    }
+  ],
+  "estimated": false
+}

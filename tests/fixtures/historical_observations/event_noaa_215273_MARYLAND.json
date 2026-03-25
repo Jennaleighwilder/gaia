@@ -1,0 +1,225 @@
+{
+  "event_id": "noaa_215273_MARYLAND",
+  "event_date": "2010-02-05",
+  "event_datetime_utc": "2010-02-05T18:00:00Z",
+  "station": "KDMH",
+  "county": "SOUTHERN BALTIMORE",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "2010-02-05T01:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050154Z AUTO 03/M08 A3038 RMK AO2 SLP288 T00281078 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 18.0,
+      "pressure_mb": 1028.8
+    },
+    {
+      "timestamp": "2010-02-05T02:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050254Z AUTO 03/M07 A3037 RMK AO2 SLP284 T00281072 58005 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 19.0,
+      "pressure_mb": 1028.4
+    },
+    {
+      "timestamp": "2010-02-05T03:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050354Z AUTO 02/M07 A3037 RMK AO2 SLP284 T00221072 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 19.0,
+      "pressure_mb": 1028.4
+    },
+    {
+      "timestamp": "2010-02-05T04:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050454Z AUTO 02/M07 A3035 RMK AO2 SLP278 T00221067 400501006 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1027.8
+    },
+    {
+      "timestamp": "2010-02-05T05:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050554Z AUTO 02/M07 A3034 RMK AO2 SLP275 T00171067 10039 20017 58010 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 20.0,
+      "pressure_mb": 1027.5
+    },
+    {
+      "timestamp": "2010-02-05T06:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050654Z AUTO 02/M06 A3035 RMK AO2 SLP277 T00171061 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1027.7
+    },
+    {
+      "timestamp": "2010-02-05T07:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050754Z AUTO 02/M06 A3033 RMK AO2 SLP270 T00171056 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 22.0,
+      "pressure_mb": 1027.0
+    },
+    {
+      "timestamp": "2010-02-05T08:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050854Z AUTO 02/M06 A3030 RMK AO2 SLP261 T00171061 58014 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 21.0,
+      "pressure_mb": 1026.1
+    },
+    {
+      "timestamp": "2010-02-05T09:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 050954Z AUTO 02/M05 A3029 RMK AO2 SLP258 T00171050 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1025.8
+    },
+    {
+      "timestamp": "2010-02-05T10:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051054Z AUTO 02/M06 A3028 RMK AO2 SLP254 T00171056 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 22.0,
+      "pressure_mb": 1025.4
+    },
+    {
+      "timestamp": "2010-02-05T11:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051154Z AUTO 02/M05 A3027 RMK AO2 SLP250 70001 T00171050 10017 20011 58011 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1025.0
+    },
+    {
+      "timestamp": "2010-02-05T12:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051254Z AUTO 02/M05 A3027 RMK AO2 SLP251 T00171050 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1025.1
+    },
+    {
+      "timestamp": "2010-02-05T13:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051354Z AUTO 02/M05 A3030 RMK AO2 SLP259 T00221050 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 23.0,
+      "pressure_mb": 1025.9
+    },
+    {
+      "timestamp": "2010-02-05T14:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051454Z AUTO 03/M04 A3030 RMK AO2 SLP261 T00281039 53012 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1026.1
+    },
+    {
+      "timestamp": "2010-02-05T15:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051554Z AUTO 03/M04 A3029 RMK AO2 SLP257 T00331039 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 38.0,
+      "dewpoint_f": 25.0,
+      "pressure_mb": 1025.7
+    },
+    {
+      "timestamp": "2010-02-05T16:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051654Z AUTO 03/M01 A3027 RMK AO2 SLP250 T00281011 PWINO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 1025.0
+    },
+    {
+      "timestamp": "2010-02-05T17:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051754Z AUTO 02/M01 A3022 RMK AO2 SLP234 T00221006 10033 20011 58027 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 36.0,
+      "dewpoint_f": 31.0,
+      "pressure_mb": 1023.4
+    },
+    {
+      "timestamp": "2010-02-05T18:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051854Z AUTO 02/M01 A3019 RMK AO2 SLP222 T00171006 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 31.0,
+      "pressure_mb": 1022.2
+    },
+    {
+      "timestamp": "2010-02-05T19:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 051954Z AUTO 01/00 A3016 RMK AO2 SLP213 P0003 T00110000 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 1021.3,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2010-02-05T20:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 052054Z AUTO 01/00 A3012 RMK AO2 SLP199 P0004 60007 T00110000 58035 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 32.0,
+      "pressure_mb": 1019.9,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "2010-02-05T21:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 052154Z AUTO 01/M01 A3006 RMK AO2 SLP180 P0003 T00061006 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 33.0,
+      "dewpoint_f": 31.0,
+      "pressure_mb": 1018.0,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2010-02-05T22:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 052254Z AUTO 01/M01 A3003 RMK AO2 SLP170 P0007 T00061006 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 33.0,
+      "dewpoint_f": 31.0,
+      "pressure_mb": 1017.0,
+      "precip_1h_in": 0.07
+    },
+    {
+      "timestamp": "2010-02-05T23:54:00Z",
+      "station_id": "KDMH",
+      "metar": "KDMH 052354Z AUTO 01/M01 A3003 RMK AO2 SLP168 P0008 60025 T00061006 10022 20006 56031 PWINO FZRANO TSNO",
+      "sky_condition": "   ",
+      "temperature_f": 33.0,
+      "dewpoint_f": 31.0,
+      "pressure_mb": 1016.8,
+      "precip_1h_in": 0.08
+    }
+  ],
+  "estimated": false
+}

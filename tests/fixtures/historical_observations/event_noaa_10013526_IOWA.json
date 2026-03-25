@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10013526_IOWA",
+  "event_date": "1971-06-24",
+  "event_datetime_utc": "1971-06-24T18:00:00Z",
+  "station": "KALO",
+  "county": "FAYETTE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1971-06-24T00:00:00Z",
+      "station_id": "KALO",
+      "metar": "METAR KALO 240000Z 00000KT 10SM FEW/// 28/12 A//// RMK SLP112 T02780122",
+      "sky_condition": "FEW",
+      "temperature_f": 82.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1011.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-06-24T03:00:00Z",
+      "station_id": "KALO",
+      "metar": "METAR KALO 240300Z 16007KT 15SM BKN/// 22/16 A//// RMK SLP118 T02220161",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1011.8,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1971-06-24T06:00:00Z",
+      "station_id": "KALO",
+      "metar": "METAR KALO 240600Z 17011KT 15SM CLR 21/14 A//// RMK SLP124 T02060144",
+      "sky_condition": "CLR",
+      "temperature_f": 69.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1012.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1971-06-24T09:00:00Z",
+      "station_id": "KALO",
+      "metar": "METAR KALO 240900Z 18005KT 15SM CLR 17/14 A//// RMK SLP125 T01720139",
+      "sky_condition": "CLR",
+      "temperature_f": 63.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1012.5,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1971-06-24T12:00:00Z",
+      "station_id": "KALO",
+      "metar": "METAR KALO 241200Z 15004KT 10SM BKN/// 18/15 A//// RMK SLP125 T01830150",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1012.5,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-06-24T15:00:00Z",
+      "station_id": "KALO",
+      "metar": "METAR KALO 241500Z 17010KT 10SM OVC/// 26/17 A//// RMK SLP122 T02610172",
+      "sky_condition": "OVC",
+      "temperature_f": 79.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1012.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-06-24T18:00:00Z",
+      "station_id": "KALO",
+      "metar": "METAR KALO 241800Z 18015KT 10SM SCT/// BKN/// 30/17 A//// RMK SLP112 T03000172",
+      "sky_condition": "SCT",
+      "temperature_f": 86.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1011.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1971-06-24T21:00:00Z",
+      "station_id": "KALO",
+      "metar": "METAR KALO 242100Z 17014KT 10SM BKN/// 31/19 A//// RMK SLP077 T03060189",
+      "sky_condition": "BKN",
+      "temperature_f": 87.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1007.7,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

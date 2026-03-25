@@ -1,0 +1,272 @@
+{
+  "event_id": "noaa_199514_GEORGIA",
+  "event_date": "2009-09-21",
+  "event_datetime_utc": "2009-09-21T18:00:00Z",
+  "station": "KFTY",
+  "county": "CARROLL",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2009-09-21T00:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210053Z VRB04KT 10SM FEW017 SCT025 BKN050 24/22 A3008 RMK AO2 SLP178 T02390217",
+      "sky_condition": "FEW",
+      "temperature_f": 75.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1017.8,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-09-21T01:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210153Z 09006KT 10SM SCT049 OVC060 24/21 A3010 RMK AO2 SLP183 T02390211",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1018.3,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-09-21T02:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210253Z 09007KT 10SM BKN017 OVC024 23/21 A3011 RMK AO2 RAB20E52 SLP188 P0000 60000 T02280211 53012",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1018.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2009-09-21T03:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210353Z 12006KT 9SM -RA BKN015 BKN023 OVC029 23/21 A3013 RMK AO2 RAB05 SLP195 P0001 T02280211",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1019.5,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 9.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2009-09-21T04:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210453Z 07003KT 3SM RA BR BKN019 OVC027 22/21 A3014 RMK AO2 SLP199 P0014 T02220211 402720206",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1019.9,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.14
+    },
+    {
+      "timestamp": "2009-09-21T05:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210553Z 03006KT 3SM RA BR SCT008 BKN017 OVC026 22/22 A3013 RMK AO2 SLP194 P0017 60032 T02220217 10244 20222 50007",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1019.4,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.17
+    },
+    {
+      "timestamp": "2009-09-21T06:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210653Z 06006KT 2SM +RA BR FEW004 OVC014 22/22 A3012 RMK AO2 SLP191 P0025 T02170217",
+      "sky_condition": "FEW",
+      "temperature_f": 71.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1019.1,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.0,
+      "precip_1h_in": 0.25
+    },
+    {
+      "timestamp": "2009-09-21T07:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210753Z 06009KT 1 1/2SM +RA BR 21/19 A3010 RMK AO2 RAB43 SLP185 P0038 T02060194 $",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1018.5,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 1.5,
+      "precip_1h_in": 0.38
+    },
+    {
+      "timestamp": "2009-09-21T08:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210853Z 10003KT 1/4SM +RA FG OVC010 21/21 A3009 RMK AO2 RAB43 SLP182 P0158 60221 T02110206 $",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1018.2,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 0.25,
+      "precip_1h_in": 1.58
+    },
+    {
+      "timestamp": "2009-09-21T09:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 210953Z 1/4SM FG OVC010 A3009 RMK AO2 SLPNO $",
+      "sky_condition": "OVC",
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "2009-09-21T10:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211053Z A3011 RMK AO2 SLPNO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2009-09-21T11:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211153Z A3012 RMK AO2 SLPNO 6//// 7//// $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2009-09-21T12:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211253Z A3012 RMK AO2 SLPNO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2009-09-21T13:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211353Z A3013 RMK AO2 SLPNO $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2009-09-21T14:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211453Z A3012 RMK AO2 SLPNO 6//// 50000 $",
+      "sky_condition": "   "
+    },
+    {
+      "timestamp": "2009-09-21T15:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211553Z 10SM SCT014 BKN022 OVC042 25/23 A3013 RMK AO2 SLP193 T02500228 $",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 73.0,
+      "pressure_mb": 1019.3,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-09-21T16:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211653Z 14006KT 10SM FEW016 SCT031 BKN039 26/23 A3011 RMK AO2 RAB31E40 SLP188 T02560233",
+      "sky_condition": "FEW",
+      "temperature_f": 78.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1018.8,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-09-21T17:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211753Z 29004KT 3SM RA BR FEW015 BKN022 OVC070 24/23 A3010 RMK AO2 RAB34 SLP185 6//// T02390228 58008",
+      "sky_condition": "FEW",
+      "temperature_f": 75.0,
+      "dewpoint_f": 73.0,
+      "pressure_mb": 1018.5,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "2009-09-21T18:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211853Z 36007KT 1SM +RA BR BKN005 BKN012 OVC017 21/21 A3010 RMK AO2 SLP187 P0100 T02110206",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1018.7,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 1.0,
+      "precip_1h_in": 1.0
+    },
+    {
+      "timestamp": "2009-09-21T19:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 211953Z 02004KT 1SM +RA BR BKN007 BKN024 OVC029 21/21 A3011 RMK AO2 SLP188 P0100 T02110206",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1018.8,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 1.0,
+      "precip_1h_in": 1.0
+    },
+    {
+      "timestamp": "2009-09-21T20:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 212053Z 05004KT 1 3/4SM RA BR BKN016 BKN035 OVC049 21/21 A3011 RMK AO2 SLP190 P0043 60243 T02110206 53004 $",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "pressure_mb": 1019.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 1.75,
+      "precip_1h_in": 0.43
+    },
+    {
+      "timestamp": "2009-09-21T21:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 212153Z 05008KT 10SM SCT005 SCT018 SCT049 22/21 A3010 RMK AO2 RAE44 SLPNO P0004 T02170211 $",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "2009-09-21T22:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 212253Z 07007KT 10SM FEW005 22/21 A3009 RMK AO2 SLPNO T02170206 $",
+      "sky_condition": "FEW",
+      "temperature_f": 71.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2009-09-21T23:53:00Z",
+      "station_id": "KFTY",
+      "metar": "KFTY 212353Z 00000KT 10SM FEW050 21/21 A3011 RMK AO2 RAB01E40 SLPNO P0000 60247 T02110206 10239 20206 53002 $",
+      "sky_condition": "FEW",
+      "temperature_f": 70.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    }
+  ],
+  "estimated": false
+}

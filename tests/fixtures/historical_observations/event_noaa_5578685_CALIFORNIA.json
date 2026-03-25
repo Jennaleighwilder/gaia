@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_5578685_CALIFORNIA",
+  "event_date": "1996-11-22",
+  "event_datetime_utc": "1996-11-22T18:00:00Z",
+  "station": "KMCE",
+  "county": "TUOLUMNE",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1996-11-22T15:48:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 221548Z 16007KT 15SM BKN060 13/12 A2982",
+      "sky_condition": "BKN",
+      "temperature_f": 55.4,
+      "dewpoint_f": 53.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-11-22T16:49:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 221649Z 16008KT 15SM BKN040 BKN060 14/12 A2985",
+      "sky_condition": "BKN",
+      "temperature_f": 57.2,
+      "dewpoint_f": 53.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-11-22T17:45:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 221745Z 16009KT 9SM -RA BKN040 BKN080 16/13 A2986",
+      "sky_condition": "BKN",
+      "temperature_f": 60.8,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1996-11-22T18:46:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 221846Z 17008KT 15SM SCT020 BKN040 BKN080 16/13 A2988",
+      "sky_condition": "SCT",
+      "temperature_f": 60.8,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-11-22T19:48:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 221948Z 15006KT 15SM SCT010 BKN080 17/12 A2988",
+      "sky_condition": "SCT",
+      "temperature_f": 62.6,
+      "dewpoint_f": 53.6,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-11-22T20:42:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 222042Z 12007KT 15SM SCT010 BKN040 BKN080 18/12 A2987",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 53.6,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-11-22T21:48:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 222148Z 26004KT 20SM SCT010 SCT060 18/13 A2986 RMK TCU E",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-11-22T22:48:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 222248Z 27009KT 20SM SCT010 SCT040 18/13 A2986",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 55.4,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-11-22T23:51:00Z",
+      "station_id": "KMCE",
+      "metar": "KMCE 222351Z 24008KT 20SM SCT030 BKN050 17/12 A2989 RMK TCU N-E",
+      "sky_condition": "SCT",
+      "temperature_f": 62.6,
+      "dewpoint_f": 53.6,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 20.0
+    }
+  ],
+  "estimated": false
+}

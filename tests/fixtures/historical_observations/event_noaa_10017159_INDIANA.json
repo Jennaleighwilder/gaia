@@ -1,0 +1,191 @@
+{
+  "event_id": "noaa_10017159_INDIANA",
+  "event_date": "1974-04-03",
+  "event_datetime_utc": "1974-04-03T18:00:00Z",
+  "station": "KLOU",
+  "county": "CLARK",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1974-04-03T00:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030000Z 14009KT 10SM BKN250 19/10 A2979 RMK SLPNO T01890100",
+      "sky_condition": "BKN",
+      "temperature_f": 66.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-03T01:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030100Z 12013KT 10SM BKN250 17/05 A2976 RMK SLPNO T01670050",
+      "sky_condition": "BKN",
+      "temperature_f": 62.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-03T02:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030200Z 30013KT 10SM SCT250 16/06 A2977 RMK SLPNO T01560056",
+      "sky_condition": "SCT",
+      "temperature_f": 60.0,
+      "dewpoint_f": 42.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-03T04:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030400Z 14008KT 7SM BKN250 14/04 A2978 RMK SLPNO T01440044",
+      "sky_condition": "BKN",
+      "temperature_f": 58.0,
+      "dewpoint_f": 40.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T05:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030500Z 15008KT 10SM SCT100 BKN250 15/04 A2975 RMK SLPNO T01500044",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 40.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-04-03T06:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030600Z 15009KT 7SM SCT100 BKN250 15/05 A2974 RMK SLPNO T01500050",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T07:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030700Z 16007KT 7SM BKN100 BKN250 14/05 A2973 RMK SLPNO T01440050",
+      "sky_condition": "BKN",
+      "temperature_f": 58.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T08:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030800Z 14010KT 7SM BKN100 OVC250 16/05 A2970 RMK SLPNO T01560050",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T09:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 030900Z 14007KT 7SM BKN100 BKN250 14/06 A2969 RMK SLPNO T01440061",
+      "sky_condition": "BKN",
+      "temperature_f": 58.0,
+      "dewpoint_f": 43.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T10:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 031000Z 16009KT 7SM BKN100 BKN250 14/07 A2970 RMK SLPNO T01440067",
+      "sky_condition": "BKN",
+      "temperature_f": 58.0,
+      "dewpoint_f": 44.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T11:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 031100Z 14011KT 7SM BKN025 BKN250 15/10 A2967 RMK SLPNO T01500100",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T12:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 031200Z 14010KT 7SM BKN025 OVC040 16/11 A2967 RMK SLPNO T01610106",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T13:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 031300Z 15010KT 7SM SCT040 BKN100 OVC250 17/13 A2965 RMK SLPNO T01720128",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T14:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 031400Z 16010KT 7SM BKN040 OVC100 18/14 A2962 RMK SLPNO T01830139",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T18:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 031800Z 18018G36KT 7SM BKN035 BKN100 26/17 A2951 RMK RWU NE TCU SE SLPNO T02610172",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 41.428079999999994,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-04-03T20:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 032000Z 18015G25KT 7SM BKN030 OVC250 26/17 A2940 RMK OCNL LGTIC W SLPNO T02610172",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

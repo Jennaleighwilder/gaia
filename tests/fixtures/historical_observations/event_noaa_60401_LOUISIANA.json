@@ -1,0 +1,193 @@
+{
+  "event_id": "noaa_60401_LOUISIANA",
+  "event_date": "2007-09-13",
+  "event_datetime_utc": "2007-09-13T18:00:00Z",
+  "station": "KBKB",
+  "county": "VERNON",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "2007-09-13T00:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 130054Z AUTO 00000KT CLR 24/22 A2994 RMK AO2 SLP165 T02390222 $",
+      "sky_condition": "CLR",
+      "temperature_f": 75.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1016.5,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2007-09-13T02:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 130254Z AUTO 00000KT -RA FEW060 23/22 A2996 RMK AO2 RAB44 SLP172 6//// T02280222 $",
+      "sky_condition": "FEW",
+      "temperature_f": 73.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1017.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2007-09-13T03:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 130354Z AUTO 00000KT CLR 23/22 A2996 RMK AO2 RAE09 SLP170 P0000 T02280217 $",
+      "sky_condition": "CLR",
+      "temperature_f": 73.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1017.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2007-09-13T06:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 130654Z AUTO 10003KT OVC005 22/22 A2993 RMK AO2 SLP162 T02220217 $",
+      "sky_condition": "OVC",
+      "temperature_f": 72.0,
+      "dewpoint_f": 71.0,
+      "pressure_mb": 1016.2,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "2007-09-13T11:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131154Z AUTO VRB04KT RA OVC004 23/22 A2989 RMK AO2 RAB1052 SLP146 6//// 7//// T02280222 10250 20222 $",
+      "sky_condition": "OVC",
+      "temperature_f": 73.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1014.6,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2007-09-13T12:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131254Z AUTO VRB06KT RA SCT005 BKN010 OVC050 22/22 A2988 RMK AO2 SLP146 P0028 T02220222 $",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1014.6,
+      "wind_speed_mph": 6.904679999999999,
+      "precip_1h_in": 0.28
+    },
+    {
+      "timestamp": "2007-09-13T13:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131354Z AUTO 10007G20KT 070V130 RA BKN010 OVC015 23/22 A2986 RMK AO2 CIG 004V012 SLPNO P0050 T02280222 $",
+      "sky_condition": "BKN",
+      "temperature_f": 73.0,
+      "dewpoint_f": 72.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 8.05546,
+      "wind_gust_mph": 23.0156,
+      "precip_1h_in": 0.5
+    },
+    {
+      "timestamp": "2007-09-13T14:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131454Z AUTO VRB06KT +RA SCT008 BKN012 OVC020 22/22 A2984 RMK AO2 SLP129 P0049 60127 T02220222 58017 $",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1012.9,
+      "wind_speed_mph": 6.904679999999999,
+      "precip_1h_in": 0.49
+    },
+    {
+      "timestamp": "2007-09-13T15:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131554Z AUTO 05008G16KT 340V090 +RA BKN007 BKN013 OVC023 22/22 A2979 RMK AO2 CIG 004V010 SLP114 P0047 T02220222",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1011.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 9.20624,
+      "wind_gust_mph": 18.41248,
+      "precip_1h_in": 0.47
+    },
+    {
+      "timestamp": "2007-09-13T16:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131654Z AUTO 09009G18KT 040V120 +RA BKN005 OVC010 22/22 A2971 RMK AO2 SLP088 P0133 T02220222",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1008.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 10.357019999999999,
+      "wind_gust_mph": 20.714039999999997,
+      "precip_1h_in": 1.33
+    },
+    {
+      "timestamp": "2007-09-13T17:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131754Z AUTO 00000KT RA OVC007 23/23 A2967 RMK AO2 CIG 004V012 SLP071 P0061 60368 T02280228 10228 20222 58058",
+      "sky_condition": "OVC",
+      "temperature_f": 73.0,
+      "dewpoint_f": 73.0,
+      "pressure_mb": 1007.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "precip_1h_in": 0.61
+    },
+    {
+      "timestamp": "2007-09-13T18:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131854Z AUTO VRB05KT OVC005 24/23 A2968 RMK AO2 RAE14 CIG 003V009 SLP077 P0001 T02390233 $",
+      "sky_condition": "OVC",
+      "temperature_f": 75.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1007.7,
+      "wind_speed_mph": 5.7539,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2007-09-13T19:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 131954Z AUTO VRB04KT OVC009 24/23 A2974 RMK AO2 RAB03E24 CIG 007V012 SLPNO P0000 T02390233 $",
+      "sky_condition": "OVC",
+      "temperature_f": 75.0,
+      "dewpoint_f": 74.0,
+      "wind_speed_mph": 4.60312,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2007-09-13T20:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 132054Z AUTO VRB05KT OVC013 24/23 A2977 RMK AO2 SLP107 60001 T02440233 53035 $",
+      "sky_condition": "OVC",
+      "temperature_f": 76.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1010.7,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "2007-09-13T22:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 132254Z AUTO VRB03KT OVC009 24/23 A2980 RMK AO2 RAE06 CIG 006V015 SLP117 P0001 T02390228 $",
+      "sky_condition": "OVC",
+      "temperature_f": 75.0,
+      "dewpoint_f": 73.0,
+      "pressure_mb": 1011.7,
+      "wind_speed_mph": 3.4523399999999995,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2007-09-13T23:54:00Z",
+      "station_id": "KBKB",
+      "metar": "KBKB 132354Z AUTO 00000KT OVC012 24/23 A2982 RMK AO2 SLP122 60002 T02390228 10244 20228 51015 $",
+      "sky_condition": "OVC",
+      "temperature_f": 75.0,
+      "dewpoint_f": 73.0,
+      "pressure_mb": 1012.2,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    }
+  ],
+  "estimated": false
+}

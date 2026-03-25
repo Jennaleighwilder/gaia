@@ -73,7 +73,7 @@ def _magnitude_to_radar(mag: str, event_type: str = "tornado") -> tuple[float, f
         return 0.0, 5, 0   # No radar signature
     if "hail" in etype:
         return 0.2, 55, 50
-    mag = (mag or "").strip().upper()
+    mag = str(mag or "").strip().upper()
     m = re.match(r"E?F?([0-5])", mag)
     n = int(m.group(1)) if m else 2
     if n >= 5:
@@ -104,6 +104,7 @@ def main():
     ap.add_argument("--input", required=True, help="Tornado corpus JSON (ok_ef2plus or events.json)")
     ap.add_argument("--output", default=None, help="Output dir (default: tests/fixtures/nexrad)")
     ap.add_argument("--events-json", default=None, help="Optional: events.json for event_id mapping")
+    ap.add_argument("--limit", type=int, default=None, help="Max fixtures to write (disk/testing)")
     args = ap.parse_args()
 
     input_path = Path(args.input)
@@ -133,6 +134,8 @@ def main():
 
     built = 0
     for ev in events_with_id:
+        if args.limit is not None and built >= args.limit:
+            break
         event_id = ev.get("event_id", "")
         raw_date = (ev.get("date") or "").strip()
         date_str = raw_date[:10]

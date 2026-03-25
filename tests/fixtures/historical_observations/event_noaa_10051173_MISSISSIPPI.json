@@ -1,0 +1,161 @@
+{
+  "event_id": "noaa_10051173_MISSISSIPPI",
+  "event_date": "1976-04-24",
+  "event_datetime_utc": "1976-04-24T18:00:00Z",
+  "station": "KGLH",
+  "county": "COAHOMA",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1976-04-24T00:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 240000Z 20010KT 15SM SCT100 BKN200 27/12 A2994 RMK SLPNO T02720117",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1976-04-24T01:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 240100Z 19007KT 15SM SCT/// BKN200 26/11 A2995 RMK SLPNO T02560111",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1976-04-24T02:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 240200Z 19006KT 15SM BKN200 24/12 A2996 RMK SLPNO T02390117",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1976-04-24T04:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 240400Z 20006KT 25SM SCT200 22/12 A2998 RMK SLPNO T02220122",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1976-04-24T13:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 241300Z 19009KT 2SM SHRA FG OVC009 21/17 A2994 RMK SLPNO T02110167",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1976-04-24T14:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 241400Z 19012KT 2SM -RA FG OVC/// OVC009 21/17 A2992 RMK F7 SLPNO T02060172",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1976-04-24T15:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 241500Z 18014KT 4SM -RA FG BKN006 OVC040 21/18 A2991 RMK SLPNO T02110178",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1976-04-24T16:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 241600Z 21014KT 5SM FG BKN006 OVC040 22/18 A2991 RMK TE44 MOVD NE RE42 SLPNO T02170178",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1976-04-24T17:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 241700Z 17013KT 5SM -RA BKN010 OVC040 22/18 A2991 RMK RB27 SLPNO T02170183",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1976-04-24T18:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 241800Z 18020KT 4SM DZ SCT010 OVC040 24/19 A2987 RMK RE30 SLPNO T02390189",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1976-04-24T19:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 241900Z /////KT 80SM BKN010 OVC040 M/M A//// RMK ;2 SLPNO T//////// 58079",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 80.0
+    },
+    {
+      "timestamp": "1976-04-24T20:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 242000Z /////KT 5SM DZ BKN010 OVC040 26/M A//// RMK ;2113G20/984 SLPNO T0256////",
+      "sky_condition": "   ",
+      "temperature_f": 78.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1976-04-24T21:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 242100Z /////KT 5SM DZ BKN010 OVC040 25/19 A2980 RMK SLPNO T02500194",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 67.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1976-04-24T22:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 242200Z 18015KT 7SM BKN025 OVC050 25/19 A2977 RMK SLPNO T02500194",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

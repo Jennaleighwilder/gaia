@@ -1,0 +1,133 @@
+{
+  "event_id": "noaa_5538415_MINNESOTA",
+  "event_date": "1996-01-17",
+  "event_datetime_utc": "1996-01-17T18:00:00Z",
+  "station": "KFCM",
+  "county": "MCLEOD",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1996-01-17T00:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 170000Z AUTO 25012KT FZFG A2960 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1996-01-17T01:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 170100Z AUTO 27008KT A2961 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1996-01-17T02:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 170200Z AUTO 27006KT A2964 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1996-01-17T03:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 170300Z AUTO 27008KT A2967 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1996-01-17T13:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 171300Z AUTO 01006KT A2978 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1996-01-17T14:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 171400Z AUTO 36010KT FZFG A2978 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1996-01-17T15:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 171500Z AUTO 03013KT FZFG A2975 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 14.960139999999999
+    },
+    {
+      "timestamp": "1996-01-17T16:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 171600Z AUTO 04014KT FZFG A2974 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1996-01-17T17:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 171700Z AUTO 05015KT FZFG A2973 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1996-01-17T18:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 171800Z AUTO 05015KT FZFG A2968 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1996-01-17T19:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 171900Z AUTO 05014KT FZFG A2964 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1996-01-17T20:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 172000Z AUTO 04013KT FZFG A2961 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 14.960139999999999
+    },
+    {
+      "timestamp": "1996-01-17T21:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 172100Z AUTO 03014KT FZFG A2958 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1996-01-17T22:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 172200Z AUTO 03017KT PL FZFG A2951 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 19.56326
+    },
+    {
+      "timestamp": "1996-01-17T23:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 172300Z AUTO 04015KT PL FZRA FZFG A2946 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 17.261699999999998
+    }
+  ],
+  "estimated": false
+}

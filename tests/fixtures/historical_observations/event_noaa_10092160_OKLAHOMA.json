@@ -1,0 +1,35 @@
+{
+  "event_id": "noaa_10092160_OKLAHOMA",
+  "event_date": "1975-06-13",
+  "event_datetime_utc": "1975-06-13T18:00:00Z",
+  "station": "KSWO",
+  "county": "PAYNE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1975-06-02T14:00:00Z",
+      "station_id": "KSWO",
+      "metar": "KSWO 021400Z 14007KT 15SM CLR 18/14 A3017 RMK SLPNO T01830139",
+      "sky_condition": "CLR",
+      "temperature_f": 65.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1975-06-26T14:00:00Z",
+      "station_id": "KSWO",
+      "metar": "KSWO 261400Z 15012KT 10SM OVC015 24/22 A3001 RMK BINOVC SLPNO T02440217",
+      "sky_condition": "OVC",
+      "temperature_f": 76.0,
+      "dewpoint_f": 71.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

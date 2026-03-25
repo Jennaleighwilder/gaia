@@ -1,0 +1,25 @@
+{
+  "event_id": "noaa_9977206_ALABAMA",
+  "event_date": "1974-12-19",
+  "event_datetime_utc": "1974-12-19T18:00:00Z",
+  "station": "KTOI",
+  "county": "PIKE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "1974-12-19T00:00:00Z",
+      "station_id": "KTOI",
+      "metar": "KTOI 190000Z 00000KT 7SM SCT230 09/02 A3015 RMK LAST SLP214 8/005 T00890022 54000",
+      "sky_condition": "SCT",
+      "temperature_f": 48.0,
+      "dewpoint_f": 36.0,
+      "pressure_mb": 1021.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

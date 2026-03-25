@@ -1,0 +1,178 @@
+{
+  "event_id": "noaa_10063561_MISSISSIPPI",
+  "event_date": "1992-03-09",
+  "event_datetime_utc": "1992-03-09T18:00:00Z",
+  "station": "KGLH",
+  "county": "WASHINGTON",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1992-03-09T00:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 090000Z 18004KT 30SM SCT030 BKN150 21/12 A2996 RMK SLPNO T02110122",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1992-03-09T01:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 090100Z 00000KT 30SM SCT030 BKN150 20/13 A2996 RMK SLPNO T02000128",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 30.0
+    },
+    {
+      "timestamp": "1992-03-09T02:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 090200Z 00000KT 15SM OVC100 19/14 A2993 RMK SLPNO T01940144",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1992-03-09T03:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 090300Z 00000KT 15SM BKN100 19/13 A2993 RMK LAST SLPNO T01940133",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1992-03-09T12:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 091200Z 15003KT 10SM BKN080 16/14 A2983 RMK SLPNO T01610144",
+      "sky_condition": "BKN",
+      "temperature_f": 61.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-03-09T13:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 091300Z 14020KT 4SM FG OVC030 16/16 A2983 RMK CIG RGD/ SLPNO T01610156 411781406 540//",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1992-03-09T14:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 091400Z 16003KT 4SM FG OVC025 17/17 A2985 RMK TE35 CIG RGD RJCT40 2561 SLPNO T01720167",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1992-03-09T15:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 091500Z 15013KT 4SM FG BKN030 OVC060 18/18 A2981 RMK CIG RGD RJCT40 2561 SLPNO T01830178",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1992-03-09T16:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 091600Z 16015KT 5SM FG BKN010 OVC060 19/19 A2978 RMK TE58RE58 SLPNO T01890189",
+      "sky_condition": "BKN",
+      "temperature_f": 66.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1992-03-09T17:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 091700Z 17018KT 5SM FG BKN020 OVC060 20/19 A2979 RMK SLPNO T02000194",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1992-03-09T18:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 091800Z 31016KT 7SM BKN015 OVC060 20/19 A2983 RMK SLPNO T02000189",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-03-09T19:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 091900Z 26008KT 10SM -RA OVC020 17/17 A2984 RMK CIG RGD SLPNO T01670167",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-03-09T20:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 092000Z 34008KT 10SM OVC030 17/17 A2979 RMK RE35 SLPNO T01720167",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-03-09T21:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 092100Z 06010KT 10SM SCT030 OVC060 18/17 A2972 RMK BINOVC SLPNO T01780167",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-03-09T22:00:00Z",
+      "station_id": "KGLH",
+      "metar": "METAR KGLH 092200Z 06010KT 10SM BKN060 OVC100 18/17 A2967 RMK SLPNO T01780167",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

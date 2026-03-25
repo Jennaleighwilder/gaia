@@ -1,0 +1,69 @@
+{
+  "event_id": "noaa_5424793_FLORIDA",
+  "event_date": "2004-09-26",
+  "event_datetime_utc": "2004-09-26T18:00:00Z",
+  "station": "KMLB",
+  "county": "BREVARD",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "2004-09-26T00:53:00Z",
+      "station_id": "KMLB",
+      "metar": "METAR KMLB 260053Z AUTO 02038G47KT 7SM -RA FEW023 BKN035 OVC050 27/24 A2940 RMK AO2 PK WND 02047/0048 SLP955 P0002 T02720244",
+      "sky_condition": "FEW",
+      "temperature_f": 81.0,
+      "dewpoint_f": 76.0,
+      "pressure_mb": 995.5,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 43.729639999999996,
+      "wind_gust_mph": 54.086659999999995,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2004-09-26T01:53:00Z",
+      "station_id": "KMLB",
+      "metar": "METAR KMLB 260153Z AUTO 02038G46KT 6SM -RA SCT032 BKN040 OVC060 27/24 A2935 RMK AO2 PK WND 02050/0100 SLP938 P0001 T02720239",
+      "sky_condition": "SCT",
+      "temperature_f": 81.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 993.8,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 43.729639999999996,
+      "wind_gust_mph": 52.93588,
+      "visibility_mi": 6.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2004-09-26T02:53:00Z",
+      "station_id": "KMLB",
+      "metar": "METAR KMLB 260253Z AUTO 03041G52KT 2SM -RA BR FEW009 BKN028 OVC034 26/24 A2933 RMK AO2 PK WND 03053/0202 SLP931 P0013 60016 T02560244 56035",
+      "sky_condition": "FEW",
+      "temperature_f": 78.0,
+      "dewpoint_f": 76.0,
+      "pressure_mb": 993.1,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 47.181979999999996,
+      "wind_gust_mph": 59.840559999999996,
+      "visibility_mi": 2.0,
+      "precip_1h_in": 0.13
+    },
+    {
+      "timestamp": "2004-09-26T03:53:00Z",
+      "station_id": "KMLB",
+      "metar": "METAR KMLB 260353Z AUTO 04042G56KT 2 1/2SM RA BR FEW014 BKN022 OVC038 25/24 A2924 RMK AO2 PK WND 04056/0351 PRESFR SLP900 P0047 T02500239",
+      "sky_condition": "FEW",
+      "temperature_f": 77.0,
+      "dewpoint_f": 75.0,
+      "pressure_mb": 990.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 48.33275999999999,
+      "wind_gust_mph": 64.44368,
+      "visibility_mi": 2.5,
+      "precip_1h_in": 0.47
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_10086664_OHIO",
+  "event_date": "1971-02-22",
+  "event_datetime_utc": "1971-02-22T18:00:00Z",
+  "station": "KCMH",
+  "county": "FRANKLIN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1971-02-22T00:00:00Z",
+      "station_id": "KCMH",
+      "metar": "KCMH 220000Z 09006KT 5SM DZ OVC/// 04/M01 A//// RMK SLP174 T00391011",
+      "sky_condition": "OVC",
+      "temperature_f": 39.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 1017.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1971-02-22T03:00:00Z",
+      "station_id": "KCMH",
+      "metar": "KCMH 220300Z 05009KT 7SM OVC/// 03/M02 A//// RMK SLP156 T00281017",
+      "sky_condition": "OVC",
+      "temperature_f": 37.0,
+      "dewpoint_f": 29.0,
+      "pressure_mb": 1015.6,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1971-02-22T06:00:00Z",
+      "station_id": "KCMH",
+      "metar": "KCMH 220600Z 04007KT 7SM -RA SCT/// OVC/// 02/M01 A//// RMK SLP139 P0012 T00221011",
+      "sky_condition": "SCT",
+      "temperature_f": 36.0,
+      "dewpoint_f": 30.0,
+      "pressure_mb": 1013.9,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.12
+    },
+    {
+      "timestamp": "1971-02-22T09:00:00Z",
+      "station_id": "KCMH",
+      "metar": "KCMH 220900Z 06009KT 5SM -RA FG BKN/// OVC/// 02/M01 A//// RMK SLP106 P0009 T00171006",
+      "sky_condition": "BKN",
+      "temperature_f": 35.0,
+      "dewpoint_f": 31.0,
+      "pressure_mb": 1010.6,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.09
+    },
+    {
+      "timestamp": "1971-02-22T12:00:00Z",
+      "station_id": "KCMH",
+      "metar": "KCMH 221200Z 11010KT 5SM -RA FG SCT/// OVC/// 03/01 A//// RMK SLP071 P0010 T00280006",
+      "sky_condition": "SCT",
+      "temperature_f": 37.0,
+      "dewpoint_f": 33.0,
+      "pressure_mb": 1007.1,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.1
+    },
+    {
+      "timestamp": "1971-02-22T15:00:00Z",
+      "station_id": "KCMH",
+      "metar": "KCMH 221500Z 10012KT 3SM FG BKN/// OVC/// 06/04 A//// RMK SLP038 T00560039",
+      "sky_condition": "BKN",
+      "temperature_f": 42.0,
+      "dewpoint_f": 39.0,
+      "pressure_mb": 1003.8,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1971-02-22T18:00:00Z",
+      "station_id": "KCMH",
+      "metar": "KCMH 221800Z 12013KT 4SM FG SCT/// OVC/// 10/08 A//// RMK SLP993 T01000078",
+      "sky_condition": "SCT",
+      "temperature_f": 50.0,
+      "dewpoint_f": 46.0,
+      "pressure_mb": 999.3,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1971-02-22T21:00:00Z",
+      "station_id": "KCMH",
+      "metar": "KCMH 222100Z 11009KT 7SM BKN/// OVC/// 15/12 A//// RMK SLP947 T01500122",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 994.7,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,109 @@
+{
+  "event_id": "noaa_10024867_KANSAS",
+  "event_date": "1968-05-13",
+  "event_datetime_utc": "1968-05-13T18:00:00Z",
+  "station": "KRSL",
+  "county": "OSBORNE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-05-13T00:00:00Z",
+      "station_id": "KRSL",
+      "metar": "METAR KRSL 130000Z 18012KT 10SM -SHRA OVC/// 16/11 A//// RMK SLP134 T01610111",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1013.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-05-13T03:00:00Z",
+      "station_id": "KRSL",
+      "metar": "METAR KRSL 130300Z 18008KT 15SM SCT/// 14/11 A//// RMK SLP126 T01390111",
+      "sky_condition": "SCT",
+      "temperature_f": 57.0,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1012.6,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-05-13T06:00:00Z",
+      "station_id": "KRSL",
+      "metar": "METAR KRSL 130600Z 17010KT 15SM BKN/// OVC/// 14/12 A//// RMK SLP130 T01390117",
+      "sky_condition": "BKN",
+      "temperature_f": 57.0,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1013.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-05-13T09:00:00Z",
+      "station_id": "KRSL",
+      "metar": "METAR KRSL 130900Z 16014KT 15SM OVC/// 14/12 A//// RMK SLP123 T01390122",
+      "sky_condition": "OVC",
+      "temperature_f": 57.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1012.3,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1968-05-13T12:00:00Z",
+      "station_id": "KRSL",
+      "metar": "METAR KRSL 131200Z 17015KT 6SM FG BKN/// 14/12 A//// RMK SLP119 T01390122",
+      "sky_condition": "BKN",
+      "temperature_f": 57.0,
+      "dewpoint_f": 54.0,
+      "pressure_mb": 1011.9,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1968-05-13T15:00:00Z",
+      "station_id": "KRSL",
+      "metar": "METAR KRSL 131500Z 18018KT 8SM SCT/// BKN/// 17/14 A//// RMK SLP110 T01670144",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1011.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-05-13T18:00:00Z",
+      "station_id": "KRSL",
+      "metar": "METAR KRSL 131800Z 16018KT 10SM BKN/// OVC/// 16/16 A//// RMK SLP099 T01560156",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1009.9,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-05-13T21:00:00Z",
+      "station_id": "KRSL",
+      "metar": "METAR KRSL 132100Z 18015KT 15SM BKN/// 20/15 A//// RMK SLP075 T02000150",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1007.5,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

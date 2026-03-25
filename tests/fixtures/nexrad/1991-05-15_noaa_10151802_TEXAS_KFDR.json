@@ -1,0 +1,18 @@
+{
+  "event_id": "noaa_10151802_TEXAS",
+  "date": "1991-05-15",
+  "event_datetime_utc": "1991-05-15T18:00:00Z",
+  "magnitude": "F3",
+  "county": "collingsworth",
+  "state": "TEXAS",
+  "station": "KFDR",
+  "composite_reflectivity": 60,
+  "velocity_max": 37.5,
+  "velocity_min": -37.5,
+  "rotation_couplet_kt": 75.0,
+  "rotation_score": 0.82,
+  "vil": 50,
+  "echo_top_km": 12,
+  "tornado_indicated": true,
+  "file_key": "(synthetic)"
+}

@@ -1,0 +1,169 @@
+{
+  "event_id": "noaa_10018115_INDIANA",
+  "event_date": "1992-11-22",
+  "event_datetime_utc": "1992-11-22T18:00:00Z",
+  "station": "KBMG",
+  "county": "MONROE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1992-11-22T00:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 220000Z 00000KT 3SM OVC/// OVC006 14/13 A2998 RMK F7 SLPNO T01380133",
+      "sky_condition": "OVC",
+      "temperature_f": 56.84,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1992-11-22T01:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 220100Z 00000KT 1SM OVC002 14/13 A2998 RMK SLPNO T01380133",
+      "sky_condition": "OVC",
+      "temperature_f": 56.84,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1992-11-22T02:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 220200Z 36008KT 11/2SM -RA OVC004 13/12 A2998 RMK LAST SLPNO T01270122",
+      "sky_condition": "OVC",
+      "temperature_f": 54.86,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1992-11-22T12:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 221200Z 05015KT 3SM -RA OVC004 11/11 A2970 RMK SLPNO T01110105",
+      "sky_condition": "OVC",
+      "temperature_f": 52.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1992-11-22T14:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 221400Z 08010KT 3SM -DZ OVC004 11/11 A2967 RMK SLPNO T01110105",
+      "sky_condition": "OVC",
+      "temperature_f": 52.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1992-11-22T15:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 221500Z 09014KT 7SM OVC004 14/13 A2963 RMK SLPNO T01380127",
+      "sky_condition": "OVC",
+      "temperature_f": 56.84,
+      "dewpoint_f": 54.86,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-22T16:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 221600Z 12014KT 7SM OVC004 15/14 A2958 RMK SLPNO T01500144",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-22T17:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 221700Z 14014KT 7SM BKN004 OVC010 16/15 A2954 RMK SLPNO T01550150",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-22T18:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 221800Z 15015KT 7SM SCT006 BKN010 18/07 A2948 RMK PRESF SLPNO T01770072",
+      "sky_condition": "SCT",
+      "temperature_f": 63.86,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-22T19:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 221900Z 14013G19KT 7SM BKN015 OVC025 19/16 A2942 RMK PRESFR SLPNO T01940161",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 21.864819999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1992-11-22T20:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 222000Z 25015G20KT 2SM -TSRA BKN015 OVC025 17/M A2940 RMK T OVHD MOVG E LTGCCCG SLPNO T0172////",
+      "sky_condition": "   ",
+      "temperature_f": 63.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1992-11-22T21:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 222100Z 23009KT 10SM SCT015 BKN040 BKN100 17/14 A2941 RMK TCU NE-SE SLPNO T01660138",
+      "sky_condition": "SCT",
+      "temperature_f": 61.88,
+      "dewpoint_f": 56.84,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1992-11-22T22:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 222200Z 23015KT 15SM SCT015 BKN040 BKN150 16/M A2942 RMK SLPNO T0155////",
+      "sky_condition": "   ",
+      "temperature_f": 60.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1992-11-22T23:00:00Z",
+      "station_id": "KBMG",
+      "metar": "METAR KBMG 222300Z 24010KT 15SM SCT015 BKN060 13/M A2945 RMK SLPNO T0133////",
+      "sky_condition": "   ",
+      "temperature_f": 56.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,243 @@
+{
+  "event_id": "noaa_5572693_TEXAS",
+  "event_date": "1996-10-28",
+  "event_datetime_utc": "1996-10-28T18:00:00Z",
+  "station": "KJCT",
+  "county": "EDWARDS",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "1996-10-28T00:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280048Z AUTO 07006KT 24/19 A3019 RMK AO1 PK WND 14 M T02390189",
+      "sky_condition": "   ",
+      "temperature_f": 75.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1996-10-28T01:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280148Z AUTO 07008KT 22/18 A3021 RMK AO1 PK WND 10 M T02220178",
+      "sky_condition": "   ",
+      "temperature_f": 72.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1996-10-28T02:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280248Z AUTO 07005KT 22/18 A3022 RMK AO1 PK WND 08 M T02170178",
+      "sky_condition": "   ",
+      "temperature_f": 71.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-10-28T03:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280348Z AUTO 09006KT 21/17 A3025 RMK AO1 PK WND 13 M T02110173",
+      "sky_condition": "   ",
+      "temperature_f": 70.0,
+      "dewpoint_f": 63.14,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 6.904679999999999
+    },
+    {
+      "timestamp": "1996-10-28T04:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280448Z AUTO 34005KT 21/17 A3025 RMK AO1 PK WND 10 M T02060167",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-10-28T06:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280648Z AUTO 10005KT 16/11 A3025 RMK AO1 PK WND 14 M T01560112",
+      "sky_condition": "   ",
+      "temperature_f": 60.0,
+      "dewpoint_f": 52.16,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-10-28T07:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280748Z AUTO 07005KT 15/11 A3024 RMK AO1 PK WND 13 M T01500106",
+      "sky_condition": "   ",
+      "temperature_f": 59.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-10-28T08:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280848Z AUTO 01007KT 14/10 A3022 RMK AO1 PK WND 09 M T01440100",
+      "sky_condition": "   ",
+      "temperature_f": 58.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1996-10-28T09:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 280948Z AUTO 31008KT 13/09 A3024 RMK AO1 PK WND 14 M T01330089",
+      "sky_condition": "   ",
+      "temperature_f": 56.0,
+      "dewpoint_f": 48.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1996-10-28T10:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281048Z AUTO 36005KT 13/08 A3024 RMK AO1 PK WND 10 M T01280078",
+      "sky_condition": "   ",
+      "temperature_f": 55.0,
+      "dewpoint_f": 46.0,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-10-28T11:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281148Z AUTO 02004KT 12/08 A3025 RMK AO1 PK WND 08 M T01220078",
+      "sky_condition": "   ",
+      "temperature_f": 54.0,
+      "dewpoint_f": 46.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1996-10-28T12:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281248Z AUTO 09005KT 12/08 A3025 RMK AO1 PK WND 07 M T01220084",
+      "sky_condition": "   ",
+      "temperature_f": 54.0,
+      "dewpoint_f": 47.12,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-10-28T13:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281348Z AUTO 05002KT 12/08 A3023 RMK AO1 PK WND 07 M T01220084",
+      "sky_condition": "   ",
+      "temperature_f": 54.0,
+      "dewpoint_f": 47.12,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1996-10-28T14:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281448Z AUTO 07002KT 12/08 A3028 RMK AO1 PK WND 07 M T01220084",
+      "sky_condition": "   ",
+      "temperature_f": 54.0,
+      "dewpoint_f": 47.12,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1996-10-28T15:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281548Z AUTO 00000KT 13/09 A3029 RMK AO1 PK WND 03 M T01280089",
+      "sky_condition": "   ",
+      "temperature_f": 55.0,
+      "dewpoint_f": 48.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "1996-10-28T16:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281648Z AUTO 04002KT 13/09 A3028 RMK AO1 PK WND 07 M T01280089",
+      "sky_condition": "   ",
+      "temperature_f": 55.0,
+      "dewpoint_f": 48.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1996-10-28T17:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281748Z AUTO 29002KT 13/09 A3026 RMK AO1 PK WND 04 M T01330095",
+      "sky_condition": "   ",
+      "temperature_f": 56.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1996-10-28T18:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281848Z AUTO 14003KT 13/09 A3199 RMK AO1 PK WND 04 M T01330095",
+      "sky_condition": "   ",
+      "temperature_f": 56.0,
+      "dewpoint_f": 49.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1996-10-28T19:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 281948Z AUTO 10001KT 14/11 A3199 RMK AO1 PK WND 03 M T01390106",
+      "sky_condition": "   ",
+      "temperature_f": 57.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1996-10-28T20:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 282048Z AUTO 25001KT 15/12 A3199 RMK AO1 PK WND 02 M T01500117",
+      "sky_condition": "   ",
+      "temperature_f": 59.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1996-10-28T21:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 282148Z AUTO 34001KT 19/15 A3199 RMK AO1 PK WND 02 M T01890150",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1996-10-28T22:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 282248Z AUTO 03001KT 22/18 A3199 RMK AO1 PK WND 03 M T02220184",
+      "sky_condition": "   ",
+      "temperature_f": 72.0,
+      "dewpoint_f": 65.12,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1996-10-28T23:48:00Z",
+      "station_id": "KJCT",
+      "metar": "METAR KJCT 282348Z AUTO 15006KT 23/18 A3199 RMK AO1 PK WND 10 M T02330184",
+      "sky_condition": "   ",
+      "temperature_f": 74.0,
+      "dewpoint_f": 65.12,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999
+    }
+  ],
+  "estimated": false
+}

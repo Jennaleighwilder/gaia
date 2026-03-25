@@ -1,0 +1,264 @@
+{
+  "event_id": "noaa_10090591_NORTH CAROLINA",
+  "event_date": "1989-05-05",
+  "event_datetime_utc": "1989-05-05T18:00:00Z",
+  "station": "KINT",
+  "county": "FORSYTH",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1989-05-05T00:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050000Z 15005KT 15SM OVC120 18/M A3011 RMK SLPNO T0183////",
+      "sky_condition": "   ",
+      "temperature_f": 65.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1989-05-05T01:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050100Z 16004KT 10SM OVC050 18/M A3012 RMK SLPNO T0178////",
+      "sky_condition": "   ",
+      "temperature_f": 64.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1989-05-05T02:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050200Z 15005KT 10SM -RA OVC050 16/M A3015 RMK SLPNO T0156////",
+      "sky_condition": "   ",
+      "temperature_f": 60.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1989-05-05T03:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050300Z 00000KT 6SM OVC044 14/M A3013 RMK SLPNO T0144////",
+      "sky_condition": "   ",
+      "temperature_f": 58.0,
+      "dewpoint_f": 32.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1989-05-05T04:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050400Z 00000KT 15SM OVC040 M/M A3010 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1989-05-05T05:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050500Z 00000KT 10SM -SHRA OVC040 M/M A3010 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1989-05-05T06:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050600Z 15005KT 15SM OVC040 M/M A3008 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1989-05-05T07:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050700Z 15006KT 10SM -RA OVC040 M/M A3005 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1989-05-05T08:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050800Z 16006KT 7SM RA OVC040 M/M A3003 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1989-05-05T09:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050900Z 16006KT 3SM -DZ FG OVC009 15/12 A3000 RMK SLPNO T01500122",
+      "sky_condition": "OVC",
+      "temperature_f": 59.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1989-05-05T10:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051000Z 26007KT 7/8SM SHRA FG OVC005 14/13 A3001 RMK SLPNO T01390128",
+      "sky_condition": "OVC",
+      "temperature_f": 57.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 0.88
+    },
+    {
+      "timestamp": "1989-05-05T11:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051100Z 21005KT 2SM FG BKN003 OVC014 13/M A3001 RMK SLPNO T0128////",
+      "sky_condition": "   ",
+      "temperature_f": 55.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1989-05-05T12:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051200Z 21007KT 21/2SM -RA FG OVC003 14/M A3002 RMK SLPNO T0139////",
+      "sky_condition": "   ",
+      "temperature_f": 57.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1989-05-05T13:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051300Z 21007KT 2SM FG OVC003 14/M A3001 RMK SLPNO T0144////",
+      "sky_condition": "   ",
+      "temperature_f": 58.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1989-05-05T14:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051400Z 23007KT 11/2SM FG OVC002 15/M A3001 RMK SLPNO T0150////",
+      "sky_condition": "   ",
+      "temperature_f": 59.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 5.5
+    },
+    {
+      "timestamp": "1989-05-05T15:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051500Z 23010KT 11/2SM FG OVC003 16/M A2999 RMK SLPNO T0161////",
+      "sky_condition": "   ",
+      "temperature_f": 61.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.5
+    },
+    {
+      "timestamp": "1989-05-05T16:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051600Z 21008KT 2SM FG OVC005 17/M A2998 RMK SLPNO T0172////",
+      "sky_condition": "   ",
+      "temperature_f": 63.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1989-05-05T17:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051700Z 19008KT 21/2SM FG BKN006 OVC020 18/M A2997 RMK SLPNO T0183////",
+      "sky_condition": "   ",
+      "temperature_f": 65.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1989-05-05T18:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051800Z 21006KT 21/2SM FG OVC017 19/M A2995 RMK SLPNO T0194////",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1989-05-05T19:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051900Z 21010KT 4SM FG OVC014 21/M A2989 RMK BINOVC SLPNO T0206////",
+      "sky_condition": "   ",
+      "temperature_f": 69.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1989-05-05T20:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 052000Z 21015KT 3SM -RA FG BKN012 OVC080 20/M A2987 RMK SLPNO T0200////",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1989-05-05T21:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 052100Z 18006KT 3SM SHRA FG SCT008 OVC016 19/M A2982 RMK SLPNO T0189////",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1989-05-05T22:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 052200Z 16003KT 4SM FG BKN047 19/M A2977 RMK SLPNO T0189////",
+      "sky_condition": "   ",
+      "temperature_f": 66.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 3.4983712,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1989-05-05T23:00:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 052300Z 17007KT 3SM FG SCT008 OVC035 19/M A2973 RMK SLPNO T0194////",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 3.0
+    }
+  ],
+  "estimated": false
+}

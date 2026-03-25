@@ -1,0 +1,211 @@
+{
+  "event_id": "noaa_10050644_MINNESOTA",
+  "event_date": "1991-07-05",
+  "event_datetime_utc": "1991-07-05T18:00:00Z",
+  "station": "KBRD",
+  "county": "CROW WING",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 18,
+  "observations": [
+    {
+      "timestamp": "1991-07-05T00:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 050000Z AUTO 30012KT 10SM BKN025 BKN049 23/15 A2976 RMK T02330150 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-07-05T01:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 050100Z AUTO 30010KT 10SM SCT025 BKN049 23/15 A2976 RMK T02280150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-07-05T02:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 050200Z AUTO 30006KT 10SM SCT049 SCT098 21/16 A2976 RMK T02110161 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-07-05T04:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 050400Z AUTO 25003KT 10SM SCT098 17/16 A2977 RMK T01670156 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-07-05T05:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 050500Z AUTO 00000KT 10SM SCT098 17/15 A2976 RMK T01670150 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 62.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-07-05T10:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051000Z AUTO 00000KT 10SM SCT246 14/14 A2976 RMK T01390139 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 57.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-07-05T11:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051100Z AUTO 00000KT 7SM SCT246 14/13 A2977 RMK T01440133 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 58.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-07-05T12:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051200Z AUTO 00000KT 7SM BKN246 15/13 A2976 RMK T01500133 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-07-05T13:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051300Z AUTO 21005KT 15SM BKN246 18/16 A2979 RMK T01780161 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-07-05T14:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051400Z AUTO 18004KT 15SM BKN246 19/17 A2977 RMK T01890172 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-07-05T15:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051500Z AUTO 21008KT 15SM SCT030 BKN246 21/12 A2977 RMK T02110122 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-07-05T16:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051600Z AUTO 19007KT 15SM SCT030 BKN246 22/17 A2975 RMK T02220172 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-07-05T17:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051700Z AUTO 16009KT 15SM SCT030 SCT079 BKN246 24/17 A2973 RMK T02390172 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-07-05T18:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051800Z AUTO 22005KT 10SM SCT030 BKN059 BKN246 23/18 A2975 RMK T02280178 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 73.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-07-05T19:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 051900Z AUTO 14005KT 10SM BKN059 OVC246 22/21 A2972 RMK T02170206 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-07-05T20:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 052000Z AUTO 18008KT 15SM BKN079 BKN246 24/19 A2971 RMK T02390189 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 75.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-07-05T21:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 052100Z AUTO 13009KT 15SM SCT079 BKN246 26/19 A2967 RMK T02610189 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 79.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-07-05T23:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 052300Z AUTO 16008KT 15SM SCT098 BKN246 29/20 A2964 RMK T02890200 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 84.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,49 @@
+{
+  "event_id": "noaa_10058321_MISSOURI",
+  "event_date": "1981-04-22",
+  "event_datetime_utc": "1981-04-22T18:00:00Z",
+  "station": "KPOF",
+  "county": "NEW MADRID",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 3,
+  "observations": [
+    {
+      "timestamp": "1981-04-22T00:00:00Z",
+      "station_id": "KPOF",
+      "metar": "METAR KPOF 220000Z 17002KT 6SM CLR 17/11 A//// RMK SLP138 T01700110",
+      "sky_condition": "CLR",
+      "temperature_f": 62.6,
+      "dewpoint_f": 51.8,
+      "pressure_mb": 1013.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 2.30156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1981-04-22T12:00:00Z",
+      "station_id": "KPOF",
+      "metar": "METAR KPOF 221200Z 16002KT 6SM CLR 15/13 A//// RMK SLP124 T01500130",
+      "sky_condition": "CLR",
+      "temperature_f": 59.0,
+      "dewpoint_f": 55.4,
+      "pressure_mb": 1012.4,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 2.30156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1981-04-22T18:00:00Z",
+      "station_id": "KPOF",
+      "metar": "METAR KPOF 221800Z 19006KT 6SM CLR 21/18 A//// RMK SLP095 T02100180",
+      "sky_condition": "CLR",
+      "temperature_f": 69.8,
+      "dewpoint_f": 64.4,
+      "pressure_mb": 1009.5,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

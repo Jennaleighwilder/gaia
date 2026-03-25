@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_9995631_GEORGIA",
+  "event_date": "1972-01-13",
+  "event_datetime_utc": "1972-01-13T18:00:00Z",
+  "station": "KAGS",
+  "county": "JEFFERSON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1972-01-13T00:00:00Z",
+      "station_id": "KAGS",
+      "metar": "KAGS 130000Z 14006KT 10SM OVC/// 18/16 A//// RMK SLP155 T01780156",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1015.5,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1972-01-13T03:00:00Z",
+      "station_id": "KAGS",
+      "metar": "KAGS 130300Z 15007KT 6SM FG BKN/// OVC/// 18/17 A//// RMK SLP159 T01780172",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1015.9,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1972-01-13T06:00:00Z",
+      "station_id": "KAGS",
+      "metar": "KAGS 130600Z 16007KT 3SM FG OVC/// 18/18 A//// RMK SLP146 T01830178",
+      "sky_condition": "OVC",
+      "temperature_f": 65.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1014.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1972-01-13T09:00:00Z",
+      "station_id": "KAGS",
+      "metar": "KAGS 130900Z 15006KT 3SM -RA FG SCT/// OVC/// 19/18 A//// RMK SLP128 T01890183",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1012.8,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1972-01-13T12:00:00Z",
+      "station_id": "KAGS",
+      "metar": "KAGS 131200Z 16010KT 7SM SCT/// OVC/// 18/17 A//// RMK SLP116 P0001 T01830172",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1011.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1972-01-13T15:00:00Z",
+      "station_id": "KAGS",
+      "metar": "KAGS 131500Z 17008KT 4SM -SHRA BKN/// BKN/// OVC/// 19/17 A//// RMK SLP138 P0004 T01890172",
+      "sky_condition": "BKN",
+      "temperature_f": 66.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1013.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "1972-01-13T18:00:00Z",
+      "station_id": "KAGS",
+      "metar": "KAGS 131800Z 18009KT 8SM BKN/// OVC/// 21/19 A//// RMK SLP104 T02060189",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1010.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1972-01-13T21:00:00Z",
+      "station_id": "KAGS",
+      "metar": "KAGS 132100Z 34006KT 1SM TSRA SCT/// BKN/// OVC/// 20/19 A//// RMK SLP100 P0042 T02000189",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1010.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 1.0,
+      "precip_1h_in": 0.42
+    }
+  ],
+  "estimated": false
+}

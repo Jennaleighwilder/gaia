@@ -1,0 +1,163 @@
+{
+  "event_id": "noaa_5637198_ALABAMA",
+  "event_date": "1998-04-08",
+  "event_datetime_utc": "1998-04-08T18:00:00Z",
+  "station": "KTCL",
+  "county": "PICKENS",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1998-04-08T00:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 080050Z 18010KT 7SM SCT035 23/18 A2976 RMK LAST",
+      "sky_condition": "SCT",
+      "temperature_f": 73.4,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-04-08T11:53:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081153Z 12005KT 1 1/4SM BR OVC003 19/19 A2977 RMK FIRST",
+      "sky_condition": "OVC",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 1.25
+    },
+    {
+      "timestamp": "1998-04-08T12:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081250Z 11003KT 2 1/2SM BR OVC005 20/19 A2978 RMK CIG 003V010",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1998-04-08T13:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081350Z 15005KT 3SM BR OVC005 20/20 A2978",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-04-08T14:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081450Z 13005KT 3SM BR OVC006 22/20 A2977",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-04-08T15:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081550Z 24007KT 4SM BR OVC007 23/21 A2978",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-04-08T16:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081650Z 23004KT 4SM BR OVC009 23/21 A2978",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-04-08T17:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081750Z VRB04KT 5SM HZ SCT013 BKN019 OVC035 25/21 A2973 RMK 10249 20193",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 69.8,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-04-08T18:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081850Z VRB05KT 6SM HZ SCT020 BKN025 BKN050 27/21 A2969",
+      "sky_condition": "SCT",
+      "temperature_f": 80.6,
+      "dewpoint_f": 69.8,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1998-04-08T19:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 081950Z VRB05KT 6SM HZ SCT025 BKN040 27/20 A2966",
+      "sky_condition": "SCT",
+      "temperature_f": 80.6,
+      "dewpoint_f": 68.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1998-04-08T20:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 082050Z 15008KT 7SM FEW030 SCT040 BKN060 27/20 A2963",
+      "sky_condition": "FEW",
+      "temperature_f": 80.6,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-04-08T21:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 082150Z 17010KT 7SM SCT030 SCT050 BKN060 26/21 A2960",
+      "sky_condition": "SCT",
+      "temperature_f": 78.8,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-04-08T22:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 082250Z 16008KT 6SM TS HZ OVC020 25/22 A2958 RMK TSB44 TS W MOV E",
+      "sky_condition": "OVC",
+      "temperature_f": 77.0,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1998-04-08T23:50:00Z",
+      "station_id": "KTCL",
+      "metar": "METAR KTCL 082350Z 16010G20KT 7SM TS BKN018 BKN027 OVC060 A2953 RMK OCNL LTGCC TS SW MOV NE T1028320246",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

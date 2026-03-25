@@ -1,0 +1,41 @@
+{
+  "event_id": "noaa_5423944_GEORGIA",
+  "event_date": "2004-09-06",
+  "event_datetime_utc": "2004-09-06T18:00:00Z",
+  "station": "KRMG",
+  "county": "GORDON",
+  "event_type": "Tropical Storm",
+  "magnitude": "",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "2004-09-06T19:53:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 061953Z AUTO 09015G20KT 10SM BKN037 OVC090 30/19 A2986 RMK AO2 RAE1859B35E45 SLP101 P0000 T03000189 TSNO",
+      "sky_condition": "BKN",
+      "temperature_f": 86.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1010.1,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2004-09-06T20:53:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 062053Z AUTO 09016G19KT 10SM SCT039 SCT046 29/19 A2984 RMK AO2 SLP095 60000 T02940189 58020 TSNO",
+      "sky_condition": "SCT",
+      "temperature_f": 85.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1009.5,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 21.864819999999998,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

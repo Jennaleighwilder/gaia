@@ -1,0 +1,40 @@
+{
+  "event_id": "noaa_9980103_ARKANSAS",
+  "event_date": "1978-01-07",
+  "event_datetime_utc": "1978-01-07T18:00:00Z",
+  "station": "KAWM",
+  "county": "WOODRUFF",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 3,
+  "observations": [
+    {
+      "timestamp": "1978-01-13T22:00:00Z",
+      "station_id": "KAWM",
+      "metar": "KAWM 132200Z 31005KT 7SM OVC030 A3007 RMK SLPNO",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1978-01-27T14:00:00Z",
+      "station_id": "KAWM",
+      "metar": "KAWM 271400Z 31009KT 15SM BKN120 BKN250 M/M A3036 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1978-01-30T21:00:00Z",
+      "station_id": "KAWM",
+      "metar": "KAWM 302100Z 00000KT 10SM BKN040 OVC080 A3038 RMK SLPNO",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

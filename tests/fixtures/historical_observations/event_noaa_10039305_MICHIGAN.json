@@ -1,0 +1,131 @@
+{
+  "event_id": "noaa_10039305_MICHIGAN",
+  "event_date": "1980-05-13",
+  "event_datetime_utc": "1980-05-13T18:00:00Z",
+  "station": "KBEH",
+  "county": "VAN BUREN",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1980-05-13T00:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 130000Z 01006KT 10SM SCT080 BKN200 15/10 A2976 RMK SLPNO T01500100",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1980-05-13T01:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 130100Z 00000KT 10SM BKN080 OVC200 14/10 A2975 RMK SLPNO T01440100",
+      "sky_condition": "BKN",
+      "temperature_f": 58.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1980-05-13T11:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 131100Z 00000KT 2SM FG BKN003 OVC008 11/11 A2966 RMK SLPNO T01060106",
+      "sky_condition": "BKN",
+      "temperature_f": 51.0,
+      "dewpoint_f": 51.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1980-05-13T12:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 131200Z 29007KT 3SM OVC/// M/M A2967 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1980-05-13T13:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 131300Z 02007KT 11/2SM FG OVC003 08/08 A2969 RMK SLPNO T00830083",
+      "sky_condition": "OVC",
+      "temperature_f": 47.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1980-05-13T18:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 131800Z 10008KT 5SM DZ BKN020 18/15 A2964 RMK SLPNO T01830150",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1980-05-13T19:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 131900Z 18008G15KT 4SM DZ BKN005 BKN100 23/17 A2958 RMK SLPNO T02330172",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "wind_gust_mph": 17.261699999999998,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1980-05-13T20:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 132000Z 30015G22KT 4SM DZ BKN050 17/14 A2962 RMK SLPNO T01670144",
+      "sky_condition": "BKN",
+      "temperature_f": 62.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1980-05-13T21:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 132100Z 32015G25KT 21/2SM FGDZ OVC006 M/M A2967 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1980-05-13T22:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 132200Z 32020KT 4SM DZ OVC006 09/08 A2972 RMK SLPNO T00940083",
+      "sky_condition": "OVC",
+      "temperature_f": 49.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1980-05-13T23:00:00Z",
+      "station_id": "KBEH",
+      "metar": "METAR KBEH 132300Z 30020KT 11/4SM FGDZ OVC006 M/M A2976 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 2.8
+    }
+  ],
+  "estimated": false
+}

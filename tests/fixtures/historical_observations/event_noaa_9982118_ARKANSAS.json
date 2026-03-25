@@ -1,0 +1,111 @@
+{
+  "event_id": "noaa_9982118_ARKANSAS",
+  "event_date": "1968-04-19",
+  "event_datetime_utc": "1968-04-19T18:00:00Z",
+  "station": "KFSM",
+  "county": "SEBASTIAN",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-04-19T00:00:00Z",
+      "station_id": "KFSM",
+      "metar": "KFSM 190000Z 07007KT 8SM BKN/// OVC/// 25/19 A//// RMK SLP135 T02500194",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1013.5,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-04-19T03:00:00Z",
+      "station_id": "KFSM",
+      "metar": "KFSM 190300Z 00000KT 7SM OVC/// 21/19 A//// RMK SLP139 T02110189",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1013.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-04-19T06:00:00Z",
+      "station_id": "KFSM",
+      "metar": "KFSM 190600Z 00000KT 8SM BKN/// OVC/// 19/18 A//// RMK SLP137 T01940178",
+      "sky_condition": "BKN",
+      "temperature_f": 67.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1013.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-04-19T09:00:00Z",
+      "station_id": "KFSM",
+      "metar": "KFSM 190900Z 04004KT 8SM -TSRA OVC/// 20/18 A//// RMK SLP103 P0001 T02000178",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1010.3,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1968-04-19T12:00:00Z",
+      "station_id": "KFSM",
+      "metar": "KFSM 191200Z 19004KT 10SM SCT/// OVC/// 19/17 A//// RMK SLP118 T01890167",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 62.0,
+      "pressure_mb": 1011.8,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-04-19T15:00:00Z",
+      "station_id": "KFSM",
+      "metar": "KFSM 191500Z 07004KT 6SM -SHRA OVC/// 20/17 A//// RMK SLP117 T02000172",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1968-04-19T18:00:00Z",
+      "station_id": "KFSM",
+      "metar": "KFSM 191800Z 09005KT 11/2SM -SHRA FG SCT/// OVC/// 21/18 A//// RMK SLP092 P0001 T02060183",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1009.2,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 1.5,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1968-04-19T21:00:00Z",
+      "station_id": "KFSM",
+      "metar": "KFSM 192100Z 02016KT 1SM TSRA FGDZ OVC/// 20/18 A//// RMK SLP058 P0061 T02000183",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 25.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 1.0,
+      "precip_1h_in": 0.61
+    }
+  ],
+  "estimated": false
+}

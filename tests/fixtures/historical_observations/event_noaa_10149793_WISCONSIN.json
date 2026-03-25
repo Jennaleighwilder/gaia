@@ -1,0 +1,110 @@
+{
+  "event_id": "noaa_10149793_WISCONSIN",
+  "event_date": "1968-08-19",
+  "event_datetime_utc": "1968-08-19T18:00:00Z",
+  "station": "KGRB",
+  "county": "MARINETTE",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1968-08-19T00:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 190000Z AUTO 14008KT 10SM CLR CLR CLR 19/16 RMK SLP141 T01940156 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 67.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1014.1,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-08-19T03:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 190300Z AUTO 14006KT 10SM CLR CLR 18/15 RMK SLP128 T01830150 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 65.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1012.8,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-08-19T06:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 190600Z AUTO 16008KT 10SM CLR CLR 19/15 RMK SLP099 T01890150 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 66.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1009.9,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1968-08-19T09:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 190900Z AUTO 19006KT 7SM CLR CLR 19/17 RMK SLP080 T01940172 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 67.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1008.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1968-08-19T12:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 191200Z AUTO 07005KT 1 1/2SM CLR CLR CLR 19/18 RMK P0001 SLP092 T01940178 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 67.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1009.2,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 1.5,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1968-08-19T15:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 191500Z AUTO 25014KT 8SM CLR CLR 27/22 RMK SLP086 T02720222 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 81.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1008.6,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1968-08-19T18:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 191800Z AUTO 23008KT 12SM CLR CLR CLR 29/22 RMK SLP092 T02890222 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 84.0,
+      "dewpoint_f": 72.0,
+      "pressure_mb": 1009.2,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1968-08-19T21:00:00Z",
+      "station_id": "KGRB",
+      "metar": "KGRB 192100Z AUTO 17012KT 12SM CLR CLR CLR 31/23 RMK SLP065 T03110233 IEM_DS3505",
+      "sky_condition": "CLR",
+      "temperature_f": 88.0,
+      "dewpoint_f": 74.0,
+      "pressure_mb": 1006.5,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 12.0
+    }
+  ],
+  "estimated": false
+}

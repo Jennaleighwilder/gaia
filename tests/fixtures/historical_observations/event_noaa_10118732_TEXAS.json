@@ -1,0 +1,253 @@
+{
+  "event_id": "noaa_10118732_TEXAS",
+  "event_date": "1957-04-26",
+  "event_datetime_utc": "1957-04-26T18:00:00Z",
+  "station": "KGGG",
+  "county": "GREGG",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1957-04-26T00:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260000Z AUTO 18018KT 15SM 26/ RMK AO2 T0256 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 78.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T01:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260100Z AUTO 18018KT 15SM 24/ A2995 RMK AO2 T0244 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 76.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T02:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260200Z AUTO 18015KT 15SM 24/ A2995 RMK AO2 T0244 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 76.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T03:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260300Z AUTO 18020KT 15SM 24/M12 A3001 RMK AO2 T02391117 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 75.0,
+      "dewpoint_f": 11.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T04:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260400Z AUTO 18013KT 15SM 23/ A3001 RMK AO2 T0228 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 73.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T05:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260500Z AUTO 18016KT 15SM 22/ A3001 RMK AO2 T0222 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 72.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T06:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260600Z AUTO 18010KT 15SM 22/ A3003 RMK AO2 T0217 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 71.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T07:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260700Z AUTO 18085KT 15SM 21/ A3002 RMK AO2 T0211 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 70.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 97.8163,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T08:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260800Z AUTO 00000KT 15SM 21/ A3003 RMK AO2 T0211 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 70.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T09:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 260900Z AUTO 13505KT 15SM 21/ A3002 RMK AO2 T0206 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T10:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261000Z AUTO 13508KT 15SM 21/ A3002 RMK AO2 T0206 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T11:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261100Z AUTO 13508KT 7SM 21/ RMK AO2 T0206 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1957-04-26T12:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261200Z AUTO 13510KT 8SM 21/ A3002 RMK AO2 T0206 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "wind_direction_deg": 135.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1957-04-26T13:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261300Z AUTO 18012KT 10SM 22/ A3001 RMK AO2 T0217 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 71.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1957-04-26T14:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261400Z AUTO 20020KT 12SM 22/ RMK AO2 T0222 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 72.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1957-04-26T15:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261500Z AUTO 04515KT 5SM SHRA SH 21/ RMK AO2 T0206 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "wind_direction_deg": 45.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1957-04-26T16:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261600Z AUTO 29315KT 4SM TS +RA 18/ A3008 RMK AO2 T0183 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 65.0,
+      "wind_direction_deg": 293.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1957-04-26T17:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261700Z AUTO 248//KT 15SM 21/ RMK AO2 T0206 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 69.0,
+      "wind_direction_deg": 248.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T18:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261800Z AUTO 02308KT 15SM 22/ RMK AO2 T0222 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 72.0,
+      "wind_direction_deg": 23.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T19:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 261900Z AUTO 06812KT 15SM 24/ RMK AO2 T0239 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 75.0,
+      "wind_direction_deg": 68.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T20:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 262000Z AUTO 09018KT 15SM 25/ RMK AO2 T0250 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 77.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T21:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 262100Z AUTO 06818KT 15SM 25/ RMK AO2 T0250 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 77.0,
+      "wind_direction_deg": 68.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T22:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 262200Z AUTO 09016KT 15SM TS 23/ RMK AO2 T0233 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 74.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1957-04-26T23:00:00Z",
+      "station_id": "KGGG",
+      "metar": "METAR GGG 262300Z AUTO 04516KT 15SM 23/ RMK AO2 T0228 IEM_GHCNH",
+      "sky_condition": null,
+      "temperature_f": 73.0,
+      "wind_direction_deg": 45.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

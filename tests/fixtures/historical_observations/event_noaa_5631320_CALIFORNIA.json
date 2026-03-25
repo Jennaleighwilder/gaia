@@ -1,0 +1,211 @@
+{
+  "event_id": "noaa_5631320_CALIFORNIA",
+  "event_date": "1998-02-23",
+  "event_datetime_utc": "1998-02-23T18:00:00Z",
+  "station": "KSNA",
+  "county": "ORANGE",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 18,
+  "observations": [
+    {
+      "timestamp": "1998-02-23T00:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 230046Z 19008KT 20SM SCT007 BKN035 OVC060 16/15 A3004",
+      "sky_condition": "SCT",
+      "temperature_f": 60.8,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1998-02-23T01:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 230146Z 170010KT 35SM SCT010 BKN060 OVC200 15/14 A3005",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 35.0
+    },
+    {
+      "timestamp": "1998-02-23T02:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 230246Z 17008KT 8SM SCT010 BKN060 15/15 A3004",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-02-23T03:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 230346Z 17008KT 8SM FEW010 BKN070 BKN200 15/15 A3006",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-02-23T04:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 230446Z 18008KT 7SM SCT008 BKN015 15/15 A3007",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-02-23T05:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 230546Z 17006KT 7SM SCT008 BKN020 15/14 A3006",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-02-23T06:23:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 230623Z COR 15006KT 4SM BR BKN009 BKN020 15/15 A3005",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-02-23T13:50:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 231350Z 17010KT 5SM SHRA FEW010 BKN017 OVC030 16/14 A2994",
+      "sky_condition": "FEW",
+      "temperature_f": 60.8,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-02-23T14:50:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 231450Z 15020KT 5SM BR FEW006 BKN020 OVC033 15/15 A2995",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-02-23T15:50:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 231550Z 15015KT 8SM VCSH SCT010 OVC013 16/15 A2995",
+      "sky_condition": "SCT",
+      "temperature_f": 60.8,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-02-23T16:47:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 231647Z 17018KT 8SM SCT010 OVC050 16/15 A2997",
+      "sky_condition": "SCT",
+      "temperature_f": 60.8,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "1998-02-23T17:50:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 231750Z 17015KT 10SM FEW009 BKN036 OVC050 16/14 A2998",
+      "sky_condition": "FEW",
+      "temperature_f": 60.8,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-02-23T18:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 231846Z 17017KT 10SM SCT010 BKN035 BKN180 18/14 A2994",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1998-02-23T19:48:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 231948Z 15018KT 15SM SCT014 BKN055 OVC180 18/14 A2992",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-23T20:47:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 232047Z 17018KT 15SM SCT012 BKN080 BKN120 17/14 A2988",
+      "sky_condition": "SCT",
+      "temperature_f": 62.6,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-23T21:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 232146Z 17020KT 15SM FEW012 OVC044 17/14 A2986",
+      "sky_condition": "FEW",
+      "temperature_f": 62.6,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-02-23T22:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 232246Z 16020KT 20SM FEW012 OVC042 17/14 A2983",
+      "sky_condition": "FEW",
+      "temperature_f": 62.6,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1998-02-23T23:46:00Z",
+      "station_id": "KSNA",
+      "metar": "KSNA 232346Z 18020KT 15SM RA BKN015 OVC040 16/14 A2980",
+      "sky_condition": "BKN",
+      "temperature_f": 60.8,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

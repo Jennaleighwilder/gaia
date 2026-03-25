@@ -1,0 +1,113 @@
+{
+  "event_id": "noaa_9978454_ALABAMA",
+  "event_date": "1969-04-18",
+  "event_datetime_utc": "1969-04-18T18:00:00Z",
+  "station": "KMGM",
+  "county": "BULLOCK",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 8,
+  "observations": [
+    {
+      "timestamp": "1969-04-18T00:00:00Z",
+      "station_id": "KMGM",
+      "metar": "KMGM 180000Z 15012KT 6SM -SHRA SCT/// OVC/// 20/19 A//// RMK SLP076 P0003 T02000194",
+      "sky_condition": "SCT",
+      "temperature_f": 68.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1007.6,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "1969-04-18T03:00:00Z",
+      "station_id": "KMGM",
+      "metar": "KMGM 180300Z 16016KT 6SM -SHRA BKN/// OVC/// 21/20 A//// RMK SLP060 P0001 T02110200",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1006.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 6.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "1969-04-18T06:00:00Z",
+      "station_id": "KMGM",
+      "metar": "KMGM 180600Z 07006KT 5SM -SHRA OVC/// 20/19 A//// RMK SLP052 P0018 T02000194",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1005.2,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.18
+    },
+    {
+      "timestamp": "1969-04-18T09:00:00Z",
+      "station_id": "KMGM",
+      "metar": "KMGM 180900Z 18008KT 4SM -TSRA OVC/// 21/20 A//// RMK SLP014 P0016 T02060200",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1001.4,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.16
+    },
+    {
+      "timestamp": "1969-04-18T12:00:00Z",
+      "station_id": "KMGM",
+      "metar": "KMGM 181200Z 19011KT 7SM BKN/// OVC/// 22/21 A//// RMK SLP012 T02170211",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1001.2,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1969-04-18T15:00:00Z",
+      "station_id": "KMGM",
+      "metar": "KMGM 181500Z 24012KT 7SM SCT/// OVC/// 22/19 A//// RMK SLP035 T02170194",
+      "sky_condition": "SCT",
+      "temperature_f": 71.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1003.5,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1969-04-18T18:00:00Z",
+      "station_id": "KMGM",
+      "metar": "KMGM 181800Z 23015KT 10SM BKN/// 26/17 A//// RMK SLP029 T02560172",
+      "sky_condition": "BKN",
+      "temperature_f": 78.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1002.9,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1969-04-18T21:00:00Z",
+      "station_id": "KMGM",
+      "metar": "KMGM 182100Z 26018KT 15SM SCT/// SCT/// SCT/// 27/14 A//// RMK SLP011 T02670144",
+      "sky_condition": "SCT",
+      "temperature_f": 80.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1001.1,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

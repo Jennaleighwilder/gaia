@@ -1,0 +1,149 @@
+{
+  "event_id": "noaa_5724334_NORTH CAROLINA",
+  "event_date": "1999-09-15",
+  "event_datetime_utc": "1999-09-15T18:00:00Z",
+  "station": "KRWI",
+  "county": "HALIFAX",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 12,
+  "observations": [
+    {
+      "timestamp": "1999-09-15T10:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151055Z 05008KT 6SM -RA BR OVC002 23/23 A2994 RMK FIRST",
+      "sky_condition": "OVC",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1999-09-15T11:50:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151150Z 05009KT 5SM -RA BR BKN002 OVC006 23/23 A2994 RMK 60022 70050 10226 20222 54000",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1999-09-15T12:48:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151248Z 05006KT 3SM -RA BR FEW003 BKN004 OVC009 23/23 A2993",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1999-09-15T13:46:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151346Z 05009KT 2SM RA BR FEW002 SCT004 BKN009 OVC023 23/23 A2993",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1999-09-15T14:56:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151456Z 05006KT 4SM -RA BR SCT006 BKN014 OVC019 24/23 A2993 RMK 56003",
+      "sky_condition": "SCT",
+      "temperature_f": 75.2,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1999-09-15T15:48:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151548Z 03011KT 2 1/2SM +RA BR FEW009 SCT013 BKN036 OVC047 23/22 A2992",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1999-09-15T16:55:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151655Z 01011KT 2SM RA BR FEW008 BKN012 OVC031 22/22 A2990",
+      "sky_condition": "FEW",
+      "temperature_f": 71.6,
+      "dewpoint_f": 71.6,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1999-09-15T17:54:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151754Z 01014KT 5SM -RA BR FEW006 BKN014 OVC022 22/21 A2987 RMK 60126 10236 20215 58020",
+      "sky_condition": "FEW",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 10.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1999-09-15T18:57:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151857Z 02013KT 6SM -RA BR FEW005 BKN007 BKN009 BKN012 OVC017 22/21 A2983 RMK PRESSFR",
+      "sky_condition": "FEW",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1999-09-15T19:54:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 151954Z 03013G20KT 3SM RA BR FEW005 BKN007 BKN011 OCV014 22/21 A2981",
+      "sky_condition": "   ",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1999-09-15T20:53:00Z",
+      "station_id": "KRWI",
+      "metar": "METAR KRWI 152053Z 02018G24KT 2 1/2SM +RA BR BKN009 BKN012 OVC022 22/21 A2978 RMK",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1999-09-15T21:53:00Z",
+      "station_id": "KRWI",
+      "metar": "KRWI 152153Z AUTO 02018G24KT 2 1/2SM BKN009 BKN012 OVC022 22/21 A2978 RMK T02200210 56030 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 27.618719999999996,
+      "visibility_mi": 2.5,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

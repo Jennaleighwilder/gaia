@@ -1,0 +1,135 @@
+{
+  "event_id": "noaa_5578259_NEW HAMPSHIRE",
+  "event_date": "1996-07-13",
+  "event_datetime_utc": "1996-07-13T18:00:00Z",
+  "station": "KLEB",
+  "county": "GRAFTON",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1996-07-13T00:45:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 130045Z 00000KT 25SM SCT060 22/16 A3019",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1996-07-13T01:59:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 130159 000000KT 25SM SCT060 22/16 A3020",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1996-07-13T11:52:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 131152Z 00000KT 2SM -RA BR SCT008 OVC060 18/17 A3012",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-07-13T12:45:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 131245Z 00000KT 2SM -RA BR SCT008 OVC020 18/17 A3009",
+      "sky_condition": "SCT",
+      "temperature_f": 64.4,
+      "dewpoint_f": 62.6,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-07-13T13:51:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 131351 00000KT 2SM -RABR SCT005 OVC020 19/18 A3002",
+      "sky_condition": "SCT",
+      "temperature_f": 66.2,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-07-13T17:45:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 131745Z 06006KT 1 1/2SM RABR BKN004 OVC010 19/19 A2997",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1996-07-13T18:45:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 131845Z 08006KT 2SM RA BR BKN004 OVC010 19/19 A2992",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-07-13T19:45:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 131945Z 10006KT 3SM RA BR BKN004 OVC010 19/19 A2986",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-07-13T20:50:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 132050Z 100008KT 2SM RA BR BKN004 OVC010 19/19 A2979",
+      "sky_condition": "BKN",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-07-13T21:50:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 132150 100011KT 13/4SM RA BR BKN004 OVC010 19/19 A2969 PRESFR",
+      "sky_condition": "   ",
+      "temperature_f": 66.2,
+      "dewpoint_f": 66.2,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 12.704611199999999,
+      "visibility_mi": 3.2
+    },
+    {
+      "timestamp": "1996-07-13T22:50:00Z",
+      "station_id": "KLEB",
+      "metar": "KLEB 132250Z 09010G18KT 2SM RA BR BKN004 OVC008 18/18 A2967",
+      "sky_condition": "BKN",
+      "temperature_f": 64.4,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 20.714039999999997,
+      "visibility_mi": 2.0
+    }
+  ],
+  "estimated": false
+}

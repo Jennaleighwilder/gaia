@@ -1,0 +1,26 @@
+{
+  "event_id": "noaa_5578654_MINNESOTA",
+  "event_date": "1996-12-17",
+  "event_datetime_utc": "1996-12-17T18:00:00Z",
+  "station": "KRWF",
+  "county": "RENVILLE",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "1996-12-17T11:53:00Z",
+      "station_id": "KRWF",
+      "metar": "KRWF 171153Z AUTO 23012KT 12SM M16/M18 A2982 RMK SLP120 T11601180 57007 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 3.2,
+      "dewpoint_f": -0.4,
+      "pressure_mb": 1012.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 12.0,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,112 @@
+{
+  "event_id": "noaa_10055724_MINNESOTA",
+  "event_date": "1973-06-25",
+  "event_datetime_utc": "1973-06-25T18:00:00Z",
+  "station": "KBRD",
+  "county": "CROW WING",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "1973-06-25T00:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 250000Z AUTO 21009KT 10SM BKN079 OVC197 24/15 A2987 RMK T02440150 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-06-25T02:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 250200Z AUTO 13011KT 10SM SCT079 OVC118 23/14 A2987 RMK T02330144 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-06-25T13:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 251300Z AUTO 14005KT 10SM SCT049 BKN098 OVC246 17/16 A2973 RMK T01720161 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-06-25T14:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 251400Z AUTO 14007KT 10SM SCT020 SCT049 BKN098 OVC246 18/17 A2973 RMK T01830166 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 61.88,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-06-25T16:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 251600Z AUTO 17015KT 10SM BKN010 BKN246 21/18 A2973 RMK T02110177 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-06-25T17:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 251700Z AUTO 18015KT 10SM SCT018 BKN246 23/19 A2971 RMK T02270188 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 72.86,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-06-25T18:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 251800Z AUTO 18010KT 10SM BKN020 BKN246 24/19 A2971 RMK T02380188 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 74.84,
+      "dewpoint_f": 65.84,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-06-25T19:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 251900Z AUTO 21014KT 10SM BKN020 BKN246 25/19 A2972 RMK T02500194 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-06-25T22:00:00Z",
+      "station_id": "KBRD",
+      "metar": "KBRD 252200Z AUTO 21013KT 10SM SCT039 BKN246 27/19 A2967 RMK T02660194 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 79.88,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

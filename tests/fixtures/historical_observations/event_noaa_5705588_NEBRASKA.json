@@ -1,0 +1,134 @@
+{
+  "event_id": "noaa_5705588_NEBRASKA",
+  "event_date": "1999-06-03",
+  "event_datetime_utc": "1999-06-03T18:00:00Z",
+  "station": "KODX",
+  "county": "VALLEY",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1999-06-03T10:59:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 031059Z 19015KT 15SM SCT030 BKN080 24/14 A2985 RMK T02360141",
+      "sky_condition": "SCT",
+      "temperature_f": 74.48,
+      "dewpoint_f": 57.38,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T11:58:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 031158Z 12009KT 15SM SCT080 18/13 A2989 RMK T01830129 24 HR HI 26.7 LOW 17.9",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 55.22,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T12:55:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 031255Z 12007KT 15SM SCT080 19/13 A2992 RMK T01940132",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 55.76,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T13:45:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 031345Z 11006KT 15SM SCT080 19/13 A2992 RMK T01940132",
+      "sky_condition": "SCT",
+      "temperature_f": 67.0,
+      "dewpoint_f": 55.76,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T14:55:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 031455Z 14009KT 15SM SCT080 21/11 A2992 RMK T02060114",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 52.52,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T15:55:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 031555Z 15011KT 15SM SCT030 BKN080 24/14 A2992 RMK T02060141",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 57.38,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T18:59:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 031859Z 18017KT 15SM SCT030 OVC080 23/16 A2990 RMK T02330157",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 60.26,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T19:55:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 031955Z 17015KT 15SM SCT030 OVC080 23/16 A2989 RMK T02330157",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 60.26,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T21:50:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 032150Z 15013KT 15SM SCT030 BKN080 26/15 A2985 RMK T02560154 DAYTIME HI 25.6 24HR LO 17.9",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 59.72,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T22:52:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 032252Z 17005KT 15SM SCT030 BKN080 26/15 A2984 RMK T02560154",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 59.72,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1999-06-03T23:45:00Z",
+      "station_id": "KODX",
+      "metar": "METAR KODX 032345Z 18010KT 15SM BKN040 24/14 A2982 RMK T02440141",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 57.38,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

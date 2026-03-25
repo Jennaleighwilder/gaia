@@ -1,0 +1,252 @@
+{
+  "event_id": "noaa_9992814_ARKANSAS",
+  "event_date": "1985-04-23",
+  "event_datetime_utc": "1985-04-23T18:00:00Z",
+  "station": "KTXK",
+  "county": "LAFAYETTE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 22,
+  "observations": [
+    {
+      "timestamp": "1985-04-23T00:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230000Z 10010KT 2SM TSRA OVC004 18/14 A2975 RMK T OVHD MOVG E FQT LGTCG / TW0 76 SLPNO 60018 T01780139 5/0//",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1985-04-23T01:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230100Z 10007KT 7SM BKN004 OVC050 17/14 A2975 RMK TE44 TMOVD E FQT LTG ICCGCC E-SE SLPNO T01720139",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1985-04-23T02:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230200Z 13006KT 4SM TSRA OVC030 17/13 A2977 RMK TB44 T W MOVG NE FQT LGTICCCCG ALQDS SLPNO T01670133",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1985-04-23T03:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230300Z 18005KT 11/2SM TSRA OVC004 17/13 A2982 RMK FQT LTGICCCG ALQDS SLPNO T01670133",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1985-04-23T04:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230400Z 16005KT 10SM TSRA BKN028 OVC070 18/14 A2981 RMK FQT LTGICCCCG NW NOSPL SLPNO T01780139",
+      "sky_condition": "BKN",
+      "temperature_f": 64.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1985-04-23T05:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230500Z 07006KT 3SM FG BKN002 BKN008 OVC020 17/17 A2981 RMK OCNL LTGIC NE NOSPL SLPNO T01720167",
+      "sky_condition": "BKN",
+      "temperature_f": 63.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1985-04-23T06:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230600Z 06006KT 3SM FG BKN006 17/16 A2980 RMK NOSPL SLPNO T01670161",
+      "sky_condition": "BKN",
+      "temperature_f": 62.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1985-04-23T08:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230800Z 17005KT 6SM FG OVC020 19/18 A2978 RMK NOSPL SLPNO T01940183",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1985-04-23T09:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 230900Z 18006KT 4SM FG OVC017 19/18 A2979 RMK NOSPL SLPNO T01940183",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1985-04-23T10:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231000Z 16008KT 4SM FG OVC028 19/18 A2978 RMK NOSPL SLPNO T01940183",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1985-04-23T11:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231100Z 18008KT 4SM FG OVC009 19/18 A2977 RMK NOSPL SLPNO T01940183",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1985-04-23T12:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231200Z 19006KT 3SM FG SCT008 OVC028 21/19 A2979 RMK NOSPL SLPNO T02060194",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1985-04-23T13:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231300Z 15005KT 2SM FGDZ OVC/// BKN008 OVC015 21/17 A2983 RMK FH4/ ONE 62 20399 SLPNO T02110167 5/0//",
+      "sky_condition": "   ",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1985-04-23T14:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231400Z 15005KT 3SM FGDZ OVC011 23/18 A2984 RMK SLPNO T02280178",
+      "sky_condition": "   ",
+      "temperature_f": 73.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1985-04-23T16:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231600Z 17007KT 5SM DZ OVC012 25/19 A2985 RMK SML BINOVC SLPNO T02500189",
+      "sky_condition": "OVC",
+      "temperature_f": 77.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1985-04-23T17:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231700Z 18008KT 4SM DZ BKN020 27/19 A2984 RMK SLPNO T02670189",
+      "sky_condition": "BKN",
+      "temperature_f": 80.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1985-04-23T18:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231800Z 18007KT 5SM DZ BKN015 26/18 A2982 RMK CB NE RWU NE SLPNO T02610183 5/0//",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1985-04-23T19:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 231900Z 19014KT 5SM DZ BKN015 BKN050 28/18 A2979 RMK TCU SW-N RWU SW SLPNO T02830178",
+      "sky_condition": "BKN",
+      "temperature_f": 83.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1985-04-23T20:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 232000Z /////KT 6SM CLR M/M A//// RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1985-04-23T21:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 232100Z 11008KT 10SM BKN023 OVC040 21/17 A2978 RMK TE47 T MOVD NE SLPNO T02110167",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1985-04-23T22:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 232200Z 18008KT 10SM BKN030 OVC050 24/18 A2976 RMK SLPNO T02440183",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1985-04-23T23:00:00Z",
+      "station_id": "KTXK",
+      "metar": "METAR KTXK 232300Z 18005KT 10SM BKN050 BKN100 24/19 A2977 RMK SLPNO T02440189",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,166 @@
+{
+  "event_id": "noaa_10041252_MASSACHUSETTS",
+  "event_date": "1974-09-29",
+  "event_datetime_utc": "1974-09-29T18:00:00Z",
+  "station": "KBED",
+  "county": "MIDDLESEX",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "1974-09-29T00:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 290000Z 20008KT 21/2SM CLR M/M A3010 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1974-09-29T01:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 290100Z 21008KT 21/2SM BKN008 OVC020 M/M A3009 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1974-09-29T02:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 290200Z 20008KT 21/2SM OVC009 M/M A3007 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.5
+    },
+    {
+      "timestamp": "1974-09-29T03:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 290300Z 20008KT 3SM OVC010 M/M A3005 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1974-09-29T11:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291100Z 00000KT 4SM OVC006 M/M A2978 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1974-09-29T12:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291200Z 27004KT 4SM OVC009 M/M A2979 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1974-09-29T13:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291300Z 27004KT 4SM SCT004 BKN009 BKN015 M/M A2979 RMK RE15 SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1974-09-29T14:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291400Z 24010KT 5SM SCT005 BKN008 M/M A2977 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1974-09-29T15:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291500Z 24010KT 5SM BKN009 M/M A2974 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1974-09-29T16:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291600Z 23010KT 5SM SCT009 BKN015 M/M A2973 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1974-09-29T17:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291700Z 22010KT 7SM SCT009 BKN100 M/M A2969 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-09-29T18:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291800Z 21012KT 7SM SCT009 BKN100 M/M A2966 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-09-29T19:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 291900Z 20016KT 7SM BKN015 M/M A2960 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-09-29T20:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 292000Z 21010G20KT 7SM BKN015 BKN150 M/M A2956 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-09-29T21:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 292100Z 18010G20KT 7SM CLR M/M A2955 RMK TB45 NW MOVG E OCNL LTGCCCG SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1974-09-29T22:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 292200Z 00000KT 10SM OVC023 M/M A2952 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1974-09-29T23:00:00Z",
+      "station_id": "KBED",
+      "metar": "METAR KBED 292300Z 18004KT 10SM BKN017 OVC023 M/M A2950 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

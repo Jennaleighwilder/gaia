@@ -1,0 +1,203 @@
+{
+  "event_id": "noaa_5172220_WYOMING",
+  "event_date": "2000-08-07",
+  "event_datetime_utc": "2000-08-07T18:00:00Z",
+  "station": "KWRL",
+  "county": "HOT SPRINGS",
+  "event_type": "Wildfire",
+  "magnitude": "",
+  "observation_count": 17,
+  "observations": [
+    {
+      "timestamp": "2000-08-07T00:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 070050Z 04007KT 15SM FEW120 29/12 A2989 RMK SLP083 T02880118",
+      "sky_condition": "FEW",
+      "temperature_f": 83.84,
+      "dewpoint_f": 53.24,
+      "pressure_mb": 1008.3,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "2000-08-07T01:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 070150Z 07003KT 15SM FEW120 FEW180 25/13 A2990 RMK SLP087 T02520133",
+      "sky_condition": "FEW",
+      "temperature_f": 77.36,
+      "dewpoint_f": 56.0,
+      "pressure_mb": 1008.7,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "2000-08-07T02:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 070250Z 00000KT 10SM FEW140 23/11 A2991 RMK SLP091 T02320111 53003",
+      "sky_condition": "FEW",
+      "temperature_f": 73.76,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1009.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-08-07T03:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 070350Z 13003KT 10SM FEW140 22/11 A2992 RMK SLP095 T02160112",
+      "sky_condition": "FEW",
+      "temperature_f": 70.88,
+      "dewpoint_f": 52.16,
+      "pressure_mb": 1009.5,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-08-07T04:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 070450Z 00000KT 10SM FEW140 21/09 A2992 RMK SLP091 HI 31.2 LAST T0212 0086",
+      "sky_condition": "FEW",
+      "temperature_f": 70.16,
+      "dewpoint_f": 48.2,
+      "pressure_mb": 1009.1,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-08-07T12:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 071250Z VRB04KT 20SM FEW140 SCT180 15/09 A2994 RMK SLP097 T01520089",
+      "sky_condition": "FEW",
+      "temperature_f": 59.36,
+      "dewpoint_f": 48.0,
+      "pressure_mb": 1009.7,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "2000-08-07T13:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 071350Z VRB04KT 10SM FEW140 SCT180 18/08 A2996 RMK SLP106 T01 T01760075",
+      "sky_condition": "FEW",
+      "temperature_f": 63.68,
+      "dewpoint_f": 45.5,
+      "pressure_mb": 1010.6,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-08-07T14:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 071450Z VRB05KT 8SM FEW120 SCT180 22/09 A2997 RMK SLP105 T02160087 51007",
+      "sky_condition": "FEW",
+      "temperature_f": 70.88,
+      "dewpoint_f": 47.66,
+      "pressure_mb": 1010.5,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2000-08-07T15:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 071550Z VRB03KT 8SM FEW120 FEW180 24/08 A2997 RMK SLP105 T02430083",
+      "sky_condition": "FEW",
+      "temperature_f": 75.74,
+      "dewpoint_f": 47.0,
+      "pressure_mb": 1010.5,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2000-08-07T16:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 071650Z VRB05KT 8SM FEW100 SCT160 24/12 A2996 RMK VIRGA SE SLP104 T02360117",
+      "sky_condition": "FEW",
+      "temperature_f": 74.48,
+      "dewpoint_f": 53.0,
+      "pressure_mb": 1010.4,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2000-08-07T17:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 071750Z VRB03KT 8SM FEW100 SCT160 28/08 A2995 RMK SLPNO T02760082 10285 20132 58005",
+      "sky_condition": "FEW",
+      "temperature_f": 81.68,
+      "dewpoint_f": 46.76,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2000-08-07T18:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 071850Z VRB03KT 8SM FEW100 SCT180 29/08 A2993 RMK SLPNO T02940084",
+      "sky_condition": "FEW",
+      "temperature_f": 85.0,
+      "dewpoint_f": 47.12,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2000-08-07T19:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 071950Z VRB03KT 8SM FEW120 SCT180 31/08 A2991 RMK SLPNO T03110082",
+      "sky_condition": "FEW",
+      "temperature_f": 88.0,
+      "dewpoint_f": 46.76,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2000-08-07T20:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 072050Z 16003KT 10SM FEW100 FEW180 32/08 A2989 RMK SLPNO T03230075 57019",
+      "sky_condition": "FEW",
+      "temperature_f": 90.14,
+      "dewpoint_f": 45.5,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2000-08-07T21:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 072150Z 28003KT 15SM FEW100 FEW160 33/06 A2987 RMK SLPNO T03320059",
+      "sky_condition": "FEW",
+      "temperature_f": 91.76,
+      "dewpoint_f": 42.62,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "2000-08-07T22:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 072250Z 00000KT 15SM FEW110 FEW160 33/05 A2985 RMK SLPNO T03340050",
+      "sky_condition": "FEW",
+      "temperature_f": 92.12,
+      "dewpoint_f": 41.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "2000-08-07T23:50:00Z",
+      "station_id": "KWRL",
+      "metar": "KWRL 072350Z 08007KT 15SM FEW120 33/11 A2984 RMK SLP059 T03260111 10344 20276 56014",
+      "sky_condition": "FEW",
+      "temperature_f": 90.68,
+      "dewpoint_f": 52.0,
+      "pressure_mb": 1005.9,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

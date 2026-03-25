@@ -1,0 +1,156 @@
+{
+  "event_id": "noaa_5597113_NEBRASKA",
+  "event_date": "1997-04-05",
+  "event_datetime_utc": "1997-04-05T18:00:00Z",
+  "station": "KIML",
+  "county": "PERKINS",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1997-04-05T00:59:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 050059Z 12015KT 12SM BKN060 OVC120 13/01 A2925 RMK T01300014",
+      "sky_condition": "BKN",
+      "temperature_f": 55.4,
+      "dewpoint_f": 34.52,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1997-04-05T02:49:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 050249Z 13011KT 15SM BKN060 BKN120 13/01 A2931 RMK PRESRR T01300014",
+      "sky_condition": "BKN",
+      "temperature_f": 55.4,
+      "dewpoint_f": 34.52,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T03:55:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 050355Z 14015KT 12SM BKN060 BKN120 13/01 A2929 RMK LAST T01300014",
+      "sky_condition": "BKN",
+      "temperature_f": 55.4,
+      "dewpoint_f": 34.52,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 12.0
+    },
+    {
+      "timestamp": "1997-04-05T12:50:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 051250Z 31015KT 15SM BKN012 OVC070 03/M02 A2925 RMK FIRST T00301020 24HR HIGH 18.9 CELSIUS OVERNIGHT LOW 2.2 CELSIUS",
+      "sky_condition": "BKN",
+      "temperature_f": 37.4,
+      "dewpoint_f": 28.4,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T14:53:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 051453Z 32018KT 15SM BKN012 OVC100 02/M06 A2929 RMK T00201058",
+      "sky_condition": "BKN",
+      "temperature_f": 35.6,
+      "dewpoint_f": 21.56,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T15:57:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 051557Z 32020KT 15SM BKN012 OVC100 A2930 RMK T00201058",
+      "sky_condition": "BKN",
+      "temperature_f": 35.6,
+      "dewpoint_f": 21.56,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T16:55:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 051655Z 31020KT 15SM BKN012 OVC100 02/M06 A2932 RMK T00201058",
+      "sky_condition": "BKN",
+      "temperature_f": 35.6,
+      "dewpoint_f": 21.56,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T17:52:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 051752Z 30020KT 15SM BKN012 OVC100 02/M04 A2935 RMK T00201041",
+      "sky_condition": "BKN",
+      "temperature_f": 35.6,
+      "dewpoint_f": 24.62,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T19:40:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 051940Z 31020KT 15SM BKN020 OVC150 02/M05 A2940 RMK T00201051",
+      "sky_condition": "BKN",
+      "temperature_f": 35.6,
+      "dewpoint_f": 22.82,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T20:46:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 052046Z 30025KT 15SM BKN030 BKN150 02/M05 A2939 RMK T00201051",
+      "sky_condition": "BKN",
+      "temperature_f": 35.6,
+      "dewpoint_f": 22.82,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 28.769499999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T21:46:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 052146Z 32021KT 15SM BKN030 BKN120 03/M05 A2941 RMK T00301054",
+      "sky_condition": "BKN",
+      "temperature_f": 37.4,
+      "dewpoint_f": 22.28,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 24.166379999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T22:59:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 052259Z 30030KT 15SM BKN030 BKN120 04/M08 A2994 RMK T00401077",
+      "sky_condition": "BKN",
+      "temperature_f": 39.2,
+      "dewpoint_f": 18.14,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 34.523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-04-05T23:47:00Z",
+      "station_id": "KIML",
+      "metar": "METAR KIML 052347Z 31028KT 12SM SCT020 BKN100 00/M06 A2948 RMK PRESRR T00001062 DAYTIME HIGH 4.4 CELSIUS 24HR LOW 2.2 CELSIUS",
+      "sky_condition": "SCT",
+      "temperature_f": 32.0,
+      "dewpoint_f": 20.84,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 32.22184,
+      "visibility_mi": 12.0
+    }
+  ],
+  "estimated": false
+}

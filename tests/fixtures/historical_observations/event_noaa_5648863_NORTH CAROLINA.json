@@ -1,0 +1,135 @@
+{
+  "event_id": "noaa_5648863_NORTH CAROLINA",
+  "event_date": "1998-05-07",
+  "event_datetime_utc": "1998-05-07T18:00:00Z",
+  "station": "KINT",
+  "county": "FORSYTH",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1998-05-07T10:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071045Z 00000KT 1 1/2SM RA BR BKN030 OVC080 16 A2994",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1998-05-07T11:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071145Z 18005KT 1SM RA BR BKN006 BKN015 OVC050 16 A2994",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1998-05-07T12:48:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071248Z 00000KT 2SM -RA BR OVC015 16/ A2993",
+      "sky_condition": "OVC",
+      "temperature_f": 60.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1998-05-07T13:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071345Z 00000SM 1 BR OVC013 16/ A2992",
+      "sky_condition": "   ",
+      "temperature_f": 60.8,
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 0.0
+    },
+    {
+      "timestamp": "1998-05-07T14:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071450Z 16005KT 1SM BR OVC005 17/ A2991",
+      "sky_condition": "OVC",
+      "temperature_f": 62.6,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1998-05-07T15:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071545Z VRB04KT 1SM BR OVC004 18/ A2991",
+      "sky_condition": "OVC",
+      "temperature_f": 64.4,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1998-05-07T16:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071650Z VRB05KTS 2SM BR OVC005 19/ A2998",
+      "sky_condition": "OVC",
+      "temperature_f": 66.2,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1998-05-07T17:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071750Z 17006KT 3SM BR BKN008 OVC012 20 A2985",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-05-07T18:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071845Z 20008KT 3SM -RA BR BKN008 OVC015 20 A2983",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-05-07T19:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 071950Z 17008KT 3SM BR BKN009 OVC013 20 A2984",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-05-07T20:55:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 072055Z 17008KT 5SM BR BKN015 OVC023 21/ A2974",
+      "sky_condition": "BKN",
+      "temperature_f": 69.8,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-05-07T21:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 072145Z 17007KT 4SM -RA BR BKN020 BKN030 OVC070 20/M A2973",
+      "sky_condition": "   ",
+      "temperature_f": 68.0,
+      "dewpoint_f": 32.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-05-07T23:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 072345Z 16005KT 5SM -RA SCT016 BKN030 BKN050 16/ A2972 RMK TB10E25",
+      "sky_condition": "SCT",
+      "temperature_f": 60.8,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,161 @@
+{
+  "event_id": "noaa_5575413_MICHIGAN",
+  "event_date": "1996-01-29",
+  "event_datetime_utc": "1996-01-29T18:00:00Z",
+  "station": "KIMT",
+  "county": "IRON",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 16,
+  "observations": [
+    {
+      "timestamp": "1996-01-29T00:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 290000Z 15010KT 5SM -SN FG OVC020 M13/M A3008 RMK SLPNO T1134////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-01-29T01:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 290100Z 12005KT 5SM -SN FG BKN030 OVC060 M15/M A3004 RMK BINOVC ; SLPNO T1145////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-01-29T02:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 290200Z 12005KT 7SM SCT015 OVC035 M15/M A3004 RMK SLPNO T1145////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-29T03:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 290300Z 15005KT 7SM BKN007 OVC020 M15/M A2999 RMK SLPNO T1145////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-29T04:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 290400Z 13005KT 5SM OVC008 M12/M A2996 RMK SLPNO T1123////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-01-29T05:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 290500Z 14005KT 7SM BKN005 OVC010 M12/M A2991 RMK LAST; SLPNO T1117////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-29T11:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 291100Z 15008KT 3/4SM -SN OVC/// BKN005 OVC015 M05/M A2952 RMK S3; SLPNO T1045////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.8
+    },
+    {
+      "timestamp": "1996-01-29T12:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 291200Z 16010KT 3/4SM -SN OVC/// BKN005 OVC015 M04/M A2948 RMK S3; SLPNO T1039////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 0.8
+    },
+    {
+      "timestamp": "1996-01-29T13:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 291300Z 14007KT 3/4SM -SN OVC/// BKN008 OVC015 M03/M A2943 RMK S3; SLPNO T1034////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 0.8
+    },
+    {
+      "timestamp": "1996-01-29T14:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 291400Z 15006KT 1/2SM -SN FG OVC/// BKN008 OVC015 M03/M A2940 RMK S4; SLPNO T1034////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-29T15:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 291500Z 19005KT 3/4SM -SN FG OVC/// BKN007 OVC015 M03/M A2937 RMK S3; SLPNO T1034////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 0.8
+    },
+    {
+      "timestamp": "1996-01-29T16:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 291600Z 28005KT 11/2SM -SN FG SCT012 BKN025 OVC050 M03/M A2935 RMK SLPNO T1034////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 5.5
+    },
+    {
+      "timestamp": "1996-01-29T17:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 291700Z 31010G20KT 11/4SM -SN FG-BLSN BKN015 OVC025 M04/M A2936 RMK SLPNO T1039////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 2.8
+    },
+    {
+      "timestamp": "1996-01-29T21:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 292100Z 31015G30KT 7SM -BLSN OVC030 M14/M A2957 RMK BINOVC; SLPNO T1139////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-29T22:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 292200Z 31015G35KT 5SM -BLSN BKN030 M15/M A2965 RMK SLPNO T1145////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 40.2773,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-01-29T23:00:00Z",
+      "station_id": "KIMT",
+      "metar": "METAR KIMT 292300Z 31010G28KT 15SM -BLSN BKN035 M18/M A2970 RMK SLPNO T1178////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

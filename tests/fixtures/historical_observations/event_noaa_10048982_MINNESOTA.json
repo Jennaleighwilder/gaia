@@ -1,0 +1,138 @@
+{
+  "event_id": "noaa_10048982_MINNESOTA",
+  "event_date": "1987-07-27",
+  "event_datetime_utc": "1987-07-27T18:00:00Z",
+  "station": "KSTP",
+  "county": "GOODHUE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1987-07-27T00:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 270000Z 12010KT 15SM CLR M/M A3008 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1987-07-27T01:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 270100Z 11009KT 15SM CLR M/M A3001 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1987-07-27T03:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 270300Z 10009KT 15SM SCT250 M/M A3002 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 10.403051199999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1987-07-27T12:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 271200Z 00000KT 10SM SCT120 SCT200 M/M A3001 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T13:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 271300Z 07004KT 10SM SCT050 OVC120 M/M A3001 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T14:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 271400Z 11007KT 10SM BKN120 M/M A3001 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T15:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 271500Z 14005KT 10SM BKN120 M/M A3001 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T16:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 271600Z 13005KT 10SM SCT040 BKN120 M/M A3001 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T17:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 271700Z 11005KT 10SM SCT040 BKN120 M/M A3001 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T18:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 271800Z 11005KT 10SM SCT050 SCT120 M/M A3001 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T19:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 271900Z 10005KT 10SM SCT045 SCT080 M/M A2997 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T20:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 272000Z 10005KT 10SM BKN080 M/M A2997 RMK TCU SE SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T21:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 272100Z 07007KT 10SM SCT250 M/M A2993 RMK TCU E-SE SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 8.1014912,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1987-07-27T22:00:00Z",
+      "station_id": "KSTP",
+      "metar": "METAR KSTP 272200Z 12015KT 10SM BKN040 OVC100 M/M A2996 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

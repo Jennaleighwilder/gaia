@@ -1,0 +1,25 @@
+{
+  "event_id": "noaa_10048176_MISSISSIPPI",
+  "event_date": "1973-05-27",
+  "event_datetime_utc": "1973-05-27T18:00:00Z",
+  "station": "KHBG",
+  "county": "JONES",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "1973-05-27T21:00:00Z",
+      "station_id": "KHBG",
+      "metar": "METAR KHBG 272100Z 23015G25KT 7SM BKN020 30/25 A2948 RMK DRK W SLPNO T03000250",
+      "sky_condition": "BKN",
+      "temperature_f": 86.0,
+      "dewpoint_f": 77.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

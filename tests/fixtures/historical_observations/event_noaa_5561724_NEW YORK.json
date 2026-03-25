@@ -1,0 +1,178 @@
+{
+  "event_id": "noaa_5561724_NEW YORK",
+  "event_date": "1996-01-07",
+  "event_datetime_utc": "1996-01-07T18:00:00Z",
+  "station": "KDXR",
+  "county": "PUTNAM",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1996-01-07T00:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 070000Z 35006KT 20SM BKN150 M13/M21 A3041 RMK SLPNO T11341206",
+      "sky_condition": "BKN",
+      "temperature_f": 7.88,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-07T01:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 070100Z 31005KT 20SM SCT150 M15/M21 A3041 RMK SLPNO T11501206",
+      "sky_condition": "SCT",
+      "temperature_f": 5.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-07T02:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 070200Z 31004KT 20SM OVC150 M15/M20 A3040 RMK SLPNO T11451195",
+      "sky_condition": "OVC",
+      "temperature_f": 6.0,
+      "dewpoint_f": -3.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-07T03:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 070300Z 36005KT 20SM OVC150 M13/M27 A3039 RMK SLPNO T11341273",
+      "sky_condition": "OVC",
+      "temperature_f": 7.88,
+      "dewpoint_f": -17.14,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1996-01-07T12:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 071200Z 05007KT 7SM OVC050 M13/M24 A3033 RMK SLPNO T11281239",
+      "sky_condition": "OVC",
+      "temperature_f": 9.0,
+      "dewpoint_f": -11.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-07T13:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 071300Z 05007KT 7SM OVC040 M13/M23 A3032 RMK SLPNO T11341228",
+      "sky_condition": "OVC",
+      "temperature_f": 7.88,
+      "dewpoint_f": -9.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-07T14:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 071400Z 06007KT 7SM OVC040 M13/M20 A3030 RMK SLPNO T11281200",
+      "sky_condition": "OVC",
+      "temperature_f": 9.0,
+      "dewpoint_f": -4.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-07T15:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 071500Z 06007KT 7SM -SN OVC040 M13/M19 A3030 RMK SLPNO T11281189",
+      "sky_condition": "OVC",
+      "temperature_f": 9.0,
+      "dewpoint_f": -2.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-01-07T16:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 071600Z 05008KT 2SM -SN OVC040 M12/M18 A3025 RMK SLPNO T11231178",
+      "sky_condition": "OVC",
+      "temperature_f": 9.86,
+      "dewpoint_f": 0.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-01-07T18:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 071800Z 07012KT 3/4SM -SN FG OVC003 M12/M15 A3013 RMK SLPNO T11171145",
+      "sky_condition": "OVC",
+      "temperature_f": 11.0,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-07T19:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 071900Z 08015KT 3/4SM SN OVC002 M11/M14 A3009 RMK SLPNO T11061139",
+      "sky_condition": "OVC",
+      "temperature_f": 13.0,
+      "dewpoint_f": 7.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-07T20:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 072000Z 08010KT 3/4SM -SHSN FG OVC002 M10/M13 A3002 RMK PRESFR; SLPNO T11001128",
+      "sky_condition": "OVC",
+      "temperature_f": 14.0,
+      "dewpoint_f": 9.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-07T21:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 072100Z 07018KT 3/4SM SHSN FG OVC001 M10/M11 A2998 RMK SLPNO T10951112",
+      "sky_condition": "OVC",
+      "temperature_f": 14.9,
+      "dewpoint_f": 11.84,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 0.75
+    },
+    {
+      "timestamp": "1996-01-07T22:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 072200Z 05012KT 1/2SM SN FG OVC001 M10/M11 A2998 RMK SLPNO T10951106",
+      "sky_condition": "OVC",
+      "temperature_f": 14.9,
+      "dewpoint_f": 13.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1996-01-07T23:00:00Z",
+      "station_id": "KDXR",
+      "metar": "KDXR 072300Z 07012KT 1/8SM SN FG OVC001 M09/M10 A2996 RMK SLPNO T10891095",
+      "sky_condition": "OVC",
+      "temperature_f": 16.0,
+      "dewpoint_f": 14.9,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 0.12
+    }
+  ],
+  "estimated": false
+}

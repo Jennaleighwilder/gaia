@@ -1,0 +1,68 @@
+{
+  "event_id": "noaa_10048544_MISSISSIPPI",
+  "event_date": "1975-03-23",
+  "event_datetime_utc": "1975-03-23T18:00:00Z",
+  "station": "KTUP",
+  "county": "LEE",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "1975-03-23T00:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 230000Z 00000KT 7SM SCT200 26/17 A2970 RMK SLPNO T02560167",
+      "sky_condition": "SCT",
+      "temperature_f": 78.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-03-23T18:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 231800Z 18020KT 7SM BKN080 26/15 A2960 RMK SLPNO T02610150",
+      "sky_condition": "BKN",
+      "temperature_f": 79.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-03-23T19:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 231900Z 18020KT 7SM OVC080 26/18 A2958 RMK SLPNO T02610178",
+      "sky_condition": "OVC",
+      "temperature_f": 79.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-03-23T20:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 232000Z 20020KT 7SM SCT040 BKN080 27/19 A2959 RMK SLPNO T02670194",
+      "sky_condition": "SCT",
+      "temperature_f": 80.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-03-23T22:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 232200Z 20020KT 7SM SCT040 OVC080 26/18 A2959 RMK SLPNO T02610178",
+      "sky_condition": "SCT",
+      "temperature_f": 79.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

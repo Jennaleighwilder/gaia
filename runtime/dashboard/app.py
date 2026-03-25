@@ -22,6 +22,8 @@ except ImportError:
     sys.exit(1)
 
 app = Flask(__name__)
+from runtime.dashboard.public_api import register_public_routes
+register_public_routes(app)
 
 from runtime.dashboard.public_api import register_public_routes
 

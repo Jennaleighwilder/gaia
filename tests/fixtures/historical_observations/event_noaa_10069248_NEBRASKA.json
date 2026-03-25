@@ -1,0 +1,158 @@
+{
+  "event_id": "noaa_10069248_NEBRASKA",
+  "event_date": "1975-06-18",
+  "event_datetime_utc": "1975-06-18T18:00:00Z",
+  "station": "KMCK",
+  "county": "FRONTIER",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1975-06-18T00:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 180000Z 10018KT 15SM BKN020 OVC080 23/10 A2971 RMK CIG RGD DRK NW SLPNO T02330100",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1975-06-18T12:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 181200Z 07020KT 10SM BKN006 OVC070 14/13 A2969 RMK SLPNO 70125 T01440133 54076",
+      "sky_condition": "BKN",
+      "temperature_f": 58.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1975-06-18T13:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 181300Z 11022KT 15SM BKN010 OVC050 15/13 A2969 RMK SLPNO T01500133",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1975-06-18T14:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 181400Z 11020G25KT 15SM SCT006 BKN010 OVC050 16/13 A2970 RMK SLPNO T01610133",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1975-06-18T15:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 181500Z 11020G25KT 15SM SCT006 BKN010 OVC050 16/13 A2970 RMK SLPNO T01610133",
+      "sky_condition": "SCT",
+      "temperature_f": 61.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1975-06-18T16:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 181600Z 11020G28KT 15SM SCT010 BKN030 OVC050 17/14 A2968 RMK SLPNO T01720139",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1975-06-18T17:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 181700Z 11020G28KT 15SM BKN020 OVC020 18/15 A2968 RMK SLPNO T01830150",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1975-06-18T18:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 181800Z /////KT 15SM OVC013 M/M A//// RMK 967CIG RGD SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1975-06-18T19:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 181900Z 09019KT 10SM OVC010 21/18 A2966 RMK CIG RGD SLPNO T02060178",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 21.864819999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1975-06-18T20:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 182000Z 08018KT 7SM BKN009 OVC015 22/19 A2963 RMK SLPNO T02220189",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-06-18T21:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 182100Z 10020KT 7SM SCT010 OVC015 24/21 A2960 RMK SLPNO T02440211",
+      "sky_condition": "SCT",
+      "temperature_f": 76.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-06-18T22:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 182200Z 08023G28KT 7SM SCT080 OVC250 27/23 A2956 RMK LN TCU NW-N E-S SLPNO T02670228",
+      "sky_condition": "SCT",
+      "temperature_f": 80.0,
+      "dewpoint_f": 73.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1975-06-18T23:00:00Z",
+      "station_id": "KMCK",
+      "metar": "METAR KMCK 182300Z 12019KT 7SM SCT040 BKN250 31/21 A2953 RMK CB NE-S OVHD DRK NE-S RWU NE UA 15SE MCK SVR TURBC 5 C182 SLPNO 8/731 T03110211",
+      "sky_condition": "SCT",
+      "temperature_f": 88.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 21.864819999999998,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

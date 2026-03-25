@@ -1,0 +1,251 @@
+{
+  "event_id": "noaa_5583165_MONTANA",
+  "event_date": "1996-12-16",
+  "event_datetime_utc": "1996-12-16T18:00:00Z",
+  "station": "KJDN",
+  "county": "GARFIELD",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1996-12-16T00:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160048Z AUTO 26007KT M01/M07 RMK PK WND 08///132 RNO T10061072",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 19.0,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1996-12-16T01:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160148Z AUTO 29012KT 01/M08 RMK PK WND 15///132 RNO T00111077",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 18.14,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 13.809359999999998
+    },
+    {
+      "timestamp": "1996-12-16T02:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160248Z AUTO 32017KT 02/M06 RMK PK WND 33///132 RNO T00171055",
+      "sky_condition": "   ",
+      "temperature_f": 35.0,
+      "dewpoint_f": 22.1,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 19.56326
+    },
+    {
+      "timestamp": "1996-12-16T03:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160348Z AUTO 32021KT 03/M07 RMK PK WND 28///132 RNO T00281066",
+      "sky_condition": "   ",
+      "temperature_f": 37.0,
+      "dewpoint_f": 20.12,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 24.166379999999997
+    },
+    {
+      "timestamp": "1996-12-16T04:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160448Z AUTO 32020KT 01/M07 RMK PK WND 31///132 RNO T00111066",
+      "sky_condition": "   ",
+      "temperature_f": 34.0,
+      "dewpoint_f": 20.12,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 23.0156
+    },
+    {
+      "timestamp": "1996-12-16T05:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160548Z AUTO 32017KT M01/M07 RMK PK WND 28///132 RNO E37 T10061066",
+      "sky_condition": "   ",
+      "temperature_f": 31.0,
+      "dewpoint_f": 20.12,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 19.56326
+    },
+    {
+      "timestamp": "1996-12-16T06:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160648Z AUTO 32016KT M02/M09 RMK PK WND 25///132 RNO T10221088",
+      "sky_condition": "   ",
+      "temperature_f": 28.0,
+      "dewpoint_f": 16.16,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 18.41248
+    },
+    {
+      "timestamp": "1996-12-16T07:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160748Z AUTO 32024KT M02/M11 RMK PK WND 32///132 RNO T10221105",
+      "sky_condition": "   ",
+      "temperature_f": 28.0,
+      "dewpoint_f": 13.1,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 27.618719999999996
+    },
+    {
+      "timestamp": "1996-12-16T08:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160848Z AUTO 32022KT M05/M13 RMK PK WND 38///132 RNO T10501133",
+      "sky_condition": "   ",
+      "temperature_f": 23.0,
+      "dewpoint_f": 8.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 25.317159999999998
+    },
+    {
+      "timestamp": "1996-12-16T09:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 160948Z AUTO 33023KT M06/M14 RMK PK WND 38///132 RNO T10611144",
+      "sky_condition": "   ",
+      "temperature_f": 21.0,
+      "dewpoint_f": 6.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 26.46794
+    },
+    {
+      "timestamp": "1996-12-16T10:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161048Z AUTO 32029KT M07/M15 RMK PK WND 37///132 RNO T10721149",
+      "sky_condition": "   ",
+      "temperature_f": 19.0,
+      "dewpoint_f": 5.18,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 33.37262
+    },
+    {
+      "timestamp": "1996-12-16T11:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161148Z AUTO 32025KT M09/M19 RMK PK WND 42///132 RNO 16 T10891188 21178",
+      "sky_condition": "   ",
+      "temperature_f": 16.0,
+      "dewpoint_f": -1.84,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 28.769499999999997
+    },
+    {
+      "timestamp": "1996-12-16T12:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161248Z AUTO 32026KT M09/M20 RMK PK WND 42///132 RNO T10941199",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": -3.82,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 29.920279999999998
+    },
+    {
+      "timestamp": "1996-12-16T13:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161348Z AUTO 32030KT M09/M21 RMK PK WND 39///132 RNO T10941205",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 34.523399999999995
+    },
+    {
+      "timestamp": "1996-12-16T14:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161448Z AUTO 31024KT M09/M21 RMK PK WND 42///132 RNO T10941205",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 27.618719999999996
+    },
+    {
+      "timestamp": "1996-12-16T15:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161548Z AUTO 32027KT M09/M21 RMK PK WND 41///132 RNO T10941205",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 31.07106
+    },
+    {
+      "timestamp": "1996-12-16T16:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161648Z AUTO 38/ RMK IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 100.4,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "1996-12-16T17:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161748Z AUTO 31031KT M09/M22 RMK PK WND 41///132 RNO E15 T10891216",
+      "sky_condition": "   ",
+      "temperature_f": 16.0,
+      "dewpoint_f": -6.88,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 35.67418
+    },
+    {
+      "timestamp": "1996-12-16T18:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161848Z AUTO 32023KT M09/M21 RMK PK WND 39///132 RNO T10941205",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": -5.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 26.46794
+    },
+    {
+      "timestamp": "1996-12-16T19:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 161948Z AUTO 32031KT M09/M21 RMK PK WND 41///132 RNO T10891211",
+      "sky_condition": "   ",
+      "temperature_f": 16.0,
+      "dewpoint_f": -6.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 35.67418
+    },
+    {
+      "timestamp": "1996-12-16T20:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 162048Z AUTO 32029KT M09/M21 RMK PK WND 41///132 RNO T10941211",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": -6.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 33.37262
+    },
+    {
+      "timestamp": "1996-12-16T21:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 162148Z AUTO 32032KT M09/M21 RMK PK WND 43///132 RNO T10941211",
+      "sky_condition": "   ",
+      "temperature_f": 15.0,
+      "dewpoint_f": -6.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 36.82496
+    },
+    {
+      "timestamp": "1996-12-16T22:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 162248Z AUTO 32026KT M10/M21 RMK PK WND 43///132 RNO T11001211",
+      "sky_condition": "   ",
+      "temperature_f": 14.0,
+      "dewpoint_f": -6.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 29.920279999999998
+    },
+    {
+      "timestamp": "1996-12-16T23:48:00Z",
+      "station_id": "KJDN",
+      "metar": "KJDN 162348Z AUTO 32025KT M10/M21 RMK PK WND 37///132 RNO E16 T11001211",
+      "sky_condition": "   ",
+      "temperature_f": 14.0,
+      "dewpoint_f": -6.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 28.769499999999997
+    }
+  ],
+  "estimated": false
+}

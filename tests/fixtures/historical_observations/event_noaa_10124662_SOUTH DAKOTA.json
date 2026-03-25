@@ -1,0 +1,98 @@
+{
+  "event_id": "noaa_10124662_SOUTH DAKOTA",
+  "event_date": "1983-06-21",
+  "event_datetime_utc": "1983-06-21T18:00:00Z",
+  "station": "KMBG",
+  "county": "CAMPBELL",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 7,
+  "observations": [
+    {
+      "timestamp": "1983-06-21T00:00:00Z",
+      "station_id": "KMBG",
+      "metar": "METAR KMBG 210000Z 17006KT 25SM CLR 28/18 A2976 RMK NOSPL SLP065 T02830178 56003",
+      "sky_condition": "CLR",
+      "temperature_f": 83.0,
+      "dewpoint_f": 64.0,
+      "pressure_mb": 1006.5,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1983-06-21T03:00:00Z",
+      "station_id": "KMBG",
+      "metar": "METAR KMBG 210300Z 12003KT 6SM BKN250 24/19 A2980 RMK NOSPL SLP079 T02440189 52012",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1007.9,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1983-06-21T06:00:00Z",
+      "station_id": "KMBG",
+      "metar": "METAR KMBG 210600Z 00000KT 25SM OVC150 22/19 A2979 RMK DSNT LGT SW/ NOSPL SLP078 T02170189 58002",
+      "sky_condition": "OVC",
+      "temperature_f": 71.0,
+      "dewpoint_f": 66.0,
+      "pressure_mb": 1007.8,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1983-06-21T12:00:00Z",
+      "station_id": "KMBG",
+      "metar": "METAR KMBG 211200Z 12005KT 20SM OVC150 19/16 A2987 RMK 66 20003 NOSPL SLP105 60003 74903 T01940161 52049",
+      "sky_condition": "OVC",
+      "temperature_f": 67.0,
+      "dewpoint_f": 61.0,
+      "pressure_mb": 1010.5,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 20.0
+    },
+    {
+      "timestamp": "1983-06-21T15:00:00Z",
+      "station_id": "KMBG",
+      "metar": "METAR KMBG 211500Z 07010KT 25SM BKN250 23/19 A2982 RMK NOSPL SLP088 T02330194 58017",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1008.8,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1983-06-21T18:00:00Z",
+      "station_id": "KMBG",
+      "metar": "METAR KMBG 211800Z 13016G20KT 25SM SCT020 28/21 A2978 RMK NOSPL SLP070 T02780211 57015",
+      "sky_condition": "SCT",
+      "temperature_f": 82.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1007.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1983-06-21T21:00:00Z",
+      "station_id": "KMBG",
+      "metar": "METAR KMBG 212100Z 16007KT 25SM SCT020 29/21 A2976 RMK NOSPL SLP065 T02940211 57005",
+      "sky_condition": "SCT",
+      "temperature_f": 85.0,
+      "dewpoint_f": 70.0,
+      "pressure_mb": 1006.5,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 25.0
+    }
+  ],
+  "estimated": false
+}

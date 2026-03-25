@@ -1,0 +1,86 @@
+{
+  "event_id": "noaa_10066883_NEBRASKA",
+  "event_date": "1965-05-08",
+  "event_datetime_utc": "1965-05-08T18:00:00Z",
+  "station": "KOFK",
+  "county": "ANTELOPE",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 6,
+  "observations": [
+    {
+      "timestamp": "1965-05-08T00:00:00Z",
+      "station_id": "KOFK",
+      "metar": "METAR KOFK 080000Z 11015KT 15SM -TSRA BKN/// OVC/// 21/16 A//// RMK SLP064 T02110156",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1006.4,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-08T03:00:00Z",
+      "station_id": "KOFK",
+      "metar": "METAR KOFK 080300Z 30010KT 5SM -TSRA OVC/// 17/14 A//// RMK SLP086 P0015 T01670144",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1008.6,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.15
+    },
+    {
+      "timestamp": "1965-05-08T12:00:00Z",
+      "station_id": "KOFK",
+      "metar": "METAR KOFK 081200Z 00000KT 10SM BKN/// OVC/// 15/14 A//// RMK SLP079 T01500139",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 57.0,
+      "pressure_mb": 1007.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-05-08T15:00:00Z",
+      "station_id": "KOFK",
+      "metar": "METAR KOFK 081500Z 09014KT 15SM SCT/// SCT/// SCT/// 18/14 A//// RMK SLP069 T01780144",
+      "sky_condition": "SCT",
+      "temperature_f": 64.0,
+      "dewpoint_f": 58.0,
+      "pressure_mb": 1006.9,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1965-05-08T18:00:00Z",
+      "station_id": "KOFK",
+      "metar": "METAR KOFK 081800Z 12018KT 10SM OVC/// 19/16 A//// RMK SLP060 T01890156",
+      "sky_condition": "OVC",
+      "temperature_f": 66.0,
+      "dewpoint_f": 60.0,
+      "pressure_mb": 1006.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1965-05-08T21:00:00Z",
+      "station_id": "KOFK",
+      "metar": "METAR KOFK 082100Z 14017KT 5SM DZ BKN/// 23/18 A//// RMK SLP024 T02330183",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 65.0,
+      "pressure_mb": 1002.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 19.56326,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,61 @@
+{
+  "event_id": "noaa_10108843_OKLAHOMA",
+  "event_date": "1979-05-02",
+  "event_datetime_utc": "1979-05-02T18:00:00Z",
+  "station": "KP28",
+  "county": "MAJOR",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1979-05-02T00:00:00Z",
+      "station_id": "KP28",
+      "metar": "METAR KP28 020000Z 15007KT 6SM CLR 20/12 A//// RMK SLP042 T02000120",
+      "sky_condition": "CLR",
+      "temperature_f": 68.0,
+      "dewpoint_f": 53.6,
+      "pressure_mb": 1004.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1979-05-02T06:00:00Z",
+      "station_id": "KP28",
+      "metar": "METAR KP28 020600Z 16004KT 6SM CLR 16/13 A//// RMK SLP039 T01600130",
+      "sky_condition": "CLR",
+      "temperature_f": 60.8,
+      "dewpoint_f": 55.4,
+      "pressure_mb": 1003.9,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1979-05-02T12:00:00Z",
+      "station_id": "KP28",
+      "metar": "METAR KP28 021200Z 15002KT 6SM CLR 14/11 A//// RMK SLP012 60024 T01400110",
+      "sky_condition": "CLR",
+      "temperature_f": 57.2,
+      "dewpoint_f": 51.8,
+      "pressure_mb": 1001.2,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 2.30156,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1979-05-02T18:00:00Z",
+      "station_id": "KP28",
+      "metar": "METAR KP28 021800Z 32001KT 6SM CLR 24/14 A//// RMK SLP026 T02400140",
+      "sky_condition": "CLR",
+      "temperature_f": 75.2,
+      "dewpoint_f": 57.2,
+      "pressure_mb": 1002.6,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 1.15078,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

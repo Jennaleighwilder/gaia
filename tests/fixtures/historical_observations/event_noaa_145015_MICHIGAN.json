@@ -1,0 +1,230 @@
+{
+  "event_id": "noaa_145015_MICHIGAN",
+  "event_date": "2008-12-06",
+  "event_datetime_utc": "2008-12-06T18:00:00Z",
+  "station": "KP53",
+  "county": "ALGER",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2008-12-06T00:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060056Z AUTO 19009G16KT A2982 RMK AO2 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 10.357019999999999,
+      "wind_gust_mph": 18.41248
+    },
+    {
+      "timestamp": "2008-12-06T01:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060156Z AUTO 20013G21KT A2980 RMK AO2 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 24.166379999999997
+    },
+    {
+      "timestamp": "2008-12-06T02:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060256Z AUTO 21009G16KT A2977 RMK AO2 SLPNO 58023 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 10.357019999999999,
+      "wind_gust_mph": 18.41248
+    },
+    {
+      "timestamp": "2008-12-06T03:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060356Z AUTO 19012G19KT A2975 RMK AO2 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 21.864819999999998
+    },
+    {
+      "timestamp": "2008-12-06T04:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060456Z AUTO 20013G19KT A2971 RMK AO2 SLPNO P0001 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 21.864819999999998,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-12-06T05:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060556Z AUTO 20012G19KT A2969 RMK AO2 SLPNO 60001 57027 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 21.864819999999998
+    },
+    {
+      "timestamp": "2008-12-06T06:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060656Z AUTO 18010G21KT A2964 RMK AO2 SLPNO P0001 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 24.166379999999997,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-12-06T07:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060756Z AUTO 20014G20KT A2962 RMK AO2 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 16.11092,
+      "wind_gust_mph": 23.0156
+    },
+    {
+      "timestamp": "2008-12-06T08:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060856Z AUTO 20007G22KT A2960 RMK AO2 SLPNO P0002 60003 56030 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 8.05546,
+      "wind_gust_mph": 25.317159999999998,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2008-12-06T09:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 060956Z AUTO 21008G16KT A2958 RMK AO2 SLPNO P0001 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 9.20624,
+      "wind_gust_mph": 18.41248,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-12-06T10:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061056Z AUTO VRB05KT A2956 RMK AO2 SLPNO P0001 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_speed_mph": 5.7539,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-12-06T11:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061156Z AUTO VRB04KT A2955 RMK AO2 SLPNO 60005 70006 56017 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2008-12-06T12:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061256Z AUTO 00000KT A2956 RMK AO2 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2008-12-06T13:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061356Z AUTO 16004KT A2957 RMK AO2 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "2008-12-06T14:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061456Z AUTO 17005KT A2957 RMK AO2 SLPNO P0001 60001 51007 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 5.7539,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-12-06T15:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061556Z AUTO 00000KT A2956 RMK AO2 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "2008-12-06T16:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061656Z AUTO 36020G26KT A2958 RMK AO2 PK WND 35029/1641 SLPNO P0003 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 29.920279999999998,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2008-12-06T17:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061756Z AUTO 35019G29KT A2962 RMK AO2 PK WND 35034/1730 SLPNO 60004 53017 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 21.864819999999998,
+      "wind_gust_mph": 33.37262
+    },
+    {
+      "timestamp": "2008-12-06T18:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061856Z AUTO 35021G30KT A2966 RMK AO2 PK WND 36034/1834 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 24.166379999999997,
+      "wind_gust_mph": 34.523399999999995
+    },
+    {
+      "timestamp": "2008-12-06T19:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 061956Z AUTO 35020G33KT A2970 RMK AO2 PK WND 35036/1922 SLPNO P0001 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 37.975739999999995,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-12-06T20:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 062056Z AUTO 35025G32KT A2974 RMK AO2 PK WND 35034/2031 SLPNO 60001 52040 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 36.82496
+    },
+    {
+      "timestamp": "2008-12-06T21:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 062156Z AUTO 35026G32KT A2978 RMK AO2 PK WND 33037/2059 SLPNO PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 29.920279999999998,
+      "wind_gust_mph": 36.82496
+    },
+    {
+      "timestamp": "2008-12-06T22:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 062256Z AUTO 35025G32KT A2983 RMK AO2 PK WND 34035/2235 SLPNO P0001 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 28.769499999999997,
+      "wind_gust_mph": 36.82496,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2008-12-06T23:56:00Z",
+      "station_id": "KP53",
+      "metar": "KP53 062356Z AUTO 35022G29KT A2986 RMK AO2 PK WND 34038/2345 SLPNO 60002 51040 PWINO FZRANO TSNO $",
+      "sky_condition": "   ",
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 25.317159999999998,
+      "wind_gust_mph": 33.37262
+    }
+  ],
+  "estimated": false
+}

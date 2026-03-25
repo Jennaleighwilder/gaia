@@ -1,0 +1,68 @@
+{
+  "event_id": "noaa_5534669_ARIZONA",
+  "event_date": "2006-09-09",
+  "event_datetime_utc": "2006-09-09T18:00:00Z",
+  "station": "KFFZ",
+  "county": "PINAL",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "2006-09-09T00:47:00Z",
+      "station_id": "KFFZ",
+      "metar": "KFFZ 090047Z 29008KT 40SM SCT080 BKN200 32/14 A2981",
+      "sky_condition": "SCT",
+      "temperature_f": 89.6,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "2006-09-09T14:47:00Z",
+      "station_id": "KFFZ",
+      "metar": "KFFZ 091447Z 14010KT 40SM FEW080 BKN250 26/18 A2993",
+      "sky_condition": "FEW",
+      "temperature_f": 78.8,
+      "dewpoint_f": 64.4,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "2006-09-09T17:47:00Z",
+      "station_id": "KFFZ",
+      "metar": "KFFZ 091747Z 04022KT 50SM BKN060 OVC250 25/16 A2996",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 60.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 25.317159999999998,
+      "visibility_mi": 50.0
+    },
+    {
+      "timestamp": "2006-09-09T19:47:00Z",
+      "station_id": "KFFZ",
+      "metar": "KFFZ 091947Z 02013KT 40SM FEW080 SCT200 28/15 A2993",
+      "sky_condition": "FEW",
+      "temperature_f": 82.4,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "2006-09-09T23:47:00Z",
+      "station_id": "KFFZ",
+      "metar": "KFFZ 092347Z 03005KT 40SM FEW080 SCT150 BKN250 30/14 A2986",
+      "sky_condition": "FEW",
+      "temperature_f": 86.0,
+      "dewpoint_f": 57.2,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 40.0
+    }
+  ],
+  "estimated": false
+}

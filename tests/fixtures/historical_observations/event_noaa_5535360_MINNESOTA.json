@@ -1,0 +1,119 @@
+{
+  "event_id": "noaa_5535360_MINNESOTA",
+  "event_date": "1996-01-28",
+  "event_datetime_utc": "1996-01-28T18:00:00Z",
+  "station": "KFCM",
+  "county": "RICE",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1996-01-28T00:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 280000Z AUTO 26010KT A3030 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1996-01-28T01:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 280100Z AUTO 25005KT A3029 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-01-28T02:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 280200Z AUTO 24005KT A3030 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1996-01-28T13:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 281300Z AUTO 11011KT -SN A3021 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "1996-01-28T14:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 281400Z AUTO 09011KT -SN A3017 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "1996-01-28T15:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 281500Z AUTO 09014KT -SN A3010 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 16.11092
+    },
+    {
+      "timestamp": "1996-01-28T16:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 281600Z AUTO 09015KT -SN A3008 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1996-01-28T17:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 281700Z AUTO 07015KT -SN A3000 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 17.261699999999998
+    },
+    {
+      "timestamp": "1996-01-28T18:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 281800Z AUTO 09018KT A2992 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 20.714039999999997
+    },
+    {
+      "timestamp": "1996-01-28T19:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 281900Z AUTO 09017KT A2989 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 19.56326
+    },
+    {
+      "timestamp": "1996-01-28T20:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 282000Z AUTO 09013G20KT A2987 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 23.0156
+    },
+    {
+      "timestamp": "1996-01-28T22:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 282200Z AUTO 10013G17KT A2983 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 19.56326
+    },
+    {
+      "timestamp": "1996-01-28T23:00:00Z",
+      "station_id": "KFCM",
+      "metar": "METAR FCM 282300Z AUTO 09015KT A2980 RMK AO2 IEM_GHCNH",
+      "sky_condition": null,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 17.261699999999998
+    }
+  ],
+  "estimated": false
+}

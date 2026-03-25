@@ -57,6 +57,34 @@ def main():
 
     init_db()
 
+    # Upper-air sounding state
+    _sounding_data = None
+    _sounding_fetched_hour = -1
+
+    def _refresh_soundings():
+        nonlocal _sounding_data, _sounding_fetched_hour
+        now = datetime.now(timezone.utc)
+        target_hour = 12 if now.hour >= 9 else 0
+        if _sounding_fetched_hour == target_hour and _sounding_data is not None:
+            return
+        try:
+            from runtime.data.sounding_client import fetch_all_soundings
+            _sounding_data = fetch_all_soundings()
+            _sounding_fetched_hour = target_hour
+            risk = _sounding_data.get("sounding_risk", "?")
+            n = _sounding_data.get("station_count", 0)
+            stp = _sounding_data.get("regional_max_stp", 0)
+            logger.info("Soundings refreshed: %d stations | STP %.2f | Risk %s", n, stp, risk)
+        except Exception as e:
+            logger.warning("Sounding fetch failed (will retry): %s", e)
+
+    def _best_upper_air() -> dict | None:
+        if not _sounding_data or not _sounding_data.get("stations"):
+            return None
+        best = max(_sounding_data["stations"],
+                    key=lambda s: s.get("significant_tornado_parameter", 0))
+        return best
+
     interval_sec = 300
     logger.info("GAIA daemon started. Evaluating %d counties every %d sec", len(EAST_TN_COUNTIES), interval_sec)
 
@@ -64,6 +92,8 @@ def main():
         try:
             run_and_alert(cache)
             reset_runtime_state()
+            _refresh_soundings()
+            upper_air = _best_upper_air()
             for county in EAST_TN_COUNTIES:
                 payload = {
                     "region": county,
@@ -71,6 +101,7 @@ def main():
                     "station_observations": [],
                     "expected_station_ids": [],
                     "environmental_context": {},
+                    "upper_air": upper_air,
                     "_from_cache": cache,
                 }
                 result = compute_decision_for_payload(payload)

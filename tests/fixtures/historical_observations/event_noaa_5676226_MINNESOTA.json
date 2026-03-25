@@ -1,0 +1,27 @@
+{
+  "event_id": "noaa_5676226_MINNESOTA",
+  "event_date": "1998-11-10",
+  "event_datetime_utc": "1998-11-10T18:00:00Z",
+  "station": "KRWF",
+  "county": "COTTONWOOD",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 1,
+  "observations": [
+    {
+      "timestamp": "1998-11-10T11:53:00Z",
+      "station_id": "KRWF",
+      "metar": "KRWF 101153Z AUTO 07012G20KT 1 1/4SM 02/01 A2893 RMK SLP805 T00200010 58080 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 35.6,
+      "dewpoint_f": 33.8,
+      "pressure_mb": 980.5,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 1.25,
+      "precip_1h_in": 0.0
+    }
+  ],
+  "estimated": false
+}

@@ -1,0 +1,272 @@
+{
+  "event_id": "noaa_5423969_MINNESOTA",
+  "event_date": "2004-09-15",
+  "event_datetime_utc": "2004-09-15T18:00:00Z",
+  "station": "KRST",
+  "county": "MOWER",
+  "event_type": "Flood",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2004-09-15T00:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150054Z 07008KT 10SM SCT036 BKN048 BKN075 A2979 RMK AO2 RAB2356E15 SLPNO TS DSNT NW MOV NE OCNL LTGCG P0008 $",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.08
+    },
+    {
+      "timestamp": "2004-09-15T01:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150154Z 02011KT 8SM TSRA FEW003 BKN040 OVC048 A2987 RMK AO2 WSHFT 0138 TSB39UPB34E36RAB36 SLPNO TS OHD MOV NE FRQ LTG ICCCCG P0002 $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2004-09-15T02:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150254Z 22003KT 1 1/2SM TSRA OVC001 A2987 RMK AO2 WSHFT 0141 TWR VIS 2 SLPNO P0146 60156 51031 $",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 1.5,
+      "precip_1h_in": 1.46
+    },
+    {
+      "timestamp": "2004-09-15T03:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150354Z 06006KT 3SM TSRA FEW001 OVC024 A2984 RMK AO2 LTG DSNT ALQDS SLPNO P0017 $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.17
+    },
+    {
+      "timestamp": "2004-09-15T04:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150454Z 04009KT 7SM TSRA FEW032 BKN060 OVC100 A2979 RMK AO2 LTG DSNT ALQDS SLPNO P0010 $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.1
+    },
+    {
+      "timestamp": "2004-09-15T05:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150554Z 10009KT 4SM TSRA FEW001 BKN055 OVC065 A2981 RMK AO2 LTG DSNT ALQDS SLPNO P0070 60253 55020 $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.7
+    },
+    {
+      "timestamp": "2004-09-15T06:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150654Z 07010KT 3SM TSRA BKN001 BKN006 OVC013 A2979 RMK AO2 WSHFT 0616 LTG DSNT ALQDS SLPNO P0060 $",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.6
+    },
+    {
+      "timestamp": "2004-09-15T07:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150754Z 07012KT 2SM TSRA OVC001 A2978 RMK AO2 LTG DSNT ALQDS SLPNO $",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "2004-09-15T08:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150854Z 08010KT 10SM TSRA BKN005 OVC032 A2970 RMK AO2 LTG DSNT ALQDS SLPNO P0018 6//// 58036 $",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.18
+    },
+    {
+      "timestamp": "2004-09-15T09:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 150954Z 08011KT 10SM TSRA SCT007 OVC060 RMK AO2 LTG DSNT ALQDS SLPNO P0001 $",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.01
+    },
+    {
+      "timestamp": "2004-09-15T10:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151054Z 10012KT 9SM TSRA BKN028 BKN034 OVC041 RMK AO2 LTG DSNT ALQDS SLPNO P0002 $",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 9.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2004-09-15T11:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151154Z 13010KT 10SM FEW004 BKN019 OVC024 A2962 RMK AO2 TSE00RAE27 SLPNO P0002 6//// 7//// $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2004-09-15T12:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151254Z 19016G20KT 5SM -RA SCT013 BKN021 BKN027 A2960 RMK AO2 RAB05UPB06E30 SLPNO P0004 $",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "2004-09-15T13:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151354Z 18018G27KT 7SM FEW016 A2957 RMK AO2 PK WND 16028/1338 RAE03 SLPNO P0000 $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 31.07106,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2004-09-15T14:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151454Z 17015G29KT 8SM CLR A2950 RMK AO2 PK WND 18035/1425 SLPNO 60004 58039 $",
+      "sky_condition": "CLR",
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2004-09-15T15:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151554Z 19024G33KT 10SM RMK AO2 PK WND 18033/1552 SLPNO P0004 $",
+      "sky_condition": null,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 27.618719999999996,
+      "wind_gust_mph": 37.975739999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.04
+    },
+    {
+      "timestamp": "2004-09-15T16:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151654Z 22023G33KT 10SM SCT011 23/ A2957 RMK AO2 PK WND 21038/1624 SLPNO T0233 $",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 37.975739999999995,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-15T17:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151754Z 22020G32KT 10SM -RA SCT011 21/17 A2962 RMK AO2 PK WND 22035/1708 RAB50 SLPNO P0000 60008 T02110167",
+      "sky_condition": "SCT",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 220.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 36.82496,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.0001
+    },
+    {
+      "timestamp": "2004-09-15T18:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151854Z 25018G28KT 10SM BKN014 21/17 A2965 RMK AO2 PK WND 22035/1757 RAE38 SLPNO P0002 T02060167",
+      "sky_condition": "BKN",
+      "temperature_f": 69.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.02
+    },
+    {
+      "timestamp": "2004-09-15T19:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 151954Z 23016G28KT 10SM BKN032 21/14 A2965 RMK AO2 PK WND 23028/1948 SLPNO T02110144",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-15T20:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 152054Z 24018G27KT 10SM FEW042 BKN050 21/13 A2967 RMK AO2 PK WND 22033/2009 SLPNO 60002 T02060128 51018",
+      "sky_condition": "FEW",
+      "temperature_f": 69.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 31.07106,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-15T21:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 152154Z 25018G29KT 10SM CLR 21/12 A2971 RMK AO2 PK WND 23034/2108 SLPNO T02060122",
+      "sky_condition": "CLR",
+      "temperature_f": 69.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-15T22:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 152254Z 27019G27KT 10SM FEW034 SCT065 19/12 A2974 RMK AO2 PK WND 25028/2210 SLPNO T01940122",
+      "sky_condition": "FEW",
+      "temperature_f": 67.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 21.864819999999998,
+      "wind_gust_mph": 31.07106,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2004-09-15T23:54:00Z",
+      "station_id": "KRST",
+      "metar": "KRST 152354Z 27011G19KT 10SM SCT075 17/12 A2976 RMK AO2 SLPNO 60002 T01720122 10217 20172 51030",
+      "sky_condition": "SCT",
+      "temperature_f": 63.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 12.658579999999999,
+      "wind_gust_mph": 21.864819999999998,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

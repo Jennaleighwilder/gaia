@@ -1,0 +1,135 @@
+{
+  "event_id": "noaa_5686915_UTAH",
+  "event_date": "1999-05-05",
+  "event_datetime_utc": "1999-05-05T18:00:00Z",
+  "station": "KEVW",
+  "county": "RICH/CACHE T NW/P E C WEBER/MOST OF MORGAN/NW SUMMIT/NE SALT LAKE/X NE BOX ELDER",
+  "event_type": "Avalanche",
+  "magnitude": "",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1999-05-05T00:52:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 050052Z 32013KT 25SM VCSH SCT020 BKN040 M02/M04 A2980 RMK VCSH NW-N SHSN DSNT SE-SW",
+      "sky_condition": "SCT",
+      "temperature_f": 28.4,
+      "dewpoint_f": 24.8,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1999-05-05T11:55:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 051155Z 23008KT 25SM BKN050 M06/M09 A2998",
+      "sky_condition": "BKN",
+      "temperature_f": 21.2,
+      "dewpoint_f": 15.8,
+      "wind_direction_deg": 230.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1999-05-05T12:58:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 051258Z 26007KT 35SM BKN050 M06/M09 A3002",
+      "sky_condition": "BKN",
+      "temperature_f": 21.2,
+      "dewpoint_f": 15.8,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 35.0
+    },
+    {
+      "timestamp": "1999-05-05T13:50:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 051350Z 24008KT 35SM SCT025 BKN050 M05/M08 A3003",
+      "sky_condition": "SCT",
+      "temperature_f": 23.0,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 35.0
+    },
+    {
+      "timestamp": "1999-05-05T15:55:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 051555Z 28020KT 40SM SCT020 BKN040 M02/M08 A3007",
+      "sky_condition": "SCT",
+      "temperature_f": 28.4,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1999-05-05T16:48:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 051648Z 25018KT 35SM BKN040 00/M08 A3008 RMK SHSN DSNT N-E W",
+      "sky_condition": "BKN",
+      "temperature_f": 32.0,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 35.0
+    },
+    {
+      "timestamp": "1999-05-05T17:59:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 051759Z 28020KT 40SM BKN040 00/M09 A3009",
+      "sky_condition": "BKN",
+      "temperature_f": 32.0,
+      "dewpoint_f": 15.8,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 23.0156,
+      "visibility_mi": 40.0
+    },
+    {
+      "timestamp": "1999-05-05T19:55:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 051955Z 28018KT 35SM BKN035 OVC050 00/M08 A3010",
+      "sky_condition": "BKN",
+      "temperature_f": 32.0,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 35.0
+    },
+    {
+      "timestamp": "1999-05-05T20:47:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 052047Z 28014KT 35SM BKN035 01/M08 A3011 RMK SHSN DSNT N-S",
+      "sky_condition": "BKN",
+      "temperature_f": 33.8,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 35.0
+    },
+    {
+      "timestamp": "1999-05-05T21:57:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 052157Z 28015KT 35SM BKN050 01/M08 A3011 RMK SHSN DSNT SE-SW",
+      "sky_condition": "BKN",
+      "temperature_f": 33.8,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 35.0
+    },
+    {
+      "timestamp": "1999-05-05T23:55:00Z",
+      "station_id": "KEVW",
+      "metar": "KEVW 052355Z 30015G21KT 40SM BKN050 03/M08 A3013",
+      "sky_condition": "BKN",
+      "temperature_f": 37.4,
+      "dewpoint_f": 17.6,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 24.166379999999997,
+      "visibility_mi": 40.0
+    }
+  ],
+  "estimated": false
+}

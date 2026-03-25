@@ -1,0 +1,60 @@
+{
+  "event_id": "noaa_10056244_MISSOURI",
+  "event_date": "1979-04-11",
+  "event_datetime_utc": "1979-04-11T18:00:00Z",
+  "station": "KUNO",
+  "county": "DOUGLAS",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1979-04-11T00:00:00Z",
+      "station_id": "KUNO",
+      "metar": "METAR KUNO 110000Z 10018KT 3SM TSRA CLR 10/06 A//// RMK SLP094 T01000060",
+      "sky_condition": "CLR",
+      "temperature_f": 50.0,
+      "dewpoint_f": 42.8,
+      "pressure_mb": 1009.4,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 20.714039999999997,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1979-04-11T06:00:00Z",
+      "station_id": "KUNO",
+      "metar": "METAR KUNO 110600Z 12013KT 7SM CLR 10/07 A//// RMK SLPNO 60012 T01000070",
+      "sky_condition": "CLR",
+      "temperature_f": 50.0,
+      "dewpoint_f": 44.6,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1979-04-11T12:00:00Z",
+      "station_id": "KUNO",
+      "metar": "METAR KUNO 111200Z 03007KT 1SM -TSRA CLR 09/09 A//// RMK SLP046 60071 70083 T00900090",
+      "sky_condition": "CLR",
+      "temperature_f": 48.2,
+      "dewpoint_f": 48.2,
+      "pressure_mb": 1004.6,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1979-04-11T18:00:00Z",
+      "station_id": "KUNO",
+      "metar": "METAR KUNO 111800Z 10004KT 5/16SM FG CLR 15/15 A//// RMK SLP021 60102 T01500150",
+      "sky_condition": "CLR",
+      "temperature_f": 59.0,
+      "dewpoint_f": 59.0,
+      "pressure_mb": 1002.1,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 0.31
+    }
+  ],
+  "estimated": false
+}

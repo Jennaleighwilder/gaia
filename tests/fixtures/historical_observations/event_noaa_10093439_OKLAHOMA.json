@@ -1,0 +1,35 @@
+{
+  "event_id": "noaa_10093439_OKLAHOMA",
+  "event_date": "1973-05-26",
+  "event_datetime_utc": "1973-05-26T18:00:00Z",
+  "station": "KBVO",
+  "county": "WASHINGTON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 2,
+  "observations": [
+    {
+      "timestamp": "1973-05-26T00:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 260000Z 12005KT 10SM BKN150 24/13 A2961 RMK SLPNO T02440127",
+      "sky_condition": "BKN",
+      "temperature_f": 76.0,
+      "dewpoint_f": 54.86,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1973-05-26T16:00:00Z",
+      "station_id": "KBVO",
+      "metar": "KBVO 261600Z 18010KT 7SM OVC023 21/18 A2940 RMK SLPNO T02110177",
+      "sky_condition": "OVC",
+      "temperature_f": 70.0,
+      "dewpoint_f": 63.86,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

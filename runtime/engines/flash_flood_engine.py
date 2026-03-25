@@ -47,7 +47,7 @@ class FlashFloodEngine:
         soil_detail = payload.get("soil_fixture") or {}
         if isinstance(soil_detail, dict) and "soil_moisture" in soil_detail:
             soil = float(soil_detail.get("soil_moisture", soil))
-        if soil > 0.85:
+        if soil >= 0.85:
             score += 0.3
             reasons.append("soil_saturated")
         elif soil > 0.7:
@@ -62,7 +62,7 @@ class FlashFloodEngine:
         # Also from engine_details.terrain
         terrain_detail = payload.get("_terrain_detail") or {}
         valley_risk = valley_risk or float(terrain_detail.get("valley_flood_risk", 0) or 0)
-        if valley_risk > 0.7:
+        if valley_risk >= 0.7:
             score += 0.2
             reasons.append("terrain_funnel")
         elif valley_risk > 0.5:
@@ -97,14 +97,25 @@ class FlashFloodEngine:
             score = max(score, 0.92)
             reasons.append("AR_TERRAIN_EXTREME")
 
+        # Atmospheric proxies for precipitation (ASOS gauge may miss local rain)
+        dewpoint_depression = float(payload.get("dewpoint_depression_f") or 99)
+        pressure_change = float(payload.get("pressure_change_mb") or 0)
+        atmosphere_wet = dewpoint_depression <= 3.0
+        atmosphere_unstable = pressure_change >= 3.0
+
         # FLASH FLOOD CERTAIN
-        if soil > 0.85 and valley_risk > 0.7 and precip_rate > 0.5:
+        if soil >= 0.85 and valley_risk >= 0.7 and precip_rate > 0.5:
             score = max(score, 0.95)
             reasons.append("FLASH_FLOOD_CERTAIN")
-        elif soil > 0.85 and valley_risk > 0.7 and precip_72hr > 50:
-            # Antecedent wet + saturated soil + terrain = high risk even without current rate
+        elif soil >= 0.85 and valley_risk >= 0.7 and precip_72hr > 50:
             score = max(score, 0.9)
             reasons.append("FLASH_FLOOD_LIKELY")
+        elif soil >= 0.85 and valley_risk >= 0.7 and (atmosphere_wet or atmosphere_unstable):
+            score = max(score, 0.9)
+            if atmosphere_wet:
+                reasons.append("SATURATED_AIR_FLOOD_LIKELY")
+            if atmosphere_unstable:
+                reasons.append("PRESSURE_DROP_FLOOD_LIKELY")
 
         score = clamp(min(score, 1.0))
         return {

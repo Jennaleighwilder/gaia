@@ -1,0 +1,148 @@
+{
+  "event_id": "noaa_9978539_ALABAMA",
+  "event_date": "1982-04-26",
+  "event_datetime_utc": "1982-04-26T18:00:00Z",
+  "station": "KTUP",
+  "county": "MARION",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 12,
+  "observations": [
+    {
+      "timestamp": "1982-04-26T01:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 260100Z 12005KT 7SM BKN030 BKN100 18/16 A2983 RMK SLPNO T01830156",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-26T10:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 261000Z 18005KT 3SM FG OVC005 17/17 A2984 RMK DST LTGCC SLPNO T01670167",
+      "sky_condition": "OVC",
+      "temperature_f": 62.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1982-04-26T11:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 261100Z 34015KT 3SM TSRA OVC008 16/16 A2985 RMK TB35RB35LTGCC OVHD SLPNO P0020 T01610161",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.2
+    },
+    {
+      "timestamp": "1982-04-26T12:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 261200Z 04005KT 5SM TSRA BKN008 OVC020 14/14 A2984 RMK TMOVGE LTGCC SLPNO P0030 T01390139",
+      "sky_condition": "BKN",
+      "temperature_f": 57.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0,
+      "precip_1h_in": 0.3
+    },
+    {
+      "timestamp": "1982-04-26T13:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 261300Z 09005KT 7SM BKN012 OVC050 14/12 A2982 RMK TE30RE30MOVGE SLPNO T01390122",
+      "sky_condition": "BKN",
+      "temperature_f": 57.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-26T14:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 261400Z 12008KT 7SM BKN015 OVC050 16/15 A2981 RMK SLPNO T01560150",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-26T15:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 261500Z 16008KT 7SM BKN015 OVC050 16/15 A2981 RMK SLPNO T01560150",
+      "sky_condition": "BKN",
+      "temperature_f": 60.0,
+      "dewpoint_f": 59.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-26T16:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 261600Z 15010KT 7SM BKN015 OVC030 18/16 A2984 RMK SLPNO P0010 T01830156",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0,
+      "precip_1h_in": 0.1
+    },
+    {
+      "timestamp": "1982-04-26T18:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 261800Z 16015KT 7SM TS BKN020 BKN060 21/17 A2982 RMK TB40W MOVG E SLPNO T02110167",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-26T20:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 262000Z 33005KT 7SM BKN030 BKN120 22/16 A2980 RMK TE MOVD NE DRK N SLPNO T02170161",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-26T21:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 262100Z 31015KT 7SM TS BKN030 BKN100 19/16 A2981 RMK T B35 T N MOVG E RWU N SLPNO T01890156",
+      "sky_condition": "BKN",
+      "temperature_f": 66.0,
+      "dewpoint_f": 60.0,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1982-04-26T22:00:00Z",
+      "station_id": "KTUP",
+      "metar": "METAR KTUP 262200Z 32012KT 7SM BKN030 BKN100 20/16 A2981 RMK T E MOVD E SLPNO T02000161",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 320.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    }
+  ],
+  "estimated": false
+}

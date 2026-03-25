@@ -1,0 +1,119 @@
+{
+  "event_id": "noaa_5291056_VIRGINIA",
+  "event_date": "2002-05-02",
+  "event_datetime_utc": "2002-05-02T18:00:00Z",
+  "station": "KBLF",
+  "county": "BUCHANAN",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 9,
+  "observations": [
+    {
+      "timestamp": "2002-05-02T14:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 021452Z AUTO 27013G18KT 22/17 A2973 RMK AO2 SLP042 6//// T02170172 $",
+      "sky_condition": "   ",
+      "temperature_f": 71.0,
+      "dewpoint_f": 63.0,
+      "pressure_mb": 1004.2,
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 14.960139999999999,
+      "wind_gust_mph": 20.714039999999997
+    },
+    {
+      "timestamp": "2002-05-02T16:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 021652Z AUTO 25011G16KT 8SM FEW027 22/16 A2972 RMK AO2 SLPNO T02170161 TSNO $",
+      "sky_condition": "FEW",
+      "temperature_f": 71.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 12.658579999999999,
+      "wind_gust_mph": 18.41248,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2002-05-02T17:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 021752Z AUTO VRB04KT 1 1/4SM -RA BR FEW005 BKN014 OVC060 14/13 A2978 RMK AO2 PK WND 28032/1723 RAB25 SLPNO P0078 6//// T01390133 TSNO",
+      "sky_condition": "FEW",
+      "temperature_f": 57.0,
+      "dewpoint_f": 56.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 1.25,
+      "precip_1h_in": 0.78
+    },
+    {
+      "timestamp": "2002-05-02T18:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 021852Z AUTO 33003KT 10SM OVC027 14/14 A2977 RMK AO2 RAE46 SLPNO P0003 T01440139 TSNO",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 330.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.03
+    },
+    {
+      "timestamp": "2002-05-02T19:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 021952Z AUTO VRB04KT 10SM -RA FEW038 SCT065 BKN100 15/14 A2972 RMK AO2 RAB02 SLPNO P0019 T01500139 TSNO",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 57.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.19
+    },
+    {
+      "timestamp": "2002-05-02T20:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 022052Z AUTO 35010KT 310V010 3SM -RA BR FEW008 BKN035 OVC044 15/14 A2975 RMK AO2 RAE03B32 PRESRR SLPNO P0007 60029 T01500144 55008 TSNO",
+      "sky_condition": "FEW",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 350.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0,
+      "precip_1h_in": 0.07
+    },
+    {
+      "timestamp": "2002-05-02T21:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 022152Z AUTO 00000KT 1 1/4SM RA BR FEW003 BKN017 OVC028 14/14 A2976 RMK AO2 SLPNO P0116 T01440139 TSNO",
+      "sky_condition": "FEW",
+      "temperature_f": 58.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 1.25,
+      "precip_1h_in": 1.16
+    },
+    {
+      "timestamp": "2002-05-02T22:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 022252Z AUTO 24003KT 10SM SCT008 BKN013 OVC019 15/14 A2977 RMK AO2 RAE22 SLPNO P0005 T01500144 TSNO",
+      "sky_condition": "SCT",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 10.0,
+      "precip_1h_in": 0.05
+    },
+    {
+      "timestamp": "2002-05-02T23:52:00Z",
+      "station_id": "KBLF",
+      "metar": "KBLF 022352Z AUTO 25007KT 8SM -RA BKN008 OVC014 15/14 A2978 RMK AO2 RAB07 CIG 005V009 SLPNO P0013 60163 T01500144 10156 20139 51009 TSNO",
+      "sky_condition": "BKN",
+      "temperature_f": 59.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 8.0,
+      "precip_1h_in": 0.13
+    }
+  ],
+  "estimated": false
+}

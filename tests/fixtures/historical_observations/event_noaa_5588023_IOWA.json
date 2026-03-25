@@ -1,0 +1,85 @@
+{
+  "event_id": "noaa_5588023_IOWA",
+  "event_date": "1997-01-09",
+  "event_datetime_utc": "1997-01-09T18:00:00Z",
+  "station": "KSPW",
+  "county": "BUENA VISTA",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 6,
+  "observations": [
+    {
+      "timestamp": "1997-01-09T04:53:00Z",
+      "station_id": "KSPW",
+      "metar": "METAR KSPW 090453Z AUTO 17005KT 10SM CLR M08/M09 A2984 RMK AO2 SLP126 T10781094 FZRANO TSNO PNO $",
+      "sky_condition": "CLR",
+      "temperature_f": 18.0,
+      "dewpoint_f": 15.0,
+      "pressure_mb": 1012.6,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1997-01-09T05:53:00Z",
+      "station_id": "KSPW",
+      "metar": "METAR KSPW 090553Z AUTO 21005KT 9SM FEW075 M11/M12 A2982 RMK AO2 SLP118 6//// T11061117 11028 21106 410171106 56027 FZRANO TSNO PNO $",
+      "sky_condition": "FEW",
+      "temperature_f": 13.0,
+      "dewpoint_f": 11.0,
+      "pressure_mb": 1011.8,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1997-01-09T10:53:00Z",
+      "station_id": "KSPW",
+      "metar": "METAR KSPW 091053Z AUTO 00000KT 9SM OVC014 M13/M14 A2964 RMK AO2 SLP059 T11281139 FZRANO TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 9.0,
+      "dewpoint_f": 7.0,
+      "pressure_mb": 1005.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "1997-01-09T12:53:00Z",
+      "station_id": "KSPW",
+      "metar": "METAR KSPW 091253Z AUTO 28003KT 7SM OVC008 M09/M10 A2959 RMK AO2 CIG 006V010 SLP041 T10941100 FZRANO TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 15.0,
+      "dewpoint_f": 14.0,
+      "pressure_mb": 1004.1,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-01-09T13:53:00Z",
+      "station_id": "KSPW",
+      "metar": "METAR KSPW 091353Z AUTO 30008KT 4SM BR SCT006 OVC014 M08/M08 A2957 RMK AO2 SLP033 T10781083 FZRANO TSNO PNO",
+      "sky_condition": "SCT",
+      "temperature_f": 18.0,
+      "dewpoint_f": 17.0,
+      "pressure_mb": 1003.3,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1997-01-09T14:53:00Z",
+      "station_id": "KSPW",
+      "metar": "METAR KSPW 091453Z AUTO 28007KT 2 1/2SM -SN BR OVC018 M08/M09 A2955 RMK AO2 UPB33E35SNB35 SLP025 6//// T10781089 58019 FZRANO TSNO PNO",
+      "sky_condition": "OVC",
+      "temperature_f": 18.0,
+      "dewpoint_f": 16.0,
+      "pressure_mb": 1002.5,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 8.05546,
+      "visibility_mi": 2.5
+    }
+  ],
+  "estimated": false
+}

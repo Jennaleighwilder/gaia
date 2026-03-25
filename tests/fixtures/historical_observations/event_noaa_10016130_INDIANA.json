@@ -1,0 +1,256 @@
+{
+  "event_id": "noaa_10016130_INDIANA",
+  "event_date": "1976-09-26",
+  "event_datetime_utc": "1976-09-26T18:00:00Z",
+  "station": "KLOU",
+  "county": "JEFFERSON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 23,
+  "observations": [
+    {
+      "timestamp": "1976-09-26T00:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260000Z 06006KT 7SM SCT040 OVC100 24/13 A2992 RMK SLPNO T02390133",
+      "sky_condition": "SCT",
+      "temperature_f": 75.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T01:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260100Z 05008KT 7SM BKN040 OVC080 23/12 A2991 RMK SLPNO T02330122",
+      "sky_condition": "BKN",
+      "temperature_f": 74.0,
+      "dewpoint_f": 54.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T02:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260200Z 09006KT 7SM BKN080 OVC100 22/13 A2992 RMK SLPNO T02220133",
+      "sky_condition": "BKN",
+      "temperature_f": 72.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T03:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260300Z 13006KT 7SM BKN080 OVC100 22/13 A2990 RMK SLPNO T02170133",
+      "sky_condition": "BKN",
+      "temperature_f": 71.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T04:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260400Z 12005KT 7SM BKN080 OVC100 21/13 A2989 RMK SLPNO T02110128",
+      "sky_condition": "BKN",
+      "temperature_f": 70.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T05:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260500Z 13006KT 10SM SCT080 OVC250 21/13 A2989 RMK SLPNO T02060128",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 55.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1976-09-26T06:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260600Z 14005KT 10SM OVC100 20/14 A2986 RMK SLPNO T02000139",
+      "sky_condition": "OVC",
+      "temperature_f": 68.0,
+      "dewpoint_f": 57.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1976-09-26T07:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260700Z 17008KT 10SM OVC080 21/13 A2984 RMK DSNT LTNG S-W-NW SLPNO T02060133",
+      "sky_condition": "OVC",
+      "temperature_f": 69.0,
+      "dewpoint_f": 56.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1976-09-26T08:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260800Z 17005KT 7SM -SHRA BKN030 OVC080 18/16 A2987 RMK TB14E38 MOVD E NO GUSTS RB15 SLPNO T01830161",
+      "sky_condition": "BKN",
+      "temperature_f": 65.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T09:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 260900Z 28005KT 5SM -SHRA FG OVC030 18/17 A2986 RMK SLPNO T01780172",
+      "sky_condition": "OVC",
+      "temperature_f": 64.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1976-09-26T10:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261000Z 15010KT 21/2SM -SHRA FG SCT004 OVC015 A2985 RMK SLPNO",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1976-09-26T11:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261100Z 12008KT 21/2SM -SHRA FG SCT005 OVC015 18/18 A2982 RMK LNR ;L R5/9 9/3 SLPNO T01830178 560/4",
+      "sky_condition": "SCT",
+      "temperature_f": 65.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1976-09-26T12:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261200Z 19005KT 21/2SM -SHRA FG BKN005 OVC015 A2983 RMK SLPNO",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 2.5
+    },
+    {
+      "timestamp": "1976-09-26T13:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261300Z 17008KT 1SM -SHRA FG OVC007 A2982 RMK SLPNO",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1976-09-26T15:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261500Z 16008KT 4SM DZ SCT007 BKN020 OVC040 19/18 A2981 RMK RE20 SLPNO T01890183",
+      "sky_condition": "SCT",
+      "temperature_f": 66.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1976-09-26T16:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261600Z 17010KT 4SM FGDZ SCT012 OVC045 19/18 A2981 RMK UA 0/LOU OVC BKN 20 60 OVC R- BTWN LYRS LNR EEEEEEEEEEEEEEEEEEEEEB SLPNO 8/539 T01940183",
+      "sky_condition": "   ",
+      "temperature_f": 67.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1976-09-26T17:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261700Z 18010KT 5SM DZ SCT010 OVC035 A2979 RMK RE20 SLPNO",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1976-09-26T18:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261800Z 18010KT 7SM SCT012 OVC035 22/19 A2979 RMK SLPNO T02220189",
+      "sky_condition": "SCT",
+      "temperature_f": 72.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1976-09-26T19:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 261900Z 21012KT 6SM DZ SCT012 OVC035 23/20 A2976 RMK SLPNO T02330200",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 210.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1976-09-26T20:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 262000Z 18008KT 6SM DZ SCT012 OVC035 23/21 A2974 RMK SML BINOVC;SDF 9/14 FTK ASRXPAR SLPNO T02330206",
+      "sky_condition": "SCT",
+      "temperature_f": 74.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1976-09-26T21:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 262100Z 15012KT 6SM DZ SCT030 BKN060 OVC250 A2972 RMK ;LOU9/14 SLPNO",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1976-09-26T22:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 262200Z 17012KT 6SM DZ SCT030 BKN060 OVC250 25/21 A2973 RMK ;LOU9/14 SLPNO T02500211",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1976-09-26T23:00:00Z",
+      "station_id": "KLOU",
+      "metar": "KLOU 262300Z 18011KT 6SM DZ SCT030 BKN080 BKN250 25/21 A2971 RMK ;LOU9/14 SLPNO T02500211",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 70.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

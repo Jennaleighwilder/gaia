@@ -1,0 +1,72 @@
+{
+  "event_id": "noaa_5664277_SOUTH CAROLINA",
+  "event_date": "1998-08-26",
+  "event_datetime_utc": "1998-08-26T18:00:00Z",
+  "station": "KCRE",
+  "county": "HORRY",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 5,
+  "observations": [
+    {
+      "timestamp": "1998-08-26T00:50:00Z",
+      "station_id": "KCRE",
+      "metar": "KCRE 260050Z 040010KT 7SM SCT042 28/21 A2979 RMK LAST",
+      "sky_condition": "SCT",
+      "temperature_f": 82.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1998-08-26T10:50:00Z",
+      "station_id": "KCRE",
+      "metar": "KCRE 261050Z 02015G25KT 5SM RA OVC015 26/23 A2950 RMK FIRST",
+      "sky_condition": "OVC",
+      "temperature_f": 78.8,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1998-08-26T11:50:00Z",
+      "station_id": "KCRE",
+      "metar": "KCRE 261150Z 02020G30KT 4SM RA OVC015 26/24 A2946",
+      "sky_condition": "OVC",
+      "temperature_f": 78.8,
+      "dewpoint_f": 75.2,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-08-26T12:50:00Z",
+      "station_id": "KCRE",
+      "metar": "KCRE 261250Z 04020G40KT 3SM RA OVC015 26/23 A2942",
+      "sky_condition": "OVC",
+      "temperature_f": 78.8,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 46.0312,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1998-08-26T13:50:00Z",
+      "station_id": "KCRE",
+      "metar": "KCRE 261350Z 04030G42KT 4SM RA OVC015 25/23 A2933",
+      "sky_condition": "OVC",
+      "temperature_f": 77.0,
+      "dewpoint_f": 73.4,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 34.523399999999995,
+      "wind_gust_mph": 48.33275999999999,
+      "visibility_mi": 4.0
+    }
+  ],
+  "estimated": false
+}

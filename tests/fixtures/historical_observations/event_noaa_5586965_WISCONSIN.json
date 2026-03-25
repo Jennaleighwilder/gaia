@@ -1,0 +1,163 @@
+{
+  "event_id": "noaa_5586965_WISCONSIN",
+  "event_date": "1997-01-16",
+  "event_datetime_utc": "1997-01-16T18:00:00Z",
+  "station": "KENW",
+  "county": "KENOSHA",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 14,
+  "observations": [
+    {
+      "timestamp": "1997-01-16T00:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 160045Z 24008KT 1/4SM SN FZFG VV002 M06/ A2944",
+      "sky_condition": "VV ",
+      "temperature_f": 21.2,
+      "wind_direction_deg": 240.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 0.25
+    },
+    {
+      "timestamp": "1997-01-16T01:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 160145Z 25011KT 1/2SM -SN FZFG OVC010 M06/ A2942",
+      "sky_condition": "OVC",
+      "temperature_f": 21.2,
+      "wind_direction_deg": 250.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1997-01-16T02:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 160245Z 26015KT 1/2SM -SN FZFG VV008 M06/ A2942",
+      "sky_condition": "VV ",
+      "temperature_f": 21.2,
+      "wind_direction_deg": 260.0,
+      "wind_speed_mph": 17.261699999999998,
+      "visibility_mi": 0.5
+    },
+    {
+      "timestamp": "1997-01-16T12:50:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 161250Z 31023G30KT 4SM BR SCT019 M14/ A2981",
+      "sky_condition": "SCT",
+      "temperature_f": 6.8,
+      "wind_direction_deg": 310.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1997-01-16T13:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 161345Z 30023G28KT 7SM DRSN SKC M16/ A2988",
+      "sky_condition": "CLR",
+      "temperature_f": 3.2,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 26.46794,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-01-16T14:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 161445Z 30021G30KT 7SM DRSN SKC M17/ A2991",
+      "sky_condition": "CLR",
+      "temperature_f": 1.4,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 24.166379999999997,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-01-16T15:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 161545Z 30021G28KT 7SM DRSN SKC M16/ A2995",
+      "sky_condition": "CLR",
+      "temperature_f": 3.2,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 24.166379999999997,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1997-01-16T16:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 161645Z 30021G30KT 15SM SKC M16/ A2999",
+      "sky_condition": "CLR",
+      "temperature_f": 3.2,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 24.166379999999997,
+      "wind_gust_mph": 34.523399999999995,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-16T17:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 161745Z 29020G28KT 15SM SKC M16/ A2998",
+      "sky_condition": "CLR",
+      "temperature_f": 3.2,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-16T18:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 161845Z 30020G28KT 15SM SKC M16/ A2998",
+      "sky_condition": "CLR",
+      "temperature_f": 3.2,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 32.22184,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-16T19:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 161945Z 29020G29KT 15SM SKC M16/ A2999",
+      "sky_condition": "CLR",
+      "temperature_f": 3.2,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 23.0156,
+      "wind_gust_mph": 33.37262,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-16T20:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 162045Z 28018G26KT 15SM SKC M16/ A3002",
+      "sky_condition": "CLR",
+      "temperature_f": 3.2,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 29.920279999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-16T21:48:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 162148Z 28018G25KT 15SM SKC M17/ A3005",
+      "sky_condition": "CLR",
+      "temperature_f": 1.4,
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 20.714039999999997,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1997-01-16T23:45:00Z",
+      "station_id": "KENW",
+      "metar": "METAR KENW 162345Z 28015G25KT 15SM SKC M18 A3010",
+      "sky_condition": "   ",
+      "wind_direction_deg": 270.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 28.769499999999997,
+      "visibility_mi": 15.0
+    }
+  ],
+  "estimated": false
+}

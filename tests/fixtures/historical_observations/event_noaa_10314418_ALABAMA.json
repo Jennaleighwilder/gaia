@@ -1,0 +1,123 @@
+{
+  "event_id": "noaa_10314418_ALABAMA",
+  "event_date": "1994-03-27",
+  "event_datetime_utc": "1994-03-27T18:00:00Z",
+  "station": "KRMG",
+  "county": "DEKALB",
+  "event_type": "Tornado",
+  "magnitude": "F4",
+  "observation_count": 11,
+  "observations": [
+    {
+      "timestamp": "1994-03-27T00:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270000Z AUTO 13007KT 19/07 RMK T01880072 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 65.84,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1994-03-27T01:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270100Z AUTO 12011KT 18/07 RMK T01830066 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 65.0,
+      "dewpoint_f": 43.88,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "1994-03-27T02:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270200Z AUTO 14009KT 18/07 RMK T01830072 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 65.0,
+      "dewpoint_f": 45.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1994-03-27T03:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270300Z AUTO 12005KT 17/08 RMK T01720083 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.0,
+      "dewpoint_f": 47.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1994-03-27T04:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270400Z AUTO 12008KT 18/09 RMK T01770088 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.86,
+      "dewpoint_f": 47.84,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 9.20624
+    },
+    {
+      "timestamp": "1994-03-27T05:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270500Z AUTO 15009KT 18/10 RMK T01770100 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.86,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1994-03-27T06:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270600Z AUTO 14011KT 18/10 RMK T01770100 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.86,
+      "dewpoint_f": 50.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 12.658579999999999
+    },
+    {
+      "timestamp": "1994-03-27T07:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270700Z AUTO 13010KT 18/11 RMK T01770111 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 63.86,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 11.5078
+    },
+    {
+      "timestamp": "1994-03-27T08:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 270800Z AUTO 16007KT 18/13 RMK T01830127 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 65.0,
+      "dewpoint_f": 54.86,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 8.05546
+    },
+    {
+      "timestamp": "1994-03-27T15:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 271500Z AUTO 17009KT 23/17 RMK T02330172 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 74.0,
+      "dewpoint_f": 63.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 10.357019999999999
+    },
+    {
+      "timestamp": "1994-03-27T18:00:00Z",
+      "station_id": "KRMG",
+      "metar": "KRMG 271800Z AUTO 29023KT 21/16 RMK T02110161 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 70.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 290.0,
+      "wind_speed_mph": 26.46794
+    }
+  ],
+  "estimated": false
+}

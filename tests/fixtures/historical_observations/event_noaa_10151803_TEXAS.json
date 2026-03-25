@@ -1,0 +1,130 @@
+{
+  "event_id": "noaa_10151803_TEXAS",
+  "event_date": "1991-05-15",
+  "event_datetime_utc": "1991-05-15T18:00:00Z",
+  "station": "KCSM",
+  "county": "WHEELER",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 13,
+  "observations": [
+    {
+      "timestamp": "1991-05-15T00:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 150000Z 14010KT 15SM BKN200 M/M A2973 RMK TCU E SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-05-15T01:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 150100Z 15013KT 15SM SCT050 BKN200 M/M A2973 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 15.006171199999997,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1991-05-15T12:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 151200Z 18010KT 5/8SM DZ FG OVC/// A2975 RMK SLPNO",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 0.62
+    },
+    {
+      "timestamp": "1991-05-15T14:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 151400Z 17010KT 1SM -DZ FG OVC002 M/M A2975 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1991-05-15T15:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 151500Z 17012KT 2SM FG OVC003 M/M A2975 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1991-05-15T16:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 151600Z 15010KT 3SM FG OVC007 M/M A2975 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1991-05-15T17:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 151700Z 16010KT 7SM OVC011 M/M A2976 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-05-15T18:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 151800Z 15010KT 7SM OVC015 M/M A2976 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1991-05-15T19:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 151900Z 15012KT 10SM OVC015 M/M A2974 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-05-15T20:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 152000Z 15015KT 10SM OVC024 M/M A2973 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-05-15T21:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 152100Z 16015KT 10SM BKN040 BKN080 M/M A2970 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 17.3077312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-05-15T22:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 152200Z 15014KT 10SM BKN040 M/M A2969 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1991-05-15T23:00:00Z",
+      "station_id": "KCSM",
+      "metar": "KCSM 152300Z 15016KT 10SM BKN040 M/M A2969 RMK SLPNO T////////",
+      "sky_condition": "   ",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

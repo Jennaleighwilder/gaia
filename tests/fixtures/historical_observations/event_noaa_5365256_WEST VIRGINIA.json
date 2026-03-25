@@ -1,0 +1,242 @@
+{
+  "event_id": "noaa_5365256_WEST VIRGINIA",
+  "event_date": "2003-06-14",
+  "event_datetime_utc": "2003-06-14T18:00:00Z",
+  "station": "KCKB",
+  "county": "MARION",
+  "event_type": "Flash Flood",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "2003-06-14T00:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140053Z 00000KT 8SM FEW060 OVC090 22/20 A2990 RMK AO2 SLP113 T02170200",
+      "sky_condition": "FEW",
+      "temperature_f": 71.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1011.3,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2003-06-14T01:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140153Z 16003KT 6SM BR CLR 21/20 A2992 RMK AO2 SLP117 T02110200",
+      "sky_condition": "CLR",
+      "temperature_f": 70.0,
+      "dewpoint_f": 68.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 3.4523399999999995,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "2003-06-14T02:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140253Z AUTO 00000KT 7SM CLR 20/19 A2992 RMK AO2 SLP117 T02000194 50007",
+      "sky_condition": "CLR",
+      "temperature_f": 68.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1011.7,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "2003-06-14T03:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140353Z AUTO 00000KT 4SM BR CLR 19/19 A2992 RMK AO2 SLP119 T01940194",
+      "sky_condition": "CLR",
+      "temperature_f": 67.0,
+      "dewpoint_f": 67.0,
+      "pressure_mb": 1011.9,
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "2003-06-14T04:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140453Z AUTO 00000KT 5SM HZ BKN036 OVC048 A2993 RMK AO2 SLPNO 402330189 FZRANO $",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "2003-06-14T05:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140553Z AUTO 00000KT 4SM HZ SCT050 A2993 RMK AO2 SLPNO 51006 FZRANO $",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "2003-06-14T06:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140653Z AUTO 00000KT 7SM CLR A2993 RMK AO2 SLPNO FZRANO $",
+      "sky_condition": "CLR",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "2003-06-14T07:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140753Z AUTO 00000KT 8SM CLR A2991 RMK AO2 SLPNO FZRANO $",
+      "sky_condition": "CLR",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2003-06-14T08:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140853Z AUTO 00000KT 3SM BR CLR A2993 RMK AO2 SLPNO 55000 FZRANO $",
+      "sky_condition": "CLR",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "2003-06-14T09:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 140953Z AUTO 00000KT 3SM BR CLR A2993 RMK AO2 SLPNO FZRANO $",
+      "sky_condition": "CLR",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "2003-06-14T10:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141053Z AUTO 00000KT 4SM HZ FEW036 A2995 RMK AO2 SLPNO FZRANO $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 4.0,
+      "precip_1h_in": 0.0
+    },
+    {
+      "timestamp": "2003-06-14T11:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141153Z AUTO 00000KT 7SM VCTS FEW044 SCT065 SCT080 A2997 RMK AO2 LTG DSNT S AND SW TSB50 SLPNO 70029 53013 FZRANO $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "2003-06-14T12:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141253Z 19005KT 10SM SCT036 BKN070 A2998 RMK AO2 TSE1158 SLPNO $",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-06-14T13:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141353Z 19006KT 10SM FEW055 A2998 RMK AO2 SLPNO $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-06-14T14:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141453Z 20004KT 10SM SCT019 A2998 RMK AO2 SLPNO 51003 $",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 200.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-06-14T15:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141553Z 18006KT 8SM BKN021 A2998 RMK AO2 SLPNO $",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2003-06-14T16:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141653Z VRB06KT 10SM FEW022 A2997 RMK AO2 SLPNO $",
+      "sky_condition": "FEW",
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-06-14T17:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141753Z 28005KT 10SM SCT026 A2995 RMK AO2 SLPNO 58010 $",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-06-14T18:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141853Z 28006KT 9SM BKN028 BKN033 A2994 RMK AO2 SLPNO $",
+      "sky_condition": "BKN",
+      "wind_direction_deg": 280.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 9.0
+    },
+    {
+      "timestamp": "2003-06-14T19:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 141953Z 09005KT 6SM -TSRA SCT021 BKN030 OVC040 A2995 RMK AO2 TSB05RAB1858 SLPNO P0005 $",
+      "sky_condition": "SCT",
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 5.7539,
+      "visibility_mi": 6.0,
+      "precip_1h_in": 0.05
+    },
+    {
+      "timestamp": "2003-06-14T20:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 142053Z 14004KT 10SM CLR A2995 RMK AO2 TSE1954RAE1954 SLPNO 60005 55000 $",
+      "sky_condition": "CLR",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-06-14T21:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 142153Z 14004KT 8SM CLR A2994 RMK AO2 SLPNO $",
+      "sky_condition": "CLR",
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 8.0
+    },
+    {
+      "timestamp": "2003-06-14T22:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 142253Z 19004KT 10SM CLR A2994 RMK AO2 SLPNO $",
+      "sky_condition": "CLR",
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "2003-06-14T23:53:00Z",
+      "station_id": "KCKB",
+      "metar": "KCKB 142353Z 00000KT 10SM FEW047 A2994 RMK AO2 SLPNO 60005 56003 $",
+      "sky_condition": "FEW",
+      "wind_direction_deg": 0.0,
+      "wind_speed_mph": 0.0,
+      "visibility_mi": 10.0
+    }
+  ],
+  "estimated": false
+}

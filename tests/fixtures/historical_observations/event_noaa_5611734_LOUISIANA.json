@@ -1,0 +1,253 @@
+{
+  "event_id": "noaa_5611734_LOUISIANA",
+  "event_date": "1997-07-17",
+  "event_datetime_utc": "1997-07-17T18:00:00Z",
+  "station": "KP92",
+  "county": "LOWER TERREBONNE",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 24,
+  "observations": [
+    {
+      "timestamp": "1997-07-17T00:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170028Z AUTO 13003KT 27/20 RMK AO1 PKWND 011/RNO 546V474 T02720200",
+      "sky_condition": "   ",
+      "temperature_f": 81.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 130.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-07-17T01:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170128Z AUTO 11001KT 26/21 RMK AO1 PKWND 004/RNO 546V474 T02610206",
+      "sky_condition": "   ",
+      "temperature_f": 79.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1997-07-17T02:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170228Z AUTO 10000KT 26/21 RMK AO1 PKWND 003/RNO 546V474 T02610206",
+      "sky_condition": "   ",
+      "temperature_f": 79.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "1997-07-17T03:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170328Z AUTO 08000KT 26/21 RMK AO1 PKWND 003/RNO 546V474 T02560206",
+      "sky_condition": "   ",
+      "temperature_f": 78.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 0.0
+    },
+    {
+      "timestamp": "1997-07-17T04:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170428Z AUTO 09002KT 25/20 RMK AO1 PKWND 003/RNO 546V474 T02500200",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-07-17T05:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170528Z AUTO 11001KT 25/21 RMK AO1 PKWND 004/RNO 546V474 T02500206",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1997-07-17T06:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170628Z AUTO 06001KT 25/21 RMK AO1 PKWND 003/RNO 546V473 T02500206",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 1.15078
+    },
+    {
+      "timestamp": "1997-07-17T07:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170728Z AUTO 04002KT 25/20 RMK AO1 PKWND 004/RNO 546V473 T02500200",
+      "sky_condition": "   ",
+      "temperature_f": 77.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-07-17T08:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170828Z AUTO 07003KT 24/20 RMK AO1 PKWND 006/RNO 546V474 T02440200",
+      "sky_condition": "   ",
+      "temperature_f": 76.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-07-17T09:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 170928Z AUTO 12003KT 24/19 RMK AO1 PKWND 007/RNO 546V474 T02440195",
+      "sky_condition": "   ",
+      "temperature_f": 76.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 120.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-07-17T10:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171028Z AUTO 07002KT 23/19 RMK AO1 PKWND 006/RNO 548V474 T02330189",
+      "sky_condition": "   ",
+      "temperature_f": 74.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-07-17T11:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171128Z AUTO 08002KT 23/19 RMK AO1 PKWND 006/RNO 548V474 T02330189",
+      "sky_condition": "   ",
+      "temperature_f": 74.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 2.30156
+    },
+    {
+      "timestamp": "1997-07-17T12:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171228Z AUTO 07004KT 24/19 RMK AO1 PKWND 009/RNO 548V474 T02390189",
+      "sky_condition": "   ",
+      "temperature_f": 75.0,
+      "dewpoint_f": 66.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-07-17T13:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171328Z AUTO 10004KT 26/19 RMK AO1 PKWND 011/RNO 548V474 T02560195",
+      "sky_condition": "   ",
+      "temperature_f": 78.0,
+      "dewpoint_f": 67.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-07-17T14:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171428Z AUTO 10005KT 26/20 RMK AO1 PKWND 013/RNO 548V474 T02560200",
+      "sky_condition": "   ",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 100.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1997-07-17T15:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171528Z AUTO 11003KT 26/20 RMK AO1 PKWND 010/RNO 548V474 T02560200",
+      "sky_condition": "   ",
+      "temperature_f": 78.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 110.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-07-17T16:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171628Z AUTO 08005KT 26/20 RMK AO1 PKWND 010/RNO 548V474 T02610200",
+      "sky_condition": "   ",
+      "temperature_f": 79.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1997-07-17T17:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171728Z AUTO 08003KT 27/20 RMK AO1 PKWND 009/RNO 548V474 T02720200",
+      "sky_condition": "   ",
+      "temperature_f": 81.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 3.4523399999999995
+    },
+    {
+      "timestamp": "1997-07-17T18:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171828Z AUTO 05004KT 27/20 RMK AO1 PKWND 012/RNO 548V474 T02720200",
+      "sky_condition": "   ",
+      "temperature_f": 81.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-07-17T19:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 171928Z AUTO 08005KT 29/21 RMK AO1 PKWND 013/RNO 548V474 T02890206",
+      "sky_condition": "   ",
+      "temperature_f": 84.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1997-07-17T20:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 172028Z AUTO 08004KT 29/21 RMK AO1 PKWND 012/RNO 548V474 T02890212",
+      "sky_condition": "   ",
+      "temperature_f": 84.0,
+      "dewpoint_f": 70.16,
+      "wind_direction_deg": 80.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-07-17T21:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 172128Z AUTO 09004KT 29/21 RMK AO1 PKWND 012/RNO 548V474 T02940206",
+      "sky_condition": "   ",
+      "temperature_f": 85.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 4.60312
+    },
+    {
+      "timestamp": "1997-07-17T22:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 172228Z AUTO 05005KT 29/21 RMK AO1 PKWND 014/RNO 548V474 T02940206",
+      "sky_condition": "   ",
+      "temperature_f": 85.0,
+      "dewpoint_f": 69.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 5.7539
+    },
+    {
+      "timestamp": "1997-07-17T23:28:00Z",
+      "station_id": "KP92",
+      "metar": "KP92 172328Z AUTO 06004KT 29/20 RMK AO1 PKWND 011/RNO 548V474 T02940200",
+      "sky_condition": "   ",
+      "temperature_f": 85.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 4.60312
+    }
+  ],
+  "estimated": false
+}

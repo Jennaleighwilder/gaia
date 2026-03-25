@@ -1,0 +1,176 @@
+{
+  "event_id": "noaa_10004870_ILLINOIS",
+  "event_date": "1988-11-15",
+  "event_datetime_utc": "1988-11-15T18:00:00Z",
+  "station": "KCPS",
+  "county": "MADISON",
+  "event_type": "Tornado",
+  "magnitude": "F3",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1988-11-15T00:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 150000Z AUTO 14012KT 15SM 16/11 A3000 RMK T01610111 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 61.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1988-11-15T01:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 150100Z AUTO 15013KT 15SM 16/11 A3001 RMK T01560111 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 60.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 14.960139999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1988-11-15T02:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 150200Z AUTO 15010KT 15SM 15/11 A3000 RMK T01500111 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 59.0,
+      "dewpoint_f": 52.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1988-11-15T03:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 150300Z AUTO 15010KT 15SM 15/12 A2999 RMK T01500117 IEM_DS3505",
+      "sky_condition": null,
+      "temperature_f": 59.0,
+      "dewpoint_f": 53.0,
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1988-11-15T13:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 151300Z AUTO 14011KT 1 1/2SM OVC006 14/14 A2990 RMK T01440144 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 58.0,
+      "dewpoint_f": 58.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1988-11-15T14:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 151400Z AUTO 15010KT 1SM POB000 OVC004 A2990 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 1.0
+    },
+    {
+      "timestamp": "1988-11-15T15:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 151500Z AUTO 15011KT 1 1/2SM OVC002 A2988 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 150.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1988-11-15T16:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 151600Z AUTO 17014KT 1 1/2SM POB000 OVC003 A2987 RMK IEM_DS3505",
+      "sky_condition": "OVC",
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 1.5
+    },
+    {
+      "timestamp": "1988-11-15T17:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 151700Z AUTO 16011KT 3SM OVC004 16/16 A2983 RMK T01610161 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 61.0,
+      "dewpoint_f": 61.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1988-11-15T18:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 151800Z AUTO 14011KT 4SM OVC005 17/17 A2979 RMK T01720167 IEM_DS3505",
+      "sky_condition": "OVC",
+      "temperature_f": 63.0,
+      "dewpoint_f": 62.0,
+      "wind_direction_deg": 140.0,
+      "wind_speed_mph": 12.658579999999999,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1988-11-15T19:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 151900Z AUTO 17012KT 5SM BKN008 OVC021 19/18 A2974 RMK T01890178 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 66.0,
+      "dewpoint_f": 64.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1988-11-15T20:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 152000Z AUTO 18012G20KT 5SM BKN013 OVC022 20/18 A2971 RMK T02000183 IEM_DS3505",
+      "sky_condition": "BKN",
+      "temperature_f": 68.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 180.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1988-11-15T21:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 152100Z AUTO 17012G20KT 7SM SCT013 OVC025 21/18 A2966 RMK T02060183 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 170.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1988-11-15T22:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 152200Z AUTO 19015G22KT 6SM SCT013 OVC098 21/18 A2963 RMK T02060183 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 190.0,
+      "wind_speed_mph": 17.261699999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 6.0
+    },
+    {
+      "timestamp": "1988-11-15T23:00:00Z",
+      "station_id": "KCPS",
+      "metar": "KCPS 152300Z AUTO 16016G23KT 6SM SCT013 OVC098 21/18 A2961 RMK T02060183 IEM_DS3505",
+      "sky_condition": "SCT",
+      "temperature_f": 69.0,
+      "dewpoint_f": 65.0,
+      "wind_direction_deg": 160.0,
+      "wind_speed_mph": 18.41248,
+      "wind_gust_mph": 26.46794,
+      "visibility_mi": 6.0
+    }
+  ],
+  "estimated": false
+}

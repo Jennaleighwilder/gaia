@@ -1,0 +1,180 @@
+{
+  "event_id": "noaa_5580048_NORTH CAROLINA",
+  "event_date": "1996-09-05",
+  "event_datetime_utc": "1996-09-05T18:00:00Z",
+  "station": "KINT",
+  "county": "DAVIDSON",
+  "event_type": "Hurricane (Typhoon)",
+  "magnitude": "",
+  "observation_count": 15,
+  "observations": [
+    {
+      "timestamp": "1996-09-05T00:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 050045Z 09004KT 15SM SCT015 SCT1560 22/21 A2998",
+      "sky_condition": "SCT",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 90.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-09-05T10:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051050Z 03010KT 2SM BR 0VC002 21/20 A3003",
+      "sky_condition": "OVC",
+      "temperature_f": 69.8,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-09-05T11:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051145Z 03008KT 2SM BR OVC001 21/20 A3003",
+      "sky_condition": "OVC",
+      "temperature_f": 69.8,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-09-05T12:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051250Z 05009KT 2SM BR OVC002 21/21 A3004",
+      "sky_condition": "OVC",
+      "temperature_f": 69.8,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 2.0
+    },
+    {
+      "timestamp": "1996-09-05T13:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051350Z 06008KT 4SM BR OVC005 22/20 A3006",
+      "sky_condition": "OVC",
+      "temperature_f": 71.6,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1996-09-05T14:46:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051446Z 05008KT 7SM FEW005 OVC011 23/20 A3005",
+      "sky_condition": "FEW",
+      "temperature_f": 73.4,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-05T15:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051550Z 06010 7SM BKN011 OVC040 24/20 A3004",
+      "sky_condition": "BKN",
+      "temperature_f": 75.2,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 22.371163199999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-05T16:46:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051646Z 05014KT 7SM BKN011 OVC040 25/20 A3002",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-05T17:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051750Z 06014KT 10SM -RA BKN017 OVC040 25/21 A3001",
+      "sky_condition": "BKN",
+      "temperature_f": 77.0,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 60.0,
+      "wind_speed_mph": 16.11092,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-09-05T18:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051850Z 05016KT 15SM SCT016 BKN035 OVC120 25/20 A2998",
+      "sky_condition": "SCT",
+      "temperature_f": 77.0,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 18.41248,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1996-09-05T19:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 051950Z 05012KT 7SM -R BKN016 OVC035 24/20 A2996",
+      "sky_condition": "   ",
+      "temperature_f": 75.2,
+      "dewpoint_f": 68.0,
+      "wind_direction_deg": 50.0,
+      "wind_speed_mph": 13.809359999999998,
+      "visibility_mi": 7.0
+    },
+    {
+      "timestamp": "1996-09-05T20:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 052045Z 03009KT 10SM BKN017 OVC035 23/21 A2993",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 10.357019999999999,
+      "visibility_mi": 10.0
+    },
+    {
+      "timestamp": "1996-09-05T21:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 052145Z 04010KT 5SM -RA BKN015 OVC035 23/21 A2992",
+      "sky_condition": "BKN",
+      "temperature_f": 73.4,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 40.0,
+      "wind_speed_mph": 11.5078,
+      "visibility_mi": 5.0
+    },
+    {
+      "timestamp": "1996-09-05T22:45:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 052245Z 03010G20KT 3SM RA BKN015 OVC030 22/21 A2991",
+      "sky_condition": "BKN",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 30.0,
+      "wind_speed_mph": 11.5078,
+      "wind_gust_mph": 23.0156,
+      "visibility_mi": 3.0
+    },
+    {
+      "timestamp": "1996-09-05T23:50:00Z",
+      "station_id": "KINT",
+      "metar": "METAR KINT 052350Z 02012G22KT 350V050 5SM RA BKN015 OVC 025 22/21 A2986",
+      "sky_condition": "   ",
+      "temperature_f": 71.6,
+      "dewpoint_f": 69.8,
+      "wind_direction_deg": 20.0,
+      "wind_speed_mph": 13.809359999999998,
+      "wind_gust_mph": 25.317159999999998,
+      "visibility_mi": 5.0
+    }
+  ],
+  "estimated": false
+}

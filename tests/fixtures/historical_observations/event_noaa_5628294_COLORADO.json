@@ -1,0 +1,57 @@
+{
+  "event_id": "noaa_5628294_COLORADO",
+  "event_date": "1998-01-17",
+  "event_datetime_utc": "1998-01-17T18:00:00Z",
+  "station": "KLXV",
+  "county": "SUMMIT COUNTY/MOSQUITO RANGE/INDIAN PEAKS / S GRAND / SUMMIT / W CLEAR CREEK / W GILPIN / SW BOULDER / NW PARK",
+  "event_type": "Blizzard",
+  "magnitude": "",
+  "observation_count": 4,
+  "observations": [
+    {
+      "timestamp": "1998-01-17T14:55:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 171455Z 06004KT 25SM BKN030OVC100 M04/M05 A3001 RMK NOFIRST 4/012 410431079",
+      "sky_condition": "   ",
+      "temperature_f": 24.8,
+      "dewpoint_f": 23.0,
+      "wind_direction_deg": 70.0,
+      "wind_speed_mph": 4.60312,
+      "visibility_mi": 25.0
+    },
+    {
+      "timestamp": "1998-01-17T15:55:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 171555Z 34006KT 15SM OVC020 M02/M06 A3001 RMK NOSPECI",
+      "sky_condition": "OVC",
+      "temperature_f": 28.4,
+      "dewpoint_f": 21.2,
+      "wind_direction_deg": 340.0,
+      "wind_speed_mph": 6.904679999999999,
+      "visibility_mi": 15.0
+    },
+    {
+      "timestamp": "1998-01-17T17:50:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 171750Z 36005KT 04SM -SN OVC010 M03/M04 A3001 SNB1700 RMK NO60000 21047 55000",
+      "sky_condition": "   ",
+      "temperature_f": 26.6,
+      "dewpoint_f": 24.8,
+      "wind_direction_deg": 360.0,
+      "wind_speed_mph": 5.7999312,
+      "visibility_mi": 4.0
+    },
+    {
+      "timestamp": "1998-01-17T23:50:00Z",
+      "station_id": "KLXV",
+      "metar": "KLXV 172350Z 30008KT 03SM -SN OVC010 M03/M04 A2997 RMK NO",
+      "sky_condition": "OVC",
+      "temperature_f": 26.6,
+      "dewpoint_f": 24.8,
+      "wind_direction_deg": 300.0,
+      "wind_speed_mph": 9.20624,
+      "visibility_mi": 3.0
+    }
+  ],
+  "estimated": false
+}

@@ -25,9 +25,7 @@ app = Flask(__name__)
 from runtime.dashboard.public_api import register_public_routes
 register_public_routes(app)
 
-from runtime.dashboard.public_api import register_public_routes
 
-register_public_routes(app)
 
 ALERTS_DB = ROOT / "runs" / "alerts" / "alerts.db"
 DECISIONS_DB = ROOT / "runs" / "gaia_decisions.db"

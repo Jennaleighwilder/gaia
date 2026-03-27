@@ -47,3 +47,6 @@ data/memory/
 data/national_events.json
 data/storm_events/
 tests/fixtures/usgs_earthquakes/earthquakes_2000_2025.csv
+
+# Holler Siren raw DEM cache (derived summaries are committed)
+data/holler_siren/raw_dem/

@@ -1,0 +1,109 @@
+{
+  "total_road_segments": 27901,
+  "cells_with_road_penalty": 503,
+  "regime_summary_v1": {
+    "HIGH": 142,
+    "CRITICAL": 126,
+    "ELEVATED": 783,
+    "STABLE": 683
+  },
+  "regime_upgrades": {
+    "STABLE\u2192ELEVATED": 205,
+    "ELEVATED\u2192HIGH": 41,
+    "HIGH\u2192CRITICAL": 1,
+    "STABLE\u2192HIGH": 65,
+    "ELEVATED\u2192CRITICAL": 33,
+    "STABLE\u2192CRITICAL": 92,
+    "ELEVATED\u2192STABLE": 3
+  },
+  "n_landslides_pilot": 378,
+  "n_matched": 378,
+  "n_controls": 378,
+  "landslide_mean_tfi_v1": 0.3661,
+  "control_mean_tfi_v1": 0.3086,
+  "separation_sigma_v1": 0.368,
+  "auc_v1": 0.6049,
+  "top_critical_cells": [
+    {
+      "lat": 36.0975,
+      "lon": -82.3411,
+      "tfi_v1": 0.912,
+      "road_dist_km": 0.047,
+      "slope_mean": 27.1,
+      "rain_threshold_v1": 10.4
+    },
+    {
+      "lat": 36.0257,
+      "lon": -82.3633,
+      "tfi_v1": 0.897,
+      "road_dist_km": 0.023,
+      "slope_mean": 26.7,
+      "rain_threshold_v1": 10.6
+    },
+    {
+      "lat": 36.0975,
+      "lon": -82.2633,
+      "tfi_v1": 0.888,
+      "road_dist_km": 0.047,
+      "slope_mean": 26.8,
+      "rain_threshold_v1": 10.8
+    },
+    {
+      "lat": 35.9449,
+      "lon": -82.3522,
+      "tfi_v1": 0.88,
+      "road_dist_km": 0.03,
+      "slope_mean": 25.3,
+      "rain_threshold_v1": 10.9
+    },
+    {
+      "lat": 36.0706,
+      "lon": -82.2967,
+      "tfi_v1": 0.874,
+      "road_dist_km": 0.002,
+      "slope_mean": 25.0,
+      "rain_threshold_v1": 11.0
+    },
+    {
+      "lat": 35.9628,
+      "lon": -82.3522,
+      "tfi_v1": 0.864,
+      "road_dist_km": 0.03,
+      "slope_mean": 23.4,
+      "rain_threshold_v1": 11.2
+    },
+    {
+      "lat": 36.0886,
+      "lon": -82.23,
+      "tfi_v1": 0.849,
+      "road_dist_km": 0.03,
+      "slope_mean": 23.4,
+      "rain_threshold_v1": 11.4
+    },
+    {
+      "lat": 36.0886,
+      "lon": -82.1522,
+      "tfi_v1": 0.827,
+      "road_dist_km": 0.001,
+      "slope_mean": 24.3,
+      "rain_threshold_v1": 11.8
+    },
+    {
+      "lat": 36.0886,
+      "lon": -82.3411,
+      "tfi_v1": 0.823,
+      "road_dist_km": 0.018,
+      "slope_mean": 21.2,
+      "rain_threshold_v1": 11.8
+    },
+    {
+      "lat": 35.8218,
+      "lon": -82.3078,
+      "tfi_v1": 0.822,
+      "road_dist_km": 0.034,
+      "slope_mean": 25.2,
+      "rain_threshold_v1": 11.8
+    }
+  ],
+  "note": "TFI v1 includes road cut proximity penalty from TIGER roads."
+}

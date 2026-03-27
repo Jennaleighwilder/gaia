@@ -26,7 +26,7 @@ load_local_env()
 OUTPUT_DIR = ROOT / "data" / "fire"
 BBOX_WNC = (-84.3, 35.0, -81.8, 36.6)
 FIRMS_DATASET = "VIIRS_SNPP_NRT"
-FIRMS_LOOKBACK_DAYS = 7
+FIRMS_LOOKBACK_DAYS = 5
 USER_AGENT = os.environ.get(
     "GAIA_FIRE_USER_AGENT",
     "GAIA-Fire/1.0 (theforgottencode780@gmail.com)",
@@ -142,7 +142,7 @@ def ingest_firms() -> dict:
 
     try:
         content = _request_bytes(url, accept="text/csv").decode("utf-8", errors="replace")
-        (OUTPUT_DIR / "firms_viirs_7day.csv").write_text(content, encoding="utf-8")
+        (OUTPUT_DIR / f"firms_viirs_{FIRMS_LOOKBACK_DAYS}day.csv").write_text(content, encoding="utf-8")
 
         reader = csv.DictReader(io.StringIO(content))
         fires = []
@@ -170,7 +170,7 @@ def ingest_firms() -> dict:
 
         result["fires"] = fires
         result["count"] = len(fires)
-        print(f"Active fire detections in western NC (7 days): {len(fires)}")
+        print(f"Active fire detections in western NC ({FIRMS_LOOKBACK_DAYS} days): {len(fires)}")
         for fire in fires[:5]:
             print(
                 f"  ({fire['lat']:.3f}, {fire['lon']:.3f}) "

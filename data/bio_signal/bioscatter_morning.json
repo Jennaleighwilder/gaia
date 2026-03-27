@@ -1,0 +1,566 @@
+{
+  "source": "KPAH morning dual-pol bioscatter",
+  "scan_cache_dir": "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning",
+  "dates": {
+    "2021-12-07": {
+      "sunrise_utc_decimal": 13.234,
+      "paths": [
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_131654_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_131005_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_132339_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_130322_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_133024_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_125638_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_133712_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_124940_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_134401_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_124247_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_135045_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_123544_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_135730_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211207_122840_V06"
+      ],
+      "scan_count": 14,
+      "avg_bio_fraction": 0.156,
+      "avg_bio_gates": 2285.1,
+      "max_bio_fraction": 0.1791,
+      "scans": [
+        {
+          "file": "KPAH20211207_122840_V06",
+          "scan_time": "2021-12-07T12:28:40+00:00",
+          "feature_gates": 1215,
+          "background_gates": 7729,
+          "fraction": 0.1572,
+          "minutes_from_sunrise": -45.4
+        },
+        {
+          "file": "KPAH20211207_123544_V06",
+          "scan_time": "2021-12-07T12:35:44+00:00",
+          "feature_gates": 853,
+          "background_gates": 6196,
+          "fraction": 0.1377,
+          "minutes_from_sunrise": -38.3
+        },
+        {
+          "file": "KPAH20211207_124247_V06",
+          "scan_time": "2021-12-07T12:42:47+00:00",
+          "feature_gates": 1522,
+          "background_gates": 9820,
+          "fraction": 0.155,
+          "minutes_from_sunrise": -31.3
+        },
+        {
+          "file": "KPAH20211207_124940_V06",
+          "scan_time": "2021-12-07T12:49:40+00:00",
+          "feature_gates": 3119,
+          "background_gates": 18786,
+          "fraction": 0.166,
+          "minutes_from_sunrise": -24.4
+        },
+        {
+          "file": "KPAH20211207_125638_V06",
+          "scan_time": "2021-12-07T12:56:38+00:00",
+          "feature_gates": 3891,
+          "background_gates": 21992,
+          "fraction": 0.1769,
+          "minutes_from_sunrise": -17.4
+        },
+        {
+          "file": "KPAH20211207_130322_V06",
+          "scan_time": "2021-12-07T13:03:22+00:00",
+          "feature_gates": 3300,
+          "background_gates": 19325,
+          "fraction": 0.1708,
+          "minutes_from_sunrise": -10.7
+        },
+        {
+          "file": "KPAH20211207_131005_V06",
+          "scan_time": "2021-12-07T13:10:05+00:00",
+          "feature_gates": 2985,
+          "background_gates": 16671,
+          "fraction": 0.1791,
+          "minutes_from_sunrise": -4.0
+        },
+        {
+          "file": "KPAH20211207_131654_V06",
+          "scan_time": "2021-12-07T13:16:54+00:00",
+          "feature_gates": 2396,
+          "background_gates": 14224,
+          "fraction": 0.1684,
+          "minutes_from_sunrise": 2.9
+        },
+        {
+          "file": "KPAH20211207_132339_V06",
+          "scan_time": "2021-12-07T13:23:39+00:00",
+          "feature_gates": 1945,
+          "background_gates": 12619,
+          "fraction": 0.1541,
+          "minutes_from_sunrise": 9.6
+        },
+        {
+          "file": "KPAH20211207_133024_V06",
+          "scan_time": "2021-12-07T13:30:24+00:00",
+          "feature_gates": 2117,
+          "background_gates": 13959,
+          "fraction": 0.1517,
+          "minutes_from_sunrise": 16.4
+        },
+        {
+          "file": "KPAH20211207_133712_V06",
+          "scan_time": "2021-12-07T13:37:12+00:00",
+          "feature_gates": 2171,
+          "background_gates": 14724,
+          "fraction": 0.1474,
+          "minutes_from_sunrise": 23.2
+        },
+        {
+          "file": "KPAH20211207_134401_V06",
+          "scan_time": "2021-12-07T13:44:01+00:00",
+          "feature_gates": 2295,
+          "background_gates": 15544,
+          "fraction": 0.1476,
+          "minutes_from_sunrise": 30.0
+        },
+        {
+          "file": "KPAH20211207_135045_V06",
+          "scan_time": "2021-12-07T13:50:45+00:00",
+          "feature_gates": 2146,
+          "background_gates": 15624,
+          "fraction": 0.1374,
+          "minutes_from_sunrise": 36.7
+        },
+        {
+          "file": "KPAH20211207_135730_V06",
+          "scan_time": "2021-12-07T13:57:30+00:00",
+          "feature_gates": 2036,
+          "background_gates": 15066,
+          "fraction": 0.1351,
+          "minutes_from_sunrise": 43.5
+        }
+      ]
+    },
+    "2021-12-10": {
+      "sunrise_utc_decimal": 13.25,
+      "paths": [
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_132646_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_133139_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_125755_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_133633_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_125308_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_134112_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_124821_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_134551_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_124334_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_135030_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_123840_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_135508_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_123332_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_135936_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_122853_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_122345_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_142633_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_143112_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_115804_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_143551_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_115112_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_144031_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_144510_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_114424_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_144942_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_113741_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_145415_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_145847_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_113053_V06",
+        "/Users/jenniferwest/gaia/tests/fixtures/nexrad_quadstate/KPAH20211210_112405_V06"
+      ],
+      "scan_count": 30,
+      "avg_bio_fraction": 0.122,
+      "avg_bio_gates": 1474.8,
+      "max_bio_fraction": 0.162,
+      "scans": [
+        {
+          "file": "KPAH20211210_112405_V06",
+          "scan_time": "2021-12-10T11:24:05+00:00",
+          "feature_gates": 952,
+          "background_gates": 16358,
+          "fraction": 0.0582,
+          "minutes_from_sunrise": -110.9
+        },
+        {
+          "file": "KPAH20211210_113053_V06",
+          "scan_time": "2021-12-10T11:30:53+00:00",
+          "feature_gates": 806,
+          "background_gates": 13761,
+          "fraction": 0.0586,
+          "minutes_from_sunrise": -104.1
+        },
+        {
+          "file": "KPAH20211210_113741_V06",
+          "scan_time": "2021-12-10T11:37:41+00:00",
+          "feature_gates": 913,
+          "background_gates": 13038,
+          "fraction": 0.07,
+          "minutes_from_sunrise": -97.3
+        },
+        {
+          "file": "KPAH20211210_114424_V06",
+          "scan_time": "2021-12-10T11:44:24+00:00",
+          "feature_gates": 1059,
+          "background_gates": 12069,
+          "fraction": 0.0877,
+          "minutes_from_sunrise": -90.6
+        },
+        {
+          "file": "KPAH20211210_115112_V06",
+          "scan_time": "2021-12-10T11:51:12+00:00",
+          "feature_gates": 1051,
+          "background_gates": 11693,
+          "fraction": 0.0899,
+          "minutes_from_sunrise": -83.8
+        },
+        {
+          "file": "KPAH20211210_115804_V06",
+          "scan_time": "2021-12-10T11:58:04+00:00",
+          "feature_gates": 1060,
+          "background_gates": 10754,
+          "fraction": 0.0986,
+          "minutes_from_sunrise": -76.9
+        },
+        {
+          "file": "KPAH20211210_122345_V06",
+          "scan_time": "2021-12-10T12:23:45+00:00",
+          "feature_gates": 1216,
+          "background_gates": 9100,
+          "fraction": 0.1336,
+          "minutes_from_sunrise": -51.2
+        },
+        {
+          "file": "KPAH20211210_122853_V06",
+          "scan_time": "2021-12-10T12:28:53+00:00",
+          "feature_gates": 993,
+          "background_gates": 7843,
+          "fraction": 0.1266,
+          "minutes_from_sunrise": -46.1
+        },
+        {
+          "file": "KPAH20211210_123332_V06",
+          "scan_time": "2021-12-10T12:33:32+00:00",
+          "feature_gates": 1110,
+          "background_gates": 8096,
+          "fraction": 0.1371,
+          "minutes_from_sunrise": -41.5
+        },
+        {
+          "file": "KPAH20211210_123840_V06",
+          "scan_time": "2021-12-10T12:38:40+00:00",
+          "feature_gates": 1318,
+          "background_gates": 8928,
+          "fraction": 0.1476,
+          "minutes_from_sunrise": -36.3
+        },
+        {
+          "file": "KPAH20211210_124334_V06",
+          "scan_time": "2021-12-10T12:43:34+00:00",
+          "feature_gates": 1299,
+          "background_gates": 9427,
+          "fraction": 0.1378,
+          "minutes_from_sunrise": -31.4
+        },
+        {
+          "file": "KPAH20211210_124821_V06",
+          "scan_time": "2021-12-10T12:48:21+00:00",
+          "feature_gates": 1475,
+          "background_gates": 10654,
+          "fraction": 0.1384,
+          "minutes_from_sunrise": -26.6
+        },
+        {
+          "file": "KPAH20211210_125308_V06",
+          "scan_time": "2021-12-10T12:53:08+00:00",
+          "feature_gates": 1622,
+          "background_gates": 12154,
+          "fraction": 0.1335,
+          "minutes_from_sunrise": -21.9
+        },
+        {
+          "file": "KPAH20211210_125755_V06",
+          "scan_time": "2021-12-10T12:57:55+00:00",
+          "feature_gates": 1693,
+          "background_gates": 13517,
+          "fraction": 0.1252,
+          "minutes_from_sunrise": -17.1
+        },
+        {
+          "file": "KPAH20211210_132646_V06",
+          "scan_time": "2021-12-10T13:26:46+00:00",
+          "feature_gates": 1213,
+          "background_gates": 11856,
+          "fraction": 0.1023,
+          "minutes_from_sunrise": 11.8
+        },
+        {
+          "file": "KPAH20211210_133139_V06",
+          "scan_time": "2021-12-10T13:31:39+00:00",
+          "feature_gates": 997,
+          "background_gates": 10493,
+          "fraction": 0.095,
+          "minutes_from_sunrise": 16.7
+        },
+        {
+          "file": "KPAH20211210_133633_V06",
+          "scan_time": "2021-12-10T13:36:33+00:00",
+          "feature_gates": 948,
+          "background_gates": 9119,
+          "fraction": 0.104,
+          "minutes_from_sunrise": 21.6
+        },
+        {
+          "file": "KPAH20211210_134112_V06",
+          "scan_time": "2021-12-10T13:41:12+00:00",
+          "feature_gates": 978,
+          "background_gates": 8522,
+          "fraction": 0.1148,
+          "minutes_from_sunrise": 26.2
+        },
+        {
+          "file": "KPAH20211210_134551_V06",
+          "scan_time": "2021-12-10T13:45:51+00:00",
+          "feature_gates": 926,
+          "background_gates": 7038,
+          "fraction": 0.1316,
+          "minutes_from_sunrise": 30.9
+        },
+        {
+          "file": "KPAH20211210_135030_V06",
+          "scan_time": "2021-12-10T13:50:30+00:00",
+          "feature_gates": 803,
+          "background_gates": 6204,
+          "fraction": 0.1294,
+          "minutes_from_sunrise": 35.5
+        },
+        {
+          "file": "KPAH20211210_135508_V06",
+          "scan_time": "2021-12-10T13:55:08+00:00",
+          "feature_gates": 813,
+          "background_gates": 6096,
+          "fraction": 0.1334,
+          "minutes_from_sunrise": 40.1
+        },
+        {
+          "file": "KPAH20211210_135936_V06",
+          "scan_time": "2021-12-10T13:59:36+00:00",
+          "feature_gates": 1057,
+          "background_gates": 6753,
+          "fraction": 0.1565,
+          "minutes_from_sunrise": 44.6
+        },
+        {
+          "file": "KPAH20211210_142633_V06",
+          "scan_time": "2021-12-10T14:26:33+00:00",
+          "feature_gates": 2287,
+          "background_gates": 14346,
+          "fraction": 0.1594,
+          "minutes_from_sunrise": 71.6
+        },
+        {
+          "file": "KPAH20211210_143112_V06",
+          "scan_time": "2021-12-10T14:31:12+00:00",
+          "feature_gates": 2424,
+          "background_gates": 15056,
+          "fraction": 0.161,
+          "minutes_from_sunrise": 76.2
+        },
+        {
+          "file": "KPAH20211210_143551_V06",
+          "scan_time": "2021-12-10T14:35:51+00:00",
+          "feature_gates": 2511,
+          "background_gates": 15496,
+          "fraction": 0.162,
+          "minutes_from_sunrise": 80.9
+        },
+        {
+          "file": "KPAH20211210_144031_V06",
+          "scan_time": "2021-12-10T14:40:31+00:00",
+          "feature_gates": 2536,
+          "background_gates": 16181,
+          "fraction": 0.1567,
+          "minutes_from_sunrise": 85.5
+        },
+        {
+          "file": "KPAH20211210_144510_V06",
+          "scan_time": "2021-12-10T14:45:10+00:00",
+          "feature_gates": 2488,
+          "background_gates": 17387,
+          "fraction": 0.1431,
+          "minutes_from_sunrise": 90.2
+        },
+        {
+          "file": "KPAH20211210_144942_V06",
+          "scan_time": "2021-12-10T14:49:42+00:00",
+          "feature_gates": 2482,
+          "background_gates": 18820,
+          "fraction": 0.1319,
+          "minutes_from_sunrise": 94.7
+        },
+        {
+          "file": "KPAH20211210_145415_V06",
+          "scan_time": "2021-12-10T14:54:15+00:00",
+          "feature_gates": 2558,
+          "background_gates": 21264,
+          "fraction": 0.1203,
+          "minutes_from_sunrise": 99.3
+        },
+        {
+          "file": "KPAH20211210_145847_V06",
+          "scan_time": "2021-12-10T14:58:47+00:00",
+          "feature_gates": 2657,
+          "background_gates": 22950,
+          "fraction": 0.1158,
+          "minutes_from_sunrise": 103.8
+        }
+      ]
+    },
+    "2021-12-14": {
+      "sunrise_utc_decimal": 13.265,
+      "paths": [
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_131637_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_130700_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_132614_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_125722_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_133551_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_124746_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_134528_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_123809_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_135505_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_122831_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_140442_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_121853_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_141419_V06",
+        "/Users/jenniferwest/gaia/data/bio_signal/nexrad_kpah_morning/KPAH20211214_120916_V06"
+      ],
+      "scan_count": 14,
+      "avg_bio_fraction": 0.1476,
+      "avg_bio_gates": 1287.7,
+      "max_bio_fraction": 0.1952,
+      "scans": [
+        {
+          "file": "KPAH20211214_120916_V06",
+          "scan_time": "2021-12-14T12:09:16+00:00",
+          "feature_gates": 527,
+          "background_gates": 4457,
+          "fraction": 0.1182,
+          "minutes_from_sunrise": -66.6
+        },
+        {
+          "file": "KPAH20211214_121853_V06",
+          "scan_time": "2021-12-14T12:18:53+00:00",
+          "feature_gates": 829,
+          "background_gates": 6481,
+          "fraction": 0.1279,
+          "minutes_from_sunrise": -57.0
+        },
+        {
+          "file": "KPAH20211214_122831_V06",
+          "scan_time": "2021-12-14T12:28:31+00:00",
+          "feature_gates": 803,
+          "background_gates": 5538,
+          "fraction": 0.145,
+          "minutes_from_sunrise": -47.4
+        },
+        {
+          "file": "KPAH20211214_123809_V06",
+          "scan_time": "2021-12-14T12:38:09+00:00",
+          "feature_gates": 965,
+          "background_gates": 5716,
+          "fraction": 0.1688,
+          "minutes_from_sunrise": -37.8
+        },
+        {
+          "file": "KPAH20211214_124746_V06",
+          "scan_time": "2021-12-14T12:47:46+00:00",
+          "feature_gates": 1830,
+          "background_gates": 9373,
+          "fraction": 0.1952,
+          "minutes_from_sunrise": -28.1
+        },
+        {
+          "file": "KPAH20211214_125722_V06",
+          "scan_time": "2021-12-14T12:57:22+00:00",
+          "feature_gates": 2551,
+          "background_gates": 15600,
+          "fraction": 0.1635,
+          "minutes_from_sunrise": -18.5
+        },
+        {
+          "file": "KPAH20211214_130700_V06",
+          "scan_time": "2021-12-14T13:07:00+00:00",
+          "feature_gates": 2538,
+          "background_gates": 16560,
+          "fraction": 0.1533,
+          "minutes_from_sunrise": -8.9
+        },
+        {
+          "file": "KPAH20211214_131637_V06",
+          "scan_time": "2021-12-14T13:16:37+00:00",
+          "feature_gates": 1721,
+          "background_gates": 11297,
+          "fraction": 0.1523,
+          "minutes_from_sunrise": 0.7
+        },
+        {
+          "file": "KPAH20211214_132614_V06",
+          "scan_time": "2021-12-14T13:26:14+00:00",
+          "feature_gates": 1175,
+          "background_gates": 8429,
+          "fraction": 0.1394,
+          "minutes_from_sunrise": 10.3
+        },
+        {
+          "file": "KPAH20211214_133551_V06",
+          "scan_time": "2021-12-14T13:35:51+00:00",
+          "feature_gates": 1048,
+          "background_gates": 7550,
+          "fraction": 0.1388,
+          "minutes_from_sunrise": 19.9
+        },
+        {
+          "file": "KPAH20211214_134528_V06",
+          "scan_time": "2021-12-14T13:45:28+00:00",
+          "feature_gates": 1385,
+          "background_gates": 8177,
+          "fraction": 0.1694,
+          "minutes_from_sunrise": 29.6
+        },
+        {
+          "file": "KPAH20211214_135505_V06",
+          "scan_time": "2021-12-14T13:55:05+00:00",
+          "feature_gates": 878,
+          "background_gates": 6812,
+          "fraction": 0.1289,
+          "minutes_from_sunrise": 39.2
+        },
+        {
+          "file": "KPAH20211214_140442_V06",
+          "scan_time": "2021-12-14T14:04:42+00:00",
+          "feature_gates": 782,
+          "background_gates": 6263,
+          "fraction": 0.1249,
+          "minutes_from_sunrise": 48.8
+        },
+        {
+          "file": "KPAH20211214_141419_V06",
+          "scan_time": "2021-12-14T14:14:19+00:00",
+          "feature_gates": 996,
+          "background_gates": 7054,
+          "fraction": 0.1412,
+          "minutes_from_sunrise": 58.4
+        }
+      ]
+    }
+  },
+  "quiet_mean_fraction": 0.1518,
+  "quiet_mean_gates": 1786.4,
+  "outbreak_fraction_vs_quiet_ratio": 0.804,
+  "outbreak_gates_vs_quiet_ratio": 0.826,
+  "roost_assessment": "normal_or_stronger"
+}

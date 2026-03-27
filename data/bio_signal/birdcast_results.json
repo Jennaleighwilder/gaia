@@ -1,0 +1,5755 @@
+{
+  "source": "BirdCast dashboard production API discovered from dashboard.birdcast.org",
+  "results": {
+    "2021-12-10": {
+      "date": "2021-12-10",
+      "label": "Quad-State eve (outbreak)",
+      "case": "Quad-State",
+      "region": "US-KY",
+      "has_data": false,
+      "peak_vid": null,
+      "mean_vid": null,
+      "peak_num_aloft": null,
+      "mean_num_aloft": null,
+      "cumulative_birds": 0,
+      "is_high": false,
+      "has_historical": false,
+      "hist_peak_vid": null,
+      "hist_mean_vid": null,
+      "hist_peak_aloft": null,
+      "hist_mean_aloft": null,
+      "vid_anomaly_pct": null,
+      "live_raw": {
+        "lastUpdated": null,
+        "regionCode": "US-KY",
+        "timezoneName": null,
+        "cumulativeBirds": 0,
+        "isHigh": false,
+        "season": null,
+        "nightSeries": null
+      },
+      "historical_raw": {
+        "generatedDt": "2021-12-10T00:00:00",
+        "regionCode": "US-KY",
+        "timezoneName": null,
+        "nightWeeklyAvgSeries": [],
+        "season": {
+          "currentSeasonSeries": [],
+          "annualAvgSeries": []
+        }
+      }
+    },
+    "2021-12-07": {
+      "date": "2021-12-07",
+      "label": "Dec 7 2021 (quiet)",
+      "case": "Quad-State",
+      "region": "US-KY",
+      "has_data": false,
+      "peak_vid": null,
+      "mean_vid": null,
+      "peak_num_aloft": null,
+      "mean_num_aloft": null,
+      "cumulative_birds": 0,
+      "is_high": false,
+      "has_historical": false,
+      "hist_peak_vid": null,
+      "hist_mean_vid": null,
+      "hist_peak_aloft": null,
+      "hist_mean_aloft": null,
+      "vid_anomaly_pct": null,
+      "live_raw": {
+        "lastUpdated": null,
+        "regionCode": "US-KY",
+        "timezoneName": null,
+        "cumulativeBirds": 0,
+        "isHigh": false,
+        "season": null,
+        "nightSeries": null
+      },
+      "historical_raw": {
+        "generatedDt": "2021-12-07T00:00:00",
+        "regionCode": "US-KY",
+        "timezoneName": null,
+        "nightWeeklyAvgSeries": [],
+        "season": {
+          "currentSeasonSeries": [],
+          "annualAvgSeries": []
+        }
+      }
+    },
+    "2021-12-14": {
+      "date": "2021-12-14",
+      "label": "Dec 14 2021 (quiet)",
+      "case": "Quad-State",
+      "region": "US-KY",
+      "has_data": false,
+      "peak_vid": null,
+      "mean_vid": null,
+      "peak_num_aloft": null,
+      "mean_num_aloft": null,
+      "cumulative_birds": 0,
+      "is_high": false,
+      "has_historical": false,
+      "hist_peak_vid": null,
+      "hist_mean_vid": null,
+      "hist_peak_aloft": null,
+      "hist_mean_aloft": null,
+      "vid_anomaly_pct": null,
+      "live_raw": {
+        "lastUpdated": null,
+        "regionCode": "US-KY",
+        "timezoneName": null,
+        "cumulativeBirds": 0,
+        "isHigh": false,
+        "season": null,
+        "nightSeries": null
+      },
+      "historical_raw": {
+        "generatedDt": "2021-12-14T00:00:00",
+        "regionCode": "US-KY",
+        "timezoneName": null,
+        "nightWeeklyAvgSeries": [],
+        "season": {
+          "currentSeasonSeries": [],
+          "annualAvgSeries": []
+        }
+      }
+    },
+    "2011-04-27": {
+      "date": "2011-04-27",
+      "label": "Super Outbreak eve",
+      "case": "Super Outbreak",
+      "region": "US-AL",
+      "has_data": false,
+      "peak_vid": null,
+      "mean_vid": null,
+      "peak_num_aloft": null,
+      "mean_num_aloft": null,
+      "cumulative_birds": 0,
+      "is_high": false,
+      "has_historical": false,
+      "hist_peak_vid": null,
+      "hist_mean_vid": null,
+      "hist_peak_aloft": null,
+      "hist_mean_aloft": null,
+      "vid_anomaly_pct": null,
+      "live_raw": {
+        "lastUpdated": null,
+        "regionCode": "US-AL",
+        "timezoneName": null,
+        "cumulativeBirds": 0,
+        "isHigh": false,
+        "season": null,
+        "nightSeries": null
+      },
+      "historical_raw": {
+        "generatedDt": "2011-04-27T00:00:00",
+        "regionCode": "US-AL",
+        "timezoneName": null,
+        "nightWeeklyAvgSeries": [],
+        "season": {
+          "currentSeasonSeries": [],
+          "annualAvgSeries": []
+        }
+      }
+    },
+    "2011-04-24": {
+      "date": "2011-04-24",
+      "label": "Apr 24 2011 (quiet)",
+      "case": "Super Outbreak",
+      "region": "US-AL",
+      "has_data": false,
+      "peak_vid": null,
+      "mean_vid": null,
+      "peak_num_aloft": null,
+      "mean_num_aloft": null,
+      "cumulative_birds": 0,
+      "is_high": false,
+      "has_historical": false,
+      "hist_peak_vid": null,
+      "hist_mean_vid": null,
+      "hist_peak_aloft": null,
+      "hist_mean_aloft": null,
+      "vid_anomaly_pct": null,
+      "live_raw": {
+        "lastUpdated": null,
+        "regionCode": "US-AL",
+        "timezoneName": null,
+        "cumulativeBirds": 0,
+        "isHigh": false,
+        "season": null,
+        "nightSeries": null
+      },
+      "historical_raw": {
+        "generatedDt": "2011-04-24T00:00:00",
+        "regionCode": "US-AL",
+        "timezoneName": null,
+        "nightWeeklyAvgSeries": [],
+        "season": {
+          "currentSeasonSeries": [],
+          "annualAvgSeries": []
+        }
+      }
+    },
+    "2011-04-30": {
+      "date": "2011-04-30",
+      "label": "Apr 30 2011 (quiet)",
+      "case": "Super Outbreak",
+      "region": "US-AL",
+      "has_data": false,
+      "peak_vid": null,
+      "mean_vid": null,
+      "peak_num_aloft": null,
+      "mean_num_aloft": null,
+      "cumulative_birds": 0,
+      "is_high": false,
+      "has_historical": false,
+      "hist_peak_vid": null,
+      "hist_mean_vid": null,
+      "hist_peak_aloft": null,
+      "hist_mean_aloft": null,
+      "vid_anomaly_pct": null,
+      "live_raw": {
+        "lastUpdated": null,
+        "regionCode": "US-AL",
+        "timezoneName": null,
+        "cumulativeBirds": 0,
+        "isHigh": false,
+        "season": null,
+        "nightSeries": null
+      },
+      "historical_raw": {
+        "generatedDt": "2011-04-30T00:00:00",
+        "regionCode": "US-AL",
+        "timezoneName": null,
+        "nightWeeklyAvgSeries": [],
+        "season": {
+          "currentSeasonSeries": [],
+          "annualAvgSeries": []
+        }
+      }
+    },
+    "2023-03-24": {
+      "date": "2023-03-24",
+      "label": "Rolling Fork MS eve",
+      "case": "Rolling Fork",
+      "region": "US-MS",
+      "has_data": true,
+      "peak_vid": 33.54,
+      "mean_vid": 17.336,
+      "peak_num_aloft": 1601670,
+      "mean_num_aloft": 828071.5,
+      "cumulative_birds": 953986,
+      "is_high": false,
+      "timezone": "America/Chicago",
+      "last_updated": "2023-03-25T11:50:00Z",
+      "has_historical": true,
+      "hist_peak_vid": 47.993,
+      "hist_mean_vid": 25.663,
+      "hist_peak_aloft": 2291946,
+      "hist_mean_aloft": 1225860.7,
+      "vid_anomaly_pct": -32.4,
+      "live_raw": {
+        "lastUpdated": "2023-03-25T11:50:00Z",
+        "regionCode": "US-MS",
+        "timezoneName": "America/Chicago",
+        "cumulativeBirds": 953986,
+        "isHigh": false,
+        "season": {
+          "code": "SP",
+          "startDate": "20230301",
+          "endDate": "20230615"
+        },
+        "nightSeries": [
+          {
+            "localTime": "2023-03-24T19:20:00",
+            "utc": "2023-03-25T00:20:00Z",
+            "numAloft": 934632,
+            "meanHeight": 1663.9764312,
+            "maxHeight": 3916.174666,
+            "avgDirection": 357.9,
+            "avgSpeed": 36.1936892,
+            "vid": 19.5544245,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T19:30:00",
+            "utc": "2023-03-25T00:30:00Z",
+            "numAloft": 586660,
+            "meanHeight": 1317.8478112,
+            "maxHeight": 3799.048678,
+            "avgDirection": 358.22,
+            "avgSpeed": 33.0619732,
+            "vid": 12.2765526,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T19:40:00",
+            "utc": "2023-03-25T00:40:00Z",
+            "numAloft": 488260,
+            "meanHeight": 896.0302124,
+            "maxHeight": 3145.833434,
+            "avgDirection": 359.5,
+            "avgSpeed": 29.3710222,
+            "vid": 10.2304605,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T19:50:00",
+            "utc": "2023-03-25T00:50:00Z",
+            "numAloft": 875008,
+            "meanHeight": 901.3451732,
+            "maxHeight": 2840.3544216,
+            "avgDirection": 0.77,
+            "avgSpeed": 30.4894922,
+            "vid": 18.3112293,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T20:00:00",
+            "utc": "2023-03-25T01:00:00Z",
+            "numAloft": 1486103,
+            "meanHeight": 1027.8215552,
+            "maxHeight": 2426.18118,
+            "avgDirection": 0.03,
+            "avgSpeed": 32.1895666,
+            "vid": 31.1057799,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T20:10:00",
+            "utc": "2023-03-25T01:10:00Z",
+            "numAloft": 1561056,
+            "meanHeight": 1126.4436056,
+            "maxHeight": 2740.0263344,
+            "avgDirection": 2.74,
+            "avgSpeed": 34.0909656,
+            "vid": 32.6856738,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T20:20:00",
+            "utc": "2023-03-25T01:20:00Z",
+            "numAloft": 1482966,
+            "meanHeight": 1241.961982,
+            "maxHeight": 2878.5433992,
+            "avgDirection": 5.25,
+            "avgSpeed": 33.5093612,
+            "vid": 31.0539801,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T20:30:00",
+            "utc": "2023-03-25T01:30:00Z",
+            "numAloft": 1305657,
+            "meanHeight": 1480.7415172,
+            "maxHeight": 3078.6090224,
+            "avgDirection": 8.44,
+            "avgSpeed": 34.784417,
+            "vid": 27.3243945,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T20:40:00",
+            "utc": "2023-03-25T01:40:00Z",
+            "numAloft": 1186019,
+            "meanHeight": 1584.6785284,
+            "maxHeight": 4605.47915,
+            "avgDirection": 9.06,
+            "avgSpeed": 34.0909656,
+            "vid": 24.8380041,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T20:50:00",
+            "utc": "2023-03-25T01:50:00Z",
+            "numAloft": 1084776,
+            "meanHeight": 1516.6339068,
+            "maxHeight": 3376.6077196,
+            "avgDirection": 12.08,
+            "avgSpeed": 34.7396782,
+            "vid": 22.7142123,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T21:00:00",
+            "utc": "2023-03-25T02:00:00Z",
+            "numAloft": 953535,
+            "meanHeight": 1512.5656652,
+            "maxHeight": 3239.4357992,
+            "avgDirection": 15.19,
+            "avgSpeed": 37.0660958,
+            "vid": 19.9688229,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T21:10:00",
+            "utc": "2023-03-25T02:10:00Z",
+            "numAloft": 915285,
+            "meanHeight": 1500.2297068,
+            "maxHeight": 2584.4489016,
+            "avgDirection": 24.14,
+            "avgSpeed": 35.2541744,
+            "vid": 19.165926,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T21:20:00",
+            "utc": "2023-03-25T02:20:00Z",
+            "numAloft": 955152,
+            "meanHeight": 1478.3136956,
+            "maxHeight": 2583.3006076,
+            "avgDirection": 25.17,
+            "avgSpeed": 35.343652,
+            "vid": 19.9947228,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T21:30:00",
+            "utc": "2023-03-25T02:30:00Z",
+            "numAloft": 746985,
+            "meanHeight": 1586.5157988,
+            "maxHeight": 2774.9016636,
+            "avgDirection": 24.46,
+            "avgSpeed": 35.3883908,
+            "vid": 15.6435396,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T21:40:00",
+            "utc": "2023-03-25T02:40:00Z",
+            "numAloft": 884493,
+            "meanHeight": 1410.925242,
+            "maxHeight": 2507.053886,
+            "avgDirection": 23.64,
+            "avgSpeed": 31.7869174,
+            "vid": 18.5184285,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T21:50:00",
+            "utc": "2023-03-25T02:50:00Z",
+            "numAloft": 786294,
+            "meanHeight": 1452.8215688,
+            "maxHeight": 2974.4751608,
+            "avgDirection": 23.88,
+            "avgSpeed": 31.8987644,
+            "vid": 16.4723364,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T22:00:00",
+            "utc": "2023-03-25T03:00:00Z",
+            "numAloft": 680541,
+            "meanHeight": 1386.2533252,
+            "maxHeight": 2703.9370944,
+            "avgDirection": 24.66,
+            "avgSpeed": 32.9053874,
+            "vid": 14.244945,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T22:10:00",
+            "utc": "2023-03-25T03:10:00Z",
+            "numAloft": 761516,
+            "meanHeight": 1286.9751068,
+            "maxHeight": 2394.685116,
+            "avgDirection": 27.35,
+            "avgSpeed": 34.001488,
+            "vid": 15.9543384,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T22:20:00",
+            "utc": "2023-03-25T03:20:00Z",
+            "numAloft": 677959,
+            "meanHeight": 1312.5656588,
+            "maxHeight": 2510.5971932,
+            "avgDirection": 31.46,
+            "avgSpeed": 32.0329808,
+            "vid": 14.1931452,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T22:30:00",
+            "utc": "2023-03-25T03:30:00Z",
+            "numAloft": 931148,
+            "meanHeight": 1362.696894,
+            "maxHeight": 2370.078816,
+            "avgDirection": 32.69,
+            "avgSpeed": 33.9343798,
+            "vid": 19.5026247,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T22:40:00",
+            "utc": "2023-03-25T03:40:00Z",
+            "numAloft": 921236,
+            "meanHeight": 1210.6627684,
+            "maxHeight": 2527.5919444,
+            "avgDirection": 34.74,
+            "avgSpeed": 33.5988388,
+            "vid": 19.2954255,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T22:50:00",
+            "utc": "2023-03-25T03:50:00Z",
+            "numAloft": 674164,
+            "meanHeight": 1149.6391444,
+            "maxHeight": 2337.1719908,
+            "avgDirection": 35.22,
+            "avgSpeed": 32.1895666,
+            "vid": 14.1154455,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T23:00:00",
+            "utc": "2023-03-25T04:00:00Z",
+            "numAloft": 618565,
+            "meanHeight": 1253.116838,
+            "maxHeight": 4029.5933048,
+            "avgDirection": 37.37,
+            "avgSpeed": 30.6237086,
+            "vid": 12.94995,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T23:10:00",
+            "utc": "2023-03-25T04:10:00Z",
+            "numAloft": 669975,
+            "meanHeight": 1443.405558,
+            "maxHeight": 4689.9935884,
+            "avgDirection": 39.91,
+            "avgSpeed": 31.4737458,
+            "vid": 14.0377458,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T23:20:00",
+            "utc": "2023-03-25T04:20:00Z",
+            "numAloft": 741442,
+            "meanHeight": 1314.4029292,
+            "maxHeight": 4569.1930596,
+            "avgDirection": 42.51,
+            "avgSpeed": 33.7106858,
+            "vid": 15.5140401,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T23:30:00",
+            "utc": "2023-03-25T04:30:00Z",
+            "numAloft": 624035,
+            "meanHeight": 1245.9974152,
+            "maxHeight": 3890.6169224,
+            "avgDirection": 40.72,
+            "avgSpeed": 30.3552758,
+            "vid": 13.0535496,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T23:40:00",
+            "utc": "2023-03-25T04:40:00Z",
+            "numAloft": 645524,
+            "meanHeight": 1569.1273468,
+            "maxHeight": 2727.1654416,
+            "avgDirection": 40.8,
+            "avgSpeed": 29.5723468,
+            "vid": 13.5197478,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-24T23:50:00",
+            "utc": "2023-03-25T04:50:00Z",
+            "numAloft": 660044,
+            "meanHeight": 1152.8543676,
+            "maxHeight": 2000.4593816,
+            "avgDirection": 41.7,
+            "avgSpeed": 30.2210594,
+            "vid": 13.8305466,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T00:00:00",
+            "utc": "2023-03-25T05:00:00Z",
+            "numAloft": 637209,
+            "meanHeight": 1113.8779884,
+            "maxHeight": 2240.5840612,
+            "avgDirection": 42.96,
+            "avgSpeed": 29.8407796,
+            "vid": 13.3384485,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T00:10:00",
+            "utc": "2023-03-25T05:10:00Z",
+            "numAloft": 606615,
+            "meanHeight": 983.2021312,
+            "maxHeight": 3229.822938,
+            "avgDirection": 44.04,
+            "avgSpeed": 29.2368058,
+            "vid": 12.690951,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T00:20:00",
+            "utc": "2023-03-25T05:20:00Z",
+            "numAloft": 662342,
+            "meanHeight": 1208.8911148,
+            "maxHeight": 1750.32814,
+            "avgDirection": 44.93,
+            "avgSpeed": 29.0354812,
+            "vid": 13.8564465,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T00:30:00",
+            "utc": "2023-03-25T05:30:00Z",
+            "numAloft": 582421,
+            "meanHeight": 1039.862238,
+            "maxHeight": 1948.326834,
+            "avgDirection": 45.81,
+            "avgSpeed": 27.626209,
+            "vid": 12.1988529,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T00:40:00",
+            "utc": "2023-03-25T05:40:00Z",
+            "numAloft": 536952,
+            "meanHeight": 1092.2572528,
+            "maxHeight": 1990.1247356,
+            "avgDirection": 46.67,
+            "avgSpeed": 27.2459292,
+            "vid": 11.2405566,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T00:50:00",
+            "utc": "2023-03-25T05:50:00Z",
+            "numAloft": 452924,
+            "meanHeight": 1085.2362552,
+            "maxHeight": 1844.2585892,
+            "avgDirection": 46.94,
+            "avgSpeed": 28.0064888,
+            "vid": 9.4793634,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T01:00:00",
+            "utc": "2023-03-25T06:00:00Z",
+            "numAloft": 387412,
+            "meanHeight": 1266.3058148,
+            "maxHeight": 1994.7835284,
+            "avgDirection": 53.13,
+            "avgSpeed": 28.2078134,
+            "vid": 8.1066687,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T01:10:00",
+            "utc": "2023-03-25T06:10:00Z",
+            "numAloft": 558361,
+            "meanHeight": 1063.0905852,
+            "maxHeight": 1621.391128,
+            "avgDirection": 56.18,
+            "avgSpeed": 29.3933916,
+            "vid": 11.6808549,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T01:20:00",
+            "utc": "2023-03-25T06:20:00Z",
+            "numAloft": 570354,
+            "meanHeight": 1243.3399348,
+            "maxHeight": 2319.2914128,
+            "avgDirection": 56.15,
+            "avgSpeed": 34.7620476,
+            "vid": 11.9398539,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T01:30:00",
+            "utc": "2023-03-25T06:30:00Z",
+            "numAloft": 670646,
+            "meanHeight": 1435.7612008,
+            "maxHeight": 2382.1194988,
+            "avgDirection": 58.22,
+            "avgSpeed": 33.330406,
+            "vid": 14.0377458,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T01:40:00",
+            "utc": "2023-03-25T06:40:00Z",
+            "numAloft": 763196,
+            "meanHeight": 1281.003978,
+            "maxHeight": 2200.7546636,
+            "avgDirection": 57.27,
+            "avgSpeed": 31.4737458,
+            "vid": 15.9802383,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T01:50:00",
+            "utc": "2023-03-25T06:50:00Z",
+            "numAloft": 857955,
+            "meanHeight": 1232.283504,
+            "maxHeight": 2246.2599144,
+            "avgDirection": 56.7,
+            "avgSpeed": 30.981619,
+            "vid": 17.9486307,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T02:00:00",
+            "utc": "2023-03-25T07:00:00Z",
+            "numAloft": 1060223,
+            "meanHeight": 1119.2913744,
+            "maxHeight": 2240.9449536,
+            "avgDirection": 61.98,
+            "avgSpeed": 30.086843,
+            "vid": 22.1962143,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T02:10:00",
+            "utc": "2023-03-25T07:10:00Z",
+            "numAloft": 1092884,
+            "meanHeight": 1052.4278552,
+            "maxHeight": 1999.7704052,
+            "avgDirection": 63.6,
+            "avgSpeed": 28.968373,
+            "vid": 22.8696117,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T02:20:00",
+            "utc": "2023-03-25T07:20:00Z",
+            "numAloft": 1166806,
+            "meanHeight": 952.9855948,
+            "maxHeight": 1830.1837856,
+            "avgDirection": 64.42,
+            "avgSpeed": 27.4919926,
+            "vid": 24.4236057,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T02:30:00",
+            "utc": "2023-03-25T07:30:00Z",
+            "numAloft": 1248524,
+            "meanHeight": 874.3110516,
+            "maxHeight": 1694.1273508,
+            "avgDirection": 66.72,
+            "avgSpeed": 27.2682986,
+            "vid": 26.1329991,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T02:40:00",
+            "utc": "2023-03-25T07:40:00Z",
+            "numAloft": 1601670,
+            "meanHeight": 789.6325712,
+            "maxHeight": 1513.4843004,
+            "avgDirection": 67.71,
+            "avgSpeed": 25.0313586,
+            "vid": 33.5403705,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T02:50:00",
+            "utc": "2023-03-25T07:50:00Z",
+            "numAloft": 1235490,
+            "meanHeight": 901.4435984,
+            "maxHeight": 1817.7165936,
+            "avgDirection": 67.28,
+            "avgSpeed": 23.2194372,
+            "vid": 25.8740001,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T03:00:00",
+            "utc": "2023-03-25T08:00:00Z",
+            "numAloft": 1176388,
+            "meanHeight": 884.022338,
+            "maxHeight": 2195.4397028,
+            "avgDirection": 65.26,
+            "avgSpeed": 21.2061912,
+            "vid": 24.6308049,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T03:10:00",
+            "utc": "2023-03-25T08:10:00Z",
+            "numAloft": 1122496,
+            "meanHeight": 901.738874,
+            "maxHeight": 2142.4541368,
+            "avgDirection": 66.06,
+            "avgSpeed": 20.9601278,
+            "vid": 23.4912093,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T03:20:00",
+            "utc": "2023-03-25T08:20:00Z",
+            "numAloft": 1171441,
+            "meanHeight": 930.8071164,
+            "maxHeight": 1887.6969108,
+            "avgDirection": 66.34,
+            "avgSpeed": 20.9601278,
+            "vid": 24.5272053,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T03:30:00",
+            "utc": "2023-03-25T08:30:00Z",
+            "numAloft": 1131670,
+            "meanHeight": 782.0538308,
+            "maxHeight": 1799.6063568,
+            "avgDirection": 63.78,
+            "avgSpeed": 19.7074414,
+            "vid": 23.6984085,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T03:40:00",
+            "utc": "2023-03-25T08:40:00Z",
+            "numAloft": 1116076,
+            "meanHeight": 843.832048,
+            "maxHeight": 2119.8163408,
+            "avgDirection": 62.26,
+            "avgSpeed": 20.1771988,
+            "vid": 23.3617098,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T03:50:00",
+            "utc": "2023-03-25T08:50:00Z",
+            "numAloft": 1097642,
+            "meanHeight": 829.9869032,
+            "maxHeight": 1719.816328,
+            "avgDirection": 60.1,
+            "avgSpeed": 20.1995682,
+            "vid": 22.9732113,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T04:00:00",
+            "utc": "2023-03-25T09:00:00Z",
+            "numAloft": 1056915,
+            "meanHeight": 863.9764056,
+            "maxHeight": 1851.5092456,
+            "avgDirection": 57.64,
+            "avgSpeed": 20.356154,
+            "vid": 22.1185146,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T04:10:00",
+            "utc": "2023-03-25T09:10:00Z",
+            "numAloft": 997035,
+            "meanHeight": 824.2126248,
+            "maxHeight": 1604.7900776,
+            "avgDirection": 57.64,
+            "avgSpeed": 20.1771988,
+            "vid": 20.8753194,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T04:20:00",
+            "utc": "2023-03-25T09:20:00Z",
+            "numAloft": 910360,
+            "meanHeight": 790.4527812,
+            "maxHeight": 1662.8281372,
+            "avgDirection": 57.24,
+            "avgSpeed": 20.803542,
+            "vid": 19.0623264,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T04:30:00",
+            "utc": "2023-03-25T09:30:00Z",
+            "numAloft": 867439,
+            "meanHeight": 905.6102652,
+            "maxHeight": 1868.7336556,
+            "avgDirection": 55.06,
+            "avgSpeed": 20.7364338,
+            "vid": 18.1558299,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T04:40:00",
+            "utc": "2023-03-25T09:40:00Z",
+            "numAloft": 855834,
+            "meanHeight": 837.598452,
+            "maxHeight": 1923.4580668,
+            "avgDirection": 54.86,
+            "avgSpeed": 21.1838218,
+            "vid": 17.9227308,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T04:50:00",
+            "utc": "2023-03-25T09:50:00Z",
+            "numAloft": 781991,
+            "meanHeight": 832.2506828,
+            "maxHeight": 1479.7900736,
+            "avgDirection": 54.87,
+            "avgSpeed": 21.9443814,
+            "vid": 16.3687368,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T05:00:00",
+            "utc": "2023-03-25T10:00:00Z",
+            "numAloft": 723102,
+            "meanHeight": 832.8084256,
+            "maxHeight": 1521.7520172,
+            "avgDirection": 52.84,
+            "avgSpeed": 22.6154634,
+            "vid": 15.1255416,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T05:10:00",
+            "utc": "2023-03-25T10:10:00Z",
+            "numAloft": 708186,
+            "meanHeight": 792.4212852,
+            "maxHeight": 1439.2716996,
+            "avgDirection": 51.8,
+            "avgSpeed": 22.481247,
+            "vid": 14.8147428,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T05:20:00",
+            "utc": "2023-03-25T10:20:00Z",
+            "numAloft": 672604,
+            "meanHeight": 883.0052776,
+            "maxHeight": 1634.842572,
+            "avgDirection": 49.22,
+            "avgSpeed": 21.362777,
+            "vid": 14.0895456,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T05:30:00",
+            "utc": "2023-03-25T10:30:00Z",
+            "numAloft": 651381,
+            "meanHeight": 879.921288,
+            "maxHeight": 1754.0354892,
+            "avgDirection": 50.01,
+            "avgSpeed": 21.2285606,
+            "vid": 13.6492473,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T05:40:00",
+            "utc": "2023-03-25T10:40:00Z",
+            "numAloft": 618065,
+            "meanHeight": 877.5262748,
+            "maxHeight": 1794.2585876,
+            "avgDirection": 48.72,
+            "avgSpeed": 21.0496054,
+            "vid": 12.94995,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T05:50:00",
+            "utc": "2023-03-25T10:50:00Z",
+            "numAloft": 571769,
+            "meanHeight": 883.8911044,
+            "maxHeight": 1872.5722384,
+            "avgDirection": 48.02,
+            "avgSpeed": 21.2956688,
+            "vid": 11.9657538,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T06:00:00",
+            "utc": "2023-03-25T11:00:00Z",
+            "numAloft": 457251,
+            "meanHeight": 937.1391376,
+            "maxHeight": 1842.027618,
+            "avgDirection": 50.94,
+            "avgSpeed": 23.376023,
+            "vid": 9.582963,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T06:10:00",
+            "utc": "2023-03-25T11:10:00Z",
+            "numAloft": 469132,
+            "meanHeight": 937.5656468,
+            "maxHeight": 1669.9803684,
+            "avgDirection": 51.96,
+            "avgSpeed": 23.5773476,
+            "vid": 9.8160621,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T06:20:00",
+            "utc": "2023-03-25T11:20:00Z",
+            "numAloft": 294269,
+            "meanHeight": 1084.0551528,
+            "maxHeight": 2234.3176568,
+            "avgDirection": 56.32,
+            "avgSpeed": 24.0918438,
+            "vid": 6.1641762,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T06:30:00",
+            "utc": "2023-03-25T11:30:00Z",
+            "numAloft": 172057,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.6000861,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T06:40:00",
+            "utc": "2023-03-25T11:40:00Z",
+            "numAloft": 256586,
+            "meanHeight": 1141.8635536,
+            "maxHeight": 1689.140474,
+            "avgDirection": 62.14,
+            "avgSpeed": 22.1680754,
+            "vid": 5.3612793,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-25T06:50:00",
+            "utc": "2023-03-25T11:50:00Z",
+            "numAloft": 554299,
+            "meanHeight": 1047.8346792,
+            "maxHeight": 1905.1181712,
+            "avgDirection": 58.49,
+            "avgSpeed": 21.698318,
+            "vid": 11.6031552,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          }
+        ]
+      },
+      "historical_raw": {
+        "generatedDt": "2023-03-24T00:00:00",
+        "regionCode": "US-MS",
+        "timezoneName": "America/Chicago",
+        "nightWeeklyAvgSeries": [
+          {
+            "dateTime": "2023-03-25T00:20:00Z",
+            "numAloft": 1075096,
+            "meanHeight": 999.9344152,
+            "maxHeight": 1721.948874,
+            "avgDirection": 243.13,
+            "avgSpeed": 14.204569,
+            "avgSpeedLevel": 1,
+            "vid": 22.5070131,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T00:30:00Z",
+            "numAloft": 847318,
+            "meanHeight": 820.2428084,
+            "maxHeight": 1520.997424,
+            "avgDirection": 239.03,
+            "avgSpeed": 15.6138412,
+            "avgSpeedLevel": 1,
+            "vid": 17.7414315,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T00:40:00Z",
+            "numAloft": 850544,
+            "meanHeight": 902.231,
+            "maxHeight": 1866.962002,
+            "avgDirection": 193.09,
+            "avgSpeed": 16.665203,
+            "avgSpeedLevel": 1,
+            "vid": 17.7932313,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T00:50:00Z",
+            "numAloft": 866960,
+            "meanHeight": 907.2178768,
+            "maxHeight": 1880.2822124,
+            "avgDirection": 192.8,
+            "avgSpeed": 16.553356,
+            "avgSpeedLevel": 1,
+            "vid": 18.1558299,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T01:00:00Z",
+            "numAloft": 1399274,
+            "meanHeight": 1071.9160448,
+            "maxHeight": 2142.1916696,
+            "avgDirection": 183.51,
+            "avgSpeed": 16.4862478,
+            "avgSpeedLevel": 1,
+            "vid": 29.2927869,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T01:10:00Z",
+            "numAloft": 2140732,
+            "meanHeight": 1215.8136872,
+            "maxHeight": 2243.0446912,
+            "avgDirection": 171.31,
+            "avgSpeed": 18.1863222,
+            "avgSpeedLevel": 1,
+            "vid": 44.806827,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T01:20:00Z",
+            "numAloft": 2244763,
+            "meanHeight": 1221.5879656,
+            "maxHeight": 2226.8045332,
+            "avgDirection": 167.89,
+            "avgSpeed": 18.8126654,
+            "avgSpeedLevel": 1,
+            "vid": 46.9824186,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T01:30:00Z",
+            "numAloft": 2291946,
+            "meanHeight": 1295.3084404,
+            "maxHeight": 2459.1208136,
+            "avgDirection": 163.52,
+            "avgSpeed": 17.8731506,
+            "avgSpeedLevel": 1,
+            "vid": 47.9925147,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T01:40:00Z",
+            "numAloft": 2170037,
+            "meanHeight": 1314.468546,
+            "maxHeight": 2580.7415524,
+            "avgDirection": 152.12,
+            "avgSpeed": 20.13246,
+            "avgSpeedLevel": 2,
+            "vid": 45.4284246,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T01:50:00Z",
+            "numAloft": 2162299,
+            "meanHeight": 1314.8622468,
+            "maxHeight": 2584.7769856,
+            "avgDirection": 146.66,
+            "avgSpeed": 20.4903704,
+            "avgSpeedLevel": 2,
+            "vid": 45.2730252,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T02:00:00Z",
+            "numAloft": 2059244,
+            "meanHeight": 1335.5315388,
+            "maxHeight": 2674.212684,
+            "avgDirection": 140.32,
+            "avgSpeed": 21.3180382,
+            "avgSpeedLevel": 2,
+            "vid": 43.0974336,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T02:10:00Z",
+            "numAloft": 2017854,
+            "meanHeight": 1345.308442,
+            "maxHeight": 2727.9528432,
+            "avgDirection": 126.95,
+            "avgSpeed": 21.698318,
+            "avgSpeedLevel": 2,
+            "vid": 42.2427369,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T02:20:00Z",
+            "numAloft": 2010820,
+            "meanHeight": 1347.933114,
+            "maxHeight": 2734.3176728,
+            "avgDirection": 122.29,
+            "avgSpeed": 22.1233366,
+            "avgSpeedLevel": 2,
+            "vid": 42.0873375,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T02:30:00Z",
+            "numAloft": 2013370,
+            "meanHeight": 1375.9514876,
+            "maxHeight": 2796.8176748,
+            "avgDirection": 124.13,
+            "avgSpeed": 22.8615268,
+            "avgSpeedLevel": 2,
+            "vid": 42.1391373,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T02:40:00Z",
+            "numAloft": 1973415,
+            "meanHeight": 1419.127342,
+            "maxHeight": 2916.1418256,
+            "avgDirection": 109.59,
+            "avgSpeed": 24.5392318,
+            "avgSpeedLevel": 2,
+            "vid": 41.3103405,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T02:50:00Z",
+            "numAloft": 1970506,
+            "meanHeight": 1420.60372,
+            "maxHeight": 2921.095894,
+            "avgDirection": 108.78,
+            "avgSpeed": 24.60634,
+            "avgSpeedLevel": 2,
+            "vid": 41.2585407,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T03:00:00Z",
+            "numAloft": 1935696,
+            "meanHeight": 1462.0735376,
+            "maxHeight": 2995.2756864,
+            "avgDirection": 108.56,
+            "avgSpeed": 26.1050898,
+            "avgSpeedLevel": 2,
+            "vid": 40.5333435,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T03:10:00Z",
+            "numAloft": 1962573,
+            "meanHeight": 1521.2270828,
+            "maxHeight": 3087.8609912,
+            "avgDirection": 104,
+            "avgSpeed": 25.5905936,
+            "avgSpeedLevel": 2,
+            "vid": 41.0772414,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T03:20:00Z",
+            "numAloft": 1970520,
+            "meanHeight": 1529.7900752,
+            "maxHeight": 3106.2665036,
+            "avgDirection": 103.8,
+            "avgSpeed": 25.7471794,
+            "avgSpeedLevel": 2,
+            "vid": 41.2585407,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T03:30:00Z",
+            "numAloft": 1956335,
+            "meanHeight": 1562.2375828,
+            "maxHeight": 3182.3819916,
+            "avgDirection": 90.61,
+            "avgSpeed": 26.4406308,
+            "avgSpeedLevel": 2,
+            "vid": 40.9477419,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T03:40:00Z",
+            "numAloft": 1943520,
+            "meanHeight": 1624.7375848,
+            "maxHeight": 3287.9266144,
+            "avgDirection": 86.49,
+            "avgSpeed": 26.4853696,
+            "avgSpeedLevel": 2,
+            "vid": 40.6887429,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T03:50:00Z",
+            "numAloft": 1949000,
+            "meanHeight": 1624.9672436,
+            "maxHeight": 3285.9581104,
+            "avgDirection": 85.75,
+            "avgSpeed": 26.4406308,
+            "avgSpeedLevel": 2,
+            "vid": 40.7923425,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T04:00:00Z",
+            "numAloft": 1884948,
+            "meanHeight": 1666.8963788,
+            "maxHeight": 3368.3071944,
+            "avgDirection": 95.22,
+            "avgSpeed": 25.5905936,
+            "avgSpeedLevel": 2,
+            "vid": 39.4714476,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T04:10:00Z",
+            "numAloft": 1825168,
+            "meanHeight": 1679.5604212,
+            "maxHeight": 3395.7022084,
+            "avgDirection": 89.49,
+            "avgSpeed": 27.066974,
+            "avgSpeedLevel": 2,
+            "vid": 38.2023525,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T04:20:00Z",
+            "numAloft": 1835156,
+            "meanHeight": 1678.313702,
+            "maxHeight": 3395.1444656,
+            "avgDirection": 89.27,
+            "avgSpeed": 27.2459292,
+            "avgSpeedLevel": 2,
+            "vid": 38.4095517,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T04:30:00Z",
+            "numAloft": 1809763,
+            "meanHeight": 1693.73365,
+            "maxHeight": 3395.4725496,
+            "avgDirection": 76.78,
+            "avgSpeed": 27.7604254,
+            "avgSpeedLevel": 2,
+            "vid": 37.8915537,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T04:40:00Z",
+            "numAloft": 1758097,
+            "meanHeight": 1673.0971664,
+            "maxHeight": 3394.521106,
+            "avgDirection": 81.37,
+            "avgSpeed": 26.9998658,
+            "avgSpeedLevel": 2,
+            "vid": 36.8037579,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T04:50:00Z",
+            "numAloft": 1737708,
+            "meanHeight": 1675.196904,
+            "maxHeight": 3408.8255684,
+            "avgDirection": 82.24,
+            "avgSpeed": 26.9103882,
+            "avgSpeedLevel": 2,
+            "vid": 36.3893595,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T05:00:00Z",
+            "numAloft": 1684350,
+            "meanHeight": 1665.4856176,
+            "maxHeight": 3402.395122,
+            "avgDirection": 86.05,
+            "avgSpeed": 25.9037652,
+            "avgSpeedLevel": 2,
+            "vid": 35.2497639,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T05:10:00Z",
+            "numAloft": 1621559,
+            "meanHeight": 1650.6234124,
+            "maxHeight": 3362.7953832,
+            "avgDirection": 91.54,
+            "avgSpeed": 26.4630002,
+            "avgSpeedLevel": 2,
+            "vid": 33.9547689,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T05:20:00Z",
+            "numAloft": 1601442,
+            "meanHeight": 1637.631286,
+            "maxHeight": 3341.8308156,
+            "avgDirection": 92.61,
+            "avgSpeed": 26.5524778,
+            "avgSpeedLevel": 2,
+            "vid": 33.5144706,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T05:30:00Z",
+            "numAloft": 1541701,
+            "meanHeight": 1632.2835168,
+            "maxHeight": 3361.3190052,
+            "avgDirection": 76.61,
+            "avgSpeed": 26.4406308,
+            "avgSpeedLevel": 2,
+            "vid": 32.2712754,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T05:40:00Z",
+            "numAloft": 1479798,
+            "meanHeight": 1588.9436204,
+            "maxHeight": 3290.9121788,
+            "avgDirection": 71.99,
+            "avgSpeed": 25.6800712,
+            "avgSpeedLevel": 2,
+            "vid": 30.9762804,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T05:50:00Z",
+            "numAloft": 1474208,
+            "meanHeight": 1587.0407332,
+            "maxHeight": 3289.5998428,
+            "avgDirection": 74.02,
+            "avgSpeed": 25.6800712,
+            "avgSpeedLevel": 2,
+            "vid": 30.8726808,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T06:00:00Z",
+            "numAloft": 1405339,
+            "meanHeight": 1541.17459,
+            "maxHeight": 3227.0670324,
+            "avgDirection": 79.06,
+            "avgSpeed": 25.2997914,
+            "avgSpeedLevel": 2,
+            "vid": 29.4222864,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T06:10:00Z",
+            "numAloft": 1337221,
+            "meanHeight": 1491.469864,
+            "maxHeight": 3135.990914,
+            "avgDirection": 86.37,
+            "avgSpeed": 25.1208362,
+            "avgSpeedLevel": 2,
+            "vid": 27.9977919,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T06:20:00Z",
+            "numAloft": 1325048,
+            "meanHeight": 1487.04073,
+            "maxHeight": 3127.952856,
+            "avgDirection": 82.65,
+            "avgSpeed": 25.501116,
+            "avgSpeedLevel": 2,
+            "vid": 27.7387929,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T06:30:00Z",
+            "numAloft": 1268736,
+            "meanHeight": 1429.0354788,
+            "maxHeight": 3019.9804116,
+            "avgDirection": 75.01,
+            "avgSpeed": 25.0313586,
+            "avgSpeedLevel": 2,
+            "vid": 26.5732974,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T06:40:00Z",
+            "numAloft": 1211837,
+            "meanHeight": 1363.5827208,
+            "maxHeight": 2940.3544248,
+            "avgDirection": 81.31,
+            "avgSpeed": 23.5773476,
+            "avgSpeedLevel": 2,
+            "vid": 25.381902,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T06:50:00Z",
+            "numAloft": 1202103,
+            "meanHeight": 1355.315004,
+            "maxHeight": 2920.9646604,
+            "avgDirection": 81.85,
+            "avgSpeed": 23.5102394,
+            "avgSpeedLevel": 2,
+            "vid": 25.1747028,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T07:00:00Z",
+            "numAloft": 1128049,
+            "meanHeight": 1315.2559476,
+            "maxHeight": 2826.8701692,
+            "avgDirection": 81.22,
+            "avgSpeed": 24.382646,
+            "avgSpeedLevel": 2,
+            "vid": 23.6207088,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T07:10:00Z",
+            "numAloft": 1050536,
+            "meanHeight": 1263.6811428,
+            "maxHeight": 2714.8294832,
+            "avgDirection": 83.26,
+            "avgSpeed": 21.6759486,
+            "avgSpeedLevel": 2,
+            "vid": 21.9890151,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T07:20:00Z",
+            "numAloft": 1044832,
+            "meanHeight": 1259.9081768,
+            "maxHeight": 2708.3662284,
+            "avgDirection": 88.09,
+            "avgSpeed": 21.8549038,
+            "avgSpeedLevel": 2,
+            "vid": 21.8854155,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T07:30:00Z",
+            "numAloft": 973874,
+            "meanHeight": 1191.8635552,
+            "maxHeight": 2591.6667496,
+            "avgDirection": 83.42,
+            "avgSpeed": 22.928635,
+            "avgSpeedLevel": 2,
+            "vid": 20.3832213,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T07:40:00Z",
+            "numAloft": 922406,
+            "meanHeight": 1116.0105344,
+            "maxHeight": 2444.6851176,
+            "avgDirection": 80.5,
+            "avgSpeed": 22.481247,
+            "avgSpeedLevel": 2,
+            "vid": 19.3213254,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T07:50:00Z",
+            "numAloft": 918186,
+            "meanHeight": 1116.2401932,
+            "maxHeight": 2446.9160888,
+            "avgDirection": 80.29,
+            "avgSpeed": 22.5259858,
+            "avgSpeedLevel": 2,
+            "vid": 19.2177258,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T08:00:00Z",
+            "numAloft": 866731,
+            "meanHeight": 1090.8464916,
+            "maxHeight": 2370.6037504,
+            "avgDirection": 84.29,
+            "avgSpeed": 22.8615268,
+            "avgSpeedLevel": 2,
+            "vid": 18.1558299,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T08:10:00Z",
+            "numAloft": 795324,
+            "meanHeight": 1070.6693256,
+            "maxHeight": 2326.6404944,
+            "avgDirection": 84.99,
+            "avgSpeed": 22.1904448,
+            "avgSpeedLevel": 2,
+            "vid": 16.6536357,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T08:20:00Z",
+            "numAloft": 793664,
+            "meanHeight": 1062.17195,
+            "maxHeight": 2306.594562,
+            "avgDirection": 80.08,
+            "avgSpeed": 22.0785978,
+            "avgSpeedLevel": 2,
+            "vid": 16.6277358,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T08:30:00Z",
+            "numAloft": 733687,
+            "meanHeight": 994.3897956,
+            "maxHeight": 2180.1837968,
+            "avgDirection": 86.87,
+            "avgSpeed": 21.2956688,
+            "avgSpeedLevel": 2,
+            "vid": 15.3586407,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T08:40:00Z",
+            "numAloft": 667270,
+            "meanHeight": 980.5774592,
+            "maxHeight": 2115.0263144,
+            "avgDirection": 95.86,
+            "avgSpeed": 21.8996426,
+            "avgSpeedLevel": 2,
+            "vid": 13.9600461,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T08:50:00Z",
+            "numAloft": 665977,
+            "meanHeight": 975.4921572,
+            "maxHeight": 2103.9370752,
+            "avgDirection": 95.42,
+            "avgSpeed": 21.8549038,
+            "avgSpeedLevel": 2,
+            "vid": 13.9341462,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T09:00:00Z",
+            "numAloft": 637966,
+            "meanHeight": 933.9567228,
+            "maxHeight": 1997.1129248,
+            "avgDirection": 84.52,
+            "avgSpeed": 20.8706502,
+            "avgSpeedLevel": 2,
+            "vid": 13.3643484,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T09:10:00Z",
+            "numAloft": 583571,
+            "meanHeight": 895.4068528,
+            "maxHeight": 1935.859642,
+            "avgDirection": 97.16,
+            "avgSpeed": 20.691695,
+            "avgSpeedLevel": 2,
+            "vid": 12.2247528,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T09:20:00Z",
+            "numAloft": 575174,
+            "meanHeight": 886.9422856,
+            "maxHeight": 1913.9108224,
+            "avgDirection": 97.34,
+            "avgSpeed": 20.7811726,
+            "avgSpeedLevel": 2,
+            "vid": 12.0434535,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T09:30:00Z",
+            "numAloft": 549979,
+            "meanHeight": 852.0997648,
+            "maxHeight": 1819.9475648,
+            "avgDirection": 108.17,
+            "avgSpeed": 20.020613,
+            "avgSpeedLevel": 2,
+            "vid": 11.5254555,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T09:40:00Z",
+            "numAloft": 496366,
+            "meanHeight": 803.5105244,
+            "maxHeight": 1719.8491364,
+            "avgDirection": 93.33,
+            "avgSpeed": 19.8863966,
+            "avgSpeedLevel": 2,
+            "vid": 10.3858599,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T09:50:00Z",
+            "numAloft": 494236,
+            "meanHeight": 800.3937264,
+            "maxHeight": 1716.3386376,
+            "avgDirection": 95.59,
+            "avgSpeed": 19.6179638,
+            "avgSpeedLevel": 2,
+            "vid": 10.3340601,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T10:00:00Z",
+            "numAloft": 445797,
+            "meanHeight": 781.6929384,
+            "maxHeight": 1669.783518,
+            "avgDirection": 102.17,
+            "avgSpeed": 19.796919,
+            "avgSpeedLevel": 2,
+            "vid": 9.323964,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T10:10:00Z",
+            "numAloft": 409403,
+            "meanHeight": 739.993462,
+            "maxHeight": 1570.2756408,
+            "avgDirection": 101.75,
+            "avgSpeed": 19.8416578,
+            "avgSpeedLevel": 2,
+            "vid": 8.5728669,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T10:20:00Z",
+            "numAloft": 403326,
+            "meanHeight": 736.8110472,
+            "maxHeight": 1560.3018872,
+            "avgDirection": 101.89,
+            "avgSpeed": 19.9758742,
+            "avgSpeedLevel": 2,
+            "vid": 8.4433674,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T10:30:00Z",
+            "numAloft": 372832,
+            "meanHeight": 725.1640652,
+            "maxHeight": 1552.3622544,
+            "avgDirection": 102.24,
+            "avgSpeed": 19.573225,
+            "avgSpeedLevel": 2,
+            "vid": 7.7958699,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T10:40:00Z",
+            "numAloft": 326982,
+            "meanHeight": 661.0236432,
+            "maxHeight": 1453.248078,
+            "avgDirection": 107.34,
+            "avgSpeed": 19.908766,
+            "avgSpeedLevel": 2,
+            "vid": 6.8375736,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T10:50:00Z",
+            "numAloft": 323927,
+            "meanHeight": 662.6312548,
+            "maxHeight": 1458.4318052,
+            "avgDirection": 107.55,
+            "avgSpeed": 19.7521802,
+            "avgSpeedLevel": 2,
+            "vid": 6.7857738,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T11:00:00Z",
+            "numAloft": 298636,
+            "meanHeight": 570.8005432,
+            "maxHeight": 1252.3950532,
+            "avgDirection": 105.38,
+            "avgSpeed": 19.3047922,
+            "avgSpeedLevel": 1,
+            "vid": 6.2418759,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T11:10:00Z",
+            "numAloft": 266797,
+            "meanHeight": 492.3556588,
+            "maxHeight": 1060.9252308,
+            "avgDirection": 107.33,
+            "avgSpeed": 19.685072,
+            "avgSpeedLevel": 2,
+            "vid": 5.5943784,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T11:20:00Z",
+            "numAloft": 256657,
+            "meanHeight": 463.910776,
+            "maxHeight": 996.3582996,
+            "avgDirection": 112.92,
+            "avgSpeed": 19.5508556,
+            "avgSpeedLevel": 2,
+            "vid": 5.3612793,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T11:30:00Z",
+            "numAloft": 178506,
+            "meanHeight": 254.6259924,
+            "maxHeight": 544.1601224,
+            "avgDirection": 125.37,
+            "avgSpeed": 17.1349604,
+            "avgSpeedLevel": 1,
+            "vid": 3.7295856,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T11:40:00Z",
+            "numAloft": 388941,
+            "meanHeight": 641.732304,
+            "maxHeight": 1299.868808,
+            "avgDirection": 102.95,
+            "avgSpeed": 18.9916206,
+            "avgSpeedLevel": 1,
+            "vid": 8.1325686,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-25T11:50:00Z",
+            "numAloft": 424615,
+            "meanHeight": 740.157504,
+            "maxHeight": 1472.9659264,
+            "avgDirection": 110.31,
+            "avgSpeed": 19.3942698,
+            "avgSpeedLevel": 2,
+            "vid": 8.8836657,
+            "isHigh": false
+          }
+        ],
+        "season": {
+          "currentSeasonSeries": [
+            {
+              "dateTime": "2023-03-01T00:00:00",
+              "numAloft": 631078.9365333334,
+              "totalBirds": 762168.06
+            },
+            {
+              "dateTime": "2023-03-02T00:00:00",
+              "numAloft": 476390.9636,
+              "totalBirds": 1318116.17
+            },
+            {
+              "dateTime": "2023-03-03T00:00:00",
+              "numAloft": 123533.2424,
+              "totalBirds": 1344512.54
+            },
+            {
+              "dateTime": "2023-03-04T00:00:00",
+              "numAloft": 182436.9352,
+              "totalBirds": 1460682.09
+            },
+            {
+              "dateTime": "2023-03-05T00:00:00",
+              "numAloft": 1597791.736,
+              "totalBirds": 4063437.33
+            },
+            {
+              "dateTime": "2023-03-06T00:00:00",
+              "numAloft": 863771.6109333333,
+              "totalBirds": 5033802.19
+            },
+            {
+              "dateTime": "2023-03-07T00:00:00",
+              "numAloft": 325448.1386666667,
+              "totalBirds": 5314723.86
+            },
+            {
+              "dateTime": "2023-03-08T00:00:00",
+              "numAloft": 391524.2718918919,
+              "totalBirds": 5589713.43
+            },
+            {
+              "dateTime": "2023-03-09T00:00:00",
+              "numAloft": 673367.910945946,
+              "totalBirds": 6121190.82
+            },
+            {
+              "dateTime": "2023-03-10T00:00:00",
+              "numAloft": 153144.73135135137,
+              "totalBirds": 6197958.53
+            },
+            {
+              "dateTime": "2023-03-11T00:00:00",
+              "numAloft": 968506.0226027397,
+              "totalBirds": 7800575.21
+            },
+            {
+              "dateTime": "2023-03-12T00:00:00",
+              "numAloft": 130356.2894520548,
+              "totalBirds": 7826992.85
+            },
+            {
+              "dateTime": "2023-03-13T00:00:00",
+              "numAloft": 126788.01575342465,
+              "totalBirds": 7853939.75
+            },
+            {
+              "dateTime": "2023-03-14T00:00:00",
+              "numAloft": 132334.46506849315,
+              "totalBirds": 7887046.36
+            },
+            {
+              "dateTime": "2023-03-15T00:00:00",
+              "numAloft": 606106.3539726028,
+              "totalBirds": 8698998.22
+            },
+            {
+              "dateTime": "2023-03-16T00:00:00",
+              "numAloft": 325567.21472222224,
+              "totalBirds": 8982854.97
+            },
+            {
+              "dateTime": "2023-03-17T00:00:00",
+              "numAloft": 123622.69847222223,
+              "totalBirds": 9008985.01
+            },
+            {
+              "dateTime": "2023-03-18T00:00:00",
+              "numAloft": 125160.16791666667,
+              "totalBirds": 9034864.43
+            },
+            {
+              "dateTime": "2023-03-19T00:00:00",
+              "numAloft": 125673.16680555555,
+              "totalBirds": 9061401.12
+            },
+            {
+              "dateTime": "2023-03-20T00:00:00",
+              "numAloft": 150681.86416666667,
+              "totalBirds": 9165419.02
+            },
+            {
+              "dateTime": "2023-03-21T00:00:00",
+              "numAloft": 429254.7598611111,
+              "totalBirds": 9719753.92
+            },
+            {
+              "dateTime": "2023-03-22T00:00:00",
+              "numAloft": 1938595.621111111,
+              "totalBirds": 13084472.8
+            },
+            {
+              "dateTime": "2023-03-23T00:00:00",
+              "numAloft": 2549463.9681944447,
+              "totalBirds": 17858584.21
+            },
+            {
+              "dateTime": "2023-03-24T00:00:00",
+              "numAloft": 828071.9562857143,
+              "totalBirds": 18812571.14
+            },
+            {
+              "dateTime": "2023-03-25T00:00:00",
+              "numAloft": 2724862.09,
+              "totalBirds": 21755920.51
+            },
+            {
+              "dateTime": "2023-03-26T00:00:00",
+              "numAloft": 1218323.4855714287,
+              "totalBirds": 22981779.02
+            },
+            {
+              "dateTime": "2023-03-27T00:00:00",
+              "numAloft": 561489.2544285714,
+              "totalBirds": 23386838.45
+            },
+            {
+              "dateTime": "2023-03-28T00:00:00",
+              "numAloft": 124351.519,
+              "totalBirds": 23413341.93
+            },
+            {
+              "dateTime": "2023-03-29T00:00:00",
+              "numAloft": 1739813.0408571428,
+              "totalBirds": 25488407.83
+            },
+            {
+              "dateTime": "2023-03-30T00:00:00",
+              "numAloft": 4125138.409,
+              "totalBirds": 33893196.95
+            },
+            {
+              "dateTime": "2023-03-31T00:00:00",
+              "numAloft": 2580969.8298550723,
+              "totalBirds": 38189287.9
+            },
+            {
+              "dateTime": "2023-04-01T00:00:00",
+              "numAloft": 594674.2227536232,
+              "totalBirds": 38622720.18
+            },
+            {
+              "dateTime": "2023-04-02T00:00:00",
+              "numAloft": 1803863.9726086957,
+              "totalBirds": 39853595.61
+            },
+            {
+              "dateTime": "2023-04-03T00:00:00",
+              "numAloft": 6276409.8769565215,
+              "totalBirds": 50786271
+            },
+            {
+              "dateTime": "2023-04-04T00:00:00",
+              "numAloft": 4066157.0491304346,
+              "totalBirds": 58231050.36
+            },
+            {
+              "dateTime": "2023-04-05T00:00:00",
+              "numAloft": 2043302.2601449275,
+              "totalBirds": 60278056.59
+            },
+            {
+              "dateTime": "2023-04-06T00:00:00",
+              "numAloft": 296296.3153623188,
+              "totalBirds": 60400833.07
+            },
+            {
+              "dateTime": "2023-04-07T00:00:00",
+              "numAloft": 151811.45044117648,
+              "totalBirds": 60431936.17
+            },
+            {
+              "dateTime": "2023-04-08T00:00:00",
+              "numAloft": 210548.9947761194,
+              "totalBirds": 60517453.25
+            },
+            {
+              "dateTime": "2023-04-09T00:00:00",
+              "numAloft": 1549450.9207462687,
+              "totalBirds": 62202720.79
+            },
+            {
+              "dateTime": "2023-04-10T00:00:00",
+              "numAloft": 2922788.046119403,
+              "totalBirds": 65155526.91
+            },
+            {
+              "dateTime": "2023-04-11T00:00:00",
+              "numAloft": 2419072.228358209,
+              "totalBirds": 67232099.18
+            },
+            {
+              "dateTime": "2023-04-12T00:00:00",
+              "numAloft": 1831460.9,
+              "totalBirds": 68118863.51
+            },
+            {
+              "dateTime": "2023-04-13T00:00:00",
+              "numAloft": 1685916.953283582,
+              "totalBirds": 70117550.95
+            },
+            {
+              "dateTime": "2023-04-14T00:00:00",
+              "numAloft": 16661869.942537313,
+              "totalBirds": 95831738.11
+            },
+            {
+              "dateTime": "2023-04-15T00:00:00",
+              "numAloft": 3850130.959402985,
+              "totalBirds": 99438279.89
+            },
+            {
+              "dateTime": "2023-04-16T00:00:00",
+              "numAloft": 342212.7548484848,
+              "totalBirds": 99631204.92
+            },
+            {
+              "dateTime": "2023-04-17T00:00:00",
+              "numAloft": 3076624.171818182,
+              "totalBirds": 103011958.1
+            },
+            {
+              "dateTime": "2023-04-18T00:00:00",
+              "numAloft": 7575810.86030303,
+              "totalBirds": 113752761.24
+            },
+            {
+              "dateTime": "2023-04-19T00:00:00",
+              "numAloft": 6766403.7271212125,
+              "totalBirds": 124685197.46
+            },
+            {
+              "dateTime": "2023-04-20T00:00:00",
+              "numAloft": 6123023.099848485,
+              "totalBirds": 132265937.97
+            },
+            {
+              "dateTime": "2023-04-21T00:00:00",
+              "numAloft": 1230383.3063076923,
+              "totalBirds": 133166994.97
+            },
+            {
+              "dateTime": "2023-04-22T00:00:00",
+              "numAloft": 609942.702,
+              "totalBirds": 133618807.17
+            },
+            {
+              "dateTime": "2023-04-23T00:00:00",
+              "numAloft": 293928.9356923077,
+              "totalBirds": 133747792.26
+            },
+            {
+              "dateTime": "2023-04-24T00:00:00",
+              "numAloft": 2144848.915230769,
+              "totalBirds": 135924396.35
+            },
+            {
+              "dateTime": "2023-04-25T00:00:00",
+              "numAloft": 7295231.83421875,
+              "totalBirds": 142339693.44
+            },
+            {
+              "dateTime": "2023-04-26T00:00:00",
+              "numAloft": 3920353.98609375,
+              "totalBirds": 144354339.2
+            },
+            {
+              "dateTime": "2023-04-27T00:00:00",
+              "numAloft": 34672928.738125,
+              "totalBirds": 195974835.55
+            },
+            {
+              "dateTime": "2023-04-28T00:00:00",
+              "numAloft": 20736777.505,
+              "totalBirds": 217945450.37
+            },
+            {
+              "dateTime": "2023-04-29T00:00:00",
+              "numAloft": 3164869.2834375,
+              "totalBirds": 219957326.82
+            },
+            {
+              "dateTime": "2023-04-30T00:00:00",
+              "numAloft": 9301144.10875,
+              "totalBirds": 230412320.78
+            },
+            {
+              "dateTime": "2023-05-01T00:00:00",
+              "numAloft": 12850505.38859375,
+              "totalBirds": 245429818
+            },
+            {
+              "dateTime": "2023-05-02T00:00:00",
+              "numAloft": 16233065.79375,
+              "totalBirds": 259271318.28
+            },
+            {
+              "dateTime": "2023-05-03T00:00:00",
+              "numAloft": 21042110.63171875,
+              "totalBirds": 277028747.86
+            },
+            {
+              "dateTime": "2023-05-04T00:00:00",
+              "numAloft": 20654491.25609375,
+              "totalBirds": 288052438.59
+            },
+            {
+              "dateTime": "2023-05-05T00:00:00",
+              "numAloft": 25540113.851935484,
+              "totalBirds": 329703347.46
+            },
+            {
+              "dateTime": "2023-05-06T00:00:00",
+              "numAloft": 25713671.442903224,
+              "totalBirds": 373296896.26
+            },
+            {
+              "dateTime": "2023-05-07T00:00:00",
+              "numAloft": 14817503.282741936,
+              "totalBirds": 398077895.09
+            },
+            {
+              "dateTime": "2023-05-08T00:00:00",
+              "numAloft": 12198588.332258064,
+              "totalBirds": 413220928.5
+            },
+            {
+              "dateTime": "2023-05-09T00:00:00",
+              "numAloft": 12060779.06016129,
+              "totalBirds": 426042402.36
+            },
+            {
+              "dateTime": "2023-05-10T00:00:00",
+              "numAloft": 6391082.756290322,
+              "totalBirds": 432291719.65
+            },
+            {
+              "dateTime": "2023-05-11T00:00:00",
+              "numAloft": 7996979.101612903,
+              "totalBirds": 441978877.86
+            },
+            {
+              "dateTime": "2023-05-12T00:00:00",
+              "numAloft": 5847607.620967742,
+              "totalBirds": 448453835.27
+            },
+            {
+              "dateTime": "2023-05-13T00:00:00",
+              "numAloft": 5440846.062258065,
+              "totalBirds": 453712114.59
+            },
+            {
+              "dateTime": "2023-05-14T00:00:00",
+              "numAloft": 2524900.661451613,
+              "totalBirds": 455516039.56
+            },
+            {
+              "dateTime": "2023-05-15T00:00:00",
+              "numAloft": 3796043.8445161292,
+              "totalBirds": 459877280.68
+            },
+            {
+              "dateTime": "2023-05-16T00:00:00",
+              "numAloft": 1533672.510967742,
+              "totalBirds": 461130362.32
+            },
+            {
+              "dateTime": "2023-05-17T00:00:00",
+              "numAloft": 2153430.644032258,
+              "totalBirds": 462704800.29
+            },
+            {
+              "dateTime": "2023-05-18T00:00:00",
+              "numAloft": 3965466.945483871,
+              "totalBirds": 466525933.04
+            },
+            {
+              "dateTime": "2023-05-19T00:00:00",
+              "numAloft": 5382233.439166667,
+              "totalBirds": 472095801.56
+            },
+            {
+              "dateTime": "2023-05-20T00:00:00",
+              "numAloft": 1393155.6448333333,
+              "totalBirds": 472929558.07
+            },
+            {
+              "dateTime": "2023-05-21T00:00:00",
+              "numAloft": 3116439.0956666665,
+              "totalBirds": 474783694.59
+            },
+            {
+              "dateTime": "2023-05-22T00:00:00",
+              "numAloft": 3660745.678,
+              "totalBirds": 478176444.11
+            },
+            {
+              "dateTime": "2023-05-23T00:00:00",
+              "numAloft": 1552793.285,
+              "totalBirds": 479320764.91
+            },
+            {
+              "dateTime": "2023-05-24T00:00:00",
+              "numAloft": 685578.5576666667,
+              "totalBirds": 479554510.18
+            },
+            {
+              "dateTime": "2023-05-25T00:00:00",
+              "numAloft": 491941.7768333333,
+              "totalBirds": 479796991.9
+            },
+            {
+              "dateTime": "2023-05-26T00:00:00",
+              "numAloft": 744064.1023333333,
+              "totalBirds": 480361510.4
+            },
+            {
+              "dateTime": "2023-05-27T00:00:00",
+              "numAloft": 859225.2388333334,
+              "totalBirds": 480849353.61
+            },
+            {
+              "dateTime": "2023-05-28T00:00:00",
+              "numAloft": 1207743.4951666666,
+              "totalBirds": 481596041.92
+            },
+            {
+              "dateTime": "2023-05-29T00:00:00",
+              "numAloft": 1001872.011,
+              "totalBirds": 482165548.59
+            },
+            {
+              "dateTime": "2023-05-30T00:00:00",
+              "numAloft": 1202101.5116666667,
+              "totalBirds": 482740596.85
+            },
+            {
+              "dateTime": "2023-05-31T00:00:00",
+              "numAloft": 833365.3905,
+              "totalBirds": 483313516.29
+            },
+            {
+              "dateTime": "2023-06-01T00:00:00",
+              "numAloft": 461419.9756666667,
+              "totalBirds": 483485631.42
+            },
+            {
+              "dateTime": "2023-06-02T00:00:00",
+              "numAloft": 187417.03683333335,
+              "totalBirds": 483528349.4
+            },
+            {
+              "dateTime": "2023-06-03T00:00:00",
+              "numAloft": 153838.92083333334,
+              "totalBirds": 483569381.27
+            },
+            {
+              "dateTime": "2023-06-04T00:00:00",
+              "numAloft": 532112.6905084746,
+              "totalBirds": 483835514.26
+            },
+            {
+              "dateTime": "2023-06-05T00:00:00",
+              "numAloft": 411029.5493220339,
+              "totalBirds": 483980866.21
+            },
+            {
+              "dateTime": "2023-06-06T00:00:00",
+              "numAloft": 344080.8527118644,
+              "totalBirds": 484116284.62
+            },
+            {
+              "dateTime": "2023-06-07T00:00:00",
+              "numAloft": 156004.16898305085,
+              "totalBirds": 484153473.27
+            },
+            {
+              "dateTime": "2023-06-08T00:00:00",
+              "numAloft": 300320.7508474576,
+              "totalBirds": 484241194.56
+            },
+            {
+              "dateTime": "2023-06-09T00:00:00",
+              "numAloft": 515851.8022033898,
+              "totalBirds": 484484030.84
+            },
+            {
+              "dateTime": "2023-06-10T00:00:00",
+              "numAloft": 492828.8806779661,
+              "totalBirds": 484805298.7
+            },
+            {
+              "dateTime": "2023-06-11T00:00:00",
+              "numAloft": 372203.5433898305,
+              "totalBirds": 485007356.17
+            },
+            {
+              "dateTime": "2023-06-12T00:00:00",
+              "numAloft": 468083.38237288134,
+              "totalBirds": 485164300.61
+            },
+            {
+              "dateTime": "2023-06-13T00:00:00",
+              "numAloft": 722492.5791525424,
+              "totalBirds": 485665323.96
+            },
+            {
+              "dateTime": "2023-06-14T00:00:00",
+              "numAloft": 774197.3725423729,
+              "totalBirds": 486051228.8
+            },
+            {
+              "dateTime": "2023-06-15T00:00:00",
+              "numAloft": 379200.9106779661,
+              "totalBirds": 486171450.96
+            }
+          ],
+          "annualAvgSeries": [
+            {
+              "dateTime": "2023-03-01T00:00:00",
+              "numAloft": 352135.02,
+              "totalBirds": 516010.74
+            },
+            {
+              "dateTime": "2023-03-02T00:00:00",
+              "numAloft": 365578.95,
+              "totalBirds": 1055531.79
+            },
+            {
+              "dateTime": "2023-03-03T00:00:00",
+              "numAloft": 385219.7,
+              "totalBirds": 1626528.34
+            },
+            {
+              "dateTime": "2023-03-04T00:00:00",
+              "numAloft": 408526.59,
+              "totalBirds": 2233456.57
+            },
+            {
+              "dateTime": "2023-03-05T00:00:00",
+              "numAloft": 435563.53,
+              "totalBirds": 2880586.78
+            },
+            {
+              "dateTime": "2023-03-06T00:00:00",
+              "numAloft": 470320.82,
+              "totalBirds": 3580719.88
+            },
+            {
+              "dateTime": "2023-03-07T00:00:00",
+              "numAloft": 515341.49,
+              "totalBirds": 4347231.02
+            },
+            {
+              "dateTime": "2023-03-08T00:00:00",
+              "numAloft": 560827.76,
+              "totalBirds": 5177559.43
+            },
+            {
+              "dateTime": "2023-03-09T00:00:00",
+              "numAloft": 602703.98,
+              "totalBirds": 6065594.61
+            },
+            {
+              "dateTime": "2023-03-10T00:00:00",
+              "numAloft": 642970.59,
+              "totalBirds": 7006283.57
+            },
+            {
+              "dateTime": "2023-03-11T00:00:00",
+              "numAloft": 680726.76,
+              "totalBirds": 7993538.56
+            },
+            {
+              "dateTime": "2023-03-12T00:00:00",
+              "numAloft": 720416.72,
+              "totalBirds": 9030302.42
+            },
+            {
+              "dateTime": "2023-03-13T00:00:00",
+              "numAloft": 759337.82,
+              "totalBirds": 10114636.24
+            },
+            {
+              "dateTime": "2023-03-14T00:00:00",
+              "numAloft": 802338.26,
+              "totalBirds": 11254552.69
+            },
+            {
+              "dateTime": "2023-03-15T00:00:00",
+              "numAloft": 846001.13,
+              "totalBirds": 12452113.57
+            },
+            {
+              "dateTime": "2023-03-16T00:00:00",
+              "numAloft": 884298.68,
+              "totalBirds": 13696753.65
+            },
+            {
+              "dateTime": "2023-03-17T00:00:00",
+              "numAloft": 919408.69,
+              "totalBirds": 14983111.66
+            },
+            {
+              "dateTime": "2023-03-18T00:00:00",
+              "numAloft": 954880.62,
+              "totalBirds": 16315316.08
+            },
+            {
+              "dateTime": "2023-03-19T00:00:00",
+              "numAloft": 992692.13,
+              "totalBirds": 17694104.22
+            },
+            {
+              "dateTime": "2023-03-20T00:00:00",
+              "numAloft": 1034025.15,
+              "totalBirds": 19126838.95
+            },
+            {
+              "dateTime": "2023-03-21T00:00:00",
+              "numAloft": 1078817.49,
+              "totalBirds": 20620022.95
+            },
+            {
+              "dateTime": "2023-03-22T00:00:00",
+              "numAloft": 1131676.94,
+              "totalBirds": 22185333.25
+            },
+            {
+              "dateTime": "2023-03-23T00:00:00",
+              "numAloft": 1190073.79,
+              "totalBirds": 23830409.73
+            },
+            {
+              "dateTime": "2023-03-24T00:00:00",
+              "numAloft": 1246822.27,
+              "totalBirds": 25551152.51
+            },
+            {
+              "dateTime": "2023-03-25T00:00:00",
+              "numAloft": 1299405.63,
+              "totalBirds": 27337990.93
+            },
+            {
+              "dateTime": "2023-03-26T00:00:00",
+              "numAloft": 1349575.14,
+              "totalBirds": 29186112.36
+            },
+            {
+              "dateTime": "2023-03-27T00:00:00",
+              "numAloft": 1400485.24,
+              "totalBirds": 31094681.44
+            },
+            {
+              "dateTime": "2023-03-28T00:00:00",
+              "numAloft": 1456600.5,
+              "totalBirds": 33072218.93
+            },
+            {
+              "dateTime": "2023-03-29T00:00:00",
+              "numAloft": 1515806.25,
+              "totalBirds": 35121917.41
+            },
+            {
+              "dateTime": "2023-03-30T00:00:00",
+              "numAloft": 1583689.22,
+              "totalBirds": 37259384.87
+            },
+            {
+              "dateTime": "2023-03-31T00:00:00",
+              "numAloft": 1659324.16,
+              "totalBirds": 39489458.33
+            },
+            {
+              "dateTime": "2023-04-01T00:00:00",
+              "numAloft": 1750967.92,
+              "totalBirds": 41841653.68
+            },
+            {
+              "dateTime": "2023-04-02T00:00:00",
+              "numAloft": 1853372.85,
+              "totalBirds": 44332470.09
+            },
+            {
+              "dateTime": "2023-04-03T00:00:00",
+              "numAloft": 1971632.04,
+              "totalBirds": 46977134.47
+            },
+            {
+              "dateTime": "2023-04-04T00:00:00",
+              "numAloft": 2109729.48,
+              "totalBirds": 49802614.87
+            },
+            {
+              "dateTime": "2023-04-05T00:00:00",
+              "numAloft": 2255114.74,
+              "totalBirds": 52817177.19
+            },
+            {
+              "dateTime": "2023-04-06T00:00:00",
+              "numAloft": 2413658.18,
+              "totalBirds": 56037986.13
+            },
+            {
+              "dateTime": "2023-04-07T00:00:00",
+              "numAloft": 2586984.67,
+              "totalBirds": 59488116.29
+            },
+            {
+              "dateTime": "2023-04-08T00:00:00",
+              "numAloft": 2785019.85,
+              "totalBirds": 63201470.09
+            },
+            {
+              "dateTime": "2023-04-09T00:00:00",
+              "numAloft": 2982551.22,
+              "totalBirds": 67166320.45
+            },
+            {
+              "dateTime": "2023-04-10T00:00:00",
+              "numAloft": 3185589.67,
+              "totalBirds": 71388325.33
+            },
+            {
+              "dateTime": "2023-04-11T00:00:00",
+              "numAloft": 3392109.39,
+              "totalBirds": 75862960.98
+            },
+            {
+              "dateTime": "2023-04-12T00:00:00",
+              "numAloft": 3604617.09,
+              "totalBirds": 80582131.69
+            },
+            {
+              "dateTime": "2023-04-13T00:00:00",
+              "numAloft": 3811315.91,
+              "totalBirds": 85540151.67
+            },
+            {
+              "dateTime": "2023-04-14T00:00:00",
+              "numAloft": 4029904.09,
+              "totalBirds": 90748800.56
+            },
+            {
+              "dateTime": "2023-04-15T00:00:00",
+              "numAloft": 4300380.7,
+              "totalBirds": 96282811.05
+            },
+            {
+              "dateTime": "2023-04-16T00:00:00",
+              "numAloft": 4638689.79,
+              "totalBirds": 102240278.27
+            },
+            {
+              "dateTime": "2023-04-17T00:00:00",
+              "numAloft": 5028873.62,
+              "totalBirds": 108707921.67
+            },
+            {
+              "dateTime": "2023-04-18T00:00:00",
+              "numAloft": 5466742.79,
+              "totalBirds": 115773941.13
+            },
+            {
+              "dateTime": "2023-04-19T00:00:00",
+              "numAloft": 5930918.39,
+              "totalBirds": 123478246.72
+            },
+            {
+              "dateTime": "2023-04-20T00:00:00",
+              "numAloft": 6432617.5,
+              "totalBirds": 131863334.96
+            },
+            {
+              "dateTime": "2023-04-21T00:00:00",
+              "numAloft": 6956463.36,
+              "totalBirds": 140964526.21
+            },
+            {
+              "dateTime": "2023-04-22T00:00:00",
+              "numAloft": 7496742.18,
+              "totalBirds": 150808489
+            },
+            {
+              "dateTime": "2023-04-23T00:00:00",
+              "numAloft": 8043242.13,
+              "totalBirds": 161425701.85
+            },
+            {
+              "dateTime": "2023-04-24T00:00:00",
+              "numAloft": 8589791.62,
+              "totalBirds": 172822653.96
+            },
+            {
+              "dateTime": "2023-04-25T00:00:00",
+              "numAloft": 9067819.15,
+              "totalBirds": 184914485.54
+            },
+            {
+              "dateTime": "2023-04-26T00:00:00",
+              "numAloft": 9410820.73,
+              "totalBirds": 197506775.98
+            },
+            {
+              "dateTime": "2023-04-27T00:00:00",
+              "numAloft": 9650648.59,
+              "totalBirds": 210431568.48
+            },
+            {
+              "dateTime": "2023-04-28T00:00:00",
+              "numAloft": 9801885.68,
+              "totalBirds": 223525338.63
+            },
+            {
+              "dateTime": "2023-04-29T00:00:00",
+              "numAloft": 9879446.26,
+              "totalBirds": 236673205.65
+            },
+            {
+              "dateTime": "2023-04-30T00:00:00",
+              "numAloft": 9875522.55,
+              "totalBirds": 249791402.03
+            },
+            {
+              "dateTime": "2023-05-01T00:00:00",
+              "numAloft": 9816373.31,
+              "totalBirds": 262832670.48
+            },
+            {
+              "dateTime": "2023-05-02T00:00:00",
+              "numAloft": 9681363.42,
+              "totalBirds": 275689926.05
+            },
+            {
+              "dateTime": "2023-05-03T00:00:00",
+              "numAloft": 9468247.39,
+              "totalBirds": 288244240.28
+            },
+            {
+              "dateTime": "2023-05-04T00:00:00",
+              "numAloft": 9195942.48,
+              "totalBirds": 300387448.29
+            },
+            {
+              "dateTime": "2023-05-05T00:00:00",
+              "numAloft": 8910236.35,
+              "totalBirds": 312081604.1
+            },
+            {
+              "dateTime": "2023-05-06T00:00:00",
+              "numAloft": 8648766.24,
+              "totalBirds": 323372602.04
+            },
+            {
+              "dateTime": "2023-05-07T00:00:00",
+              "numAloft": 8399156,
+              "totalBirds": 334291974.45
+            },
+            {
+              "dateTime": "2023-05-08T00:00:00",
+              "numAloft": 8110286.93,
+              "totalBirds": 344809645.38
+            },
+            {
+              "dateTime": "2023-05-09T00:00:00",
+              "numAloft": 7798228.11,
+              "totalBirds": 354908485.01
+            },
+            {
+              "dateTime": "2023-05-10T00:00:00",
+              "numAloft": 7454590.82,
+              "totalBirds": 364524039.58
+            },
+            {
+              "dateTime": "2023-05-11T00:00:00",
+              "numAloft": 7073019.43,
+              "totalBirds": 373561632.36
+            },
+            {
+              "dateTime": "2023-05-12T00:00:00",
+              "numAloft": 6664095.31,
+              "totalBirds": 381977423.08
+            },
+            {
+              "dateTime": "2023-05-13T00:00:00",
+              "numAloft": 6265609.1,
+              "totalBirds": 389786978
+            },
+            {
+              "dateTime": "2023-05-14T00:00:00",
+              "numAloft": 5861448.75,
+              "totalBirds": 397013128.88
+            },
+            {
+              "dateTime": "2023-05-15T00:00:00",
+              "numAloft": 5428003.09,
+              "totalBirds": 403638986.34
+            },
+            {
+              "dateTime": "2023-05-16T00:00:00",
+              "numAloft": 4962174.28,
+              "totalBirds": 409632223.88
+            },
+            {
+              "dateTime": "2023-05-17T00:00:00",
+              "numAloft": 4481931,
+              "totalBirds": 414964714.85
+            },
+            {
+              "dateTime": "2023-05-18T00:00:00",
+              "numAloft": 4027628.86,
+              "totalBirds": 419666092.45
+            },
+            {
+              "dateTime": "2023-05-19T00:00:00",
+              "numAloft": 3600634.86,
+              "totalBirds": 423779317.61
+            },
+            {
+              "dateTime": "2023-05-20T00:00:00",
+              "numAloft": 3199071.36,
+              "totalBirds": 427356934.28
+            },
+            {
+              "dateTime": "2023-05-21T00:00:00",
+              "numAloft": 2817189.19,
+              "totalBirds": 430441053.93
+            },
+            {
+              "dateTime": "2023-05-22T00:00:00",
+              "numAloft": 2477947.56,
+              "totalBirds": 433104140.51
+            },
+            {
+              "dateTime": "2023-05-23T00:00:00",
+              "numAloft": 2161332.16,
+              "totalBirds": 435379313.12
+            },
+            {
+              "dateTime": "2023-05-24T00:00:00",
+              "numAloft": 1864347.48,
+              "totalBirds": 437291216.62
+            },
+            {
+              "dateTime": "2023-05-25T00:00:00",
+              "numAloft": 1606327.02,
+              "totalBirds": 438886969.02
+            },
+            {
+              "dateTime": "2023-05-26T00:00:00",
+              "numAloft": 1393742.04,
+              "totalBirds": 440221020.56
+            },
+            {
+              "dateTime": "2023-05-27T00:00:00",
+              "numAloft": 1210772.86,
+              "totalBirds": 441329643.05
+            },
+            {
+              "dateTime": "2023-05-28T00:00:00",
+              "numAloft": 1047160.43,
+              "totalBirds": 442240374.65
+            },
+            {
+              "dateTime": "2023-05-29T00:00:00",
+              "numAloft": 910707.64,
+              "totalBirds": 442987804.34
+            },
+            {
+              "dateTime": "2023-05-30T00:00:00",
+              "numAloft": 804177.59,
+              "totalBirds": 443608700.27
+            },
+            {
+              "dateTime": "2023-05-31T00:00:00",
+              "numAloft": 720355.6,
+              "totalBirds": 444130769.86
+            },
+            {
+              "dateTime": "2023-06-01T00:00:00",
+              "numAloft": 660735.84,
+              "totalBirds": 444582830.95
+            },
+            {
+              "dateTime": "2023-06-02T00:00:00",
+              "numAloft": 615319.36,
+              "totalBirds": 444982754.91
+            },
+            {
+              "dateTime": "2023-06-03T00:00:00",
+              "numAloft": 579972.32,
+              "totalBirds": 445343615.86
+            },
+            {
+              "dateTime": "2023-06-04T00:00:00",
+              "numAloft": 549990.06,
+              "totalBirds": 445672877.59
+            },
+            {
+              "dateTime": "2023-06-05T00:00:00",
+              "numAloft": 525527.44,
+              "totalBirds": 445977321.7
+            },
+            {
+              "dateTime": "2023-06-06T00:00:00",
+              "numAloft": 505303.14,
+              "totalBirds": 446265436.27
+            },
+            {
+              "dateTime": "2023-06-07T00:00:00",
+              "numAloft": 489783.85,
+              "totalBirds": 446543226.7
+            },
+            {
+              "dateTime": "2023-06-08T00:00:00",
+              "numAloft": 478967.63,
+              "totalBirds": 446815328.04
+            },
+            {
+              "dateTime": "2023-06-09T00:00:00",
+              "numAloft": 471710.98,
+              "totalBirds": 447084828.5
+            },
+            {
+              "dateTime": "2023-06-10T00:00:00",
+              "numAloft": 465937.82,
+              "totalBirds": 447353231.96
+            },
+            {
+              "dateTime": "2023-06-11T00:00:00",
+              "numAloft": 460849.8,
+              "totalBirds": 447621040.44
+            },
+            {
+              "dateTime": "2023-06-12T00:00:00",
+              "numAloft": 457124.66,
+              "totalBirds": 447888784.83
+            },
+            {
+              "dateTime": "2023-06-13T00:00:00",
+              "numAloft": 456080.64,
+              "totalBirds": 448158021.77
+            },
+            {
+              "dateTime": "2023-06-14T00:00:00",
+              "numAloft": 460320.67,
+              "totalBirds": 448431933.05
+            },
+            {
+              "dateTime": "2023-06-15T00:00:00",
+              "numAloft": 466062.21,
+              "totalBirds": 448710865.93
+            }
+          ]
+        }
+      }
+    },
+    "2023-03-21": {
+      "date": "2023-03-21",
+      "label": "Mar 21 2023 (quiet)",
+      "case": "Rolling Fork",
+      "region": "US-MS",
+      "has_data": true,
+      "peak_vid": 19.606,
+      "mean_vid": 8.987,
+      "peak_num_aloft": 936006,
+      "mean_num_aloft": 429254.3,
+      "cumulative_birds": 554334,
+      "is_high": false,
+      "timezone": "America/Chicago",
+      "last_updated": "2023-03-22T12:00:00Z",
+      "has_historical": true,
+      "hist_peak_vid": 34.991,
+      "hist_mean_vid": 21.626,
+      "hist_peak_aloft": 1671764,
+      "hist_mean_aloft": 1033009.5,
+      "vid_anomaly_pct": -58.4,
+      "live_raw": {
+        "lastUpdated": "2023-03-22T12:00:00Z",
+        "regionCode": "US-MS",
+        "timezoneName": "America/Chicago",
+        "cumulativeBirds": 554334,
+        "isHigh": false,
+        "season": {
+          "code": "SP",
+          "startDate": "20230301",
+          "endDate": "20230615"
+        },
+        "nightSeries": [
+          {
+            "localTime": "2023-03-21T19:10:00",
+            "utc": "2023-03-22T00:10:00Z",
+            "numAloft": 127675,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.6676897,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T19:20:00",
+            "utc": "2023-03-22T00:20:00Z",
+            "numAloft": 143381,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.0043884,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T19:30:00",
+            "utc": "2023-03-22T00:30:00Z",
+            "numAloft": 200338,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 4.1957838,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T19:40:00",
+            "utc": "2023-03-22T00:40:00Z",
+            "numAloft": 259830,
+            "meanHeight": 1419.6522764,
+            "maxHeight": 2190.7152932,
+            "avgDirection": 346.84,
+            "avgSpeed": 23.711564,
+            "vid": 5.438979,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T19:50:00",
+            "utc": "2023-03-22T00:50:00Z",
+            "numAloft": 308395,
+            "meanHeight": 1516.9291824,
+            "maxHeight": 2641.4699008,
+            "avgDirection": 348.86,
+            "avgSpeed": 25.6577018,
+            "vid": 6.4490751,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T20:00:00",
+            "utc": "2023-03-22T01:00:00Z",
+            "numAloft": 339944,
+            "meanHeight": 1791.4370652,
+            "maxHeight": 3581.9883036,
+            "avgDirection": 353.74,
+            "avgSpeed": 26.84328,
+            "vid": 7.1224725,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T20:10:00",
+            "utc": "2023-03-22T01:10:00Z",
+            "numAloft": 384155,
+            "meanHeight": 1935.859642,
+            "maxHeight": 4112.368898,
+            "avgDirection": 359.77,
+            "avgSpeed": 26.507739,
+            "vid": 8.0548689,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T20:20:00",
+            "utc": "2023-03-22T01:20:00Z",
+            "numAloft": 430413,
+            "meanHeight": 2072.014502,
+            "maxHeight": 4106.135302,
+            "avgDirection": 1.64,
+            "avgSpeed": 26.1945674,
+            "vid": 9.0131652,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T20:30:00",
+            "utc": "2023-03-22T01:30:00Z",
+            "numAloft": 468002,
+            "meanHeight": 2006.1024264,
+            "maxHeight": 4077.8544612,
+            "avgDirection": 1.76,
+            "avgSpeed": 25.5234854,
+            "vid": 9.7901622,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T20:40:00",
+            "utc": "2023-03-22T01:40:00Z",
+            "numAloft": 474506,
+            "meanHeight": 2373.9502072,
+            "maxHeight": 4546.2271796,
+            "avgDirection": 359.87,
+            "avgSpeed": 25.5682242,
+            "vid": 9.9455616,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T20:50:00",
+            "utc": "2023-03-22T01:50:00Z",
+            "numAloft": 470751,
+            "meanHeight": 2125.1313016,
+            "maxHeight": 5202.9529224,
+            "avgDirection": 0.44,
+            "avgSpeed": 26.4853696,
+            "vid": 9.8678619,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T21:00:00",
+            "utc": "2023-03-22T02:00:00Z",
+            "numAloft": 468520,
+            "meanHeight": 2350.6890516,
+            "maxHeight": 4505.0526376,
+            "avgDirection": 0.58,
+            "avgSpeed": 26.9774964,
+            "vid": 9.8160621,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T21:10:00",
+            "utc": "2023-03-22T02:10:00Z",
+            "numAloft": 471558,
+            "meanHeight": 2159.5801216,
+            "maxHeight": 4572.5395164,
+            "avgDirection": 0.83,
+            "avgSpeed": 27.514362,
+            "vid": 9.8678619,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T21:20:00",
+            "utc": "2023-03-22T02:20:00Z",
+            "numAloft": 481668,
+            "meanHeight": 2150.426578,
+            "maxHeight": 5098.4909768,
+            "avgDirection": 0.65,
+            "avgSpeed": 27.8051642,
+            "vid": 10.0750611,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T21:30:00",
+            "utc": "2023-03-22T02:30:00Z",
+            "numAloft": 499735,
+            "meanHeight": 2216.2402284,
+            "maxHeight": 4614.9279692,
+            "avgDirection": 2.07,
+            "avgSpeed": 28.5880932,
+            "vid": 10.4635596,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T21:40:00",
+            "utc": "2023-03-22T02:40:00Z",
+            "numAloft": 513472,
+            "meanHeight": 2278.8058472,
+            "maxHeight": 4334.2849156,
+            "avgDirection": 3.41,
+            "avgSpeed": 29.5723468,
+            "vid": 10.7484585,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T21:50:00",
+            "utc": "2023-03-22T02:50:00Z",
+            "numAloft": 518889,
+            "meanHeight": 2304.5276328,
+            "maxHeight": 4441.4043416,
+            "avgDirection": 3.57,
+            "avgSpeed": 29.4381304,
+            "vid": 10.8520581,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T22:00:00",
+            "utc": "2023-03-22T03:00:00Z",
+            "numAloft": 577437,
+            "meanHeight": 2353.6418076,
+            "maxHeight": 4359.744234,
+            "avgDirection": 6.93,
+            "avgSpeed": 31.1829436,
+            "vid": 12.0952533,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T22:10:00",
+            "utc": "2023-03-22T03:10:00Z",
+            "numAloft": 603183,
+            "meanHeight": 2373.4908896,
+            "maxHeight": 4296.424022,
+            "avgDirection": 7.11,
+            "avgSpeed": 32.0777196,
+            "vid": 12.6391512,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T22:20:00",
+            "utc": "2023-03-22T03:20:00Z",
+            "numAloft": 626681,
+            "meanHeight": 2480.2822316,
+            "maxHeight": 4316.7980384,
+            "avgDirection": 7.93,
+            "avgSpeed": 33.218559,
+            "vid": 13.1312493,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T22:30:00",
+            "utc": "2023-03-22T03:30:00Z",
+            "numAloft": 651670,
+            "meanHeight": 2507.2507364,
+            "maxHeight": 4403.3137892,
+            "avgDirection": 10.31,
+            "avgSpeed": 34.0909656,
+            "vid": 13.6492473,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T22:40:00",
+            "utc": "2023-03-22T03:40:00Z",
+            "numAloft": 696486,
+            "meanHeight": 2525.098506,
+            "maxHeight": 4212.3689012,
+            "avgDirection": 11.03,
+            "avgSpeed": 35.1646968,
+            "vid": 14.5816437,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T22:50:00",
+            "utc": "2023-03-22T03:50:00Z",
+            "numAloft": 773983,
+            "meanHeight": 2412.2704184,
+            "maxHeight": 4042.7166648,
+            "avgDirection": 13.97,
+            "avgSpeed": 36.0594728,
+            "vid": 16.2133374,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T23:00:00",
+            "utc": "2023-03-22T04:00:00Z",
+            "numAloft": 738869,
+            "meanHeight": 2587.3360408,
+            "maxHeight": 4138.9765104,
+            "avgDirection": 11,
+            "avgSpeed": 36.5515996,
+            "vid": 15.4622403,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T23:10:00",
+            "utc": "2023-03-22T04:10:00Z",
+            "numAloft": 792684,
+            "meanHeight": 2629.7244936,
+            "maxHeight": 4256.2665404,
+            "avgDirection": 13.58,
+            "avgSpeed": 37.4911144,
+            "vid": 16.6018359,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T23:20:00",
+            "utc": "2023-03-22T04:20:00Z",
+            "numAloft": 831849,
+            "meanHeight": 2605.9384036,
+            "maxHeight": 4259.9410812,
+            "avgDirection": 13.66,
+            "avgSpeed": 37.804286,
+            "vid": 17.4047328,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T23:30:00",
+            "utc": "2023-03-22T04:30:00Z",
+            "numAloft": 881083,
+            "meanHeight": 2617.29011,
+            "maxHeight": 4191.8964596,
+            "avgDirection": 11.51,
+            "avgSpeed": 37.7819166,
+            "vid": 18.4407288,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T23:40:00",
+            "utc": "2023-03-22T04:40:00Z",
+            "numAloft": 821545,
+            "meanHeight": 2611.4502148,
+            "maxHeight": 4251.96864,
+            "avgDirection": 11.87,
+            "avgSpeed": 37.5134838,
+            "vid": 17.1975336,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-21T23:50:00",
+            "utc": "2023-03-22T04:50:00Z",
+            "numAloft": 898200,
+            "meanHeight": 2616.8307924,
+            "maxHeight": 4082.1195532,
+            "avgDirection": 13.41,
+            "avgSpeed": 39.3925134,
+            "vid": 18.8033274,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T00:00:00",
+            "utc": "2023-03-22T05:00:00Z",
+            "numAloft": 870421,
+            "meanHeight": 2552.1326276,
+            "maxHeight": 4019.2586588,
+            "avgDirection": 14.03,
+            "avgSpeed": 39.2806664,
+            "vid": 18.2335296,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T00:10:00",
+            "utc": "2023-03-22T05:10:00Z",
+            "numAloft": 868118,
+            "meanHeight": 2572.506644,
+            "maxHeight": 4096.4896324,
+            "avgDirection": 12.51,
+            "avgSpeed": 39.8622708,
+            "vid": 18.1817298,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T00:20:00",
+            "utc": "2023-03-22T05:20:00Z",
+            "numAloft": 936006,
+            "meanHeight": 2434.8097892,
+            "maxHeight": 4016.4699448,
+            "avgDirection": 12.89,
+            "avgSpeed": 39.8399014,
+            "vid": 19.6062243,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T00:30:00",
+            "utc": "2023-03-22T05:30:00Z",
+            "numAloft": 925422,
+            "meanHeight": 2309.1536172,
+            "maxHeight": 4042.7822816,
+            "avgDirection": 6.66,
+            "avgSpeed": 36.4844914,
+            "vid": 19.3731252,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T00:40:00",
+            "utc": "2023-03-22T05:40:00Z",
+            "numAloft": 784039,
+            "meanHeight": 2206.7257924,
+            "maxHeight": 3802.3951348,
+            "avgDirection": 11.43,
+            "avgSpeed": 35.9476258,
+            "vid": 16.4205366,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T00:50:00",
+            "utc": "2023-03-22T05:50:00Z",
+            "numAloft": 715074,
+            "meanHeight": 2190.4856344,
+            "maxHeight": 3844.2586532,
+            "avgDirection": 9.49,
+            "avgSpeed": 31.7421786,
+            "vid": 14.9701422,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T01:00:00",
+            "utc": "2023-03-22T06:00:00Z",
+            "numAloft": 713125,
+            "meanHeight": 2155.9055808,
+            "maxHeight": 3785.4003836,
+            "avgDirection": 15.9,
+            "avgSpeed": 38.1845658,
+            "vid": 14.9183424,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T01:10:00",
+            "utc": "2023-03-22T06:10:00Z",
+            "numAloft": 679547,
+            "meanHeight": 2089.7638464,
+            "maxHeight": 3774.8360788,
+            "avgDirection": 17.69,
+            "avgSpeed": 35.8805176,
+            "vid": 14.2190451,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T01:20:00",
+            "utc": "2023-03-22T06:20:00Z",
+            "numAloft": 559806,
+            "meanHeight": 2104.7572852,
+            "maxHeight": 3658.2022168,
+            "avgDirection": 11,
+            "avgSpeed": 33.2409284,
+            "vid": 11.7067548,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T01:30:00",
+            "utc": "2023-03-22T06:30:00Z",
+            "numAloft": 525185,
+            "meanHeight": 2131.1680472,
+            "maxHeight": 3815.8465788,
+            "avgDirection": 18.34,
+            "avgSpeed": 35.3660214,
+            "vid": 11.0074575,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T01:40:00",
+            "utc": "2023-03-22T06:40:00Z",
+            "numAloft": 510061,
+            "meanHeight": 2042.7822176,
+            "maxHeight": 3765.1904092,
+            "avgDirection": 24.13,
+            "avgSpeed": 35.7239318,
+            "vid": 10.6707588,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T01:50:00",
+            "utc": "2023-03-22T06:50:00Z",
+            "numAloft": 456274,
+            "meanHeight": 1997.8347096,
+            "maxHeight": 3770.7678372,
+            "avgDirection": 15.97,
+            "avgSpeed": 34.2475514,
+            "vid": 9.5570631,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T02:00:00",
+            "utc": "2023-03-22T07:00:00Z",
+            "numAloft": 418157,
+            "meanHeight": 2014.107676,
+            "maxHeight": 3757.0211176,
+            "avgDirection": 16.8,
+            "avgSpeed": 33.7106858,
+            "vid": 8.7541662,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T02:10:00",
+            "utc": "2023-03-22T07:10:00Z",
+            "numAloft": 400257,
+            "meanHeight": 1889.1404804,
+            "maxHeight": 3586.1549704,
+            "avgDirection": 15.61,
+            "avgSpeed": 34.6949394,
+            "vid": 8.3915676,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T02:20:00",
+            "utc": "2023-03-22T07:20:00Z",
+            "numAloft": 768363,
+            "meanHeight": 1167.650956,
+            "maxHeight": 2571.5880088,
+            "avgDirection": 16.26,
+            "avgSpeed": 37.1779428,
+            "vid": 16.0838379,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T02:30:00",
+            "utc": "2023-03-22T07:30:00Z",
+            "numAloft": 359408,
+            "meanHeight": 1752.8543868,
+            "maxHeight": 3431.3321308,
+            "avgDirection": 18.14,
+            "avgSpeed": 34.8515252,
+            "vid": 7.5368709,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T02:40:00",
+            "utc": "2023-03-22T07:40:00Z",
+            "numAloft": 377899,
+            "meanHeight": 1682.8740696,
+            "maxHeight": 3522.5722912,
+            "avgDirection": 15.44,
+            "avgSpeed": 35.1423274,
+            "vid": 7.8994695,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T02:50:00",
+            "utc": "2023-03-22T07:50:00Z",
+            "numAloft": 332415,
+            "meanHeight": 1756.1024184,
+            "maxHeight": 3830.872826,
+            "avgDirection": 19.95,
+            "avgSpeed": 35.5897154,
+            "vid": 6.9670731,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T03:00:00",
+            "utc": "2023-03-22T08:00:00Z",
+            "numAloft": 302363,
+            "meanHeight": 1880.6431048,
+            "maxHeight": 4295.0132608,
+            "avgDirection": 13.14,
+            "avgSpeed": 30.7355556,
+            "vid": 6.3195756,
+            "avgSpeedLevel": 3,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T03:10:00",
+            "utc": "2023-03-22T08:10:00Z",
+            "numAloft": 240796,
+            "meanHeight": 1872.867514,
+            "maxHeight": 3662.1392248,
+            "avgDirection": 8.59,
+            "avgSpeed": 27.514362,
+            "vid": 5.0504805,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T03:20:00",
+            "utc": "2023-03-22T08:20:00Z",
+            "numAloft": 206699,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 4.3252833,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T03:30:00",
+            "utc": "2023-03-22T08:30:00Z",
+            "numAloft": 203166,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 4.2475836,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T03:40:00",
+            "utc": "2023-03-22T08:40:00Z",
+            "numAloft": 169595,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.5482863,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T03:50:00",
+            "utc": "2023-03-22T08:50:00Z",
+            "numAloft": 171300,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.5741862,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T04:00:00",
+            "utc": "2023-03-22T09:00:00Z",
+            "numAloft": 171312,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.5741862,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T04:10:00",
+            "utc": "2023-03-22T09:10:00Z",
+            "numAloft": 149226,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.1338879,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T04:20:00",
+            "utc": "2023-03-22T09:20:00Z",
+            "numAloft": 165454,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.4705866,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T04:30:00",
+            "utc": "2023-03-22T09:30:00Z",
+            "numAloft": 141394,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.9525886,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T04:40:00",
+            "utc": "2023-03-22T09:40:00Z",
+            "numAloft": 141726,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.9784885,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T04:50:00",
+            "utc": "2023-03-22T09:50:00Z",
+            "numAloft": 143432,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.0043884,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T05:00:00",
+            "utc": "2023-03-22T10:00:00Z",
+            "numAloft": 134285,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.8230891,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T05:10:00",
+            "utc": "2023-03-22T10:10:00Z",
+            "numAloft": 129089,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.6935896,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T05:20:00",
+            "utc": "2023-03-22T10:20:00Z",
+            "numAloft": 132409,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.7712893,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T05:30:00",
+            "utc": "2023-03-22T10:30:00Z",
+            "numAloft": 128477,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.6935896,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T05:40:00",
+            "utc": "2023-03-22T10:40:00Z",
+            "numAloft": 124001,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.58999,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T05:50:00",
+            "utc": "2023-03-22T10:50:00Z",
+            "numAloft": 125193,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.6158899,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T06:00:00",
+            "utc": "2023-03-22T11:00:00Z",
+            "numAloft": 160914,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 3.366987,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T06:10:00",
+            "utc": "2023-03-22T11:10:00Z",
+            "numAloft": 124144,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.58999,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T06:20:00",
+            "utc": "2023-03-22T11:20:00Z",
+            "numAloft": 124291,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.58999,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T06:30:00",
+            "utc": "2023-03-22T11:30:00Z",
+            "numAloft": 138566,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.9007888,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T06:40:00",
+            "utc": "2023-03-22T11:40:00Z",
+            "numAloft": 124978,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 2.6158899,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T06:50:00",
+            "utc": "2023-03-22T11:50:00Z",
+            "numAloft": 207960,
+            "meanHeight": null,
+            "maxHeight": null,
+            "avgDirection": null,
+            "avgSpeed": null,
+            "vid": 4.3511832,
+            "avgSpeedLevel": null,
+            "isHigh": false
+          },
+          {
+            "localTime": "2023-03-22T07:00:00",
+            "utc": "2023-03-22T12:00:00Z",
+            "numAloft": 391058,
+            "meanHeight": 1849.2782744,
+            "maxHeight": 3450.0985356,
+            "avgDirection": 30.27,
+            "avgSpeed": 22.7496798,
+            "vid": 8.1843684,
+            "avgSpeedLevel": 2,
+            "isHigh": false
+          }
+        ]
+      },
+      "historical_raw": {
+        "generatedDt": "2023-03-21T00:00:00",
+        "regionCode": "US-MS",
+        "timezoneName": "America/Chicago",
+        "nightWeeklyAvgSeries": [
+          {
+            "dateTime": "2023-03-22T00:10:00Z",
+            "numAloft": 704151,
+            "meanHeight": 897.5722072,
+            "maxHeight": 1565.4856144,
+            "avgDirection": 238.42,
+            "avgSpeed": 15.323039,
+            "avgSpeedLevel": 1,
+            "vid": 14.7370431,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T00:20:00Z",
+            "numAloft": 651173,
+            "meanHeight": 896.653572,
+            "maxHeight": 1575.131284,
+            "avgDirection": 234.95,
+            "avgSpeed": 16.8217888,
+            "avgSpeedLevel": 1,
+            "vid": 13.6233474,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T00:30:00Z",
+            "numAloft": 591742,
+            "meanHeight": 786.6141984,
+            "maxHeight": 1518.7992612,
+            "avgDirection": 206.65,
+            "avgSpeed": 15.7480576,
+            "avgSpeedLevel": 1,
+            "vid": 12.3801522,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T00:40:00Z",
+            "numAloft": 731861,
+            "meanHeight": 1036.6470148,
+            "maxHeight": 2088.1890432,
+            "avgDirection": 162.18,
+            "avgSpeed": 16.9560052,
+            "avgSpeedLevel": 1,
+            "vid": 15.3327408,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T00:50:00Z",
+            "numAloft": 762921,
+            "meanHeight": 1035.1378284,
+            "maxHeight": 2079.1011164,
+            "avgDirection": 166.32,
+            "avgSpeed": 16.77705,
+            "avgSpeedLevel": 1,
+            "vid": 15.9802383,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T01:00:00Z",
+            "numAloft": 1150478,
+            "meanHeight": 1186.4173608,
+            "maxHeight": 2312.2376068,
+            "avgDirection": 176.46,
+            "avgSpeed": 17.7165648,
+            "avgSpeedLevel": 1,
+            "vid": 24.086907,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T01:10:00Z",
+            "numAloft": 1648925,
+            "meanHeight": 1329.724452,
+            "maxHeight": 2437.0407604,
+            "avgDirection": 176.44,
+            "avgSpeed": 18.5889714,
+            "avgSpeedLevel": 1,
+            "vid": 34.5245667,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T01:20:00Z",
+            "numAloft": 1651475,
+            "meanHeight": 1330.2821948,
+            "maxHeight": 2436.9751436,
+            "avgDirection": 174.81,
+            "avgSpeed": 18.231061,
+            "avgSpeedLevel": 1,
+            "vid": 34.5763665,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T01:30:00Z",
+            "numAloft": 1671764,
+            "meanHeight": 1375.0328524,
+            "maxHeight": 2617.8150444,
+            "avgDirection": 169.1,
+            "avgSpeed": 17.2915462,
+            "avgSpeedLevel": 1,
+            "vid": 34.9907649,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T01:40:00Z",
+            "numAloft": 1595311,
+            "meanHeight": 1384.7769472,
+            "maxHeight": 2712.6641288,
+            "avgDirection": 156.92,
+            "avgSpeed": 20.0653518,
+            "avgSpeedLevel": 2,
+            "vid": 33.3849711,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T01:50:00Z",
+            "numAloft": 1591171,
+            "meanHeight": 1384.678522,
+            "maxHeight": 2712.0735776,
+            "avgDirection": 157.86,
+            "avgSpeed": 20.13246,
+            "avgSpeedLevel": 2,
+            "vid": 33.3072714,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T02:00:00Z",
+            "numAloft": 1542952,
+            "meanHeight": 1402.3622496,
+            "maxHeight": 2784.5145248,
+            "avgDirection": 151.67,
+            "avgSpeed": 20.5127398,
+            "avgSpeedLevel": 2,
+            "vid": 32.2971753,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T02:10:00Z",
+            "numAloft": 1559248,
+            "meanHeight": 1409.1863968,
+            "maxHeight": 2829.8557336,
+            "avgDirection": 136.56,
+            "avgSpeed": 20.7364338,
+            "avgSpeedLevel": 2,
+            "vid": 32.633874,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T02:20:00Z",
+            "numAloft": 1554142,
+            "meanHeight": 1410.1378404,
+            "maxHeight": 2831.036836,
+            "avgDirection": 121.16,
+            "avgSpeed": 21.7877956,
+            "avgSpeedLevel": 2,
+            "vid": 32.5302744,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T02:30:00Z",
+            "numAloft": 1585354,
+            "meanHeight": 1455.6102828,
+            "maxHeight": 2931.2336896,
+            "avgDirection": 138.27,
+            "avgSpeed": 21.586471,
+            "avgSpeedLevel": 2,
+            "vid": 33.1777719,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T02:40:00Z",
+            "numAloft": 1575097,
+            "meanHeight": 1491.8963732,
+            "maxHeight": 3035.1378924,
+            "avgDirection": 115.64,
+            "avgSpeed": 23.7563028,
+            "avgSpeedLevel": 2,
+            "vid": 32.9705727,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T02:50:00Z",
+            "numAloft": 1579365,
+            "meanHeight": 1494.750704,
+            "maxHeight": 3036.6142704,
+            "avgDirection": 115.32,
+            "avgSpeed": 23.8010416,
+            "avgSpeedLevel": 2,
+            "vid": 33.0741723,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T03:00:00Z",
+            "numAloft": 1579629,
+            "meanHeight": 1534.1864008,
+            "maxHeight": 3097.9003616,
+            "avgDirection": 114.38,
+            "avgSpeed": 25.72481,
+            "avgSpeedLevel": 2,
+            "vid": 33.0741723,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T03:10:00Z",
+            "numAloft": 1604941,
+            "meanHeight": 1588.582728,
+            "maxHeight": 3172.3426212,
+            "avgDirection": 111.95,
+            "avgSpeed": 25.4116384,
+            "avgSpeedLevel": 2,
+            "vid": 33.5921703,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T03:20:00Z",
+            "numAloft": 1606615,
+            "meanHeight": 1596.5551692,
+            "maxHeight": 3192.25732,
+            "avgDirection": 112.6,
+            "avgSpeed": 25.6353324,
+            "avgSpeedLevel": 2,
+            "vid": 33.6439701,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T03:30:00Z",
+            "numAloft": 1639006,
+            "meanHeight": 1620.5381096,
+            "maxHeight": 3247.5722824,
+            "avgDirection": 97.88,
+            "avgSpeed": 25.948504,
+            "avgSpeedLevel": 2,
+            "vid": 34.3173675,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T03:40:00Z",
+            "numAloft": 1656710,
+            "meanHeight": 1682.5131772,
+            "maxHeight": 3350.393808,
+            "avgDirection": 88.64,
+            "avgSpeed": 25.2550526,
+            "avgSpeedLevel": 2,
+            "vid": 34.6799661,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T03:50:00Z",
+            "numAloft": 1656734,
+            "meanHeight": 1684.6129148,
+            "maxHeight": 3353.6418396,
+            "avgDirection": 89.4,
+            "avgSpeed": 25.389269,
+            "avgSpeedLevel": 2,
+            "vid": 34.6799661,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T04:00:00Z",
+            "numAloft": 1619864,
+            "meanHeight": 1717.6509736,
+            "maxHeight": 3419.5539152,
+            "avgDirection": 101.57,
+            "avgSpeed": 24.494493,
+            "avgSpeedLevel": 2,
+            "vid": 33.9029691,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T04:10:00Z",
+            "numAloft": 1587490,
+            "meanHeight": 1705.7415244,
+            "maxHeight": 3410.925306,
+            "avgDirection": 93.6,
+            "avgSpeed": 26.619586,
+            "avgSpeedLevel": 2,
+            "vid": 33.2295717,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T04:20:00Z",
+            "numAloft": 1598577,
+            "meanHeight": 1702.591918,
+            "maxHeight": 3407.4476156,
+            "avgDirection": 94.45,
+            "avgSpeed": 26.6866942,
+            "avgSpeedLevel": 2,
+            "vid": 33.4626708,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T04:30:00Z",
+            "numAloft": 1576493,
+            "meanHeight": 1725.0984804,
+            "maxHeight": 3437.7297688,
+            "avgDirection": 81.08,
+            "avgSpeed": 27.2235598,
+            "avgSpeedLevel": 2,
+            "vid": 32.9964726,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T04:40:00Z",
+            "numAloft": 1546605,
+            "meanHeight": 1690.7480856,
+            "maxHeight": 3390.8793736,
+            "avgDirection": 83.29,
+            "avgSpeed": 27.6709478,
+            "avgSpeedLevel": 2,
+            "vid": 32.374875,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T04:50:00Z",
+            "numAloft": 1549809,
+            "meanHeight": 1683.4318124,
+            "maxHeight": 3388.0578512,
+            "avgDirection": 86.98,
+            "avgSpeed": 27.402515,
+            "avgSpeedLevel": 2,
+            "vid": 32.4525747,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T05:00:00Z",
+            "numAloft": 1503576,
+            "meanHeight": 1685.6627836,
+            "maxHeight": 3403.9043084,
+            "avgDirection": 88.66,
+            "avgSpeed": 26.3064144,
+            "avgSpeedLevel": 2,
+            "vid": 31.4683785,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T05:10:00Z",
+            "numAloft": 1466352,
+            "meanHeight": 1671.752022,
+            "maxHeight": 3368.766512,
+            "avgDirection": 87.99,
+            "avgSpeed": 26.955127,
+            "avgSpeedLevel": 2,
+            "vid": 30.6913815,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T05:20:00Z",
+            "numAloft": 1447022,
+            "meanHeight": 1660.6299744,
+            "maxHeight": 3350.1313408,
+            "avgDirection": 88.9,
+            "avgSpeed": 27.066974,
+            "avgSpeedLevel": 2,
+            "vid": 30.302883,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T05:30:00Z",
+            "numAloft": 1409092,
+            "meanHeight": 1650.26252,
+            "maxHeight": 3346.4896084,
+            "avgDirection": 69.62,
+            "avgSpeed": 26.9103882,
+            "avgSpeedLevel": 2,
+            "vid": 29.4999861,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T05:40:00Z",
+            "numAloft": 1366112,
+            "meanHeight": 1592.2572688,
+            "maxHeight": 3229.8885548,
+            "avgDirection": 72.14,
+            "avgSpeed": 26.9998658,
+            "avgSpeedLevel": 2,
+            "vid": 28.5934896,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T05:50:00Z",
+            "numAloft": 1363484,
+            "meanHeight": 1587.9593684,
+            "maxHeight": 3221.948922,
+            "avgDirection": 74.16,
+            "avgSpeed": 27.2459292,
+            "avgSpeedLevel": 2,
+            "vid": 28.5416898,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T06:00:00Z",
+            "numAloft": 1319802,
+            "meanHeight": 1528.1824636,
+            "maxHeight": 3143.4384208,
+            "avgDirection": 74.86,
+            "avgSpeed": 27.1564516,
+            "avgSpeedLevel": 2,
+            "vid": 27.6351933,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T06:10:00Z",
+            "numAloft": 1252655,
+            "meanHeight": 1485.564352,
+            "maxHeight": 3061.02372,
+            "avgDirection": 80.64,
+            "avgSpeed": 26.3511532,
+            "avgSpeedLevel": 2,
+            "vid": 26.2365987,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T06:20:00Z",
+            "numAloft": 1242520,
+            "meanHeight": 1481.29926,
+            "maxHeight": 3056.430544,
+            "avgDirection": 77.03,
+            "avgSpeed": 26.84328,
+            "avgSpeedLevel": 2,
+            "vid": 26.0034996,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T06:30:00Z",
+            "numAloft": 1216475,
+            "meanHeight": 1417.2572632,
+            "maxHeight": 2951.8373648,
+            "avgDirection": 77.83,
+            "avgSpeed": 25.8142876,
+            "avgSpeedLevel": 2,
+            "vid": 25.4596017,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T06:40:00Z",
+            "numAloft": 1145486,
+            "meanHeight": 1355.1181536,
+            "maxHeight": 2868.8649212,
+            "avgDirection": 85.49,
+            "avgSpeed": 23.9576274,
+            "avgSpeedLevel": 2,
+            "vid": 23.9833074,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T06:50:00Z",
+            "numAloft": 1141400,
+            "meanHeight": 1344.1929564,
+            "maxHeight": 2849.0486476,
+            "avgDirection": 85.42,
+            "avgSpeed": 23.8905192,
+            "avgSpeedLevel": 2,
+            "vid": 23.9056077,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T07:00:00Z",
+            "numAloft": 1075496,
+            "meanHeight": 1313.4514856,
+            "maxHeight": 2770.66938,
+            "avgDirection": 81.51,
+            "avgSpeed": 25.1432056,
+            "avgSpeedLevel": 2,
+            "vid": 22.5070131,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T07:10:00Z",
+            "numAloft": 1000333,
+            "meanHeight": 1265.6168384,
+            "maxHeight": 2690.9777764,
+            "avgDirection": 86.59,
+            "avgSpeed": 22.1233366,
+            "avgSpeedLevel": 2,
+            "vid": 20.9530191,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T07:20:00Z",
+            "numAloft": 994789,
+            "meanHeight": 1256.5945284,
+            "maxHeight": 2676.8701644,
+            "avgDirection": 92.54,
+            "avgSpeed": 22.3246612,
+            "avgSpeedLevel": 2,
+            "vid": 20.8235196,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T07:30:00Z",
+            "numAloft": 932188,
+            "meanHeight": 1204.0026632,
+            "maxHeight": 2573.7861716,
+            "avgDirection": 89.91,
+            "avgSpeed": 22.8615268,
+            "avgSpeedLevel": 2,
+            "vid": 19.5026247,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T07:40:00Z",
+            "numAloft": 869442,
+            "meanHeight": 1134.2520048,
+            "maxHeight": 2432.0210752,
+            "avgDirection": 82.72,
+            "avgSpeed": 22.928635,
+            "avgSpeedLevel": 2,
+            "vid": 18.2076297,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T07:50:00Z",
+            "numAloft": 864480,
+            "meanHeight": 1132.381926,
+            "maxHeight": 2428.5761932,
+            "avgDirection": 82.36,
+            "avgSpeed": 22.9510044,
+            "avgSpeedLevel": 2,
+            "vid": 18.1040301,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T08:00:00Z",
+            "numAloft": 808863,
+            "meanHeight": 1097.8674892,
+            "maxHeight": 2337.762542,
+            "avgDirection": 86.02,
+            "avgSpeed": 23.7786722,
+            "avgSpeedLevel": 2,
+            "vid": 16.9385346,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T08:10:00Z",
+            "numAloft": 738983,
+            "meanHeight": 1036.6798232,
+            "maxHeight": 2200.2297292,
+            "avgDirection": 92.05,
+            "avgSpeed": 23.1746984,
+            "avgSpeedLevel": 2,
+            "vid": 15.4622403,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T08:20:00Z",
+            "numAloft": 739869,
+            "meanHeight": 1035.7939964,
+            "maxHeight": 2196.7520388,
+            "avgDirection": 87.71,
+            "avgSpeed": 23.0181126,
+            "avgSpeedLevel": 2,
+            "vid": 15.4881402,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T08:30:00Z",
+            "numAloft": 702584,
+            "meanHeight": 975.1968816,
+            "maxHeight": 2089.402954,
+            "avgDirection": 94.34,
+            "avgSpeed": 22.3246612,
+            "avgSpeedLevel": 2,
+            "vid": 14.7111432,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T08:40:00Z",
+            "numAloft": 631593,
+            "meanHeight": 973.58927,
+            "maxHeight": 2054.0683072,
+            "avgDirection": 101.16,
+            "avgSpeed": 22.593094,
+            "avgSpeedLevel": 2,
+            "vid": 13.2348489,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T08:50:00Z",
+            "numAloft": 629484,
+            "meanHeight": 968.7008184,
+            "maxHeight": 2043.635236,
+            "avgDirection": 101.33,
+            "avgSpeed": 22.4588776,
+            "avgSpeedLevel": 2,
+            "vid": 13.1830491,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T09:00:00Z",
+            "numAloft": 600053,
+            "meanHeight": 897.6050156,
+            "maxHeight": 1886.1221076,
+            "avgDirection": 89.95,
+            "avgSpeed": 21.5641016,
+            "avgSpeedLevel": 2,
+            "vid": 12.5614515,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T09:10:00Z",
+            "numAloft": 549228,
+            "meanHeight": 866.6666944,
+            "maxHeight": 1821.7520268,
+            "avgDirection": 100.32,
+            "avgSpeed": 21.25093,
+            "avgSpeedLevel": 2,
+            "vid": 11.4995556,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T09:20:00Z",
+            "numAloft": 541426,
+            "meanHeight": 857.0866416,
+            "maxHeight": 1799.4751232,
+            "avgDirection": 99.85,
+            "avgSpeed": 21.4969934,
+            "avgSpeedLevel": 2,
+            "vid": 11.3441562,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T09:30:00Z",
+            "numAloft": 514182,
+            "meanHeight": 812.9265352,
+            "maxHeight": 1692.4869308,
+            "avgDirection": 107.98,
+            "avgSpeed": 19.9311354,
+            "avgSpeedLevel": 2,
+            "vid": 10.7743584,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T09:40:00Z",
+            "numAloft": 463312,
+            "meanHeight": 777.3622296,
+            "maxHeight": 1623.0971648,
+            "avgDirection": 99.26,
+            "avgSpeed": 19.3719004,
+            "avgSpeedLevel": 2,
+            "vid": 9.6865626,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T09:50:00Z",
+            "numAloft": 460900,
+            "meanHeight": 774.2454316,
+            "maxHeight": 1619.7178996,
+            "avgDirection": 103.04,
+            "avgSpeed": 18.8350348,
+            "avgSpeedLevel": 1,
+            "vid": 9.6606627,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T10:00:00Z",
+            "numAloft": 404100,
+            "meanHeight": 736.3517296,
+            "maxHeight": 1533.2349572,
+            "avgDirection": 107.99,
+            "avgSpeed": 19.1482064,
+            "avgSpeedLevel": 1,
+            "vid": 8.4692673,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T10:10:00Z",
+            "numAloft": 362731,
+            "meanHeight": 659.7113072,
+            "maxHeight": 1378.4777344,
+            "avgDirection": 111.77,
+            "avgSpeed": 19.125837,
+            "avgSpeedLevel": 1,
+            "vid": 7.5886707,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T10:20:00Z",
+            "numAloft": 361966,
+            "meanHeight": 658.2677376,
+            "maxHeight": 1372.9331148,
+            "avgDirection": 111.31,
+            "avgSpeed": 19.1482064,
+            "avgSpeedLevel": 1,
+            "vid": 7.5886707,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T10:30:00Z",
+            "numAloft": 327169,
+            "meanHeight": 606.2336152,
+            "maxHeight": 1281.496104,
+            "avgDirection": 114.75,
+            "avgSpeed": 18.7679266,
+            "avgSpeedLevel": 1,
+            "vid": 6.8375736,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T10:40:00Z",
+            "numAloft": 300154,
+            "meanHeight": 552.82154,
+            "maxHeight": 1196.5879648,
+            "avgDirection": 111.62,
+            "avgSpeed": 18.9245124,
+            "avgSpeedLevel": 1,
+            "vid": 6.2936757,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T10:50:00Z",
+            "numAloft": 295495,
+            "meanHeight": 551.4435872,
+            "maxHeight": 1194.1601432,
+            "avgDirection": 112.36,
+            "avgSpeed": 18.790296,
+            "avgSpeedLevel": 1,
+            "vid": 6.1900761,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T11:00:00Z",
+            "numAloft": 271706,
+            "meanHeight": 464.6981776,
+            "maxHeight": 1004.8556752,
+            "avgDirection": 125.24,
+            "avgSpeed": 18.902143,
+            "avgSpeedLevel": 1,
+            "vid": 5.697978,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T11:10:00Z",
+            "numAloft": 245794,
+            "meanHeight": 424.1798036,
+            "maxHeight": 896.5223384,
+            "avgDirection": 108.55,
+            "avgSpeed": 18.902143,
+            "avgSpeedLevel": 1,
+            "vid": 5.1540801,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T11:20:00Z",
+            "numAloft": 236358,
+            "meanHeight": 403.1824276,
+            "maxHeight": 848.7861164,
+            "avgDirection": 114.77,
+            "avgSpeed": 19.2153146,
+            "avgSpeedLevel": 1,
+            "vid": 4.9468809,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T11:30:00Z",
+            "numAloft": 174089,
+            "meanHeight": 225.5905584,
+            "maxHeight": 489.1076272,
+            "avgDirection": 128.35,
+            "avgSpeed": 16.7994194,
+            "avgSpeedLevel": 1,
+            "vid": 3.6518859,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T11:40:00Z",
+            "numAloft": 229441,
+            "meanHeight": 442.8477832,
+            "maxHeight": 903.4777192,
+            "avgDirection": 133.01,
+            "avgSpeed": 17.0231134,
+            "avgSpeedLevel": 1,
+            "vid": 4.7914815,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T11:50:00Z",
+            "numAloft": 251503,
+            "meanHeight": 480.0525088,
+            "maxHeight": 997.1785096,
+            "avgDirection": 136.28,
+            "avgSpeed": 17.0454828,
+            "avgSpeedLevel": 1,
+            "vid": 5.2576797,
+            "isHigh": false
+          },
+          {
+            "dateTime": "2023-03-22T12:00:00Z",
+            "numAloft": 555397,
+            "meanHeight": 617.454088,
+            "maxHeight": 1234.744134,
+            "avgDirection": 135.06,
+            "avgSpeed": 18.9468818,
+            "avgSpeedLevel": 1,
+            "vid": 11.6290551,
+            "isHigh": false
+          }
+        ],
+        "season": {
+          "currentSeasonSeries": [
+            {
+              "dateTime": "2023-03-01T00:00:00",
+              "numAloft": 631078.9365333334,
+              "totalBirds": 762168.06
+            },
+            {
+              "dateTime": "2023-03-02T00:00:00",
+              "numAloft": 476390.9636,
+              "totalBirds": 1318116.17
+            },
+            {
+              "dateTime": "2023-03-03T00:00:00",
+              "numAloft": 123533.2424,
+              "totalBirds": 1344512.54
+            },
+            {
+              "dateTime": "2023-03-04T00:00:00",
+              "numAloft": 182436.9352,
+              "totalBirds": 1460682.09
+            },
+            {
+              "dateTime": "2023-03-05T00:00:00",
+              "numAloft": 1597791.736,
+              "totalBirds": 4063437.33
+            },
+            {
+              "dateTime": "2023-03-06T00:00:00",
+              "numAloft": 863771.6109333333,
+              "totalBirds": 5033802.19
+            },
+            {
+              "dateTime": "2023-03-07T00:00:00",
+              "numAloft": 325448.1386666667,
+              "totalBirds": 5314723.86
+            },
+            {
+              "dateTime": "2023-03-08T00:00:00",
+              "numAloft": 391524.2718918919,
+              "totalBirds": 5589713.43
+            },
+            {
+              "dateTime": "2023-03-09T00:00:00",
+              "numAloft": 673367.910945946,
+              "totalBirds": 6121190.82
+            },
+            {
+              "dateTime": "2023-03-10T00:00:00",
+              "numAloft": 153144.73135135137,
+              "totalBirds": 6197958.53
+            },
+            {
+              "dateTime": "2023-03-11T00:00:00",
+              "numAloft": 968506.0226027397,
+              "totalBirds": 7800575.21
+            },
+            {
+              "dateTime": "2023-03-12T00:00:00",
+              "numAloft": 130356.2894520548,
+              "totalBirds": 7826992.85
+            },
+            {
+              "dateTime": "2023-03-13T00:00:00",
+              "numAloft": 126788.01575342465,
+              "totalBirds": 7853939.75
+            },
+            {
+              "dateTime": "2023-03-14T00:00:00",
+              "numAloft": 132334.46506849315,
+              "totalBirds": 7887046.36
+            },
+            {
+              "dateTime": "2023-03-15T00:00:00",
+              "numAloft": 606106.3539726028,
+              "totalBirds": 8698998.22
+            },
+            {
+              "dateTime": "2023-03-16T00:00:00",
+              "numAloft": 325567.21472222224,
+              "totalBirds": 8982854.97
+            },
+            {
+              "dateTime": "2023-03-17T00:00:00",
+              "numAloft": 123622.69847222223,
+              "totalBirds": 9008985.01
+            },
+            {
+              "dateTime": "2023-03-18T00:00:00",
+              "numAloft": 125160.16791666667,
+              "totalBirds": 9034864.43
+            },
+            {
+              "dateTime": "2023-03-19T00:00:00",
+              "numAloft": 125673.16680555555,
+              "totalBirds": 9061401.12
+            },
+            {
+              "dateTime": "2023-03-20T00:00:00",
+              "numAloft": 150681.86416666667,
+              "totalBirds": 9165419.02
+            },
+            {
+              "dateTime": "2023-03-21T00:00:00",
+              "numAloft": 429254.7598611111,
+              "totalBirds": 9719753.92
+            },
+            {
+              "dateTime": "2023-03-22T00:00:00",
+              "numAloft": 1938595.621111111,
+              "totalBirds": 13084472.8
+            },
+            {
+              "dateTime": "2023-03-23T00:00:00",
+              "numAloft": 2549463.9681944447,
+              "totalBirds": 17858584.21
+            },
+            {
+              "dateTime": "2023-03-24T00:00:00",
+              "numAloft": 828071.9562857143,
+              "totalBirds": 18812571.14
+            },
+            {
+              "dateTime": "2023-03-25T00:00:00",
+              "numAloft": 2724862.09,
+              "totalBirds": 21755920.51
+            },
+            {
+              "dateTime": "2023-03-26T00:00:00",
+              "numAloft": 1218323.4855714287,
+              "totalBirds": 22981779.02
+            },
+            {
+              "dateTime": "2023-03-27T00:00:00",
+              "numAloft": 561489.2544285714,
+              "totalBirds": 23386838.45
+            },
+            {
+              "dateTime": "2023-03-28T00:00:00",
+              "numAloft": 124351.519,
+              "totalBirds": 23413341.93
+            },
+            {
+              "dateTime": "2023-03-29T00:00:00",
+              "numAloft": 1739813.0408571428,
+              "totalBirds": 25488407.83
+            },
+            {
+              "dateTime": "2023-03-30T00:00:00",
+              "numAloft": 4125138.409,
+              "totalBirds": 33893196.95
+            },
+            {
+              "dateTime": "2023-03-31T00:00:00",
+              "numAloft": 2580969.8298550723,
+              "totalBirds": 38189287.9
+            },
+            {
+              "dateTime": "2023-04-01T00:00:00",
+              "numAloft": 594674.2227536232,
+              "totalBirds": 38622720.18
+            },
+            {
+              "dateTime": "2023-04-02T00:00:00",
+              "numAloft": 1803863.9726086957,
+              "totalBirds": 39853595.61
+            },
+            {
+              "dateTime": "2023-04-03T00:00:00",
+              "numAloft": 6276409.8769565215,
+              "totalBirds": 50786271
+            },
+            {
+              "dateTime": "2023-04-04T00:00:00",
+              "numAloft": 4066157.0491304346,
+              "totalBirds": 58231050.36
+            },
+            {
+              "dateTime": "2023-04-05T00:00:00",
+              "numAloft": 2043302.2601449275,
+              "totalBirds": 60278056.59
+            },
+            {
+              "dateTime": "2023-04-06T00:00:00",
+              "numAloft": 296296.3153623188,
+              "totalBirds": 60400833.07
+            },
+            {
+              "dateTime": "2023-04-07T00:00:00",
+              "numAloft": 151811.45044117648,
+              "totalBirds": 60431936.17
+            },
+            {
+              "dateTime": "2023-04-08T00:00:00",
+              "numAloft": 210548.9947761194,
+              "totalBirds": 60517453.25
+            },
+            {
+              "dateTime": "2023-04-09T00:00:00",
+              "numAloft": 1549450.9207462687,
+              "totalBirds": 62202720.79
+            },
+            {
+              "dateTime": "2023-04-10T00:00:00",
+              "numAloft": 2922788.046119403,
+              "totalBirds": 65155526.91
+            },
+            {
+              "dateTime": "2023-04-11T00:00:00",
+              "numAloft": 2419072.228358209,
+              "totalBirds": 67232099.18
+            },
+            {
+              "dateTime": "2023-04-12T00:00:00",
+              "numAloft": 1831460.9,
+              "totalBirds": 68118863.51
+            },
+            {
+              "dateTime": "2023-04-13T00:00:00",
+              "numAloft": 1685916.953283582,
+              "totalBirds": 70117550.95
+            },
+            {
+              "dateTime": "2023-04-14T00:00:00",
+              "numAloft": 16661869.942537313,
+              "totalBirds": 95831738.11
+            },
+            {
+              "dateTime": "2023-04-15T00:00:00",
+              "numAloft": 3850130.959402985,
+              "totalBirds": 99438279.89
+            },
+            {
+              "dateTime": "2023-04-16T00:00:00",
+              "numAloft": 342212.7548484848,
+              "totalBirds": 99631204.92
+            },
+            {
+              "dateTime": "2023-04-17T00:00:00",
+              "numAloft": 3076624.171818182,
+              "totalBirds": 103011958.1
+            },
+            {
+              "dateTime": "2023-04-18T00:00:00",
+              "numAloft": 7575810.86030303,
+              "totalBirds": 113752761.24
+            },
+            {
+              "dateTime": "2023-04-19T00:00:00",
+              "numAloft": 6766403.7271212125,
+              "totalBirds": 124685197.46
+            },
+            {
+              "dateTime": "2023-04-20T00:00:00",
+              "numAloft": 6123023.099848485,
+              "totalBirds": 132265937.97
+            },
+            {
+              "dateTime": "2023-04-21T00:00:00",
+              "numAloft": 1230383.3063076923,
+              "totalBirds": 133166994.97
+            },
+            {
+              "dateTime": "2023-04-22T00:00:00",
+              "numAloft": 609942.702,
+              "totalBirds": 133618807.17
+            },
+            {
+              "dateTime": "2023-04-23T00:00:00",
+              "numAloft": 293928.9356923077,
+              "totalBirds": 133747792.26
+            },
+            {
+              "dateTime": "2023-04-24T00:00:00",
+              "numAloft": 2144848.915230769,
+              "totalBirds": 135924396.35
+            },
+            {
+              "dateTime": "2023-04-25T00:00:00",
+              "numAloft": 7295231.83421875,
+              "totalBirds": 142339693.44
+            },
+            {
+              "dateTime": "2023-04-26T00:00:00",
+              "numAloft": 3920353.98609375,
+              "totalBirds": 144354339.2
+            },
+            {
+              "dateTime": "2023-04-27T00:00:00",
+              "numAloft": 34672928.738125,
+              "totalBirds": 195974835.55
+            },
+            {
+              "dateTime": "2023-04-28T00:00:00",
+              "numAloft": 20736777.505,
+              "totalBirds": 217945450.37
+            },
+            {
+              "dateTime": "2023-04-29T00:00:00",
+              "numAloft": 3164869.2834375,
+              "totalBirds": 219957326.82
+            },
+            {
+              "dateTime": "2023-04-30T00:00:00",
+              "numAloft": 9301144.10875,
+              "totalBirds": 230412320.78
+            },
+            {
+              "dateTime": "2023-05-01T00:00:00",
+              "numAloft": 12850505.38859375,
+              "totalBirds": 245429818
+            },
+            {
+              "dateTime": "2023-05-02T00:00:00",
+              "numAloft": 16233065.79375,
+              "totalBirds": 259271318.28
+            },
+            {
+              "dateTime": "2023-05-03T00:00:00",
+              "numAloft": 21042110.63171875,
+              "totalBirds": 277028747.86
+            },
+            {
+              "dateTime": "2023-05-04T00:00:00",
+              "numAloft": 20654491.25609375,
+              "totalBirds": 288052438.59
+            },
+            {
+              "dateTime": "2023-05-05T00:00:00",
+              "numAloft": 25540113.851935484,
+              "totalBirds": 329703347.46
+            },
+            {
+              "dateTime": "2023-05-06T00:00:00",
+              "numAloft": 25713671.442903224,
+              "totalBirds": 373296896.26
+            },
+            {
+              "dateTime": "2023-05-07T00:00:00",
+              "numAloft": 14817503.282741936,
+              "totalBirds": 398077895.09
+            },
+            {
+              "dateTime": "2023-05-08T00:00:00",
+              "numAloft": 12198588.332258064,
+              "totalBirds": 413220928.5
+            },
+            {
+              "dateTime": "2023-05-09T00:00:00",
+              "numAloft": 12060779.06016129,
+              "totalBirds": 426042402.36
+            },
+            {
+              "dateTime": "2023-05-10T00:00:00",
+              "numAloft": 6391082.756290322,
+              "totalBirds": 432291719.65
+            },
+            {
+              "dateTime": "2023-05-11T00:00:00",
+              "numAloft": 7996979.101612903,
+              "totalBirds": 441978877.86
+            },
+            {
+              "dateTime": "2023-05-12T00:00:00",
+              "numAloft": 5847607.620967742,
+              "totalBirds": 448453835.27
+            },
+            {
+              "dateTime": "2023-05-13T00:00:00",
+              "numAloft": 5440846.062258065,
+              "totalBirds": 453712114.59
+            },
+            {
+              "dateTime": "2023-05-14T00:00:00",
+              "numAloft": 2524900.661451613,
+              "totalBirds": 455516039.56
+            },
+            {
+              "dateTime": "2023-05-15T00:00:00",
+              "numAloft": 3796043.8445161292,
+              "totalBirds": 459877280.68
+            },
+            {
+              "dateTime": "2023-05-16T00:00:00",
+              "numAloft": 1533672.510967742,
+              "totalBirds": 461130362.32
+            },
+            {
+              "dateTime": "2023-05-17T00:00:00",
+              "numAloft": 2153430.644032258,
+              "totalBirds": 462704800.29
+            },
+            {
+              "dateTime": "2023-05-18T00:00:00",
+              "numAloft": 3965466.945483871,
+              "totalBirds": 466525933.04
+            },
+            {
+              "dateTime": "2023-05-19T00:00:00",
+              "numAloft": 5382233.439166667,
+              "totalBirds": 472095801.56
+            },
+            {
+              "dateTime": "2023-05-20T00:00:00",
+              "numAloft": 1393155.6448333333,
+              "totalBirds": 472929558.07
+            },
+            {
+              "dateTime": "2023-05-21T00:00:00",
+              "numAloft": 3116439.0956666665,
+              "totalBirds": 474783694.59
+            },
+            {
+              "dateTime": "2023-05-22T00:00:00",
+              "numAloft": 3660745.678,
+              "totalBirds": 478176444.11
+            },
+            {
+              "dateTime": "2023-05-23T00:00:00",
+              "numAloft": 1552793.285,
+              "totalBirds": 479320764.91
+            },
+            {
+              "dateTime": "2023-05-24T00:00:00",
+              "numAloft": 685578.5576666667,
+              "totalBirds": 479554510.18
+            },
+            {
+              "dateTime": "2023-05-25T00:00:00",
+              "numAloft": 491941.7768333333,
+              "totalBirds": 479796991.9
+            },
+            {
+              "dateTime": "2023-05-26T00:00:00",
+              "numAloft": 744064.1023333333,
+              "totalBirds": 480361510.4
+            },
+            {
+              "dateTime": "2023-05-27T00:00:00",
+              "numAloft": 859225.2388333334,
+              "totalBirds": 480849353.61
+            },
+            {
+              "dateTime": "2023-05-28T00:00:00",
+              "numAloft": 1207743.4951666666,
+              "totalBirds": 481596041.92
+            },
+            {
+              "dateTime": "2023-05-29T00:00:00",
+              "numAloft": 1001872.011,
+              "totalBirds": 482165548.59
+            },
+            {
+              "dateTime": "2023-05-30T00:00:00",
+              "numAloft": 1202101.5116666667,
+              "totalBirds": 482740596.85
+            },
+            {
+              "dateTime": "2023-05-31T00:00:00",
+              "numAloft": 833365.3905,
+              "totalBirds": 483313516.29
+            },
+            {
+              "dateTime": "2023-06-01T00:00:00",
+              "numAloft": 461419.9756666667,
+              "totalBirds": 483485631.42
+            },
+            {
+              "dateTime": "2023-06-02T00:00:00",
+              "numAloft": 187417.03683333335,
+              "totalBirds": 483528349.4
+            },
+            {
+              "dateTime": "2023-06-03T00:00:00",
+              "numAloft": 153838.92083333334,
+              "totalBirds": 483569381.27
+            },
+            {
+              "dateTime": "2023-06-04T00:00:00",
+              "numAloft": 532112.6905084746,
+              "totalBirds": 483835514.26
+            },
+            {
+              "dateTime": "2023-06-05T00:00:00",
+              "numAloft": 411029.5493220339,
+              "totalBirds": 483980866.21
+            },
+            {
+              "dateTime": "2023-06-06T00:00:00",
+              "numAloft": 344080.8527118644,
+              "totalBirds": 484116284.62
+            },
+            {
+              "dateTime": "2023-06-07T00:00:00",
+              "numAloft": 156004.16898305085,
+              "totalBirds": 484153473.27
+            },
+            {
+              "dateTime": "2023-06-08T00:00:00",
+              "numAloft": 300320.7508474576,
+              "totalBirds": 484241194.56
+            },
+            {
+              "dateTime": "2023-06-09T00:00:00",
+              "numAloft": 515851.8022033898,
+              "totalBirds": 484484030.84
+            },
+            {
+              "dateTime": "2023-06-10T00:00:00",
+              "numAloft": 492828.8806779661,
+              "totalBirds": 484805298.7
+            },
+            {
+              "dateTime": "2023-06-11T00:00:00",
+              "numAloft": 372203.5433898305,
+              "totalBirds": 485007356.17
+            },
+            {
+              "dateTime": "2023-06-12T00:00:00",
+              "numAloft": 468083.38237288134,
+              "totalBirds": 485164300.61
+            },
+            {
+              "dateTime": "2023-06-13T00:00:00",
+              "numAloft": 722492.5791525424,
+              "totalBirds": 485665323.96
+            },
+            {
+              "dateTime": "2023-06-14T00:00:00",
+              "numAloft": 774197.3725423729,
+              "totalBirds": 486051228.8
+            },
+            {
+              "dateTime": "2023-06-15T00:00:00",
+              "numAloft": 379200.9106779661,
+              "totalBirds": 486171450.96
+            }
+          ],
+          "annualAvgSeries": [
+            {
+              "dateTime": "2023-03-01T00:00:00",
+              "numAloft": 352135.02,
+              "totalBirds": 516010.74
+            },
+            {
+              "dateTime": "2023-03-02T00:00:00",
+              "numAloft": 365578.95,
+              "totalBirds": 1055531.79
+            },
+            {
+              "dateTime": "2023-03-03T00:00:00",
+              "numAloft": 385219.7,
+              "totalBirds": 1626528.34
+            },
+            {
+              "dateTime": "2023-03-04T00:00:00",
+              "numAloft": 408526.59,
+              "totalBirds": 2233456.57
+            },
+            {
+              "dateTime": "2023-03-05T00:00:00",
+              "numAloft": 435563.53,
+              "totalBirds": 2880586.78
+            },
+            {
+              "dateTime": "2023-03-06T00:00:00",
+              "numAloft": 470320.82,
+              "totalBirds": 3580719.88
+            },
+            {
+              "dateTime": "2023-03-07T00:00:00",
+              "numAloft": 515341.49,
+              "totalBirds": 4347231.02
+            },
+            {
+              "dateTime": "2023-03-08T00:00:00",
+              "numAloft": 560827.76,
+              "totalBirds": 5177559.43
+            },
+            {
+              "dateTime": "2023-03-09T00:00:00",
+              "numAloft": 602703.98,
+              "totalBirds": 6065594.61
+            },
+            {
+              "dateTime": "2023-03-10T00:00:00",
+              "numAloft": 642970.59,
+              "totalBirds": 7006283.57
+            },
+            {
+              "dateTime": "2023-03-11T00:00:00",
+              "numAloft": 680726.76,
+              "totalBirds": 7993538.56
+            },
+            {
+              "dateTime": "2023-03-12T00:00:00",
+              "numAloft": 720416.72,
+              "totalBirds": 9030302.42
+            },
+            {
+              "dateTime": "2023-03-13T00:00:00",
+              "numAloft": 759337.82,
+              "totalBirds": 10114636.24
+            },
+            {
+              "dateTime": "2023-03-14T00:00:00",
+              "numAloft": 802338.26,
+              "totalBirds": 11254552.69
+            },
+            {
+              "dateTime": "2023-03-15T00:00:00",
+              "numAloft": 846001.13,
+              "totalBirds": 12452113.57
+            },
+            {
+              "dateTime": "2023-03-16T00:00:00",
+              "numAloft": 884298.68,
+              "totalBirds": 13696753.65
+            },
+            {
+              "dateTime": "2023-03-17T00:00:00",
+              "numAloft": 919408.69,
+              "totalBirds": 14983111.66
+            },
+            {
+              "dateTime": "2023-03-18T00:00:00",
+              "numAloft": 954880.62,
+              "totalBirds": 16315316.08
+            },
+            {
+              "dateTime": "2023-03-19T00:00:00",
+              "numAloft": 992692.13,
+              "totalBirds": 17694104.22
+            },
+            {
+              "dateTime": "2023-03-20T00:00:00",
+              "numAloft": 1034025.15,
+              "totalBirds": 19126838.95
+            },
+            {
+              "dateTime": "2023-03-21T00:00:00",
+              "numAloft": 1078817.49,
+              "totalBirds": 20620022.95
+            },
+            {
+              "dateTime": "2023-03-22T00:00:00",
+              "numAloft": 1131676.94,
+              "totalBirds": 22185333.25
+            },
+            {
+              "dateTime": "2023-03-23T00:00:00",
+              "numAloft": 1190073.79,
+              "totalBirds": 23830409.73
+            },
+            {
+              "dateTime": "2023-03-24T00:00:00",
+              "numAloft": 1246822.27,
+              "totalBirds": 25551152.51
+            },
+            {
+              "dateTime": "2023-03-25T00:00:00",
+              "numAloft": 1299405.63,
+              "totalBirds": 27337990.93
+            },
+            {
+              "dateTime": "2023-03-26T00:00:00",
+              "numAloft": 1349575.14,
+              "totalBirds": 29186112.36
+            },
+            {
+              "dateTime": "2023-03-27T00:00:00",
+              "numAloft": 1400485.24,
+              "totalBirds": 31094681.44
+            },
+            {
+              "dateTime": "2023-03-28T00:00:00",
+              "numAloft": 1456600.5,
+              "totalBirds": 33072218.93
+            },
+            {
+              "dateTime": "2023-03-29T00:00:00",
+              "numAloft": 1515806.25,
+              "totalBirds": 35121917.41
+            },
+            {
+              "dateTime": "2023-03-30T00:00:00",
+              "numAloft": 1583689.22,
+              "totalBirds": 37259384.87
+            },
+            {
+              "dateTime": "2023-03-31T00:00:00",
+              "numAloft": 1659324.16,
+              "totalBirds": 39489458.33
+            },
+            {
+              "dateTime": "2023-04-01T00:00:00",
+              "numAloft": 1750967.92,
+              "totalBirds": 41841653.68
+            },
+            {
+              "dateTime": "2023-04-02T00:00:00",
+              "numAloft": 1853372.85,
+              "totalBirds": 44332470.09
+            },
+            {
+              "dateTime": "2023-04-03T00:00:00",
+              "numAloft": 1971632.04,
+              "totalBirds": 46977134.47
+            },
+            {
+              "dateTime": "2023-04-04T00:00:00",
+              "numAloft": 2109729.48,
+              "totalBirds": 49802614.87
+            },
+            {
+              "dateTime": "2023-04-05T00:00:00",
+              "numAloft": 2255114.74,
+              "totalBirds": 52817177.19
+            },
+            {
+              "dateTime": "2023-04-06T00:00:00",
+              "numAloft": 2413658.18,
+              "totalBirds": 56037986.13
+            },
+            {
+              "dateTime": "2023-04-07T00:00:00",
+              "numAloft": 2586984.67,
+              "totalBirds": 59488116.29
+            },
+            {
+              "dateTime": "2023-04-08T00:00:00",
+              "numAloft": 2785019.85,
+              "totalBirds": 63201470.09
+            },
+            {
+              "dateTime": "2023-04-09T00:00:00",
+              "numAloft": 2982551.22,
+              "totalBirds": 67166320.45
+            },
+            {
+              "dateTime": "2023-04-10T00:00:00",
+              "numAloft": 3185589.67,
+              "totalBirds": 71388325.33
+            },
+            {
+              "dateTime": "2023-04-11T00:00:00",
+              "numAloft": 3392109.39,
+              "totalBirds": 75862960.98
+            },
+            {
+              "dateTime": "2023-04-12T00:00:00",
+              "numAloft": 3604617.09,
+              "totalBirds": 80582131.69
+            },
+            {
+              "dateTime": "2023-04-13T00:00:00",
+              "numAloft": 3811315.91,
+              "totalBirds": 85540151.67
+            },
+            {
+              "dateTime": "2023-04-14T00:00:00",
+              "numAloft": 4029904.09,
+              "totalBirds": 90748800.56
+            },
+            {
+              "dateTime": "2023-04-15T00:00:00",
+              "numAloft": 4300380.7,
+              "totalBirds": 96282811.05
+            },
+            {
+              "dateTime": "2023-04-16T00:00:00",
+              "numAloft": 4638689.79,
+              "totalBirds": 102240278.27
+            },
+            {
+              "dateTime": "2023-04-17T00:00:00",
+              "numAloft": 5028873.62,
+              "totalBirds": 108707921.67
+            },
+            {
+              "dateTime": "2023-04-18T00:00:00",
+              "numAloft": 5466742.79,
+              "totalBirds": 115773941.13
+            },
+            {
+              "dateTime": "2023-04-19T00:00:00",
+              "numAloft": 5930918.39,
+              "totalBirds": 123478246.72
+            },
+            {
+              "dateTime": "2023-04-20T00:00:00",
+              "numAloft": 6432617.5,
+              "totalBirds": 131863334.96
+            },
+            {
+              "dateTime": "2023-04-21T00:00:00",
+              "numAloft": 6956463.36,
+              "totalBirds": 140964526.21
+            },
+            {
+              "dateTime": "2023-04-22T00:00:00",
+              "numAloft": 7496742.18,
+              "totalBirds": 150808489
+            },
+            {
+              "dateTime": "2023-04-23T00:00:00",
+              "numAloft": 8043242.13,
+              "totalBirds": 161425701.85
+            },
+            {
+              "dateTime": "2023-04-24T00:00:00",
+              "numAloft": 8589791.62,
+              "totalBirds": 172822653.96
+            },
+            {
+              "dateTime": "2023-04-25T00:00:00",
+              "numAloft": 9067819.15,
+              "totalBirds": 184914485.54
+            },
+            {
+              "dateTime": "2023-04-26T00:00:00",
+              "numAloft": 9410820.73,
+              "totalBirds": 197506775.98
+            },
+            {
+              "dateTime": "2023-04-27T00:00:00",
+              "numAloft": 9650648.59,
+              "totalBirds": 210431568.48
+            },
+            {
+              "dateTime": "2023-04-28T00:00:00",
+              "numAloft": 9801885.68,
+              "totalBirds": 223525338.63
+            },
+            {
+              "dateTime": "2023-04-29T00:00:00",
+              "numAloft": 9879446.26,
+              "totalBirds": 236673205.65
+            },
+            {
+              "dateTime": "2023-04-30T00:00:00",
+              "numAloft": 9875522.55,
+              "totalBirds": 249791402.03
+            },
+            {
+              "dateTime": "2023-05-01T00:00:00",
+              "numAloft": 9816373.31,
+              "totalBirds": 262832670.48
+            },
+            {
+              "dateTime": "2023-05-02T00:00:00",
+              "numAloft": 9681363.42,
+              "totalBirds": 275689926.05
+            },
+            {
+              "dateTime": "2023-05-03T00:00:00",
+              "numAloft": 9468247.39,
+              "totalBirds": 288244240.28
+            },
+            {
+              "dateTime": "2023-05-04T00:00:00",
+              "numAloft": 9195942.48,
+              "totalBirds": 300387448.29
+            },
+            {
+              "dateTime": "2023-05-05T00:00:00",
+              "numAloft": 8910236.35,
+              "totalBirds": 312081604.1
+            },
+            {
+              "dateTime": "2023-05-06T00:00:00",
+              "numAloft": 8648766.24,
+              "totalBirds": 323372602.04
+            },
+            {
+              "dateTime": "2023-05-07T00:00:00",
+              "numAloft": 8399156,
+              "totalBirds": 334291974.45
+            },
+            {
+              "dateTime": "2023-05-08T00:00:00",
+              "numAloft": 8110286.93,
+              "totalBirds": 344809645.38
+            },
+            {
+              "dateTime": "2023-05-09T00:00:00",
+              "numAloft": 7798228.11,
+              "totalBirds": 354908485.01
+            },
+            {
+              "dateTime": "2023-05-10T00:00:00",
+              "numAloft": 7454590.82,
+              "totalBirds": 364524039.58
+            },
+            {
+              "dateTime": "2023-05-11T00:00:00",
+              "numAloft": 7073019.43,
+              "totalBirds": 373561632.36
+            },
+            {
+              "dateTime": "2023-05-12T00:00:00",
+              "numAloft": 6664095.31,
+              "totalBirds": 381977423.08
+            },
+            {
+              "dateTime": "2023-05-13T00:00:00",
+              "numAloft": 6265609.1,
+              "totalBirds": 389786978
+            },
+            {
+              "dateTime": "2023-05-14T00:00:00",
+              "numAloft": 5861448.75,
+              "totalBirds": 397013128.88
+            },
+            {
+              "dateTime": "2023-05-15T00:00:00",
+              "numAloft": 5428003.09,
+              "totalBirds": 403638986.34
+            },
+            {
+              "dateTime": "2023-05-16T00:00:00",
+              "numAloft": 4962174.28,
+              "totalBirds": 409632223.88
+            },
+            {
+              "dateTime": "2023-05-17T00:00:00",
+              "numAloft": 4481931,
+              "totalBirds": 414964714.85
+            },
+            {
+              "dateTime": "2023-05-18T00:00:00",
+              "numAloft": 4027628.86,
+              "totalBirds": 419666092.45
+            },
+            {
+              "dateTime": "2023-05-19T00:00:00",
+              "numAloft": 3600634.86,
+              "totalBirds": 423779317.61
+            },
+            {
+              "dateTime": "2023-05-20T00:00:00",
+              "numAloft": 3199071.36,
+              "totalBirds": 427356934.28
+            },
+            {
+              "dateTime": "2023-05-21T00:00:00",
+              "numAloft": 2817189.19,
+              "totalBirds": 430441053.93
+            },
+            {
+              "dateTime": "2023-05-22T00:00:00",
+              "numAloft": 2477947.56,
+              "totalBirds": 433104140.51
+            },
+            {
+              "dateTime": "2023-05-23T00:00:00",
+              "numAloft": 2161332.16,
+              "totalBirds": 435379313.12
+            },
+            {
+              "dateTime": "2023-05-24T00:00:00",
+              "numAloft": 1864347.48,
+              "totalBirds": 437291216.62
+            },
+            {
+              "dateTime": "2023-05-25T00:00:00",
+              "numAloft": 1606327.02,
+              "totalBirds": 438886969.02
+            },
+            {
+              "dateTime": "2023-05-26T00:00:00",
+              "numAloft": 1393742.04,
+              "totalBirds": 440221020.56
+            },
+            {
+              "dateTime": "2023-05-27T00:00:00",
+              "numAloft": 1210772.86,
+              "totalBirds": 441329643.05
+            },
+            {
+              "dateTime": "2023-05-28T00:00:00",
+              "numAloft": 1047160.43,
+              "totalBirds": 442240374.65
+            },
+            {
+              "dateTime": "2023-05-29T00:00:00",
+              "numAloft": 910707.64,
+              "totalBirds": 442987804.34
+            },
+            {
+              "dateTime": "2023-05-30T00:00:00",
+              "numAloft": 804177.59,
+              "totalBirds": 443608700.27
+            },
+            {
+              "dateTime": "2023-05-31T00:00:00",
+              "numAloft": 720355.6,
+              "totalBirds": 444130769.86
+            },
+            {
+              "dateTime": "2023-06-01T00:00:00",
+              "numAloft": 660735.84,
+              "totalBirds": 444582830.95
+            },
+            {
+              "dateTime": "2023-06-02T00:00:00",
+              "numAloft": 615319.36,
+              "totalBirds": 444982754.91
+            },
+            {
+              "dateTime": "2023-06-03T00:00:00",
+              "numAloft": 579972.32,
+              "totalBirds": 445343615.86
+            },
+            {
+              "dateTime": "2023-06-04T00:00:00",
+              "numAloft": 549990.06,
+              "totalBirds": 445672877.59
+            },
+            {
+              "dateTime": "2023-06-05T00:00:00",
+              "numAloft": 525527.44,
+              "totalBirds": 445977321.7
+            },
+            {
+              "dateTime": "2023-06-06T00:00:00",
+              "numAloft": 505303.14,
+              "totalBirds": 446265436.27
+            },
+            {
+              "dateTime": "2023-06-07T00:00:00",
+              "numAloft": 489783.85,
+              "totalBirds": 446543226.7
+            },
+            {
+              "dateTime": "2023-06-08T00:00:00",
+              "numAloft": 478967.63,
+              "totalBirds": 446815328.04
+            },
+            {
+              "dateTime": "2023-06-09T00:00:00",
+              "numAloft": 471710.98,
+              "totalBirds": 447084828.5
+            },
+            {
+              "dateTime": "2023-06-10T00:00:00",
+              "numAloft": 465937.82,
+              "totalBirds": 447353231.96
+            },
+            {
+              "dateTime": "2023-06-11T00:00:00",
+              "numAloft": 460849.8,
+              "totalBirds": 447621040.44
+            },
+            {
+              "dateTime": "2023-06-12T00:00:00",
+              "numAloft": 457124.66,
+              "totalBirds": 447888784.83
+            },
+            {
+              "dateTime": "2023-06-13T00:00:00",
+              "numAloft": 456080.64,
+              "totalBirds": 448158021.77
+            },
+            {
+              "dateTime": "2023-06-14T00:00:00",
+              "numAloft": 460320.67,
+              "totalBirds": 448431933.05
+            },
+            {
+              "dateTime": "2023-06-15T00:00:00",
+              "numAloft": 466062.21,
+              "totalBirds": 448710865.93
+            }
+          ]
+        }
+      }
+    }
+  },
+  "case_summaries": {
+    "Quad-State": {
+      "outbreak_date": "2021-12-10",
+      "outbreak_mean_vid": null,
+      "quiet_mean_vid": null,
+      "difference_vs_quiet": null
+    },
+    "Rolling Fork": {
+      "outbreak_date": "2023-03-24",
+      "outbreak_mean_vid": 17.336,
+      "quiet_mean_vid": 8.987,
+      "difference_vs_quiet": 8.349
+    },
+    "Super Outbreak": {
+      "outbreak_date": "2011-04-27",
+      "outbreak_mean_vid": null,
+      "quiet_mean_vid": null,
+      "difference_vs_quiet": null
+    }
+  }
+}

@@ -14,6 +14,7 @@ if str(ROOT) not in sys.path:
 
 
 HOLLER_SIREN_LEARNED = ROOT / "data" / "holler_siren" / "tfi_learned_yancey_mitchell.json"
+HOLLER_SIREN_CALIBRATED = ROOT / "data" / "holler_siren" / "tfi_calibrated_yancey_mitchell.json"
 HOLLER_SIREN_BASE = ROOT / "data" / "holler_siren" / "tfi_yancey_mitchell.json"
 RUNS_DIR = ROOT / "runs"
 
@@ -22,14 +23,25 @@ HELENE_FAILURE_COUNT = 378
 
 
 def _load_holler_siren_data() -> tuple[dict, list[dict], Path]:
-    source = HOLLER_SIREN_LEARNED if HOLLER_SIREN_LEARNED.exists() else HOLLER_SIREN_BASE
+    if HOLLER_SIREN_CALIBRATED.exists():
+        source = HOLLER_SIREN_CALIBRATED
+    elif HOLLER_SIREN_LEARNED.exists():
+        source = HOLLER_SIREN_LEARNED
+    else:
+        source = HOLLER_SIREN_BASE
     with source.open() as f:
         data = json.load(f)
     return data, data["cells"], source
 
 
 def _best_threshold(cell: dict) -> float:
-    for key in ("rain_threshold_learned", "rain_threshold_v2", "rain_threshold_v1", "rain_threshold_mm_hr"):
+    for key in (
+        "rain_threshold_calibrated",
+        "rain_threshold_learned",
+        "rain_threshold_v2",
+        "rain_threshold_v1",
+        "rain_threshold_mm_hr",
+    ):
         value = cell.get(key)
         if value is not None:
             return float(value)
@@ -73,13 +85,26 @@ def holler_siren_alert(
         ]
 
     at_risk: list[dict] = []
+    calib = tfi_data.get("calibration") or {}
+    anchors = calib.get("anchors") or {}
+    p75 = float(anchors.get("p75", 0.75))
+    p85 = float(anchors.get("p85", 0.85))
+    p95 = float(anchors.get("p95", 0.95))
+
     for cell in search_cells:
         threshold = _best_threshold(cell)
         if effective_rain < threshold:
             continue
 
         tfi = _best_tfi(cell)
-        regime = _best_regime(cell)
+        if tfi >= p95:
+            regime = "CRITICAL"
+        elif tfi >= p85:
+            regime = "HIGH"
+        elif tfi >= p75:
+            regime = "ELEVATED"
+        else:
+            regime = _best_regime(cell)
         margin = effective_rain - threshold
         at_risk.append(
             {
@@ -98,15 +123,16 @@ def holler_siren_alert(
 
     at_risk.sort(key=lambda row: (row["margin_over_threshold"], row["tfi"]), reverse=True)
 
-    n_critical = sum(1 for row in at_risk if row["regime"] == "CRITICAL")
-    n_high = sum(1 for row in at_risk if row["regime"] == "HIGH")
-    if n_critical >= 5 or (n_critical >= 1 and rainfall_mm_hr > 30):
+    n_top5 = sum(1 for row in at_risk if row["tfi"] >= p95)
+    n_top15 = sum(1 for row in at_risk if row["tfi"] >= p85)
+    n_top30 = sum(1 for row in at_risk if row["tfi"] >= p75)
+    if n_top5 >= 3 and effective_rain >= 25.0:
         alert_level = "CRITICAL"
-    elif n_critical >= 1 or n_high >= 10:
+    elif n_top15 >= 5 and effective_rain >= 20.0:
         alert_level = "HIGH"
-    elif len(at_risk) >= 5:
+    elif n_top30 >= 5 and effective_rain >= 15.0:
         alert_level = "ELEVATED"
-    elif at_risk:
+    elif at_risk and effective_rain >= 10.0:
         alert_level = "WATCH"
     else:
         alert_level = "CLEAR"
@@ -126,8 +152,9 @@ def holler_siren_alert(
         },
         "summary": {
             "cells_at_risk": len(at_risk),
-            "critical_cells": n_critical,
-            "high_cells": n_high,
+            "critical_cells": n_top5,
+            "high_cells": n_top15,
+            "elevated_cells": n_top30,
         },
         "top_hollows": at_risk[:20],
         "pilot_area": tfi_data.get("pilot_area", "Yancey + Mitchell NC"),
@@ -220,8 +247,14 @@ def main() -> int:
     print()
     print("=== HOLLER SIREN ALERT SCENARIOS ===\n")
 
+    result_peak = holler_siren_alert(rainfall_mm_hr=50.0, antecedent_sat_pct=80.0, duration_hr=12.0)
+    print("SCENARIO 0: Helene peak (50mm/hr, 80% soil saturation)")
+    print(f"Alert level: {result_peak['alert_level']}")
+    print(f"Cells at risk: {result_peak['summary']['cells_at_risk']}")
+    print()
+
     result1 = holler_siren_alert(rainfall_mm_hr=30.0, antecedent_sat_pct=80.0, duration_hr=12.0)
-    _print_scenario("SCENARIO 1: Helene-like (30mm/hr, 80% soil saturation)", result1)
+    _print_scenario("SCENARIO 1: Helene average (30mm/hr, 80% soil saturation)", result1)
 
     result2 = holler_siren_alert(rainfall_mm_hr=15.0, antecedent_sat_pct=30.0, duration_hr=6.0)
     print("SCENARIO 2: Moderate rain (15mm/hr, 30% soil saturation)")
@@ -237,7 +270,16 @@ def main() -> int:
 
     RUNS_DIR.mkdir(exist_ok=True)
     with (RUNS_DIR / "holler_siren_scenarios.json").open("w") as f:
-        json.dump({"helene_like": result1, "moderate": result2, "light": result3}, f, indent=2)
+        json.dump(
+            {
+                "helene_peak": result_peak,
+                "helene_like": result1,
+                "moderate": result2,
+                "light": result3,
+            },
+            f,
+            indent=2,
+        )
     print(f"Saved scenarios to {RUNS_DIR / 'holler_siren_scenarios.json'}")
     return 0
 

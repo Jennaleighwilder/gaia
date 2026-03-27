@@ -16,6 +16,7 @@ if str(ROOT) not in sys.path:
 HOLLER_SIREN_LEARNED = ROOT / "data" / "holler_siren" / "tfi_learned_yancey_mitchell.json"
 HOLLER_SIREN_CALIBRATED = ROOT / "data" / "holler_siren" / "tfi_calibrated_yancey_mitchell.json"
 HOLLER_SIREN_V4 = ROOT / "data" / "holler_siren" / "tfi_v4_yancey_mitchell.json"
+HOLLER_SIREN_V5 = ROOT / "data" / "holler_siren" / "tfi_v5_yancey_mitchell.json"
 HOLLER_SIREN_BASE = ROOT / "data" / "holler_siren" / "tfi_yancey_mitchell.json"
 RUNS_DIR = ROOT / "runs"
 
@@ -24,7 +25,9 @@ HELENE_FAILURE_COUNT = 378
 
 
 def _load_holler_siren_data() -> tuple[dict, list[dict], Path]:
-    if HOLLER_SIREN_V4.exists():
+    if HOLLER_SIREN_V5.exists():
+        source = HOLLER_SIREN_V5
+    elif HOLLER_SIREN_V4.exists():
         source = HOLLER_SIREN_V4
     elif HOLLER_SIREN_CALIBRATED.exists():
         source = HOLLER_SIREN_CALIBRATED
@@ -39,6 +42,7 @@ def _load_holler_siren_data() -> tuple[dict, list[dict], Path]:
 
 def _best_threshold(cell: dict) -> float:
     for key in (
+        "rain_threshold_v5",
         "rain_threshold_v4",
         "rain_threshold_calibrated",
         "rain_threshold_learned",
@@ -53,7 +57,7 @@ def _best_threshold(cell: dict) -> float:
 
 
 def _best_tfi(cell: dict) -> float:
-    for key in ("tfi_v4", "tfi_learned", "tfi_v2", "tfi_v1", "tfi"):
+    for key in ("tfi_v5", "tfi_v4", "tfi_learned", "tfi_v2", "tfi_v1", "tfi"):
         value = cell.get(key)
         if value is not None:
             return float(value)
@@ -61,7 +65,7 @@ def _best_tfi(cell: dict) -> float:
 
 
 def _best_regime(cell: dict) -> str:
-    for key in ("regime_v4", "regime_learned", "regime_v2", "regime_v1", "regime"):
+    for key in ("regime_v5", "regime_v4", "regime_learned", "regime_v2", "regime_v1", "regime"):
         value = cell.get(key)
         if value:
             return str(value)
@@ -75,6 +79,7 @@ def holler_siren_alert(
     duration_hr: float = 6.0,
 ) -> dict:
     tfi_data, cells, source_path = _load_holler_siren_data()
+    helene_failures = int(tfi_data.get("helene_count", HELENE_FAILURE_COUNT))
 
     search_cells = cells
     if bbox:
@@ -127,6 +132,8 @@ def holler_siren_alert(
                 "slope_mean": cell.get("slope_mean", 0),
                 "pct_se_facing": cell.get("pct_se_facing", 0),
                 "road_dist_km": cell.get("road_dist_km"),
+                "soil_hydgrp": cell.get("soil_hydgrp"),
+                "geology_type": cell.get("geology_type"),
             }
         )
 
@@ -146,7 +153,7 @@ def holler_siren_alert(
     else:
         alert_level = "CLEAR"
 
-    model_meta = tfi_data.get("model_v4") or tfi_data.get("model") or {}
+    model_meta = tfi_data.get("model_v5") or tfi_data.get("model_v4") or tfi_data.get("model") or {}
     active_validation = float(model_meta.get("cv_auc") or BEST_VALIDATED_AUC)
     final_validation = model_meta.get("final_auc")
     best_validated_auc = max(
@@ -176,7 +183,7 @@ def holler_siren_alert(
         "validation": {
             "best_validated_auc": round(float(best_validated_auc), 3),
             "active_model_auc": round(float(active_validation), 3),
-            "helene_failures": HELENE_FAILURE_COUNT,
+            "helene_failures": helene_failures,
         },
     }
 
@@ -242,7 +249,7 @@ def format_alert(result: dict) -> str:
     lines += [
         "",
         "Holler Siren v1.0 | The Forgotten Code Research Institute",
-        f"Best validation: AUC {BEST_VALIDATED_AUC:.3f} vs {HELENE_FAILURE_COUNT} Helene failures",
+        f"Best validation: AUC {result['validation']['best_validated_auc']:.3f} vs {result['validation']['helene_failures']} Helene failures",
         "=" * 60,
     ]
     return "\n".join(lines)

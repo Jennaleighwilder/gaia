@@ -1,0 +1,72 @@
+[
+  {
+    "date": "20160930",
+    "name": "Hurricane Matthew remnants",
+    "precip_mm_day": 0.2,
+    "precip_mm_hr": 0.01,
+    "alert_level": "CLEAR",
+    "cells_at_risk": 0,
+    "critical_cells": 0,
+    "known_failures": 0
+  },
+  {
+    "date": "20180917",
+    "name": "Hurricane Florence remnants",
+    "precip_mm_day": 2.7,
+    "precip_mm_hr": 0.11,
+    "alert_level": "CLEAR",
+    "cells_at_risk": 0,
+    "critical_cells": 0,
+    "known_failures": 0
+  },
+  {
+    "date": "20190821",
+    "name": "Tropical Storm Chantal",
+    "precip_mm_day": 0.2,
+    "precip_mm_hr": 0.01,
+    "alert_level": "CLEAR",
+    "cells_at_risk": 0,
+    "critical_cells": 0,
+    "known_failures": 0
+  },
+  {
+    "date": "20210821",
+    "name": "Remnants Fred/Henri",
+    "precip_mm_day": 0.1,
+    "precip_mm_hr": 0.0,
+    "alert_level": "CLEAR",
+    "cells_at_risk": 0,
+    "critical_cells": 0,
+    "known_failures": 0
+  },
+  {
+    "date": "20220913",
+    "name": "Post-TS Earl rainfall",
+    "precip_mm_day": 0.1,
+    "precip_mm_hr": 0.01,
+    "alert_level": "CLEAR",
+    "cells_at_risk": 0,
+    "critical_cells": 0,
+    "known_failures": 0
+  },
+  {
+    "date": "20230813",
+    "name": "August 2023 heavy rain",
+    "precip_mm_day": 0.3,
+    "precip_mm_hr": 0.01,
+    "alert_level": "CLEAR",
+    "cells_at_risk": 0,
+    "critical_cells": 0,
+    "known_failures": 0
+  },
+  {
+    "date": "20240927",
+    "name": "Hurricane Helene",
+    "precip_mm_day": 400.0,
+    "precip_mm_hr": 30.0,
+    "alert_level": "CRITICAL",
+    "cells_at_risk": 434,
+    "critical_cells": 89,
+    "known_failures": 378
+  }
+]

@@ -13,6 +13,18 @@ Validated against 460 historical severe weather events (1996–2025). Built by T
 
 Dashboard: http://127.0.0.1:5001
 
+## Fire Layer Setup
+
+```bash
+cp .env.example .env.local
+# then paste your NASA FIRMS MAP_KEY into .env.local
+
+PYTHONPATH=/Users/jenniferwest/gaia .venv/bin/python scripts/fire/fire_ingest.py
+PYTHONPATH=/Users/jenniferwest/gaia .venv/bin/python scripts/fire/fire_risk_layer.py
+```
+
+Get a free FIRMS key at https://firms.modaps.eosdis.nasa.gov/api/
+
 ## Deployment
 
 - **GitHub Pages:** In repo **Settings → Pages**, set source to branch **`main`** and folder **`/docs`** (recommended). This repo includes **`docs/.nojekyll`** and **`.nojekyll`** so Jekyll does not replace the site with `README.md`. The public dashboard is **`docs/index.html`** (full GAIA Weather Intelligence UI). Root **`index.html`** redirects to **`docs/index.html`** if you use **`/`** as the Pages folder.

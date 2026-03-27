@@ -15,7 +15,11 @@ import time
 import urllib.request
 from typing import Any
 
+from runtime.config.env_loader import load_local_env
+
 logger = logging.getLogger(__name__)
+
+load_local_env()
 
 EAST_TN_BBOX = "35.5,-84.5,36.8,-81.5"  # south,west,north,east
 

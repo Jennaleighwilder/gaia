@@ -16,16 +16,20 @@ if str(ROOT) not in sys.path:
 HOLLER_SIREN_LEARNED = ROOT / "data" / "holler_siren" / "tfi_learned_yancey_mitchell.json"
 HOLLER_SIREN_CALIBRATED = ROOT / "data" / "holler_siren" / "tfi_calibrated_yancey_mitchell.json"
 HOLLER_SIREN_V4 = ROOT / "data" / "holler_siren" / "tfi_v4_yancey_mitchell.json"
+HOLLER_SIREN_V5_WESTERN = ROOT / "data" / "holler_siren" / "tfi_v5_western_nc.json"
 HOLLER_SIREN_V5 = ROOT / "data" / "holler_siren" / "tfi_v5_yancey_mitchell.json"
 HOLLER_SIREN_BASE = ROOT / "data" / "holler_siren" / "tfi_yancey_mitchell.json"
 RUNS_DIR = ROOT / "runs"
+DEFAULT_PILOT_BBOX = (35.82, -82.38, 36.12, -81.82)
 
 BEST_VALIDATED_AUC = 0.654
 HELENE_FAILURE_COUNT = 378
 
 
 def _load_holler_siren_data() -> tuple[dict, list[dict], Path]:
-    if HOLLER_SIREN_V5.exists():
+    if HOLLER_SIREN_V5_WESTERN.exists():
+        source = HOLLER_SIREN_V5_WESTERN
+    elif HOLLER_SIREN_V5.exists():
         source = HOLLER_SIREN_V5
     elif HOLLER_SIREN_V4.exists():
         source = HOLLER_SIREN_V4
@@ -81,6 +85,9 @@ def holler_siren_alert(
     tfi_data, cells, source_path = _load_holler_siren_data()
     helene_failures = int(tfi_data.get("helene_count", HELENE_FAILURE_COUNT))
 
+    if bbox is None and source_path == HOLLER_SIREN_V5_WESTERN:
+        bbox = DEFAULT_PILOT_BBOX
+
     search_cells = cells
     if bbox:
         lat_min, lon_min, lat_max, lon_max = bbox
@@ -91,11 +98,12 @@ def holler_siren_alert(
         ]
 
     at_risk: list[dict] = []
-    calib = tfi_data.get("calibration") or {}
+    calib = tfi_data.get("calibration_v5") or tfi_data.get("calibration") or {}
     anchors = calib.get("anchors") or {}
-    p75 = float(anchors.get("p75", 0.75))
-    p85 = float(anchors.get("p85", 0.85))
-    p95 = float(anchors.get("p95", 0.95))
+    p_elev = float(anchors.get("p25_like", anchors.get("p75", 0.75)))
+    p_high = float(anchors.get("p20_like", anchors.get("p85", 0.85)))
+    p_crit = float(anchors.get("p15_like", anchors.get("p95", 0.95)))
+    p_extreme = float(anchors.get("p10_like", anchors.get("p99", 0.99)))
 
     for cell in search_cells:
         threshold = _best_threshold(cell)
@@ -109,11 +117,11 @@ def holler_siren_alert(
             continue
 
         tfi = _best_tfi(cell)
-        if tfi >= p95:
+        if tfi >= p_extreme:
             regime = "CRITICAL"
-        elif tfi >= p85:
+        elif tfi >= p_high:
             regime = "HIGH"
-        elif tfi >= p75:
+        elif tfi >= p_elev:
             regime = "ELEVATED"
         else:
             regime = _best_regime(cell)
@@ -139,16 +147,16 @@ def holler_siren_alert(
 
     at_risk.sort(key=lambda row: (row["margin_over_threshold"], row["tfi"]), reverse=True)
 
-    n_top5 = sum(1 for row in at_risk if row["tfi"] >= p95)
-    n_top15 = sum(1 for row in at_risk if row["tfi"] >= p85)
-    n_top30 = sum(1 for row in at_risk if row["tfi"] >= p75)
-    if n_top5 >= 3 and rainfall_mm_hr >= 25.0:
+    n_top1 = sum(1 for row in at_risk if row["tfi"] >= p_extreme)
+    n_top5 = sum(1 for row in at_risk if row["tfi"] >= p_high)
+    n_top10 = sum(1 for row in at_risk if row["tfi"] >= p_elev)
+    if n_top1 >= 5 and rainfall_mm_hr >= 25.0:
         alert_level = "CRITICAL"
-    elif n_top15 >= 5 and rainfall_mm_hr >= 20.0:
+    elif n_top5 >= 10 and rainfall_mm_hr >= 20.0:
         alert_level = "HIGH"
-    elif n_top30 >= 5 and rainfall_mm_hr >= 15.0:
+    elif len(at_risk) >= 20:
         alert_level = "ELEVATED"
-    elif at_risk and rainfall_mm_hr >= 10.0:
+    elif at_risk:
         alert_level = "WATCH"
     else:
         alert_level = "CLEAR"
@@ -173,9 +181,9 @@ def holler_siren_alert(
         },
         "summary": {
             "cells_at_risk": len(at_risk),
-            "critical_cells": n_top5,
-            "high_cells": n_top15,
-            "elevated_cells": n_top30,
+            "critical_cells": n_top1,
+            "high_cells": n_top5,
+            "elevated_cells": n_top10,
         },
         "top_hollows": at_risk[:20],
         "pilot_area": tfi_data.get("pilot_area", "Yancey + Mitchell NC"),

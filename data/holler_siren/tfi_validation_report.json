@@ -1,0 +1,17 @@
+{
+  "n_inventory_total": 2217,
+  "n_landslides_pilot": 378,
+  "n_matched": 378,
+  "n_unique_failed_cells": 228,
+  "n_controls": 378,
+  "landslide_mean_tfi": 0.2708,
+  "control_mean_tfi": 0.2262,
+  "separation_sigma": 0.54,
+  "auc": 0.6537,
+  "regime_of_failures": {
+    "STABLE": 170,
+    "ELEVATED": 192,
+    "HIGH": 16
+  },
+  "note": "TFI v0.1 slope+aspect only. Road cuts pending."
+}

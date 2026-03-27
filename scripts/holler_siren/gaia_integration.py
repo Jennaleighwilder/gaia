@@ -72,9 +72,6 @@ def holler_siren_alert(
 ) -> dict:
     tfi_data, cells, source_path = _load_holler_siren_data()
 
-    sat_factor = max(0.5, 1.0 - (antecedent_sat_pct / 100.0) * 0.5)
-    effective_rain = rainfall_mm_hr / sat_factor
-
     search_cells = cells
     if bbox:
         lat_min, lon_min, lat_max, lon_max = bbox
@@ -93,7 +90,13 @@ def holler_siren_alert(
 
     for cell in search_cells:
         threshold = _best_threshold(cell)
-        if effective_rain < threshold:
+        if threshold <= 25.0:
+            sat_reduction = min(0.4, (antecedent_sat_pct / 100.0) * 0.4)
+            adjusted_threshold = threshold * (1.0 - sat_reduction)
+        else:
+            sat_reduction = 0.0
+            adjusted_threshold = threshold
+        if rainfall_mm_hr < adjusted_threshold:
             continue
 
         tfi = _best_tfi(cell)
@@ -105,15 +108,17 @@ def holler_siren_alert(
             regime = "ELEVATED"
         else:
             regime = _best_regime(cell)
-        margin = effective_rain - threshold
+        margin = rainfall_mm_hr - adjusted_threshold
         at_risk.append(
             {
                 "lat": cell["lat"],
                 "lon": cell["lon"],
                 "tfi": round(tfi, 3),
                 "regime": regime,
-                "rain_threshold": round(threshold, 1),
-                "effective_rain": round(effective_rain, 1),
+                "rain_threshold": round(adjusted_threshold, 1),
+                "baseline_rain_threshold": round(threshold, 1),
+                "threshold_reduction_pct": round(sat_reduction * 100.0, 1),
+                "effective_rain": round(rainfall_mm_hr, 1),
                 "margin_over_threshold": round(margin, 1),
                 "slope_mean": cell.get("slope_mean", 0),
                 "pct_se_facing": cell.get("pct_se_facing", 0),
@@ -126,13 +131,13 @@ def holler_siren_alert(
     n_top5 = sum(1 for row in at_risk if row["tfi"] >= p95)
     n_top15 = sum(1 for row in at_risk if row["tfi"] >= p85)
     n_top30 = sum(1 for row in at_risk if row["tfi"] >= p75)
-    if n_top5 >= 3 and effective_rain >= 25.0:
+    if n_top5 >= 3 and rainfall_mm_hr >= 25.0:
         alert_level = "CRITICAL"
-    elif n_top15 >= 5 and effective_rain >= 20.0:
+    elif n_top15 >= 5 and rainfall_mm_hr >= 20.0:
         alert_level = "HIGH"
-    elif n_top30 >= 5 and effective_rain >= 15.0:
+    elif n_top30 >= 5 and rainfall_mm_hr >= 15.0:
         alert_level = "ELEVATED"
-    elif at_risk and effective_rain >= 10.0:
+    elif at_risk and rainfall_mm_hr >= 10.0:
         alert_level = "WATCH"
     else:
         alert_level = "CLEAR"
@@ -146,7 +151,6 @@ def holler_siren_alert(
         "inputs": {
             "rainfall_mm_hr": rainfall_mm_hr,
             "antecedent_sat_pct": antecedent_sat_pct,
-            "effective_rain_mm_hr": round(effective_rain, 1),
             "duration_hr": duration_hr,
             "bbox": bbox,
         },
@@ -184,7 +188,7 @@ def format_alert(result: dict) -> str:
     if inp["antecedent_sat_pct"] > 0:
         lines.append(
             f"Soil:      {inp['antecedent_sat_pct']}% saturated "
-            f"(effective: {inp['effective_rain_mm_hr']} mm/hr)"
+            "(threshold reduction applied only to top-risk terrain)"
         )
 
     lines += [

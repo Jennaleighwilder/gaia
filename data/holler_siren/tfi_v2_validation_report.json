@@ -1,0 +1,122 @@
+{
+  "nlcd_2001_download_bytes": 2453106,
+  "nlcd_2021_download_bytes": 2453106,
+  "total_pixels": 2450714,
+  "forest_loss_pixels": 10254,
+  "forest_loss_pct_area": 0.4184,
+  "cells_with_deforestation_penalty": 1,
+  "regime_summary_v2": {
+    "HIGH": 142,
+    "CRITICAL": 126,
+    "ELEVATED": 784,
+    "STABLE": 682
+  },
+  "n_landslides_pilot": 378,
+  "n_matched": 378,
+  "n_controls": 378,
+  "landslide_mean_tfi_v2": 0.3661,
+  "control_mean_tfi_v2": 0.3371,
+  "separation_sigma_v2": 0.161,
+  "auc_v2": 0.5612,
+  "comparison": {
+    "v0_1_auc": 0.6537,
+    "v0_1_sep_sigma": 0.54,
+    "v1_auc": 0.6049,
+    "v1_sep_sigma": 0.368,
+    "v2_auc": 0.5612,
+    "v2_sep_sigma": 0.161
+  },
+  "top_cells_v2": [
+    {
+      "lat": 36.0975,
+      "lon": -82.3411,
+      "tfi_v2": 0.912,
+      "pct_forest_loss": 0.0,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.047,
+      "slope_mean": 27.1
+    },
+    {
+      "lat": 36.0257,
+      "lon": -82.3633,
+      "tfi_v2": 0.897,
+      "pct_forest_loss": 0.2,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.023,
+      "slope_mean": 26.7
+    },
+    {
+      "lat": 36.0975,
+      "lon": -82.2633,
+      "tfi_v2": 0.888,
+      "pct_forest_loss": 0.0,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.047,
+      "slope_mean": 26.8
+    },
+    {
+      "lat": 35.9449,
+      "lon": -82.3522,
+      "tfi_v2": 0.88,
+      "pct_forest_loss": 0.1,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.03,
+      "slope_mean": 25.3
+    },
+    {
+      "lat": 36.0706,
+      "lon": -82.2967,
+      "tfi_v2": 0.874,
+      "pct_forest_loss": 0.1,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.002,
+      "slope_mean": 25.0
+    },
+    {
+      "lat": 35.9628,
+      "lon": -82.3522,
+      "tfi_v2": 0.864,
+      "pct_forest_loss": 0.0,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.03,
+      "slope_mean": 23.4
+    },
+    {
+      "lat": 36.0886,
+      "lon": -82.23,
+      "tfi_v2": 0.849,
+      "pct_forest_loss": 0.5,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.03,
+      "slope_mean": 23.4
+    },
+    {
+      "lat": 36.0886,
+      "lon": -82.1522,
+      "tfi_v2": 0.827,
+      "pct_forest_loss": 0.0,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.001,
+      "slope_mean": 24.3
+    },
+    {
+      "lat": 36.0886,
+      "lon": -82.3411,
+      "tfi_v2": 0.823,
+      "pct_forest_loss": 0.5,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.018,
+      "slope_mean": 21.2
+    },
+    {
+      "lat": 35.8218,
+      "lon": -82.3078,
+      "tfi_v2": 0.822,
+      "pct_forest_loss": 0.0,
+      "deforest_penalty": 0.0,
+      "road_dist_km": 0.034,
+      "slope_mean": 25.2
+    }
+  ],
+  "note": "TFI v2 adds NLCD 2001\u21922021 forest loss on steep terrain."
+}

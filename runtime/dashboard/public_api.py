@@ -9,10 +9,11 @@ from __future__ import annotations
 import json
 import logging
 import os
+import re
 import sqlite3
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -20,6 +21,7 @@ logger = logging.getLogger(__name__)
 ROOT = Path(__file__).resolve().parents[2]
 DECISIONS_DB = ROOT / "runs" / "gaia_decisions.db"
 RUNS = ROOT / "runs"
+HOLLER_SIREN_V5_WESTERN = ROOT / "data" / "holler_siren" / "tfi_v5_western_nc.json"
 
 try:
     from scripts.holler_siren.gaia_integration import format_alert, holler_siren_alert
@@ -147,6 +149,103 @@ def _gaia_calls() -> dict:
     return out
 
 
+def _safe_int(value) -> int | None:
+    if value is None or value == "":
+        return None
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _latest_kpah_scan() -> dict:
+    try:
+        from runtime.data.nexrad_fetch import _list_nexrad_files
+    except Exception as e:
+        return {"station": "KPAH", "scan_time": None, "file_key": None, "error": str(e)}
+
+    now = datetime.now(timezone.utc)
+    keys = _list_nexrad_files("KPAH", now)
+    if not keys:
+        keys = _list_nexrad_files("KPAH", now - timedelta(days=1))
+    if not keys:
+        return {"station": "KPAH", "scan_time": None, "file_key": None}
+
+    key = keys[0]
+    match = re.search(r"(K[A-Z0-9]{3})(\d{8})_(\d{6})", key)
+    scan_time = None
+    if match:
+        try:
+            scan_time = datetime.strptime(
+                match.group(2) + match.group(3), "%Y%m%d%H%M%S"
+            ).replace(tzinfo=timezone.utc).isoformat()
+        except ValueError:
+            scan_time = None
+    return {"station": "KPAH", "scan_time": scan_time, "file_key": key}
+
+
+def _cells_monitored() -> int:
+    model = _safe_read_json(HOLLER_SIREN_V5_WESTERN)
+    cells = model.get("cells") if isinstance(model, dict) else None
+    return len(cells) if isinstance(cells, list) else 40453
+
+
+def _status_payload() -> dict:
+    now = datetime.now(timezone.utc).isoformat()
+    tess = _safe_read_json(RUNS / "live_tess.json") or {}
+    gaia_calls = _gaia_calls()
+
+    ao_current = _safe_float(((tess.get("layers") or {}).get("transport") or {}).get("ao"))
+    if ao_current is None:
+        ao_current = _safe_float(tess.get("ao_current"))
+
+    gulf_anomaly = _safe_float(tess.get("gulf_sst_anomaly"))
+    if gulf_anomaly is None:
+        gulf_anomaly = _safe_float(((tess.get("layers") or {}).get("loading") or {}).get("gulf_sst_anomaly"))
+
+    tess_score = _safe_float(tess.get("tess_score"))
+    risk_level = tess.get("risk_level")
+    active_calls = len((gaia_calls.get("strip") or []))
+    gaia_status = "ACTIVE" if active_calls > 0 or (tess_score is not None and tess_score >= 0.55) else "DORMANT"
+
+    holler_baseline = {
+        "alert_level": "—",
+        "cells_monitored": _cells_monitored(),
+        "pilot_area": "Western NC",
+        "timestamp": now,
+    }
+    if holler_siren_alert:
+        try:
+            baseline = holler_siren_alert(rainfall_mm_hr=0.0, antecedent_sat_pct=0.0)
+            holler_baseline.update(
+                {
+                    "alert_level": baseline.get("alert_level", "—"),
+                    "timestamp": baseline.get("timestamp", now),
+                }
+            )
+        except Exception as e:
+            holler_baseline["error"] = str(e)
+
+    radar_status = _latest_kpah_scan()
+    return {
+        "gaia_status": gaia_status,
+        "gaia_alert_level": risk_level or ("ACTIVE" if active_calls else "DORMANT"),
+        "gaia_alert_timestamp": tess.get("timestamp") or now,
+        "ao_current": ao_current,
+        "gulf_anomaly": gulf_anomaly,
+        "holler_siren_baseline": holler_baseline,
+        "radar_status": radar_status,
+        "last_updated": now,
+        "validation": {
+            "radar_lead_minutes": 193,
+            "holler_siren_auc": 0.842,
+            "holler_siren_trained_on": 1804,
+            "holler_siren_cells": _cells_monitored(),
+            "holler_siren_model": "GradientBoosting",
+        },
+    }
+
+
 def register_public_routes(app) -> None:
     """Register CORS + public JSON routes on the Flask app."""
     from flask import Response, jsonify, request
@@ -197,6 +296,7 @@ def register_public_routes(app) -> None:
             "surface": surface,
             "soundings": _safe_read_json(RUNS / "live_soundings.json"),
             "gaia_calls": _gaia_calls(),
+            "status": _status_payload(),
         }
 
         if holler_siren_alert:
@@ -233,6 +333,10 @@ def register_public_routes(app) -> None:
                     duration_hr=duration_hr,
                 )
         return jsonify(bundle)
+
+    @app.route("/api/status")
+    def api_status():
+        return jsonify(_status_payload())
 
     @app.route("/api/holler_siren")
     def api_holler_siren():
@@ -355,3 +459,22 @@ def register_public_routes(app) -> None:
         except Exception as e:
             logger.exception("subscribe")
             return jsonify({"ok": False, "error": str(e)}), 500
+
+
+if __name__ == "__main__":
+    from flask import Flask, jsonify
+
+    app = Flask(__name__)
+    register_public_routes(app)
+
+    @app.route("/health")
+    def _standalone_health():
+        return jsonify(
+            {
+                "status": "ok",
+                "cache_staleness": {},
+                "timestamp": datetime.now(timezone.utc).isoformat(),
+            }
+        )
+
+    app.run(host="127.0.0.1", port=5001, debug=False)

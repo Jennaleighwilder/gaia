@@ -1,0 +1,30 @@
+=== 1. NASA FIRMS VIIRS ===
+FIRMS fetch failed: HTTP Error 400: Bad Request
+  -> FIRMS_MAP_KEY is not configured. Register free at:
+     https://firms.modaps.eosdis.nasa.gov/api/
+
+=== 2. NOAA SPC Fire Weather Outlook ===
+  day1: 0 polygons touching western NC
+  day2: 1 polygons touching western NC
+    ELEVATED: valid 202603281200
+
+=== 3. NWS Asheville Conditions ===
+  Normal conditions: Temp=73.4F RH=53% Wind=16.1 mph
+
+=== 4. KBDI Drought Index (proxy) ===
+  Latest drought proxy record: {'mapDate': '2026-03-24T00:00:00', 'fips': '37121', 'county': 'Mitchell County', 'state': 'NC', 'none': 0.0, 'd0': 0.0, 'd1': 0.0, 'd2': 100.0, 'd3': 0.0, 'd4': 0.0, 'validStart': '2026-03-24T00:00:00', 'validEnd': '2026-03-30T23:59:59', 'statisticFormatID': 2}
+
+=== 5. MTBS Historical Burns ===
+  Historical fires in western NC (MTBS 1984-present): 241
+  2024: RX - T26 BRUSHY RIDGE - 8,324 acres
+  2024: RX - T10 MILLER RIDGE - 5,154 acres
+  2024: STATE LINE AP RX - 1,532 acres
+  2024: RX - T50 WILDCAT - 763 acres
+  2024: CLAIBORNE - 2 ROCK CREEK RIDGE ROAD - 623 acres
+  2023: PANTHER KNOB - 3,170 acres
+  2023: FLAT BRANCH RX BURN - 1,537 acres
+  2023: PHILLIPS RIDGE RX BURN - 1,430 acres
+  2023: BRUSHY RIDGE - 1,309 acres
+  2023: FIRE GAP - 1,127 acres
+
+=== Fire data saved to data/fire/ ===

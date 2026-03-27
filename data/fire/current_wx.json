@@ -1,0 +1,13 @@
+{
+  "station": "KAVL (Asheville)",
+  "fetched": "2026-03-27T22:11:35.924081+00:00",
+  "fire_weather_flag": false,
+  "error": null,
+  "temp_f": 73.4,
+  "relative_humidity_pct": 53.3,
+  "wind_mph": 16.1,
+  "wind_unit": "wmoUnit:km_h-1",
+  "wind_dir_deg": 340.0,
+  "timestamp": "2026-03-27T21:50:00+00:00",
+  "text_description": "Mostly Cloudy"
+}

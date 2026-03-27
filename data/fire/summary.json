@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-03-27T22:11:37.092600+00:00",
+  "bbox": [
+    -84.3,
+    35.0,
+    -81.8,
+    36.6
+  ],
+  "firms_active_fire_count": 0,
+  "firms_map_key_configured": false,
+  "spc_day1_wnc_features": 0,
+  "spc_day2_wnc_features": 1,
+  "nws_fire_weather_flag": false,
+  "mtbs_fire_count": 241,
+  "drought_latest": {
+    "mapDate": "2026-03-24T00:00:00",
+    "fips": "37121",
+    "county": "Mitchell County",
+    "state": "NC",
+    "none": 0.0,
+    "d0": 0.0,
+    "d1": 0.0,
+    "d2": 100.0,
+    "d3": 0.0,
+    "d4": 0.0,
+    "validStart": "2026-03-24T00:00:00",
+    "validEnd": "2026-03-30T23:59:59",
+    "statisticFormatID": 2
+  },
+  "errors": {
+    "firms": "HTTP Error 400: Bad Request",
+    "spc_day1": null,
+    "spc_day2": null,
+    "nws": null,
+    "drought": null,
+    "mtbs": null
+  }
+}

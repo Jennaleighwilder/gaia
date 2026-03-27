@@ -1,0 +1,1701 @@
+{
+  "source": "USFS MTBS",
+  "bbox": [
+    -84.3,
+    35.0,
+    -81.8,
+    36.6
+  ],
+  "fetched": "2026-03-27T22:11:36.317962+00:00",
+  "fires": [
+    {
+      "id": "TN3533308410620240109",
+      "name": "RX - T26 BRUSHY RIDGE",
+      "year": 2024,
+      "acres": 8324.0,
+      "month": 1
+    },
+    {
+      "id": "TN3540208413420240109",
+      "name": "RX - T10 MILLER RIDGE",
+      "year": 2024,
+      "acres": 5154.0,
+      "month": 1
+    },
+    {
+      "id": "SC3501608304220240312",
+      "name": "STATE LINE AP RX",
+      "year": 2024,
+      "acres": 1532.0,
+      "month": 3
+    },
+    {
+      "id": "TN3533008422120240109",
+      "name": "RX - T50 WILDCAT",
+      "year": 2024,
+      "acres": 763.0,
+      "month": 1
+    },
+    {
+      "id": "TN3652708392120240320",
+      "name": "CLAIBORNE - 2 ROCK CREEK RIDGE ROAD",
+      "year": 2024,
+      "acres": 623.0,
+      "month": 3
+    },
+    {
+      "id": "NC3513108356420230411",
+      "name": "PANTHER KNOB",
+      "year": 2023,
+      "acres": 3170.0,
+      "month": 4
+    },
+    {
+      "id": "NC3520408427820230317",
+      "name": "FLAT BRANCH RX BURN",
+      "year": 2023,
+      "acres": 1537.0,
+      "month": 3
+    },
+    {
+      "id": "NC3513208384120230401",
+      "name": "PHILLIPS RIDGE RX BURN",
+      "year": 2023,
+      "acres": 1430.0,
+      "month": 4
+    },
+    {
+      "id": "NC3514308378320230315",
+      "name": "BRUSHY RIDGE",
+      "year": 2023,
+      "acres": 1309.0,
+      "month": 3
+    },
+    {
+      "id": "NC3514608361820230306",
+      "name": "FIRE GAP",
+      "year": 2023,
+      "acres": 1127.0,
+      "month": 3
+    },
+    {
+      "id": "NC3573408219220220413",
+      "name": "LOST BEAR RX FY2022",
+      "year": 2022,
+      "acres": 4276.0,
+      "month": 4
+    },
+    {
+      "id": "TN3573808364320220330",
+      "name": "INDIGO LANE",
+      "year": 2022,
+      "acres": 2149.0,
+      "month": 3
+    },
+    {
+      "id": "NC3530708367420220315",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 1307.0,
+      "month": 3
+    },
+    {
+      "id": "TN3538808422020220420",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 1133.0,
+      "month": 4
+    },
+    {
+      "id": "NC3510308386920220320",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 1124.0,
+      "month": 3
+    },
+    {
+      "id": "NC3520808370920220303",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 1041.0,
+      "month": 3
+    },
+    {
+      "id": "TN3579208372520220331",
+      "name": "SEYMOUR",
+      "year": 2022,
+      "acres": 917.0,
+      "month": 3
+    },
+    {
+      "id": "NC3537108271720220215",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 846.0,
+      "month": 2
+    },
+    {
+      "id": "NC3511408386620220316",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 834.0,
+      "month": 3
+    },
+    {
+      "id": "NC3544308340620220326",
+      "name": "THOMAS DIVIDE",
+      "year": 2022,
+      "acres": 815.0,
+      "month": 3
+    },
+    {
+      "id": "TN3596508297120220303",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 747.0,
+      "month": 3
+    },
+    {
+      "id": "NC3573708299820221123",
+      "name": "HURRICANE RIDGE",
+      "year": 2022,
+      "acres": 712.0,
+      "month": 11
+    },
+    {
+      "id": "TN3534208421720220321",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 631.0,
+      "month": 3
+    },
+    {
+      "id": "TN3533308419920220304",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 620.0,
+      "month": 3
+    },
+    {
+      "id": "NC3534508336120220402",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 618.0,
+      "month": 4
+    },
+    {
+      "id": "NC3506908354520220404",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 579.0,
+      "month": 4
+    },
+    {
+      "id": "NC3523608366320220209",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 514.0,
+      "month": 2
+    },
+    {
+      "id": "NC3508608413320220304",
+      "name": "UNNAMED",
+      "year": 2022,
+      "acres": 506.0,
+      "month": 3
+    },
+    {
+      "id": "TN3541208413820210405",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 3888.0,
+      "month": 4
+    },
+    {
+      "id": "NC3512208381620210309",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 1855.0,
+      "month": 3
+    },
+    {
+      "id": "NC3541908364320210308",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 1471.0,
+      "month": 3
+    },
+    {
+      "id": "NC3589008184220210311",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 1348.0,
+      "month": 3
+    },
+    {
+      "id": "NC3590608185020210220",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 1304.0,
+      "month": 2
+    },
+    {
+      "id": "TN3530008421720210307",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 1220.0,
+      "month": 3
+    },
+    {
+      "id": "NC3514008357820210310",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 1207.0,
+      "month": 3
+    },
+    {
+      "id": "NC3510208408720210311",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 1051.0,
+      "month": 3
+    },
+    {
+      "id": "NC3514408362220210305",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 1007.0,
+      "month": 3
+    },
+    {
+      "id": "NC3529908300320210406",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 840.0,
+      "month": 4
+    },
+    {
+      "id": "NC3602508182420211224",
+      "name": "LOST COVE",
+      "year": 2021,
+      "acres": 810.0,
+      "month": 12
+    },
+    {
+      "id": "TN3658108201420210308",
+      "name": "RX - JONES RIDGE",
+      "year": 2021,
+      "acres": 787.0,
+      "month": 3
+    },
+    {
+      "id": "NC3511308359520210305",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 703.0,
+      "month": 3
+    },
+    {
+      "id": "TN3532308421220210315",
+      "name": "RX - WILDCAT",
+      "year": 2021,
+      "acres": 644.0,
+      "month": 3
+    },
+    {
+      "id": "TN3582208315120210422",
+      "name": "MILL CREEK",
+      "year": 2021,
+      "acres": 631.0,
+      "month": 4
+    },
+    {
+      "id": "NC3514108379220210311",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 602.0,
+      "month": 3
+    },
+    {
+      "id": "NC3611308233120210310",
+      "name": "BEAUTY SPOT",
+      "year": 2021,
+      "acres": 527.0,
+      "month": 3
+    },
+    {
+      "id": "NC3508408362120210406",
+      "name": "UNNAMED",
+      "year": 2021,
+      "acres": 517.0,
+      "month": 4
+    },
+    {
+      "id": "TN3538508423120200218",
+      "name": "RX - HUCKLEBERRY",
+      "year": 2020,
+      "acres": 584.0,
+      "month": 2
+    },
+    {
+      "id": "TN3543808406520190319",
+      "name": "COW CAMP",
+      "year": 2019,
+      "acres": 3786.0,
+      "month": 3
+    },
+    {
+      "id": "NC3510008412520190321",
+      "name": "JACK DAVIS/DOGWOOD SPRINGS RX",
+      "year": 2019,
+      "acres": 3120.0,
+      "month": 3
+    },
+    {
+      "id": "TN3533408408020190320",
+      "name": "MCINTYRE-A",
+      "year": 2019,
+      "acres": 1016.0,
+      "month": 3
+    },
+    {
+      "id": "TN3658108192020190314",
+      "name": "RX - HARP MOUNTAIN",
+      "year": 2019,
+      "acres": 920.0,
+      "month": 3
+    },
+    {
+      "id": "NC3523508366320190423",
+      "name": "APPLETREE RX",
+      "year": 2019,
+      "acres": 790.0,
+      "month": 4
+    },
+    {
+      "id": "NC3534508336120190323",
+      "name": "ALARKA RX BURN",
+      "year": 2019,
+      "acres": 764.0,
+      "month": 3
+    },
+    {
+      "id": "NC3535608307520190324",
+      "name": "UNNAMED",
+      "year": 2019,
+      "acres": 680.0,
+      "month": 3
+    },
+    {
+      "id": "NC3566208310920190417",
+      "name": "SHORT BUNK",
+      "year": 2019,
+      "acres": 635.0,
+      "month": 4
+    },
+    {
+      "id": "TN3648808209320190319",
+      "name": "RX - BIG CREEK",
+      "year": 2019,
+      "acres": 503.0,
+      "month": 3
+    },
+    {
+      "id": "NC3576008215020180413",
+      "name": "UNNAMED",
+      "year": 2018,
+      "acres": 1812.0,
+      "month": 4
+    },
+    {
+      "id": "TN3533608409920180402",
+      "name": "BRUSHY RIDGE",
+      "year": 2018,
+      "acres": 1718.0,
+      "month": 4
+    },
+    {
+      "id": "TN3541208413820180305",
+      "name": "MILLER RIDGE A",
+      "year": 2018,
+      "acres": 1476.0,
+      "month": 3
+    },
+    {
+      "id": "TN3530008421720180420",
+      "name": "GRAVEL STAND",
+      "year": 2018,
+      "acres": 1299.0,
+      "month": 4
+    },
+    {
+      "id": "NC3502808303820180126",
+      "name": "UNNAMED",
+      "year": 2018,
+      "acres": 892.0,
+      "month": 1
+    },
+    {
+      "id": "TN3581908298920180412",
+      "name": "UNNAMED",
+      "year": 2018,
+      "acres": 763.0,
+      "month": 4
+    },
+    {
+      "id": "NC3502308313720180412",
+      "name": "UNNAMED",
+      "year": 2018,
+      "acres": 675.0,
+      "month": 4
+    },
+    {
+      "id": "TN3635108198520180413",
+      "name": "UNNAMED",
+      "year": 2018,
+      "acres": 637.0,
+      "month": 4
+    },
+    {
+      "id": "TN3583708293920180403",
+      "name": "UNNAMED",
+      "year": 2018,
+      "acres": 538.0,
+      "month": 4
+    },
+    {
+      "id": "NC3508208354120180405",
+      "name": "UNNAMED",
+      "year": 2018,
+      "acres": 526.0,
+      "month": 4
+    },
+    {
+      "id": "NC3581208190120170316",
+      "name": "WHITE CREEK",
+      "year": 2017,
+      "acres": 4166.0,
+      "month": 3
+    },
+    {
+      "id": "NC3579808199320170409",
+      "name": "DOBSON KNOB",
+      "year": 2017,
+      "acres": 1720.0,
+      "month": 4
+    },
+    {
+      "id": "NC3529908300320171116",
+      "name": "UNNAMED",
+      "year": 2017,
+      "acres": 909.0,
+      "month": 11
+    },
+    {
+      "id": "NC3574408214620170128",
+      "name": "SUGAR COVE",
+      "year": 2017,
+      "acres": 638.0,
+      "month": 1
+    },
+    {
+      "id": "NC3511308359520170320",
+      "name": "UNNAMED",
+      "year": 2017,
+      "acres": 540.0,
+      "month": 3
+    },
+    {
+      "id": "GA3494208354920161109",
+      "name": "ROCK MOUNTAIN",
+      "year": 2016,
+      "acres": 25224.0,
+      "month": 11
+    },
+    {
+      "id": "TN3563108347820161123",
+      "name": "CHIMNEY TOPS 2",
+      "year": 2016,
+      "acres": 14998.0,
+      "month": 11
+    },
+    {
+      "id": "NC3527408356020161103",
+      "name": "TELLICO",
+      "year": 2016,
+      "acres": 14172.0,
+      "month": 11
+    },
+    {
+      "id": "TN3643908422420161109",
+      "name": "STINKING CREEK",
+      "year": 2016,
+      "acres": 10768.0,
+      "month": 11
+    },
+    {
+      "id": "NC3505908365420161025",
+      "name": "BOTELER",
+      "year": 2016,
+      "acres": 8626.0,
+      "month": 10
+    },
+    {
+      "id": "NC3544608221220161105",
+      "name": "PARTY ROCK",
+      "year": 2016,
+      "acres": 8572.0,
+      "month": 11
+    },
+    {
+      "id": "SC3502708274320161109",
+      "name": "PINNACLE MOUNTAIN",
+      "year": 2016,
+      "acres": 7869.0,
+      "month": 11
+    },
+    {
+      "id": "NC3539808390820161104",
+      "name": "MAPLE SPRINGS",
+      "year": 2016,
+      "acres": 7696.0,
+      "month": 11
+    },
+    {
+      "id": "NC3589008280820160421",
+      "name": "SILVER MINE",
+      "year": 2016,
+      "acres": 6082.0,
+      "month": 4
+    },
+    {
+      "id": "NC3570508210120161120",
+      "name": "CLEAR CREEK",
+      "year": 2016,
+      "acres": 3493.0,
+      "month": 11
+    },
+    {
+      "id": "NC3516508354120161123",
+      "name": "CAMP BRANCH",
+      "year": 2016,
+      "acres": 3234.0,
+      "month": 11
+    },
+    {
+      "id": "NC3589008184020160309",
+      "name": "UNNAMED",
+      "year": 2016,
+      "acres": 2976.0,
+      "month": 3
+    },
+    {
+      "id": "TN3587408316720160404",
+      "name": "HALLS TOP",
+      "year": 2016,
+      "acres": 2464.0,
+      "month": 4
+    },
+    {
+      "id": "NC3512008382020160322",
+      "name": "UNNAMED",
+      "year": 2016,
+      "acres": 2087.0,
+      "month": 3
+    },
+    {
+      "id": "TN3621708211020160418",
+      "name": "RAILROAD GRADE 2016",
+      "year": 2016,
+      "acres": 1790.0,
+      "month": 4
+    },
+    {
+      "id": "NC3531008367020160320",
+      "name": "UNNAMED",
+      "year": 2016,
+      "acres": 1676.0,
+      "month": 3
+    },
+    {
+      "id": "TN3596008281020160310",
+      "name": "STARR MOUNTAIN",
+      "year": 2016,
+      "acres": 1576.0,
+      "month": 3
+    },
+    {
+      "id": "TN3573208380920161117",
+      "name": "EAST MILLER COVE",
+      "year": 2016,
+      "acres": 1331.0,
+      "month": 11
+    },
+    {
+      "id": "TN3534008421020160317",
+      "name": "BUCK BRANCH",
+      "year": 2016,
+      "acres": 1226.0,
+      "month": 3
+    },
+    {
+      "id": "NC3510808353620161102",
+      "name": "KNOB",
+      "year": 2016,
+      "acres": 1132.0,
+      "month": 11
+    },
+    {
+      "id": "TN3592808291920160416",
+      "name": "STATE LINE",
+      "year": 2016,
+      "acres": 1111.0,
+      "month": 4
+    },
+    {
+      "id": "NC3521008371020160309",
+      "name": "UNNAMED",
+      "year": 2016,
+      "acres": 945.0,
+      "month": 3
+    },
+    {
+      "id": "TN3533008420020160307",
+      "name": "MILLER MINE",
+      "year": 2016,
+      "acres": 926.0,
+      "month": 3
+    },
+    {
+      "id": "NC3539908326020161023",
+      "name": "DICK'S CREEK",
+      "year": 2016,
+      "acres": 833.0,
+      "month": 10
+    },
+    {
+      "id": "TN3595708307720161111",
+      "name": "NEDDY MOUNTAIN ROAD",
+      "year": 2016,
+      "acres": 788.0,
+      "month": 11
+    },
+    {
+      "id": "NC3549708324520161108",
+      "name": "DOBSON 3",
+      "year": 2016,
+      "acres": 741.0,
+      "month": 11
+    },
+    {
+      "id": "TN3577008334320161128",
+      "name": "COBBLY NOB",
+      "year": 2016,
+      "acres": 732.0,
+      "month": 11
+    },
+    {
+      "id": "NC3574208198920160323",
+      "name": "NORTH PEAK",
+      "year": 2016,
+      "acres": 680.0,
+      "month": 3
+    },
+    {
+      "id": "TN3535708427120161116",
+      "name": "QUARRY CREEK",
+      "year": 2016,
+      "acres": 643.0,
+      "month": 11
+    },
+    {
+      "id": "NC3521008359020160307",
+      "name": "UNNAMED",
+      "year": 2016,
+      "acres": 583.0,
+      "month": 3
+    },
+    {
+      "id": "NC3537108385920161109",
+      "name": "OLD ROUGHY",
+      "year": 2016,
+      "acres": 534.0,
+      "month": 11
+    },
+    {
+      "id": "NC3572008197020150131",
+      "name": "UNNAMED",
+      "year": 2015,
+      "acres": 1879.0,
+      "month": 1
+    },
+    {
+      "id": "NC3578608199020150717",
+      "name": "BALD KNOB",
+      "year": 2015,
+      "acres": 918.0,
+      "month": 7
+    },
+    {
+      "id": "TN3561508386020150308",
+      "name": "ARBUTUS RIDGE RX",
+      "year": 2015,
+      "acres": 871.0,
+      "month": 3
+    },
+    {
+      "id": "NC3610008234220150331",
+      "name": "POPLAR",
+      "year": 2015,
+      "acres": 768.0,
+      "month": 3
+    },
+    {
+      "id": "NC3562508229420150331",
+      "name": "WEED LANE",
+      "year": 2015,
+      "acres": 728.0,
+      "month": 3
+    },
+    {
+      "id": "NC3561608312820150318",
+      "name": "WASH RIDGE RX 2015",
+      "year": 2015,
+      "acres": 559.0,
+      "month": 3
+    },
+    {
+      "id": "TN3530508412620140315",
+      "name": "UNNAMED",
+      "year": 2014,
+      "acres": 2351.0,
+      "month": 3
+    },
+    {
+      "id": "NC3520408425520140311",
+      "name": "UNNAMED",
+      "year": 2014,
+      "acres": 1884.0,
+      "month": 3
+    },
+    {
+      "id": "TN3530508431620140316",
+      "name": "UNNAMED",
+      "year": 2014,
+      "acres": 1315.0,
+      "month": 3
+    },
+    {
+      "id": "TN3530808422120140314",
+      "name": "GRAVELSTAND",
+      "year": 2014,
+      "acres": 1105.0,
+      "month": 3
+    },
+    {
+      "id": "NC3542708387420140308",
+      "name": "UNNAMED",
+      "year": 2014,
+      "acres": 905.0,
+      "month": 3
+    },
+    {
+      "id": "TN3612408237820140408",
+      "name": "UNNAMED",
+      "year": 2014,
+      "acres": 807.0,
+      "month": 4
+    },
+    {
+      "id": "NC3534508336120140311",
+      "name": "ALARKA RX BURN",
+      "year": 2014,
+      "acres": 674.0,
+      "month": 3
+    },
+    {
+      "id": "TN3526608411420130409",
+      "name": "BEAVER DAM",
+      "year": 2013,
+      "acres": 4336.0,
+      "month": 4
+    },
+    {
+      "id": "TN3533408408020130317",
+      "name": "MCINTYRE-A",
+      "year": 2013,
+      "acres": 2695.0,
+      "month": 3
+    },
+    {
+      "id": "NC3572808220620130322",
+      "name": "LOST BEAR EAST",
+      "year": 2013,
+      "acres": 2167.0,
+      "month": 3
+    },
+    {
+      "id": "TN3615508245520130414",
+      "name": "CALIFORNIA CREEK",
+      "year": 2013,
+      "acres": 1758.0,
+      "month": 4
+    },
+    {
+      "id": "TN3605708268520130410",
+      "name": "DAVIS CREEK",
+      "year": 2013,
+      "acres": 1616.0,
+      "month": 4
+    },
+    {
+      "id": "TN3648308201720130408",
+      "name": "UNNAMED",
+      "year": 2013,
+      "acres": 1375.0,
+      "month": 4
+    },
+    {
+      "id": "TN3658308181620130409",
+      "name": "TANK HOLLOW",
+      "year": 2013,
+      "acres": 1340.0,
+      "month": 4
+    },
+    {
+      "id": "NC3510308386820130409",
+      "name": "UNNAMED",
+      "year": 2013,
+      "acres": 1109.0,
+      "month": 4
+    },
+    {
+      "id": "NC3531508333520130410",
+      "name": "UNNAMED",
+      "year": 2013,
+      "acres": 884.0,
+      "month": 4
+    },
+    {
+      "id": "TN3586208313020131104",
+      "name": "HALLS TOP",
+      "year": 2013,
+      "acres": 702.0,
+      "month": 11
+    },
+    {
+      "id": "NC3535608307420130403",
+      "name": "UNNAMED",
+      "year": 2013,
+      "acres": 617.0,
+      "month": 4
+    },
+    {
+      "id": "TN3651708205120130321",
+      "name": "UNNAMED",
+      "year": 2013,
+      "acres": 588.0,
+      "month": 3
+    },
+    {
+      "id": "NC3571708222420130308",
+      "name": "LOST BEAR WEST",
+      "year": 2013,
+      "acres": 565.0,
+      "month": 3
+    },
+    {
+      "id": "TN3658608406520130512",
+      "name": "HWY 25 - HIGH CLIFF",
+      "year": 2013,
+      "acres": 506.0,
+      "month": 5
+    },
+    {
+      "id": "TN3638308314420121115",
+      "name": "STONE MT-PRICE RD FIRE",
+      "year": 2012,
+      "acres": 1856.0,
+      "month": 11
+    },
+    {
+      "id": "NC3522208417320120226",
+      "name": "JOE TOP",
+      "year": 2012,
+      "acres": 745.0,
+      "month": 2
+    },
+    {
+      "id": "NC3539408225920110212",
+      "name": "JUDES GAP",
+      "year": 2011,
+      "acres": 1196.0,
+      "month": 2
+    },
+    {
+      "id": "TN3544108407320100319",
+      "name": "COW CAMP-A",
+      "year": 2010,
+      "acres": 2953.0,
+      "month": 3
+    },
+    {
+      "id": "TN3579408299020100412",
+      "name": "BROWN GAP CREEK-A",
+      "year": 2010,
+      "acres": 2210.0,
+      "month": 4
+    },
+    {
+      "id": "NC3508208413120100320",
+      "name": "JOHNISH",
+      "year": 2010,
+      "acres": 1463.0,
+      "month": 3
+    },
+    {
+      "id": "NC3507708409420100320",
+      "name": "MILKSICK / PANTHER TOP",
+      "year": 2010,
+      "acres": 1222.0,
+      "month": 3
+    },
+    {
+      "id": "NC3503408349720101114",
+      "name": "STEELTRAP RX",
+      "year": 2010,
+      "acres": 1194.0,
+      "month": 11
+    },
+    {
+      "id": "NC3572208219820100402",
+      "name": "LOST BEAR",
+      "year": 2010,
+      "acres": 925.0,
+      "month": 4
+    },
+    {
+      "id": "TN3628908218920100405",
+      "name": "JENKINS HOLLOW",
+      "year": 2010,
+      "acres": 902.0,
+      "month": 4
+    },
+    {
+      "id": "NC3500908377320100308",
+      "name": "JACKRABBIT",
+      "year": 2010,
+      "acres": 781.0,
+      "month": 3
+    },
+    {
+      "id": "NC3542608387620100402",
+      "name": "YELLOW CREEK",
+      "year": 2010,
+      "acres": 741.0,
+      "month": 4
+    },
+    {
+      "id": "NC3553008327320090427",
+      "name": "STONY RIDGE",
+      "year": 2009,
+      "acres": 1518.0,
+      "month": 4
+    },
+    {
+      "id": "TN3649908403020090323",
+      "name": "WESTBOURNE RD",
+      "year": 2009,
+      "acres": 501.0,
+      "month": 3
+    },
+    {
+      "id": "NC3586008192920080418",
+      "name": "SUNRISE",
+      "year": 2008,
+      "acres": 1906.0,
+      "month": 4
+    },
+    {
+      "id": "TN3592008307120080802",
+      "name": "OLD 15TH",
+      "year": 2008,
+      "acres": 1738.0,
+      "month": 8
+    },
+    {
+      "id": "TN3640908410620080416",
+      "name": "UNNAMED",
+      "year": 2008,
+      "acres": 1397.0,
+      "month": 4
+    },
+    {
+      "id": "TN3563408386920080424",
+      "name": "BEARD CANE RX",
+      "year": 2008,
+      "acres": 680.0,
+      "month": 4
+    },
+    {
+      "id": "TN3626708235620080507",
+      "name": "LONE OAK",
+      "year": 2008,
+      "acres": 677.0,
+      "month": 5
+    },
+    {
+      "id": "TN3658508405820080423",
+      "name": "HIGH CLIFF",
+      "year": 2008,
+      "acres": 557.0,
+      "month": 4
+    },
+    {
+      "id": "TN3558308404220080624",
+      "name": "ALLEGEHENY LOOP RD",
+      "year": 2008,
+      "acres": 530.0,
+      "month": 6
+    },
+    {
+      "id": "NC3582708191720070608",
+      "name": "LINVILLE COMPLEX (DOBSON KNOB)",
+      "year": 2007,
+      "acres": 7151.0,
+      "month": 6
+    },
+    {
+      "id": "TN3656208183520070410",
+      "name": "UNNAMED",
+      "year": 2007,
+      "acres": 2242.0,
+      "month": 4
+    },
+    {
+      "id": "TN3611108252720070325",
+      "name": "UNNAMED",
+      "year": 2007,
+      "acres": 2026.0,
+      "month": 3
+    },
+    {
+      "id": "TN3599208289920070523",
+      "name": "PIGEON BRANCH",
+      "year": 2007,
+      "acres": 1722.0,
+      "month": 5
+    },
+    {
+      "id": "NC3604308239920070325",
+      "name": "UNNAMED",
+      "year": 2007,
+      "acres": 1617.0,
+      "month": 3
+    },
+    {
+      "id": "TN3618608243120070325",
+      "name": "UNNAMED",
+      "year": 2007,
+      "acres": 1537.0,
+      "month": 3
+    },
+    {
+      "id": "TN3647308210720070325",
+      "name": "UNNAMED",
+      "year": 2007,
+      "acres": 1504.0,
+      "month": 3
+    },
+    {
+      "id": "TN3650408403520070306",
+      "name": "WEST BOURNE MTN 2",
+      "year": 2007,
+      "acres": 1162.0,
+      "month": 3
+    },
+    {
+      "id": "TN3561108386120070410",
+      "name": "ARBUTUS RIDGE",
+      "year": 2007,
+      "acres": 1089.0,
+      "month": 4
+    },
+    {
+      "id": "TN3562008390020070520",
+      "name": "BUCK SHANK",
+      "year": 2007,
+      "acres": 996.0,
+      "month": 5
+    },
+    {
+      "id": "NC3582608202920070222",
+      "name": "COX CREEK FIRE",
+      "year": 2007,
+      "acres": 823.0,
+      "month": 2
+    },
+    {
+      "id": "TN3554408384020070402",
+      "name": "GREGORY RIDGE",
+      "year": 2007,
+      "acres": 819.0,
+      "month": 4
+    },
+    {
+      "id": "NC3534908272120070325",
+      "name": "UNNAMED",
+      "year": 2007,
+      "acres": 696.0,
+      "month": 3
+    },
+    {
+      "id": "NC3607608238720070523",
+      "name": "JOE LEWIS",
+      "year": 2007,
+      "acres": 672.0,
+      "month": 5
+    },
+    {
+      "id": "TN3641708408220070324",
+      "name": "25W",
+      "year": 2007,
+      "acres": 551.0,
+      "month": 3
+    },
+    {
+      "id": "TN3614908251720070311",
+      "name": "EMBREEVILLE",
+      "year": 2007,
+      "acres": 513.0,
+      "month": 3
+    },
+    {
+      "id": "NC3561708312920070324",
+      "name": "WASH RIDGE",
+      "year": 2007,
+      "acres": 507.0,
+      "month": 3
+    },
+    {
+      "id": "TN3629108426220070309",
+      "name": "ELK FIELDS",
+      "year": 2007,
+      "acres": 504.0,
+      "month": 3
+    },
+    {
+      "id": "TN3622208416820060302",
+      "name": "UNNAMED",
+      "year": 2006,
+      "acres": 1446.0,
+      "month": 3
+    },
+    {
+      "id": "TN3552008391020060405",
+      "name": "CHILLY SPRING KNOB",
+      "year": 2006,
+      "acres": 760.0,
+      "month": 4
+    },
+    {
+      "id": "TN3559608402620060414",
+      "name": "UNNAMED",
+      "year": 2006,
+      "acres": 675.0,
+      "month": 4
+    },
+    {
+      "id": "TN3639708431420060310",
+      "name": "HWY 63",
+      "year": 2006,
+      "acres": 633.0,
+      "month": 3
+    },
+    {
+      "id": "TN3562008389620050408",
+      "name": "HATCHERMTN",
+      "year": 2005,
+      "acres": 2196.0,
+      "month": 4
+    },
+    {
+      "id": "TN3658308424920051112",
+      "name": "CAP KNOB",
+      "year": 2005,
+      "acres": 1835.0,
+      "month": 11
+    },
+    {
+      "id": "VA3661108301520050506",
+      "name": "UNNAMED",
+      "year": 2005,
+      "acres": 693.0,
+      "month": 5
+    },
+    {
+      "id": "TN3620508369920050915",
+      "name": "CLINCH MOUNTAIN",
+      "year": 2005,
+      "acres": 619.0,
+      "month": 9
+    },
+    {
+      "id": "NC3561908312920040407",
+      "name": "WASH RIDGE",
+      "year": 2004,
+      "acres": 603.0,
+      "month": 4
+    },
+    {
+      "id": "TN3533808409820030414",
+      "name": "UNNAMED",
+      "year": 2003,
+      "acres": 1560.0,
+      "month": 4
+    },
+    {
+      "id": "TN3560508385620030310",
+      "name": "ARBUTUS RIDGE",
+      "year": 2003,
+      "acres": 1050.0,
+      "month": 3
+    },
+    {
+      "id": "NC3550208345820011110",
+      "name": "SHARP",
+      "year": 2001,
+      "acres": 6039.0,
+      "month": 11
+    },
+    {
+      "id": "NC3592708284620011112",
+      "name": "LARMAN",
+      "year": 2001,
+      "acres": 3072.0,
+      "month": 11
+    },
+    {
+      "id": "TN3558108403220011113",
+      "name": "UNNAMED",
+      "year": 2001,
+      "acres": 2662.0,
+      "month": 11
+    },
+    {
+      "id": "TN3581508319520011110",
+      "name": "GREEN MTN.",
+      "year": 2001,
+      "acres": 1787.0,
+      "month": 11
+    },
+    {
+      "id": "NC3553908211420010420",
+      "name": "OAK MT. FIRE",
+      "year": 2001,
+      "acres": 1677.0,
+      "month": 4
+    },
+    {
+      "id": "TN3581608365720011113",
+      "name": "UNNAMED",
+      "year": 2001,
+      "acres": 1085.0,
+      "month": 11
+    },
+    {
+      "id": "TN3657708404920011203",
+      "name": "UNNAMED",
+      "year": 2001,
+      "acres": 1065.0,
+      "month": 12
+    },
+    {
+      "id": "NC3545308353920010326",
+      "name": "TUNNEL",
+      "year": 2001,
+      "acres": 822.0,
+      "month": 3
+    },
+    {
+      "id": "TN3626108428620011110",
+      "name": "UNNAMED",
+      "year": 2001,
+      "acres": 665.0,
+      "month": 11
+    },
+    {
+      "id": "VA3660908302120010219",
+      "name": "UNNAMED",
+      "year": 2001,
+      "acres": 636.0,
+      "month": 2
+    },
+    {
+      "id": "KY3659408395320011030",
+      "name": "UNNAMED",
+      "year": 2001,
+      "acres": 630.0,
+      "month": 10
+    },
+    {
+      "id": "TN3657008311520011110",
+      "name": "UNNAMED",
+      "year": 2001,
+      "acres": 546.0,
+      "month": 11
+    },
+    {
+      "id": "TN3561408386720010423",
+      "name": "STONY RDG",
+      "year": 2001,
+      "acres": 504.0,
+      "month": 4
+    },
+    {
+      "id": "NC3586508189320001028",
+      "name": "BRUSHY RIDGE",
+      "year": 2000,
+      "acres": 12405.0,
+      "month": 10
+    },
+    {
+      "id": "TN3628508429820001030",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 8064.0,
+      "month": 10
+    },
+    {
+      "id": "KY3663608398420001102",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 6590.0,
+      "month": 11
+    },
+    {
+      "id": "NC3606708226420001031",
+      "name": "TIPTON HILL",
+      "year": 2000,
+      "acres": 2661.0,
+      "month": 10
+    },
+    {
+      "id": "TN3617208425920001030",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 2055.0,
+      "month": 10
+    },
+    {
+      "id": "TN3604408275920001106",
+      "name": "HORSEHITCH",
+      "year": 2000,
+      "acres": 1689.0,
+      "month": 11
+    },
+    {
+      "id": "TN3650308419220001103",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 1400.0,
+      "month": 11
+    },
+    {
+      "id": "TN3530408431320000405",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 1217.0,
+      "month": 4
+    },
+    {
+      "id": "NC3520508371520000405",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 1025.0,
+      "month": 4
+    },
+    {
+      "id": "NC3510108386920000405",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 936.0,
+      "month": 4
+    },
+    {
+      "id": "TN3640608323620001201",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 888.0,
+      "month": 12
+    },
+    {
+      "id": "TN3616908420820001201",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 745.0,
+      "month": 12
+    },
+    {
+      "id": "TN3559808381620000314",
+      "name": "CC FIELDS",
+      "year": 2000,
+      "acres": 704.0,
+      "month": 3
+    },
+    {
+      "id": "TN3650708422620001102",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 702.0,
+      "month": 11
+    },
+    {
+      "id": "TN3634908353620001201",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 551.0,
+      "month": 12
+    },
+    {
+      "id": "TN3650308397720001201",
+      "name": "UNNAMED",
+      "year": 2000,
+      "acres": 529.0,
+      "month": 12
+    },
+    {
+      "id": "NC3537908393019991115",
+      "name": "AVEY CREEK",
+      "year": 1999,
+      "acres": 2099.0,
+      "month": 11
+    },
+    {
+      "id": "NC3535108395519991115",
+      "name": "GOLDIE DEADEN",
+      "year": 1999,
+      "acres": 1717.0,
+      "month": 11
+    },
+    {
+      "id": "TN3612808423319991118",
+      "name": "UNNAMED",
+      "year": 1999,
+      "acres": 637.0,
+      "month": 11
+    },
+    {
+      "id": "TN3554208398319990819",
+      "name": "BLACKSMITH",
+      "year": 1999,
+      "acres": 538.0,
+      "month": 8
+    },
+    {
+      "id": "NC3548608353519980406",
+      "name": "FOURNEY CREEK",
+      "year": 1998,
+      "acres": 2579.0,
+      "month": 4
+    },
+    {
+      "id": "TN3560308368719980717",
+      "name": "UNNAMED",
+      "year": 1998,
+      "acres": 848.0,
+      "month": 7
+    },
+    {
+      "id": "TN3595508290619941120",
+      "name": "CHEROKEE NORTH",
+      "year": 1994,
+      "acres": 1230.0,
+      "month": 11
+    },
+    {
+      "id": "NC3567108225519940319",
+      "name": "MILL CREEK",
+      "year": 1994,
+      "acres": 575.0,
+      "month": 3
+    },
+    {
+      "id": "TN3582108316819941120",
+      "name": "BLUFFTON 2",
+      "year": 1994,
+      "acres": 546.0,
+      "month": 11
+    },
+    {
+      "id": "NC3565708224719930412",
+      "name": "GRAPHITE",
+      "year": 1993,
+      "acres": 626.0,
+      "month": 4
+    },
+    {
+      "id": "TN3592108310119911029",
+      "name": "UNAKA",
+      "year": 1991,
+      "acres": 1203.0,
+      "month": 10
+    },
+    {
+      "id": "TN3629708216719911027",
+      "name": "UNNAMED",
+      "year": 1991,
+      "acres": 645.0,
+      "month": 10
+    },
+    {
+      "id": "TN3609508266819880429",
+      "name": "OLD FORCE",
+      "year": 1988,
+      "acres": 1264.0,
+      "month": 4
+    },
+    {
+      "id": "TN3554108398519880323",
+      "name": "SHOP",
+      "year": 1988,
+      "acres": 1095.0,
+      "month": 3
+    },
+    {
+      "id": "TN3560408398819880627",
+      "name": "MONTVALE",
+      "year": 1988,
+      "acres": 739.0,
+      "month": 6
+    },
+    {
+      "id": "TN3612408260719880323",
+      "name": "UNNAMED",
+      "year": 1988,
+      "acres": 506.0,
+      "month": 3
+    },
+    {
+      "id": "TN3647808397119871206",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 10327.0,
+      "month": 12
+    },
+    {
+      "id": "KY3661908387619871206",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 6067.0,
+      "month": 12
+    },
+    {
+      "id": "TN3641808427219871206",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 5973.0,
+      "month": 12
+    },
+    {
+      "id": "TN3649208385819871206",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 4337.0,
+      "month": 12
+    },
+    {
+      "id": "TN3650608404919871206",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 4194.0,
+      "month": 12
+    },
+    {
+      "id": "TN3658908404019871206",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 3907.0,
+      "month": 12
+    },
+    {
+      "id": "TN3654908402119871206",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 1913.0,
+      "month": 12
+    },
+    {
+      "id": "TN3559708400219871108",
+      "name": "MORTON BLF",
+      "year": 1987,
+      "acres": 1853.0,
+      "month": 11
+    },
+    {
+      "id": "TN3630008216519871105",
+      "name": "HAMPTON",
+      "year": 1987,
+      "acres": 1536.0,
+      "month": 11
+    },
+    {
+      "id": "TN3653408415319871206",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 1448.0,
+      "month": 12
+    },
+    {
+      "id": "TN3655708291019871113",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 993.0,
+      "month": 11
+    },
+    {
+      "id": "TN3639908215019871106",
+      "name": "STONEY CREEK",
+      "year": 1987,
+      "acres": 886.0,
+      "month": 11
+    },
+    {
+      "id": "TN3582308316519871107",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 811.0,
+      "month": 11
+    },
+    {
+      "id": "TN3630408203219871113",
+      "name": "UNNAMED",
+      "year": 1987,
+      "acres": 644.0,
+      "month": 11
+    },
+    {
+      "id": "NC3546108348719860401",
+      "name": "PEACHTREE",
+      "year": 1986,
+      "acres": 825.0,
+      "month": 4
+    },
+    {
+      "id": "TN3560808372419860403",
+      "name": "HICKORY",
+      "year": 1986,
+      "acres": 530.0,
+      "month": 4
+    },
+    {
+      "id": "NC3566208216819850320",
+      "name": "UNNAMED",
+      "year": 1985,
+      "acres": 685.0,
+      "month": 3
+    }
+  ],
+  "count": 241,
+  "error": null
+}

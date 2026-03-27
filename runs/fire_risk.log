@@ -1,0 +1,29 @@
+=== FIRE RISK LAYER - HOLLER SIREN INTEGRATION ===
+Terrain cells loaded: 40453 from tfi_v5_western_nc.json
+Active fires: 0
+Historical fire events: 241
+
+Fire regime distribution:
+  EXTREME     :     0 (0.0%)
+  HIGH        :    83 (0.2%)
+  MODERATE    :  2353 (5.8%)
+  LOW         : 38017 (94.0%)
+
+Double-threat cells (high landslide AND high fire): 75
+
+Top 10 double-threat locations:
+     Lat       Lon  FireRisk   LsRisk FireReg    LsReg
+-----------------------------------------------------------------
+  35.266   -82.234    0.5366   0.9680 HIGH       CRITICAL
+  35.913   -81.957    0.5225   0.9625 HIGH       CRITICAL
+  35.131   -82.567    0.5111   0.9698 HIGH       CRITICAL
+  35.131   -82.578    0.5044   0.9734 HIGH       CRITICAL
+  35.446   -82.257    0.4862   0.9588 HIGH       CRITICAL
+  35.248   -82.257    0.5076   0.9257 HIGH       CRITICAL
+  35.464   -82.246    0.4846   0.9391 HIGH       CRITICAL
+  35.446   -82.246    0.4688   0.9541 HIGH       CRITICAL
+  35.230   -82.268    0.4667   0.9526 HIGH       CRITICAL
+  35.167   -82.301    0.4553   0.9611 HIGH       CRITICAL
+
+Saved fire risk overlay to /Users/jenniferwest/gaia/data/fire/fire_risk_overlay.json
+File size: 34535 KB

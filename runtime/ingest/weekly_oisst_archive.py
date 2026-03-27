@@ -8,7 +8,7 @@ from __future__ import annotations
 import json
 import time
 import urllib.request
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 import numpy as np
@@ -47,6 +47,26 @@ def _mean_anom_from_erddap(payload: dict) -> float | None:
     return float(np.mean(vals))
 
 
+def _mean_anom_rows_by_time(payload: dict) -> dict[str, float]:
+    rows = payload.get("table", {}).get("rows", [])
+    out: dict[str, list[float]] = {}
+    for row in rows:
+        if not row or len(row) < 5:
+            continue
+        time_key = str(row[0])
+        value = row[-1]
+        if value is None:
+            continue
+        try:
+            v = float(value)
+        except (TypeError, ValueError):
+            continue
+        if not (-12 < v < 12):
+            continue
+        out.setdefault(time_key, []).append(v)
+    return {key: float(np.mean(vals)) for key, vals in out.items() if vals}
+
+
 class WeeklyOISSTArchive:
     def __init__(self, *, use_network: bool = True) -> None:
         self.use_network = use_network
@@ -54,6 +74,9 @@ class WeeklyOISSTArchive:
 
     def _cache_path(self, iso_year: int, iso_week: int) -> Path:
         return CACHE_DIR / f"gulf_{iso_year}_W{iso_week:02d}.json"
+
+    def weeks_in_year(self, iso_year: int) -> int:
+        return int(date(iso_year, 12, 28).isocalendar()[1])
 
     def get_week_anomaly(self, iso_year: int, iso_week: int) -> dict[str, float | bool | str]:
         p = self._cache_path(iso_year, iso_week)
@@ -130,3 +153,56 @@ class WeeklyOISSTArchive:
             "gulf_warm_pulse_5wk": int(max(anom_vals) > 0.5),
             "gulf_warming_trend": float(anom_vals[0] - anom_vals[-1]) if len(anom_vals) >= 3 else 0.0,
         }
+
+    def fetch_gulf_weekly_archive(
+        self,
+        *,
+        start_year: int | None = None,
+        end_year: int | None = None,
+        years: list[int] | None = None,
+    ) -> dict[str, dict[str, float | bool | str]]:
+        if years is None:
+            start = int(start_year or 1990)
+            end = int(end_year or datetime.now().year)
+            years = list(range(start, end + 1))
+
+        archive: dict[str, dict[str, float | bool | str]] = {}
+        for iso_year in years:
+            for iso_week in range(1, self.weeks_in_year(iso_year) + 1):
+                rec = self.get_week_anomaly(iso_year, iso_week)
+                archive[f"{iso_year}-W{iso_week:02d}"] = rec
+        return archive
+
+    def fetch_iso_year_archive(self, iso_year: int) -> dict[str, dict[str, float | bool | str]]:
+        if not self.use_network:
+            return self.fetch_gulf_weekly_archive(years=[iso_year])
+
+        first_monday = datetime.fromisocalendar(iso_year, 1, 1)
+        last_monday = datetime.fromisocalendar(iso_year, self.weeks_in_year(iso_year), 1)
+        start_ts = first_monday.strftime("%Y-%m-%dT12:00:00Z")
+        end_ts = last_monday.strftime("%Y-%m-%dT12:00:00Z")
+        url = (
+            f"{ERDDAP_JSON}?anom[({start_ts}):7:({end_ts})]"
+            "[(0.0):1:(0.0)][(23):1:(30)][(-98):1:(-82)]"
+        )
+
+        req = urllib.request.Request(url, headers={"User-Agent": "GAIA/1.0 (research)"})
+        with urllib.request.urlopen(req, timeout=90) as response:
+            payload = json.loads(response.read().decode("utf-8", errors="replace"))
+        means_by_time = _mean_anom_rows_by_time(payload)
+
+        archive: dict[str, dict[str, float | bool | str]] = {}
+        for time_key, mean_anom in means_by_time.items():
+            dt = datetime.strptime(time_key, "%Y-%m-%dT%H:%M:%SZ")
+            iy, iw = _iso_week_key(dt)
+            rec = {
+                "anomaly": round(mean_anom, 3),
+                "warm_pulse": bool(mean_anom > 0.5),
+                "very_warm": bool(mean_anom > 1.0),
+                "week_start": dt.strftime("%Y-%m-%d"),
+                "source": "noaa_oisst_erddap_batch",
+            }
+            self._cache_path(iy, iw).write_text(json.dumps(rec))
+            archive[f"{iy}-W{iw:02d}"] = rec
+        time.sleep(0.12)
+        return archive

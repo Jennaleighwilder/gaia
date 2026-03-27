@@ -20,3 +20,6 @@ arm-pyart>=2.0
 # Dashboard:
 flask>=3.0
 gunicorn>=22.0
+
+# Copernicus CDS (ERA5 daily AO when CPC ASCII is unavailable):
+cdsapi>=0.7.7

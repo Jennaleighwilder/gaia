@@ -21,7 +21,14 @@ from pathlib import Path
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
+# CDS/cdsapi writes downloads under tempfile; macOS /var/folders can fill — use repo-local staging.
+ERA5_CDS_TEMP_DIR = ROOT / "tmp_cds"
 CACHE_DIR = ROOT / "data" / "cache" / "era5_daily_ao"
+
+
+def era5_cds_temp_parent() -> Path:
+    ERA5_CDS_TEMP_DIR.mkdir(parents=True, exist_ok=True)
+    return ERA5_CDS_TEMP_DIR
 AO_LOADING_PATTERN_FILE = CACHE_DIR / "ao_loading_pattern.npy"
 # Single La Niña-corpus EOF (sign-fixed) used by rebuild_global_eof_la_nina_archive.
 GLOBAL_EOF_LOADING_FILE = CACHE_DIR / "eof_global_la_nina_signfixed.npy"
@@ -61,7 +68,9 @@ def _open_cds_download(path: Path):
     import xarray as xr
 
     if zipfile.is_zipfile(path):
-        with zipfile.ZipFile(path) as zf, tempfile.TemporaryDirectory() as td:
+        with zipfile.ZipFile(path) as zf, tempfile.TemporaryDirectory(
+            dir=str(era5_cds_temp_parent())
+        ) as td:
             td_path = Path(td)
             nc_members = [n for n in zf.namelist() if n.lower().endswith(".nc")]
             if not nc_members:
@@ -74,7 +83,7 @@ def _open_cds_download(path: Path):
 
 
 def _retrieve_to_dataset(client, dataset: str, request: dict):
-    with tempfile.TemporaryDirectory() as td:
+    with tempfile.TemporaryDirectory(dir=str(era5_cds_temp_parent())) as td:
         tdir = Path(td)
         target = tdir / "cds_out"
         client.retrieve(dataset, request, str(target))

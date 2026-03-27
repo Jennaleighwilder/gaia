@@ -2,9 +2,10 @@
 Daily AO for pre-outbreak windows.
 
 Primary: NOAA CPC ASCII (single file). If that URL fails (404 / network),
-fallback: linear interpolation between **15th-of-month** values from
-`data/global_indices/ao_monthly.dat` (NOT true CPC daily AO — use only when
-live CPC is unavailable; trends/plunges are smoothed vs real sub-weekly AO).
+next: merged ERA5-based daily AO at `data/cache/era5_daily_ao/daily_ao_archive.json`
+(see `runtime/ingest/era5_daily_ao.py` and `scripts/cds_connection_test.py`).
+Final fallback: linear interpolation between **15th-of-month** values from
+`data/global_indices/ao_monthly.dat` (NOT true daily AO — trends/plunges are smoothed).
 """
 
 from __future__ import annotations
@@ -16,6 +17,8 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 import numpy as np
+
+from runtime.ingest.era5_daily_ao import ERA5_DAILY_AO_ARCHIVE_PATH, load_era5_daily_ao_archive
 
 ROOT = Path(__file__).resolve().parents[2]
 CACHE_PATH = ROOT / "data" / "cache" / "daily_ao_full.json"
@@ -141,6 +144,11 @@ class DailyAOArchive:
                     return archive
             except Exception:
                 continue
+
+        era5 = load_era5_daily_ao_archive(ERA5_DAILY_AO_ARCHIVE_PATH)
+        if era5:
+            CACHE_PATH.write_text(json.dumps(era5))
+            return era5
 
         archive = _interpolated_daily_from_monthly()
         if archive:

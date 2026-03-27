@@ -14,6 +14,9 @@ __pycache__/
 *.swp
 *.swo
 
+# CDS retrieve staging (avoid filling system /var/folders)
+tmp_cds/
+
 # GAIA runtime
 runs/
 *.db
@@ -30,6 +33,9 @@ runs/
 dist/
 build/
 *.log
+
+# TESS MJO/Gulf download cache (local only)
+data/cache/
 
 # Large data (keep locally, not in repo)
 data/memory/

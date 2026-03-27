@@ -210,6 +210,7 @@ LIVE_HTML = """
     .tess-banner{grid-column:1/-1;text-align:center;padding:28px}
     .tess-score{font-size:3.5rem;font-weight:700;font-variant-numeric:tabular-nums}
     .tess-label{font-size:.85rem;color:#8b949e;margin-top:4px}
+    .tess-sub{font-size:.75rem;color:#6e7681;margin-top:10px;max-width:520px;margin-left:auto;margin-right:auto;line-height:1.4}
     .risk-low{color:#238636}
     .risk-moderate{color:#d29922}
     .risk-elevated{color:#f85149}
@@ -251,7 +252,8 @@ LIVE_HTML = """
   <div class="main">
     <div class="card tess-banner" id="tess-card">
       <div class="tess-score" id="tess-score">—</div>
-      <div class="tess-label">TESS Convergence Score</div>
+      <div class="tess-label">TESS v2 (phase-anomaly + MJO/Gulf)</div>
+      <div class="tess-sub" id="tess-sub"></div>
       <div id="risk-level" style="font-size:.9rem;margin-top:8px;font-weight:600">Loading...</div>
       <div id="signals" style="margin-top:12px"></div>
     </div>
@@ -281,6 +283,12 @@ LIVE_HTML = """
         const t=await fetch('/tess').then(r=>r.json());
         document.getElementById('tess-score').textContent=t.tess_score.toFixed(3);
         document.getElementById('tess-score').className='tess-score '+riskClass(t.risk_level);
+        const pPlatt=t.outbreak_probability_platt;
+        const pCond=t.conditional_probability;
+        let sub='Not a probability — unitless composite. ';
+        if(pPlatt!=null)sub+='Calibrated P̂(outbreak month) ≈ '+(100*pPlatt).toFixed(1)+'% (in-sample Platt). ';
+        if(pCond!=null)sub+='Lift table P(ob|TESS≥T) ≈ '+(100*pCond).toFixed(1)+'% at nearest T.';
+        document.getElementById('tess-sub').textContent=sub;
         document.getElementById('risk-level').textContent=t.risk_level+' — '+t.layers_firing+'/3 layers firing';
         document.getElementById('risk-level').className=riskClass(t.risk_level);
         const sigs=t.signals||[];
@@ -288,7 +296,7 @@ LIVE_HTML = """
         const layers=[
           {name:'Origin',sub:'Pacific SST / ENSO / PDO',key:'origin',detail:'MEI '+(t.layers.origin.mei??'?')+' | PDO '+(t.layers.origin.pdo??'?')},
           {name:'Transport',sub:'Jet Stream / AO / PNA',key:'transport',detail:'AO '+(t.layers.transport.ao??'?')+' | PNA '+(t.layers.transport.pna??'?')},
-          {name:'Loading',sub:'Gulf Moisture / SST Gradient',key:'loading',detail:'Nino3.4a '+(t.layers.loading.nino34_anom??'?')}
+          {name:'Loading',sub:'MJO / Gulf SSTa / Niño',key:'loading',detail:'Gulf ΔSST '+(t.layers.loading.gulf_sst_anomaly??'?')+' | MJO ph '+(t.layers.loading.mjo_phase??'?')+' | Niño3.4a '+(t.layers.loading.nino34_anom??'?')}
         ];
         document.getElementById('layers').innerHTML=layers.map(l=>{
           const s=t.layers[l.key].score;

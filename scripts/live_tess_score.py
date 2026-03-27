@@ -79,6 +79,83 @@ def parse_sst_indices(text: str) -> list[tuple[int, int, dict]]:
     return rows[-18:]
 
 
+def parse_all_monthly_rows(text: str) -> list[tuple[int, int, float]]:
+    rows: list[tuple[int, int, float]] = []
+    for line in text.strip().split("\n"):
+        parts = line.split()
+        if len(parts) >= 3:
+            try:
+                y, m, v = int(parts[0]), int(parts[1]), float(parts[2])
+                if 1950 <= y <= 2035 and 1 <= m <= 12:
+                    rows.append((y, m, v))
+            except (ValueError, IndexError):
+                pass
+    rows.sort()
+    return rows
+
+
+def series_through(rows: list[tuple[int, int, float]], ym: tuple[int, int]) -> list[float]:
+    return [v for y, m, v in rows if (y, m) <= ym]
+
+
+def parse_all_mei_rows(text: str) -> list[tuple[int, int, float]]:
+    rows: list[tuple[int, int, float]] = []
+    for line in text.strip().split("\n"):
+        parts = line.split()
+        if len(parts) < 2:
+            continue
+        try:
+            year = int(parts[0])
+        except ValueError:
+            continue
+        for m, vs in enumerate(parts[1:13], start=1):
+            try:
+                v = float(vs)
+                if v > -900:
+                    rows.append((year, m, v))
+            except (ValueError, IndexError):
+                pass
+    rows.sort()
+    return rows
+
+
+def parse_pdo_flat_through(text: str, ym: tuple[int, int]) -> list[float]:
+    flat: list[float] = []
+    for line in text.strip().split("\n"):
+        parts = line.split()
+        if len(parts) < 13:
+            continue
+        try:
+            year = int(parts[0])
+        except ValueError:
+            continue
+        for m, vs in enumerate(parts[1:13], start=1):
+            try:
+                v = float(vs)
+                if v < 90 and (year, m) <= ym:
+                    flat.append(v)
+            except (ValueError, IndexError):
+                pass
+    return flat
+
+
+def parse_all_sst_anom_rows(text: str) -> list[tuple[int, int, float]]:
+    rows: list[tuple[int, int, float]] = []
+    for line in text.strip().split("\n"):
+        parts = line.split()
+        if len(parts) < 8:
+            continue
+        try:
+            y, m = int(parts[0]), int(parts[1])
+            if parts[0].upper().startswith("YR"):
+                continue
+            rows.append((y, m, float(parts[7])))
+        except (ValueError, IndexError):
+            pass
+    rows.sort()
+    return rows
+
+
 def uvrk1_instability(values: list[float]) -> float:
     """UVRK-1 instability score for a time series [0..1]."""
     if len(values) < 3:
@@ -113,9 +190,23 @@ def uvrk1_instability(values: list[float]) -> float:
     return min(1.0, max(0.0, (ratio + extremity + trend) / 6.0))
 
 
+def compute_tess_score(
+    as_of: datetime, *, neutral: bool = False, use_network: bool = False
+) -> float:
+    """
+    Historical TESS for a calendar date using monthly indices through that month
+    (offline files under data/global_indices/). For scrambled-index checks, pass
+    neutral=True. Live/dashboard fetches set use_network=True for MJO/Gulf ERDDAP.
+    """
+    from scripts.historical_tess import compute_tess_score as _historical
+
+    return _historical(as_of, neutral=neutral, use_network=use_network)
+
+
 def main():
     now = datetime.now(timezone.utc)
-    result = {
+    ym = (now.year, now.month)
+    result: dict = {
         "timestamp": now.isoformat(),
         "date": now.strftime("%Y-%m-%d"),
         "layers": {},
@@ -124,156 +215,128 @@ def main():
         "errors": [],
     }
 
-    # --- Fetch current indices ---
-    ao_vals, pna_vals, mei_vals, pdo_vals, sst_vals = [], [], [], [], []
+    ao_ser: list[float] = []
+    pna_ser: list[float] = []
+    mei_ser: list[float] = []
+    pdo_ser: list[float] = []
+    sst_ser: list[float] = []
     ao_current = pna_current = mei_current = pdo_current = nino34a_current = None
 
     try:
-        ao_text = fetch_text("https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/monthly.ao.index.b50.current.ascii")
-        ao_rows = parse_latest_monthly(ao_text)
-        ao_vals = [v for _, _, v in ao_rows]
-        if ao_rows:
-            ao_current = ao_rows[-1][2]
+        ao_text = fetch_text(
+            "https://www.cpc.ncep.noaa.gov/products/precip/CWlink/daily_ao_index/monthly.ao.index.b50.current.ascii"
+        )
+        ao_all = parse_all_monthly_rows(ao_text)
+        ao_ser = series_through(ao_all, ym)
+        if ao_ser:
+            ao_current = ao_ser[-1]
     except Exception as e:
         result["errors"].append(f"AO: {e}")
 
     try:
-        pna_text = fetch_text("https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii")
-        pna_rows = parse_latest_monthly(pna_text)
-        pna_vals = [v for _, _, v in pna_rows]
-        if pna_rows:
-            pna_current = pna_rows[-1][2]
+        pna_text = fetch_text(
+            "https://www.cpc.ncep.noaa.gov/products/precip/CWlink/pna/norm.pna.monthly.b5001.current.ascii"
+        )
+        pna_all = parse_all_monthly_rows(pna_text)
+        pna_ser = series_through(pna_all, ym)
+        if pna_ser:
+            pna_current = pna_ser[-1]
     except Exception as e:
         result["errors"].append(f"PNA: {e}")
 
     try:
         mei_text = fetch_text("https://psl.noaa.gov/enso/mei/data/meiv2.data")
-        mei_rows = parse_mei_latest(mei_text)
-        mei_vals = [v for _, _, v in mei_rows]
-        if mei_rows:
-            mei_current = mei_rows[-1][2]
+        mei_all = parse_all_mei_rows(mei_text)
+        mei_ser = series_through(mei_all, ym)
+        if mei_ser:
+            mei_current = mei_ser[-1]
     except Exception as e:
         result["errors"].append(f"MEI: {e}")
 
     try:
-        pdo_text = fetch_text("https://www.ncei.noaa.gov/pub/data/cmb/ersst/v5/index/ersst.v5.pdo.dat")
-        pdo_rows = []
-        for line in pdo_text.strip().split("\n"):
-            parts = line.split()
-            if len(parts) < 13:
-                continue
-            try:
-                year = int(parts[0])
-            except ValueError:
-                continue
-            for m, vs in enumerate(parts[1:13], start=1):
-                try:
-                    v = float(vs)
-                    if v < 90:
-                        pdo_rows.append(v)
-                except (ValueError, IndexError):
-                    pass
-        pdo_vals = pdo_rows[-18:]
-        if pdo_vals:
-            pdo_current = pdo_vals[-1]
+        pdo_text = fetch_text(
+            "https://www.ncei.noaa.gov/pub/data/cmb/ersst/v5/index/ersst.v5.pdo.dat"
+        )
+        pdo_ser = parse_pdo_flat_through(pdo_text, ym)
+        if pdo_ser:
+            pdo_current = pdo_ser[-1]
     except Exception as e:
         result["errors"].append(f"PDO: {e}")
 
     try:
         sst_text = fetch_text("https://www.cpc.ncep.noaa.gov/data/indices/sstoi.indices")
-        sst_rows = parse_sst_indices(sst_text)
-        sst_vals = [d["nino34_anom"] for _, _, d in sst_rows]
-        if sst_rows:
-            nino34a_current = sst_rows[-1][2]["nino34_anom"]
+        sst_all = parse_all_sst_anom_rows(sst_text)
+        sst_ser = series_through(sst_all, ym)
+        if sst_ser:
+            nino34a_current = sst_ser[-1]
     except Exception as e:
         result["errors"].append(f"SST: {e}")
 
-    # --- LAYER 1: ORIGIN ---
-    origin_score = 0.0
-    if mei_vals:
-        origin_score = max(origin_score, uvrk1_instability(mei_vals))
-        if mei_current is not None:
-            if mei_current < -1.0:
-                result["signals"].append("LA_NINA_STRONG")
-                origin_score = max(origin_score, 0.8)
-            elif mei_current < -0.5:
-                result["signals"].append("LA_NINA")
-                origin_score = max(origin_score, 0.5)
-            elif mei_current > 1.0:
-                result["signals"].append("EL_NINO_STRONG")
-                origin_score = max(origin_score, 0.6)
-            elif mei_current > 0.5:
-                result["signals"].append("EL_NINO")
-    if pdo_vals:
-        pdo_score = uvrk1_instability(pdo_vals)
-        if pdo_current is not None and pdo_current < -1.0:
-            result["signals"].append("PDO_NEG_STRONG")
-            pdo_score = max(pdo_score, 0.7)
-        origin_score = max(origin_score, pdo_score)
+    from scripts.tess_phase_anomaly import PhaseAnomalyScorer
+    from scripts.historical_tess import assemble_tess_from_parts
+    from scripts.tess_conditional_probability import lookup_conditional_for_tess, platt_outbreak_probability
+    from runtime.ingest.mjo_gulf_client import MJOGulfClient
+
+    idx_hist = {
+        "ao": ao_ser,
+        "pna": pna_ser,
+        "mei": mei_ser,
+        "pdo": pdo_ser,
+    }
+    ph = PhaseAnomalyScorer().score_month(now, idx_hist)
+    client = MJOGulfClient()
+    load = client.get_loading_score(
+        now.year, now.month, use_network=True, nino34_proxy=nino34a_current
+    )
+    sst_tail = sst_ser[-18:] if len(sst_ser) >= 3 else sst_ser
+    core = assemble_tess_from_parts(ph, load, sst_tail, mei_ser, ao_ser)
+
+    tess = core["tess_score"]
+    result.update(core)
+    result["tess_version"] = 2
+    result["tess_is_forecast_probability"] = False
+    result["outbreak_probability_platt"] = platt_outbreak_probability(tess)
+    result["forecast_note"] = (
+        "TESS v2 is a unitless composite, not P(outbreak). "
+        "outbreak_probability_platt uses in-sample Platt scaling from data/tess_skill_calibration.json "
+        "(cross-validate before publication)."
+    )
+    cond = lookup_conditional_for_tess(tess)
+    result["conditional_probability"] = cond.get("conditional_probability")
+    result["lift_vs_climatology"] = cond.get("lift_vs_climatology")
+    result["risk_statement"] = cond.get("risk_statement")
+    result["calibration_threshold_used"] = cond.get("threshold_used")
+    result["outbreak_base_rate"] = cond.get("base_rate")
+
+    if mei_current is not None and mei_current < -1.0:
+        result["signals"].append("LA_NINA_STRONG")
+    elif mei_current is not None and mei_current < -0.5:
+        result["signals"].append("LA_NINA")
+    if load.get("mjo_favorable"):
+        result["signals"].append("MJO_FAVORABLE_567")
+    if load.get("gulf_sst_anomaly", 0) > 0.5:
+        result["signals"].append("GULF_SST_WARM")
 
     result["layers"]["origin"] = {
-        "score": round(origin_score, 3),
+        "score": core["layer_origin"],
+        "phase_anomaly": ph["phase_anomaly_score"],
         "mei": round(mei_current, 2) if mei_current is not None else None,
         "pdo": round(pdo_current, 2) if pdo_current is not None else None,
     }
-
-    # --- LAYER 2: TRANSPORT ---
-    transport_score = 0.0
-    if ao_vals:
-        ao_score = uvrk1_instability(ao_vals)
-        if ao_current is not None:
-            if ao_current < -1.0:
-                result["signals"].append("AO_NEG_STRONG")
-                ao_score = max(ao_score, 0.8)
-            elif ao_current < -0.5:
-                result["signals"].append("AO_NEGATIVE")
-                ao_score = max(ao_score, 0.5)
-        transport_score = max(transport_score, ao_score)
-    if pna_vals:
-        pna_score = uvrk1_instability(pna_vals)
-        if pna_current is not None:
-            if pna_current > 1.0:
-                result["signals"].append("PNA_POS_STRONG")
-                pna_score = max(pna_score, 0.7)
-            elif pna_current > 0.5:
-                result["signals"].append("PNA_POSITIVE")
-                pna_score = max(pna_score, 0.5)
-        transport_score = max(transport_score, pna_score)
-
     result["layers"]["transport"] = {
-        "score": round(transport_score, 3),
+        "score": core["layer_transport"],
         "ao": round(ao_current, 2) if ao_current is not None else None,
         "pna": round(pna_current, 2) if pna_current is not None else None,
     }
-
-    # --- LAYER 3: LOADING ---
-    loading_score = 0.0
-    if sst_vals:
-        sst_score = uvrk1_instability(sst_vals)
-        if nino34a_current is not None and nino34a_current < -0.5:
-            result["signals"].append("COOL_PACIFIC")
-            loading_score = max(loading_score, 0.6)
-        loading_score = max(loading_score, sst_score)
-        month = now.month
-        if mei_current is not None and mei_current < -0.5 and month in (3, 4, 5):
-            result["signals"].append("LANINA_SPRING_GULF")
-            loading_score = max(loading_score, 0.7)
-
     result["layers"]["loading"] = {
-        "score": round(loading_score, 3),
+        "score": core["layer_loading"],
         "nino34_anom": round(nino34a_current, 2) if nino34a_current is not None else None,
+        "mjo_phase": load["mjo_phase"],
+        "mjo_amplitude": load["mjo_amplitude"],
+        "gulf_sst_anomaly": load["gulf_sst_anomaly"],
     }
 
-    # --- TESS CONVERGENCE ---
-    layers_firing = sum(1 for s in [origin_score, transport_score, loading_score] if s >= 0.5)
-    tess = origin_score * 0.35 + transport_score * 0.35 + loading_score * 0.30
-    if layers_firing >= 3:
-        tess = min(1.0, tess * 1.3)
-    elif layers_firing >= 2:
-        tess = min(1.0, tess * 1.1)
-
-    result["tess_score"] = round(tess, 3)
-    result["layers_firing"] = layers_firing
+    result["layers_firing"] = core["layers_firing"]
 
     if tess >= 0.7:
         result["risk_level"] = "ELEVATED"
@@ -282,7 +345,6 @@ def main():
     else:
         result["risk_level"] = "LOW"
 
-    # Cache to disk for dashboard
     cache_path = ROOT / "runs" / "live_tess.json"
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(json.dumps(result, indent=2) + "\n")

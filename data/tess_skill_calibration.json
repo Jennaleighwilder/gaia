@@ -1,0 +1,101 @@
+{
+  "n_months": 360,
+  "n_outbreak_months": 31,
+  "base_rate": 0.08611,
+  "brier_raw_tess": 0.19345,
+  "brier_climatology": 0.0787,
+  "brier_skill_score_raw_tess": -1.4582,
+  "brier_note": "Negative BSS on raw TESS is expected: TESS is not calibrated to P(outbreak). Do not cite raw Brier skill in a paper. Use threshold lift table + rare-bin audit, or Platt-calibrated Brier (in-sample; cross-validate for claims).",
+  "platt_scaling": {
+    "a": 0.5,
+    "b": -2.56,
+    "brier_platt_calibrated": 0.07867,
+    "brier_skill_score_platt": 0.0003,
+    "caveat": "Fitted on same 1995\u20132024 months as evaluation; optimistic. Use k-fold CV for publication."
+  },
+  "rare_threshold_audit": {
+    ">=0.75": {
+      "n_months": 1,
+      "n_outbreak_months": 0,
+      "precision_outbreak_month": 0.0,
+      "note": "tiny sample"
+    },
+    ">=0.80": {
+      "n_months": 1,
+      "n_outbreak_months": 0,
+      "precision_outbreak_month": 0.0,
+      "note": "tiny sample"
+    },
+    ">=0.85": {
+      "n_months": 0,
+      "n_outbreak_months": 0,
+      "precision_outbreak_month": null,
+      "note": "empty bin"
+    },
+    ">=0.90": {
+      "n_months": 0,
+      "n_outbreak_months": 0,
+      "precision_outbreak_month": null,
+      "note": "empty bin"
+    }
+  },
+  "threshold_rows": [
+    {
+      "threshold": 0.5,
+      "n_months": 64,
+      "n_outbreaks": 6,
+      "p_outbreak_given_t": 0.0938,
+      "lift": 1.089,
+      "far": 0.9062
+    },
+    {
+      "threshold": 0.55,
+      "n_months": 36,
+      "n_outbreaks": 4,
+      "p_outbreak_given_t": 0.1111,
+      "lift": 1.29,
+      "far": 0.8889
+    },
+    {
+      "threshold": 0.6,
+      "n_months": 14,
+      "n_outbreaks": 1,
+      "p_outbreak_given_t": 0.0714,
+      "lift": 0.829,
+      "far": 0.9286
+    },
+    {
+      "threshold": 0.65,
+      "n_months": 6,
+      "n_outbreaks": 1,
+      "p_outbreak_given_t": 0.1667,
+      "lift": 1.935,
+      "far": 0.8333
+    },
+    {
+      "threshold": 0.7,
+      "n_months": 5,
+      "n_outbreaks": 1,
+      "p_outbreak_given_t": 0.2,
+      "lift": 2.323,
+      "far": 0.8
+    },
+    {
+      "threshold": 0.75,
+      "n_months": 1,
+      "n_outbreaks": 0,
+      "p_outbreak_given_t": 0.0,
+      "lift": 0.0,
+      "far": 1.0
+    },
+    {
+      "threshold": 0.8,
+      "n_months": 1,
+      "n_outbreaks": 0,
+      "p_outbreak_given_t": 0.0,
+      "lift": 0.0,
+      "far": 1.0
+    }
+  ],
+  "generated_at": "2026-03-25T05:25:38.329344+00:00"
+}

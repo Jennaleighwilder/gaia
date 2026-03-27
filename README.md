@@ -13,6 +13,12 @@ Validated against 460 historical severe weather events (1996–2025). Built by T
 
 Dashboard: http://127.0.0.1:5001
 
+Core web deploys install [requirements.txt](/Users/jenniferwest/gaia/requirements.txt). For heavier local science/radar tooling, add [requirements-optional.txt](/Users/jenniferwest/gaia/requirements-optional.txt):
+
+```bash
+.venv/bin/pip install -r requirements.txt -r requirements-optional.txt
+```
+
 ## Fire Layer Setup
 
 ```bash

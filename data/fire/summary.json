@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-03-27T22:11:37.092600+00:00",
+  "timestamp": "2026-03-27T23:22:32.266757+00:00",
   "bbox": [
     -84.3,
     35.0,
     -81.8,
     36.6
   ],
-  "firms_active_fire_count": 0,
-  "firms_map_key_configured": false,
+  "firms_active_fire_count": 79,
+  "firms_map_key_configured": true,
   "spc_day1_wnc_features": 0,
   "spc_day2_wnc_features": 1,
   "nws_fire_weather_flag": false,
@@ -28,7 +28,7 @@
     "statisticFormatID": 2
   },
   "errors": {
-    "firms": "HTTP Error 400: Bad Request",
+    "firms": null,
     "spc_day1": null,
     "spc_day2": null,
     "nws": null,

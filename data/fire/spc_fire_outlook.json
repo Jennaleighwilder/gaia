@@ -5,7 +5,7 @@
     -81.8,
     36.6
   ],
-  "fetched": "2026-03-27T22:11:35.663216+00:00",
+  "fetched": "2026-03-27T23:22:30.908877+00:00",
   "days": {
     "day1": {
       "url": "https://mapservices.weather.noaa.gov/vector/rest/services/fire_weather/SPC_firewx/MapServer/1/query",

@@ -15,6 +15,7 @@ if str(ROOT) not in sys.path:
 
 HOLLER_SIREN_LEARNED = ROOT / "data" / "holler_siren" / "tfi_learned_yancey_mitchell.json"
 HOLLER_SIREN_CALIBRATED = ROOT / "data" / "holler_siren" / "tfi_calibrated_yancey_mitchell.json"
+HOLLER_SIREN_V4 = ROOT / "data" / "holler_siren" / "tfi_v4_yancey_mitchell.json"
 HOLLER_SIREN_BASE = ROOT / "data" / "holler_siren" / "tfi_yancey_mitchell.json"
 RUNS_DIR = ROOT / "runs"
 
@@ -23,7 +24,9 @@ HELENE_FAILURE_COUNT = 378
 
 
 def _load_holler_siren_data() -> tuple[dict, list[dict], Path]:
-    if HOLLER_SIREN_CALIBRATED.exists():
+    if HOLLER_SIREN_V4.exists():
+        source = HOLLER_SIREN_V4
+    elif HOLLER_SIREN_CALIBRATED.exists():
         source = HOLLER_SIREN_CALIBRATED
     elif HOLLER_SIREN_LEARNED.exists():
         source = HOLLER_SIREN_LEARNED
@@ -36,6 +39,7 @@ def _load_holler_siren_data() -> tuple[dict, list[dict], Path]:
 
 def _best_threshold(cell: dict) -> float:
     for key in (
+        "rain_threshold_v4",
         "rain_threshold_calibrated",
         "rain_threshold_learned",
         "rain_threshold_v2",
@@ -49,7 +53,7 @@ def _best_threshold(cell: dict) -> float:
 
 
 def _best_tfi(cell: dict) -> float:
-    for key in ("tfi_learned", "tfi_v2", "tfi_v1", "tfi"):
+    for key in ("tfi_v4", "tfi_learned", "tfi_v2", "tfi_v1", "tfi"):
         value = cell.get(key)
         if value is not None:
             return float(value)
@@ -57,7 +61,7 @@ def _best_tfi(cell: dict) -> float:
 
 
 def _best_regime(cell: dict) -> str:
-    for key in ("regime_learned", "regime_v2", "regime_v1", "regime"):
+    for key in ("regime_v4", "regime_learned", "regime_v2", "regime_v1", "regime"):
         value = cell.get(key)
         if value:
             return str(value)
@@ -142,8 +146,14 @@ def holler_siren_alert(
     else:
         alert_level = "CLEAR"
 
-    model_meta = tfi_data.get("model") or {}
-    active_validation = model_meta.get("cv_auc") or BEST_VALIDATED_AUC
+    model_meta = tfi_data.get("model_v4") or tfi_data.get("model") or {}
+    active_validation = float(model_meta.get("cv_auc") or BEST_VALIDATED_AUC)
+    final_validation = model_meta.get("final_auc")
+    best_validated_auc = max(
+        BEST_VALIDATED_AUC,
+        active_validation,
+        float(final_validation) if final_validation is not None else BEST_VALIDATED_AUC,
+    )
 
     return {
         "alert_level": alert_level,
@@ -164,7 +174,7 @@ def holler_siren_alert(
         "pilot_area": tfi_data.get("pilot_area", "Yancey + Mitchell NC"),
         "data_source": source_path.name,
         "validation": {
-            "best_validated_auc": BEST_VALIDATED_AUC,
+            "best_validated_auc": round(float(best_validated_auc), 3),
             "active_model_auc": round(float(active_validation), 3),
             "helene_failures": HELENE_FAILURE_COUNT,
         },

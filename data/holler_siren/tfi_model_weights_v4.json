@@ -1,0 +1,50 @@
+{
+  "features": [
+    "slope_mean",
+    "slope_max",
+    "pct_steep",
+    "pct_se_facing",
+    "pct_se_steep",
+    "twi_mean",
+    "twi_p90",
+    "prior_failure_score"
+  ],
+  "coefficients": {
+    "slope_mean": 0.4198,
+    "slope_max": 0.0996,
+    "pct_steep": 0.0843,
+    "pct_se_facing": 0.3095,
+    "pct_se_steep": -0.069,
+    "twi_mean": 0.2413,
+    "twi_p90": -0.0608,
+    "prior_failure_score": 0.7771
+  },
+  "intercept": -0.0385,
+  "scaler_mean": [
+    19.8864,
+    46.2757,
+    14.8053,
+    31.3937,
+    4.725,
+    5.1245,
+    5.9482,
+    0.229
+  ],
+  "scaler_std": [
+    5.1774,
+    8.4331,
+    13.243,
+    14.6239,
+    5.8482,
+    0.4087,
+    0.7319,
+    0.0994
+  ],
+  "cv_auc": 0.7164,
+  "cv_std": 0.0247,
+  "final_auc": 0.7185,
+  "p75": 0.4577,
+  "p85": 0.5595,
+  "p90": 0.6236,
+  "p95": 0.6912
+}

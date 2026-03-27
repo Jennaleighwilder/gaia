@@ -27,6 +27,11 @@ except Exception:  # pragma: no cover - keep dashboard alive if Holler Siren ass
     format_alert = None
     holler_siren_alert = None
 
+try:
+    from scripts.holler_siren.live_rainfall import get_current_rainfall_noaa
+except Exception:  # pragma: no cover - keep dashboard alive if live rainfall helper missing
+    get_current_rainfall_noaa = None
+
 NWS_USER_AGENT = os.environ.get(
     "GAIA_NWS_USER_AGENT",
     "(GAIA Weather Intelligence, theforgottencode780@gmail.com)",
@@ -202,6 +207,14 @@ def register_public_routes(app) -> None:
                     rainfall_mm_hr = precip_rate_in_hr * 25.4
             if rainfall_mm_hr is None:
                 rainfall_mm_hr = _surface_max_precip_mm_hr(surface)
+            if rainfall_mm_hr is None and get_current_rainfall_noaa is not None:
+                live_rain, live_source = get_current_rainfall_noaa()
+                if live_rain is not None:
+                    rainfall_mm_hr = live_rain
+                    bundle["holler_siren_live"] = {
+                        "rainfall_mm_hr": live_rain,
+                        "source": live_source,
+                    }
 
             if rainfall_mm_hr is not None:
                 antecedent_sat_pct = _safe_float(request.args.get("antecedent_sat_pct")) or 0.0
@@ -250,6 +263,35 @@ def register_public_routes(app) -> None:
             antecedent_sat_pct=sat_pct,
             duration_hr=duration,
         )
+        return jsonify(result)
+
+    @app.route("/api/holler_siren/live")
+    def api_holler_siren_live():
+        if not holler_siren_alert or get_current_rainfall_noaa is None:
+            return jsonify({"error": "holler_siren_live_unavailable"}), 503
+
+        rain, source = get_current_rainfall_noaa()
+        if rain is None:
+            rain = 0.0
+
+        sat_pct = _safe_float(request.args.get("antecedent_sat_pct")) or 30.0
+        duration = _safe_float(request.args.get("duration_hr")) or 6.0
+        lat_min = _safe_float(request.args.get("lat_min"))
+        lon_min = _safe_float(request.args.get("lon_min"))
+        lat_max = _safe_float(request.args.get("lat_max"))
+        lon_max = _safe_float(request.args.get("lon_max"))
+        bbox = None
+        if None not in (lat_min, lon_min, lat_max, lon_max):
+            bbox = (lat_min, lon_min, lat_max, lon_max)
+
+        result = holler_siren_alert(
+            rainfall_mm_hr=rain,
+            bbox=bbox,
+            antecedent_sat_pct=sat_pct,
+            duration_hr=duration,
+        )
+        result["live_rainfall_mm_hr"] = rain
+        result["live_data_source"] = source
         return jsonify(result)
 
     @app.route("/api/holler_siren/alert")

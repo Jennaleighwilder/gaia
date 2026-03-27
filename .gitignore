@@ -50,6 +50,7 @@ tests/fixtures/usgs_earthquakes/earthquakes_2000_2025.csv
 
 # Holler Siren raw DEM cache (derived summaries are committed)
 data/holler_siren/raw_dem/
+data/holler_siren/raw_dem_western_nc/
 data/holler_siren/nlcd_*.tif
 data/holler_siren/stage4_*.tif
 

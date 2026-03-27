@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DECISIONS_DB = ROOT / "runs" / "gaia_decisions.db"
 RUNS = ROOT / "runs"
 HOLLER_SIREN_V5_WESTERN = ROOT / "data" / "holler_siren" / "tfi_v5_western_nc.json"
+FIRE_DIR = ROOT / "data" / "fire"
 
 try:
     from scripts.holler_siren.gaia_integration import format_alert, holler_siren_alert
@@ -190,6 +191,59 @@ def _cells_monitored() -> int:
     return len(cells) if isinstance(cells, list) else 40453
 
 
+def _fire_payload() -> dict:
+    now = datetime.now(timezone.utc).isoformat()
+    firms = _safe_read_json(FIRE_DIR / "firms_results.json") or {}
+    wx = _safe_read_json(FIRE_DIR / "current_wx.json") or {}
+    overlay = _safe_read_json(FIRE_DIR / "fire_risk_overlay.json") or {}
+    spc = _safe_read_json(FIRE_DIR / "spc_fire_outlook.json") or {}
+    drought = _safe_read_json(FIRE_DIR / "drought_monitor.json") or {}
+    mtbs = _safe_read_json(FIRE_DIR / "mtbs_historical.json") or {}
+
+    active_fires = firms.get("fires") if isinstance(firms.get("fires"), list) else []
+    active_fire_count = len(active_fires)
+    double_threat_cells = _safe_int(overlay.get("double_threat_cells")) or 0
+    rh = _safe_float(wx.get("relative_humidity_pct"))
+    wind = _safe_float(wx.get("wind_mph")) or 0.0
+
+    if active_fire_count > 5 or (rh is not None and rh < 20 and wind > 20):
+        alert_level = "CRITICAL"
+    elif active_fire_count > 0 or (rh is not None and rh < 30 and wind > 15):
+        alert_level = "HIGH"
+    elif double_threat_cells > 50:
+        alert_level = "ELEVATED"
+    else:
+        alert_level = "WATCH"
+
+    top_double = overlay.get("top_double_threats")
+    if not isinstance(top_double, list):
+        top_double = [
+            cell
+            for cell in (overlay.get("cells") or [])
+            if isinstance(cell, dict) and cell.get("double_threat")
+        ][:20]
+
+    return {
+        "timestamp": now,
+        "pilot_area": "Western NC - Yancey + Mitchell Counties",
+        "nifc_context": (
+            "NIFC March 2026 outlook flagged the southern Appalachians for elevated fire risk. "
+            "Helene debris and drought are loading the same Holler Siren terrain cells with added fuel."
+        ),
+        "active_fires": active_fires,
+        "active_fire_count": active_fire_count,
+        "current_weather": wx,
+        "spc_outlook": spc,
+        "drought_proxy": drought,
+        "historical_fires": mtbs.get("fires") if isinstance(mtbs.get("fires"), list) else [],
+        "historical_fire_count": _safe_int(mtbs.get("count")) or 0,
+        "fire_regime_summary": overlay.get("fire_regime_summary") or {},
+        "double_threat_cells": double_threat_cells,
+        "top_double_threats": top_double[:20],
+        "fire_alert_level": alert_level,
+    }
+
+
 def _status_payload() -> dict:
     now = datetime.now(timezone.utc).isoformat()
     tess = _safe_read_json(RUNS / "live_tess.json") or {}
@@ -290,6 +344,7 @@ def register_public_routes(app) -> None:
     def api_bundle():
         """Single JSON for static dashboard: TESS, surface, soundings, GAIA calls."""
         surface = _safe_read_json(RUNS / "live_surface.json")
+        fire_payload = _fire_payload()
         bundle = {
             "timestamp": datetime.now(timezone.utc).isoformat(),
             "tess": _safe_read_json(RUNS / "live_tess.json"),
@@ -297,6 +352,11 @@ def register_public_routes(app) -> None:
             "soundings": _safe_read_json(RUNS / "live_soundings.json"),
             "gaia_calls": _gaia_calls(),
             "status": _status_payload(),
+            "fire": {
+                "alert_level": fire_payload["fire_alert_level"],
+                "active_fires": fire_payload["active_fire_count"],
+                "double_threat_cells": fire_payload["double_threat_cells"],
+            },
         }
 
         if holler_siren_alert:
@@ -333,6 +393,11 @@ def register_public_routes(app) -> None:
                     duration_hr=duration_hr,
                 )
         return jsonify(bundle)
+
+    @app.route("/api/fire")
+    def api_fire():
+        """GAIA fire layer - active detections, weather, and terrain overlap."""
+        return jsonify(_fire_payload())
 
     @app.route("/api/status")
     def api_status():

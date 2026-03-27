@@ -1,0 +1,2210 @@
+{
+  "displayFieldName": "FIRE_NAME",
+  "fieldAliases": {
+    "FIRE_ID": "FIRE_ID",
+    "FIRE_NAME": "FIRE_NAME",
+    "YEAR": "YEAR",
+    "ACRES": "ACRES",
+    "STARTMONTH": "STARTMONTH"
+  },
+  "fields": [
+    {
+      "name": "FIRE_ID",
+      "type": "esriFieldTypeString",
+      "alias": "FIRE_ID",
+      "length": 30
+    },
+    {
+      "name": "FIRE_NAME",
+      "type": "esriFieldTypeString",
+      "alias": "FIRE_NAME",
+      "length": 50
+    },
+    {
+      "name": "YEAR",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "YEAR"
+    },
+    {
+      "name": "ACRES",
+      "type": "esriFieldTypeDouble",
+      "alias": "ACRES"
+    },
+    {
+      "name": "STARTMONTH",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "STARTMONTH"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "FIRE_ID": "NC3520408427820230317",
+        "FIRE_NAME": "FLAT BRANCH RX BURN",
+        "YEAR": 2023,
+        "ACRES": 1537.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3513108356420230411",
+        "FIRE_NAME": "PANTHER KNOB",
+        "YEAR": 2023,
+        "ACRES": 3170.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3513208384120230401",
+        "FIRE_NAME": "PHILLIPS RIDGE RX BURN",
+        "YEAR": 2023,
+        "ACRES": 1430.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3514608361820230306",
+        "FIRE_NAME": "FIRE GAP",
+        "YEAR": 2023,
+        "ACRES": 1127.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3514308378320230315",
+        "FIRE_NAME": "BRUSHY RIDGE",
+        "YEAR": 2023,
+        "ACRES": 1309.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3566208216819850320",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1985,
+        "ACRES": 685.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3641808427219871206",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 5973.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3647808397119871206",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 10327.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3649208385819871206",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 4337.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3650608404919871206",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 4194.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3653408415319871206",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 1448.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3654908402119871206",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 1913.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3655708291019871113",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 993.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3658908404019871206",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 3907.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "KY3661908387619871206",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 6067.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3582308316519871107",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 811.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3630008216519871105",
+        "FIRE_NAME": "HAMPTON",
+        "YEAR": 1987,
+        "ACRES": 1536.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3639908215019871106",
+        "FIRE_NAME": "STONEY CREEK",
+        "YEAR": 1987,
+        "ACRES": 886.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3559708400219871108",
+        "FIRE_NAME": "MORTON BLF",
+        "YEAR": 1987,
+        "ACRES": 1853.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3630408203219871113",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1987,
+        "ACRES": 644.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3592108310119911029",
+        "FIRE_NAME": "UNAKA",
+        "YEAR": 1991,
+        "ACRES": 1203.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3629708216719911027",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1991,
+        "ACRES": 645.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3565708224719930412",
+        "FIRE_NAME": "GRAPHITE",
+        "YEAR": 1993,
+        "ACRES": 626.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3537908393019991115",
+        "FIRE_NAME": "AVEY CREEK",
+        "YEAR": 1999,
+        "ACRES": 2099.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3535108395519991115",
+        "FIRE_NAME": "GOLDIE DEADEN",
+        "YEAR": 1999,
+        "ACRES": 1717.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3554208398319990819",
+        "FIRE_NAME": "BLACKSMITH",
+        "YEAR": 1999,
+        "ACRES": 538.0,
+        "STARTMONTH": 8
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3612808423319991118",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1999,
+        "ACRES": 637.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3561408386720010423",
+        "FIRE_NAME": "STONY RDG",
+        "YEAR": 2001,
+        "ACRES": 504.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3550208345820011110",
+        "FIRE_NAME": "SHARP",
+        "YEAR": 2001,
+        "ACRES": 6039.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "KY3659408395320011030",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2001,
+        "ACRES": 630.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3626108428620011110",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2001,
+        "ACRES": 665.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3657008311520011110",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2001,
+        "ACRES": 546.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "VA3660908302120010219",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2001,
+        "ACRES": 636.0,
+        "STARTMONTH": 2
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3558108403220011113",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2001,
+        "ACRES": 2662.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3581608365720011113",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2001,
+        "ACRES": 1085.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3581508319520011110",
+        "FIRE_NAME": "GREEN MTN.",
+        "YEAR": 2001,
+        "ACRES": 1787.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3553908211420010420",
+        "FIRE_NAME": "OAK MT. FIRE",
+        "YEAR": 2001,
+        "ACRES": 1677.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3657708404920011203",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2001,
+        "ACRES": 1065.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3592708284620011112",
+        "FIRE_NAME": "LARMAN",
+        "YEAR": 2001,
+        "ACRES": 3072.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3545308353920010326",
+        "FIRE_NAME": "TUNNEL",
+        "YEAR": 2001,
+        "ACRES": 822.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3533808409820030414",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2003,
+        "ACRES": 1560.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3560508385620030310",
+        "FIRE_NAME": "ARBUTUS RIDGE",
+        "YEAR": 2003,
+        "ACRES": 1050.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3658308424920051112",
+        "FIRE_NAME": "CAP KNOB",
+        "YEAR": 2005,
+        "ACRES": 1835.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3620508369920050915",
+        "FIRE_NAME": "CLINCH MOUNTAIN",
+        "YEAR": 2005,
+        "ACRES": 619.0,
+        "STARTMONTH": 9
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "VA3661108301520050506",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2005,
+        "ACRES": 693.0,
+        "STARTMONTH": 5
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3562008389620050408",
+        "FIRE_NAME": "HATCHERMTN",
+        "YEAR": 2005,
+        "ACRES": 2196.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3614908251720070311",
+        "FIRE_NAME": "EMBREEVILLE",
+        "YEAR": 2007,
+        "ACRES": 513.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3599208289920070523",
+        "FIRE_NAME": "PIGEON BRANCH",
+        "YEAR": 2007,
+        "ACRES": 1722.0,
+        "STARTMONTH": 5
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3582608202920070222",
+        "FIRE_NAME": "COX CREEK FIRE",
+        "YEAR": 2007,
+        "ACRES": 823.0,
+        "STARTMONTH": 2
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3607608238720070523",
+        "FIRE_NAME": "JOE LEWIS",
+        "YEAR": 2007,
+        "ACRES": 672.0,
+        "STARTMONTH": 5
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3582708191720070608",
+        "FIRE_NAME": "LINVILLE COMPLEX (DOBSON KNOB)",
+        "YEAR": 2007,
+        "ACRES": 7151.0,
+        "STARTMONTH": 6
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3561708312920070324",
+        "FIRE_NAME": "WASH RIDGE",
+        "YEAR": 2007,
+        "ACRES": 507.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3561108386120070410",
+        "FIRE_NAME": "ARBUTUS RIDGE",
+        "YEAR": 2007,
+        "ACRES": 1089.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3629108426220070309",
+        "FIRE_NAME": "ELK FIELDS",
+        "YEAR": 2007,
+        "ACRES": 504.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3650408403520070306",
+        "FIRE_NAME": "WEST BOURNE MTN 2",
+        "YEAR": 2007,
+        "ACRES": 1162.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3641708408220070324",
+        "FIRE_NAME": "25W",
+        "YEAR": 2007,
+        "ACRES": 551.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3562008390020070520",
+        "FIRE_NAME": "BUCK SHANK",
+        "YEAR": 2007,
+        "ACRES": 996.0,
+        "STARTMONTH": 5
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3534908272120070325",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2007,
+        "ACRES": 696.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3604308239920070325",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2007,
+        "ACRES": 1617.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3611108252720070325",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2007,
+        "ACRES": 2026.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3618608243120070325",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2007,
+        "ACRES": 1537.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3647308210720070325",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2007,
+        "ACRES": 1504.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3656208183520070410",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2007,
+        "ACRES": 2242.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3554408384020070402",
+        "FIRE_NAME": "GREGORY RIDGE",
+        "YEAR": 2007,
+        "ACRES": 819.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3546108348719860401",
+        "FIRE_NAME": "PEACHTREE",
+        "YEAR": 1986,
+        "ACRES": 825.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3560808372419860403",
+        "FIRE_NAME": "HICKORY",
+        "YEAR": 1986,
+        "ACRES": 530.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3554108398519880323",
+        "FIRE_NAME": "SHOP",
+        "YEAR": 1988,
+        "ACRES": 1095.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3560408398819880627",
+        "FIRE_NAME": "MONTVALE",
+        "YEAR": 1988,
+        "ACRES": 739.0,
+        "STARTMONTH": 6
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3612408260719880323",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1988,
+        "ACRES": 506.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3609508266819880429",
+        "FIRE_NAME": "OLD FORCE",
+        "YEAR": 1988,
+        "ACRES": 1264.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3595508290619941120",
+        "FIRE_NAME": "CHEROKEE NORTH",
+        "YEAR": 1994,
+        "ACRES": 1230.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3582108316819941120",
+        "FIRE_NAME": "BLUFFTON 2",
+        "YEAR": 1994,
+        "ACRES": 546.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3567108225519940319",
+        "FIRE_NAME": "MILL CREEK",
+        "YEAR": 1994,
+        "ACRES": 575.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3548608353519980406",
+        "FIRE_NAME": "FOURNEY CREEK",
+        "YEAR": 1998,
+        "ACRES": 2579.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3560308368719980717",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 1998,
+        "ACRES": 848.0,
+        "STARTMONTH": 7
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3561908312920040407",
+        "FIRE_NAME": "WASH RIDGE",
+        "YEAR": 2004,
+        "ACRES": 603.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3639708431420060310",
+        "FIRE_NAME": "HWY 63",
+        "YEAR": 2006,
+        "ACRES": 633.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3622208416820060302",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2006,
+        "ACRES": 1446.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3552008391020060405",
+        "FIRE_NAME": "CHILLY SPRING KNOB",
+        "YEAR": 2006,
+        "ACRES": 760.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3559608402620060414",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2006,
+        "ACRES": 675.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3617208425920001030",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 2055.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3650708422620001102",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 702.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3650308419220001103",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 1400.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3510108386920000405",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 936.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3520508371520000405",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 1025.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3604408275920001106",
+        "FIRE_NAME": "HORSEHITCH",
+        "YEAR": 2000,
+        "ACRES": 1689.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "KY3663608398420001102",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 6590.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3586508189320001028",
+        "FIRE_NAME": "BRUSHY RIDGE",
+        "YEAR": 2000,
+        "ACRES": 12405.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3606708226420001031",
+        "FIRE_NAME": "TIPTON HILL",
+        "YEAR": 2000,
+        "ACRES": 2661.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3559808381620000314",
+        "FIRE_NAME": "CC FIELDS",
+        "YEAR": 2000,
+        "ACRES": 704.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3530408431320000405",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 1217.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3616908420820001201",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 745.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3628508429820001030",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 8064.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3640608323620001201",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 888.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3650308397720001201",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 529.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3634908353620001201",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2000,
+        "ACRES": 551.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3649908403020090323",
+        "FIRE_NAME": "WESTBOURNE RD",
+        "YEAR": 2009,
+        "ACRES": 501.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3553008327320090427",
+        "FIRE_NAME": "STONY RIDGE",
+        "YEAR": 2009,
+        "ACRES": 1518.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3626708235620080507",
+        "FIRE_NAME": "LONE OAK",
+        "YEAR": 2008,
+        "ACRES": 677.0,
+        "STARTMONTH": 5
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3592008307120080802",
+        "FIRE_NAME": "OLD 15TH",
+        "YEAR": 2008,
+        "ACRES": 1738.0,
+        "STARTMONTH": 8
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3586008192920080418",
+        "FIRE_NAME": "SUNRISE",
+        "YEAR": 2008,
+        "ACRES": 1906.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3658508405820080423",
+        "FIRE_NAME": "HIGH CLIFF",
+        "YEAR": 2008,
+        "ACRES": 557.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3558308404220080624",
+        "FIRE_NAME": "ALLEGEHENY LOOP RD",
+        "YEAR": 2008,
+        "ACRES": 530.0,
+        "STARTMONTH": 6
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3563408386920080424",
+        "FIRE_NAME": "BEARD CANE RX",
+        "YEAR": 2008,
+        "ACRES": 680.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3640908410620080416",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2008,
+        "ACRES": 1397.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3508608413320220304",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 506.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3506908354520220404",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 579.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3579208372520220331",
+        "FIRE_NAME": "SEYMOUR",
+        "YEAR": 2022,
+        "ACRES": 917.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3510308386920220320",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 1124.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3538808422020220420",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 1133.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3573808364320220330",
+        "FIRE_NAME": "INDIGO LANE",
+        "YEAR": 2022,
+        "ACRES": 2149.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3511408386620220316",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 834.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3544308340620220326",
+        "FIRE_NAME": "THOMAS DIVIDE",
+        "YEAR": 2022,
+        "ACRES": 815.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3534208421720220321",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 631.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3520808370920220303",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 1041.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3533308419920220304",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 620.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3534508336120220402",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 618.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3523608366320220209",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 514.0,
+        "STARTMONTH": 2
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3530708367420220315",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 1307.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3573408219220220413",
+        "FIRE_NAME": "LOST BEAR RX FY2022",
+        "YEAR": 2022,
+        "ACRES": 4276.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3596508297120220303",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 747.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3537108271720220215",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2022,
+        "ACRES": 846.0,
+        "STARTMONTH": 2
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3573708299820221123",
+        "FIRE_NAME": "HURRICANE RIDGE",
+        "YEAR": 2022,
+        "ACRES": 712.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3529908300320210406",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 840.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3658108201420210308",
+        "FIRE_NAME": "RX - JONES RIDGE",
+        "YEAR": 2021,
+        "ACRES": 787.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3582208315120210422",
+        "FIRE_NAME": "MILL CREEK",
+        "YEAR": 2021,
+        "ACRES": 631.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3602508182420211224",
+        "FIRE_NAME": "LOST COVE",
+        "YEAR": 2021,
+        "ACRES": 810.0,
+        "STARTMONTH": 12
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3611308233120210310",
+        "FIRE_NAME": "BEAUTY SPOT",
+        "YEAR": 2021,
+        "ACRES": 527.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3589008184220210311",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 1348.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3590608185020210220",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 1304.0,
+        "STARTMONTH": 2
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3530008421720210307",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 1220.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3512208381620210309",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 1855.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3510208408720210311",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 1051.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3511308359520210305",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 703.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3532308421220210315",
+        "FIRE_NAME": "RX - WILDCAT",
+        "YEAR": 2021,
+        "ACRES": 644.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3508408362120210406",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 517.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3514008357820210310",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 1207.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3514408362220210305",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 1007.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3514108379220210311",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 602.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3541908364320210308",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 1471.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3541208413820210405",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2021,
+        "ACRES": 3888.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3538508423120200218",
+        "FIRE_NAME": "RX - HUCKLEBERRY",
+        "YEAR": 2020,
+        "ACRES": 584.0,
+        "STARTMONTH": 2
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3510008412520190321",
+        "FIRE_NAME": "JACK DAVIS/DOGWOOD SPRINGS RX",
+        "YEAR": 2019,
+        "ACRES": 3120.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3534508336120190323",
+        "FIRE_NAME": "ALARKA RX BURN",
+        "YEAR": 2019,
+        "ACRES": 764.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3648808209320190319",
+        "FIRE_NAME": "RX - BIG CREEK",
+        "YEAR": 2019,
+        "ACRES": 503.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3535608307520190324",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2019,
+        "ACRES": 680.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3566208310920190417",
+        "FIRE_NAME": "SHORT BUNK",
+        "YEAR": 2019,
+        "ACRES": 635.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3533408408020190320",
+        "FIRE_NAME": "MCINTYRE-A",
+        "YEAR": 2019,
+        "ACRES": 1016.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3658108192020190314",
+        "FIRE_NAME": "RX - HARP MOUNTAIN",
+        "YEAR": 2019,
+        "ACRES": 920.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3523508366320190423",
+        "FIRE_NAME": "APPLETREE RX",
+        "YEAR": 2019,
+        "ACRES": 790.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3543808406520190319",
+        "FIRE_NAME": "COW CAMP",
+        "YEAR": 2019,
+        "ACRES": 3786.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3541208413820180305",
+        "FIRE_NAME": "MILLER RIDGE A",
+        "YEAR": 2018,
+        "ACRES": 1476.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3635108198520180413",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2018,
+        "ACRES": 637.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3581908298920180412",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2018,
+        "ACRES": 763.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3576008215020180413",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2018,
+        "ACRES": 1812.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3583708293920180403",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2018,
+        "ACRES": 538.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3533608409920180402",
+        "FIRE_NAME": "BRUSHY RIDGE",
+        "YEAR": 2018,
+        "ACRES": 1718.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3530008421720180420",
+        "FIRE_NAME": "GRAVEL STAND",
+        "YEAR": 2018,
+        "ACRES": 1299.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3508208354120180405",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2018,
+        "ACRES": 526.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3502308313720180412",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2018,
+        "ACRES": 675.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3502808303820180126",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2018,
+        "ACRES": 892.0,
+        "STARTMONTH": 1
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3579808199320170409",
+        "FIRE_NAME": "DOBSON KNOB",
+        "YEAR": 2017,
+        "ACRES": 1720.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3529908300320171116",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2017,
+        "ACRES": 909.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3511308359520170320",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2017,
+        "ACRES": 540.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3574408214620170128",
+        "FIRE_NAME": "SUGAR COVE",
+        "YEAR": 2017,
+        "ACRES": 638.0,
+        "STARTMONTH": 1
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3581208190120170316",
+        "FIRE_NAME": "WHITE CREEK",
+        "YEAR": 2017,
+        "ACRES": 4166.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "SC3502708274320161109",
+        "FIRE_NAME": "PINNACLE MOUNTAIN",
+        "YEAR": 2016,
+        "ACRES": 7869.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3589008184020160309",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2016,
+        "ACRES": 2976.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3537108385920161109",
+        "FIRE_NAME": "OLD ROUGHY",
+        "YEAR": 2016,
+        "ACRES": 534.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3573208380920161117",
+        "FIRE_NAME": "EAST MILLER COVE",
+        "YEAR": 2016,
+        "ACRES": 1331.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3535708427120161116",
+        "FIRE_NAME": "QUARRY CREEK",
+        "YEAR": 2016,
+        "ACRES": 643.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3577008334320161128",
+        "FIRE_NAME": "COBBLY NOB",
+        "YEAR": 2016,
+        "ACRES": 732.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3587408316720160404",
+        "FIRE_NAME": "HALLS TOP",
+        "YEAR": 2016,
+        "ACRES": 2464.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3596008281020160310",
+        "FIRE_NAME": "STARR MOUNTAIN",
+        "YEAR": 2016,
+        "ACRES": 1576.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3595708307720161111",
+        "FIRE_NAME": "NEDDY MOUNTAIN ROAD",
+        "YEAR": 2016,
+        "ACRES": 788.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3589008280820160421",
+        "FIRE_NAME": "SILVER MINE",
+        "YEAR": 2016,
+        "ACRES": 6082.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3544608221220161105",
+        "FIRE_NAME": "PARTY ROCK",
+        "YEAR": 2016,
+        "ACRES": 8572.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3592808291920160416",
+        "FIRE_NAME": "STATE LINE",
+        "YEAR": 2016,
+        "ACRES": 1111.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3527408356020161103",
+        "FIRE_NAME": "TELLICO",
+        "YEAR": 2016,
+        "ACRES": 14172.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3539808390820161104",
+        "FIRE_NAME": "MAPLE SPRINGS",
+        "YEAR": 2016,
+        "ACRES": 7696.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3539908326020161023",
+        "FIRE_NAME": "DICK'S CREEK",
+        "YEAR": 2016,
+        "ACRES": 833.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3549708324520161108",
+        "FIRE_NAME": "DOBSON 3",
+        "YEAR": 2016,
+        "ACRES": 741.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3621708211020160418",
+        "FIRE_NAME": "RAILROAD GRADE 2016",
+        "YEAR": 2016,
+        "ACRES": 1790.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3521008359020160307",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2016,
+        "ACRES": 583.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3521008371020160309",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2016,
+        "ACRES": 945.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3512008382020160322",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2016,
+        "ACRES": 2087.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3505908365420161025",
+        "FIRE_NAME": "BOTELER",
+        "YEAR": 2016,
+        "ACRES": 8626.0,
+        "STARTMONTH": 10
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3510808353620161102",
+        "FIRE_NAME": "KNOB",
+        "YEAR": 2016,
+        "ACRES": 1132.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3516508354120161123",
+        "FIRE_NAME": "CAMP BRANCH",
+        "YEAR": 2016,
+        "ACRES": 3234.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3563108347820161123",
+        "FIRE_NAME": "CHIMNEY TOPS 2",
+        "YEAR": 2016,
+        "ACRES": 14998.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "GA3494208354920161109",
+        "FIRE_NAME": "ROCK MOUNTAIN",
+        "YEAR": 2016,
+        "ACRES": 25224.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3574208198920160323",
+        "FIRE_NAME": "NORTH PEAK",
+        "YEAR": 2016,
+        "ACRES": 680.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3570508210120161120",
+        "FIRE_NAME": "CLEAR CREEK",
+        "YEAR": 2016,
+        "ACRES": 3493.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3531008367020160320",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2016,
+        "ACRES": 1676.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3643908422420161109",
+        "FIRE_NAME": "STINKING CREEK",
+        "YEAR": 2016,
+        "ACRES": 10768.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3533008420020160307",
+        "FIRE_NAME": "MILLER MINE",
+        "YEAR": 2016,
+        "ACRES": 926.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3534008421020160317",
+        "FIRE_NAME": "BUCK BRANCH",
+        "YEAR": 2016,
+        "ACRES": 1226.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3578608199020150717",
+        "FIRE_NAME": "BALD KNOB",
+        "YEAR": 2015,
+        "ACRES": 918.0,
+        "STARTMONTH": 7
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3562508229420150331",
+        "FIRE_NAME": "WEED LANE",
+        "YEAR": 2015,
+        "ACRES": 728.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3572008197020150131",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2015,
+        "ACRES": 1879.0,
+        "STARTMONTH": 1
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3610008234220150331",
+        "FIRE_NAME": "POPLAR",
+        "YEAR": 2015,
+        "ACRES": 768.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3561508386020150308",
+        "FIRE_NAME": "ARBUTUS RIDGE RX",
+        "YEAR": 2015,
+        "ACRES": 871.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3561608312820150318",
+        "FIRE_NAME": "WASH RIDGE RX 2015",
+        "YEAR": 2015,
+        "ACRES": 559.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3520408425520140311",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2014,
+        "ACRES": 1884.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3530808422120140314",
+        "FIRE_NAME": "GRAVELSTAND",
+        "YEAR": 2014,
+        "ACRES": 1105.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3534508336120140311",
+        "FIRE_NAME": "ALARKA RX BURN",
+        "YEAR": 2014,
+        "ACRES": 674.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3542708387420140308",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2014,
+        "ACRES": 905.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3530508431620140316",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2014,
+        "ACRES": 1315.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3530508412620140315",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2014,
+        "ACRES": 2351.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3612408237820140408",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2014,
+        "ACRES": 807.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3586208313020131104",
+        "FIRE_NAME": "HALLS TOP",
+        "YEAR": 2013,
+        "ACRES": 702.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3658608406520130512",
+        "FIRE_NAME": "HWY 25 - HIGH CLIFF",
+        "YEAR": 2013,
+        "ACRES": 506.0,
+        "STARTMONTH": 5
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3572808220620130322",
+        "FIRE_NAME": "LOST BEAR EAST",
+        "YEAR": 2013,
+        "ACRES": 2167.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3571708222420130308",
+        "FIRE_NAME": "LOST BEAR WEST",
+        "YEAR": 2013,
+        "ACRES": 565.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3658308181620130409",
+        "FIRE_NAME": "TANK HOLLOW",
+        "YEAR": 2013,
+        "ACRES": 1340.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3605708268520130410",
+        "FIRE_NAME": "DAVIS CREEK",
+        "YEAR": 2013,
+        "ACRES": 1616.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3531508333520130410",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2013,
+        "ACRES": 884.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3526608411420130409",
+        "FIRE_NAME": "BEAVER DAM",
+        "YEAR": 2013,
+        "ACRES": 4336.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3510308386820130409",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2013,
+        "ACRES": 1109.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3535608307420130403",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2013,
+        "ACRES": 617.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3651708205120130321",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2013,
+        "ACRES": 588.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3648308201720130408",
+        "FIRE_NAME": "UNNAMED",
+        "YEAR": 2013,
+        "ACRES": 1375.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3533408408020130317",
+        "FIRE_NAME": "MCINTYRE-A",
+        "YEAR": 2013,
+        "ACRES": 2695.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3615508245520130414",
+        "FIRE_NAME": "CALIFORNIA CREEK",
+        "YEAR": 2013,
+        "ACRES": 1758.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3638308314420121115",
+        "FIRE_NAME": "STONE MT-PRICE RD FIRE",
+        "YEAR": 2012,
+        "ACRES": 1856.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3522208417320120226",
+        "FIRE_NAME": "JOE TOP",
+        "YEAR": 2012,
+        "ACRES": 745.0,
+        "STARTMONTH": 2
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3539408225920110212",
+        "FIRE_NAME": "JUDES GAP",
+        "YEAR": 2011,
+        "ACRES": 1196.0,
+        "STARTMONTH": 2
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3628908218920100405",
+        "FIRE_NAME": "JENKINS HOLLOW",
+        "YEAR": 2010,
+        "ACRES": 902.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3542608387620100402",
+        "FIRE_NAME": "YELLOW CREEK",
+        "YEAR": 2010,
+        "ACRES": 741.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3503408349720101114",
+        "FIRE_NAME": "STEELTRAP RX",
+        "YEAR": 2010,
+        "ACRES": 1194.0,
+        "STARTMONTH": 11
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3500908377320100308",
+        "FIRE_NAME": "JACKRABBIT",
+        "YEAR": 2010,
+        "ACRES": 781.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3507708409420100320",
+        "FIRE_NAME": "MILKSICK / PANTHER TOP",
+        "YEAR": 2010,
+        "ACRES": 1222.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3508208413120100320",
+        "FIRE_NAME": "JOHNISH",
+        "YEAR": 2010,
+        "ACRES": 1463.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3544108407320100319",
+        "FIRE_NAME": "COW CAMP-A",
+        "YEAR": 2010,
+        "ACRES": 2953.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3579408299020100412",
+        "FIRE_NAME": "BROWN GAP CREEK-A",
+        "YEAR": 2010,
+        "ACRES": 2210.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "NC3572208219820100402",
+        "FIRE_NAME": "LOST BEAR",
+        "YEAR": 2010,
+        "ACRES": 925.0,
+        "STARTMONTH": 4
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3540208413420240109",
+        "FIRE_NAME": "RX - T10 MILLER RIDGE",
+        "YEAR": 2024,
+        "ACRES": 5154.0,
+        "STARTMONTH": 1
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3652708392120240320",
+        "FIRE_NAME": "CLAIBORNE - 2 ROCK CREEK RIDGE ROAD",
+        "YEAR": 2024,
+        "ACRES": 623.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3533008422120240109",
+        "FIRE_NAME": "RX - T50 WILDCAT",
+        "YEAR": 2024,
+        "ACRES": 763.0,
+        "STARTMONTH": 1
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "SC3501608304220240312",
+        "FIRE_NAME": "STATE LINE AP RX",
+        "YEAR": 2024,
+        "ACRES": 1532.0,
+        "STARTMONTH": 3
+      }
+    },
+    {
+      "attributes": {
+        "FIRE_ID": "TN3533308410620240109",
+        "FIRE_NAME": "RX - T26 BRUSHY RIDGE",
+        "YEAR": 2024,
+        "ACRES": 8324.0,
+        "STARTMONTH": 1
+      }
+    }
+  ]
+}

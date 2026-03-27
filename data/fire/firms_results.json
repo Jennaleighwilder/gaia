@@ -1,0 +1,16 @@
+{
+  "source": "NASA FIRMS VIIRS SNPP NRT",
+  "dataset": "VIIRS_SNPP_NRT",
+  "bbox": [
+    -84.3,
+    35.0,
+    -81.8,
+    36.6
+  ],
+  "lookback_days": 7,
+  "map_key_configured": false,
+  "fetched": "2026-03-27T22:11:35.436544+00:00",
+  "fires": [],
+  "count": 0,
+  "error": "HTTP Error 400: Bad Request"
+}

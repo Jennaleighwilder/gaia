@@ -1,0 +1,190 @@
+{
+  "n_failures_pilot": 378,
+  "n_failures_matched": 378,
+  "n_controls": 378,
+  "features": [
+    "slope_mean",
+    "slope_max",
+    "pct_steep",
+    "pct_very_steep",
+    "pct_se_facing",
+    "pct_se_steep",
+    "elev_m",
+    "road_dist_km",
+    "pct_forest_loss"
+  ],
+  "feature_separation": [
+    {
+      "feature": "slope_mean",
+      "failure_mean": 20.8685,
+      "control_mean": 18.9042,
+      "separation_sigma": 0.3801
+    },
+    {
+      "feature": "slope_max",
+      "failure_mean": 47.3352,
+      "control_mean": 45.2161,
+      "separation_sigma": 0.2521
+    },
+    {
+      "feature": "pct_steep",
+      "failure_mean": 17.354,
+      "control_mean": 12.2566,
+      "separation_sigma": 0.4268
+    },
+    {
+      "feature": "pct_very_steep",
+      "failure_mean": 1.6122,
+      "control_mean": 0.9426,
+      "separation_sigma": 0.3089
+    },
+    {
+      "feature": "pct_se_facing",
+      "failure_mean": 33.4434,
+      "control_mean": 29.3439,
+      "separation_sigma": 0.2829
+    },
+    {
+      "feature": "pct_se_steep",
+      "failure_mean": 5.9582,
+      "control_mean": 3.4918,
+      "separation_sigma": 0.5587
+    },
+    {
+      "feature": "elev_m",
+      "failure_mean": 981.7275,
+      "control_mean": 986.828,
+      "separation_sigma": -0.0254
+    },
+    {
+      "feature": "road_dist_km",
+      "failure_mean": 2.9496,
+      "control_mean": 2.9792,
+      "separation_sigma": -0.0064
+    },
+    {
+      "feature": "pct_forest_loss",
+      "failure_mean": 0.378,
+      "control_mean": 0.4418,
+      "separation_sigma": -0.0847
+    }
+  ],
+  "fold_aucs": [
+    0.6456,
+    0.6657,
+    0.5704,
+    0.6084,
+    0.6549
+  ],
+  "cv_auc": 0.629,
+  "cv_std": 0.0351,
+  "feature_weights": {
+    "slope_mean": 0.2717,
+    "pct_se_steep": 0.248,
+    "pct_very_steep": -0.2112,
+    "pct_se_facing": 0.1738,
+    "pct_steep": 0.1414,
+    "elev_m": -0.1065,
+    "road_dist_km": 0.1062,
+    "pct_forest_loss": 0.095,
+    "slope_max": 0.0534
+  },
+  "regime_summary_learned": {
+    "CRITICAL": 249,
+    "HIGH": 694,
+    "ELEVATED": 789,
+    "STABLE": 2
+  },
+  "top_cells_learned": [
+    {
+      "lat": 35.8461,
+      "lon": -81.9078,
+      "tfi_learned": 0.897,
+      "slope_mean": 25.7,
+      "pct_se_facing": 71.6,
+      "road_dist_km": 8.519,
+      "rain_threshold_learned": 10.6
+    },
+    {
+      "lat": 35.864,
+      "lon": -81.9078,
+      "tfi_learned": 0.8921,
+      "slope_mean": 32.2,
+      "pct_se_facing": 69.4,
+      "road_dist_km": 7.394,
+      "rain_threshold_learned": 10.7
+    },
+    {
+      "lat": 35.8371,
+      "lon": -81.9189,
+      "tfi_learned": 0.892,
+      "slope_mean": 26.2,
+      "pct_se_facing": 78.4,
+      "road_dist_km": 8.517,
+      "rain_threshold_learned": 10.7
+    },
+    {
+      "lat": 35.8218,
+      "lon": -82.13,
+      "tfi_learned": 0.8643,
+      "slope_mean": 28.8,
+      "pct_se_facing": 53.0,
+      "road_dist_km": 0.436,
+      "rain_threshold_learned": 11.2
+    },
+    {
+      "lat": 36.0526,
+      "lon": -82.0744,
+      "tfi_learned": 0.8563,
+      "slope_mean": 30.5,
+      "pct_se_facing": 66.4,
+      "road_dist_km": 1.329,
+      "rain_threshold_learned": 11.3
+    },
+    {
+      "lat": 36.0796,
+      "lon": -82.2856,
+      "tfi_learned": 0.8553,
+      "slope_mean": 29.1,
+      "pct_se_facing": 42.3,
+      "road_dist_km": 0.311,
+      "rain_threshold_learned": 11.3
+    },
+    {
+      "lat": 35.9179,
+      "lon": -81.8522,
+      "tfi_learned": 0.8512,
+      "slope_mean": 26.6,
+      "pct_se_facing": 51.6,
+      "road_dist_km": 11.719,
+      "rain_threshold_learned": 11.4
+    },
+    {
+      "lat": 35.873,
+      "lon": -81.9633,
+      "tfi_learned": 0.8503,
+      "slope_mean": 29.4,
+      "pct_se_facing": 51.8,
+      "road_dist_km": 2.157,
+      "rain_threshold_learned": 11.4
+    },
+    {
+      "lat": 36.0796,
+      "lon": -82.3633,
+      "tfi_learned": 0.8471,
+      "slope_mean": 28.4,
+      "pct_se_facing": 59.6,
+      "road_dist_km": 1.428,
+      "rain_threshold_learned": 11.4
+    },
+    {
+      "lat": 36.0796,
+      "lon": -82.2967,
+      "tfi_learned": 0.8375,
+      "slope_mean": 28.4,
+      "pct_se_facing": 45.3,
+      "road_dist_km": 0.406,
+      "rain_threshold_learned": 11.6
+    }
+  ]
+}

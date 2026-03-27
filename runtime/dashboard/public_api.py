@@ -21,6 +21,12 @@ ROOT = Path(__file__).resolve().parents[2]
 DECISIONS_DB = ROOT / "runs" / "gaia_decisions.db"
 RUNS = ROOT / "runs"
 
+try:
+    from scripts.holler_siren.gaia_integration import format_alert, holler_siren_alert
+except Exception:  # pragma: no cover - keep dashboard alive if Holler Siren assets missing
+    format_alert = None
+    holler_siren_alert = None
+
 NWS_USER_AGENT = os.environ.get(
     "GAIA_NWS_USER_AGENT",
     "(GAIA Weather Intelligence, theforgottencode780@gmail.com)",
@@ -68,6 +74,31 @@ def _safe_read_json(path: Path) -> dict | None:
     except Exception as e:
         logger.warning("read json %s: %s", path, e)
         return None
+
+
+def _safe_float(value) -> float | None:
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _surface_max_precip_mm_hr(surface: dict | None) -> float | None:
+    if not isinstance(surface, dict):
+        return None
+    stations = surface.get("stations")
+    if not isinstance(stations, list):
+        return None
+    vals = []
+    for station in stations:
+        if not isinstance(station, dict):
+            continue
+        val = _safe_float(station.get("precip_1h"))
+        if val is not None:
+            vals.append(val * 25.4)
+    return max(vals) if vals else None
 
 
 def _gaia_calls() -> dict:
@@ -154,14 +185,103 @@ def register_public_routes(app) -> None:
     @app.route("/api/bundle")
     def api_bundle():
         """Single JSON for static dashboard: TESS, surface, soundings, GAIA calls."""
+        surface = _safe_read_json(RUNS / "live_surface.json")
         bundle = {
             "timestamp": datetime.now(timezone.utc).isoformat(),
             "tess": _safe_read_json(RUNS / "live_tess.json"),
-            "surface": _safe_read_json(RUNS / "live_surface.json"),
+            "surface": surface,
             "soundings": _safe_read_json(RUNS / "live_soundings.json"),
             "gaia_calls": _gaia_calls(),
         }
+
+        if holler_siren_alert:
+            rainfall_mm_hr = _safe_float(request.args.get("rainfall_mm_hr"))
+            if rainfall_mm_hr is None:
+                precip_rate_in_hr = _safe_float(request.args.get("precip_rate_in_hr"))
+                if precip_rate_in_hr is not None:
+                    rainfall_mm_hr = precip_rate_in_hr * 25.4
+            if rainfall_mm_hr is None:
+                rainfall_mm_hr = _surface_max_precip_mm_hr(surface)
+
+            if rainfall_mm_hr is not None:
+                antecedent_sat_pct = _safe_float(request.args.get("antecedent_sat_pct")) or 0.0
+                duration_hr = _safe_float(request.args.get("duration_hr")) or 6.0
+                lat_min = _safe_float(request.args.get("lat_min"))
+                lon_min = _safe_float(request.args.get("lon_min"))
+                lat_max = _safe_float(request.args.get("lat_max"))
+                lon_max = _safe_float(request.args.get("lon_max"))
+                bbox = None
+                if None not in (lat_min, lon_min, lat_max, lon_max):
+                    bbox = (lat_min, lon_min, lat_max, lon_max)
+                bundle["holler_siren"] = holler_siren_alert(
+                    rainfall_mm_hr=rainfall_mm_hr,
+                    bbox=bbox,
+                    antecedent_sat_pct=antecedent_sat_pct,
+                    duration_hr=duration_hr,
+                )
         return jsonify(bundle)
+
+    @app.route("/api/holler_siren")
+    def api_holler_siren():
+        if not holler_siren_alert:
+            return jsonify({"error": "holler_siren_unavailable"}), 503
+
+        rainfall = _safe_float(request.args.get("rainfall_mm_hr"))
+        if rainfall is None:
+            precip_rate = _safe_float(request.args.get("precip_rate_in_hr"))
+            if precip_rate is not None:
+                rainfall = precip_rate * 25.4
+        if rainfall is None:
+            return jsonify({"error": "rainfall_mm_hr_required"}), 400
+
+        sat_pct = _safe_float(request.args.get("antecedent_sat_pct")) or 0.0
+        duration = _safe_float(request.args.get("duration_hr")) or 6.0
+        lat_min = _safe_float(request.args.get("lat_min"))
+        lon_min = _safe_float(request.args.get("lon_min"))
+        lat_max = _safe_float(request.args.get("lat_max"))
+        lon_max = _safe_float(request.args.get("lon_max"))
+        bbox = None
+        if None not in (lat_min, lon_min, lat_max, lon_max):
+            bbox = (lat_min, lon_min, lat_max, lon_max)
+
+        result = holler_siren_alert(
+            rainfall_mm_hr=rainfall,
+            bbox=bbox,
+            antecedent_sat_pct=sat_pct,
+            duration_hr=duration,
+        )
+        return jsonify(result)
+
+    @app.route("/api/holler_siren/alert")
+    def api_holler_siren_text_alert():
+        if not holler_siren_alert or not format_alert:
+            return jsonify({"error": "holler_siren_unavailable"}), 503
+
+        rainfall = _safe_float(request.args.get("rainfall_mm_hr"))
+        if rainfall is None:
+            precip_rate = _safe_float(request.args.get("precip_rate_in_hr"))
+            if precip_rate is not None:
+                rainfall = precip_rate * 25.4
+        if rainfall is None:
+            return jsonify({"error": "rainfall_mm_hr_required"}), 400
+
+        sat_pct = _safe_float(request.args.get("antecedent_sat_pct")) or 0.0
+        duration = _safe_float(request.args.get("duration_hr")) or 6.0
+        lat_min = _safe_float(request.args.get("lat_min"))
+        lon_min = _safe_float(request.args.get("lon_min"))
+        lat_max = _safe_float(request.args.get("lat_max"))
+        lon_max = _safe_float(request.args.get("lon_max"))
+        bbox = None
+        if None not in (lat_min, lon_min, lat_max, lon_max):
+            bbox = (lat_min, lon_min, lat_max, lon_max)
+
+        result = holler_siren_alert(
+            rainfall_mm_hr=rainfall,
+            bbox=bbox,
+            antecedent_sat_pct=sat_pct,
+            duration_hr=duration,
+        )
+        return format_alert(result), 200, {"Content-Type": "text/plain; charset=utf-8"}
 
     @app.route("/api/subscribe", methods=["POST"])
     def api_subscribe():

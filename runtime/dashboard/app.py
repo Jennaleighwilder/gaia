@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 try:
-    from flask import Flask, jsonify, render_template_string
+    from flask import Flask, jsonify, redirect, render_template_string
 except ImportError:
     print("Install: pip install flask")
     sys.exit(1)
@@ -184,9 +184,14 @@ INDEX_HTML = """
 """
 
 
+@app.route("/east-tn")
+def east_tn_index():
+    return render_template_string(INDEX_HTML)
+
+
 @app.route("/")
 def index():
-    return render_template_string(INDEX_HTML)
+    return redirect("https://jennaleighwilder.github.io/gaia/docs/index.html")
 
 
 LIVE_HTML = """

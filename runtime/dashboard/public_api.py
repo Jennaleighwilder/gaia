@@ -22,13 +22,15 @@ ROOT = Path(__file__).resolve().parents[2]
 DECISIONS_DB = ROOT / "runs" / "gaia_decisions.db"
 RUNS = ROOT / "runs"
 HOLLER_SIREN_V5_WESTERN = ROOT / "data" / "holler_siren" / "tfi_v5_western_nc.json"
+HOLLER_SIREN_DIR = ROOT / "data" / "holler_siren"
 FIRE_DIR = ROOT / "data" / "fire"
 
 try:
-    from scripts.holler_siren.gaia_integration import format_alert, holler_siren_alert
+    from scripts.holler_siren.gaia_integration import format_alert, holler_siren_alert, load_all_tfi_regions
 except Exception:  # pragma: no cover - keep dashboard alive if Holler Siren assets missing
     format_alert = None
     holler_siren_alert = None
+    load_all_tfi_regions = None
 
 try:
     from scripts.holler_siren.live_rainfall import get_current_rainfall_noaa
@@ -186,6 +188,13 @@ def _latest_kpah_scan() -> dict:
 
 
 def _cells_monitored() -> int:
+    if load_all_tfi_regions:
+        try:
+            cells = load_all_tfi_regions()
+            if isinstance(cells, list) and cells:
+                return len(cells)
+        except Exception as e:
+            logger.warning("load all tfi regions: %s", e)
     model = _safe_read_json(HOLLER_SIREN_V5_WESTERN)
     cells = model.get("cells") if isinstance(model, dict) else None
     return len(cells) if isinstance(cells, list) else 40453
@@ -223,20 +232,22 @@ def _fire_payload() -> dict:
             if isinstance(cell, dict) and cell.get("double_threat")
         ][:20]
 
+    historical_fires = mtbs if isinstance(mtbs, list) else (mtbs.get("fires") if isinstance(mtbs.get("fires"), list) else [])
+
     return {
         "timestamp": now,
-        "pilot_area": "Western NC - Yancey + Mitchell Counties",
+        "pilot_area": "Southern Appalachians pilot - Western NC live fire ingest",
         "nifc_context": (
-            "NIFC March 2026 outlook flagged the southern Appalachians for elevated fire risk. "
-            "Helene debris and drought are loading the same Holler Siren terrain cells with added fuel."
+            "NIFC March 2026 flagged the southern Appalachians. "
+            "The same Helene slopes now carry landslide memory and added fire fuel."
         ),
         "active_fires": active_fires,
         "active_fire_count": active_fire_count,
         "current_weather": wx,
         "spc_outlook": spc,
         "drought_proxy": drought,
-        "historical_fires": mtbs.get("fires") if isinstance(mtbs.get("fires"), list) else [],
-        "historical_fire_count": _safe_int(mtbs.get("count")) or 0,
+        "historical_fires": historical_fires,
+        "historical_fire_count": len(historical_fires),
         "fire_regime_summary": overlay.get("fire_regime_summary") or {},
         "double_threat_cells": double_threat_cells,
         "top_double_threats": top_double[:20],
@@ -265,7 +276,7 @@ def _status_payload() -> dict:
     holler_baseline = {
         "alert_level": "—",
         "cells_monitored": _cells_monitored(),
-        "pilot_area": "Western NC",
+        "pilot_area": "Western NC + expansion regions",
         "timestamp": now,
     }
     if holler_siren_alert:
@@ -274,6 +285,7 @@ def _status_payload() -> dict:
             holler_baseline.update(
                 {
                     "alert_level": baseline.get("alert_level", "—"),
+                    "pilot_area": baseline.get("pilot_area", holler_baseline["pilot_area"]),
                     "timestamp": baseline.get("timestamp", now),
                 }
             )
@@ -296,6 +308,7 @@ def _status_payload() -> dict:
             "holler_siren_trained_on": 1804,
             "holler_siren_cells": _cells_monitored(),
             "holler_siren_model": "GradientBoosting",
+            "holler_siren_note": "Western NC Helene model with transfer-model expansion into new regions.",
         },
     }
 

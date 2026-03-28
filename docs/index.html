@@ -4,121 +4,555 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>GAIA Live Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Rajdhani:wght@500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#07111d;
-  --panel:#0d1b2b;
-  --panel-2:#11243a;
-  --border:#21415d;
-  --text:#eef6ff;
-  --muted:#9ab1c7;
-  --blue:#48b6ff;
-  --green:#43d17f;
-  --yellow:#f4c95d;
-  --orange:#ff9f43;
-  --red:#ff5d6c;
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #041018;
+  --bg-2: #071a24;
+  --panel: rgba(8, 22, 31, 0.86);
+  --panel-strong: rgba(8, 22, 31, 0.94);
+  --border: rgba(83, 243, 255, 0.18);
+  --border-soft: rgba(255, 255, 255, 0.08);
+  --text: #f5fbff;
+  --muted: #a8c5d6;
+  --dim: #6f90a2;
+  --cyan: #53f3ff;
+  --cyan-2: #88fbff;
+  --lime: #9dff6a;
+  --amber: #ffd84d;
+  --orange: #ff9d42;
+  --red: #ff657f;
+  --pink: #ff8fb2;
+  --shadow: 0 24px 80px rgba(0, 0, 0, 0.34);
 }
-body{
-  min-height:100vh;
+
+html, body { min-height: 100%; }
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(72,182,255,.15), transparent 32%),
-    radial-gradient(circle at top right, rgba(67,209,127,.10), transparent 28%),
-    linear-gradient(180deg, #06101a 0%, #07111d 100%);
-  color:var(--text);
-  font-family: "Segoe UI", Arial, sans-serif;
+    radial-gradient(circle at 15% 15%, rgba(83, 243, 255, 0.10), transparent 28%),
+    radial-gradient(circle at 82% 14%, rgba(157, 255, 106, 0.08), transparent 24%),
+    radial-gradient(circle at 50% 100%, rgba(255, 157, 66, 0.06), transparent 26%),
+    linear-gradient(180deg, #02070d 0%, var(--bg) 45%, var(--bg-2) 100%);
+  overflow-x: hidden;
 }
-.shell{max-width:1200px;margin:0 auto;padding:28px 20px 36px}
-.topbar{
-  display:flex;align-items:flex-start;justify-content:space-between;gap:16px;
-  padding-bottom:22px;margin-bottom:22px;border-bottom:1px solid var(--border);
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(83, 243, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(83, 243, 255, 0.05) 1px, transparent 1px);
+  background-size: 42px 42px;
+  mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.75));
 }
-.brand h1{
-  font-size:2rem;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);
+
+.shell {
+  position: relative;
+  z-index: 1;
+  max-width: 1380px;
+  margin: 0 auto;
+  padding: 28px 22px 56px;
 }
-.brand p{margin-top:8px;color:var(--muted);max-width:720px;line-height:1.5}
-.statusline{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end}
-.pill{
-  display:inline-flex;align-items:center;gap:8px;
-  padding:9px 14px;border-radius:999px;border:1px solid var(--border);
-  background:rgba(17,36,58,.8);font-size:.9rem;color:var(--muted);
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 18px;
+  padding-bottom: 24px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(83, 243, 255, 0.14);
 }
-.pill strong{color:var(--text)}
-.pill.ok{border-color:rgba(67,209,127,.5);color:var(--green)}
-.pill.offline{border-color:rgba(255,93,108,.5);color:var(--red)}
-.grid{
-  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
-.card{
-  background:rgba(13,27,43,.92);
-  border:1px solid var(--border);
-  border-radius:18px;
-  padding:20px;
-  box-shadow:0 18px 48px rgba(0,0,0,.22);
+
+.brand h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: clamp(3rem, 8vw, 5.3rem);
+  line-height: 0.92;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  text-shadow: 0 0 28px rgba(83, 243, 255, 0.28);
 }
-.card.full{grid-column:1/-1}
-.card h2{
-  font-size:1rem;text-transform:uppercase;letter-spacing:.16em;color:var(--blue);
-  margin-bottom:14px;
+
+.brand p {
+  max-width: 840px;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
 }
-.stamp{font-size:.85rem;color:var(--muted);margin-top:10px}
-.metric-grid{
-  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px;
+
+.brand p strong { color: var(--cyan-2); }
+
+.top-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
 }
-.metric{padding:12px 0;border-top:1px solid rgba(255,255,255,.05)}
-.metric:first-child,.metric:nth-child(2){border-top:none;padding-top:0}
-.label{font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;color:var(--muted);margin-bottom:6px}
-.value{font-size:1.4rem;font-weight:700}
-.value.small{font-size:1rem;font-weight:600}
-.subvalue{margin-top:4px;font-size:.9rem;color:var(--muted)}
-.level{
-  display:inline-flex;align-items:center;justify-content:center;
-  min-width:120px;padding:10px 16px;border-radius:12px;
-  font-size:1rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
-  border:1px solid transparent;
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(8, 22, 31, 0.78);
+  border: 1px solid var(--border-soft);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+  color: var(--muted);
+  font-size: 0.9rem;
 }
-.level.clear{background:rgba(67,209,127,.15);border-color:rgba(67,209,127,.45);color:var(--green)}
-.level.watch{background:rgba(72,182,255,.15);border-color:rgba(72,182,255,.45);color:var(--blue)}
-.level.elevated{background:rgba(244,201,93,.18);border-color:rgba(244,201,93,.50);color:var(--yellow)}
-.level.high{background:rgba(255,159,67,.18);border-color:rgba(255,159,67,.55);color:var(--orange)}
-.level.critical{
-  background:rgba(255,93,108,.18);border-color:rgba(255,93,108,.75);color:var(--red);
-  box-shadow:0 0 0 1px rgba(255,93,108,.35), 0 0 26px rgba(255,93,108,.18);
-  animation:pulse 1.8s ease-in-out infinite;
+
+.pill strong {
+  color: var(--text);
+  font-weight: 700;
 }
-@keyframes pulse{
-  0%,100%{box-shadow:0 0 0 1px rgba(255,93,108,.35), 0 0 18px rgba(255,93,108,.14)}
-  50%{box-shadow:0 0 0 1px rgba(255,93,108,.60), 0 0 36px rgba(255,93,108,.28)}
+
+.pill.ok {
+  border-color: rgba(157, 255, 106, 0.38);
+  color: var(--lime);
 }
-.list{display:flex;flex-direction:column;gap:10px;margin-top:14px}
-.row{
-  display:flex;justify-content:space-between;gap:12px;padding:12px 14px;
-  border-radius:12px;background:rgba(17,36,58,.76);border:1px solid rgba(255,255,255,.05);
+
+.pill.offline {
+  border-color: rgba(255, 101, 127, 0.5);
+  color: var(--red);
 }
-.row strong{display:block}
-.row span{color:var(--muted);font-size:.88rem}
-.notice{
-  margin-top:14px;padding:12px 14px;border-radius:12px;
-  background:rgba(17,36,58,.72);border:1px dashed rgba(255,255,255,.14);color:var(--muted);
+
+.pulse {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 16px currentColor;
+  animation: pulse 1.8s ease-in-out infinite;
 }
-.validation-grid{
-  display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); opacity: 0.95; }
+  50% { transform: scale(1.28); opacity: 0.65; }
 }
-.validation{
-  padding:16px;border-radius:14px;background:rgba(17,36,58,.76);border:1px solid rgba(255,255,255,.05);
+
+.hero-banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) minmax(280px, 0.9fr);
+  gap: 18px;
+  margin-bottom: 18px;
 }
-.validation .value{font-size:1.7rem}
-.mono{font-family:Menlo,Consolas,monospace}
-footer{
-  margin-top:24px;padding-top:18px;border-top:1px solid var(--border);
-  color:var(--muted);font-size:.92rem;line-height:1.5;
+
+.hero-card,
+.card {
+  background: var(--panel);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-soft);
+  border-radius: 22px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
 }
-@media (max-width: 860px){
-  .grid{grid-template-columns:1fr}
-  .validation-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .metric-grid{grid-template-columns:1fr}
-  .topbar{flex-direction:column}
-  .statusline{justify-content:flex-start}
+
+.hero-card {
+  position: relative;
+}
+
+.hero-card::before,
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(83, 243, 255, 0.55), transparent);
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 22px 24px;
+}
+
+.hero-icon {
+  flex-shrink: 0;
+  width: 58px;
+  height: 58px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  font-size: 1.7rem;
+  background: rgba(83, 243, 255, 0.10);
+  border: 1px solid rgba(83, 243, 255, 0.22);
+  box-shadow: 0 0 24px rgba(83, 243, 255, 0.12);
+}
+
+.hero-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.kicker {
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  font-size: 0.72rem;
+  color: var(--dim);
+  margin-bottom: 8px;
+}
+
+.hero-title {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.85rem;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+
+.hero-desc {
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 0.98rem;
+}
+
+.hero-tag {
+  align-self: center;
+}
+
+.banner-side {
+  padding: 22px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.side-label {
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--dim);
+}
+
+.side-big {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 3.2rem;
+  line-height: 0.9;
+  letter-spacing: 0.04em;
+  color: var(--cyan);
+  text-shadow: 0 0 24px rgba(83, 243, 255, 0.2);
+}
+
+.side-copy {
+  color: var(--muted);
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+}
+
+.tag.clear, .metric-tag.clear {
+  color: var(--lime);
+  background: rgba(157, 255, 106, 0.10);
+  border-color: rgba(157, 255, 106, 0.28);
+}
+
+.tag.watch, .metric-tag.watch {
+  color: var(--cyan-2);
+  background: rgba(83, 243, 255, 0.10);
+  border-color: rgba(83, 243, 255, 0.24);
+}
+
+.tag.elevated, .metric-tag.elevated {
+  color: var(--amber);
+  background: rgba(255, 216, 77, 0.10);
+  border-color: rgba(255, 216, 77, 0.28);
+}
+
+.tag.high, .metric-tag.high,
+.tag.active-regime, .metric-tag.active-regime {
+  color: var(--orange);
+  background: rgba(255, 157, 66, 0.12);
+  border-color: rgba(255, 157, 66, 0.34);
+}
+
+.tag.critical, .metric-tag.critical {
+  color: var(--pink);
+  background: rgba(255, 101, 127, 0.12);
+  border-color: rgba(255, 101, 127, 0.5);
+  box-shadow: 0 0 18px rgba(255, 101, 127, 0.12);
+}
+
+.tag.dormant, .metric-tag.dormant {
+  color: var(--lime);
+  background: rgba(157, 255, 106, 0.08);
+  border-color: rgba(157, 255, 106, 0.22);
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.card {
+  position: relative;
+  padding: 22px 22px 20px;
+}
+
+.span-4 { grid-column: span 4; }
+.span-5 { grid-column: span 5; }
+.span-6 { grid-column: span 6; }
+.span-7 { grid-column: span 7; }
+.span-8 { grid-column: span 8; }
+.span-12 { grid-column: 1 / -1; }
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.card-title-wrap h2 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.45rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--cyan);
+  margin-bottom: 6px;
+}
+
+.card-title-wrap p {
+  color: var(--muted);
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.metric-box {
+  padding: 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.metric-box.wide {
+  grid-column: 1 / -1;
+}
+
+.metric-label {
+  font-family: "IBM Plex Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.7rem;
+  color: var(--dim);
+  margin-bottom: 10px;
+}
+
+.metric-value {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 2.2rem;
+  line-height: 0.95;
+  letter-spacing: 0.03em;
+  color: var(--text);
+  text-shadow: 0 0 20px rgba(83, 243, 255, 0.08);
+}
+
+.metric-value.cyan { color: var(--cyan); }
+.metric-value.lime { color: var(--lime); }
+.metric-value.amber { color: var(--amber); }
+.metric-value.orange { color: var(--orange); }
+.metric-value.red { color: var(--pink); }
+
+.metric-sub {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.metric-tag {
+  margin-top: 10px;
+}
+
+.explain {
+  margin-top: 18px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: rgba(83, 243, 255, 0.06);
+  border: 1px solid rgba(83, 243, 255, 0.14);
+  color: var(--muted);
+  line-height: 1.65;
+  font-size: 0.95rem;
+}
+
+.explain strong {
+  color: var(--cyan-2);
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.list-item strong {
+  display: block;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.list-item span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.list-num {
+  text-align: right;
+  min-width: 96px;
+}
+
+.list-num strong {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.5rem;
+  color: var(--amber);
+}
+
+.empty {
+  padding: 16px;
+  border-radius: 16px;
+  border: 1px dashed rgba(255, 255, 255, 0.14);
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.stat-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.stat {
+  padding: 16px 14px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.stat strong {
+  display: block;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.9rem;
+  color: var(--cyan);
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.stat span {
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.guide-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.guide-block {
+  padding: 16px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.guide-block h3 {
+  font-family: "Rajdhani", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 8px;
+}
+
+.guide-block p {
+  color: var(--muted);
+  line-height: 1.6;
+  font-size: 0.94rem;
+}
+
+.footer {
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(83, 243, 255, 0.12);
+  color: var(--dim);
+  font-size: 0.92rem;
+  line-height: 1.7;
+}
+
+.mono {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+@media (max-width: 1180px) {
+  .hero-banner { grid-template-columns: 1fr; }
+  .span-4, .span-5, .span-6, .span-7, .span-8 { grid-column: span 12; }
+}
+
+@media (max-width: 820px) {
+  .shell { padding: 20px 14px 42px; }
+  .topbar { flex-direction: column; align-items: stretch; }
+  .top-pills { justify-content: flex-start; }
+  .metric-grid, .guide-grid, .stat-strip { grid-template-columns: 1fr; }
+  .hero-inner { flex-direction: column; align-items: flex-start; }
+  .hero-tag { align-self: flex-start; }
+  .card { padding: 18px; }
 }
 </style>
 </head>
@@ -126,124 +560,236 @@ footer{
 <div class="shell">
   <div class="topbar">
     <div class="brand">
-      <h1>GAIA Live Dashboard</h1>
-      <p>Real data only. Every live number on this page comes from the Railway API. Missing values render as em dashes instead of simulated output.</p>
+      <h1>GAIA</h1>
+      <p><strong>Live atmospheric and terrain intelligence for western North Carolina.</strong> This page explains what the system sees, why it matters, and where the current danger is building so you do not have to decode the raw API in your head.</p>
     </div>
-    <div class="statusline">
-      <div class="pill" id="api-pill"><strong>API</strong> <span id="api-state">Checking…</span></div>
-      <div class="pill"><strong>Source</strong> <span class="mono">web-production-ce417.up.railway.app</span></div>
-      <div class="pill"><strong>Refresh</strong> <span>Every 5 min</span></div>
+    <div class="top-pills">
+      <div class="pill" id="api-pill"><span class="pulse"></span><strong>API</strong><span id="api-state">Checking</span></div>
+      <div class="pill"><strong>Source</strong><span class="mono">web-production-ce417.up.railway.app</span></div>
+      <div class="pill"><strong>Refresh</strong><span>Every 5 min</span></div>
+      <div class="pill"><strong>Clock</strong><span id="header-clock">—</span></div>
     </div>
   </div>
 
-  <div class="grid">
-    <section class="card">
-      <h2>GAIA Alert Status</h2>
+  <section class="hero-banner">
+    <div class="hero-card">
+      <div class="hero-inner">
+        <div class="hero-icon" id="hero-icon">◎</div>
+        <div class="hero-copy">
+          <div class="kicker">System Summary</div>
+          <div class="hero-title" id="hero-title">Loading live GAIA signal</div>
+          <div class="hero-desc" id="hero-desc">Connecting to Railway and translating the current conditions into plain English.</div>
+        </div>
+        <div class="hero-tag tag watch" id="hero-tag">Waiting</div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="banner-side">
+        <div class="side-label">Fast Read</div>
+        <div class="side-big" id="quick-level">—</div>
+        <div class="side-copy" id="quick-copy">This box tells you the one thing to remember first.</div>
+      </div>
+    </div>
+  </section>
+
+  <main class="dashboard-grid">
+    <section class="card span-4">
+      <div class="card-header">
+        <div class="card-title-wrap">
+          <h2>Atmospheric Regime</h2>
+          <p>The broad weather setup GAIA is watching right now.</p>
+        </div>
+        <div class="tag watch" id="gaia-badge">—</div>
+      </div>
       <div class="metric-grid">
-        <div class="metric">
-          <div class="label">Atmospheric Regime</div>
-          <div class="value" id="gaia-status">—</div>
-          <div class="subvalue" id="gaia-status-ts">As of —</div>
+        <div class="metric-box">
+          <div class="metric-label">GAIA Status</div>
+          <div class="metric-value cyan" id="gaia-status">—</div>
+          <div class="metric-sub" id="gaia-status-ts">As of —</div>
         </div>
-        <div class="metric">
-          <div class="label">Alert Level</div>
-          <div class="value" id="gaia-alert">—</div>
-          <div class="subvalue" id="gaia-alert-ts">As of —</div>
+        <div class="metric-box">
+          <div class="metric-label">Alert Level</div>
+          <div class="metric-value" id="gaia-alert">—</div>
+          <div class="metric-tag tag watch" id="gaia-alert-tag">—</div>
         </div>
-        <div class="metric">
-          <div class="label">AO Index</div>
-          <div class="value" id="ao-current">—</div>
-          <div class="subvalue" id="ao-ts">As of —</div>
+        <div class="metric-box">
+          <div class="metric-label">AO Index</div>
+          <div class="metric-value cyan" id="ao-current">—</div>
+          <div class="metric-sub" id="ao-note">Higher negative swings can favor colder, more disrupted patterns.</div>
         </div>
-        <div class="metric">
-          <div class="label">Gulf SST Anomaly</div>
-          <div class="value" id="gulf-current">—</div>
-          <div class="subvalue" id="gulf-ts">As of —</div>
+        <div class="metric-box">
+          <div class="metric-label">Gulf SST Anomaly</div>
+          <div class="metric-value amber" id="gulf-current">—</div>
+          <div class="metric-sub" id="gulf-note">Warmer Gulf water can feed stronger moisture transport.</div>
         </div>
       </div>
+      <div class="explain" id="gaia-explain"><strong>How to read this:</strong> GAIA status is the overall background setup. The alert level is the system's current operational mood.</div>
     </section>
 
-    <section class="card">
-      <h2>Radar Status</h2>
+    <section class="card span-4">
+      <div class="card-header">
+        <div class="card-title-wrap">
+          <h2>Fire Layer</h2>
+          <p>Active detections, Asheville fire weather, and terrain cells that are both slide-prone and fuel-loaded.</p>
+        </div>
+        <div class="tag watch" id="fire-badge">—</div>
+      </div>
       <div class="metric-grid">
-        <div class="metric">
-          <div class="label">KPAH Latest Scan</div>
-          <div class="value small" id="radar-scan">—</div>
-          <div class="subvalue" id="radar-file">As of —</div>
+        <div class="metric-box">
+          <div class="metric-label">Fire Alert</div>
+          <div class="metric-value red" id="fire-alert">—</div>
+          <div class="metric-tag tag watch" id="fire-alert-tag">—</div>
         </div>
-        <div class="metric">
-          <div class="label">API Health</div>
-          <div class="value small" id="api-health-text">—</div>
-          <div class="subvalue" id="api-health-ts">As of —</div>
+        <div class="metric-box">
+          <div class="metric-label">Active Fire Detections</div>
+          <div class="metric-value orange" id="fire-count">—</div>
+          <div class="metric-sub" id="fire-count-ts">As of —</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">Double-Threat Cells</div>
+          <div class="metric-value amber" id="double-threat-count">—</div>
+          <div class="metric-sub">High landslide risk plus high fire risk in the same terrain cells.</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">Asheville Fire Weather</div>
+          <div class="metric-value lime" id="fire-weather">—</div>
+          <div class="metric-sub" id="fire-weather-note">RH and wind from KAVL.</div>
         </div>
       </div>
-      <div class="notice" id="radar-note">Real KPAH scan time appears here when the backend can list the latest NEXRAD Level II file.</div>
+      <div class="explain" id="fire-explain"><strong>Why this matters:</strong> fire risk is not separate from GAIA. The same debris-loaded slopes that failed in Helene can dry into dangerous fuel beds.</div>
     </section>
 
-    <section class="card">
-      <h2>Holler Siren Status</h2>
+    <section class="card span-4">
+      <div class="card-header">
+        <div class="card-title-wrap">
+          <h2>Holler Siren</h2>
+          <p>The landslide layer. It tells you where steep hollows are already structurally vulnerable.</p>
+        </div>
+        <div class="tag clear" id="holler-badge">—</div>
+      </div>
       <div class="metric-grid">
-        <div class="metric">
-          <div class="label">Current Alert Level</div>
-          <div class="level clear" id="holler-level">CLEAR</div>
-          <div class="subvalue" id="holler-ts">As of —</div>
+        <div class="metric-box">
+          <div class="metric-label">Current Alert</div>
+          <div class="metric-value lime" id="holler-level">—</div>
+          <div class="metric-tag tag clear" id="holler-level-tag">—</div>
         </div>
-        <div class="metric">
-          <div class="label">At-Risk Cells</div>
-          <div class="value" id="holler-cells">—</div>
-          <div class="subvalue" id="holler-source">Source —</div>
+        <div class="metric-box">
+          <div class="metric-label">At-Risk Cells</div>
+          <div class="metric-value amber" id="holler-cells">—</div>
+          <div class="metric-sub" id="holler-source">Source —</div>
         </div>
-        <div class="metric">
-          <div class="label">Cells Monitored</div>
-          <div class="value" id="holler-monitored">—</div>
-          <div class="subvalue" id="holler-area">Area —</div>
+        <div class="metric-box">
+          <div class="metric-label">Cells Monitored</div>
+          <div class="metric-value cyan" id="holler-monitored">—</div>
+          <div class="metric-sub" id="holler-area">Area —</div>
         </div>
-        <div class="metric">
-          <div class="label">Baseline Alert</div>
-          <div class="value small" id="holler-baseline">—</div>
-          <div class="subvalue" id="holler-baseline-ts">As of —</div>
-        </div>
-      </div>
-      <div class="list" id="top-hollows"></div>
-      <div class="notice" id="holler-note">Live rainfall feed unavailable. Showing baseline terrain monitoring only.</div>
-    </section>
-
-    <section class="card">
-      <h2>Validation Stats</h2>
-      <div class="validation-grid">
-        <div class="validation">
-          <div class="label">GAIA Radar Lead</div>
-          <div class="value">193</div>
-          <div class="subvalue">Minutes early on Mayfield 2021</div>
-        </div>
-        <div class="validation">
-          <div class="label">Holler Siren AUC</div>
-          <div class="value">0.842</div>
-          <div class="subvalue">v5 validated against USGS Helene inventory</div>
-        </div>
-        <div class="validation">
-          <div class="label">Terrain Cells</div>
-          <div class="value">40,453</div>
-          <div class="subvalue">Across western North Carolina</div>
-        </div>
-        <div class="validation">
-          <div class="label">Model</div>
-          <div class="value small">Gradient Boosting</div>
-          <div class="subvalue">Trained on 1,804 Helene failures</div>
+        <div class="metric-box">
+          <div class="metric-label">Baseline Check</div>
+          <div class="metric-value" id="holler-baseline">—</div>
+          <div class="metric-sub" id="holler-baseline-ts">As of —</div>
         </div>
       </div>
-      <div class="stamp">Validated figures only. These are fixed research results, not simulated live data.</div>
+      <div class="explain" id="holler-explain"><strong>How to read this:</strong> when the live rainfall feed is down, GAIA still shows the real baseline terrain vulnerability instead of inventing numbers.</div>
     </section>
 
-    <section class="card full">
-      <h2>Live API Notes</h2>
-      <div class="notice" id="offline-note">Waiting for the first successful health check.</div>
+    <section class="card span-5">
+      <div class="card-header">
+        <div class="card-title-wrap">
+          <h2>Radar and Feed Health</h2>
+          <p>Whether the backend is alive and whether NEXRAD scan timing is coming through.</p>
+        </div>
+        <div class="tag watch" id="health-badge">Checking</div>
+      </div>
+      <div class="metric-grid">
+        <div class="metric-box">
+          <div class="metric-label">Latest KPAH Scan</div>
+          <div class="metric-value cyan" id="radar-scan">—</div>
+          <div class="metric-sub mono" id="radar-file">As of —</div>
+        </div>
+        <div class="metric-box">
+          <div class="metric-label">API Health</div>
+          <div class="metric-value lime" id="api-health-text">—</div>
+          <div class="metric-sub" id="api-health-ts">As of —</div>
+        </div>
+      </div>
+      <div class="explain" id="radar-note"><strong>What this means:</strong> if the API is online but a field is blank, that blank is real missing data, not fake filler.</div>
     </section>
-  </div>
 
-  <footer>
+    <section class="card span-7">
+      <div class="card-header">
+        <div class="card-title-wrap">
+          <h2>Validation and Proof</h2>
+          <p>These are fixed research results. They do not move around with live weather noise.</p>
+        </div>
+      </div>
+      <div class="stat-strip">
+        <div class="stat">
+          <strong id="val-radar">193</strong>
+          <span>Minutes of lead time on the Mayfield 2021 case.</span>
+        </div>
+        <div class="stat">
+          <strong id="val-auc">0.842</strong>
+          <span>Holler Siren validated against the Helene failure inventory.</span>
+        </div>
+        <div class="stat">
+          <strong id="val-cells">40,453</strong>
+          <span>Total terrain cells monitored across western North Carolina.</span>
+        </div>
+        <div class="stat">
+          <strong id="val-trained">1,804</strong>
+          <span>Known Helene failures used to train the active terrain model.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card span-6">
+      <div class="card-header">
+        <div class="card-title-wrap">
+          <h2>Most Exposed Hollows</h2>
+          <p>The steep places Holler Siren wants you to watch first when landslide conditions are active.</p>
+        </div>
+      </div>
+      <div class="stack" id="top-hollows"></div>
+    </section>
+
+    <section class="card span-6">
+      <div class="card-header">
+        <div class="card-title-wrap">
+          <h2>Top Double-Threat Cells</h2>
+          <p>These cells rank high for both slope failure and wildfire spread potential.</p>
+        </div>
+      </div>
+      <div class="stack" id="double-threats"></div>
+    </section>
+
+    <section class="card span-12">
+      <div class="card-header">
+        <div class="card-title-wrap">
+          <h2>How To Read GAIA Fast</h2>
+          <p>This is the memory-friendly version so you can glance once and know what matters.</p>
+        </div>
+      </div>
+      <div class="guide-grid">
+        <div class="guide-block">
+          <h3>Atmosphere</h3>
+          <p>AO and Gulf warmth are the background pattern clues. They tell you whether the bigger weather machine is setting the table for trouble.</p>
+        </div>
+        <div class="guide-block">
+          <h3>Holler Siren</h3>
+          <p>This is the terrain memory of the mountains. It marks where steep hollows fail first when water, debris, and slope geometry line up.</p>
+        </div>
+        <div class="guide-block">
+          <h3>Fire Layer</h3>
+          <p>This shows where Helene debris, dry weather, and slope exposure overlap. Same mountain cells, different hazard.</p>
+        </div>
+      </div>
+      <div class="explain" id="offline-note"><strong>Last refresh:</strong> Waiting for the first successful API check.</div>
+    </section>
+  </main>
+
+  <footer class="footer">
     © 2026 Jennifer Leigh West | The Forgotten Code Research Institute<br>
-    GAIA™ | Holler Siren™ | West Method™ | theforgottencode780@gmail.com
+    GAIA dashboard on GitHub Pages | Live data from Railway | theforgottencode780@gmail.com
   </footer>
 </div>
 
@@ -273,47 +819,192 @@ function setText(id, value) {
   if (el) el.textContent = value;
 }
 
-function setLevel(id, level) {
+function severity(level) {
+  const key = String(level || '').toUpperCase();
+  const rank = { CLEAR: 0, DORMANT: 0, WATCH: 1, ELEVATED: 2, ACTIVE: 2, 'ACTIVE REGIME': 2, HIGH: 3, CRITICAL: 4 };
+  return rank[key] ?? 0;
+}
+
+function levelClass(level) {
+  const key = String(level || '').toUpperCase();
+  if (key === 'CLEAR') return 'clear';
+  if (key === 'WATCH') return 'watch';
+  if (key === 'ELEVATED') return 'elevated';
+  if (key === 'HIGH') return 'high';
+  if (key === 'CRITICAL') return 'critical';
+  if (key === 'DORMANT') return 'dormant';
+  if (key === 'ACTIVE' || key === 'ACTIVE REGIME') return 'active-regime';
+  return 'watch';
+}
+
+function setTag(id, text, level) {
   const el = document.getElementById(id);
   if (!el) return;
-  const normalized = String(level || '—').toUpperCase();
-  el.textContent = normalized;
-  el.className = 'level ' + String(level || 'clear').toLowerCase();
+  el.textContent = String(text || '—').toUpperCase();
+  el.className = `tag ${levelClass(level || text)}`;
 }
 
-async function fetchJson(path) {
-  const url = `${API_BASE}${path}`;
-  const response = await fetch(url, { cache: 'no-store' });
-  if (!response.ok) {
-    const text = await response.text();
-    throw new Error(`${response.status} ${text.slice(0, 120)}`);
+function setValueTone(id, tone) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.className = `metric-value ${tone || ''}`.trim();
+}
+
+function fetchJson(path) {
+  return fetch(`${API_BASE}${path}`, { cache: 'no-store' }).then(async (response) => {
+    if (!response.ok) {
+      const text = await response.text();
+      throw new Error(`${response.status} ${text.slice(0, 120)}`);
+    }
+    return response.json();
+  });
+}
+
+function overallMessage(status, fire, holler) {
+  const gaiaLevel = status?.gaia_alert_level || status?.gaia_status;
+  const fireLevel = fire?.fire_alert_level;
+  const hollerLevel = holler?.alert_level;
+  const levels = [gaiaLevel, fireLevel, hollerLevel].filter(Boolean);
+  const top = levels.sort((a, b) => severity(b) - severity(a))[0] || 'WATCH';
+
+  if (severity(fireLevel) >= 4) {
+    return {
+      level: fireLevel,
+      title: 'Fire layer is the main danger right now',
+      desc: `GAIA's atmospheric core is calm, but the wildfire layer is not. ${fmtInteger(fire?.active_fire_count)} active detections and ${fmtInteger(fire?.double_threat_cells)} double-threat cells make fire the priority signal.`,
+      icon: '🔥',
+      quick: 'Watch fire first. The slopes are carrying both debris and dry fuel.'
+    };
   }
-  return response.json();
+
+  if (severity(hollerLevel) >= 3) {
+    return {
+      level: hollerLevel,
+      title: 'Holler Siren is elevated in the steep terrain',
+      desc: `The landslide layer is active. Holler Siren is marking ${fmtInteger(holler?.summary?.cells_at_risk)} terrain cells as at risk.`,
+      icon: '⛰',
+      quick: 'Watch the hollows. Terrain failure is the first thing to check.'
+    };
+  }
+
+  if (severity(gaiaLevel) >= 3) {
+    return {
+      level: gaiaLevel,
+      title: 'The large-scale atmospheric setup is turning active',
+      desc: 'GAIA sees the background weather machine shifting into a more dangerous pattern, even if the local terrain layer is quiet at this second.',
+      icon: '⚡',
+      quick: 'Watch the pattern. The atmosphere is setting the table.'
+    };
+  }
+
+  return {
+    level: top,
+    title: 'GAIA is calm, but still watching every layer',
+    desc: 'No major atmospheric alarm is active at this moment. The dashboard is still tracking radar, terrain, and fire signals so changes can show up quickly.',
+    icon: '◎',
+    quick: 'Calm overall. Use the fire and terrain cards for the sharper local details.'
+  };
 }
 
-function renderGaia(status, bundle) {
-  setText('gaia-status', status?.gaia_status ?? '—');
-  setText('gaia-status-ts', `As of ${fmtTs(status?.last_updated)}`);
-  setText('gaia-alert', status?.gaia_alert_level ?? bundle?.tess?.risk_level ?? '—');
-  setText('gaia-alert-ts', `As of ${fmtTs(status?.gaia_alert_timestamp || bundle?.tess?.timestamp)}`);
+function renderHero(status, fire, holler) {
+  const message = overallMessage(status, fire, holler);
+  setText('hero-title', message.title);
+  setText('hero-desc', message.desc);
+  setText('hero-icon', message.icon);
+  setTag('hero-tag', message.level, message.level);
+  setText('quick-level', String(message.level || 'WATCH').toUpperCase());
+  setText('quick-copy', message.quick);
+}
+
+function renderAtmosphere(status, bundle) {
+  const gaiaStatus = status?.gaia_status || '—';
+  const gaiaAlert = status?.gaia_alert_level || bundle?.status?.gaia_alert_level || '—';
+
+  setText('gaia-status', gaiaStatus);
+  setText('gaia-status-ts', `Last atmospheric update: ${fmtTs(status?.last_updated)}`);
+  setText('gaia-alert', String(gaiaAlert || '—').toUpperCase());
+  setTag('gaia-badge', gaiaStatus, gaiaStatus);
+  setTag('gaia-alert-tag', gaiaAlert, gaiaAlert);
+
   setText('ao-current', fmtNumber(status?.ao_current, 2));
-  setText('ao-ts', `As of ${fmtTs(status?.gaia_alert_timestamp || bundle?.tess?.timestamp)}`);
   setText('gulf-current', fmtNumber(status?.gulf_anomaly, 3, ' °C'));
-  setText('gulf-ts', `As of ${fmtTs(status?.gaia_alert_timestamp || bundle?.tess?.timestamp)}`);
+
+  const aoText = status?.ao_current === null || status?.ao_current === undefined
+    ? 'AO is missing right now, so GAIA is showing a real blank value.'
+    : `AO is ${fmtNumber(status.ao_current, 2)}. More negative values can point to a more disrupted large-scale pattern.`;
+  const gulfText = status?.gulf_anomaly === null || status?.gulf_anomaly === undefined
+    ? 'Gulf anomaly is missing right now, so moisture support is unreadable from this feed.'
+    : `Gulf anomaly is ${fmtNumber(status.gulf_anomaly, 3, ' °C')}. Positive warmth can support stronger moisture loading.`;
+
+  setText('ao-note', aoText);
+  setText('gulf-note', gulfText);
+  setText(
+    'gaia-explain',
+    `How to read this: GAIA status is the background atmospheric regime. Alert level is the system's current posture. ${aoText} ${gulfText}`
+  );
+
+  setValueTone('gaia-status', severity(gaiaStatus) >= 3 ? 'orange' : 'cyan');
+  setValueTone('gaia-alert', severity(gaiaAlert) >= 4 ? 'red' : severity(gaiaAlert) >= 2 ? 'amber' : 'lime');
 }
 
-function renderRadar(status, health) {
-  const radar = status?.radar_status || {};
-  setText('radar-scan', fmtTs(radar.scan_time));
-  setText('radar-file', radar.file_key ? radar.file_key.split('/').slice(-1)[0] : 'As of —');
-  setText('api-health-text', health?.status === 'ok' ? 'ONLINE' : 'OFFLINE');
-  setText('api-health-ts', `As of ${fmtTs(health?.timestamp)}`);
+function renderFire(fire) {
+  const fireLevel = fire?.fire_alert_level || 'WATCH';
+  const weather = fire?.current_weather || {};
+  const rh = weather.relative_humidity_pct;
+  const wind = weather.wind_mph;
+
+  setText('fire-alert', String(fireLevel).toUpperCase());
+  setText('fire-count', fmtInteger(fire?.active_fire_count));
+  setText('fire-count-ts', `Fire ingest timestamp: ${fmtTs(fire?.timestamp)}`);
+  setText('double-threat-count', fmtInteger(fire?.double_threat_cells));
+  setTag('fire-badge', fireLevel, fireLevel);
+  setTag('fire-alert-tag', fireLevel, fireLevel);
+
+  const weatherLine = weather.station
+    ? `${fmtNumber(weather.temp_f, 0, '°F')} / RH ${fmtNumber(rh, 0, '%')} / Wind ${fmtNumber(wind, 0, ' mph')}`
+    : 'Weather feed missing';
+  setText('fire-weather', weatherLine);
+
+  const wxFlag = weather.fire_weather_flag
+    ? 'Asheville conditions are actively flagging fire-weather criteria.'
+    : 'Asheville is not hitting the strongest fire-weather threshold at this moment.';
+
+  const regimeSummary = fire?.fire_regime_summary || {};
+  const regimeLine = `Terrain split: ${fmtInteger(regimeSummary.HIGH || 0)} high, ${fmtInteger(regimeSummary.MODERATE || 0)} moderate, ${fmtInteger(regimeSummary.LOW || 0)} low fire-risk cells.`;
+  setText('fire-weather-note', `${wxFlag} ${regimeLine}`);
   setText(
-    'radar-note',
-    radar.scan_time
-      ? `Current ${radar.station || 'KPAH'} scan time is coming from the live API.`
-      : 'KPAH scan time is unavailable right now, so the dashboard is showing a real missing value instead of a placeholder.'
+    'fire-explain',
+    `Why this matters: ${fire?.nifc_context || 'This fire layer uses active detections, weather, and terrain fuel structure.'} Right now GAIA sees ${fmtInteger(fire?.double_threat_cells)} cells where slide-prone terrain and fire-prone fuel align.`
   );
+
+  setValueTone('fire-alert', severity(fireLevel) >= 4 ? 'red' : severity(fireLevel) >= 3 ? 'orange' : 'amber');
+  setValueTone('fire-count', (fire?.active_fire_count || 0) > 0 ? 'orange' : 'lime');
+  setValueTone('double-threat-count', (fire?.double_threat_cells || 0) > 0 ? 'amber' : 'lime');
+  setValueTone('fire-weather', weather.fire_weather_flag ? 'orange' : 'lime');
+
+  const wrap = document.getElementById('double-threats');
+  wrap.innerHTML = '';
+  const threats = Array.isArray(fire?.top_double_threats) ? fire.top_double_threats.slice(0, 3) : [];
+  if (!threats.length) {
+    wrap.innerHTML = `<div class="empty">No double-threat cells were returned from the live API right now.</div>`;
+    return;
+  }
+  threats.forEach((row, idx) => {
+    const item = document.createElement('div');
+    item.className = 'list-item';
+    item.innerHTML = `
+      <div>
+        <strong>Cell ${idx + 1}</strong>
+        <span>${Number(row.lat).toFixed(4)}, ${Number(row.lon).toFixed(4)}</span>
+        <span>Fire ${row.fire_regime || '—'} | Landslide ${row.landslide_regime || '—'}</span>
+      </div>
+      <div class="list-num">
+        <strong>${fmtNumber(row.fire_risk, 3)}</strong>
+        <span>Fire score</span>
+      </div>
+    `;
+    wrap.appendChild(item);
+  });
 }
 
 function renderHoller(status, baseline, live) {
@@ -321,46 +1012,87 @@ function renderHoller(status, baseline, live) {
   const current = liveOk ? live : baseline;
   const summary = current?.summary || {};
   const validation = status?.validation || {};
+  const level = current?.alert_level || 'CLEAR';
 
-  setLevel('holler-level', current?.alert_level || 'CLEAR');
-  setText('holler-ts', `As of ${fmtTs(current?.timestamp)}`);
+  setText('holler-level', String(level).toUpperCase());
+  setTag('holler-badge', level, level);
+  setTag('holler-level-tag', level, level);
   setText('holler-cells', fmtInteger(summary.cells_at_risk));
-  setText('holler-source', current?.data_source ? `Source ${current.data_source}` : 'Source —');
+  setText('holler-source', current?.data_source ? `Source: ${current.data_source}` : 'Source: baseline terrain call');
   setText('holler-monitored', fmtInteger(status?.holler_siren_baseline?.cells_monitored || validation.holler_siren_cells));
-  setText('holler-area', status?.holler_siren_baseline?.pilot_area ? `Area ${status.holler_siren_baseline.pilot_area}` : 'Area —');
+  setText('holler-area', status?.holler_siren_baseline?.pilot_area ? `Area: ${status.holler_siren_baseline.pilot_area}` : 'Area: western North Carolina');
   setText('holler-baseline', status?.holler_siren_baseline?.alert_level || '—');
-  setText('holler-baseline-ts', `As of ${fmtTs(status?.holler_siren_baseline?.timestamp)}`);
+  setText('holler-baseline-ts', `Baseline timestamp: ${fmtTs(status?.holler_siren_baseline?.timestamp)}`);
+
+  setText(
+    'holler-explain',
+    liveOk
+      ? `How to read this: the live Holler Siren feed is online, so these values include current rainfall conditions and terrain response.`
+      : `How to read this: the live Holler Siren rainfall feed is down, so GAIA is showing the real baseline terrain layer instead of fake numbers.`
+  );
+
+  setValueTone('holler-level', severity(level) >= 4 ? 'red' : severity(level) >= 3 ? 'orange' : severity(level) >= 2 ? 'amber' : 'lime');
+  setValueTone('holler-cells', (summary.cells_at_risk || 0) > 0 ? 'amber' : 'lime');
+  setValueTone('holler-monitored', 'cyan');
+  setValueTone('holler-baseline', severity(status?.holler_siren_baseline?.alert_level) >= 2 ? 'amber' : 'lime');
 
   const hollows = document.getElementById('top-hollows');
   hollows.innerHTML = '';
-  const shouldShowHollows = ['ELEVATED', 'HIGH', 'CRITICAL'].includes(String(current?.alert_level || '').toUpperCase());
-  if (shouldShowHollows && Array.isArray(current?.top_hollows) && current.top_hollows.length) {
-    current.top_hollows.slice(0, 3).forEach((row, idx) => {
-      const item = document.createElement('div');
-      item.className = 'row';
-      item.innerHTML = `
-        <div>
-          <strong>Hollow ${idx + 1}</strong>
-          <span>${Number(row.lat).toFixed(4)}, ${Number(row.lon).toFixed(4)}</span>
-        </div>
-        <div style="text-align:right">
-          <strong>${fmtNumber(row.tfi, 3)}</strong>
-          <span>${row.regime || '—'}</span>
-        </div>
-      `;
-      hollows.appendChild(item);
-    });
+  const list = Array.isArray(current?.top_hollows) ? current.top_hollows.slice(0, 3) : [];
+  if (!list.length) {
+    hollows.innerHTML = `<div class="empty">No top hollows are being surfaced right now. That usually means the terrain layer is clear or only baseline monitoring is active.</div>`;
+    return;
   }
+  list.forEach((row, idx) => {
+    const item = document.createElement('div');
+    item.className = 'list-item';
+    item.innerHTML = `
+      <div>
+        <strong>Hollow ${idx + 1}</strong>
+        <span>${Number(row.lat).toFixed(4)}, ${Number(row.lon).toFixed(4)}</span>
+        <span>${row.regime || '—'} terrain regime</span>
+      </div>
+      <div class="list-num">
+        <strong>${fmtNumber(row.tfi, 3)}</strong>
+        <span>TFI score</span>
+      </div>
+    `;
+    hollows.appendChild(item);
+  });
+}
 
-  const note = liveOk
-    ? `Live Holler Siren feed is active. Rainfall source is real-time and the current alert is ${current.alert_level || '—'}.`
-    : 'Live rainfall endpoint is unavailable right now. The dashboard is falling back to the real 0 mm/hr baseline call.';
-  setText('holler-note', note);
+function renderRadar(status, health) {
+  const radar = status?.radar_status || {};
+  const online = health?.status === 'ok';
+
+  setText('radar-scan', fmtTs(radar.scan_time));
+  setText('radar-file', radar.file_key ? radar.file_key : 'As of —');
+  setText('api-health-text', online ? 'ONLINE' : 'OFFLINE');
+  setText('api-health-ts', `Health timestamp: ${fmtTs(health?.timestamp)}`);
+  setTag('health-badge', online ? 'Online' : 'Offline', online ? 'clear' : 'critical');
+  setText(
+    'radar-note',
+    radar.scan_time
+      ? `What this means: GAIA can see the latest ${radar.station || 'KPAH'} scan timestamp, so the radar watcher is alive and reporting.`
+      : 'What this means: the API is up, but radar timing is missing right now. GAIA is showing a real blank rather than made-up status.'
+  );
+
+  setValueTone('radar-scan', radar.scan_time ? 'cyan' : 'amber');
+  setValueTone('api-health-text', online ? 'lime' : 'red');
+}
+
+function renderValidation(status) {
+  const validation = status?.validation || {};
+  setText('val-radar', fmtInteger(validation.radar_lead_minutes || 193));
+  setText('val-auc', fmtNumber(validation.holler_siren_auc || 0.842, 3));
+  setText('val-cells', fmtInteger(validation.holler_siren_cells || 40453));
+  setText('val-trained', fmtInteger(validation.holler_siren_trained_on || 1804));
 }
 
 async function loadDashboard() {
   const apiPill = document.getElementById('api-pill');
   const lastGood = localStorage.getItem('gaia-last-success') || '—';
+  setText('header-clock', new Date().toLocaleString());
 
   try {
     const health = await fetchJson('/health');
@@ -368,30 +1100,41 @@ async function loadDashboard() {
     document.getElementById('api-state').textContent = 'Online';
     apiPill.className = 'pill ok';
 
-    const [status, bundle, baseline, liveResult] = await Promise.allSettled([
+    const [status, bundle, baseline, liveResult, fireResult] = await Promise.allSettled([
       fetchJson('/api/status'),
       fetchJson('/api/bundle'),
       fetchJson('/api/holler_siren?rainfall_mm_hr=0&antecedent_sat_pct=0'),
-      fetchJson('/api/holler_siren/live')
+      fetchJson('/api/holler_siren/live'),
+      fetchJson('/api/fire')
     ]);
 
     const statusData = status.status === 'fulfilled' ? status.value : {};
     const bundleData = bundle.status === 'fulfilled' ? bundle.value : {};
     const baselineData = baseline.status === 'fulfilled' ? baseline.value : {};
     const liveData = liveResult.status === 'fulfilled' ? liveResult.value : { error: true };
+    const fireData = fireResult.status === 'fulfilled' ? fireResult.value : (bundleData.fire || {});
 
-    renderGaia(statusData, bundleData);
-    renderRadar(statusData, health);
+    renderHero(statusData, fireData, liveData.error ? baselineData : liveData);
+    renderAtmosphere(statusData, bundleData);
+    renderFire(fireData);
     renderHoller(statusData, baselineData, liveData);
+    renderRadar(statusData, health);
+    renderValidation(statusData);
 
     setText(
       'offline-note',
-      `Last successful API refresh: ${fmtTs(health.timestamp)}. Bundle timestamp: ${fmtTs(bundleData.timestamp)}.`
+      `Last successful refresh: ${fmtTs(health.timestamp)}. Bundle timestamp: ${fmtTs(bundleData.timestamp)}. If a field is blank, that blank came from the real live API.`
     );
   } catch (error) {
     document.getElementById('api-state').textContent = 'Offline';
     apiPill.className = 'pill offline';
-    setText('offline-note', `GAIA offline — last update: ${fmtTs(lastGood)}`);
+    setText('hero-title', 'GAIA could not reach the live backend');
+    setText('hero-desc', 'The page is up, but Railway did not answer in time. The last successful refresh is shown below so you can tell how stale the data is.');
+    setText('quick-level', 'OFFLINE');
+    setText('quick-copy', 'Check the Railway backend first, then refresh this page.');
+    setTag('hero-tag', 'Offline', 'critical');
+    setTag('health-badge', 'Offline', 'critical');
+    setText('offline-note', `GAIA offline. Last successful refresh: ${fmtTs(lastGood)}`);
   }
 }
 

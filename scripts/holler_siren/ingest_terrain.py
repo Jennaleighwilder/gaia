@@ -30,8 +30,25 @@ USER_AGENT = "HollerSiren/1.0 (research@theforgottencode.com)"
 MIN_SLOPE_RAD = 0.001
 
 
+def _slugify_region(value: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "_", value.lower()).strip("_")
+    return slug or "custom_region"
+
+
+def _pretty_region_name(region: str) -> str:
+    parts = [part for part in region.replace("-", "_").split("_") if part]
+    if not parts:
+        return "Custom Region"
+    return " ".join(part.capitalize() for part in parts)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Ingest TNM DEM and compute 1km terrain cells.")
+    parser.add_argument(
+        "--region",
+        default="yancey_mitchell",
+        help="Region slug used for default output/cache paths",
+    )
     parser.add_argument(
         "--bbox",
         default="35.82,-82.38,36.12,-81.82",
@@ -63,7 +80,15 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Compute TWI-style convergence metrics for each 1km cell",
     )
-    return parser.parse_args()
+    args = parser.parse_args()
+    args.region = _slugify_region(args.region)
+    if args.output == str(DEFAULT_OUTPUT):
+        args.output = str(ROOT / "data" / "holler_siren" / f"terrain_{args.region}.json")
+    if args.raw_dir == str(DEFAULT_RAW_DIR):
+        args.raw_dir = str(ROOT / "data" / "holler_siren" / f"raw_dem_{args.region}")
+    if args.area_name == DEFAULT_AREA_NAME and args.region != "yancey_mitchell":
+        args.area_name = _pretty_region_name(args.region)
+    return args
 
 
 def bbox_from_user_arg(bbox_arg: str) -> tuple[tuple[float, float, float, float], str]:
@@ -313,6 +338,7 @@ def main() -> int:
 
     grid_cells, stats = compute_terrain_cells(dem, transform, bbox, include_twi=args.include_twi)
     output = {
+        "region": args.region,
         "pilot_area": args.area_name,
         "bbox": bbox_str,
         "n_cells": len(grid_cells),

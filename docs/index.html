@@ -531,7 +531,7 @@ footer {
   <header>
     <div class="logo">
       <div class="logo-gaia">GAIA</div>
-      <div class="logo-sub">Atmospheric Intelligence · The Forgotten Code Research Institute</div>
+      <div class="logo-sub">National Atmosphere · Tornado Corridor · Appalachian Terrain</div>
     </div>
     <div class="header-right">
       <div class="status-pill" id="apiPill">
@@ -547,7 +547,7 @@ footer {
       <div class="alert-icon-wrap" id="alertIconWrap">🌐</div>
       <div class="alert-content">
         <div class="alert-regime loading" id="alertRegime">INITIALIZING GAIA…</div>
-        <div class="alert-desc" id="alertDesc">Fetching live atmospheric and terrain data from Railway.</div>
+        <div class="alert-desc" id="alertDesc">Watching the national atmosphere and Appalachian terrain from Railway.</div>
       </div>
       <div class="alert-level-tag tag-watch" id="alertTag">—</div>
     </div>
@@ -618,18 +618,18 @@ footer {
     </div>
 
     <div class="card">
-      <div class="card-label">Holler Siren · Terrain Vulnerability</div>
+      <div class="card-label">Holler Siren · Terrain Layer</div>
       <div style="display:flex;align-items:center;gap:16px;margin-bottom:14px;flex-wrap:wrap;">
         <span class="badge badge-clear" id="hollerBadge">—</span>
         <div>
           <div class="big-num green" style="font-size:32px" id="hollerCells">—</div>
-          <div class="num-label">at-risk cells active</div>
+          <div class="num-label">at-risk cells active in the current view</div>
         </div>
       </div>
       <div class="stat-strip">
         <div class="stat-strip-item">
           <div class="ssi-val" id="hollerMonitored">40,453</div>
-          <div class="ssi-key">cells monitored</div>
+          <div class="ssi-key">cells monitored · expanding nationwide</div>
         </div>
         <div class="stat-strip-item">
           <div class="ssi-val" id="hollerBaseline">CLEAR</div>
@@ -650,8 +650,8 @@ footer {
       <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:20px;align-items:start">
         <div>
           <div class="big-num fire loading" id="fireCount">—</div>
-          <div class="num-label">Active VIIRS detections</div>
-          <div class="num-ts">Western NC fire layer</div>
+          <div class="num-label">Active FIRMS detections</div>
+          <div class="num-ts">Southern Appalachians fire pilot</div>
         </div>
         <div>
           <div style="font-size:11px;color:var(--text2);font-family:'JetBrains Mono',monospace;margin-bottom:8px">FIRE ALERT LEVEL</div>
@@ -665,7 +665,7 @@ footer {
         </div>
       </div>
       <div class="fire-note" id="fireNote">
-        Loading GAIA fire context…
+        Loading southern Appalachian fire context…
       </div>
     </div>
   </div>
@@ -684,7 +684,7 @@ footer {
         </div>
         <div class="val-block">
           <div class="val-num" id="valCells">40<span class="val-unit">K</span></div>
-          <div class="val-desc">Terrain cells across western North Carolina</div>
+          <div class="val-desc">Terrain cells across western NC and the expansion corridor</div>
         </div>
         <div class="val-block">
           <div class="val-num" id="valDoubleThreats">75</div>
@@ -925,13 +925,13 @@ async function loadAll() {
 
   document.getElementById('regimeNote').textContent =
     severity(fireLevel) >= 4
-      ? `Fire is the dominant live hazard. GAIA atmospheric status is ${gaiaStatus}, but the fire layer is ${fireLevel} with ${fmtInt(fireCount)} active detections and ${fmtInt(doubleThreat)} double-threat terrain cells.`
+      ? `Fire is the dominant live hazard. GAIA atmospheric status is ${gaiaStatus}, and the southern Appalachian fire layer is ${fireLevel} with ${fmtInt(fireCount)} active detections and ${fmtInt(doubleThreat)} double-threat terrain cells.`
       : severity(hollerLevel) >= 2
-        ? `Holler Siren is ${hollerLevel}. The mountains are carrying terrain memory even when the broad atmospheric regime is ${gaiaStatus}.`
-        : `GAIA atmospheric regime is ${gaiaStatus} with alert level ${gaiaAlert}. Radar, terrain, and fire layers remain online and updating.`;
+        ? `Holler Siren is ${hollerLevel}. Trained on Helene terrain in western NC, it is now extending across the Appalachian corridor.`
+        : `GAIA atmospheric regime is ${gaiaStatus} with alert level ${gaiaAlert}. National atmosphere, terrain, and fire layers remain online and updating.`;
 
   const topLevel = [
-    { level: fireLevel, title: 'GAIA CRITICAL — FIRE LAYER DOMINANT', desc: `${fmtInt(fireCount)} active VIIRS detections and ${fmtInt(doubleThreat)} double-threat hollows in western North Carolina.`, icon: '🔥' },
+    { level: fireLevel, title: 'GAIA CRITICAL — FIRE LAYER DOMINANT', desc: `${fmtInt(fireCount)} active FIRMS detections and ${fmtInt(doubleThreat)} double-threat hollows in the southern Appalachians pilot.`, icon: '🔥' },
     { level: gaiaAlert, title: gaiaStatus === 'ACTIVE' ? 'GAIA ACTIVE — HOSTILE ATMOSPHERIC REGIME' : 'GAIA DORMANT — BACKGROUND PATTERN QUIET', desc: gaiaStatus === 'ACTIVE' ? 'Atmospheric convergence has shifted into an active regime.' : 'Atmospheric indices are relatively quiet, but the full system stays armed.', icon: gaiaStatus === 'ACTIVE' ? '⚡' : '🌐' },
     { level: hollerLevel, title: 'HOLLER SIREN ELEVATED', desc: `${fmtInt(hollerCurrent.summary?.cells_at_risk || 0)} terrain cells are currently active in the Holler Siren layer.`, icon: '⛰' }
   ].sort((a, b) => severity(b.level) - severity(a.level))[0];

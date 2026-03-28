@@ -19,6 +19,7 @@ HOLLER_SIREN_V4 = ROOT / "data" / "holler_siren" / "tfi_v4_yancey_mitchell.json"
 HOLLER_SIREN_V5_WESTERN = ROOT / "data" / "holler_siren" / "tfi_v5_western_nc.json"
 HOLLER_SIREN_V5 = ROOT / "data" / "holler_siren" / "tfi_v5_yancey_mitchell.json"
 HOLLER_SIREN_BASE = ROOT / "data" / "holler_siren" / "tfi_yancey_mitchell.json"
+HOLLER_SIREN_DATA_DIR = ROOT / "data" / "holler_siren"
 RUNS_DIR = ROOT / "runs"
 DEFAULT_PILOT_BBOX = (35.82, -82.38, 36.12, -81.82)
 
@@ -26,21 +27,112 @@ BEST_VALIDATED_AUC = 0.654
 HELENE_FAILURE_COUNT = 378
 
 
+def _preferred_base_source() -> Path:
+    for candidate in (
+        HOLLER_SIREN_V5_WESTERN,
+        HOLLER_SIREN_V5,
+        HOLLER_SIREN_V4,
+        HOLLER_SIREN_CALIBRATED,
+        HOLLER_SIREN_LEARNED,
+        HOLLER_SIREN_BASE,
+    ):
+        if candidate.exists():
+            return candidate
+    return HOLLER_SIREN_BASE
+
+
+def _derive_region_name(data: dict, path: Path) -> str:
+    region = data.get("region")
+    if region:
+        return str(region)
+    stem = path.stem
+    for prefix in ("tfi_", "terrain_"):
+        if stem.startswith(prefix):
+            stem = stem[len(prefix) :]
+            break
+    for suffix in ("_transfer", "_western_nc"):
+        if stem.endswith(suffix):
+            stem = stem[: -len(suffix)] if suffix != "_western_nc" else "western_nc"
+    return stem or "unknown_region"
+
+
+def _parse_bbox(data: dict) -> tuple[float, float, float, float] | None:
+    raw = data.get("bbox")
+    if isinstance(raw, str):
+        try:
+            west, south, east, north = [float(part) for part in raw.split(",")]
+            return south, west, north, east
+        except Exception:
+            return None
+    if isinstance(raw, (list, tuple)) and len(raw) == 4:
+        try:
+            west, south, east, north = [float(part) for part in raw]
+            return south, west, north, east
+        except Exception:
+            return None
+    return None
+
+
+def load_all_tfi_regions() -> list[dict]:
+    """Load the best western-NC base layer plus any transfer-model regional layers."""
+    paths: list[Path] = []
+    base = _preferred_base_source()
+    if base.exists():
+        paths.append(base)
+
+    for path in sorted(HOLLER_SIREN_DATA_DIR.glob("tfi_*_transfer.json")):
+        if path not in paths:
+            paths.append(path)
+
+    all_cells: list[dict] = []
+    for path in paths:
+        try:
+            with path.open() as f:
+                data = json.load(f)
+        except Exception:
+            continue
+        bbox = _parse_bbox(data)
+        if path.name.endswith("_transfer.json") and bbox is not None:
+            lat_min, lon_min, lat_max, lon_max = bbox
+            all_cells = [
+                cell
+                for cell in all_cells
+                if not (lat_min <= float(cell["lat"]) <= lat_max and lon_min <= float(cell["lon"]) <= lon_max)
+            ]
+        region = _derive_region_name(data, path)
+        pilot_area = data.get("pilot_area") or data.get("region") or region
+        for cell in data.get("cells", []):
+            if not isinstance(cell, dict):
+                continue
+            merged = cell.copy()
+            merged.setdefault("region", region)
+            merged.setdefault("pilot_area", pilot_area)
+            merged.setdefault("data_source", path.name)
+            all_cells.append(merged)
+    return all_cells
+
+
+def _loaded_region_names() -> list[str]:
+    names: list[str] = []
+    seen: set[str] = set()
+    for cell in load_all_tfi_regions():
+        region = str(cell.get("region") or "").strip()
+        if region and region not in seen:
+            seen.add(region)
+            names.append(region)
+    return names
+
+
 def _load_holler_siren_data() -> tuple[dict, list[dict], Path]:
-    if HOLLER_SIREN_V5_WESTERN.exists():
-        source = HOLLER_SIREN_V5_WESTERN
-    elif HOLLER_SIREN_V5.exists():
-        source = HOLLER_SIREN_V5
-    elif HOLLER_SIREN_V4.exists():
-        source = HOLLER_SIREN_V4
-    elif HOLLER_SIREN_CALIBRATED.exists():
-        source = HOLLER_SIREN_CALIBRATED
-    elif HOLLER_SIREN_LEARNED.exists():
-        source = HOLLER_SIREN_LEARNED
-    else:
-        source = HOLLER_SIREN_BASE
+    source = _preferred_base_source()
     with source.open() as f:
         data = json.load(f)
+    cells = load_all_tfi_regions()
+    if cells:
+        data = data.copy()
+        data["cells"] = cells
+        data["n_cells"] = len(cells)
+        data["loaded_regions"] = _loaded_region_names()
     return data, data["cells"], source
 
 
@@ -69,7 +161,7 @@ def _best_tfi(cell: dict) -> float:
 
 
 def _best_regime(cell: dict) -> str:
-    for key in ("regime_v5", "regime_v4", "regime_learned", "regime_v2", "regime_v1", "regime"):
+    for key in ("fire_regime", "regime_v5", "regime_v4", "regime_learned", "regime_v2", "regime_v1", "regime"):
         value = cell.get(key)
         if value:
             return str(value)
@@ -85,9 +177,6 @@ def holler_siren_alert(
     tfi_data, cells, source_path = _load_holler_siren_data()
     helene_failures = int(tfi_data.get("helene_count", HELENE_FAILURE_COUNT))
 
-    if bbox is None and source_path == HOLLER_SIREN_V5_WESTERN:
-        bbox = DEFAULT_PILOT_BBOX
-
     search_cells = cells
     if bbox:
         lat_min, lon_min, lat_max, lon_max = bbox
@@ -98,12 +187,6 @@ def holler_siren_alert(
         ]
 
     at_risk: list[dict] = []
-    calib = tfi_data.get("calibration_v5") or tfi_data.get("calibration") or {}
-    anchors = calib.get("anchors") or {}
-    p_elev = float(anchors.get("p25_like", anchors.get("p75", 0.75)))
-    p_high = float(anchors.get("p20_like", anchors.get("p85", 0.85)))
-    p_crit = float(anchors.get("p15_like", anchors.get("p95", 0.95)))
-    p_extreme = float(anchors.get("p10_like", anchors.get("p99", 0.99)))
 
     for cell in search_cells:
         threshold = _best_threshold(cell)
@@ -117,14 +200,7 @@ def holler_siren_alert(
             continue
 
         tfi = _best_tfi(cell)
-        if tfi >= p_extreme:
-            regime = "CRITICAL"
-        elif tfi >= p_high:
-            regime = "HIGH"
-        elif tfi >= p_elev:
-            regime = "ELEVATED"
-        else:
-            regime = _best_regime(cell)
+        regime = _best_regime(cell).upper()
         margin = rainfall_mm_hr - adjusted_threshold
         at_risk.append(
             {
@@ -142,14 +218,20 @@ def holler_siren_alert(
                 "road_dist_km": cell.get("road_dist_km"),
                 "soil_hydgrp": cell.get("soil_hydgrp"),
                 "geology_type": cell.get("geology_type"),
+                "region": cell.get("region"),
+                "pilot_area": cell.get("pilot_area"),
             }
         )
 
     at_risk.sort(key=lambda row: (row["margin_over_threshold"], row["tfi"]), reverse=True)
 
-    n_top1 = sum(1 for row in at_risk if row["tfi"] >= p_extreme)
-    n_top5 = sum(1 for row in at_risk if row["tfi"] >= p_high)
-    n_top10 = sum(1 for row in at_risk if row["tfi"] >= p_elev)
+    critical_regimes = {"EXTREME", "CRITICAL"}
+    high_regimes = critical_regimes | {"HIGH"}
+    elevated_regimes = high_regimes | {"ELEVATED"}
+
+    n_top1 = sum(1 for row in at_risk if row["regime"] in critical_regimes)
+    n_top5 = sum(1 for row in at_risk if row["regime"] in high_regimes)
+    n_top10 = sum(1 for row in at_risk if row["regime"] in elevated_regimes)
     if n_top1 >= 5 and rainfall_mm_hr >= 25.0:
         alert_level = "CRITICAL"
     elif n_top5 >= 10 and rainfall_mm_hr >= 20.0:
@@ -169,6 +251,10 @@ def holler_siren_alert(
         active_validation,
         float(final_validation) if final_validation is not None else BEST_VALIDATED_AUC,
     )
+    loaded_regions = tfi_data.get("loaded_regions") or []
+    pilot_area = tfi_data.get("pilot_area", "Yancey + Mitchell NC")
+    if loaded_regions:
+        pilot_area = " + ".join(region.replace("_", " ").title() for region in loaded_regions)
 
     return {
         "alert_level": alert_level,
@@ -184,9 +270,10 @@ def holler_siren_alert(
             "critical_cells": n_top1,
             "high_cells": n_top5,
             "elevated_cells": n_top10,
+            "regions_loaded": loaded_regions,
         },
         "top_hollows": at_risk[:20],
-        "pilot_area": tfi_data.get("pilot_area", "Yancey + Mitchell NC"),
+        "pilot_area": pilot_area,
         "data_source": source_path.name,
         "validation": {
             "best_validated_auc": round(float(best_validated_auc), 3),

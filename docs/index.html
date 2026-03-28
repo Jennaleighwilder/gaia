@@ -83,6 +83,22 @@ body::before {
   overflow: hidden;
 }
 
+.scanline::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    repeating-linear-gradient(
+      180deg,
+      rgba(255,255,255,0.018) 0px,
+      rgba(255,255,255,0.018) 1px,
+      transparent 1px,
+      transparent 4px
+    );
+  opacity: 0.18;
+  mix-blend-mode: screen;
+}
+
 .scanline::before {
   content: "";
   position: absolute;
@@ -92,6 +108,19 @@ body::before {
   height: 18%;
   background: linear-gradient(180deg, transparent 0%, rgba(83, 243, 255, 0.02) 35%, rgba(83, 243, 255, 0.12) 50%, rgba(83, 243, 255, 0.02) 68%, transparent 100%);
   animation: scanSweep 9s linear infinite;
+}
+
+.flash-grid {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg, transparent 0%, rgba(83, 243, 255, 0.045) 49%, transparent 50%, rgba(83, 243, 255, 0.03) 51%, transparent 100%),
+    linear-gradient(180deg, transparent 0%, rgba(83, 243, 255, 0.035) 49%, transparent 50%, rgba(83, 243, 255, 0.025) 51%, transparent 100%);
+  background-size: 140px 140px;
+  opacity: 0.28;
+  animation: gridShift 18s linear infinite;
 }
 
 @keyframes auroraShift {
@@ -105,6 +134,11 @@ body::before {
   8% { opacity: 1; }
   50% { opacity: 0.65; }
   100% { transform: translateY(720%); opacity: 0; }
+}
+
+@keyframes gridShift {
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(20px, 16px, 0); }
 }
 
 .shell {
@@ -240,6 +274,16 @@ body::before {
   background: rgba(8, 22, 31, 0.92);
 }
 
+.hero-card::after,
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border: 1px solid rgba(83, 243, 255, 0.05);
+  border-radius: 18px;
+  pointer-events: none;
+}
+
 .hero-inner {
   display: flex;
   align-items: center;
@@ -283,6 +327,7 @@ body::before {
   text-transform: uppercase;
   color: var(--text);
   margin-bottom: 8px;
+  text-shadow: 0 0 24px rgba(83, 243, 255, 0.08);
 }
 
 .hero-desc {
@@ -319,6 +364,14 @@ body::before {
   color: var(--cyan);
   text-shadow: 0 0 24px rgba(83, 243, 255, 0.2);
   animation: sideGlow 3.6s ease-in-out infinite alternate;
+}
+
+.brand h1,
+.card-title-wrap h2,
+.hero-title,
+.quick-value,
+.metric-value {
+  text-rendering: geometricPrecision;
 }
 
 @keyframes iconGlow {
@@ -470,6 +523,20 @@ body::before {
 .metric-value.amber { color: var(--amber); }
 .metric-value.orange { color: var(--orange); }
 .metric-value.red { color: var(--pink); }
+
+.metric-value {
+  position: relative;
+}
+
+.metric-value::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 38%;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(83, 243, 255, 0.36), transparent);
+}
 
 .metric-sub {
   margin-top: 8px;
@@ -639,6 +706,7 @@ body::before {
 <canvas id="stars-canvas"></canvas>
 <div class="aurora"></div>
 <div class="scanline"></div>
+<div class="flash-grid"></div>
 <div class="shell">
   <div class="topbar">
     <div class="brand">

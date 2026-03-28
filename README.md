@@ -10,14 +10,9 @@ The Forgotten Code Research Institute and are not included in this repository.
 
 Validated against 460 historical severe weather events (1996–2025). Built by The Forgotten Code Research Institute.
 
-## Quick Start
+## Live Dashboard
 
-```bash
-# Start daemon + dashboard
-./scripts/run_gaia.sh
-```
-
-Dashboard: http://127.0.0.1:5001
+[https://jennaleighwilder.github.io/gaia/docs/index.html](https://jennaleighwilder.github.io/gaia/docs/index.html)
 
 Core web deploys install [requirements.txt](/Users/jenniferwest/gaia/requirements.txt). For heavier local science/radar tooling, add [requirements-optional.txt](/Users/jenniferwest/gaia/requirements-optional.txt):
 
@@ -41,8 +36,8 @@ Get a free FIRMS key at https://firms.modaps.eosdis.nasa.gov/api/
 
 - **GitHub Pages:** In repo **Settings → Pages**, set source to branch **`main`** and folder **`/docs`** (recommended). This repo includes **`docs/.nojekyll`** and **`.nojekyll`** so Jekyll does not replace the site with `README.md`. The public dashboard is **`docs/index.html`** (full GAIA Weather Intelligence UI). Root **`index.html`** redirects to **`docs/index.html`** if you use **`/`** as the Pages folder.
 - **Refresh live TESS on the static dashboard:** `python scripts/live_tess_score.py && python scripts/sync_docs_tess.py` then commit `docs/`.
-- **Live Flask dashboard** (`/live`, TESS + ASOS + soundings): static hosting cannot run it; use `python -m runtime.dashboard.app` or your hosted stack.
 - **Docs:** See `docs/GAIA_SYSTEM_SUMMARY.md` for full system description
+- **Local development:** see [DEVELOPMENT.md](/Users/jenniferwest/gaia/DEVELOPMENT.md)
 
 ## Performance vs NWS
 

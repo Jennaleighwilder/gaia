@@ -1,3 +1,9 @@
+GAIA is open methodology. The data pipeline, ingest scripts, and validation
+approach are documented here. The trained model weights, scoring calibration,
+and West Method implementation are proprietary to Jennifer Leigh West /
+The Forgotten Code Research Institute and are not included in this repository.
+© 2026 Jennifer Leigh West. All rights reserved.
+
 # GAIA — Severe Weather Detection for East Tennessee
 
 **83.9% detection. 18.5% false alarms. 176 minutes lead time.**

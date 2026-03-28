@@ -56,3 +56,17 @@ data/holler_siren/stage4_*.tif
 
 # Biological layer raw radar cache (derived summaries are committed)
 data/bio_signal/nexrad_kpah_morning/
+
+# Proprietary - do not publish
+data/holler_siren/model_v5.pkl
+data/holler_siren/tfi_model_weights*.json
+data/holler_siren/tfi_calibrated*.json
+.cdsapirc
+*.env
+data/cache/
+nexrad_*/
+WHITEBOARD_*.md
+*_CURSOR.md
+*_BUILD_*.md
+runs/
+logs/

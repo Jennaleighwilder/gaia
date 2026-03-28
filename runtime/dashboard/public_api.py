@@ -14,6 +14,7 @@ import sqlite3
 import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
+from functools import wraps
 from pathlib import Path
 
 logger = logging.getLogger(__name__)
@@ -317,6 +318,19 @@ def register_public_routes(app) -> None:
     """Register CORS + public JSON routes on the Flask app."""
     from flask import Response, jsonify, request
 
+    def require_key(f):
+        @wraps(f)
+        def decorated(*args, **kwargs):
+            expected = os.environ.get("API_KEY")
+            if not expected:
+                return f(*args, **kwargs)
+            key = request.headers.get("X-API-Key") or request.args.get("api_key")
+            if key != expected:
+                return jsonify({"error": "unauthorized"}), 401
+            return f(*args, **kwargs)
+
+        return decorated
+
     @app.before_request
     def _cors_preflight():
         if request.method == "OPTIONS" and request.path.startswith("/api/"):
@@ -417,6 +431,7 @@ def register_public_routes(app) -> None:
         return jsonify(_status_payload())
 
     @app.route("/api/holler_siren")
+    @require_key
     def api_holler_siren():
         if not holler_siren_alert:
             return jsonify({"error": "holler_siren_unavailable"}), 503
@@ -448,6 +463,7 @@ def register_public_routes(app) -> None:
         return jsonify(result)
 
     @app.route("/api/holler_siren/live")
+    @require_key
     def api_holler_siren_live():
         if not holler_siren_alert or get_current_rainfall_noaa is None:
             return jsonify({"error": "holler_siren_live_unavailable"}), 503
@@ -477,6 +493,7 @@ def register_public_routes(app) -> None:
         return jsonify(result)
 
     @app.route("/api/holler_siren/alert")
+    @require_key
     def api_holler_siren_text_alert():
         if not holler_siren_alert or not format_alert:
             return jsonify({"error": "holler_siren_unavailable"}), 503

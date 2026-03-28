@@ -42,7 +42,7 @@ NWS_USER_AGENT = os.environ.get(
 
 DEFAULT_CORS = (
     "https://jennaleighwilder.github.io,"
-    "https://gaia-production.up.railway.app,"
+    "https://web-production-ce417.up.railway.app,"
     "http://127.0.0.1:5500,"
     "http://localhost:5001"
 )

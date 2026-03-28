@@ -127,11 +127,11 @@ footer{
   <div class="topbar">
     <div class="brand">
       <h1>GAIA Live Dashboard</h1>
-      <p>Real data only. Every live number on this page comes from the Render API. Missing values render as em dashes instead of simulated output.</p>
+      <p>Real data only. Every live number on this page comes from the Railway API. Missing values render as em dashes instead of simulated output.</p>
     </div>
     <div class="statusline">
       <div class="pill" id="api-pill"><strong>API</strong> <span id="api-state">Checking…</span></div>
-      <div class="pill"><strong>Source</strong> <span class="mono">gaia-api-cfxi.onrender.com</span></div>
+      <div class="pill"><strong>Source</strong> <span class="mono">web-production-ce417.up.railway.app</span></div>
       <div class="pill"><strong>Refresh</strong> <span>Every 5 min</span></div>
     </div>
   </div>
@@ -248,7 +248,7 @@ footer{
 </div>
 
 <script>
-const API_BASE = 'https://gaia-api-cfxi.onrender.com';
+const API_BASE = 'https://web-production-ce417.up.railway.app';
 const REFRESH_MS = 5 * 60 * 1000;
 
 function fmtNumber(value, digits = 2, suffix = '') {

@@ -32,6 +32,7 @@ from avalon.fusion import Fusion
 from avalon.grail import Grail, load_jennifers_research
 from avalon.healing import Healing
 from avalon.memory import Memory
+from avalon.real_healing import wire_real_healing
 from avalon.real_merlin import RealMerlin, wire_real_merlin
 from avalon.real_heartbeat import RealHeartbeat, wire_real_heartbeat
 from avalon.round_table import RoundTable, Vote
@@ -268,6 +269,15 @@ class Avalon:
         self._nyx = nyx
         self._last_grail_status = self.grail.status["grail_status"]
         self._kingdom_fall_tripwire_added = False
+
+    def _receive_summons(self, summons_data: Dict):
+        """The sovereign is summoned. Record in the journal."""
+        if hasattr(self, "memory"):
+            self.memory.journal_event(
+                "sovereign_summons",
+                summons_data.get("message", "unknown"),
+                summons_data,
+            )
     
     def found_kingdom(self, sovereign_name: str = "Jennifer Leigh West") -> Dict:
         """Found the kingdom. Draw Excalibur. Seat the knights. Build the castle. Open the village."""
@@ -336,6 +346,12 @@ class Avalon:
         
         # Let Merlin see
         insights = self.merlin.see()
+
+        self.apothecary = wire_real_healing(
+            self.healing,
+            project_root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+            summons_callback=self._receive_summons,
+        )
 
         # Wire Real Merlin once the living kingdom exists
         self.real_merlin = wire_real_merlin(self)
@@ -549,6 +565,7 @@ class Avalon:
             "real_merlin": self.real_merlin.status if hasattr(self, "real_merlin") else None,
             "real_heartbeat": self.real_heartbeat.status,
             "healing": self.healing.status,
+            "apothecary_journal": len(self.apothecary.history) if hasattr(self, "apothecary") else 0,
             "memory": self.memory.status,
             "castle": self.castle.patrol(),
             "village": self.village.census(),

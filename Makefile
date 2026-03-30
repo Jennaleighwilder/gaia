@@ -159,3 +159,15 @@ merlin-test:
 
 merlin-report:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); [a.breathe() for _ in range(5)]; r = a.merlin_report(); print(f'Cycles: {r[\"cycles\"]}'); print(f'Signals: {r[\"total_signals\"]}'); print(f'Feeds: {r[\"active_feeds\"]}/{r[\"total_feeds\"]}'); print(f'Domains: {\", \".join(r[\"tower\"][\"domains_observed\"])}'); print(f'Sight: {r[\"sight\"]}')"
+
+apothecary-demo:
+	.venv/bin/python -m avalon.real_healing
+
+apothecary-test:
+	.venv/bin/python -m pytest tests/test_real_healing.py -v --tb=short
+
+apothecary-journal:
+	@cat memory/apothecary_journal.jsonl 2>/dev/null | tail -10 || echo "No remedies applied yet"
+
+sovereign-summons:
+	@cat memory/sovereign_summons.jsonl 2>/dev/null || echo "No summons - the kingdom heals itself"

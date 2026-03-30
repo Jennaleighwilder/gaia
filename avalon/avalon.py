@@ -35,8 +35,12 @@ from avalon.grail_advancement import advance_grail
 from avalon.faithkeeper import Faithkeeper, wire_faithkeeper
 from avalon.healing import Healing
 from avalon.informed_table import InformedTable, wire_informed_table
+from avalon.land import LandSteward, wire_land
 from avalon.longhouse import Longhouse, wire_longhouse
 from avalon.memory import Memory
+from avalon.crops import CropManager, wire_crops
+from avalon.arts import KingdomArts, wire_arts
+from avalon.commerce import Commerce, wire_commerce
 from avalon.real_knights import arm_knights
 from avalon.real_healing import wire_real_healing
 from avalon.real_merlin import RealMerlin, wire_real_merlin
@@ -273,6 +277,10 @@ class Avalon:
         self.longhouse: Optional[Longhouse] = None
         self.informed_table: Optional[InformedTable] = None
         self.faithkeeper: Optional[Faithkeeper] = None
+        self.land: Optional[LandSteward] = None
+        self.crops: Optional[CropManager] = None
+        self.arts: Optional[KingdomArts] = None
+        self.commerce: Optional[Commerce] = None
         
         self._founded = time.time()
         self._sovereign = None
@@ -391,6 +399,12 @@ class Avalon:
 
         # The Faithkeeper — keeps the ceremonies running.
         self.faithkeeper = wire_faithkeeper(self, interval_seconds=60)
+
+        # Civilization layers.
+        self.land = wire_land(self)
+        self.crops = wire_crops(self)
+        self.arts = wire_arts(self)
+        self.commerce = wire_commerce(self)
         
         return {
             "kingdom": "Avalon",
@@ -452,6 +466,62 @@ class Avalon:
         if not self.longhouse:
             raise RuntimeError("Longhouse not wired")
         return self.longhouse.welcome(visitor_name, need)
+
+    def survey_land(self) -> Dict:
+        """Survey the kingdom's resources and territories."""
+        if not self.land:
+            raise RuntimeError("Land not wired")
+        return self.land.survey()
+
+    def tend_crops(self) -> Dict:
+        """Advance cultivation across all kingdom crops."""
+        if not self.crops:
+            raise RuntimeError("Crops not wired")
+        self.crops.tend_all(self)
+        return self.crops.field_report()
+
+    def harvest(self) -> List[Dict]:
+        """Harvest any ripe kingdom crops."""
+        if not self.crops:
+            raise RuntimeError("Crops not wired")
+        return self.crops.harvest()
+
+    def chronicle(self, ceremony_record: Dict):
+        """Turn a ceremony into kingdom memory."""
+        if not self.arts:
+            raise RuntimeError("Arts not wired")
+        return self.arts.chronicle(ceremony_record)
+
+    def weave_tapestry(self, title: str) -> Dict:
+        """Capture a cultural snapshot of the kingdom."""
+        if not self.arts:
+            raise RuntimeError("Arts not wired")
+
+        status = self.kingdom_status()
+        pulse = self.pulse()
+        gareth_report = None
+        if hasattr(self, "knight_skills") and self.knight_skills.get("Gareth"):
+            ready, _ = self.knight_skills["Gareth"].ready()
+            if ready:
+                gareth_report = self.knight_skills["Gareth"].invoke()["report"]
+        tapestry_state = {
+            "kingdom_health": f"{pulse['kingdom_health']:.0%}",
+            "overall": pulse["mood"],
+            "test_count": gareth_report.get("test_files", "?") if gareth_report else "?",
+            "tag_count": gareth_report.get("git_tags", "?") if gareth_report else "?",
+            "knights_armed": status["knights_armed"],
+            "grail_status": status["grail"]["grail_status"],
+            "longhouse_served": status["longhouse"]["total_served"] if status.get("longhouse") else 0,
+            "ceremonies": status["faithkeeper"]["ceremonies_performed"] if status.get("faithkeeper") else 0,
+        }
+        work = self.arts.tapestry(title, tapestry_state)
+        return {"title": work.title, "content": work.content}
+
+    def treasury(self) -> Dict:
+        """The current economic state of the kingdom."""
+        if not self.commerce:
+            raise RuntimeError("Commerce not wired")
+        return self.commerce.treasury_report()
 
     def seek_grail(self) -> Dict:
         """Seek the Grail. Measure convergence."""
@@ -653,6 +723,10 @@ class Avalon:
             "longhouse": self.longhouse.status if self.longhouse else None,
             "faithkeeper": self.faithkeeper.status if self.faithkeeper else None,
             "informed_table": self.informed_table.status if self.informed_table else None,
+            "land": self.land.status if self.land else None,
+            "crops": self.crops.status if self.crops else None,
+            "arts": self.arts.status if self.arts else None,
+            "commerce": self.commerce.status if self.commerce else None,
             "founded": self._founded,
             "age_hours": round((time.time() - self._founded) / 3600, 2),
             "institute": "The Forgotten Code Research Institute",

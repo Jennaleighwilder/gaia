@@ -381,6 +381,13 @@ class Ceremony:
 
         record.phase_durations["learning"] = time.time() - phase_start
 
+        # Arts — chronicle this ceremony while it is still warm.
+        if hasattr(self._avalon, 'arts') and record.thanksgiving:
+            try:
+                self._avalon.arts.chronicle(record.__dict__)
+            except Exception:
+                pass
+
         # ── 7. MEMORY ────────────────────────────────────
         phase_start = time.time()
         if (self._ceremony_count - self._last_save_ceremony >= self._save_interval

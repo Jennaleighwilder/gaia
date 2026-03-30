@@ -213,3 +213,27 @@ real-knights-test:
 
 gareth:
 	@.venv/bin/python -c "from avalon.real_knights import GarethSkill; from pathlib import Path; g = GarethSkill(Path('.')); r = g.invoke(); print(r['report']['work_ethic'])"
+
+survey:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); s = a.survey_land(); print(f'Overall: {s[\"overall_health\"]}'); print(f'Soil: {s[\"soil\"][\"health\"]} ({s[\"soil\"].get(\"free_gb\", \"?\")}GB free)'); print(f'Water: {s[\"water\"][\"health\"]}'); print(f'Sun: {s[\"sun\"][\"health\"]}')"
+
+crops:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.tend_crops(); print(f'Crops: {r[\"total_crops\"]}'); print(f'Harvests: {r[\"total_harvests\"]}'); [print(f'  {n}: {d[\"season\"]}') for n, d in r['crops'].items()]"
+
+treasury:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); t = a.treasury(); print(f'Routes: {t[\"total_routes\"]}'); print(f'Transactions: {t[\"total_transactions\"]}'); print(f'Value: {t[\"total_value\"]}')"
+
+tapestry:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); t = a.weave_tapestry('The Kingdom Today'); print(t['content'])"
+
+land-demo:
+	.venv/bin/python -m avalon.land
+
+crops-demo:
+	.venv/bin/python -m avalon.crops
+
+arts-demo:
+	.venv/bin/python -m avalon.arts
+
+commerce-demo:
+	.venv/bin/python -m avalon.commerce

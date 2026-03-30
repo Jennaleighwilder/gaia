@@ -33,6 +33,8 @@ import subprocess
 from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
 
+from avalon.gaia_bridge import GaiaBridge
+
 
 class KnightSkill:
     """Base class for a knight's real capability."""
@@ -530,16 +532,15 @@ class GarethSkill(KnightSkill):
 class BorsSkill(KnightSkill):
     """The Steadfast watches the sky."""
 
-    def __init__(self, gaia_path: Optional[Path] = None):
+    def __init__(self, gaia_path: Optional[Path] = None, gaia_bridge: Optional[GaiaBridge] = None):
         super().__init__("Bors", "protection")
         self._gaia = gaia_path or Path.home() / "gaia"
+        self._bridge = gaia_bridge or GaiaBridge(self._gaia)
 
     def ready(self) -> Tuple[bool, str]:
-        if not self._gaia.exists():
-            return False, "GAIA not found — cannot read the sky"
-        governor = self._gaia / "runtime" / "governor" / "governor.py"
-        if not governor.exists():
-            return False, "GAIA governor not found"
+        health = self._bridge.health()
+        if not health.get("available"):
+            return False, health.get("reason") or health.get("error") or "GAIA unavailable"
         return True, "Bors stands ready — the sky is readable"
 
     def invoke(self, task: Any = None) -> Dict:
@@ -547,37 +548,30 @@ class BorsSkill(KnightSkill):
         if not is_ready:
             return {"knight": "Bors", "served": False, "reason": reason}
         try:
-            engines_dir = self._gaia / "runtime" / "engines"
-            engines = []
-            if engines_dir.exists():
-                engines = [f.stem for f in engines_dir.glob("*.py") if f.name != "__init__.py"]
-            data_dir = self._gaia / "data"
-            data_present = data_dir.exists()
-            dem_dir = data_dir / "holler_siren" / "raw_dem" if data_present else None
-            dem_count = len(list(dem_dir.glob("*.tif"))) if dem_dir and dem_dir.exists() else 0
-            test_dir = self._gaia / "tests"
-            test_count = len(list(test_dir.glob("test_*.py"))) if test_dir.exists() else 0
+            sky = self._bridge.sky_reading()
+            engines = self._bridge.engines()
+            benchmarks = self._bridge.benchmarks()
             return {
                 "knight": "Bors",
                 "served": True,
                 "domain": "protection",
                 "report": {
-                    "gaia_path": str(self._gaia),
-                    "governor_present": True,
-                    "engines_found": len(engines),
-                    "engine_names": engines[:10],
-                    "data_present": data_present,
-                    "dem_terrain_files": dem_count,
-                    "test_files": test_count,
+                    "gaia_path": engines.get("gaia_path"),
+                    "mode": sky.get("mode"),
+                    "governor_present": engines.get("governor_present", False),
+                    "engines_found": engines.get("engines_found", 0),
+                    "engine_names": engines.get("engine_names", [])[:10],
+                    "dem_terrain_files": engines.get("dem_terrain_files", 0),
+                    "decision": sky.get("decision"),
+                    "convergence_count": sky.get("convergence_count"),
+                    "engine_scores": sky.get("engine_scores", {}),
                     "sky_reading": (
-                        f"GAIA stands with {len(engines)} engines and {dem_count} terrain maps. "
-                        f"{'The sky is being watched.' if len(engines) >= 10 else 'Some engines may be missing.'}"
+                        f"GAIA stands with {engines.get('engines_found', 0)} engines and "
+                        f"{engines.get('dem_terrain_files', 0)} terrain maps. "
+                        f"Current decision: {sky.get('decision', 'unavailable')}. "
+                        f"{'The sky is being watched.' if sky.get('available') else 'The bridge can only see the structure right now.'}"
                     ),
-                    "benchmarks": {
-                        "detection_rate": "99.7%",
-                        "events_tested": 14110,
-                        "lead_time_hours": 9.4,
-                    },
+                    "benchmarks": benchmarks,
                 },
                 "oath": "I watch the sky. I warn before the storm. I never cry wolf.",
             }
@@ -654,6 +648,7 @@ def arm_knights(
     real_heartbeat=None,
     healing=None,
     gaia_path: Optional[Path] = None,
+    gaia_bridge: Optional[GaiaBridge] = None,
 ) -> Dict[str, KnightSkill]:
     """Give every knight their real weapon."""
     root = project_root or Path.cwd()
@@ -670,7 +665,7 @@ def arm_knights(
         "Morgana": MorganaSkill(memory),
         "Nimue": NimueSkill(merlin),
         "Gareth": GarethSkill(root),
-        "Bors": BorsSkill(gaia),
+        "Bors": BorsSkill(gaia, gaia_bridge),
         "Dagonet": DagonetSkill(merlin, grail),
     }
     for name, skill in skills.items():

@@ -255,6 +255,7 @@ class Avalon:
             self.fusion,
             project_root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
         )
+        self.gaia_bridge = getattr(self.real_heartbeat, "gaia_bridge", None)
         self.grail = Grail()
         self.fusion.grail = self.grail
         self.healing = Healing(
@@ -367,6 +368,7 @@ class Avalon:
             memory=self.memory,
             real_heartbeat=self.real_heartbeat if hasattr(self, "real_heartbeat") else None,
             healing=self.healing,
+            gaia_bridge=self.gaia_bridge,
         )
         
         return {

@@ -315,6 +315,35 @@ class SignalExtractor:
         
         return signals
 
+    @staticmethod
+    def from_gaia(reading: Dict) -> List[Tuple[str, str, Dict]]:
+        """Extract signals from GAIA bridge readings."""
+        signals = []
+        if not reading.get("available", False):
+            signals.append((
+                "atmospheric",
+                "GAIA unavailable atmospheric bridge offline",
+                {"available": False, "reason": reading.get("reason") or reading.get("error")},
+            ))
+            return signals
+
+        decision = reading.get("decision", "UNKNOWN")
+        convergence = reading.get("convergence_count", 0)
+        signals.append((
+            "atmospheric",
+            f"GAIA decision {decision} convergence {convergence}",
+            {"decision": decision, "convergence_count": convergence, "mode": reading.get("mode")},
+        ))
+
+        for engine, score in (reading.get("engine_scores") or {}).items():
+            if isinstance(score, (int, float)):
+                signals.append((
+                    "atmospheric_engine",
+                    f"GAIA engine {engine} score {score:.2f}",
+                    {"engine": engine, "score": score},
+                ))
+        return signals
+
 
 # ═══════════════════════════════════════════════════════════════
 #  REAL MERLIN — the pattern oracle with real feeds
@@ -423,6 +452,8 @@ class RealMerlin:
             return self._extractor.from_fusion(data)
         elif "nyx" in feed_name.lower():
             return self._extractor.from_nyx_status(data)
+        elif "gaia" in feed_name.lower() or domain == "atmospheric":
+            return self._extractor.from_gaia(data)
         elif "journal" in feed_name.lower() or "memory" in feed_name.lower():
             if isinstance(data, list):
                 return self._extractor.from_memory_journal(data)
@@ -570,6 +601,14 @@ def wire_real_merlin(avalon) -> RealMerlin:
             "memory_journal",
             "memory",
             lambda: avalon.memory.read_journal(last_n=5),
+            poll_interval=60,
+        )
+
+    if hasattr(avalon, "gaia_bridge") and avalon.gaia_bridge:
+        real_merlin.add_feed(
+            "gaia_sky",
+            "atmospheric",
+            lambda: avalon.gaia_bridge.sky_reading(),
             poll_interval=60,
         )
     

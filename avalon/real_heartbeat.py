@@ -35,6 +35,8 @@ from typing import Any, Callable, Dict, List, Optional, Tuple
 from dataclasses import dataclass, field
 from enum import Enum
 
+from avalon.gaia_bridge import GaiaBridge
+
 # Try to import psutil — if not available, fall back to os-level checks
 try:
     import psutil
@@ -415,6 +417,7 @@ class RealHeartbeat:
         self._monitors: Dict[str, SystemMonitor] = {}
         self._beat_count = 0
         self._history: List[Dict] = []
+        self.gaia_bridge = GaiaBridge()
         self._configure_default_monitors()
     
     def _configure_default_monitors(self):
@@ -486,28 +489,69 @@ class RealHeartbeat:
         if gaia_path.exists():
             gaia_mon = SystemMonitor("GAIA")
             gaia_mon.add_check(
-                "gaia_dir",
-                lambda: VitalCheck.file_exists(str(gaia_path)),
-                1.0,
-            )
-            gaia_mon.add_check(
-                "governor",
-                lambda: VitalCheck.file_exists(
-                    str(gaia_path / "runtime" / "governor" / "governor.py")
-                ),
+                "bridge_health",
+                self._gaia_bridge_health_check,
                 2.0,
             )
             gaia_mon.add_check(
-                "data_size",
-                lambda: VitalCheck.directory_size(str(gaia_path / "data"), 5000, 10000),
-                1.0,
+                "sky_reading",
+                self._gaia_sky_reading_check,
+                2.0,
             )
             gaia_mon.add_check(
-                "daemon_port",
-                lambda: VitalCheck.port_open("localhost", 7780),
-                0.5,
+                "engines",
+                self._gaia_engines_check,
+                1.0,
             )
             self._monitors["GAIA"] = gaia_mon
+
+    def _gaia_bridge_health_check(self) -> Tuple[float, Dict]:
+        health = self.gaia_bridge.health()
+        if not health.get("available"):
+            return 0.1, {
+                "status": "unavailable",
+                "mode": health.get("mode"),
+                "reason": health.get("error") or health.get("reason") or "GAIA unreachable",
+            }
+        status = "healthy" if health.get("mode") == "http" else "degraded"
+        score = 1.0 if health.get("mode") == "http" else 0.85
+        return score, {
+            "status": status,
+            "mode": health.get("mode"),
+            "service_running": health.get("service_running", False),
+        }
+
+    def _gaia_sky_reading_check(self) -> Tuple[float, Dict]:
+        sky = self.gaia_bridge.sky_reading()
+        if not sky.get("available"):
+            return 0.2, {
+                "status": "unavailable",
+                "reason": sky.get("reason") or sky.get("error") or "no atmospheric assessment",
+            }
+        score = 1.0 if sky.get("decision") else 0.8
+        return score, {
+            "status": "healthy",
+            "mode": sky.get("mode"),
+            "decision": sky.get("decision"),
+            "convergence_count": sky.get("convergence_count"),
+        }
+
+    def _gaia_engines_check(self) -> Tuple[float, Dict]:
+        engines = self.gaia_bridge.engines()
+        count = engines.get("engines_found", 0)
+        if count >= 18:
+            score = 1.0
+        elif count >= 10:
+            score = 0.75
+        elif count > 0:
+            score = 0.4
+        else:
+            score = 0.1
+        return score, {
+            "status": "healthy" if count >= 18 else "warning" if count >= 10 else "critical",
+            "engines_found": count,
+            "dem_terrain_files": engines.get("dem_terrain_files", 0),
+        }
     
     def add_monitor(self, name: str, monitor: SystemMonitor):
         """Add a custom system monitor."""

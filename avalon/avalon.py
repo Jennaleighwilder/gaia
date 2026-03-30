@@ -32,6 +32,7 @@ from avalon.fusion import Fusion
 from avalon.grail import Grail, load_jennifers_research
 from avalon.healing import Healing
 from avalon.memory import Memory
+from avalon.real_merlin import RealMerlin, wire_real_merlin
 from avalon.real_heartbeat import RealHeartbeat, wire_real_heartbeat
 from avalon.round_table import RoundTable, Vote
 from avalon.knights import Knighthood, Knight, KnightState, Domain
@@ -335,6 +336,9 @@ class Avalon:
         
         # Let Merlin see
         insights = self.merlin.see()
+
+        # Wire Real Merlin once the living kingdom exists
+        self.real_merlin = wire_real_merlin(self)
         
         return {
             "kingdom": "Avalon",
@@ -404,6 +408,8 @@ class Avalon:
         healing_results = self.heal()
         breath["healing"] = healing_results
         breath["real_health"] = real_scores
+        if hasattr(self, "real_merlin"):
+            breath["merlin_cycle"] = self.real_merlin.cycle()
         return breath
 
     def pulse(self) -> Dict:
@@ -413,6 +419,12 @@ class Avalon:
     def health_report(self) -> str:
         """Alfred's narrative report of real system health."""
         return self.real_heartbeat.narrative_report()
+
+    def merlin_report(self) -> Dict:
+        """What does Merlin see right now?"""
+        if hasattr(self, "real_merlin"):
+            return self.real_merlin.what_merlin_sees()
+        return self.merlin.tower_contents()
 
     def experience(
         self,
@@ -534,6 +546,7 @@ class Avalon:
             "merlin": self.merlin.tower_contents(),
             "grail": self.grail.status,
             "fusion": self.fusion.vital_signs(),
+            "real_merlin": self.real_merlin.status if hasattr(self, "real_merlin") else None,
             "real_heartbeat": self.real_heartbeat.status,
             "healing": self.healing.status,
             "memory": self.memory.status,

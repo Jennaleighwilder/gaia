@@ -498,14 +498,14 @@ class RealHeartbeat:
                 2.0,
             )
             gaia_mon.add_check(
-                "bus_db_size",
-                lambda: VitalCheck.directory_size(str(gaia_path / "data"), 500, 2000),
-                1.5,
+                "data_size",
+                lambda: VitalCheck.directory_size(str(gaia_path / "data"), 5000, 10000),
+                1.0,
             )
             gaia_mon.add_check(
                 "daemon_port",
-                lambda: VitalCheck.port_open("localhost", 5001),
-                2.0,
+                lambda: VitalCheck.port_open("localhost", 7780),
+                0.5,
             )
             self._monitors["GAIA"] = gaia_mon
     

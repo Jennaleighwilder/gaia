@@ -150,3 +150,12 @@ real-heartbeat-test:
 
 real-heartbeat-demo:
 	.venv/bin/python -m avalon.real_heartbeat
+
+merlin-real:
+	.venv/bin/python -m avalon.real_merlin
+
+merlin-test:
+	.venv/bin/python -m pytest tests/test_real_merlin.py -v --tb=short
+
+merlin-report:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); [a.breathe() for _ in range(5)]; r = a.merlin_report(); print(f'Cycles: {r[\"cycles\"]}'); print(f'Signals: {r[\"total_signals\"]}'); print(f'Feeds: {r[\"active_feeds\"]}/{r[\"total_feeds\"]}'); print(f'Domains: {\", \".join(r[\"tower\"][\"domains_observed\"])}'); print(f'Sight: {r[\"sight\"]}')"

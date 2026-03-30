@@ -25,6 +25,7 @@ import json
 import os
 import time
 from dataclasses import dataclass, field
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from avalon.excalibur import Excalibur, LadyOfTheLake, SovereigntyState
@@ -32,6 +33,7 @@ from avalon.fusion import Fusion
 from avalon.grail import Grail, load_jennifers_research
 from avalon.healing import Healing
 from avalon.memory import Memory
+from avalon.real_knights import arm_knights
 from avalon.real_healing import wire_real_healing
 from avalon.real_merlin import RealMerlin, wire_real_merlin
 from avalon.real_heartbeat import RealHeartbeat, wire_real_heartbeat
@@ -355,6 +357,17 @@ class Avalon:
 
         # Wire Real Merlin once the living kingdom exists
         self.real_merlin = wire_real_merlin(self)
+        self.knight_skills = arm_knights(
+            self.knighthood,
+            project_root=Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))),
+            frozen_path=Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))) / "frozen" / "west-os",
+            nyx=self._nyx if hasattr(self, "_nyx") else None,
+            grail=self.grail,
+            merlin=self.merlin,
+            memory=self.memory,
+            real_heartbeat=self.real_heartbeat if hasattr(self, "real_heartbeat") else None,
+            healing=self.healing,
+        )
         
         return {
             "kingdom": "Avalon",
@@ -441,6 +454,21 @@ class Avalon:
         if hasattr(self, "real_merlin"):
             return self.real_merlin.what_merlin_sees()
         return self.merlin.tower_contents()
+
+    def muster(self) -> Dict:
+        """Call all knights. Each one reports from their real weapon."""
+        reports = {}
+        for name, skill in self.knight_skills.items():
+            is_ready, reason = skill.ready()
+            if is_ready:
+                reports[name] = skill.invoke()
+            else:
+                reports[name] = {"knight": name, "served": False, "reason": reason}
+        return {
+            "armed": len([r for r in reports.values() if r.get("served")]),
+            "total": len(reports),
+            "knights": reports,
+        }
 
     def experience(
         self,
@@ -566,6 +594,7 @@ class Avalon:
             "real_heartbeat": self.real_heartbeat.status,
             "healing": self.healing.status,
             "apothecary_journal": len(self.apothecary.history) if hasattr(self, "apothecary") else 0,
+            "knights_armed": len([s for s in self.knight_skills.values() if s.ready()[0]]) if hasattr(self, "knight_skills") else 0,
             "memory": self.memory.status,
             "castle": self.castle.patrol(),
             "village": self.village.census(),

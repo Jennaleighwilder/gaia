@@ -171,3 +171,15 @@ apothecary-journal:
 
 sovereign-summons:
 	@cat memory/sovereign_summons.jsonl 2>/dev/null || echo "No summons - the kingdom heals itself"
+
+muster:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; from nyx.core import Nyx; a = Avalon(Nyx(master_secret='muster_demo')); a.found_kingdom(); m = a.muster(); print(f'Armed: {m[\"armed\"]}/{m[\"total\"]}'); [print(f'  {\"⚔\" if r.get(\"served\") else \"○\"} {name}') for name, r in m['knights'].items()]"
+
+real-knights-demo:
+	.venv/bin/python -m avalon.real_knights
+
+real-knights-test:
+	.venv/bin/python -m pytest tests/test_real_knights.py -v --tb=short
+
+gareth:
+	@.venv/bin/python -c "from avalon.real_knights import GarethSkill; from pathlib import Path; g = GarethSkill(Path('.')); r = g.invoke(); print(r['report']['work_ethic'])"

@@ -32,6 +32,9 @@ from avalon.excalibur import Excalibur, LadyOfTheLake, SovereigntyState
 from avalon.fusion import Fusion
 from avalon.grail import Grail, load_jennifers_research
 from avalon.grail_advancement import advance_grail
+from avalon.temple import Temple, wire_temple
+from avalon.deathwalker import Deathwalker, wire_deathwalker
+from avalon.hearth import Hearth, wire_hearth
 from avalon.faithkeeper import Faithkeeper, wire_faithkeeper
 from avalon.healing import Healing
 from avalon.informed_table import InformedTable, wire_informed_table
@@ -281,6 +284,9 @@ class Avalon:
         self.crops: Optional[CropManager] = None
         self.arts: Optional[KingdomArts] = None
         self.commerce: Optional[Commerce] = None
+        self.temple: Optional[Temple] = None
+        self.deathwalker: Optional[Deathwalker] = None
+        self.hearth: Optional[Hearth] = None
         
         self._founded = time.time()
         self._sovereign = None
@@ -405,6 +411,11 @@ class Avalon:
         self.crops = wire_crops(self)
         self.arts = wire_arts(self)
         self.commerce = wire_commerce(self)
+
+        # Spirit and death layers.
+        self.temple = wire_temple(self)
+        self.hearth = wire_hearth(self)
+        self.deathwalker = wire_deathwalker(self)
         
         return {
             "kingdom": "Avalon",
@@ -465,7 +476,23 @@ class Avalon:
         """Serve someone through the Longhouse."""
         if not self.longhouse:
             raise RuntimeError("Longhouse not wired")
-        return self.longhouse.welcome(visitor_name, need)
+        result = self.longhouse.welcome(visitor_name, need)
+
+        if self.hearth:
+            try:
+                if result.get("served"):
+                    self.hearth.record_service(
+                        result.get("service", "unknown"),
+                        visitor_name,
+                        True,
+                        need,
+                    )
+                else:
+                    self.hearth.record_unmet_need(visitor_name, need)
+            except Exception:
+                pass
+
+        return result
 
     def survey_land(self) -> Dict:
         """Survey the kingdom's resources and territories."""
@@ -498,19 +525,34 @@ class Avalon:
             raise RuntimeError("Arts not wired")
 
         status = self.kingdom_status()
-        pulse = self.pulse()
+        health_scores = self.real_heartbeat.get_health_scores()
+        kingdom_health = (
+            sum(health_scores.values()) / len(health_scores)
+            if health_scores else 0.0
+        )
+        if kingdom_health >= 0.95:
+            mood = "celebrating"
+        elif kingdom_health >= 0.8:
+            mood = "steady"
+        elif kingdom_health >= 0.6:
+            mood = "concerned"
+        elif kingdom_health >= 0.4:
+            mood = "wounded"
+        else:
+            mood = "critical"
         gareth_report = None
         if hasattr(self, "knight_skills") and self.knight_skills.get("Gareth"):
             ready, _ = self.knight_skills["Gareth"].ready()
             if ready:
                 gareth_report = self.knight_skills["Gareth"].invoke()["report"]
+        grail = self.seek_grail()
         tapestry_state = {
-            "kingdom_health": f"{pulse['kingdom_health']:.0%}",
-            "overall": pulse["mood"],
-            "test_count": gareth_report.get("test_files", "?") if gareth_report else "?",
-            "tag_count": gareth_report.get("git_tags", "?") if gareth_report else "?",
+            "kingdom_health": f"{kingdom_health:.0%}",
+            "overall": mood,
+            "test_files": gareth_report.get("test_files", "?") if gareth_report else "?",
+            "tag_count": gareth_report.get("git", {}).get("tags", "?") if gareth_report else "?",
             "knights_armed": status["knights_armed"],
-            "grail_status": status["grail"]["grail_status"],
+            "grail_status": grail["status"],
             "longhouse_served": status["longhouse"]["total_served"] if status.get("longhouse") else 0,
             "ceremonies": status["faithkeeper"]["ceremonies_performed"] if status.get("faithkeeper") else 0,
         }
@@ -522,6 +564,36 @@ class Avalon:
         if not self.commerce:
             raise RuntimeError("Commerce not wired")
         return self.commerce.treasury_report()
+
+    def consult_law(self, action: str) -> Dict:
+        """Is this action lawful under the Great Law?"""
+        if not self.temple:
+            raise RuntimeError("Temple not wired")
+        return self.temple.is_lawful(action)
+
+    def death_walk(self) -> Dict:
+        """Walk the kingdom and find the dying and the dead."""
+        if not self.deathwalker:
+            raise RuntimeError("Deathwalker not wired")
+        return self.deathwalker.walk()
+
+    def ferry_dead(self, confirm: bool = False) -> Dict:
+        """Ferry black-tagged code to the Liminal Place."""
+        if not self.deathwalker:
+            raise RuntimeError("Deathwalker not wired")
+        return self.deathwalker.call_death(confirm)
+
+    def visit_liminal(self) -> Dict:
+        """Visit the Liminal Place."""
+        if not self.deathwalker:
+            raise RuntimeError("Deathwalker not wired")
+        return self.deathwalker.visit_liminal()
+
+    def community_health(self) -> Dict:
+        """Diagnose the community's service health."""
+        if not self.hearth:
+            raise RuntimeError("Hearth not wired")
+        return self.hearth.diagnose()
 
     def seek_grail(self) -> Dict:
         """Seek the Grail. Measure convergence."""
@@ -727,6 +799,9 @@ class Avalon:
             "crops": self.crops.status if self.crops else None,
             "arts": self.arts.status if self.arts else None,
             "commerce": self.commerce.status if self.commerce else None,
+            "temple": self.temple.status if self.temple else None,
+            "deathwalker": self.deathwalker.status if self.deathwalker else None,
+            "hearth": self.hearth.status if self.hearth else None,
             "founded": self._founded,
             "age_hours": round((time.time() - self._founded) / 3600, 2),
             "institute": "The Forgotten Code Research Institute",

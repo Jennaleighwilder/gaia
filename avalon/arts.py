@@ -182,6 +182,7 @@ class KingdomArts:
         # Pull key metrics
         health = kingdom_status.get("kingdom_health", kingdom_status.get("overall", "unknown"))
         tests = kingdom_status.get("test_count", "?")
+        test_files = kingdom_status.get("test_files", "?")
         tags = kingdom_status.get("tag_count", "?")
         knights = kingdom_status.get("knights_armed", "?")
         grail = kingdom_status.get("grail_status", "?")
@@ -191,6 +192,8 @@ class KingdomArts:
         lines.append(f"  The kingdom stands at {health} health.")
         if tests != "?":
             lines.append(f"  {tests} tests guard the walls.")
+        elif test_files != "?":
+            lines.append(f"  {test_files} test files guard the walls.")
         if tags != "?":
             lines.append(f"  {tags} tags mark the milestones.")
         if knights != "?":
@@ -218,7 +221,10 @@ class KingdomArts:
         return work
 
     def _ordinal(self, n) -> str:
-        n = int(n)
+        try:
+            n = int(n)
+        except (TypeError, ValueError):
+            return str(n)
         suffix = {1: "st", 2: "nd", 3: "rd"}.get(n % 10, "th")
         if 11 <= n % 100 <= 13:
             suffix = "th"

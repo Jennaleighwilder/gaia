@@ -2,6 +2,7 @@
 
 import os
 import sys
+from types import SimpleNamespace
 
 import pytest
 
@@ -82,6 +83,16 @@ class TestCrops:
         assert len(harvested) == 1
         assert crop.yield_count == 1
 
+    def test_harvest_does_not_double_count_after_compost(self):
+        mgr = CropManager()
+        crop = mgr.plant("Test", "test")
+        crop.season = Season.HARVEST
+        mgr.harvest()
+        assert crop.season == Season.COMPOSTING
+        crop.advance_season()
+        assert crop.season == Season.PLANTING
+        assert crop.yield_count == 1
+
     def test_field_report(self):
         mgr = CropManager()
         plant_kingdom_crops(mgr)
@@ -94,6 +105,16 @@ class TestCrops:
         assert "Healing Patterns" in mgr._crops
         assert "Cross-Domain Insights" in mgr._crops
         assert "Research Convergence" in mgr._crops
+
+    def test_chronicle_crop_can_advance(self):
+        mgr = CropManager()
+        plant_kingdom_crops(mgr)
+        avalon = SimpleNamespace(
+            faithkeeper=SimpleNamespace(status={"ceremonies_performed": 4}),
+            arts=SimpleNamespace(status={"chronicles": 4}),
+        )
+        mgr.tend_all(avalon)
+        assert mgr._crops["Kingdom Chronicles"].season == Season.TENDING
 
 
 class TestArts:
@@ -121,6 +142,11 @@ class TestArts:
         assert work.form == ArtForm.TAPESTRY
         assert "420" in work.content
 
+    def test_tapestry_accepts_test_file_count(self):
+        arts = KingdomArts()
+        work = arts.tapestry("Snapshot", {"kingdom_health": "97%", "test_files": 68})
+        assert "68 test files" in work.content
+
     def test_gallery(self):
         arts = KingdomArts()
         arts.chronicle({"number": 1, "thanksgiving": {"alive_count": 5, "total_systems": 5, "gratitude_ratio": 1.0},
@@ -142,6 +168,11 @@ class TestArts:
         arts.ballad("A", "B")
         arts.ballad("C", "D")
         assert arts.status["ballads"] == 2
+
+    def test_chronicle_handles_missing_number(self):
+        arts = KingdomArts()
+        work = arts.chronicle({"thanksgiving": {"alive_count": 1, "total_systems": 1}})
+        assert "?" in work.title
 
 
 class TestCommerce:

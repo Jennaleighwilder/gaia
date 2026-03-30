@@ -237,3 +237,30 @@ arts-demo:
 
 commerce-demo:
 	.venv/bin/python -m avalon.commerce
+
+law:
+	@.venv/bin/python -c "from avalon.temple import Temple; t = Temple(); laws = t.recite_law(); [print(f'{l[\"number\"]:2d}. {l[\"law\"]}') for l in laws['laws']]"
+
+oaths:
+	@.venv/bin/python -c "from avalon.temple import SACRED_OATHS; [print(f'{n:12s}: {o}') for n, o in SACRED_OATHS.items()]"
+
+is-lawful:
+	@.venv/bin/python -c "import sys; from avalon.temple import Temple; t = Temple(); action = ' '.join(sys.argv[1:]) or 'test'; r = t.is_lawful(action); print(f'Lawful: {r[\"lawful\"]}'); [print(f'  Violates #{v[\"law_number\"]}: {v[\"law\"][:60]}') for v in r['violations']]"
+
+death-walk:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.death_walk(); print(f'Walk #{r[\"walk_number\"]}: {r[\"total_found\"]} found'); print(f'Red: {r[\"red_tagged\"]}, Black: {r[\"black_tagged\"]}'); [print(f'  {t[\"tag\"]}: {t[\"path\"].split(\"/\")[-1]} - {t[\"reason\"][:50]}') for t in r['tagged'][:10]]"
+
+liminal:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.visit_liminal(); print(f'Liminal Place: {\"empty\" if r[\"empty\"] else str(r[\"waiting\"]) + \" souls wait\"}')"
+
+community:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.community_health(); print(f'Thriving: {\", \".join(r[\"thriving\"]) or \"none\"}'); print(f'Wilting: {\", \".join(r[\"wilting\"]) or \"none\"}'); print(f'Unmet needs: {r[\"unmet_needs_total\"]}')"
+
+temple-demo:
+	.venv/bin/python -m avalon.temple
+
+deathwalker-demo:
+	.venv/bin/python -m avalon.deathwalker
+
+hearth-demo:
+	.venv/bin/python -m avalon.hearth

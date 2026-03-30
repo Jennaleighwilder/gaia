@@ -68,9 +68,10 @@ class Crop:
         idx = order.index(self.season)
         if idx < len(order) - 1:
             self.season = order[idx + 1]
+            if self.season == Season.COMPOSTING:
+                self.yield_count += 1
         else:
             self.season = Season.PLANTING  # cycle restarts
-            self.yield_count += 1
 
 
 class CropManager:
@@ -128,6 +129,14 @@ class CropManager:
             if served > crop.yield_count * 5:
                 crop.advance_season()
 
+        elif crop.source == "faithkeeper" and hasattr(avalon, 'faithkeeper'):
+            ceremonies = avalon.faithkeeper.status.get("ceremonies_performed", 0)
+            chronicles = 0
+            if hasattr(avalon, 'arts'):
+                chronicles = avalon.arts.status.get("chronicles", 0)
+            if max(ceremonies, chronicles) > crop.yield_count * 3:
+                crop.advance_season()
+
     def harvest(self) -> List[Dict]:
         """Harvest everything that's ripe."""
         harvested = []
@@ -140,7 +149,6 @@ class CropManager:
                     "time": time.time(),
                 })
                 crop.advance_season()  # moves to composting
-                crop.yield_count += 1
         self._harvest_log.extend(harvested)
         return harvested
 

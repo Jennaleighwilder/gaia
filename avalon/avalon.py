@@ -22,6 +22,7 @@ Avalon is both — the protection AND the purpose.
 """
 
 import json
+import os
 import time
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
@@ -31,6 +32,7 @@ from avalon.fusion import Fusion
 from avalon.grail import Grail, load_jennifers_research
 from avalon.healing import Healing
 from avalon.memory import Memory
+from avalon.real_heartbeat import RealHeartbeat, wire_real_heartbeat
 from avalon.round_table import RoundTable, Vote
 from avalon.knights import Knighthood, Knight, KnightState, Domain
 from avalon.merlin import Merlin
@@ -245,6 +247,10 @@ class Avalon:
         self.knighthood = Knighthood()
         self.merlin = Merlin()
         self.fusion = Fusion()
+        self.real_heartbeat = wire_real_heartbeat(
+            self.fusion,
+            project_root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        )
         self.grail = Grail()
         self.fusion.grail = self.grail
         self.healing = Healing(
@@ -274,7 +280,6 @@ class Avalon:
         for name, knight in self.knighthood._knights.items():
             oath = self.excalibur.seal_oath(name, knight.oath)
             self.table.seat_knight(name, knight.domain.value, oath.sealed_by)
-            self.fusion.heartbeat.register_system(name, lambda k=knight: k.strength)
         
         # Build castle rooms for each major system
         rooms = [
@@ -391,10 +396,23 @@ class Avalon:
 
     def breathe(self) -> Dict:
         """Let the kingdom take one living breath."""
+        real_scores = self.real_heartbeat.get_health_scores()
+        for sys_name, health in real_scores.items():
+            self.fusion.heartbeat._system_health[sys_name] = health
+
         breath = self.fusion.breathe()
         healing_results = self.heal()
         breath["healing"] = healing_results
+        breath["real_health"] = real_scores
         return breath
+
+    def pulse(self) -> Dict:
+        """Take the kingdom's real pulse."""
+        return self.real_heartbeat.beat()
+
+    def health_report(self) -> str:
+        """Alfred's narrative report of real system health."""
+        return self.real_heartbeat.narrative_report()
 
     def experience(
         self,
@@ -516,6 +534,7 @@ class Avalon:
             "merlin": self.merlin.tower_contents(),
             "grail": self.grail.status,
             "fusion": self.fusion.vital_signs(),
+            "real_heartbeat": self.real_heartbeat.status,
             "healing": self.healing.status,
             "memory": self.memory.status,
             "castle": self.castle.patrol(),

@@ -141,3 +141,12 @@ grail-question:
 
 grail-threads:
 	@.venv/bin/python -c "from avalon.grail import Grail, load_jennifers_research; g = Grail(); load_jennifers_research(g); [print(f'{t[\"name\"]:30s} {t[\"status\"]:12s} maturity: {t[\"maturity\"]:.0%}  evidence: {t[\"evidence_count\"]}') for t in g.all_threads()]"
+
+pulse:
+	@.venv/bin/python -c "from avalon.real_heartbeat import RealHeartbeat; hb = RealHeartbeat(); print(hb.narrative_report())"
+
+real-heartbeat-test:
+	.venv/bin/python -m pytest tests/test_real_heartbeat.py -v --tb=short
+
+real-heartbeat-demo:
+	.venv/bin/python -m avalon.real_heartbeat

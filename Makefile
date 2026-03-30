@@ -166,6 +166,30 @@ merlin-test:
 merlin-report:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); [a.breathe() for _ in range(5)]; r = a.merlin_report(); print(f'Cycles: {r[\"cycles\"]}'); print(f'Signals: {r[\"total_signals\"]}'); print(f'Feeds: {r[\"active_feeds\"]}/{r[\"total_feeds\"]}'); print(f'Domains: {\", \".join(r[\"tower\"][\"domains_observed\"])}'); print(f'Sight: {r[\"sight\"]}')"
 
+ceremony:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.ceremony(); print(f'Ceremony #{r[\"number\"]}'); tg = r.get(\"thanksgiving\", {}); print(f'Alive: {tg.get(\"alive_count\", 0)}/{tg.get(\"total_systems\", 0)}'); print(f'Gratitude ratio: {tg.get(\"gratitude_ratio\", 0):.0%}'); print(f'Wounds found: {r.get(\"wounds_found\", 0)}'); print(f'Wounds healed: {r.get(\"wounds_healed\", 0)}'); print(f'Merlin insights: {r.get(\"merlin_insights\", 0)}'); print(f'Lessons learned: {r.get(\"lessons_learned\", 0)}')"
+
+thanksgiving:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); tg = a.faithkeeper.thanksgiving_now(); print(tg['narrative'])"
+
+council:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; import sys; a = Avalon(); a.found_kingdom(); q = ' '.join(sys.argv[1:]) if len(sys.argv) > 1 else 'What is the state of the kingdom?'; r = a.hold_council(q); print(f'Question: {r[\"question\"]}'); print(f'Knights spoke: {r[\"knights_spoke\"]}'); print(f'Decree: {r[\"decree\"][\"decision\"]}'); [print(f'  {v[\"knight\"]}: {v[\"response\"][:80]}') for v in r[\"conversation\"][:5]]"
+
+longhouse:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); c = a.longhouse.census(); print(f'Services: {c[\"total_services\"]}'); print(f'Three Sisters: {c[\"three_sisters\"]}'); print(f'Total served: {c[\"total_served\"]}')"
+
+longhouse-serve:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.serve('Visitor', 'legal rights help'); print(f'Served: {r[\"served\"]}'); print(f'Service: {r.get(\"service\", \"none\")}'); print(f'Free: {r.get(\"free\", False)}')"
+
+faithkeeper-demo:
+	.venv/bin/python -m avalon.faithkeeper
+
+informed-table-demo:
+	.venv/bin/python -m avalon.informed_table
+
+longhouse-demo:
+	.venv/bin/python -m avalon.longhouse
+
 apothecary-demo:
 	.venv/bin/python -m avalon.real_healing
 

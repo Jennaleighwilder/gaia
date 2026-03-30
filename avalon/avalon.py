@@ -32,7 +32,10 @@ from avalon.excalibur import Excalibur, LadyOfTheLake, SovereigntyState
 from avalon.fusion import Fusion
 from avalon.grail import Grail, load_jennifers_research
 from avalon.grail_advancement import advance_grail
+from avalon.faithkeeper import Faithkeeper, wire_faithkeeper
 from avalon.healing import Healing
+from avalon.informed_table import InformedTable, wire_informed_table
+from avalon.longhouse import Longhouse, wire_longhouse
 from avalon.memory import Memory
 from avalon.real_knights import arm_knights
 from avalon.real_healing import wire_real_healing
@@ -267,6 +270,9 @@ class Avalon:
         self.memory = Memory(memory_dir="memory")
         self.castle = Castle()
         self.village = Village()
+        self.longhouse: Optional[Longhouse] = None
+        self.informed_table: Optional[InformedTable] = None
+        self.faithkeeper: Optional[Faithkeeper] = None
         
         self._founded = time.time()
         self._sovereign = None
@@ -376,6 +382,15 @@ class Avalon:
             healing=self.healing,
             gaia_bridge=self.gaia_bridge,
         )
+
+        # The Longhouse — where people are served.
+        self.longhouse = wire_longhouse(self)
+
+        # The Informed Table — conversation, not ballot.
+        self.informed_table = wire_informed_table(self)
+
+        # The Faithkeeper — keeps the ceremonies running.
+        self.faithkeeper = wire_faithkeeper(self, interval_seconds=60)
         
         return {
             "kingdom": "Avalon",
@@ -390,16 +405,21 @@ class Avalon:
         }
     
     def hold_council(self, question: str) -> Dict:
-        """The sovereign calls a council of the Round Table.
-        
-        Merlin advises. Knights speak. The Table decides.
-        """
-        # Get Merlin's counsel first
+        """Hold an Informed Table council when available, else basic council."""
+        if self.informed_table:
+            result = self.informed_table.hold_informed_council(
+                question, knight_skills=self.knight_skills
+            )
+            # Preserve the legacy manual-speaking flow for older callers/tests.
+            self.table.convene(question, convened_by=self._sovereign or "sovereign")
+            result.setdefault("council_convened", True)
+            result.setdefault("quorum_needed", self.table.quorum_needed)
+            result.setdefault("knights_to_speak", self.table.seated_count)
+            result.setdefault("merlin_counsel", self.merlin.counsel(question))
+            return result
+
         counsel = self.merlin.counsel(question)
-        
-        # Convene the table
-        council = self.table.convene(question, convened_by=self._sovereign or "sovereign")
-        
+        self.table.convene(question, convened_by=self._sovereign or "sovereign")
         return {
             "question": question,
             "merlin_counsel": counsel,
@@ -408,6 +428,30 @@ class Avalon:
             "knights_to_speak": self.table.seated_count,
             "instruction": "Each knight must now speak(). When all have spoken, call decree().",
         }
+
+    def ceremony(self) -> Dict:
+        """Perform one ceremony manually."""
+        if not self.faithkeeper:
+            raise RuntimeError("Faithkeeper not wired")
+        return self.faithkeeper.perform_ceremony().__dict__
+
+    def start_breathing(self, interval: float = 60):
+        """Start the Faithkeeper daemon. The kingdom breathes on its own."""
+        if not self.faithkeeper:
+            raise RuntimeError("Faithkeeper not wired")
+        self.faithkeeper._interval = interval
+        self.faithkeeper.keep_faith()
+
+    def stop_breathing(self):
+        """Stop the Faithkeeper daemon."""
+        if self.faithkeeper:
+            self.faithkeeper.lose_faith()
+
+    def serve(self, visitor_name: str, need: str) -> Dict:
+        """Serve someone through the Longhouse."""
+        if not self.longhouse:
+            raise RuntimeError("Longhouse not wired")
+        return self.longhouse.welcome(visitor_name, need)
 
     def seek_grail(self) -> Dict:
         """Seek the Grail. Measure convergence."""
@@ -606,6 +650,9 @@ class Avalon:
             "memory": self.memory.status,
             "castle": self.castle.patrol(),
             "village": self.village.census(),
+            "longhouse": self.longhouse.status if self.longhouse else None,
+            "faithkeeper": self.faithkeeper.status if self.faithkeeper else None,
+            "informed_table": self.informed_table.status if self.informed_table else None,
             "founded": self._founded,
             "age_hours": round((time.time() - self._founded) / 3600, 2),
             "institute": "The Forgotten Code Research Institute",

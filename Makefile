@@ -126,3 +126,18 @@ healing-test:
 
 triage:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); print(a.healing.triage_report())"
+
+grail-demo:
+	.venv/bin/python -m avalon.grail
+
+grail-test:
+	.venv/bin/python -m pytest tests/test_grail.py -v --tb=short
+
+seek-grail:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.seek_grail(); print(f'Status: {r[\"status\"]}'); print(f'Progress: {r[\"quest_progress\"]:.0%}'); print(f'Convergence points: {r[\"convergence_points\"]}')"
+
+grail-question:
+	@.venv/bin/python -c "from avalon.grail import Grail, load_jennifers_research; g = Grail(); load_jennifers_research(g); g.seek(); print(g.the_question())"
+
+grail-threads:
+	@.venv/bin/python -c "from avalon.grail import Grail, load_jennifers_research; g = Grail(); load_jennifers_research(g); [print(f'{t[\"name\"]:30s} {t[\"status\"]:12s} maturity: {t[\"maturity\"]:.0%}  evidence: {t[\"evidence_count\"]}') for t in g.all_threads()]"

@@ -28,6 +28,7 @@ from typing import Any, Dict, List, Optional
 
 from avalon.excalibur import Excalibur, LadyOfTheLake, SovereigntyState
 from avalon.fusion import Fusion
+from avalon.grail import Grail, load_jennifers_research
 from avalon.healing import Healing
 from avalon.memory import Memory
 from avalon.round_table import RoundTable, Vote
@@ -244,6 +245,8 @@ class Avalon:
         self.knighthood = Knighthood()
         self.merlin = Merlin()
         self.fusion = Fusion()
+        self.grail = Grail()
+        self.fusion.grail = self.grail
         self.healing = Healing(
             carbon_recall=self.fusion.carbon.recall,
             carbon_learn=lambda **kw: self.fusion.carbon.learn(**kw),
@@ -256,6 +259,7 @@ class Avalon:
         self._founded = time.time()
         self._sovereign = None
         self._nyx = nyx
+        self._last_grail_status = self.grail.status["grail_status"]
         self._kingdom_fall_tripwire_added = False
     
     def found_kingdom(self, sovereign_name: str = "Jennifer Leigh West") -> Dict:
@@ -305,6 +309,9 @@ class Avalon:
         
         for svc_name, serves, provider, freq in services:
             self.village.establish_service(svc_name, serves, provider, freq)
+
+        if not self.grail._threads:
+            load_jennifers_research(self.grail)
         
         # Open the gates
         self.castle.open_gates()
@@ -355,6 +362,32 @@ class Avalon:
             "knights_to_speak": self.table.seated_count,
             "instruction": "Each knight must now speak(). When all have spoken, call decree().",
         }
+
+    def seek_grail(self) -> Dict:
+        """Seek the Grail. Measure convergence."""
+        result = self.grail.seek()
+
+        if result["convergence_points"] > 0:
+            self.merlin.observe(
+                "grail",
+                f"Grail convergence at {result['quest_progress']:.0%} - "
+                f"{result['convergence_points']} convergence points found",
+            )
+
+        if result["status"] != self._last_grail_status:
+            self.fusion.experience(
+                "discovery",
+                f"Grail status changed to {result['status']}",
+                ["Gawain", "Percival", "Merlin"],
+                0.9 if result["status"] == "found" else 0.5,
+            )
+
+        self._last_grail_status = result["status"]
+        return result
+
+    def grail_question(self) -> str:
+        """Percival's question, as the quest currently stands."""
+        return self.grail.the_question()
 
     def breathe(self) -> Dict:
         """Let the kingdom take one living breath."""
@@ -481,6 +514,7 @@ class Avalon:
             "round_table": self.table.status,
             "knighthood": self.knighthood.muster(),
             "merlin": self.merlin.tower_contents(),
+            "grail": self.grail.status,
             "fusion": self.fusion.vital_signs(),
             "healing": self.healing.status,
             "memory": self.memory.status,

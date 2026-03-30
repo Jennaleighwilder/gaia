@@ -171,6 +171,20 @@ class Memory:
                 "active_wounds": len(fusion.healing._active_wounds) if hasattr(fusion, "healing") else 0,
                 "success_rate": fusion.healing._success_rate() if hasattr(fusion, "healing") else 0,
             },
+
+            "grail": {
+                "status": (
+                    fusion.grail._status.value
+                    if hasattr(fusion, "grail")
+                    else "hidden"
+                ),
+                "threads": len(fusion.grail._threads) if hasattr(fusion, "grail") else 0,
+                "convergence_points": (
+                    len(fusion.grail._convergence._convergence_points)
+                    if hasattr(fusion, "grail")
+                    else 0
+                ),
+            },
             
             # Hadron — collision history
             "hadron": {

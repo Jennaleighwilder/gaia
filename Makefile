@@ -133,14 +133,20 @@ grail-demo:
 grail-test:
 	.venv/bin/python -m pytest tests/test_grail.py -v --tb=short
 
+advance-grail:
+	.venv/bin/python -m avalon.grail_advancement
+
+grail-advancement-test:
+	.venv/bin/python -m pytest tests/test_grail_advancement.py -v --tb=short
+
 seek-grail:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.seek_grail(); print(f'Status: {r[\"status\"]}'); print(f'Progress: {r[\"quest_progress\"]:.0%}'); print(f'Convergence points: {r[\"convergence_points\"]}')"
 
 grail-question:
-	@.venv/bin/python -c "from avalon.grail import Grail, load_jennifers_research; g = Grail(); load_jennifers_research(g); g.seek(); print(g.the_question())"
+	@.venv/bin/python -c "from avalon.grail import Grail, load_jennifers_research; from avalon.grail_advancement import advance_grail; g = Grail(); load_jennifers_research(g); advance_grail(g); g.seek(); print(g.the_question())"
 
 grail-threads:
-	@.venv/bin/python -c "from avalon.grail import Grail, load_jennifers_research; g = Grail(); load_jennifers_research(g); [print(f'{t[\"name\"]:30s} {t[\"status\"]:12s} maturity: {t[\"maturity\"]:.0%}  evidence: {t[\"evidence_count\"]}') for t in g.all_threads()]"
+	@.venv/bin/python -c "from avalon.grail import Grail, load_jennifers_research; from avalon.grail_advancement import advance_grail; g = Grail(); load_jennifers_research(g); advance_grail(g); [print(f'{t[\"name\"]:30s} {t[\"status\"]:12s} maturity: {t[\"maturity\"]:.0%}  evidence: {t[\"evidence_count\"]}') for t in g.all_threads()]"
 
 pulse:
 	@.venv/bin/python -c "from avalon.real_heartbeat import RealHeartbeat; hb = RealHeartbeat(); print(hb.narrative_report())"

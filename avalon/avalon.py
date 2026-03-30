@@ -31,6 +31,7 @@ from typing import Any, Dict, List, Optional
 from avalon.excalibur import Excalibur, LadyOfTheLake, SovereigntyState
 from avalon.fusion import Fusion
 from avalon.grail import Grail, load_jennifers_research
+from avalon.grail_advancement import advance_grail
 from avalon.healing import Healing
 from avalon.memory import Memory
 from avalon.real_knights import arm_knights
@@ -271,6 +272,7 @@ class Avalon:
         self._sovereign = None
         self._nyx = nyx
         self._last_grail_status = self.grail.status["grail_status"]
+        self._grail_advanced = False
         self._kingdom_fall_tripwire_added = False
 
     def _receive_summons(self, summons_data: Dict):
@@ -331,6 +333,10 @@ class Avalon:
 
         if not self.grail._threads:
             load_jennifers_research(self.grail)
+        if not self._grail_advanced:
+            # Advance the quest once per kingdom so evidence does not duplicate.
+            advance_grail(self.grail)
+            self._grail_advanced = True
         
         # Open the gates
         self.castle.open_gates()

@@ -90,3 +90,12 @@ merlin-sight:
 
 village-status:
 	.venv/bin/python -m avalon.village_routes
+
+fusion-demo:
+	.venv/bin/python -m avalon.fusion
+
+fusion-test:
+	.venv/bin/python -m pytest tests/test_fusion.py -v --tb=short
+
+vital-signs:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); [a.breathe() for _ in range(5)]; v = a.fusion.vital_signs(); print(f'Mood: {v[\"heartbeat\"][\"current_mood\"]}'); print(f'Joy: {v[\"joy\"][\"joy_index\"]}'); print(f'Cohesion: {v[\"love\"][\"cohesion\"]}'); print(f'Lessons: {v[\"carbon\"][\"total_lessons\"]}')"

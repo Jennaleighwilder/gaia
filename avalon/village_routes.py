@@ -70,9 +70,26 @@ class VillageGateway:
             "directory": census["directory"],
         }
 
+    def _record_service_experience(
+        self,
+        service_name: str,
+        description: str,
+        participants: list[str],
+        magnitude: float,
+    ) -> Dict[str, Any]:
+        service = self.avalon.village.serve(service_name)
+        if service.get("served") and hasattr(self.avalon, "experience"):
+            self.avalon.experience("service", description, participants, magnitude)
+        return service
+
     def heritage_reading(self, subject: str, question: str = "Heritage reading request") -> Dict[str, Any]:
         self._ensure_gates_open()
-        service = self.avalon.village.serve("Heritage Readings")
+        service = self._record_service_experience(
+            "Heritage Readings",
+            f"Heritage reading delivered for {subject}",
+            ["Morgana", "Percival"],
+            0.7,
+        )
         result = self.avalon.knighthood.summon("Morgana").serve(
             {"subject": subject, "text": question}
         )
@@ -84,7 +101,12 @@ class VillageGateway:
 
     def weather_warnings(self) -> Dict[str, Any]:
         self._ensure_gates_open()
-        service = self.avalon.village.serve("Weather Warnings")
+        service = self._record_service_experience(
+            "Weather Warnings",
+            "Weather warning status served to the village",
+            ["Bors", "Kay"],
+            0.6,
+        )
         return {
             "service": service,
             "alerts": _read_json(DOCS_DATA / "dashboard_alerts.json"),
@@ -93,7 +115,12 @@ class VillageGateway:
 
     def ai_consulting(self) -> Dict[str, Any]:
         self._ensure_gates_open()
-        service = self.avalon.village.serve("AI Consulting")
+        service = self._record_service_experience(
+            "AI Consulting",
+            "Consulting portfolio shared with the village",
+            ["Nimue", "Lancelot"],
+            0.5,
+        )
         return {
             "service": service,
             "portfolio": [
@@ -106,7 +133,12 @@ class VillageGateway:
 
     def community_guides(self) -> Dict[str, Any]:
         self._ensure_gates_open()
-        service = self.avalon.village.serve("Community Guides")
+        service = self._record_service_experience(
+            "Community Guides",
+            "Free community guides given away without charge",
+            ["Gareth", "Lancelot"],
+            0.9,
+        )
         return {
             "service": service,
             "free": True,

@@ -27,6 +27,7 @@ from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
 
 from avalon.excalibur import Excalibur, LadyOfTheLake, SovereigntyState
+from avalon.fusion import Fusion
 from avalon.round_table import RoundTable, Vote
 from avalon.knights import Knighthood, Knight, KnightState, Domain
 from avalon.merlin import Merlin
@@ -240,6 +241,7 @@ class Avalon:
         self.table = RoundTable(quorum_ratio=0.618)
         self.knighthood = Knighthood()
         self.merlin = Merlin()
+        self.fusion = Fusion()
         self.castle = Castle()
         self.village = Village()
         
@@ -259,6 +261,7 @@ class Avalon:
         for name, knight in self.knighthood._knights.items():
             oath = self.excalibur.seal_oath(name, knight.oath)
             self.table.seat_knight(name, knight.domain.value, oath.sealed_by)
+            self.fusion.heartbeat.register_system(name, lambda k=knight: k.strength)
         
         # Build castle rooms for each major system
         rooms = [
@@ -343,6 +346,20 @@ class Avalon:
             "instruction": "Each knight must now speak(). When all have spoken, call decree().",
         }
 
+    def breathe(self) -> Dict:
+        """Let the kingdom take one living breath."""
+        return self.fusion.breathe()
+
+    def experience(
+        self,
+        event_type: str,
+        description: str,
+        systems_involved: List[str],
+        magnitude: float = 0.5,
+    ) -> Dict:
+        """Pass an experience into the living rhythm layer."""
+        return self.fusion.experience(event_type, description, systems_involved, magnitude)
+
     def revoke_knight(self, knight_name: str, reason: str) -> Dict:
         """Break a knight's oath and remove them from the active Table."""
         revoked = self.excalibur.break_oath(knight_name, reason)
@@ -409,6 +426,7 @@ class Avalon:
             "round_table": self.table.status,
             "knighthood": self.knighthood.muster(),
             "merlin": self.merlin.tower_contents(),
+            "fusion": self.fusion.vital_signs(),
             "castle": self.castle.patrol(),
             "village": self.village.census(),
             "founded": self._founded,

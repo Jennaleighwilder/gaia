@@ -117,3 +117,12 @@ memory-test:
 
 memory-dream:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); print(a.memory.dream(a.fusion))"
+
+healing-demo:
+	.venv/bin/python -m avalon.healing
+
+healing-test:
+	.venv/bin/python -m pytest tests/test_healing.py -v --tb=short
+
+triage:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); print(a.healing.triage_report())"

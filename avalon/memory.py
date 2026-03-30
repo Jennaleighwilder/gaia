@@ -165,6 +165,12 @@ class Memory:
                 ],
                 "joy_index": round(fusion.joy._joy_index, 4),
             },
+
+            "healing": {
+                "healed_total": len(fusion.healing._healed_wounds) if hasattr(fusion, "healing") else 0,
+                "active_wounds": len(fusion.healing._active_wounds) if hasattr(fusion, "healing") else 0,
+                "success_rate": fusion.healing._success_rate() if hasattr(fusion, "healing") else 0,
+            },
             
             # Hadron — collision history
             "hadron": {

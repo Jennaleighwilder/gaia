@@ -28,6 +28,7 @@ from typing import Any, Dict, List, Optional
 
 from avalon.excalibur import Excalibur, LadyOfTheLake, SovereigntyState
 from avalon.fusion import Fusion
+from avalon.healing import Healing
 from avalon.memory import Memory
 from avalon.round_table import RoundTable, Vote
 from avalon.knights import Knighthood, Knight, KnightState, Domain
@@ -243,6 +244,11 @@ class Avalon:
         self.knighthood = Knighthood()
         self.merlin = Merlin()
         self.fusion = Fusion()
+        self.healing = Healing(
+            carbon_recall=self.fusion.carbon.recall,
+            carbon_learn=lambda **kw: self.fusion.carbon.learn(**kw),
+        )
+        self.fusion.healing = self.healing
         self.memory = Memory(memory_dir="memory")
         self.castle = Castle()
         self.village = Village()
@@ -352,7 +358,10 @@ class Avalon:
 
     def breathe(self) -> Dict:
         """Let the kingdom take one living breath."""
-        return self.fusion.breathe()
+        breath = self.fusion.breathe()
+        healing_results = self.heal()
+        breath["healing"] = healing_results
+        return breath
 
     def experience(
         self,
@@ -377,6 +386,34 @@ class Avalon:
     def journal(self, event: str, description: str, data: Optional[Dict] = None):
         """Write an event into the permanent journal."""
         self.memory.journal_event(event, description, data)
+
+    def heal(self) -> List[Dict]:
+        """Check all systems and heal any wounds."""
+        wounds = self.healing.watch(self.fusion.heartbeat._system_health)
+        if not wounds:
+            return []
+
+        results = self.healing.heal_all()
+        for result in results:
+            if result["healed"]:
+                self.fusion.experience(
+                    "victory",
+                    f"Healed {result['system']} from {result['wound_type']}",
+                    [result["system"], "MorganLeFay"],
+                    0.6,
+                )
+            elif result["treatment"]["outcome"] == "escalated":
+                self.fusion.experience(
+                    "loss",
+                    f"{result['system']} wound escalated - needs sovereign",
+                    [result["system"]],
+                    0.4,
+                )
+        return results
+
+    def triage(self) -> Dict:
+        """Current wound picture across the kingdom."""
+        return self.healing.triage_report()
 
     def revoke_knight(self, knight_name: str, reason: str) -> Dict:
         """Break a knight's oath and remove them from the active Table."""
@@ -445,6 +482,7 @@ class Avalon:
             "knighthood": self.knighthood.muster(),
             "merlin": self.merlin.tower_contents(),
             "fusion": self.fusion.vital_signs(),
+            "healing": self.healing.status,
             "memory": self.memory.status,
             "castle": self.castle.patrol(),
             "village": self.village.census(),

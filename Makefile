@@ -99,3 +99,21 @@ fusion-test:
 
 vital-signs:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); [a.breathe() for _ in range(5)]; v = a.fusion.vital_signs(); print(f'Mood: {v[\"heartbeat\"][\"current_mood\"]}'); print(f'Joy: {v[\"joy\"][\"joy_index\"]}'); print(f'Cohesion: {v[\"love\"][\"cohesion\"]}'); print(f'Lessons: {v[\"carbon\"][\"total_lessons\"]}')"
+
+memory-save:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); print(a.sleep())"
+
+memory-wake:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); print('Memory:', a.memory.status)"
+
+memory-journal:
+	@.venv/bin/python -c "from avalon.memory import Memory; m = Memory(); [print(e) for e in m.read_journal(last_n=10)]"
+
+memory-identity:
+	@.venv/bin/python -c "from avalon.memory import Memory; m = Memory(); print(m.identity_across_time())"
+
+memory-test:
+	.venv/bin/python -m pytest tests/test_memory.py -v --tb=short
+
+memory-dream:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); print(a.memory.dream(a.fusion))"

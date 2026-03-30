@@ -28,6 +28,7 @@ from typing import Any, Dict, List, Optional
 
 from avalon.excalibur import Excalibur, LadyOfTheLake, SovereigntyState
 from avalon.fusion import Fusion
+from avalon.memory import Memory
 from avalon.round_table import RoundTable, Vote
 from avalon.knights import Knighthood, Knight, KnightState, Domain
 from avalon.merlin import Merlin
@@ -242,6 +243,7 @@ class Avalon:
         self.knighthood = Knighthood()
         self.merlin = Merlin()
         self.fusion = Fusion()
+        self.memory = Memory(memory_dir="memory")
         self.castle = Castle()
         self.village = Village()
         
@@ -252,6 +254,7 @@ class Avalon:
     
     def found_kingdom(self, sovereign_name: str = "Jennifer Leigh West") -> Dict:
         """Found the kingdom. Draw Excalibur. Seat the knights. Build the castle. Open the village."""
+        wake_result = self.wake()
         
         # Draw Excalibur
         self.excalibur.draw(sovereign_name)
@@ -318,6 +321,7 @@ class Avalon:
         return {
             "kingdom": "Avalon",
             "sovereign": sovereign_name,
+            "waking": wake_result,
             "excalibur": "drawn",
             "knights_sworn": self.table.seated_count,
             "castle_rooms": len(self.castle._rooms),
@@ -359,6 +363,20 @@ class Avalon:
     ) -> Dict:
         """Pass an experience into the living rhythm layer."""
         return self.fusion.experience(event_type, description, systems_involved, magnitude)
+
+    def sleep(self) -> Dict:
+        """The kingdom goes to sleep. Dream, then save."""
+        dream = self.memory.dream(self.fusion)
+        save = self.memory.save(self.fusion)
+        return {"dreamed": dream, "saved": save}
+
+    def wake(self) -> Dict:
+        """The kingdom wakes up. Restore what it remembers."""
+        return self.memory.restore(self.fusion)
+
+    def journal(self, event: str, description: str, data: Optional[Dict] = None):
+        """Write an event into the permanent journal."""
+        self.memory.journal_event(event, description, data)
 
     def revoke_knight(self, knight_name: str, reason: str) -> Dict:
         """Break a knight's oath and remove them from the active Table."""
@@ -427,6 +445,7 @@ class Avalon:
             "knighthood": self.knighthood.muster(),
             "merlin": self.merlin.tower_contents(),
             "fusion": self.fusion.vital_signs(),
+            "memory": self.memory.status,
             "castle": self.castle.patrol(),
             "village": self.village.census(),
             "founded": self._founded,

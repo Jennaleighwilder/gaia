@@ -56,3 +56,6 @@ data/holler_siren/stage4_*.tif
 
 # Biological layer raw radar cache (derived summaries are committed)
 data/bio_signal/nexrad_kpah_morning/
+
+# Local frozen dependency mirror
+frozen/west-os/

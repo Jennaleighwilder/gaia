@@ -65,3 +65,22 @@ filter-east-tn-events:
 
 autopsy: populate-fixtures
 	cd $(shell pwd) && python3 scripts/false_alarm_autopsy.py
+
+# NYX targets
+heartbeat:
+	.venv/bin/python scripts/nyx_heartbeat.py
+
+nyx-test:
+	.venv/bin/python -m pytest tests/test_nyx.py -v --tb=short
+
+adapter-test:
+	.venv/bin/python -m pytest tests/test_adapters.py -v --tb=short
+
+nyx-demo:
+	.venv/bin/python -m nyx.core
+
+nyx-all:
+	.venv/bin/python -m pytest tests/test_nyx.py tests/test_adapters.py tests/test_nyx_integration.py -v --tb=short
+
+freeze-check:
+	@.venv/bin/python -c "from adapters.lancelot import LancelotAdapter; la = LancelotAdapter(); print(la.verify_freeze() if la.is_available else {'frozen': False, 'reason': 'West-OS not found in frozen/'})"

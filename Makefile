@@ -279,3 +279,12 @@ war-plans:
 
 wardens-demo:
 	.venv/bin/python -m avalon.wardens
+
+crucible:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.enter_crucible(); print(f'Trials: {r[\"trials\"]}'); print(f'Survived: {r[\"survived\"]}'); print(f'Bonds forged: {r[\"total_bonds\"]}'); print(f'Lessons learned: {r[\"total_lessons\"]}'); [print(f'  {\"✓\" if t[\"survived\"] else \"✗\"} {t[\"scenario\"]} ({t[\"type\"]})') for t in r['results']]"
+
+after-action:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); a.enter_crucible(); r = a.after_action(); print(f'Total trials: {r[\"total_trials\"]}'); print(f'Survived: {r[\"survived\"]}'); print(f'Bonds: {r[\"total_bonds_formed\"]}'); print(f'Lessons: {r[\"total_lessons_learned\"]}')"
+
+crucible-demo:
+	.venv/bin/python -m avalon.crucible

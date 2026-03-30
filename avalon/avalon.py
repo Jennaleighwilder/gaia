@@ -36,6 +36,7 @@ from avalon.temple import Temple, wire_temple
 from avalon.deathwalker import Deathwalker, wire_deathwalker
 from avalon.hearth import Hearth, wire_hearth
 from avalon.wardens import Wardens, wire_wardens
+from avalon.crucible import Crucible, wire_crucible
 from avalon.faithkeeper import Faithkeeper, wire_faithkeeper
 from avalon.healing import Healing
 from avalon.informed_table import InformedTable, wire_informed_table
@@ -289,6 +290,7 @@ class Avalon:
         self.deathwalker: Optional[Deathwalker] = None
         self.hearth: Optional[Hearth] = None
         self.wardens: Optional[Wardens] = None
+        self.crucible: Optional[Crucible] = None
         
         self._founded = time.time()
         self._sovereign = None
@@ -419,6 +421,7 @@ class Avalon:
         self.hearth = wire_hearth(self)
         self.deathwalker = wire_deathwalker(self)
         self.wardens = wire_wardens(self)
+        self.crucible = wire_crucible(self)
         
         return {
             "kingdom": "Avalon",
@@ -628,6 +631,31 @@ class Avalon:
             raise RuntimeError("Wardens not wired")
         return self.wardens.intelligence_briefing()
 
+    def enter_crucible(self) -> Dict:
+        """Run all Crucible trials. Forge the brotherhood."""
+        if not self.crucible:
+            raise RuntimeError("Crucible not wired")
+        return self.crucible.run_all()
+
+    def crucible_trial(self, scenario_name: str) -> Dict:
+        """Run one Crucible trial."""
+        if not self.crucible:
+            raise RuntimeError("Crucible not wired")
+        record = self.crucible.run_trial(scenario_name)
+        return {
+            "scenario": record.scenario_name,
+            "survived": record.survived,
+            "bonds": len(record.bonds_formed),
+            "lessons": record.carbon_lessons,
+            "chronicle": record.chronicle[:200],
+        }
+
+    def after_action(self) -> Dict:
+        """After-action report from the Crucible."""
+        if not self.crucible:
+            raise RuntimeError("Crucible not wired")
+        return self.crucible.after_action_report()
+
     def seek_grail(self) -> Dict:
         """Seek the Grail. Measure convergence."""
         result = self.grail.seek()
@@ -836,6 +864,7 @@ class Avalon:
             "deathwalker": self.deathwalker.status if self.deathwalker else None,
             "hearth": self.hearth.status if self.hearth else None,
             "wardens": self.wardens.status if self.wardens else None,
+            "crucible": self.crucible.status if self.crucible else None,
             "founded": self._founded,
             "age_hours": round((time.time() - self._founded) / 3600, 2),
             "institute": "The Forgotten Code Research Institute",

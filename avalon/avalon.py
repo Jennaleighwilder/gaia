@@ -35,6 +35,7 @@ from avalon.grail_advancement import advance_grail
 from avalon.temple import Temple, wire_temple
 from avalon.deathwalker import Deathwalker, wire_deathwalker
 from avalon.hearth import Hearth, wire_hearth
+from avalon.wardens import Wardens, wire_wardens
 from avalon.faithkeeper import Faithkeeper, wire_faithkeeper
 from avalon.healing import Healing
 from avalon.informed_table import InformedTable, wire_informed_table
@@ -287,6 +288,7 @@ class Avalon:
         self.temple: Optional[Temple] = None
         self.deathwalker: Optional[Deathwalker] = None
         self.hearth: Optional[Hearth] = None
+        self.wardens: Optional[Wardens] = None
         
         self._founded = time.time()
         self._sovereign = None
@@ -416,6 +418,7 @@ class Avalon:
         self.temple = wire_temple(self)
         self.hearth = wire_hearth(self)
         self.deathwalker = wire_deathwalker(self)
+        self.wardens = wire_wardens(self)
         
         return {
             "kingdom": "Avalon",
@@ -594,6 +597,36 @@ class Avalon:
         if not self.hearth:
             raise RuntimeError("Hearth not wired")
         return self.hearth.diagnose()
+
+    def patrol(self) -> Dict:
+        """All scouts patrol the perimeter and report findings."""
+        if not self.wardens:
+            raise RuntimeError("Wardens not wired")
+        return self.wardens.patrol()
+
+    def threat_level(self) -> str:
+        """Current Warden threat level."""
+        if not self.wardens:
+            raise RuntimeError("Wardens not wired")
+        return self.wardens._threat_level.value
+
+    def activate_war_plan(self, plan_name: str) -> Dict:
+        """Activate one of the kingdom's war plans."""
+        if not self.wardens:
+            raise RuntimeError("Wardens not wired")
+        return self.wardens.activate_plan(plan_name)
+
+    def stand_down(self) -> Dict:
+        """Return defense posture to peace."""
+        if not self.wardens:
+            raise RuntimeError("Wardens not wired")
+        return self.wardens.stand_down()
+
+    def intelligence(self) -> Dict:
+        """Full intelligence briefing from the Wardens."""
+        if not self.wardens:
+            raise RuntimeError("Wardens not wired")
+        return self.wardens.intelligence_briefing()
 
     def seek_grail(self) -> Dict:
         """Seek the Grail. Measure convergence."""
@@ -802,6 +835,7 @@ class Avalon:
             "temple": self.temple.status if self.temple else None,
             "deathwalker": self.deathwalker.status if self.deathwalker else None,
             "hearth": self.hearth.status if self.hearth else None,
+            "wardens": self.wardens.status if self.wardens else None,
             "founded": self._founded,
             "age_hours": round((time.time() - self._founded) / 3600, 2),
             "institute": "The Forgotten Code Research Institute",

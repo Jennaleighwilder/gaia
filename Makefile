@@ -264,3 +264,18 @@ deathwalker-demo:
 
 hearth-demo:
 	.venv/bin/python -m avalon.hearth
+
+patrol:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.patrol(); print(f'Threat: {r[\"threat_level\"]}'); [print(f'  {s[\"scout\"]}: {s[\"finding\"][:60]}') for s in r['scout_reports']]"
+
+threat:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); print(f'Threat level: {a.threat_level()}')"
+
+intelligence:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); a.patrol(); b = a.intelligence(); print(f'Threat: {b[\"threat_level\"]}'); print(f'Scouts: {b[\"scouts\"]}'); print(f'Honeypots: {b[\"honeypots\"]}'); print(f'Canaries: {b[\"canaries\"]}'); print(f'War plans: {b[\"war_plans\"]}')"
+
+war-plans:
+	@.venv/bin/python -c "from avalon.wardens import KINGDOM_WAR_PLANS; [print(f'[{p.threat_level.value:10s}] {p.name}: {p.threat_type}') for p in KINGDOM_WAR_PLANS]"
+
+wardens-demo:
+	.venv/bin/python -m avalon.wardens

@@ -84,3 +84,9 @@ nyx-all:
 
 freeze-check:
 	@.venv/bin/python -c "from adapters.lancelot import LancelotAdapter; la = LancelotAdapter(); print(la.verify_freeze() if la.is_available else {'frozen': False, 'reason': 'West-OS not found in frozen/'})"
+
+merlin-sight:
+	.venv/bin/python -m avalon.merlin_feeds
+
+village-status:
+	.venv/bin/python -m avalon.village_routes

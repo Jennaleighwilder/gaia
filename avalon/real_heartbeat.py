@@ -36,6 +36,7 @@ from dataclasses import dataclass, field
 from enum import Enum
 
 from avalon.gaia_bridge import GaiaBridge
+from avalon.mirror_bridge import MirrorBridge
 
 # Try to import psutil — if not available, fall back to os-level checks
 try:
@@ -412,12 +413,21 @@ class RealHeartbeat:
     - CPU: is the system under load?
     """
     
-    def __init__(self, project_root: Optional[str] = None):
+    def __init__(
+        self,
+        project_root: Optional[str] = None,
+        gaia_bridge: Optional[GaiaBridge] = None,
+        mirror_bridge: Optional[MirrorBridge] = None,
+    ):
         self._root = Path(project_root) if project_root else Path.cwd()
         self._monitors: Dict[str, SystemMonitor] = {}
         self._beat_count = 0
         self._history: List[Dict] = []
-        self.gaia_bridge = GaiaBridge()
+        self.gaia_bridge = gaia_bridge or GaiaBridge()
+        frozen_candidate = self._root / "frozen" / "west-os"
+        self.mirror_bridge = mirror_bridge or MirrorBridge(
+            frozen_west_os_path=frozen_candidate if frozen_candidate.exists() else None,
+        )
         self._configure_default_monitors()
     
     def _configure_default_monitors(self):
@@ -505,6 +515,25 @@ class RealHeartbeat:
             )
             self._monitors["GAIA"] = gaia_mon
 
+        if self.mirror_bridge.is_available:
+            mirror_mon = SystemMonitor("Mirror OS")
+            mirror_mon.add_check(
+                "bridge_health",
+                self._mirror_bridge_health_check,
+                2.0,
+            )
+            mirror_mon.add_check(
+                "structure",
+                self._mirror_structure_check,
+                1.0,
+            )
+            mirror_mon.add_check(
+                "integration_surfaces",
+                self._mirror_integration_check,
+                0.75,
+            )
+            self._monitors["Mirror OS"] = mirror_mon
+
     def _gaia_bridge_health_check(self) -> Tuple[float, Dict]:
         health = self.gaia_bridge.health()
         if not health.get("available"):
@@ -551,6 +580,66 @@ class RealHeartbeat:
             "status": "healthy" if count >= 18 else "warning" if count >= 10 else "critical",
             "engines_found": count,
             "dem_terrain_files": engines.get("dem_terrain_files", 0),
+        }
+
+    def _mirror_bridge_health_check(self) -> Tuple[float, Dict]:
+        health = self.mirror_bridge.health()
+        if not health.get("available"):
+            return 0.1, {
+                "status": "unavailable",
+                "reason": health.get("reason") or "Mirror OS missing",
+            }
+        if health.get("running"):
+            score = 1.0
+            status = "healthy"
+        else:
+            score = 0.85
+            status = "sleeping"
+        return score, {
+            "status": status,
+            "mode": health.get("mode"),
+            "port": health.get("port"),
+            "running": health.get("running", False),
+        }
+
+    def _mirror_structure_check(self) -> Tuple[float, Dict]:
+        structure = self.mirror_bridge.read_structure()
+        if not structure.get("available"):
+            return 0.0, {"status": "critical", "reason": structure.get("reason")}
+        engine_lines = structure.get("engine", {}).get("lines", 0)
+        js_files = structure.get("js_files", 0)
+        if engine_lines > 0 and js_files >= 2:
+            score = 1.0
+            status = "healthy"
+        elif engine_lines > 0:
+            score = 0.7
+            status = "warning"
+        else:
+            score = 0.2
+            status = "critical"
+        return score, {
+            "status": status,
+            "engine_lines": engine_lines,
+            "js_files": js_files,
+        }
+
+    def _mirror_integration_check(self) -> Tuple[float, Dict]:
+        surfaces = self.mirror_bridge.read_integration_surfaces()
+        files = surfaces.get("files", {})
+        existing = [name for name, data in files.items() if data.get("exists")]
+        if not surfaces.get("available"):
+            return 0.4, {
+                "status": "warning",
+                "reason": surfaces.get("reason", "frozen integration unavailable"),
+            }
+        if existing:
+            return 1.0, {
+                "status": "healthy",
+                "surfaces_found": existing,
+            }
+        return 0.3, {
+            "status": "critical",
+            "surfaces_found": [],
         }
     
     def add_monitor(self, name: str, monitor: SystemMonitor):

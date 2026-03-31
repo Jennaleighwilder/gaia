@@ -50,6 +50,7 @@ from avalon.real_knights import arm_knights
 from avalon.real_healing import wire_real_healing
 from avalon.real_merlin import RealMerlin, wire_real_merlin
 from avalon.real_heartbeat import RealHeartbeat, wire_real_heartbeat
+from avalon.mirror_bridge import MirrorBridge, wire_mirror_bridge
 from avalon.round_table import RoundTable, Vote
 from avalon.knights import Knighthood, Knight, KnightState, Domain
 from avalon.merlin import Merlin
@@ -269,6 +270,7 @@ class Avalon:
             project_root=os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
         )
         self.gaia_bridge = getattr(self.real_heartbeat, "gaia_bridge", None)
+        self.mirror_bridge = getattr(self.real_heartbeat, "mirror_bridge", None)
         self.grail = Grail()
         self.fusion.grail = self.grail
         self.healing = Healing(
@@ -386,6 +388,9 @@ class Avalon:
             summons_callback=self._receive_summons,
         )
 
+        if not self.mirror_bridge:
+            self.mirror_bridge = wire_mirror_bridge(self)
+
         # Wire Real Merlin once the living kingdom exists
         self.real_merlin = wire_real_merlin(self)
         self.knight_skills = arm_knights(
@@ -399,6 +404,7 @@ class Avalon:
             real_heartbeat=self.real_heartbeat if hasattr(self, "real_heartbeat") else None,
             healing=self.healing,
             gaia_bridge=self.gaia_bridge,
+            mirror_bridge=self.mirror_bridge,
         )
 
         # The Longhouse — where people are served.
@@ -700,6 +706,30 @@ class Avalon:
         """Take the kingdom's real pulse."""
         return self.real_heartbeat.beat()
 
+    def mirror_health(self) -> Dict:
+        """Mirror OS health check."""
+        if not self.mirror_bridge:
+            return {"available": False, "reason": "Mirror bridge not wired"}
+        return self.mirror_bridge.health()
+
+    def mirror_reflection(self) -> Dict:
+        """What does Mirror OS see?"""
+        if not self.mirror_bridge:
+            return {"available": False, "reflection": "Mirror bridge not wired"}
+        return self.mirror_bridge.reflection()
+
+    def mirror_structure(self) -> Dict:
+        """Read Mirror OS's structure."""
+        if not self.mirror_bridge:
+            return {"available": False, "reason": "Mirror bridge not wired"}
+        return self.mirror_bridge.read_structure()
+
+    def mirror_integration(self) -> Dict:
+        """Read West-OS integration surfaces for Mirror OS."""
+        if not self.mirror_bridge:
+            return {"available": False, "reason": "Mirror bridge not wired"}
+        return self.mirror_bridge.read_integration_surfaces()
+
     def health_report(self) -> str:
         """Alfred's narrative report of real system health."""
         return self.real_heartbeat.narrative_report()
@@ -865,6 +895,7 @@ class Avalon:
             "hearth": self.hearth.status if self.hearth else None,
             "wardens": self.wardens.status if self.wardens else None,
             "crucible": self.crucible.status if self.crucible else None,
+            "mirror_os": self.mirror_bridge.status if self.mirror_bridge else None,
             "founded": self._founded,
             "age_hours": round((time.time() - self._founded) / 3600, 2),
             "institute": "The Forgotten Code Research Institute",

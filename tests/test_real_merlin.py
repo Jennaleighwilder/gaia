@@ -284,6 +284,41 @@ class TestWireRealMerlin:
         assert result["feeds_polled"] >= 1
         assert result["signals_extracted"] >= 0
 
+    def test_wires_mirror_feed_when_available(self):
+        class MockAvalon:
+            pass
+
+        class FakeMirror:
+            is_available = True
+
+            def reflection(self):
+                return {
+                    "available": True,
+                    "mirror_running": False,
+                    "reflection": "Mirror OS is present but sleeping.",
+                }
+
+        mock = MockAvalon()
+        mock.merlin = Merlin()
+        mock.fusion = Fusion()
+        mock.healing = type(
+            "Healing",
+            (),
+            {
+                "triage_report": lambda self: {
+                    "active_wounds": 0,
+                    "healed_total": 0,
+                    "treatment_success_rate": 0,
+                    "active": [],
+                    "recently_healed": [],
+                }
+            },
+        )()
+        mock.mirror_bridge = FakeMirror()
+
+        rm = wire_real_merlin(mock)
+        assert "mirror_reflection" in rm._feeds
+
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v", "--tb=short"])

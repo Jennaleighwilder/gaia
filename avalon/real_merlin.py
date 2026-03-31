@@ -344,6 +344,45 @@ class SignalExtractor:
                 ))
         return signals
 
+    @staticmethod
+    def from_mirror(reflection: Dict) -> List[Tuple[str, str, Dict]]:
+        """Extract signals from Mirror OS bridge readings."""
+        signals = []
+        if not reflection.get("available", False):
+            signals.append((
+                "introspection",
+                "Mirror OS unavailable the kingdom cannot see inward",
+                {"available": False, "reason": reflection.get("reason")},
+            ))
+            return signals
+
+        running = reflection.get("mirror_running", False)
+        signals.append((
+            "introspection",
+            reflection.get(
+                "reflection",
+                "Mirror OS provides no reflection at this time.",
+            ),
+            {
+                "running": running,
+                "mode": reflection.get("mode"),
+                "available": True,
+            },
+        ))
+
+        bootstrap = reflection.get("bootstrap") or {}
+        if bootstrap:
+            signals.append((
+                "introspection_bootstrap",
+                f"Mirror bootstrap sessions {bootstrap.get('sessionCount', 0)} bridge cases {bootstrap.get('bridgeCount', 0)} kernel events {bootstrap.get('kernelEventCount', 0)}",
+                {
+                    "session_count": bootstrap.get("sessionCount", 0),
+                    "bridge_count": bootstrap.get("bridgeCount", 0),
+                    "kernel_event_count": bootstrap.get("kernelEventCount", 0),
+                },
+            ))
+        return signals
+
 
 # ═══════════════════════════════════════════════════════════════
 #  REAL MERLIN — the pattern oracle with real feeds
@@ -454,6 +493,8 @@ class RealMerlin:
             return self._extractor.from_nyx_status(data)
         elif "gaia" in feed_name.lower() or domain == "atmospheric":
             return self._extractor.from_gaia(data)
+        elif "mirror" in feed_name.lower() or domain == "introspection":
+            return self._extractor.from_mirror(data)
         elif "journal" in feed_name.lower() or "memory" in feed_name.lower():
             if isinstance(data, list):
                 return self._extractor.from_memory_journal(data)
@@ -611,7 +652,15 @@ def wire_real_merlin(avalon) -> RealMerlin:
             lambda: avalon.gaia_bridge.sky_reading(),
             poll_interval=60,
         )
-    
+
+    if hasattr(avalon, "mirror_bridge") and avalon.mirror_bridge and avalon.mirror_bridge.is_available:
+        real_merlin.add_feed(
+            "mirror_reflection",
+            "introspection",
+            lambda: avalon.mirror_bridge.reflection(),
+            poll_interval=60,
+        )
+
     return real_merlin
 
 

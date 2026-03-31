@@ -166,6 +166,24 @@ merlin-test:
 merlin-report:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); [a.breathe() for _ in range(5)]; r = a.merlin_report(); print(f'Cycles: {r[\"cycles\"]}'); print(f'Signals: {r[\"total_signals\"]}'); print(f'Feeds: {r[\"active_feeds\"]}/{r[\"total_feeds\"]}'); print(f'Domains: {\", \".join(r[\"tower\"][\"domains_observed\"])}'); print(f'Sight: {r[\"sight\"]}')"
 
+mirror:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); h = a.mirror_health(); print(f'Mirror OS: {h.get(\"directory\", \"?\")}'); print(f'Engine: {h.get(\"engine\", \"?\")}'); print(f'Running: {h.get(\"running\", \"?\")}'); print(f'Health: {h.get(\"health\", 0):.0%}')"
+
+mirror-reflection:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.mirror_reflection(); print(r.get('reflection', 'No reflection'))"
+
+mirror-structure:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); s = a.mirror_structure(); print(f'Engine: {s.get(\"engine\", {}).get(\"lines\", \"?\")} lines'); print(f'JS files: {s.get(\"js_files\", \"?\")}'); print(f'Total lines: {s.get(\"total_js_lines\", \"?\")}')"
+
+mirror-integration:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); i = a.mirror_integration(); [print(f'  {n}: {d.get(\"lines\", \"?\")} lines, {d.get(\"functions\", \"?\")} fns') for n, d in i.get('files', {}).items() if d.get('exists')]"
+
+mirror-demo:
+	.venv/bin/python -m avalon.mirror_bridge
+
+mirror-test:
+	.venv/bin/python -m pytest tests/test_mirror_bridge.py -v --tb=short
+
 ceremony:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.ceremony(); print(f'Ceremony #{r[\"number\"]}'); tg = r.get(\"thanksgiving\", {}); print(f'Alive: {tg.get(\"alive_count\", 0)}/{tg.get(\"total_systems\", 0)}'); print(f'Gratitude ratio: {tg.get(\"gratitude_ratio\", 0):.0%}'); print(f'Wounds found: {r.get(\"wounds_found\", 0)}'); print(f'Wounds healed: {r.get(\"wounds_healed\", 0)}'); print(f'Merlin insights: {r.get(\"merlin_insights\", 0)}'); print(f'Lessons learned: {r.get(\"lessons_learned\", 0)}')"
 

@@ -34,6 +34,7 @@ from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
 
 from avalon.gaia_bridge import GaiaBridge
+from avalon.mirror_bridge import MirrorBridge
 
 
 class KnightSkill:
@@ -419,22 +420,35 @@ class MorganaSkill(KnightSkill):
 class NimueSkill(KnightSkill):
     """The Student Who Surpassed the Teacher."""
 
-    def __init__(self, merlin=None):
+    def __init__(self, merlin=None, mirror_bridge: Optional[MirrorBridge] = None):
         super().__init__("Nimue", "modification")
         self._merlin = merlin
+        self._mirror_bridge = mirror_bridge
 
     def ready(self) -> Tuple[bool, str]:
-        if not self._merlin:
-            return False, "Merlin not connected — cannot read the teacher's tower"
-        return True, "Nimue stands ready — the teacher's knowledge is accessible"
+        if not self._merlin and not self._mirror_bridge:
+            return False, "Merlin and Mirror not connected — no introspective surface available"
+        if self._merlin and self._mirror_bridge:
+            return True, "Nimue stands ready — she reads both the tower and the Mirror"
+        if self._merlin:
+            return True, "Nimue stands ready — the teacher's knowledge is accessible"
+        return True, "Nimue stands ready — the Mirror is speaking"
 
     def invoke(self, task: Any = None) -> Dict:
         is_ready, reason = self.ready()
         if not is_ready:
             return {"knight": "Nimue", "served": False, "reason": reason}
         try:
-            tower = self._merlin.tower_contents()
-            sight = self._merlin.the_sight()
+            tower = self._merlin.tower_contents() if self._merlin else {}
+            sight = self._merlin.the_sight() if self._merlin else "The teacher's tower is quiet."
+            mirror_reflection = (
+                self._mirror_bridge.reflection()
+                if self._mirror_bridge
+                else {"available": False, "reflection": "Mirror OS not connected."}
+            )
+            modification_vectors = len(tower.get("connection_graph", {}))
+            if mirror_reflection.get("available"):
+                modification_vectors += 1
             return {
                 "knight": "Nimue",
                 "served": True,
@@ -444,11 +458,15 @@ class NimueSkill(KnightSkill):
                     "domains_observed": tower.get("domains_observed", []),
                     "connections_mapped": len(tower.get("connection_graph", {})),
                     "merlin_sight": sight,
-                    "modification_vectors": len(tower.get("connection_graph", {})),
+                    "mirror_available": mirror_reflection.get("available", False),
+                    "mirror_running": mirror_reflection.get("mirror_running", False),
+                    "mirror_reflection": mirror_reflection.get("reflection"),
+                    "modification_vectors": modification_vectors,
                     "assessment": (
                         f"Merlin holds {tower.get('total_insights', 0)} insights "
                         f"across {len(tower.get('domains_observed', []))} domains. "
-                        f"I see {len(tower.get('connection_graph', {}))} modification vectors."
+                        f"Mirror is {'awake' if mirror_reflection.get('mirror_running') else 'present' if mirror_reflection.get('available') else 'absent'}. "
+                        f"I see {modification_vectors} modification vectors."
                     ),
                 },
                 "oath": "I learned how systems think. Then I learned to reshape them.",
@@ -649,6 +667,7 @@ def arm_knights(
     healing=None,
     gaia_path: Optional[Path] = None,
     gaia_bridge: Optional[GaiaBridge] = None,
+    mirror_bridge: Optional[MirrorBridge] = None,
 ) -> Dict[str, KnightSkill]:
     """Give every knight their real weapon."""
     root = project_root or Path.cwd()
@@ -663,7 +682,7 @@ def arm_knights(
         "Kay": KaySkill(frozen),
         "Bedivere": BedivereSkill(nyx),
         "Morgana": MorganaSkill(memory),
-        "Nimue": NimueSkill(merlin),
+        "Nimue": NimueSkill(merlin, mirror_bridge),
         "Gareth": GarethSkill(root),
         "Bors": BorsSkill(gaia, gaia_bridge),
         "Dagonet": DagonetSkill(merlin, grail),

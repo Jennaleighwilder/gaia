@@ -202,6 +202,24 @@ class TestNimue:
         assert result["served"]
         assert "tower_depth" in result["report"]
 
+    def test_invoke_reads_mirror_when_available(self):
+        class FakeMirror:
+            def reflection(self):
+                return {
+                    "available": True,
+                    "mirror_running": False,
+                    "reflection": "Mirror OS is present but sleeping.",
+                }
+
+        merlin = Merlin()
+        merlin.observe("test", "pattern frequency threshold")
+        merlin.see()
+        skill = NimueSkill(merlin, FakeMirror())
+        result = skill.invoke()
+        assert result["served"]
+        assert result["report"]["mirror_available"]
+        assert "Mirror OS" in result["report"]["mirror_reflection"]
+
 
 class TestGareth:
     def test_always_ready(self):

@@ -45,6 +45,7 @@ from avalon.longhouse import Longhouse, wire_longhouse
 from avalon.memory import Memory
 from avalon.crops import CropManager, wire_crops
 from avalon.arts import KingdomArts, wire_arts
+from avalon.armory import Armory, wire_armory
 from avalon.commerce import Commerce, wire_commerce
 from avalon.real_knights import arm_knights
 from avalon.real_healing import wire_real_healing
@@ -289,6 +290,7 @@ class Avalon:
         self.crops: Optional[CropManager] = None
         self.arts: Optional[KingdomArts] = None
         self.commerce: Optional[Commerce] = None
+        self.armory: Optional[Armory] = None
         self.temple: Optional[Temple] = None
         self.deathwalker: Optional[Deathwalker] = None
         self.hearth: Optional[Hearth] = None
@@ -423,6 +425,7 @@ class Avalon:
         self.crops = wire_crops(self)
         self.arts = wire_arts(self)
         self.commerce = wire_commerce(self)
+        self.armory = wire_armory(self)
 
         # Spirit and death layers.
         self.temple = wire_temple(self)
@@ -639,6 +642,18 @@ class Avalon:
         if not self.wardens:
             raise RuntimeError("Wardens not wired")
         return self.wardens.intelligence_briefing()
+
+    def scan_threat(self, text: str) -> List[Dict]:
+        """Scan text against the kingdom's full Armory."""
+        if not self.armory:
+            raise RuntimeError("Armory not wired")
+        return self.armory.detect(text)
+
+    def armory_census(self) -> Dict:
+        """Census of the kingdom's attack pattern coverage."""
+        if not self.armory:
+            raise RuntimeError("Armory not wired")
+        return self.armory.census()
 
     def enter_crucible(self) -> Dict:
         """Run all Crucible trials. Forge the brotherhood."""
@@ -912,6 +927,7 @@ class Avalon:
             "crops": self.crops.status if self.crops else None,
             "arts": self.arts.status if self.arts else None,
             "commerce": self.commerce.status if self.commerce else None,
+            "armory": self.armory.status if self.armory else None,
             "temple": self.temple.status if self.temple else None,
             "deathwalker": self.deathwalker.status if self.deathwalker else None,
             "hearth": self.hearth.status if self.hearth else None,

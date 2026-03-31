@@ -85,6 +85,15 @@ nyx-all:
 freeze-check:
 	@.venv/bin/python -c "from adapters.lancelot import LancelotAdapter; la = LancelotAdapter(); print(la.verify_freeze() if la.is_available else {'frozen': False, 'reason': 'West-OS not found in frozen/'})"
 
+armory:
+	@.venv/bin/python -c "from avalon.armory import Armory, load_full_armory; a = Armory(); load_full_armory(a); c = a.census(); print(f'Patterns: {c[\"total_patterns\"]}'); print(f'Categories: {c[\"categories\"]}/16'); print(f'Languages: {len(c[\"languages_covered\"])}')"
+
+scan:
+	@TEXT="$(TEXT)" .venv/bin/python -c "import os; from avalon.armory import Armory, load_full_armory; a = Armory(); load_full_armory(a); text = os.environ.get('TEXT') or 'hello world'; matches = a.detect(text); print(f'Matches: {len(matches)}'); [print(f'  ⚠ {m[\"pattern_name\"]} [{m[\"category\"]}] severity {m[\"severity\"]}') for m in matches] or print('  ✓ Clean')"
+
+armory-demo:
+	.venv/bin/python -m avalon.armory
+
 merlin-sight:
 	.venv/bin/python -m avalon.merlin_feeds
 

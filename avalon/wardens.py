@@ -387,14 +387,16 @@ class Wardens:
     - An intelligence archive of everything learned
     """
 
-    def __init__(self, project_root: Optional[str] = None):
+    def __init__(self, project_root: Optional[str] = None, avalon=None):
         self._root = Path(project_root) if project_root else Path.cwd()
+        self._avalon = avalon
         self._scouts: Dict[str, Scout] = {}
         self._honeypots: Dict[str, Honeypot] = {}
         self._canaries: Dict[str, Canary] = {}
         self._war_plans: Dict[str, WarPlan] = {p.name: p for p in KINGDOM_WAR_PLANS}
         self._threat_level = ThreatLevel.PEACE
         self._intelligence: List[Dict] = []
+        self._armory_processed: Dict[str, int] = {}
         self._log_path = self._root / "memory" / "wardens_log.jsonl"
         self._log_path.parent.mkdir(parents=True, exist_ok=True)
         self._active_plans: List[str] = []
@@ -454,6 +456,7 @@ class Wardens:
 
         # Check honeypots
         honeypot_triggered = len([h for h in self._honeypots.values() if h.triggered])
+        self._scan_honeypot_patterns()
 
         # Assess threat level
         old_level = self._threat_level
@@ -469,6 +472,35 @@ class Wardens:
             "threat_changed": self._threat_level != old_level,
             "active_plans": self._active_plans,
         }
+
+    def _scan_honeypot_patterns(self):
+        """Translate new honeypot touches into Armory intelligence."""
+        armory = getattr(self._avalon, "armory", None)
+        if not armory:
+            return
+
+        for name, honeypot in self._honeypots.items():
+            start = self._armory_processed.get(name, 0)
+            new_interactions = honeypot._interactions[start:]
+            self._armory_processed[name] = len(honeypot._interactions)
+            for interaction in new_interactions:
+                interaction_text = " ".join(
+                    str(interaction.get(key, ""))
+                    for key in ("accessor", "action", "honeypot", "bait_type")
+                )
+                matches = armory.detect(interaction_text)
+                for match in matches:
+                    self._record_intelligence(
+                        "armory_match",
+                        {
+                            "honeypot": name,
+                            "pattern_id": match["pattern_id"],
+                            "pattern_name": match["pattern_name"],
+                            "category": match["category"],
+                            "severity": match["severity"],
+                            "signal_matched": match["signal_matched"],
+                        },
+                    )
 
     def _assess_threat_level(self, threats: int, dead_canaries: int,
                                honeypots: int):
@@ -696,7 +728,7 @@ def wire_wardens(avalon, project_root: Optional[str] = None) -> Wardens:
         os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     )
 
-    wardens = Wardens(project_root=str(root))
+    wardens = Wardens(project_root=str(root), avalon=avalon)
 
     # Recruit scouts
     wardens.recruit_scout(

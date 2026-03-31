@@ -199,6 +199,38 @@ maturation-test:
 ceremony:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.ceremony(); print(f'Ceremony #{r[\"number\"]}'); tg = r.get(\"thanksgiving\", {}); print(f'Alive: {tg.get(\"alive_count\", 0)}/{tg.get(\"total_systems\", 0)}'); print(f'Gratitude ratio: {tg.get(\"gratitude_ratio\", 0):.0%}'); print(f'Wounds found: {r.get(\"wounds_found\", 0)}'); print(f'Wounds healed: {r.get(\"wounds_healed\", 0)}'); print(f'Merlin insights: {r.get(\"merlin_insights\", 0)}'); print(f'Lessons learned: {r.get(\"lessons_learned\", 0)}')"
 
+faithkeeper-night:
+	@mkdir -p runs
+	@if [ -f runs/faithkeeper.pid ] && kill -0 $$(cat runs/faithkeeper.pid) 2>/dev/null; then \
+		echo "Faithkeeper already breathing (pid $$(cat runs/faithkeeper.pid))."; \
+	else \
+		rm -f runs/faithkeeper.pid runs/faithkeeper_status.json; \
+		nohup env PYTHONUNBUFFERED=1 .venv/bin/python scripts/faithkeeper_daemon.py --seed 3 --interval 300 </dev/null > runs/faithkeeper.out 2>&1 & echo $$! > runs/faithkeeper.pid; \
+		sleep 4; \
+		if kill -0 $$(cat runs/faithkeeper.pid) 2>/dev/null; then \
+			echo "Faithkeeper started (pid $$(cat runs/faithkeeper.pid))."; \
+		else \
+			echo "Faithkeeper failed to start. See runs/faithkeeper.out"; \
+			exit 1; \
+		fi; \
+	fi
+
+faithkeeper-status:
+	@.venv/bin/python -c "import json; from pathlib import Path; status_path = Path('runs/faithkeeper_status.json'); pid_path = Path('runs/faithkeeper.pid'); data = json.loads(status_path.read_text()) if status_path.exists() else None; print(f'Launch PID: {pid_path.read_text().strip()}' if pid_path.exists() else 'Launch PID: not recorded'); print(f'Runtime PID: {data.get(\"pid\", \"unknown\")}' if data else 'Runtime PID: unknown'); print(json.dumps(data, indent=2) if data else 'No runtime status yet.')"
+
+faithkeeper-stop:
+	@PID=$$(.venv/bin/python -c "import json; from pathlib import Path; status = Path('runs/faithkeeper_status.json'); launch = Path('runs/faithkeeper.pid'); pid = (json.loads(status.read_text()).get('pid', 0) if status.exists() else (int(launch.read_text().strip() or 0) if launch.exists() else 0)); print(int(pid or 0))"); \
+	if [ "$$PID" != "0" ]; then \
+		kill $$PID 2>/dev/null || true; \
+		echo "Faithkeeper asked to rest."; \
+	else \
+		echo "Faithkeeper is not running."; \
+	fi; \
+	rm -f runs/faithkeeper.pid
+
+faithkeeper-journal:
+	@tail -10 memory/faithkeeper_log.jsonl 2>/dev/null || echo "No ceremonies recorded yet."
+
 thanksgiving:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); tg = a.faithkeeper.thanksgiving_now(); print(tg['narrative'])"
 

@@ -455,13 +455,16 @@ class Faithkeeper:
         ceremonies continuously at the set interval.
         Call lose_faith() to stop.
         """
+        if self._running:
+            return
         self._running = True
         self._started_at = time.time()
 
         def _rhythm():
             while self._running:
                 try:
-                    self._ceremony.perform()
+                    record = self._ceremony.perform()
+                    self._log_ceremony(record)
                 except Exception as e:
                     self._log_error(str(e))
                 # Sleep in small increments so we can stop quickly

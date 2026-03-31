@@ -152,6 +152,14 @@ class TestClanMother:
         cm.restore("Lancelot")
         assert not cm.is_removed("Lancelot")
 
+    def test_restore_records_empathy_history(self):
+        cm = ClanMother()
+        for _ in range(3):
+            cm.watch("Lancelot", {"served": False, "reason": "fail"})
+        cm.restore("Lancelot")
+        assert cm.report["horns_pulled"] == 1
+        assert cm.report["horns_restored"] == 1
+
 
 class TestInformedTable:
     def test_hold_council(self):

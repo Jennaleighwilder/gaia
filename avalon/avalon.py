@@ -51,6 +51,7 @@ from avalon.real_healing import wire_real_healing
 from avalon.real_merlin import RealMerlin, wire_real_merlin
 from avalon.real_heartbeat import RealHeartbeat, wire_real_heartbeat
 from avalon.mirror_bridge import MirrorBridge, wire_mirror_bridge
+from avalon.maturation import Maturation, wire_maturation
 from avalon.round_table import RoundTable, Vote
 from avalon.knights import Knighthood, Knight, KnightState, Domain
 from avalon.merlin import Merlin
@@ -293,6 +294,7 @@ class Avalon:
         self.hearth: Optional[Hearth] = None
         self.wardens: Optional[Wardens] = None
         self.crucible: Optional[Crucible] = None
+        self.maturation: Optional[Maturation] = None
         
         self._founded = time.time()
         self._sovereign = None
@@ -428,6 +430,7 @@ class Avalon:
         self.deathwalker = wire_deathwalker(self)
         self.wardens = wire_wardens(self)
         self.crucible = wire_crucible(self)
+        self.maturation = wire_maturation(self)
         
         return {
             "kingdom": "Avalon",
@@ -730,6 +733,25 @@ class Avalon:
             return {"available": False, "reason": "Mirror bridge not wired"}
         return self.mirror_bridge.read_integration_surfaces()
 
+    def assess_maturity(self) -> Dict:
+        """How mature is the kingdom?"""
+        if not self.maturation:
+            raise RuntimeError("Maturation not wired")
+        return self.maturation.assess()
+
+    def growth_narrative(self) -> str:
+        """Tell the story of the kingdom's growth."""
+        if not self.maturation:
+            raise RuntimeError("Maturation not wired")
+        return self.maturation.growth_narrative()
+
+    def current_stage(self) -> str:
+        """What developmental stage is the kingdom at?"""
+        if not self.maturation:
+            raise RuntimeError("Maturation not wired")
+        self.maturation.assess()
+        return self.maturation._current_stage.value
+
     def health_report(self) -> str:
         """Alfred's narrative report of real system health."""
         return self.real_heartbeat.narrative_report()
@@ -895,6 +917,7 @@ class Avalon:
             "hearth": self.hearth.status if self.hearth else None,
             "wardens": self.wardens.status if self.wardens else None,
             "crucible": self.crucible.status if self.crucible else None,
+            "maturation": self.maturation.status if self.maturation else None,
             "mirror_os": self.mirror_bridge.status if self.mirror_bridge else None,
             "founded": self._founded,
             "age_hours": round((time.time() - self._founded) / 3600, 2),

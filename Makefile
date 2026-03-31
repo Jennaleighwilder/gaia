@@ -184,6 +184,18 @@ mirror-demo:
 mirror-test:
 	.venv/bin/python -m pytest tests/test_mirror_bridge.py -v --tb=short
 
+maturity:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.assess_maturity(); print(f'Stage: {r[\"current_stage\"]}'); print(f'Milestones: {r[\"passed_milestones\"]}/{r[\"total_milestones\"]}'); print(); [print(f'  {\"✓\" if p[\"complete\"] else \" \"} {s:12s} {\"█\" * p[\"passed\"] + \"░\" * (p[\"total\"] - p[\"passed\"])} {p[\"passed\"]}/{p[\"total\"]}') for s, p in r['stage_progress'].items()]"
+
+growth:
+	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); print(a.growth_narrative())"
+
+maturation-demo:
+	.venv/bin/python -m avalon.maturation
+
+maturation-test:
+	.venv/bin/python -m pytest tests/test_maturation.py -v --tb=short
+
 ceremony:
 	@.venv/bin/python -c "from avalon.avalon import Avalon; a = Avalon(); a.found_kingdom(); r = a.ceremony(); print(f'Ceremony #{r[\"number\"]}'); tg = r.get(\"thanksgiving\", {}); print(f'Alive: {tg.get(\"alive_count\", 0)}/{tg.get(\"total_systems\", 0)}'); print(f'Gratitude ratio: {tg.get(\"gratitude_ratio\", 0):.0%}'); print(f'Wounds found: {r.get(\"wounds_found\", 0)}'); print(f'Wounds healed: {r.get(\"wounds_healed\", 0)}'); print(f'Merlin insights: {r.get(\"merlin_insights\", 0)}'); print(f'Lessons learned: {r.get(\"lessons_learned\", 0)}')"
 

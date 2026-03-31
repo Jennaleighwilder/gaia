@@ -89,6 +89,8 @@ class ClanMother:
         self._warnings: Dict[str, List[Warning]] = {}
         self._removed: Dict[str, str] = {}  # knight -> reason
         self._max_warnings = 3
+        self._pull_history: List[Dict[str, Any]] = []
+        self._restore_history: List[Dict[str, Any]] = []
 
     def watch(self, knight_name: str, skill_output: Dict) -> Optional[Warning]:
         """Watch a knight's performance. Issue warning if failing."""
@@ -110,6 +112,13 @@ class ClanMother:
                     f"Three warnings issued. Horns pulled. "
                     f"Reasons: {', '.join(w.reason[:50] for w in self._warnings[knight_name][-3:])}"
                 )
+                self._pull_history.append(
+                    {
+                        "knight_name": knight_name,
+                        "time": time.time(),
+                        "reason": self._removed[knight_name],
+                    }
+                )
                 return warning
 
             return warning
@@ -127,6 +136,12 @@ class ClanMother:
         """Restore a knight whose horns were pulled. Clan Mother's decision."""
         if knight_name in self._removed:
             del self._removed[knight_name]
+            self._restore_history.append(
+                {
+                    "knight_name": knight_name,
+                    "time": time.time(),
+                }
+            )
         if knight_name in self._warnings:
             self._warnings[knight_name] = []
 
@@ -141,6 +156,8 @@ class ClanMother:
                 for name, warnings in self._warnings.items() if warnings
             },
             "removed": dict(self._removed),
+            "horns_pulled": len(self._pull_history),
+            "horns_restored": len(self._restore_history),
             "all_clear": len(self._removed) == 0,
         }
 

@@ -586,7 +586,7 @@ footer {
       <div class="divider"></div>
       <div style="font-size:11px;color:var(--text2);font-family:'JetBrains Mono',monospace;line-height:1.6">
         KPAH remains GAIA's radar proof point<br>
-        193 min early on Mayfield 2021
+        193 min early on Dec 10–11 2021 outbreak
       </div>
     </div>
   </div>
@@ -676,7 +676,7 @@ footer {
       <div class="val-grid">
         <div class="val-block">
           <div class="val-num" id="valRadarLead">193<span class="val-unit">m</span></div>
-          <div class="val-desc">GAIA radar early warning on Mayfield 2021</div>
+          <div class="val-desc">GAIA radar early warning on Dec 10–11 2021 Quad-State outbreak</div>
         </div>
         <div class="val-block">
           <div class="val-num" id="valAuc">0.842</div>
@@ -831,9 +831,15 @@ function updateAlertBar(payload) {
 }
 
 async function fetchJson(path, timeoutMs = 12000) {
-  const resp = await fetch(API + path, { signal: AbortSignal.timeout(timeoutMs) });
-  if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-  return resp.json();
+  const ctl = new AbortController();
+  const t = setTimeout(() => ctl.abort(), timeoutMs);
+  try {
+    const resp = await fetch(API + path, { signal: ctl.signal });
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    return resp.json();
+  } finally {
+    clearTimeout(t);
+  }
 }
 
 async function loadAll() {
@@ -843,12 +849,17 @@ async function loadAll() {
   let baselineData = {};
   let liveData = { error: true };
 
+  const apiPill = document.getElementById('apiPill');
+  const apiStatusText = document.getElementById('apiStatusText');
   try {
     await fetchJson('/health', 8000);
-    document.getElementById('apiPill').classList.add('online');
-    document.getElementById('apiStatusText').textContent = 'LIVE';
-  } catch {
-    document.getElementById('apiStatusText').textContent = 'OFFLINE';
+    apiPill.classList.add('online');
+    apiPill.removeAttribute('title');
+    apiStatusText.textContent = 'LIVE';
+  } catch (e) {
+    apiPill.classList.remove('online');
+    apiStatusText.textContent = 'OFFLINE';
+    apiPill.title = e && e.name === 'AbortError' ? 'API request timed out' : (e && e.message) ? String(e.message) : 'API unreachable';
   }
 
   const results = await Promise.allSettled([

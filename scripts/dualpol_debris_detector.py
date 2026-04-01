@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Phase 4: Dual-pol debris-ball confirmation for Mayfield (Dec 10/11 2021).
+Phase 4: Dual-pol TDS (Tornadic Debris Signature) detector for the
+Dec 10-11 2021 Quad-State outbreak — KPAH Paducah KY scans.
 
-Reads local NEXRAD Level II KPAH scans and searches for collocated:
-  - high reflectivity
-  - low cross-correlation coefficient (CC)
-  - near-zero ZDR
-  - strong rotational velocity couplet
+TDS gates (Snyder & Ryzhkov 2015 HCA framework) — all must fire together:
+  - CC < 0.80
+  - Reflectivity (Z) >= 45 dBZ
+  - ZDR <= 0.5 dB  (near-zero or negative)
+  - Beam height check: beam_overshoot flag if > 3 km AGL, reduces confidence
+
+Rotation couplet is recorded but not required for dual-pol TDS confirmation.
 
 Outputs:
   - runs/dualpol_mayfield_report.json
@@ -52,6 +55,22 @@ def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
         * math.sin(dlon / 2) ** 2
     )
     return r * 2 * math.asin(math.sqrt(min(1.0, a)))
+
+
+def _beam_height_km(range_km: float, elevation_deg: float, antenna_alt_km: float = 0.1) -> float:
+    """
+    Standard 4/3 Earth-radius beam-height formula (Doviak & Zrnic 1993).
+    Returns beam centre height AGL (km) for a given slant range and elevation.
+    """
+    ke = 4.0 / 3.0
+    re = 6371.0
+    theta = math.radians(elevation_deg)
+    h = (
+        math.sqrt(range_km ** 2 + (ke * re) ** 2 + 2 * range_km * ke * re * math.sin(theta))
+        - ke * re
+        + antenna_alt_km
+    )
+    return max(0.0, h)
 
 
 def _scan_time_utc(radar) -> datetime:
@@ -118,14 +137,32 @@ def analyze_scan(path: Path, radius_km: float = 40.0) -> dict | None:
         if vmax > 0 and vmin < 0:
             vrot = (vmax - vmin) / 2.0
 
-        # Debris-ball heuristic: strong Z + low CC + near-zero ZDR.
-        # Rotation may be unavailable/range-folded at this distance, so it is recorded,
-        # but not required for dual-pol debris confirmation.
-        debris = (
-            refl_max >= 45.0
-            and cc_min <= 0.86
-            and abs(zdr_med) <= 1.5
-        )
+        # ── Beam height check (Doviak & Zrnic 1993) ──────────────────────
+        elevation_deg = float(radar.fixed_angle["data"][sw])
+        # Use median range of masked gates as representative slant range
+        ranges = radar.range["data"]
+        gate_ranges = np.tile(ranges, (gate_lat.shape[0], 1))
+        masked_ranges = gate_ranges[mask & np.isfinite(r)]
+        representative_range_km = float(np.nanmedian(masked_ranges)) / 1000.0 if masked_ranges.size else 0.0
+        beam_h_km = _beam_height_km(representative_range_km, elevation_deg)
+        beam_overshoot = beam_h_km > 3.0
+
+        # ── TDS gate (Snyder & Ryzhkov 2015 HCA framework) ───────────────
+        # All four conditions must fire simultaneously:
+        #   1. CC < 0.80
+        #   2. Z >= 45 dBZ
+        #   3. ZDR <= 0.5 dB  (near-zero or negative)
+        #   4. Beam height <= 3 km AGL  (overshoot = reduced confidence, not disqualifier)
+        tds_cc   = cc_min < 0.80
+        tds_z    = refl_max >= 45.0
+        tds_zdr  = zdr_med <= 0.5
+        debris   = tds_cc and tds_z and tds_zdr
+
+        # Confidence: start at 1.0, reduce 0.30 for beam overshoot
+        confidence = 1.0
+        if beam_overshoot:
+            confidence -= 0.30
+
         candidate = {
             "scan_time": scan_time.isoformat(),
             "sweep": sw,
@@ -134,6 +171,10 @@ def analyze_scan(path: Path, radius_km: float = 40.0) -> dict | None:
             "zdr_median_db": round(zdr_med, 2),
             "vrot_ms": round(vrot, 1),
             "rotation_available": bool(np.isfinite(vmax) and np.isfinite(vmin)),
+            "beam_height_agl_km": round(beam_h_km, 2),
+            "beam_overshoot": beam_overshoot,
+            "tds_gates": {"cc": tds_cc, "z": tds_z, "zdr": tds_zdr},
+            "tds_confidence": round(confidence, 2),
             "debris_detected": debris,
             "file": path.name,
         }

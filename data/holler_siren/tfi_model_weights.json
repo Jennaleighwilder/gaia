@@ -1,0 +1,51 @@
+{
+  "features": [
+    "slope_mean",
+    "slope_max",
+    "pct_steep",
+    "pct_very_steep",
+    "pct_se_facing",
+    "pct_se_steep",
+    "elev_m",
+    "road_dist_km",
+    "pct_forest_loss"
+  ],
+  "coefficients": {
+    "slope_mean": 0.2717,
+    "slope_max": 0.0534,
+    "pct_steep": 0.1414,
+    "pct_very_steep": -0.2112,
+    "pct_se_facing": 0.1738,
+    "pct_se_steep": 0.248,
+    "elev_m": -0.1065,
+    "road_dist_km": 0.1062,
+    "pct_forest_loss": 0.095
+  },
+  "intercept": 0.0064,
+  "scaler_mean": [
+    19.8864,
+    46.2757,
+    14.8053,
+    1.2774,
+    31.3937,
+    4.725,
+    984.2778,
+    2.9644,
+    0.4099
+  ],
+  "scaler_std": [
+    5.1774,
+    8.4331,
+    13.243,
+    3.4388,
+    14.6239,
+    5.8482,
+    187.9466,
+    4.4797,
+    0.7943
+  ],
+  "cv_auc": 0.629,
+  "cv_std": 0.0351,
+  "trained_on": "USGS Helene landslide inventory, Yancey+Mitchell NC",
+  "validation": "Holler Siren v3 \u2014 trained on real failures"
+}

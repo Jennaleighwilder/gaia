@@ -32,6 +32,24 @@ PYTHONPATH=/Users/jenniferwest/gaia .venv/bin/python scripts/fire/fire_risk_laye
 
 Get a free FIRMS key at https://firms.modaps.eosdis.nasa.gov/api/
 
+Core web deploys install [requirements.txt](/Users/jenniferwest/gaia/requirements.txt). For heavier local science/radar tooling, add [requirements-optional.txt](/Users/jenniferwest/gaia/requirements-optional.txt):
+
+```bash
+.venv/bin/pip install -r requirements.txt -r requirements-optional.txt
+```
+
+## Fire Layer Setup
+
+```bash
+cp .env.example .env.local
+# then paste your NASA FIRMS MAP_KEY into .env.local
+
+PYTHONPATH=/Users/jenniferwest/gaia .venv/bin/python scripts/fire/fire_ingest.py
+PYTHONPATH=/Users/jenniferwest/gaia .venv/bin/python scripts/fire/fire_risk_layer.py
+```
+
+Get a free FIRMS key at https://firms.modaps.eosdis.nasa.gov/api/
+
 ## Deployment
 
 - **GitHub Pages:** In repo **Settings → Pages**, set source to branch **`main`** and folder **`/docs`** (recommended). This repo includes **`docs/.nojekyll`** and **`.nojekyll`** so Jekyll does not replace the site with `README.md`. The public dashboard is **`docs/index.html`** (full GAIA Weather Intelligence UI). Root **`index.html`** redirects to **`docs/index.html`** if you use **`/`** as the Pages folder.

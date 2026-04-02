@@ -36,18 +36,29 @@ def _get_opener():
     return _DIRECT_OPENER
 
 
-def _fetch_json(url: str, timeout: int = 30) -> dict | None:
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": "GAIA/1.0 (severe-weather; theforgottencode.com)"})
-        opener = _get_opener()
-        if opener:
-            with opener.open(req, timeout=timeout) as r:
+def _fetch_json(url: str, timeout: int = 30, _retries: int = 3) -> dict | None:
+    """Hardened fetch: retry + exponential backoff. Replaces bare one-shot fetch."""
+    import time as _time
+    last_err = None
+    for attempt in range(_retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "GAIA/1.0 (severe-weather; theforgottencode.com)"})
+            opener = _get_opener()
+            if opener:
+                with opener.open(req, timeout=timeout) as r:
+                    return json.loads(r.read().decode("utf-8", errors="replace"))
+            with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8", errors="replace"))
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return json.loads(r.read().decode("utf-8", errors="replace"))
-    except Exception as e:
-        logger.warning("Fetch %s failed: %s", url[:80], e)
-        return None
+        except urllib.request.HTTPError as e:
+            last_err = f"HTTP {e.code}"
+            if e.code in (400, 401, 403, 404, 410):
+                break  # do not retry client errors
+        except Exception as e:
+            last_err = str(e)[:80]
+        if attempt < _retries - 1:
+            _time.sleep(2.0 ** attempt)
+    logger.warning("Fetch %s failed after %d tries: %s", url[:80], _retries, last_err)
+    return None
 
 
 def _fetch_text(url: str, timeout: int = 30) -> str | None:

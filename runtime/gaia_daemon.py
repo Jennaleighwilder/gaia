@@ -35,27 +35,60 @@ def main():
     cache = GAIADataCache()
     cache.start()
 
+    # ── NYX METABOLIC DAEMON ──────────────────────────────────────────
+    # Runs alongside GAIA. Converts live weather/fire/seismic data
+    # into signal, feeds the Void, births children when phi crossed.
+    # Bacteria model: membrane → glycolysis → krebs cycle → ATP.
+    # Sporulates when data dries up. Germinates when it returns.
+    try:
+        import sys as _sys
+        import os as _os
+        _nyx_path = _os.path.expanduser(
+            '~/Documents/New project/gaia_live'
+        )
+        if _nyx_path not in _sys.path:
+            _sys.path.insert(0, _nyx_path)
+        from nyx.metabolism import MetabolicDaemon
+        _metabolism = MetabolicDaemon(liminal_path='/tmp/nyx_home')
+        _metabolism.register_gaia_sources(cache=cache)
+        _metabolism.start_background()
+        logger.info('Nyx metabolic daemon started alongside GAIA')
+    except Exception as _e:
+        logger.warning('Nyx metabolism not available (non-critical): %s', _e)
+    # ─────────────────────────────────────────────────────────────────
+
     alerts_dir = ROOT / "runs" / "alerts"
     alerts_dir.mkdir(parents=True, exist_ok=True)
     db_path = ROOT / "runs" / "gaia_decisions.db"
 
-    def init_db():
-        conn = sqlite3.connect(db_path)
-        conn.execute("""
-            CREATE TABLE IF NOT EXISTS decisions (
-                id INTEGER PRIMARY KEY,
-                timestamp TEXT,
-                county TEXT,
-                decision TEXT,
-                confidence REAL,
-                alert_json TEXT,
-                created_at TEXT
-            )
-        """)
-        conn.commit()
-        conn.close()
+    # Hardened DB: persistent connection, WAL mode, no per-county open/close
+    _db_conn = sqlite3.connect(str(db_path), check_same_thread=False, timeout=10.0)
+    _db_conn.execute("PRAGMA journal_mode=WAL")
+    _db_conn.execute("PRAGMA synchronous=NORMAL")
+    _db_conn.execute("""
+        CREATE TABLE IF NOT EXISTS decisions (
+            id INTEGER PRIMARY KEY,
+            timestamp TEXT,
+            county TEXT,
+            decision TEXT,
+            confidence REAL,
+            alert_json TEXT,
+            created_at TEXT
+        )
+    """)
+    _db_conn.commit()
+    _db_lock = __import__("threading").Lock()
 
-    init_db()
+    def _insert_decision(timestamp, county, decision, confidence, alert_json, created_at):
+        with _db_lock:
+            try:
+                _db_conn.execute(
+                    "INSERT INTO decisions (timestamp,county,decision,confidence,alert_json,created_at) VALUES (?,?,?,?,?,?)",
+                    (timestamp, county, decision, confidence, alert_json, created_at),
+                )
+                _db_conn.commit()
+            except Exception as _dbe:
+                logger.warning("DB write failed for %s: %s", county, _dbe)
 
     # Upper-air sounding state
     _sounding_data = None
@@ -108,20 +141,14 @@ def main():
                 decision = result.get("decision", "CLEAR")
                 confidence = result.get("confidence", 0.0)
 
-                conn = sqlite3.connect(db_path)
-                conn.execute(
-                    "INSERT INTO decisions (timestamp, county, decision, confidence, alert_json, created_at) VALUES (?,?,?,?,?,?)",
-                    (
-                        result.get("timestamp"),
-                        county,
-                        decision,
-                        confidence,
-                        json.dumps(result) if result else None,
-                        datetime.now(timezone.utc).isoformat(),
-                    ),
+                _insert_decision(
+                    result.get("timestamp"),
+                    county,
+                    decision,
+                    confidence,
+                    json.dumps(result) if result else None,
+                    datetime.now(timezone.utc).isoformat(),
                 )
-                conn.commit()
-                conn.close()
 
                 if decision in ("WARNING", "EMERGENCY") or result.get("flash_flood_warning") or result.get("wildfire_warning"):
                     alerts = format_from_governor_result(result)

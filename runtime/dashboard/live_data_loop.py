@@ -21,6 +21,8 @@ import threading
 import time
 from pathlib import Path
 
+from runtime.config.firms_key import firms_map_key_explicit_env
+
 logger = logging.getLogger(__name__)
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -97,7 +99,7 @@ def start_live_data_refresh_thread() -> None:
             surface_sec,
             sound_sec,
             fire_sec,
-            "set" if os.environ.get("FIRMS_MAP_KEY", "").strip() else "MISSING",
+            "env" if firms_map_key_explicit_env() else "fallback",
         )
         try:
             _run_fire_pipeline()

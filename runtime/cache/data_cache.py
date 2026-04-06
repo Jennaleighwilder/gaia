@@ -139,7 +139,9 @@ def _fetch_firms() -> dict | None:
     if os.environ.get("GAIA_OFFLINE") == "1":
         return {"fires": [], "stale": True}
 
-    key = os.environ.get("FIRMS_MAP_KEY", "")
+    from runtime.config.firms_key import resolve_firms_map_key
+
+    key = resolve_firms_map_key()
     if not key:
         return {"fires": [], "stale": True}
     bbox = EAST_TN_BBOX

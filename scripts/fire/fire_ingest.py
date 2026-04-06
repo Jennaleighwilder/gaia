@@ -17,6 +17,7 @@ if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
 from runtime.config.env_loader import load_local_env
+from runtime.config.firms_key import firms_map_key_explicit_env, resolve_firms_map_key
 from scripts._http_fetch import fetch_bytes
 
 
@@ -120,11 +121,11 @@ def _bbox_intersects(a: tuple[float, float, float, float], b: tuple[float, float
 
 def ingest_firms() -> dict:
     print("=== 1. NASA FIRMS VIIRS ===")
-    firms_key = os.environ.get("FIRMS_MAP_KEY")
+    firms_key = resolve_firms_map_key()
     bbox_str = ",".join(str(v) for v in BBOX_WNC)
     url = (
         "https://firms.modaps.eosdis.nasa.gov/api/area/csv/"
-        f"{urllib.parse.quote(firms_key or 'DEMO_KEY', safe='')}/"
+        f"{urllib.parse.quote(firms_key, safe='')}/"
         f"{FIRMS_DATASET}/{bbox_str}/{FIRMS_LOOKBACK_DAYS}"
     )
 
@@ -133,7 +134,8 @@ def ingest_firms() -> dict:
         "dataset": FIRMS_DATASET,
         "bbox": BBOX_WNC,
         "lookback_days": FIRMS_LOOKBACK_DAYS,
-        "map_key_configured": bool(firms_key),
+        "map_key_configured": bool(firms_map_key_explicit_env()),
+        "map_key_source": "env" if firms_map_key_explicit_env() else "gaia_fallback",
         "fetched": _now_iso(),
         "fires": [],
         "count": 0,
@@ -179,9 +181,7 @@ def ingest_firms() -> dict:
     except Exception as exc:
         result["error"] = str(exc)
         print(f"FIRMS fetch failed: {exc}")
-        if not firms_key:
-            print("  -> FIRMS_MAP_KEY is not configured. Register free at:")
-            print("     https://firms.modaps.eosdis.nasa.gov/api/")
+        print("  -> See https://firms.modaps.eosdis.nasa.gov/api/ — set FIRMS_MAP_KEY to override the built-in key.")
 
     _write_json(OUTPUT_DIR / "firms_results.json", result)
     return result

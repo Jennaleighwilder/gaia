@@ -6,7 +6,8 @@ Fetches current values of AO, PNA, MEI, PDO, SST from NOAA/CPC,
 runs UVRK-1 on the trailing window, and reports the multi-layer
 convergence score.
 
-Output: JSON to stdout (consumed by dashboard).
+Output: JSON to stdout (default). With ``--cron``, writes runs/live_tess.json
+and prints a one-line summary (for scheduled runs / log files).
 """
 
 from __future__ import annotations
@@ -204,6 +205,7 @@ def compute_tess_score(
 
 
 def main():
+    cron_mode = "--cron" in sys.argv
     now = datetime.now(timezone.utc)
     ym = (now.year, now.month)
     result: dict = {
@@ -349,7 +351,18 @@ def main():
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(json.dumps(result, indent=2) + "\n")
 
-    print(json.dumps(result, indent=2))
+    if cron_mode:
+        err_n = len(result.get("errors") or [])
+        platt = result.get("outbreak_probability_platt")
+        platt_s = f"{platt:.4f}" if isinstance(platt, (int, float)) else "n/a"
+        print(
+            f"[GAIA TESS] ts={result['timestamp']} score={result.get('tess_score')} "
+            f"risk={result.get('risk_level')} layers_firing={result.get('layers_firing')} "
+            f"platt={platt_s} errors={err_n}",
+            flush=True,
+        )
+    else:
+        print(json.dumps(result, indent=2))
     return 0
 
 

@@ -43,6 +43,12 @@ def _run_surface_cron() -> None:
         sys.argv = argv_bak
 
 
+def _run_soundings() -> None:
+    from runtime.data.sounding_client import fetch_all_soundings
+
+    fetch_all_soundings()
+
+
 def start_live_data_refresh_thread() -> None:
     raw = os.environ.get("GAIA_LIVE_REFRESH", "1").strip().lower()
     if raw in ("0", "false", "no", "off"):
@@ -51,15 +57,17 @@ def start_live_data_refresh_thread() -> None:
 
     tess_sec = int(os.environ.get("GAIA_LIVE_TESS_INTERVAL_SEC", "900"))
     surface_sec = int(os.environ.get("GAIA_LIVE_SURFACE_INTERVAL_SEC", "600"))
+    sound_sec = int(os.environ.get("GAIA_LIVE_SOUNDINGS_INTERVAL_SEC", "1800"))
 
     def loop() -> None:
         if str(ROOT) not in sys.path:
             sys.path.insert(0, str(ROOT))
-        next_tess = next_surface = time.monotonic()
+        next_tess = next_surface = next_sound = time.monotonic()
         logger.info(
-            "GAIA live refresh thread started (TESS every %ss, surface every %ss)",
+            "GAIA live refresh thread started (TESS %ss, surface %ss, soundings %ss)",
             tess_sec,
             surface_sec,
+            sound_sec,
         )
         while True:
             now = time.monotonic()
@@ -77,6 +85,13 @@ def start_live_data_refresh_thread() -> None:
                 except Exception as e:
                     logger.warning("live_surface refresh failed: %s", e)
                 next_surface = now + surface_sec
+            if now >= next_sound:
+                try:
+                    _run_soundings()
+                    logger.info("Refreshed runs/live_soundings.json")
+                except Exception as e:
+                    logger.warning("soundings refresh failed: %s", e)
+                next_sound = now + sound_sec
             time.sleep(30)
 
     t = threading.Thread(target=loop, name="gaia-live-data", daemon=True)

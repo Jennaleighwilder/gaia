@@ -151,7 +151,12 @@ def fetch_all_soundings(dt: datetime | None = None) -> dict:
     cache_file = CACHE_DIR / f"soundings_{cache_key}.json"
 
     if cache_file.exists():
-        return json.loads(cache_file.read_text())
+        output = json.loads(cache_file.read_text())
+        output["fetched_at"] = datetime.now(timezone.utc).isoformat()
+        (CACHE_DIR.parent / "live_soundings.json").write_text(
+            json.dumps(output, indent=2) + "\n", encoding="utf-8"
+        )
+        return output
 
     soundings = []
     for sid in STATIONS:

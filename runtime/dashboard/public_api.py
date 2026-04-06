@@ -46,6 +46,7 @@ NWS_USER_AGENT = os.environ.get(
 DEFAULT_CORS = (
     "https://jennaleighwilder.github.io,"
     "https://web-production-ce417.up.railway.app,"
+    "https://gaia-api-cfxi.onrender.com,"
     "http://127.0.0.1:5500,"
     "http://localhost:5001"
 )
@@ -387,38 +388,46 @@ def register_public_routes(app) -> None:
         }
 
         if holler_siren_alert:
-            rainfall_mm_hr = _safe_float(request.args.get("rainfall_mm_hr"))
-            if rainfall_mm_hr is None:
-                precip_rate_in_hr = _safe_float(request.args.get("precip_rate_in_hr"))
-                if precip_rate_in_hr is not None:
-                    rainfall_mm_hr = precip_rate_in_hr * 25.4
-            if rainfall_mm_hr is None:
-                rainfall_mm_hr = _surface_max_precip_mm_hr(surface)
-            if rainfall_mm_hr is None and get_current_rainfall_noaa is not None:
-                live_rain, live_source = get_current_rainfall_noaa()
-                if live_rain is not None:
-                    rainfall_mm_hr = live_rain
-                    bundle["holler_siren_live"] = {
-                        "rainfall_mm_hr": live_rain,
-                        "source": live_source,
-                    }
+            try:
+                rainfall_mm_hr = _safe_float(request.args.get("rainfall_mm_hr"))
+                if rainfall_mm_hr is None:
+                    precip_rate_in_hr = _safe_float(request.args.get("precip_rate_in_hr"))
+                    if precip_rate_in_hr is not None:
+                        rainfall_mm_hr = precip_rate_in_hr * 25.4
+                if rainfall_mm_hr is None:
+                    rainfall_mm_hr = _surface_max_precip_mm_hr(surface)
+                if rainfall_mm_hr is None and get_current_rainfall_noaa is not None:
+                    try:
+                        live_rain, live_source = get_current_rainfall_noaa()
+                    except Exception as e:
+                        logger.warning("get_current_rainfall_noaa in bundle: %s", e)
+                        live_rain, live_source = None, None
+                    if live_rain is not None:
+                        rainfall_mm_hr = live_rain
+                        bundle["holler_siren_live"] = {
+                            "rainfall_mm_hr": live_rain,
+                            "source": live_source,
+                        }
 
-            if rainfall_mm_hr is not None:
-                antecedent_sat_pct = _safe_float(request.args.get("antecedent_sat_pct")) or 0.0
-                duration_hr = _safe_float(request.args.get("duration_hr")) or 6.0
-                lat_min = _safe_float(request.args.get("lat_min"))
-                lon_min = _safe_float(request.args.get("lon_min"))
-                lat_max = _safe_float(request.args.get("lat_max"))
-                lon_max = _safe_float(request.args.get("lon_max"))
-                bbox = None
-                if None not in (lat_min, lon_min, lat_max, lon_max):
-                    bbox = (lat_min, lon_min, lat_max, lon_max)
-                bundle["holler_siren"] = holler_siren_alert(
-                    rainfall_mm_hr=rainfall_mm_hr,
-                    bbox=bbox,
-                    antecedent_sat_pct=antecedent_sat_pct,
-                    duration_hr=duration_hr,
-                )
+                if rainfall_mm_hr is not None:
+                    antecedent_sat_pct = _safe_float(request.args.get("antecedent_sat_pct")) or 0.0
+                    duration_hr = _safe_float(request.args.get("duration_hr")) or 6.0
+                    lat_min = _safe_float(request.args.get("lat_min"))
+                    lon_min = _safe_float(request.args.get("lon_min"))
+                    lat_max = _safe_float(request.args.get("lat_max"))
+                    lon_max = _safe_float(request.args.get("lon_max"))
+                    bbox = None
+                    if None not in (lat_min, lon_min, lat_max, lon_max):
+                        bbox = (lat_min, lon_min, lat_max, lon_max)
+                    bundle["holler_siren"] = holler_siren_alert(
+                        rainfall_mm_hr=rainfall_mm_hr,
+                        bbox=bbox,
+                        antecedent_sat_pct=antecedent_sat_pct,
+                        duration_hr=duration_hr,
+                    )
+            except Exception as e:
+                logger.exception("holler_siren block in /api/bundle")
+                bundle["holler_siren_error"] = str(e)
         return jsonify(bundle)
 
     @app.route("/api/fire")

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import gzip
+import os
 import shutil
 import sys
 import urllib.request
@@ -19,6 +20,12 @@ if str(ROOT) not in sys.path:
 PILOT_LAT = 35.97
 PILOT_LON = -82.10
 USER_AGENT = "HollerSiren/1.0"
+
+# Keep total worst-case latency bounded for HTTP handlers (e.g. gunicorn ~30s).
+# Previously each candidate used timeout=20s and the list was long enough to exceed worker limits.
+HTTP_TIMEOUT_SEC = float(os.environ.get("GAIA_LIVE_RAIN_HTTP_TIMEOUT", "3"))
+MAX_STAGE4_ATTEMPTS = int(os.environ.get("GAIA_LIVE_RAIN_MAX_STAGE4", "6"))
+MAX_MRMS_ATTEMPTS = int(os.environ.get("GAIA_LIVE_RAIN_MAX_MRMS", "2"))
 
 
 def _read_stage4_tif(data: bytes, lat: float, lon: float, kind: str) -> float:
@@ -74,10 +81,14 @@ def get_current_rainfall_noaa(lat: float = PILOT_LAT, lon: float = PILOT_LON) ->
             "stage4-daily",
         ))
 
+    stage4_tries = 0
     for url, kind in candidates:
+        if stage4_tries >= MAX_STAGE4_ATTEMPTS:
+            break
+        stage4_tries += 1
         try:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT_SEC) as resp:
                 data = resp.read()
             if len(data) < 1000:
                 continue
@@ -95,10 +106,14 @@ def get_current_rainfall_noaa(lat: float = PILOT_LAT, lon: float = PILOT_LON) ->
             f"https://mrms.ncep.noaa.gov/data/2D/PrecipRate/MRMS_PrecipRate_00.00_{stamp}.grib2.gz"
         )
 
+    mrms_tries = 0
     for url in mrms_candidates:
+        if mrms_tries >= MAX_MRMS_ATTEMPTS:
+            break
+        mrms_tries += 1
         try:
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with urllib.request.urlopen(req, timeout=HTTP_TIMEOUT_SEC) as resp:
                 data = resp.read()
             if len(data) < 1000:
                 continue

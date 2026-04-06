@@ -238,6 +238,10 @@ def _fire_payload() -> dict:
 
     return {
         "timestamp": now,
+        "firms_fetched": firms.get("fetched"),
+        "fire_overlay_computed": overlay.get("computed"),
+        "firms_map_key_configured": bool(firms.get("map_key_configured")),
+        "firms_ingest_error": firms.get("error"),
         "pilot_area": "Southern Appalachians pilot - Western NC live fire ingest",
         "nifc_context": (
             "NIFC March 2026 flagged the southern Appalachians. "

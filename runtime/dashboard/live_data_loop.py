@@ -1,8 +1,12 @@
 """
-Background refresh of runs/live_tess.json and runs/live_surface.json on the web worker.
+Background refresh on the web worker: TESS, surface METAR, soundings, and fire layer JSON.
 
 Render/Railway single-process gunicorn does not run gaia_daemon by default; without this,
 AO/Gulf and surface panels stay empty or frozen from whatever was committed in runs/.
+
+The fire dashboard (FIRMS count, double-threat hollows, KAVL wx) reads data/fire/*.json.
+Those files were only updated when someone ran scripts/fire/fire_ingest.py — so counts
+stayed frozen at repo snapshot. We periodically re-run ingest + fire_risk_layer here.
 
 Enable by default; set GAIA_LIVE_REFRESH=0 to disable.
 """
@@ -11,6 +15,7 @@ from __future__ import annotations
 
 import logging
 import os
+import subprocess
 import sys
 import threading
 import time
@@ -49,6 +54,26 @@ def _run_soundings() -> None:
     fetch_all_soundings()
 
 
+def _run_fire_pipeline() -> None:
+    """Refresh NASA FIRMS + SPC + NWS + overlay JSON under data/fire/."""
+    steps = (
+        ROOT / "scripts" / "fire" / "fire_ingest.py",
+        ROOT / "scripts" / "fire" / "fire_risk_layer.py",
+    )
+    for script in steps:
+        r = subprocess.run(
+            [sys.executable, str(script)],
+            cwd=str(ROOT),
+            capture_output=True,
+            text=True,
+            timeout=300,
+            env=os.environ.copy(),
+        )
+        if r.returncode != 0:
+            tail = (r.stderr or r.stdout or "").strip()[-600:]
+            raise RuntimeError(f"{script.name} exit {r.returncode}: {tail}")
+
+
 def start_live_data_refresh_thread() -> None:
     raw = os.environ.get("GAIA_LIVE_REFRESH", "1").strip().lower()
     if raw in ("0", "false", "no", "off"):
@@ -58,16 +83,18 @@ def start_live_data_refresh_thread() -> None:
     tess_sec = int(os.environ.get("GAIA_LIVE_TESS_INTERVAL_SEC", "900"))
     surface_sec = int(os.environ.get("GAIA_LIVE_SURFACE_INTERVAL_SEC", "600"))
     sound_sec = int(os.environ.get("GAIA_LIVE_SOUNDINGS_INTERVAL_SEC", "1800"))
+    fire_sec = int(os.environ.get("GAIA_LIVE_FIRE_INTERVAL_SEC", "3600"))
 
     def loop() -> None:
         if str(ROOT) not in sys.path:
             sys.path.insert(0, str(ROOT))
-        next_tess = next_surface = next_sound = time.monotonic()
+        next_tess = next_surface = next_sound = next_fire = time.monotonic()
         logger.info(
-            "GAIA live refresh thread started (TESS %ss, surface %ss, soundings %ss)",
+            "GAIA live refresh started (TESS %ss, surface %ss, soundings %ss, fire %ss)",
             tess_sec,
             surface_sec,
             sound_sec,
+            fire_sec,
         )
         while True:
             now = time.monotonic()
@@ -92,6 +119,13 @@ def start_live_data_refresh_thread() -> None:
                 except Exception as e:
                     logger.warning("soundings refresh failed: %s", e)
                 next_sound = now + sound_sec
+            if now >= next_fire:
+                try:
+                    _run_fire_pipeline()
+                    logger.info("Refreshed data/fire (FIRMS + fire_risk_overlay)")
+                except Exception as e:
+                    logger.warning("fire pipeline failed: %s", e)
+                next_fire = now + fire_sec
             time.sleep(30)
 
     t = threading.Thread(target=loop, name="gaia-live-data", daemon=True)

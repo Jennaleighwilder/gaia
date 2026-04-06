@@ -66,7 +66,7 @@ def _run_fire_pipeline() -> None:
             cwd=str(ROOT),
             capture_output=True,
             text=True,
-            timeout=300,
+            timeout=int(os.environ.get("GAIA_FIRE_PIPELINE_TIMEOUT_SEC", "480")),
             env=os.environ.copy(),
         )
         if r.returncode != 0:
@@ -83,19 +83,27 @@ def start_live_data_refresh_thread() -> None:
     tess_sec = int(os.environ.get("GAIA_LIVE_TESS_INTERVAL_SEC", "900"))
     surface_sec = int(os.environ.get("GAIA_LIVE_SURFACE_INTERVAL_SEC", "600"))
     sound_sec = int(os.environ.get("GAIA_LIVE_SOUNDINGS_INTERVAL_SEC", "1800"))
-    fire_sec = int(os.environ.get("GAIA_LIVE_FIRE_INTERVAL_SEC", "3600"))
+    fire_sec = int(os.environ.get("GAIA_LIVE_FIRE_INTERVAL_SEC", "900"))
 
     def loop() -> None:
         if str(ROOT) not in sys.path:
             sys.path.insert(0, str(ROOT))
-        next_tess = next_surface = next_sound = next_fire = time.monotonic()
+        boot = time.monotonic()
+        next_tess = next_surface = next_sound = boot
+        next_fire = boot + fire_sec
         logger.info(
-            "GAIA live refresh started (TESS %ss, surface %ss, soundings %ss, fire %ss)",
+            "GAIA live refresh started (TESS %ss, surface %ss, soundings %ss, fire %ss); FIRMS_MAP_KEY=%s",
             tess_sec,
             surface_sec,
             sound_sec,
             fire_sec,
+            "set" if os.environ.get("FIRMS_MAP_KEY", "").strip() else "MISSING",
         )
+        try:
+            _run_fire_pipeline()
+            logger.info("Refreshed data/fire (FIRMS + fire_risk_overlay) [boot]")
+        except Exception as e:
+            logger.warning("fire pipeline failed (boot): %s", e)
         while True:
             now = time.monotonic()
             if now >= next_tess:

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ferry County — Live Road Search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=DM+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --paper: #f6f0e6;
+      --ink: #1f1a14;
+      --muted: #5c5348;
+      --wine: #6b2d32;
+      --moss: #2f3d2f;
+      --accent: #c17f59;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "DM Sans", system-ui, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(160deg, var(--paper), #e8dfd0);
+      line-height: 1.6;
+      min-height: 100vh;
+      padding: 1.5rem;
+    }
+    .sheet {
+      max-width: 40rem;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.75);
+      border: 2px solid var(--wine);
+      outline: 1px solid var(--accent);
+      outline-offset: 3px;
+      padding: 2rem 1.75rem 2.5rem;
+      box-shadow: 0 8px 32px rgba(47, 61, 47, 0.12);
+    }
+    h1 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 700;
+      color: var(--wine);
+      font-size: 1.85rem;
+      margin: 0 0 0.5rem;
+      letter-spacing: 0.02em;
+    }
+    .lede {
+      font-size: 1.05rem;
+      color: var(--muted);
+      margin: 0 0 1.25rem;
+    }
+    h2 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 1.25rem;
+      color: var(--moss);
+      margin: 1.5rem 0 0.5rem;
+      border-bottom: 1px solid #c4b89f;
+      padding-bottom: 0.25rem;
+    }
+    ul { margin: 0.5rem 0 1rem 1.2rem; padding: 0; }
+    li { margin-bottom: 0.35rem; }
+    .note {
+      font-size: 0.9rem;
+      background: rgba(107, 45, 50, 0.08);
+      border-left: 4px solid var(--wine);
+      padding: 0.75rem 1rem;
+      margin: 1rem 0;
+    }
+    code {
+      font-family: ui-monospace, monospace;
+      font-size: 0.88em;
+      background: rgba(47, 61, 47, 0.1);
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+    }
+    .try label { display: block; font-size: 0.85rem; color: var(--muted); margin-top: 0.75rem; }
+    .try input[type="text"], .try input[type="url"] {
+      width: 100%;
+      padding: 0.45rem 0.5rem;
+      margin-top: 0.2rem;
+      border: 1px solid #a69b88;
+      border-radius: 4px;
+      font-size: 0.95rem;
+    }
+    button {
+      margin-top: 0.75rem;
+      padding: 0.5rem 1rem;
+      font-family: inherit;
+      font-weight: 600;
+      background: var(--moss);
+      color: #f5f2eb;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover { filter: brightness(1.08); }
+    pre.out {
+      margin-top: 0.75rem;
+      padding: 0.75rem;
+      background: #1a1f1a;
+      color: #d4e0d4;
+      border-radius: 4px;
+      overflow-x: auto;
+      font-size: 0.8rem;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <article class="sheet">
+    <h1>Live road search — Field System</h1>
+    <p class="lede">
+      Type a road name in the <strong>Field app</strong> search bar. The system queries the live database (not a static KMZ file), returns up to ten matches, and when you pick one the map <strong>flies</strong> there and <strong>highlights</strong> the corridor in yellow so you see exactly where it is—no more hunting.
+    </p>
+
+    <h2>What you get</h2>
+    <ul>
+      <li><strong>Partial name match</strong> (case-insensitive) across the county inventory.</li>
+      <li><strong>Grant roads</strong> are labeled when CEMP mileage applies.</li>
+      <li><strong>API:</strong> <code>GET /roads/search?q=…</code> — same data the map uses.</li>
+      <li><strong>Offline:</strong> search needs network; queued work still behaves as before.</li>
+    </ul>
+
+    <div class="note">
+      <strong>For EOC / closures:</strong> the emergency panel still uses <code>GET /emergency/roads-search</code> when picking a road for a closure—same idea, trusted context.
+    </div>
+
+    <h2>Optional — try the API (same Wi‑Fi as the server)</h2>
+    <p style="font-size:0.9rem;color:var(--muted);margin:0 0 0.5rem;">
+      Browsers block <code>file://</code> pages from calling remote APIs (CORS). Serve this HTML from your site or open it after VPN. Paste your API base (e.g. <code>https://your-county.gov/api</code>).
+    </p>
+    <div class="try">
+      <label>API base (no trailing slash)
+        <input type="url" id="base" placeholder="https://example.gov/api" />
+      </label>
+      <label>Road name fragment
+        <input type="text" id="q" placeholder="e.g. Main" autocomplete="off" />
+      </label>
+      <button type="button" id="go">Fetch <code>/roads/search</code></button>
+      <pre class="out" id="out" hidden></pre>
+    </div>
+
+    <footer>
+      Ferry County CWDG · Road search ships with the Field app · <span id="y"></span>
+    </footer>
+  </article>
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+    document.getElementById("go").addEventListener("click", async function () {
+      var base = (document.getElementById("base").value || "").replace(/\/$/, "");
+      var q = document.getElementById("q").value.trim();
+      var out = document.getElementById("out");
+      if (!base) {
+        out.hidden = false;
+        out.textContent = "Set API base first.";
+        return;
+      }
+      if (!q) {
+        out.hidden = false;
+        out.textContent = "Enter a search fragment.";
+        return;
+      }
+      out.hidden = false;
+      out.textContent = "Loading…";
+      try {
+        var url = base + "/roads/search?q=" + encodeURIComponent(q);
+        var res = await fetch(url);
+        var text = await res.text();
+        out.textContent = res.status + " " + res.statusText + "\n\n" + text;
+      } catch (e) {
+        out.textContent = String(e);
+      }
+    });
+  </script>
+</body>
+</html>

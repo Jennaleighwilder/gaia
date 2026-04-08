@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ferry County Field System — Operator &amp; Steward Manual</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --paper: #f6f0e3;
+      --paper-deep: #ebe3d4;
+      --ink: #1f1a14;
+      --ink-soft: #4a4338;
+      --wine: #722f37;
+      --wine-dark: #4a1f26;
+      --moss: #2f3d2f;
+      --gold-dim: #8a7355;
+      --rule: #c4b89f;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      font-size: 18px;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: "DM Sans", system-ui, Segoe UI, Roboto, sans-serif;
+      font-weight: 400;
+      color: var(--ink);
+      background: linear-gradient(165deg, var(--paper) 0%, #efe6d8 40%, var(--paper-deep) 100%);
+      line-height: 1.65;
+    }
+
+    .manual {
+      max-width: 44rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.75rem 4rem;
+    }
+
+    /* Southern Gothic ornamental frame */
+    .frame {
+      border: 2px solid var(--wine-dark);
+      outline: 1px solid var(--gold-dim);
+      outline-offset: 4px;
+      padding: 2rem 1.5rem;
+      background: rgba(255, 255, 255, 0.45);
+      box-shadow: 0 4px 24px rgba(47, 61, 47, 0.08);
+    }
+
+    .cover {
+      text-align: center;
+      padding: 3rem 1rem 3.5rem;
+      page-break-after: always;
+    }
+
+    .cover-ornament {
+      font-size: 1.75rem;
+      color: var(--wine);
+      letter-spacing: 0.35em;
+      margin-bottom: 1.25rem;
+      opacity: 0.85;
+    }
+
+    h1 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 700;
+      font-size: 2.35rem;
+      line-height: 1.15;
+      color: var(--wine-dark);
+      margin: 0 0 0.5rem;
+      letter-spacing: 0.02em;
+    }
+
+    .subtitle {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-style: italic;
+      font-size: 1.25rem;
+      color: var(--ink-soft);
+      margin: 0 0 2rem;
+    }
+
+    .tagline {
+      font-size: 0.92rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--moss);
+      margin-top: 2rem;
+    }
+
+    h2 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 600;
+      font-size: 1.75rem;
+      color: var(--wine-dark);
+      margin: 2.5rem 0 1rem;
+      padding-bottom: 0.35rem;
+      border-bottom: 2px solid var(--rule);
+      page-break-after: avoid;
+    }
+
+    h3 {
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-weight: 600;
+      font-size: 1.35rem;
+      color: var(--moss);
+      margin: 1.75rem 0 0.65rem;
+      page-break-after: avoid;
+    }
+
+    p { margin: 0 0 1rem; }
+
+    ul, ol {
+      margin: 0 0 1rem 1.25rem;
+      padding: 0;
+    }
+
+    li { margin-bottom: 0.4rem; }
+
+    .note {
+      border-left: 4px solid var(--wine);
+      padding: 0.75rem 1rem;
+      background: rgba(114, 47, 55, 0.06);
+      margin: 1.25rem 0;
+      font-size: 0.95rem;
+    }
+
+    .note strong { color: var(--wine-dark); }
+
+    code, .mono {
+      font-family: ui-monospace, "Cascadia Code", Consolas, monospace;
+      font-size: 0.88em;
+      background: rgba(47, 61, 47, 0.08);
+      padding: 0.1em 0.35em;
+      border-radius: 3px;
+    }
+
+    .toc {
+      page-break-after: always;
+    }
+
+    .toc ul {
+      list-style: none;
+      margin-left: 0;
+    }
+
+    .toc a {
+      color: var(--wine-dark);
+      text-decoration: none;
+      border-bottom: 1px dotted var(--gold-dim);
+    }
+
+    .toc a:hover {
+      color: var(--wine);
+    }
+
+    .hr-ornament {
+      text-align: center;
+      margin: 2rem 0;
+      color: var(--gold-dim);
+      letter-spacing: 0.5em;
+      font-size: 0.85rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.92rem;
+    }
+
+    th, td {
+      border: 1px solid var(--rule);
+      padding: 0.5rem 0.65rem;
+      text-align: left;
+    }
+
+    th {
+      background: rgba(47, 61, 47, 0.12);
+      font-weight: 600;
+      font-family: "Cormorant Garamond", Georgia, serif;
+    }
+
+    @media print {
+      html { font-size: 11pt; }
+      body { background: white; }
+      .frame { box-shadow: none; outline: none; }
+      h2 { page-break-before: always; }
+      h2:first-of-type { page-break-before: auto; }
+      .cover { padding-top: 2rem; }
+      a[href^="#"] { text-decoration: none; color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <div class="manual">
+    <header class="cover frame">
+      <div class="cover-ornament">❧ ◆ ❧</div>
+      <h1>Ferry County Field System</h1>
+      <p class="subtitle">Operator &amp; Steward Manual</p>
+      <p style="max-width: 28rem; margin: 0 auto; color: var(--ink-soft); font-size: 0.98rem;">
+        A plain-language guide to deployment, daily use, public safety surfaces, compliance,
+        and keeping faith with the land and the ledger—written for the people who carry the work.
+      </p>
+      <p class="tagline">County Wide Development Grant · Field · EOC · Public</p>
+    </header>
+
+    <div class="hr-ornament">⁂ ⁂ ⁂</div>
+
+    <nav class="toc frame" aria-label="Table of contents">
+      <h2 style="margin-top: 0; border: none">Contents</h2>
+      <ul>
+        <li><a href="#s1">1. Before you begin</a></li>
+        <li><a href="#s2">2. Who uses what</a></li>
+        <li><a href="#s3">3. The system in one breath</a></li>
+        <li><a href="#s4">4. Field work (treatments, tracks, waypoints)</a></li>
+        <li><a href="#s5">5. When the sky turns wrong — weather &amp; SENTINEL</a></li>
+        <li><a href="#s6">6. Public portal &amp; emergency posting</a></li>
+        <li><a href="#s7">7. Compliance, exports, and USDA evidence</a></li>
+        <li><a href="#s8">8. Offline, sync, and the honor of the queue</a></li>
+        <li><a href="#s9">9. Care and keeping (administrators)</a></li>
+        <li><a href="#s10">10. When something breaks</a></li>
+        <li><a href="#s11">Glossary</a></li>
+      </ul>
+    </nav>
+
+    <article class="frame">
+      <h2 id="s1">1. Before you begin</h2>
+      <p>
+        This manual belongs beside the deployment binder. It does not replace county emergency operations plans,
+        USDA award terms, or your IT security policy—it <em>threads them together</em> with the software you were given.
+      </p>
+      <div class="note">
+        <strong>Print this document to PDF</strong> (see <span class="mono">HOW_TO_PRINT_PDF.md</span> in the same folder)
+        for a bound copy. The styling is meant to be read slowly: headings are set in a traditional serif; instructions stay in clear sans-serif.
+      </div>
+
+      <h2 id="s2">2. Who uses what</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Primary tools</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Field lead / crew (e.g. “David”)</strong></td>
+            <td>Field PWA or desktop app: map, GPS, treatments, waypoints, attachments, offline queue.</td>
+          </tr>
+          <tr>
+            <td><strong>EOC / coordinator (e.g. “Steve”)</strong></td>
+            <td>Same application with <strong>Emergency</strong> panel: evacuation zones, road closures, incidents; public feed is read-only elsewhere.</td>
+          </tr>
+          <tr>
+            <td><strong>Residents</strong></td>
+            <td>Public map at <span class="mono">/public</span>—no login; phone-friendly.</td>
+          </tr>
+          <tr>
+            <td><strong>USDA / auditors</strong></td>
+            <td>Exports, match ratio, quarterly reports, spatial layers—unchanged from program requirements.</td>
+          </tr>
+          <tr>
+            <td><strong>IT / steward</strong></td>
+            <td>PostgreSQL, backups, TLS, CORS, installer updates—see <span class="mono">ADMINISTRATOR_GUIDE.md</span>.</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 id="s3">3. The system in one breath</h2>
+      <p>
+        Roads live in the database as geometry tied to a <strong>stable ID</strong> from the county KMZ—not from a road name alone (names repeat).
+        Treatments, tracks, and waypoints hang off those roads. The <strong>API</strong> is the truth; phones and laptops are witnesses.
+      </p>
+      <p>
+        The <strong>public portal</strong> shows evacuation polygons, closures, incidents, and weather—refreshed on a steady cadence—so a family on a porch road can see what the county posted without an account.
+      </p>
+      <p>
+        <strong>SENTINEL</strong> watches corridor risk using weather and fuels logic you configured in the product; it ranks roads so the worst ground shows first—it is a decision support aid, not a siren.
+      </p>
+
+      <h2 id="s4">4. Field work (treatments, tracks, waypoints)</h2>
+      <h3>4.1 Getting oriented</h3>
+      <p>
+        Pick your road from the selector when you can. The map colors grant corridors and treatment status so untreated grant mileage is visible at a glance.
+      </p>
+      <h3>4.2 Treatments</h3>
+      <p>
+        Log miles, type, contractor dollars, match documentation, and Davis-Bacon flags as your program requires.
+        The <strong>Actor</strong> field names the human on the audit trail—use a real county id, not “test.”
+      </p>
+      <h3>4.3 Tracks</h3>
+      <p>
+        Record a GPS line when you need to prove where the crew worked. Long tracks cost battery—start and stop deliberately.
+      </p>
+      <h3>4.4 Waypoints &amp; infrastructure</h3>
+      <p>
+        Drop pins for material sites, culverts, guardrails, bridges, and other inventory types your administrator enabled.
+        Condition, inspection dates, and replacement priority support county maintenance planning and CSV export on the API.
+      </p>
+      <h3>4.5 Attachments</h3>
+      <p>
+        Invoices, photos, and PDFs attach to treatments or waypoints. The server stores bytes on disk with a hash—keep filenames sensible; the database keeps the chain of custody.
+      </p>
+
+      <h2 id="s5">5. When the sky turns wrong — weather &amp; SENTINEL</h2>
+      <p>
+        The weather card pulls a <strong>cached</strong> bundle (GAIA first, NOAA fallback). Red Flag warnings raise the visual alarm in the UI.
+        SENTINEL combines that atmosphere signal with ground cues (fuels, drought signals where tokens allow, snowpack where configured) and returns ranked roads.
+      </p>
+      <div class="note">
+        <strong>Remember:</strong> SENTINEL informs prioritization. County evacuation orders and ICS structure remain authoritative.
+      </div>
+
+      <h2 id="s6">6. Public portal &amp; emergency posting</h2>
+      <p>
+        The resident-facing map lists evacuation levels (1–3 styling), road closures with detour geometry when provided, and incidents.
+        Updates made from the <strong>Emergency</strong> panel should appear to the public within the refresh window—still verify on a phone before you announce broadly.
+      </p>
+      <p>
+        Emergency routes require the <span class="mono">X-Actor</span> header (the application sets this from the Actor field). Do <strong>not</strong> expose emergency APIs to the open internet without network controls—see the Administrator Guide.
+      </p>
+
+      <h2 id="s7">7. Compliance, exports, and USDA evidence</h2>
+      <p>
+        The match ratio card compares documented match to federal spend using the same rules as the API.
+        Spatial exports and quarterly financial posts exist to feed semi-annual and annual reporting—coordinate dates with your award.
+      </p>
+      <p>
+        Nothing in this manual changes your grant covenants; the software holds the numbers you enter to the standard you configure.
+      </p>
+
+      <h2 id="s8">8. Offline, sync, and the honor of the queue</h2>
+      <p>
+        When service drops, work queues locally. Each operation carries an idempotent client id so the server never double-creates a treatment if a phone retries a flaky connection.
+        Flush when you are online; read errors literally—they usually name the fix (conflict, validation, expired session).
+      </p>
+
+      <h2 id="s9">9. Care and keeping (administrators)</h2>
+      <h3>9.1 First launch (desktop)</h3>
+      <p>
+        After PostgreSQL is installed and running, open the Ferry County Field System from the Start menu or desktop shortcut.
+        The first-run wizard asks for database host, port, database name, and credentials—use the values your IT team provisioned.
+        If the splash screen shows migration text, wait for success or use <strong>Retry</strong> after fixing connectivity.
+      </p>
+      <h3>9.2 Where things live on the network</h3>
+      <p>
+        Field staff typically use <span class="mono">https://&lt;your-server&gt;/…</span> with the SPA; the API is often at the same host under <span class="mono">/api</span>.
+        The public map is usually published at a path such as <span class="mono">…/public</span>—your IT sets the exact URL and TLS certificate.
+      </p>
+      <p>
+        Back up the database and the attachment directory together. Run migrations after backups. Rotate secrets on the schedule your security office sets.
+        For a full checklist, read <span class="mono">ADMINISTRATOR_GUIDE.md</span> and <span class="mono">DEPLOYMENT.md</span> in this folder.
+      </p>
+
+      <h2 id="s10">10. When something breaks</h2>
+      <p>
+        Start with <span class="mono">SUPPORT_AND_MAINTENANCE.md</span>: classify severity, confirm whether Postgres is running, and capture exact messages.
+        Escalate with version, OS, and logs—never paste live passwords into email.
+      </p>
+
+      <h2 id="s11">Glossary</h2>
+      <ul>
+        <li><strong>CEMP / grant miles</strong> — Program corridor mileage driving treatment eligibility styling.</li>
+        <li><strong>KMZ / KMZ import</strong> — Zipped KML road inventory; import establishes geometry and stable IDs.</li>
+        <li><strong>PostGIS</strong> — PostgreSQL extension for map geometry.</li>
+        <li><strong>Idempotent sync</strong> — Same client operation id → same server result, safe to retry.</li>
+        <li><strong>Public API</strong> — Unauthenticated read endpoints for community safety—protect the hosting layer.</li>
+      </ul>
+
+      <div class="hr-ornament">— finis —</div>
+      <p style="text-align: center; font-size: 0.88rem; color: var(--ink-soft); margin-top: 2rem;">
+        Ferry County Field System · Steward manual · For those who tend roads and records with equal care.
+      </p>
+    </article>
+  </div>
+</body>
+</html>

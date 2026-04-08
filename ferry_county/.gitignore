@@ -1,0 +1,9 @@
+data/ferry_attachments/
+node_modules/
+frontend/node_modules/
+electron/node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+.env

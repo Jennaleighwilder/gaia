@@ -1,3 +1,6 @@
+# JavaScript (any subtree — never commit dependencies)
+node_modules/
+
 # Python
 .venv/
 __pycache__/
@@ -70,3 +73,10 @@ WHITEBOARD_*.md
 *_BUILD_*.md
 runs/
 logs/
+
+# Ferry County Field PWA (Playwright)
+ferry_county/frontend/playwright-report/
+ferry_county/frontend/test-results/
+
+# Ferry County Electron — PyInstaller output (rebuild with npm run build:backend)
+ferry_county/electron/resources/

@@ -1,15 +1,4 @@
 {
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "dn": 5,
-        "valid": "202603281200",
-        "expire": "202603291200",
-        "idp_source": "firewx_day2_20260327_2000"
-      }
-    }
-  ]
+  "features": []
 }

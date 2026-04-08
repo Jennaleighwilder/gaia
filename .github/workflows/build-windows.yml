@@ -1,0 +1,49 @@
+# Ferry County Field System — Windows NSIS installer + PyInstaller backend bundle.
+# Produces ferry_backend.exe on Windows and packages it with Electron (matches Steve handoff).
+
+name: Build Windows installer
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  windows-installer:
+    runs-on: windows-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Ferry County backend dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r ferry_county/requirements.txt
+          pip install pyinstaller
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: ferry_county/electron/package-lock.json
+
+      - name: Install npm dependencies and build installer
+        working-directory: ferry_county/electron
+        run: |
+          npm install
+          npm run dist:win
+
+      - name: Upload NSIS executable(s)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ferry-county-field-system-win-setup
+          path: ferry_county/electron/dist/*.exe
+          if-no-files-found: error

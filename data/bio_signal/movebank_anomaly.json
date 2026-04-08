@@ -1,0 +1,12 @@
+{
+  "source": "Movebank direct-read API event query",
+  "bbox": [
+    -95.0,
+    30.0,
+    -80.0,
+    40.0
+  ],
+  "auth_blocked": true,
+  "studies_tested": [],
+  "outbreak_results": {}
+}

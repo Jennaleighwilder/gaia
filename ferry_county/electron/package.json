@@ -1,0 +1,72 @@
+{
+  "name": "ferry-county-field-system",
+  "version": "1.0.0",
+  "description": "Electron desktop shell for Ferry County CWDG Field + bundled FastAPI backend",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "pack": "electron-builder --dir",
+    "build:backend": "cd .. && pyinstaller backend.spec --distpath electron/resources --clean",
+    "dist:win": "npm run build:backend && electron-builder --win nsis"
+  },
+  "author": "Ferry County",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8",
+    "vitest": "^2.1.8"
+  },
+  "build": {
+    "appId": "gov.ferrycounty.cwdg.fieldsystem",
+    "productName": "Ferry County Field System",
+    "copyright": "Copyright Ferry County",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "splash.html",
+      "splash-preload.cjs",
+      "splash-renderer.js",
+      "setup/**",
+      "lib/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/ferry_backend",
+        "to": "ferry_backend",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "artifactName": "${productName}-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": true,
+      "allowToChangeInstallationDirectory": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Ferry County Field System",
+      "runAfterFinish": true
+    }
+  }
+}

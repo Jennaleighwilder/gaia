@@ -1,0 +1,23 @@
+{
+  "station_query": {
+    "url": "https://service.iris.edu/fdsnws/station/1/query?network=IM&station=IS10&format=text&level=station",
+    "status": 204,
+    "body_preview": ""
+  },
+  "broad_im_station_listing": {
+    "url": "https://service.iris.edu/fdsnws/station/1/query?network=IM&format=text&level=station",
+    "status": 200,
+    "contains_is10": false
+  },
+  "mda_page": {
+    "url": "https://ds.iris.edu/mda/IM/IS10/",
+    "status": 200,
+    "contains_is10": true,
+    "body_preview": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    \n      <title>\n        \n          NSF SAGE: \nMDA : IM : IS10\n\n        \n      </title>\n      \n  <meta name=\"keywords\" content=\"seismology, seismological data, earthquakes, iris dmc\" />\n  <!-- Forces IE to render in 'latest' compatible mode -->\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\" />\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\n  \n  <link rel=\"canonical\" href=\"https://ds.iris.edu/mda/IM/IS10/\" />\n  \n\n  \n\n\n\n\n\n\n      \n  \n  <link rel=\"stylesheet\" media=\"all\" type=\"text/css\" href=\"/static/css/iris.92a357dcc45c.css\" />\n\n  <link rel=\"stylesheet\" media=\"print\" type=\"text/css\" href=\"/static/css/print.31c3384e5e41.css\" />\n  \n  \n\n  \n    <link rel=\"shortcut icon\" href=\"/static/img/favicon.2ff62ea8f729.ico\" />\n  \n\n  <link href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css\" rel=\"stylesheet\">\n  <link rel=\"stylesheet\" href=\"/static/mda/css/mda.e9efd194c6fe.css"
+  },
+  "rolling_fork_availability": {
+    "url": "https://service.iris.edu/fdsnws/availability/1/query?network=IM&station=IS10&starttime=2023-03-22T00%3A00%3A00&endtime=2023-03-25T00%3A00%3A00&format=text",
+    "status": 404,
+    "body_preview": "Error 404: No Data Found\n\nRequest:\nhttps://service.iris.edu/fdsnws/availability/1/query?network=IM&station=IS10&starttime=2023-03-22T00%3A00%3A00&endtime=2023-03-25T00%3A00%3A00&format=text\n\nRequest Submitted:\n2026/03/27 18:31:07 UTC\n\nService version:\nService: fdsnws-availability  version: 1.4.4\n\n"
+  }
+}

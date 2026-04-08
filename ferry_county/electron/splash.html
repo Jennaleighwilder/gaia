@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'unsafe-inline'"
+    />
+    <title>Ferry County — Starting</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        background: linear-gradient(160deg, #0f1410 0%, #1a2e1f 100%);
+        color: #e8f0e8;
+        padding: 1rem;
+      }
+      h1 {
+        margin: 0 0 0.75rem;
+        font-size: 1.35rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+      p {
+        margin: 0;
+        font-size: 0.95rem;
+        color: #9fb39f;
+      }
+      .sub {
+        margin-top: 0.35rem;
+        font-size: 0.8rem;
+        color: #6b7d6b;
+      }
+      pre {
+        margin-top: 1rem;
+        width: min(440px, 92vw);
+        max-height: 160px;
+        overflow: auto;
+        padding: 0.6rem 0.75rem;
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid #2e4a33;
+        border-radius: 6px;
+        font-size: 0.72rem;
+        color: #c5d4c5;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+      .hidden {
+        display: none;
+      }
+      #migration-error {
+        margin-top: 1rem;
+        width: min(440px, 92vw);
+      }
+      #error-text {
+        max-height: 200px;
+        margin-top: 0;
+        color: #ffb4b4;
+      }
+      button#retry-btn {
+        margin-top: 0.75rem;
+        width: 100%;
+        padding: 0.55rem 0.75rem;
+        border: none;
+        border-radius: 6px;
+        background: #c94f08;
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      button#retry-btn:hover {
+        background: #e06020;
+      }
+      button#retry-btn.hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="phase-title">Starting system…</h1>
+    <p id="phase-sub" class="sub">Field System — loading services</p>
+    <pre id="migration-log" class="hidden" aria-live="polite"></pre>
+    <div id="migration-error" class="hidden">
+      <pre id="error-text"></pre>
+      <button type="button" id="retry-btn" class="hidden">Retry</button>
+    </div>
+    <script src="splash-renderer.js"></script>
+  </body>
+</html>

@@ -5,7 +5,7 @@
     -81.8,
     36.6
   ],
-  "fetched": "2026-03-27T23:22:30.908877+00:00",
+  "fetched": "2026-04-06T23:30:08.352546+00:00",
   "days": {
     "day1": {
       "url": "https://mapservices.weather.noaa.gov/vector/rest/services/fire_weather/SPC_firewx/MapServer/1/query",
@@ -16,16 +16,9 @@
     },
     "day2": {
       "url": "https://mapservices.weather.noaa.gov/vector/rest/services/fire_weather/SPC_firewx/MapServer/4/query",
-      "national_feature_count": 1,
-      "western_nc_features": [
-        {
-          "label": "ELEVATED",
-          "valid": "202603281200",
-          "expire": "202603291200",
-          "idp_source": "firewx_day2_20260327_2000"
-        }
-      ],
-      "western_nc_feature_count": 1,
+      "national_feature_count": 0,
+      "western_nc_features": [],
+      "western_nc_feature_count": 0,
       "error": null
     }
   }

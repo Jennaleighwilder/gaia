@@ -1,0 +1,32 @@
+{
+  "source": "Movebank direct-read API",
+  "docs_url": "https://www.movebank.org/cms/movebank-api",
+  "api_reference": "https://github.com/movebank/movebank-api-doc/blob/master/movebank-api.md",
+  "attempts": [
+    {
+      "attempt": "documented_public_download_access",
+      "url": "https://www.movebank.org/movebank/service/direct-read?entity_type=study&i_have_download_access=true",
+      "status": 401,
+      "body_preview": "<!doctype html><html lang=\"en\"><head><title>HTTP Status 401 \u2013 Unauthorized</title><style type=\"text/css\">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 401 \u2013 Unauthorized</h1><hr class=\"line\" /><p><b>Type</b> Status Report</p><p><b>Description</b> The requ"
+    },
+    {
+      "attempt": "documented_public_view_access",
+      "url": "https://www.movebank.org/movebank/service/direct-read?entity_type=study&i_can_see_data=true",
+      "status": 401,
+      "body_preview": "<!doctype html><html lang=\"en\"><head><title>HTTP Status 401 \u2013 Unauthorized</title><style type=\"text/css\">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 401 \u2013 Unauthorized</h1><hr class=\"line\" /><p><b>Type</b> Status Report</p><p><b>Description</b> The requ"
+    },
+    {
+      "attempt": "prompt_query_shape",
+      "url": "https://www.movebank.org/movebank/service/direct-read?entity_type=study&i_am_owner=false&there_are_data_which_i_may_see=true",
+      "status": 401,
+      "body_preview": "<!doctype html><html lang=\"en\"><head><title>HTTP Status 401 \u2013 Unauthorized</title><style type=\"text/css\">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 401 \u2013 Unauthorized</h1><hr class=\"line\" /><p><b>Type</b> Status Report</p><p><b>Description</b> The requ"
+    },
+    {
+      "attempt": "plain_study_listing",
+      "url": "https://www.movebank.org/movebank/service/direct-read?entity_type=study",
+      "status": 401,
+      "body_preview": "<!doctype html><html lang=\"en\"><head><title>HTTP Status 401 \u2013 Unauthorized</title><style type=\"text/css\">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 401 \u2013 Unauthorized</h1><hr class=\"line\" /><p><b>Type</b> Status Report</p><p><b>Description</b> The requ"
+    }
+  ],
+  "relevant_studies": []
+}

@@ -12,6 +12,8 @@ Use this list before you **mail a flash drive** or upload a **secure zip**. Chec
 - [ ] `MANUAL.html` (+ printed or PDF via `HOW_TO_PRINT_PDF.md`)
 - [ ] `HOW_TO_PRINT_PDF.md`
 - [ ] `PACKAGE_CHECKLIST.md` (this file)
+- [ ] `FERRY_COUNTY_GAUNTLET.md` (verification playbook)
+- [ ] `ROAD_SEARCH_CURSOR_PROMPT.md` (live road search spec)
 
 ## Software artifact (separate file)
 

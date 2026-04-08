@@ -34,9 +34,10 @@ function setRoadsData(map, geojson) {
 
 /**
  * Ferry County Field map: MapLibre base, roads from /roads/geojson, optional track overlay.
- * Children (GPSTracker, WaypointPins) use useMapLibre() after load.
+ * Children (GPSTracker, WaypointPins, RoadSearchPanel) use useMapLibre() after load.
+ * @param {number | null} [highlightRoadId] — yellow highlight for live search selection
  */
-export function MapView({ roadsGeojson, trackLineGeojson, children }) {
+export function MapView({ roadsGeojson, trackLineGeojson, highlightRoadId = null, children }) {
   const containerRef = useRef(null);
   const mapRef = useRef(null);
   const [mapInstance, setMapInstance] = useState(null);
@@ -63,6 +64,17 @@ export function MapView({ roadsGeojson, trackLineGeojson, children }) {
           "line-color": ROAD_LINE_COLOR,
           "line-width": 3,
           "line-opacity": 0.9,
+        },
+      });
+      map.addLayer({
+        id: "roads-highlight",
+        type: "line",
+        source: "roads",
+        filter: ["==", ["get", "road_id"], -999999],
+        paint: {
+          "line-color": "#f0c808",
+          "line-width": 6,
+          "line-opacity": 0,
         },
       });
       map.addSource("track-line", {
@@ -108,6 +120,17 @@ export function MapView({ roadsGeojson, trackLineGeojson, children }) {
     if (map.loaded()) apply();
     else map.once("load", apply);
   }, [trackLineGeojson]);
+
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !map.getLayer("roads-highlight")) return;
+    if (highlightRoadId == null) {
+      map.setPaintProperty("roads-highlight", "line-opacity", 0);
+    } else {
+      map.setFilter("roads-highlight", ["==", ["get", "road_id"], highlightRoadId]);
+      map.setPaintProperty("roads-highlight", "line-opacity", 0.95);
+    }
+  }, [highlightRoadId, mapInstance]);
 
   const mapLoaded = !!mapInstance;
 

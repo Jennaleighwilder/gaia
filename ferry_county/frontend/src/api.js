@@ -38,6 +38,11 @@ export function fetchRoadsGeoJson() {
   return apiFetch("/roads/geojson");
 }
 
+/** Live ILIKE search (max 10); requires network */
+export function searchRoads(q) {
+  return apiFetch(`/roads/search?q=${encodeURIComponent(q)}`);
+}
+
 export function fetchComplianceMatchRatio() {
   return apiFetch("/compliance/match-ratio");
 }

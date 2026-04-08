@@ -18,6 +18,15 @@ This folder is a **self-contained delivery bundle** intended for USB flash drive
 | **MANUAL.html** | Full operator & administrator manual (open in a browser; print to PDF — see **HOW_TO_PRINT_PDF.md**) |
 | **HOW_TO_PRINT_PDF.md** | Create a polished PDF from the HTML manual |
 | **PACKAGE_CHECKLIST.md** | What to place on the USB beside this folder before mailing |
+| **FERRY_COUNTY_GAUNTLET.md** | Red-team / full-stack verification (12 sections, curl + DB + package integrity) |
+| **ROAD_SEARCH_CURSOR_PROMPT.md** | Spec for live road search (also implemented in app — see `GET /roads/search`) |
+
+---
+
+## Integrity check (repo health)
+
+- **`ferry_county/README.md`** must begin with the developer title **Ferry County — CWDG field & compliance** — not “Complete Handoff Package.” If a handoff README overwrote it, restore from git history.
+- This **`Ferry_County_Complete_Package/`** folder is the canonical **documentation** bundle; application code stays under **`ferry_county/`**.
 
 ---
 
@@ -28,7 +37,9 @@ This folder is a **self-contained delivery bundle** intended for USB flash drive
 3. **MANUAL.html** — Day-to-day use for field, EOC, and public-facing features.  
 4. **ADMINISTRATOR_GUIDE.md** — Ongoing configuration and data protection.  
 5. **SUPPORT_AND_MAINTENANCE.md** — When something breaks or a new machine is added.  
-6. **PACKAGE_CHECKLIST.md** — Before you seal the envelope or ship the drive.
+6. **PACKAGE_CHECKLIST.md** — Before you seal the envelope or ship the drive.  
+7. **FERRY_COUNTY_GAUNTLET.md** — Before go-live or after major releases (run against staging).  
+8. **ROAD_SEARCH_CURSOR_PROMPT.md** — Reference for the live “find road on map” feature.
 
 ---
 

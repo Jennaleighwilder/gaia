@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { MapView } from "./components/Map/MapView.jsx";
+import { RoadSearchPanel } from "./components/Map/RoadSearchPanel.jsx";
 import { GPSTracker } from "./components/Map/GPSTracker.jsx";
 import { WaypointPins } from "./components/Map/WaypointPins.jsx";
 import { TrackRecorder } from "./components/Map/TrackRecorder.jsx";
@@ -37,6 +38,7 @@ export default function App() {
   const [lastTreatmentId, setLastTreatmentId] = useState(null);
   const [lastWaypointId, setLastWaypointId] = useState(null);
   const [sentinelRisks, setSentinelRisks] = useState([]);
+  const [highlightRoadId, setHighlightRoadId] = useState(null);
 
   const { pending, lastError, flushing, flush, queueSync } = useOfflineSync(actor);
 
@@ -192,7 +194,18 @@ export default function App() {
       </div>
       <div className="app-body">
         <div className="map-pane">
-          <MapView roadsGeojson={roadsGeojsonForMap} trackLineGeojson={recordingLine}>
+          <MapView
+            roadsGeojson={roadsGeojsonForMap}
+            trackLineGeojson={recordingLine}
+            highlightRoadId={highlightRoadId}
+          >
+            <RoadSearchPanel
+              onPick={(road) => {
+                setRoadId(road.id);
+                setHighlightRoadId(road.id);
+              }}
+              onHighlightClear={() => setHighlightRoadId(null)}
+            />
             <WaypointPins
               waypoints={waypoints}
               dropMode={pinDropMode}

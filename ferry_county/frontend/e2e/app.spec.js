@@ -15,6 +15,13 @@ test.beforeEach(async ({ page }) => {
         body: JSON.stringify({ type: "FeatureCollection", features: [] }),
       });
     }
+    if (url.includes("/roads/search")) {
+      return route.fulfill({
+        status: 200,
+        contentType: "application/json",
+        body: JSON.stringify({ items: [] }),
+      });
+    }
     if (url.includes("/roads")) {
       return route.fulfill({
         status: 200,

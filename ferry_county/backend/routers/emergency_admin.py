@@ -189,7 +189,9 @@ def resolve_incident(incident_id: int, db: Session = Depends(get_db)) -> dict:
 
 
 @router.get("/roads-search")
-def roads_search(q: str, db: Session = Depends(get_db), limit: int = 20) -> dict:
+def roads_search(q: str, db: Session = Depends(get_db), limit: int = 10) -> dict:
+    if not q or not q.strip():
+        raise HTTPException(status_code=400, detail="q required")
     qq = f"%{q.strip()}%"
     rows = db.execute(
         select(Road)

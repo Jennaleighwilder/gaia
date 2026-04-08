@@ -8,6 +8,9 @@ on:
     branches:
       - main
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   windows-installer:
     runs-on: windows-latest
@@ -28,17 +31,19 @@ jobs:
           pip install -r ferry_county/requirements.txt
           pip install pyinstaller
 
+      # Match FORCE_JAVASCRIPT_ACTIONS_TO_NODE24 and avoid Node 20 deprecation warnings on the runner.
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: npm
           cache-dependency-path: ferry_county/electron/package-lock.json
 
+      # package.json uses `npm exec electron-builder` so the CLI does not rely on global PATH.
       - name: Install npm dependencies and build installer
         working-directory: ferry_county/electron
         run: |
-          npm install
+          npm ci
           npm run dist:win
 
       - name: Upload NSIS executable(s)

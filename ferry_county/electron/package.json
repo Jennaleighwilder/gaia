@@ -8,9 +8,9 @@
     "start": "electron .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "pack": "electron-builder --dir",
+    "pack": "npm exec electron-builder -- --dir",
     "build:backend": "cd .. && pyinstaller backend.spec --distpath electron/resources --clean",
-    "dist:win": "npm run build:backend && electron-builder --win nsis"
+    "dist:win": "npm run build:backend && npm exec electron-builder -- --win nsis"
   },
   "author": "Ferry County",
   "license": "UNLICENSED",

@@ -1,5 +1,8 @@
 name: Ferry County CI
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 on:
   push:
     paths:
@@ -33,12 +36,14 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: npm
           cache-dependency-path: ferry_county/frontend/package-lock.json
       - run: npm ci
       - run: npm test
-      - run: npx playwright install --with-deps chromium
-      - run: npm run e2e
+      - name: Install Playwright Chromium + OS deps
+        run: npx playwright install --with-deps chromium
+      - name: End-to-end (Vite + Playwright)
+        run: npm run e2e
         env:
           CI: true
